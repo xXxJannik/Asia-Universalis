@@ -1,0 +1,26 @@
+#2091 - Tripura
+
+
+add_core = PRU 
+ owner = PRU 
+ controller = PRU 
+ culture = chin
+religion = hinduism
+capital = "Udaipur"
+hre = no
+base_tax = 1
+base_production = 1
+trade_goods = unknown
+base_manpower = 1
+native_size = 3
+native_ferocity = 1
+native_hostileness = 3
+
+
+
+discovered_by = indian
+discovered_by = nomad_group
+discovered_by = chinese
+
+1760.1.1 = { discovered_by = GBR }
+

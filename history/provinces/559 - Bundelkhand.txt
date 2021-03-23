@@ -1,0 +1,32 @@
+#559 - Bundelkhand
+
+
+add_core = PRU 
+ owner = PRU 
+ controller = PRU 
+ culture = vindhyan
+religion = hinduism
+hre = no
+base_tax = 1
+base_production = 1
+trade_goods = unknown
+base_manpower = 1
+native_size = 3
+native_ferocity = 1
+native_hostileness = 3
+discovered_by = indian
+discovered_by = muslim 
+discovered_by = ottoman
+discovered_by = nomad_group
+discovered_by = chinese
+
+1501.1.1 = {
+	owner = BND
+	controller = BND
+	capital = "Orchha"
+}
+1576.1.1 = { controller = MUG }
+1577.1.1 = { controller = BND }
+1690.1.1 = { discovered_by = ENG }
+1707.5.12 = { discovered_by = GBR }
+

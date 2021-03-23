@@ -1,0 +1,27 @@
+#592 - Ratchaburi
+
+
+add_core = PRU 
+ owner = PRU 
+ controller = PRU 
+ culture = central_thai
+religion = buddhism
+capital = "Ratchaburi"
+hre = no
+base_tax = 1
+base_production = 1
+trade_goods = unknown
+base_manpower = 1
+native_size = 3
+native_ferocity = 1
+native_hostileness = 3
+
+
+
+discovered_by = chinese
+discovered_by = indian
+discovered_by = muslim
+discovered_by = ottoman
+
+1535.1.1 = { discovered_by = POR }
+

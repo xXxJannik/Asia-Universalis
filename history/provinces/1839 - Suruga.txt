@@ -1,0 +1,29 @@
+#1839 - Suruga
+
+
+add_core = PRU 
+ owner = PRU 
+ controller = PRU 
+ culture = togoku
+religion = shinto
+capital = "Sunpu"
+hre = no
+base_tax = 1
+base_production = 1
+trade_goods = unknown
+base_manpower = 1
+native_size = 3
+native_ferocity = 1
+native_hostileness = 3
+discovered_by = chinese
+discovered_by = MCH
+discovered_by = KHA
+discovered_by = OIR
+discovered_by = QNG
+
+1501.1.1 = { add_core = TKG }
+1542.1.1 = { discovered_by = POR }
+1568.12.1 = { add_core = TKD owner = TKD controller = TKD remove_core = IMG }
+1582.4.3 = { add_core = TKG owner = TKG controller = TKG remove_core = TKD }
+1590.8.10 = { add_core = ODA owner = ODA controller = ODA remove_core = TKG }
+1600.9.13 = { owner = TKG controller = TKG add_core = TKG remove_core = ODA }

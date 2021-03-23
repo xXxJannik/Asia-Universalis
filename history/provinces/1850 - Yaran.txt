@@ -1,0 +1,38 @@
+#1850 - Yaran
+
+
+add_core = PRU 
+ owner = PRU 
+ controller = PRU 
+ culture = manchu
+religion = tengri_pagan_reformed
+capital = "Yaran"
+hre = no
+base_tax = 1
+base_production = 1
+trade_goods = unknown
+base_manpower = 1
+native_size = 3
+native_ferocity = 1
+native_hostileness = 3
+
+
+
+discovered_by = chinese
+discovered_by = nomad_group
+
+1542.1.1 = { discovered_by = POR }
+
+1616.1.1 = {
+	owner = MCH
+	controller = MCH
+	add_core = MCH
+	remove_core = MJZ
+} # The Later Jin Khanate
+1636.5.15 = {
+	owner = QNG
+	controller = QNG
+	add_core = QNG
+	remove_core = MCH
+} # The Qing Dynasty
+1739.1.1 = { discovered_by = RUS } # Martin Spanberg

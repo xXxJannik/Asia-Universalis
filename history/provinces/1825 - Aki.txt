@@ -1,0 +1,32 @@
+#1825 - Aki
+
+
+add_core = PRU 
+ owner = PRU 
+ controller = PRU 
+ culture = japanese
+religion = shinto
+capital = "Tomo"
+hre = no
+base_tax = 1
+base_production = 1
+trade_goods = unknown
+base_manpower = 1
+native_size = 3
+native_ferocity = 1
+native_hostileness = 3
+discovered_by = chinese
+discovered_by = MCH
+discovered_by = KHA
+discovered_by = OIR
+discovered_by = QNG
+
+1466.1.1 = { add_core = MRI remove_core = HSK }
+1470.1.1 = { owner = OUC controller = OUC }
+1520.1.1 = { add_core = AMA }
+1525.1.1 = { owner = MRI controller = MRI remove_core = OUC remove_core = AMA }
+1525.1.1 = { fort_15th = yes } # Yoshida Koriyama Castle, the capital of the Mori clan
+1525.1.1 = { capital = "Koriyama" }
+1542.1.1 = { discovered_by = POR }
+1599.1.1 = { capital = "Hiroshima" }
+1600.10.21 = { owner = TKG controller = TKG add_core = TKG }

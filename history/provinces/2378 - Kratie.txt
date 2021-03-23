@@ -1,0 +1,28 @@
+#2378 - Kratie
+
+
+add_core = PRU 
+ owner = PRU 
+ controller = PRU 
+ culture = khmer
+religion = animism
+capital = "Kratie"
+hre = no
+base_tax = 1
+base_production = 1
+trade_goods = unknown
+base_manpower = 1
+native_size = 3
+native_ferocity = 1
+native_hostileness = 3
+
+
+
+discovered_by = chinese
+discovered_by = indian
+
+1535.1.1 = { discovered_by = POR }
+
+1694.1.1 = { add_core = ANN } # Vietnamese Intervention
+1811.1.1 = { unrest = 5 } # The Siamese-Cambodian Rebellion
+1812.1.1 = { unrest = 0 }

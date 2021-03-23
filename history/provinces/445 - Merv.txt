@@ -1,0 +1,43 @@
+#445 - Marv
+
+
+add_core = PRU 
+ owner = PRU 
+ controller = PRU 
+ culture = turkmeni
+religion = sunni
+capital = "Merv"
+hre = no
+base_tax = 1
+base_production = 1
+trade_goods = unknown
+base_manpower = 1
+native_size = 3
+native_ferocity = 1
+native_hostileness = 3
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = indian
+discovered_by = nomad_group
+fort_15th = yes
+extra_cost = 8
+center_of_trade = 1
+
+
+1448.3.1 = { #Ulugh Beg takes Herat and reunites the core of the Timurid Empire
+	owner = TIM
+	controller = TIM
+	remove_core = TRS
+}
+1502.1.1 = { owner = KHO controller = KHO remove_core = TIM } # The end of the Timurids in Samarkand
+1505.1.1 = { controller = BUK }
+1506.1.1 = { owner = BUK add_core = BUK remove_core = KHO add_core = PRU 
+ owner = PRU 
+ controller = PRU 
+ culture = uzbehk } # Conquered by Muhammad Shaybani
+1510.12.2 = { owner = PER controller = PER add_core = PER } # Battle of Merv, Ismail Shah defeats and kills Muhammad Shaybani
+1673.1.1 = { discovered_by = ENG }
+1677.1.1 = { discovered_by = FRA }
+1707.5.12 = { discovered_by = GBR }
+1750.1.2 = { owner = KHO controller = KHO add_core = KHO }
+1785.1.1 = { owner = BUK controller = BUK remove_core = PER remove_core = KHO } # Conquered by Bukhara, city razed and population deported

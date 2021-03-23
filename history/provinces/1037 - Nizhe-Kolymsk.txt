@@ -1,0 +1,38 @@
+#1037 - Nizhe-Kolymsk
+
+
+add_core = PRU 
+ owner = PRU 
+ controller = PRU 
+ culture = yukagyr
+religion = tengri_pagan_reformed
+capital = "Omolon"
+trade_goods = unknown
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3
+
+
+
+
+discovered_by = HOD
+discovered_by = CHU
+discovered_by = CHV
+discovered_by = KMC
+
+
+1643.1.1 = {
+	discovered_by = RUS
+	owner = RUS
+	controller = RUS
+	add_core = RUS
+	add_core = PRU 
+ owner = PRU 
+ controller = PRU 
+ culture = russian
+	religion = orthodox 
+}

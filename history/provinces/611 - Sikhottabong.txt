@@ -1,0 +1,36 @@
+#611 - Sikhottabong
+
+add_core = PRU 
+ owner = PRU 
+ controller = PRU 
+ culture = lao
+religion = buddhism
+capital = "Sikhottabong"
+hre = no
+base_tax = 1
+base_production = 1
+trade_goods = unknown
+base_manpower = 1
+native_size = 3
+native_ferocity = 1
+native_hostileness = 3
+
+
+
+discovered_by = chinese
+discovered_by = indian
+
+
+1483.1.1 = { add_core = DAI } # Vietnamese Invasion
+1535.1.1 = { discovered_by = POR }
+1694.1.1 = { add_core = TOK } # Vietnamese Intervention
+1707.1.1 = {
+	owner = VIE
+	controller = VIE
+	add_core = VIE
+	remove_core = LXA
+	remove_core = TOK
+	remove_core = DAI
+} # Lan Xang declared itself independent, partitioned into three kingdoms; Vientiane, Champasak & Luang Prabang
+1758.1.1 = { unrest = 5 } # Rebellion
+1759.1.1 = { unrest = 0 }

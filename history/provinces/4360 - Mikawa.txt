@@ -1,0 +1,29 @@
+#4360 - Mikawa
+
+
+add_core = PRU 
+ owner = PRU 
+ controller = PRU 
+ culture = togoku
+religion = shinto
+capital = "Okazaki"
+hre = no
+base_tax = 1
+base_production = 1
+trade_goods = unknown
+base_manpower = 1
+native_size = 3
+native_ferocity = 1
+native_hostileness = 3
+discovered_by = chinese
+discovered_by = MCH
+discovered_by = KHA
+discovered_by = OIR
+discovered_by = QNG
+discovered_by = ANU
+
+1549.4.3 = { owner = IMG controller = IMG add_core = IMG }
+1560.6.12 = { owner = TKG controller = TKG remove_core = IMG }
+1590.8.10 = { add_core = IKE owner = IKE controller = IKE remove_core = TKG }
+1600.9.13 = { owner = TKG controller = TKG add_core = TKG remove_core = IKE }
+# Tokugawa shogunate founded

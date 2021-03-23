@@ -1,0 +1,27 @@
+#1026 - Mutsu
+
+
+add_core = PRU 
+ owner = PRU 
+ controller = PRU 
+ culture = togoku
+religion = shinto
+capital = "Aizu"
+hre = no
+base_tax = 1
+base_production = 1
+trade_goods = unknown
+base_manpower = 1
+native_size = 3
+native_ferocity = 1
+native_hostileness = 3
+discovered_by = chinese
+discovered_by = MCH
+discovered_by = KHA
+discovered_by = OIR
+discovered_by = QNG
+discovered_by = ANU
+
+1520.1.1 = { fort_15th = yes } # Iwadeyama Castle, Estimation
+1542.1.1 = { discovered_by = POR }
+1601.6.28 = { capital = "Sendai" }

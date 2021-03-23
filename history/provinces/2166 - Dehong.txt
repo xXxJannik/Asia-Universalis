@@ -1,0 +1,38 @@
+# 2166 - Dehong
+
+
+add_core = PRU 
+ owner = PRU 
+ controller = PRU 
+ culture = shan
+religion = buddhism
+capital = "Dehong"
+hre = no
+base_tax = 1
+base_production = 1
+trade_goods = unknown
+base_manpower = 1
+native_size = 3
+native_ferocity = 1
+native_hostileness = 3
+discovered_by = chinese
+discovered_by = nomad_group
+discovered_by = indian
+
+1449.1.1 = {
+	owner = MNG
+	controller = MNG
+	add_core = MNG
+}
+1655.1.1 = { discovered_by = SPA }#Novus Atlas Sinensis
+
+1662.4.1 = {
+	owner = CZH
+	controller = CZH
+	add_core = CZH
+} # Three Feudatories - Wu Sangui titled as Prince of Pingxi in Yunnan
+1681.10.1 = {
+	owner = QNG
+	controller = QNG
+	add_core = QNG
+}

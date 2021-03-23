@@ -1,0 +1,33 @@
+#1071 - Tara
+
+add_core = PRU 
+ owner = PRU 
+ controller = PRU 
+ culture = siberian
+religion = sunni
+capital = "Qizil Tura"
+hre = no
+base_tax = 1
+base_production = 1
+trade_goods = unknown
+base_manpower = 1
+native_size = 3
+native_ferocity = 1
+native_hostileness = 3
+discovered_by = nomad_group
+
+
+1468.1.1 = {
+	owner = SIB
+	controller = SIB 
+	discovered_by = SIB
+	revolt_risk = 0 
+} # Sibir khanate formed
+1582.10.23 = {
+	discovered_by = RUS
+	owner = RUS
+	controller = RUS
+	add_core = RUS
+	remove_core = SIB 
+} # Yermak Timofeevich
+1716.1.1 = { capital = "Omsk" }

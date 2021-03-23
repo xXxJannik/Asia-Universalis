@@ -1,0 +1,40 @@
+#627 - Blambangan
+
+
+add_core = PRU 
+ owner = PRU 
+ controller = PRU 
+ culture = javanese
+religion = hinduism
+capital = "Blambangan"
+hre = no
+base_tax = 1
+base_production = 1
+trade_goods = unknown
+base_manpower = 1
+native_size = 3
+native_ferocity = 1
+native_hostileness = 3
+
+
+
+discovered_by = chinese
+discovered_by = indian
+discovered_by = muslim
+discovered_by = ottoman
+
+1509.1.1 = { discovered_by = POR }
+
+1527.1.1 = {
+	owner = BLM
+	controller = BLM
+	add_core = BLM
+	remove_core = MAJ
+} # Blambangan Kingdom was established
+1768.1.1 = {
+	owner = NED
+	controller = NED
+	add_core = NED
+	remove_core = BLM
+	capital = "Banyuwangi"
+} # Dutch conquered Blambangan
