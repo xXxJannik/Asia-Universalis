@@ -1,7 +1,7 @@
 #414 - Hamadan
 
-owner = TIM
-controller = TIM
+#owner = TIM
+#controller = TIM
 culture = luri
 religion = shiite
 capital = "Hamedan"

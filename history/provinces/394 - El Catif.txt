@@ -1,7 +1,7 @@
 #394 - El Catif
 
-owner = ALH
-controller = ALH
+#owner = ALH
+#controller = ALH
 culture = gulf_arabic
 religion = shiite
 capital = "Al-Qatif"
