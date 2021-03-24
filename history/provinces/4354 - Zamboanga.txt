@@ -1,9 +1,6 @@
 #4354 - Zamboanga
 
-add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = filipino
+culture = filipino
 religion = animism
 capital = "Zamboanga"
 trade_goods = unknown

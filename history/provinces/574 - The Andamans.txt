@@ -1,9 +1,6 @@
 #574 - The Andamans (and Nicobars)
 
-add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = bengali
+culture = aboriginal
 religion = animism
 capital = "The Andamans"
 trade_goods = unknown

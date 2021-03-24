@@ -1,9 +1,6 @@
 #640 - Pontianak
 
-add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = bornean
+culture = bornean
 religion = sunni
 capital = "Pontianak"
 trade_goods = unknown

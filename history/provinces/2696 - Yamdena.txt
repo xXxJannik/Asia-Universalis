@@ -1,9 +1,6 @@
 #2696 - Yamdena
 
-add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = moluccan
+culture = moluccan
 religion = animism
 capital = "Yamdena"
 trade_goods = unknown

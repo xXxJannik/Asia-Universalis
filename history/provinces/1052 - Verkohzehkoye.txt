@@ -1,9 +1,6 @@
 #1052 - Verkohzehkoye
 
-add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = yakut
+culture = yakut
 religion = tengri_pagan_reformed
 capital = "Stanovoy"
 trade_goods = unknown
@@ -29,10 +26,7 @@ discovered_by = BRT
 	owner = RUS
 	controller = RUS
 	religion = orthodox
-	add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = russian
+	culture = russian
 	is_city = yes
 } # Pyotr Beketov
 1678.1.1 = { add_core = RUS }

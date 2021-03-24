@@ -1,20 +1,18 @@
 #536 - Madurai
 
-
-add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = tamil
+owner = MAD
+controller = MAD
+culture = tamil
 religion = hinduism
 capital = "Madurai"
+trade_goods = silk
 hre = no
-base_tax = 1
-base_production = 1
-trade_goods = unknown
-base_manpower = 1
-native_size = 3
-native_ferocity = 1
-native_hostileness = 3
+base_tax = 4
+base_production = 4
+base_manpower = 3
+add_brahmins_or_church_effect = yes
+is_city = yes
+add_core = MAD
 discovered_by = east_african
 discovered_by = indian
 discovered_by = muslim
@@ -25,7 +23,12 @@ add_local_autonomy = 25
 extra_cost = 8
 center_of_trade = 1
 
-
+1378.1.1 = {
+	owner = VIJ
+	controller = VIJ
+}
+1405.1.1 = { discovered_by = chinese }
+1428.1.1 = { add_core = VIJ  }
 1498.1.1 = { discovered_by = POR }
 1529.1.1 = {
 	controller = REB

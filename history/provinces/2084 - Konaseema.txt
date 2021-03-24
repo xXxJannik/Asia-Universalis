@@ -1,20 +1,17 @@
 #2084 - Konaseema
 
-
-add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = telegu
+owner = YOR
+controller = YOR
+culture = telegu
 religion = hinduism
 capital = "Rajahmundry"
+trade_goods = cloth
 hre = no
-base_tax = 1
-base_production = 1
-trade_goods = unknown
-base_manpower = 1
-native_size = 3
-native_ferocity = 1
-native_hostileness = 3
+base_tax = 3
+base_production = 5
+base_manpower = 3
+is_city = yes
+add_core = YOR
 
 
 

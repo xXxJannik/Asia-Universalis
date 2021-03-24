@@ -1,13 +1,12 @@
 #1041 - Gizhiga
 
-
-add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = kamchatkan
+owner = CHV
+controller = CHV
+add_core = CHV
+culture = kamchatkan
 religion = tengri_pagan_reformed
 capital = "Gizhiga"
-trade_goods = unknown
+trade_goods = fur
 hre = no
 base_tax = 1 
 base_production = 1
@@ -31,9 +30,6 @@ discovered_by = KMC
 	owner = RUS
 	controller = RUS
 	religion = orthodox
-	add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = russian
+	culture = russian
 } # Conquered by Russia
 1757.1.1 = { add_core = RUS }

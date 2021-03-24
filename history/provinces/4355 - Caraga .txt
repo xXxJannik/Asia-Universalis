@@ -1,9 +1,6 @@
 #4355 - Caraga
 
-add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = filipino
+culture = filipino
 religion = animism
 capital = "Caraga"
 trade_goods = unknown

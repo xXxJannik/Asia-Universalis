@@ -4,21 +4,19 @@ latent_trade_goods = {
 	coal #Isfara
 }
 
-
-add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = kirgiz
+owner = CHG
+controller = CHG
+culture = kirgiz
 religion = sunni
 capital = "Uzkend"
+trade_goods = wool
 hre = no
-base_tax = 1
-base_production = 1
-trade_goods = unknown
-base_manpower = 1
-native_size = 3
-native_ferocity = 1
-native_hostileness = 3
+base_tax = 4 
+base_production = 4
+base_manpower = 4
+add_core = KOK
+add_core = CHG
+is_city = yes
 discovered_by = muslim
 discovered_by = indian
 discovered_by = ottoman

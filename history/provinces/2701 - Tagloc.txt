@@ -1,9 +1,6 @@
 #2701 - Tagloc
 
-add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = filipino
+culture = filipino
 religion = animism
 capital = "Tagloc"
 trade_goods = unknown

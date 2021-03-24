@@ -1,9 +1,6 @@
 #644 - Manado
 
-add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = sulawesi
+culture = sulawesi
 religion = animism
 capital = "Manado"
 trade_goods = unknown

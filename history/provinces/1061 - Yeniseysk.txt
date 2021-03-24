@@ -1,9 +1,6 @@
 #1061 - Yeniseysk
 
-add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = tungus
+culture = tungus
 religion = tengri_pagan_reformed
 capital = "Novoselovo"
 trade_goods = unknown
@@ -19,10 +16,7 @@ native_hostileness = 3
 	discovered_by = RUS
 	owner = RUS
 	controller = RUS
-	add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = russian
+	culture = russian
 	religion = orthodox
 	is_city = yes
 }

@@ -1,9 +1,6 @@
 #2434 - Barnaul
 
-add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = kirgiz
+culture = kirgiz
 religion = tengri_pagan_reformed
 capital = "Barnaul"
 trade_goods = unknown
@@ -19,17 +16,20 @@ native_hostileness = 3
 
 discovered_by = nomad_group
 
+1444.1.1 = {
+	owner = OIR
+	controller = OIR
+	add_core = OIR
+	is_city = yes
+	trade_goods = livestock
+}
+
 
 1618.1.1 = {
 	discovered_by = RUS
 	owner = RUS
 	controller = RUS
 	religion = orthodox
-	add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = russian
-	is_city = yes
-	trade_goods = fish
+	culture = russian
 }
 1623.1.1 = { add_core = RUS }

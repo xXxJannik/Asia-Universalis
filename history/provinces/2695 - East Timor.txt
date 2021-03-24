@@ -1,9 +1,6 @@
 #2695 - East Timor
 
-add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = papuan
+culture = papuan
 religion = animism
 capital = "Timor"
 trade_goods = unknown
@@ -47,10 +44,7 @@ discovered_by = TID
 	owner = POR
 	controller = POR
 	add_core = POR
-	add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = portugese
+	culture = portugese
 	is_city = yes
 	trade_goods = spices
 }

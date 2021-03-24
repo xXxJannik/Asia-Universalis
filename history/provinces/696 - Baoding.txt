@@ -1,20 +1,18 @@
 #696 - Baoding
 
-
-add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = chihan
+owner = MNG
+controller = MNG
+add_core = MNG
+culture = chihan
 religion = confucianism
 capital = "Baoding"
+trade_goods = chinaware
 hre = no
-base_tax = 1
-base_production = 1
-trade_goods = unknown
-base_manpower = 1
-native_size = 3
-native_ferocity = 1
-native_hostileness = 3
+base_tax = 3 
+base_production = 3
+base_manpower = 2
+is_city = yes
+add_core = YAN
 
 
 

@@ -1,9 +1,6 @@
 #632 - Sumbawa
 
-add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = papuan
+culture = papuan
 religion = animism
 capital = "Sumbawa"
 trade_goods = unknown

@@ -1,9 +1,6 @@
 #1060 - Irkutsk
 
-add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = buryat
+culture = buryat
 religion = tengri_pagan_reformed
 capital = "Irkutsk"
 trade_goods = unknown
@@ -26,10 +23,7 @@ discovered_by = BRT
 	owner = RUS
 	controller = RUS
 	religion = orthodox
-	add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = russian
+	culture = russian
 	is_city = yes
 }
 1634.1.1 = { add_core = RUS }

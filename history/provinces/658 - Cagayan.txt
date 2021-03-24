@@ -1,9 +1,6 @@
 #658 - Cagayan
 
-add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = filipino
+culture = filipino
 religion = animism
 capital = "Cagayan"
 trade_goods = unknown
@@ -22,10 +19,7 @@ discovered_by = chinese
 	owner = SPA
 	controller = SPA
 	add_core = SPA
-	add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = castillian
+	culture = castillian
 	religion = catholic
 	capital = "Nueva Segovia"
 	is_city = yes

@@ -1,20 +1,17 @@
 # 2164 - Namning
 
-
-add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = zhuang
+owner = MNG
+controller = MNG
+add_core = MNG
+culture = zhuang
 religion = confucianism
 capital = "Namning"
+trade_goods = grain
 hre = no
-base_tax = 1
+base_tax = 1 
 base_production = 1
-trade_goods = unknown
-base_manpower = 1
-native_size = 3
-native_ferocity = 1
-native_hostileness = 3
+base_manpower = 2
+is_city = yes
 
 
 

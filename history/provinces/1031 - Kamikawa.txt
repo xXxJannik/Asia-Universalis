@@ -1,19 +1,17 @@
 #1031 - Kamikawa
 
-add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = ainu
+culture = ainu
 religion = animism
 capital = "Kamikawa"
+trade_goods = fish
 hre = no
-base_tax = 1
+base_tax = 1 
 base_production = 1
-trade_goods = unknown
 base_manpower = 1
-native_size = 3
-native_ferocity = 1
-native_hostileness = 3
+owner = ANU
+controller = ANU
+add_core = ANU
+is_city = yes
 
 
 
@@ -64,10 +62,7 @@ discovered_by = ASK
 1679.1.1 = {	
 	owner = TKG
 	controller = TKG
-	add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = togoku
+	culture = togoku
 	religion = shinto
 	trade_goods = fish
 } # Russian & Japanese attemps at colonization

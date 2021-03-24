@@ -1,20 +1,17 @@
 #589 - Chiang Mai
 
-
-add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = northern_thai
+owner = LNA
+controller = LNA
+culture = northern_thai
 religion = buddhism
 capital = "Chiang Mai"
+trade_goods = ivory 
 hre = no
-base_tax = 1
-base_production = 1
-trade_goods = unknown
-base_manpower = 1
-native_size = 3
-native_ferocity = 1
-native_hostileness = 3
+base_tax = 5
+base_production = 5
+base_manpower = 3
+is_city = yes
+add_core = LNA
 
 
 
@@ -22,7 +19,7 @@ discovered_by = chinese
 discovered_by = indian
 
 
-
+fort_15th = yes
 1535.1.1 = { discovered_by = POR }
 1558.4.2 = { add_core = TAU } # Burmese vassal
 1727.1.1 = { unrest = 6 } # Rebellion

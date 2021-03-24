@@ -1,19 +1,18 @@
 #607 - Vijaya
 
-add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = cham
+owner = CHA
+controller = CHA
+culture = cham
 religion = hinduism
 capital = "Vijaya"
+trade_goods = tropical_wood
 hre = no
-base_tax = 1
-base_production = 1
-trade_goods = unknown
-base_manpower = 1
-native_size = 3
-native_ferocity = 1
-native_hostileness = 3
+base_tax = 5
+base_production = 5
+base_manpower = 2
+fort_15th = yes
+is_city = yes
+add_core = CHA
 discovered_by = chinese
 discovered_by = indian
 discovered_by = muslim
@@ -41,10 +40,7 @@ center_of_trade = 1
 }
 1600.1.1 = {
 	religion = buddhism
-	add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = vietnamese
+	culture = vietnamese
 } # Vietnamese Assimilation
 1692.1.1 = { unrest = 6 } # Rebellion against Vietnamese rule
 1693.1.1 = { unrest = 0 }

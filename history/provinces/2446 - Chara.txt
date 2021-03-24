@@ -1,32 +1,24 @@
 #2446 - Chara
 
-
-add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = buryat
+culture = buryat
 religion = tengri_pagan_reformed
 capital = "Chara"
-hre = no
-base_tax = 1
-base_production = 1
 trade_goods = unknown
-base_manpower = 1
-native_size = 3
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 3
+native_size = 10
 native_ferocity = 1
 native_hostileness = 3
-discovered_by = nomad_group
-discovered_by = BRT
 
+discovered_by = nomad_group
 
 1635.1.1 = {
 	discovered_by = RUS
 	owner = RUS
 	controller = RUS
 	religion = orthodox
-	add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = russian
+	culture = russian
 }
 1637.1.1 = { add_core = RUS }

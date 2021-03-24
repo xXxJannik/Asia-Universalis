@@ -1,20 +1,17 @@
 #638 - Kutai
 
-
-add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = bornean
+owner = KUT
+controller = KUT
+culture = bornean
 religion = hinduism
 capital = "Kutai"
+trade_goods = fish
 hre = no
-base_tax = 1
-base_production = 1
-trade_goods = unknown
-base_manpower = 1
-native_size = 3
-native_ferocity = 1
-native_hostileness = 3
+base_tax = 5
+base_production = 5
+base_manpower = 3
+is_city = yes
+add_core = KUT
 
 
 

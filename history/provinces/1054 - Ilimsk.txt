@@ -1,9 +1,6 @@
 #1054 - Ilimsk
 
-add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = tungus
+culture = tungus
 religion = tengri_pagan_reformed
 capital = "Mukhtuya"
 trade_goods = unknown
@@ -24,10 +21,7 @@ discovered_by = BRT
 1632.1.1 = {
 	discovered_by = RUS owner = RUS
 	controller = RUS
-	add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = russian
+	culture = russian
 	religion = orthodox
 	is_city = yes
 	trade_goods = fur

@@ -1,20 +1,17 @@
 #1021 - Settsu
 
-
-add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = japanese
+owner = HSK
+controller = HSK
+culture = japanese
 religion = shinto
 capital = "Naniwa"
+trade_goods = chinaware
 hre = no
-base_tax = 1
-base_production = 1
-trade_goods = unknown
-base_manpower = 1
-native_size = 3
-native_ferocity = 1
-native_hostileness = 3
+base_tax = 6
+base_manpower = 3
+base_production = 6
+is_city = yes
+add_core = HSK
 discovered_by = chinese
 discovered_by = MCH
 discovered_by = KHA

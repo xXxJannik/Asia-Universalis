@@ -1,9 +1,6 @@
 #1064 - Tomsk
 
-add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = ostyaki
+culture = ostyaki
 religion = tengri_pagan_reformed
 capital = "Tomsk"
 trade_goods = unknown
@@ -25,10 +22,7 @@ discovered_by = nomad_group
 	owner = RUS
 	controller = RUS
 	religion = orthodox
-	add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = russian
+	culture = russian
 	is_city = yes
 	trade_goods = fur
 }

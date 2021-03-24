@@ -1,9 +1,6 @@
 #2707 - Barito
 
-add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = bornean
+culture = bornean
 religion = hinduism
 capital = "Barito"
 trade_goods = unknown

@@ -1,9 +1,6 @@
 #4353 - Leyte
 
-add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = filipino
+culture = filipino
 religion = animism
 capital = "Leyte"
 trade_goods = unknown
@@ -20,10 +17,7 @@ discovered_by = chinese
 1521.1.1 = { discovered_by = SPA } # Ferdinand Magellan 
 1595.1.1 = {	
 	capital = "Carigara"
-	add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = castillian
+	culture = castillian
 	owner = SPA
 	controller = SPA
 	add_core = SPA

@@ -1,9 +1,6 @@
 #738 - Taiwan
 
-add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = polynesian
+culture = polynesian
 religion = animism
 capital = "Sakam"
 trade_goods = unknown

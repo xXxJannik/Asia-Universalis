@@ -1,20 +1,17 @@
 #511 - Garhwal
 
-
-add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = pahari
+owner = GHR
+controller = GHR
+culture = pahari
 religion = hinduism
 capital = "Devalgarh"
+trade_goods = cotton
 hre = no
-base_tax = 1
+base_tax = 1 
 base_production = 1
-trade_goods = unknown
 base_manpower = 1
-native_size = 3
-native_ferocity = 1
-native_hostileness = 3
+is_city = yes
+add_core = GHR
 discovered_by = indian
 discovered_by = muslim
 discovered_by = ottoman

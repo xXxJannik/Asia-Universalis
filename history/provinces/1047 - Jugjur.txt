@@ -1,9 +1,6 @@
 #1047 - Jugjur
 
-add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = yakut
+culture = yakut
 religion = tengri_pagan_reformed
 capital = "Jugjur"
 trade_goods = unknown
@@ -30,10 +27,7 @@ discovered_by = nomad_group
 	controller = RUS
 	is_city = yes
 	religion = orthodox
-	add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = russian
+	culture = russian
 	trade_goods = naval_supplies
 }
 1668.1.1 = { add_core = RUS }

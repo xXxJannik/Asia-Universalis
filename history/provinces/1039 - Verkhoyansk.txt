@@ -4,10 +4,7 @@ latent_trade_goods = {
 	coal
 }
 
-add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = yukagyr
+culture = yukagyr
 religion = tengri_pagan_reformed
 capital = "Verkhoyansk"
 trade_goods = unknown
@@ -24,10 +21,7 @@ native_hostileness = 3
 	owner = RUS
 	controller = RUS
 	religion = orthodox
-	add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = russian
+	culture = russian
 	is_city = yes
 } # V. Atlasov
 1672.1.1 = { add_core = RUS }

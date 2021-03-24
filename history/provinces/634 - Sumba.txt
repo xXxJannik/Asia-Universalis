@@ -1,9 +1,6 @@
 #634 - Sumba
 
-add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = papuan
+culture = papuan
 religion = animism
 capital = "Sumba"
 trade_goods = unknown

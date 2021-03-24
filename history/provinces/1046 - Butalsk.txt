@@ -1,9 +1,6 @@
 #1046 - Butalsk
 
-add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = yakut
+culture = yakut
 religion = tengri_pagan_reformed
 capital = "Ust-Maya"
 trade_goods = unknown
@@ -27,10 +24,7 @@ discovered_by = KMC
 	owner = RUS
 	controller = RUS
 	religion = orthodox
-	add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = russian
+	culture = russian
 	is_city = yes
 	trade_goods = fur
 } # Founded by Pyotr Beketov

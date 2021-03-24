@@ -1,12 +1,12 @@
 #1034 - Kamchatka
 
-add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = kamchatkan
+owner = KMC
+controller = KMC
+add_core = KMC
+culture = kamchatkan
 religion = tengri_pagan_reformed
 capital = "Kamchatka"
-trade_goods = unknown
+trade_goods = fish
 hre = no
 base_tax = 1 
 base_production = 1
@@ -14,7 +14,7 @@ base_manpower = 1
 native_size = 50
 native_ferocity = 2
 native_hostileness = 5
-
+is_city = yes
 
 
 
@@ -28,10 +28,7 @@ discovered_by = KMC
 1732.1.1 = {
 	owner = RUS
 	controller = RUS
-	add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = russian
+	culture = russian
 	religion = orthodox
 } # Conquered by Russia
 1740.1.1 = { capital = "Petropavlovsk" }

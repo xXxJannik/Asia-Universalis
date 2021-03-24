@@ -1,20 +1,19 @@
 # 2174 - Hengyang
 
-
-add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = xiang
+owner = MNG
+controller = MNG
+add_core = MNG
+add_core = CMI
+culture = xiang
 religion = animism
 capital = "Hengyang"
+trade_goods = gold
 hre = no
-base_tax = 1
-base_production = 1
-trade_goods = unknown
-base_manpower = 1
-native_size = 3
-native_ferocity = 1
-native_hostileness = 3
+base_tax = 3 
+base_production = 3
+base_manpower = 3
+is_city = yes
+add_core = CHC
 
 
 

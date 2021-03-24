@@ -1,20 +1,17 @@
 # 4202 - Taining
 
-
-add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = chahar
+owner = KRC
+controller = KRC
+add_core = KRC
+culture = chahar
 religion = vajrayana
 capital = "Baichungtze"
+trade_goods = livestock
 hre = no
-base_tax = 1
-base_production = 1
-trade_goods = unknown
+base_tax = 2
+base_production = 2
 base_manpower = 1
-native_size = 3
-native_ferocity = 1
-native_hostileness = 3
+is_city = yes
 discovered_by = chinese
 discovered_by = nomad_group
 

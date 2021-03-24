@@ -1,20 +1,18 @@
 #593 - Nakhon Si Thammarat
 
-
-add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = malayan
+owner = LIG
+controller = LIG
+culture = malayan
 religion = sunni
 capital = "Nakhon Si Thammarat"
+trade_goods = tropical_wood
 hre = no
-base_tax = 1
-base_production = 1
-trade_goods = unknown
-base_manpower = 1
-native_size = 3
-native_ferocity = 1
-native_hostileness = 3
+base_tax = 5
+base_production = 5
+base_manpower = 2
+is_city = yes
+add_core = LIG
+add_core = AYU
 
 
 

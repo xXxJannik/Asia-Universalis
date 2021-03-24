@@ -1,20 +1,18 @@
 #4332 - Siraf
 
-
-add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = persian
+owner = FRS
+controller = FRS
+culture = persian
 religion = shiite
 capital = "Siraf"
+trade_goods = spices
 hre = no
 base_tax = 1
 base_production = 1
-trade_goods = unknown
 base_manpower = 1
-native_size = 3
-native_ferocity = 1
-native_hostileness = 3
+is_city = yes
+add_core = FRS
+add_core = TIM
 discovered_by = east_african
 discovered_by = muslim
 discovered_by = ottoman

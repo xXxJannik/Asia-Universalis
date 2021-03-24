@@ -1,20 +1,17 @@
 #4187 - Kii
 
-
-add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = japanese
+owner = HTK
+controller = HTK
+culture = japanese
 religion = shinto
 capital = "Wakayama"
+trade_goods = naval_supplies
 hre = no
-base_tax = 1
-base_production = 1
-trade_goods = unknown
-base_manpower = 1
-native_size = 3
-native_ferocity = 1
-native_hostileness = 3
+base_tax = 2
+base_manpower = 2
+base_production = 3
+is_city = yes
+add_core = HTK
 discovered_by = chinese
 discovered_by = MCH
 discovered_by = KHA

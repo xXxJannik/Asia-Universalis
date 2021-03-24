@@ -1,9 +1,6 @@
 #639 - Banjar
 
-add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = bornean
+culture = bornean
 religion = hinduism
 capital = "Banjar"
 trade_goods = unknown

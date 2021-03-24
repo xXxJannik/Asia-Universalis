@@ -1,9 +1,6 @@
 #1062 - Kachinsk
 
-add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = buryat
+culture = buryat
 religion = tengri_pagan_reformed
 capital = "Angara"
 trade_goods = unknown
@@ -24,10 +21,7 @@ native_hostileness = 3
 	owner = RUS
 	controller = RUS
 	religion = orthodox
-	add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = russian
+	culture = russian
 	is_city = yes
 	trade_goods = fur
 }

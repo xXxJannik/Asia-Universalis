@@ -1,9 +1,6 @@
 #1032 - Kurils
 
-add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = ainu
+culture = ainu
 religion = animism
 capital = "Kuril"
 trade_goods = fish
@@ -64,10 +61,7 @@ discovered_by = ASK
 	discovered_by = RUS
 	owner = TKG
 	controller = TKG
-	add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = togoku
+	culture = togoku
 	religion = shinto
 	trade_goods = fish
 } # Japanese attemps at colonization

@@ -1,20 +1,18 @@
 #4458 - Narbada
 
-
-add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = gondi
+owner = GDW
+controller = GDW
+culture = gondi
 religion = hinduism
 capital = "Chauragar"
+trade_goods = tropical_wood
 hre = no
-base_tax = 1
+base_tax = 1 
 base_production = 1
-trade_goods = unknown
 base_manpower = 1
-native_size = 3
-native_ferocity = 1
-native_hostileness = 3
+is_city = yes
+add_core = GDW
+add_local_autonomy = 50
 
 
 
@@ -25,7 +23,11 @@ discovered_by = ottoman
 discovered_by = chinese
 
 
-
+1418.1.1 = {
+	controller = MLW
+	owner = MLW
+	add_core = MLW
+}
 1467.1.1 = {
 	owner = BAH
 	controller = BAH

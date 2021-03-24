@@ -1,20 +1,17 @@
 #649 - Ternate
 
-
-add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = moluccan
+owner = TER
+controller = TER
+culture = moluccan
 religion = animism
 capital = "Ternate"
+trade_goods = spices
 hre = no
-base_tax = 1
-base_production = 1
-trade_goods = unknown
-base_manpower = 1
-native_size = 3
-native_ferocity = 1
-native_hostileness = 3
+base_tax = 5
+base_production = 5
+base_manpower = 3
+is_city = yes
+add_core = TER
 discovered_by = MAJ
 discovered_by = MKS
 discovered_by = BLI

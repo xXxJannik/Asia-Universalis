@@ -1,20 +1,17 @@
 #620 - Siak
 
-
-add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = sumatran
+owner = SAK
+controller = SAK
+culture = sumatran
 religion = sunni
 capital = "Siak"
+trade_goods = chinaware
 hre = no
-base_tax = 1
-base_production = 1
-trade_goods = unknown
-base_manpower = 1
-native_size = 3
-native_ferocity = 1
-native_hostileness = 3
+base_tax = 5
+base_production = 5
+base_manpower = 3
+is_city = yes
+add_core = SAK
 discovered_by = chinese
 discovered_by = indian
 discovered_by = muslim
@@ -22,6 +19,6 @@ discovered_by = ottoman
 extra_cost = 8
 center_of_trade = 1
 
-
+1405.1.1 = { discovered_by = MNG }
 1509.1.1 = { discovered_by = POR }
 

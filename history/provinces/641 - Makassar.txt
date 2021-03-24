@@ -1,20 +1,17 @@
 #641 - Makassar
 
-
-add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = sulawesi
+owner = MKS
+controller = MKS
+culture = sulawesi
 religion = animism
 capital = "Makassar"
+trade_goods = spices
 hre = no
-base_tax = 1
-base_production = 1
-trade_goods = unknown
-base_manpower = 1
-native_size = 3
-native_ferocity = 1
-native_hostileness = 3
+base_tax = 8 
+base_production = 8
+base_manpower = 5
+is_city = yes
+add_core = MKS
 discovered_by = ATJ
 discovered_by = MAJ
 discovered_by = MKS

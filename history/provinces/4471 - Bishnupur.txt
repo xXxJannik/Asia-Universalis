@@ -1,20 +1,17 @@
 # 4471 - Bishnupur
 
-
-add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = bengali
+owner = MBL
+controller = MBL
+culture = bengali
 religion = hinduism
 capital = "Bishnupur"
+trade_goods = naval_supplies
 hre = no
-base_tax = 1
-base_production = 1
-trade_goods = unknown
-base_manpower = 1
-native_size = 3
-native_ferocity = 1
-native_hostileness = 3
+base_tax = 3
+base_production = 3
+base_manpower = 2
+is_city = yes
+add_core = MBL
 discovered_by = indian
 discovered_by = muslim
 discovered_by = ottoman

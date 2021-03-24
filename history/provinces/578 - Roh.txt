@@ -1,20 +1,19 @@
 #578 - Roh
 
-
-add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = afghani
+owner = AFG
+controller = AFG
+add_core = AFG
+culture = afghani
 religion = sunni
 capital = "Peshawar"
+trade_goods = livestock
 hre = no
-base_tax = 1
-base_production = 1
-trade_goods = unknown
-base_manpower = 1
-native_size = 3
-native_ferocity = 1
-native_hostileness = 3
+base_tax = 4 
+base_production = 4
+base_manpower = 2
+is_city = yes
+fort_15th = yes # Bala Hissar
+add_core = TIM
 discovered_by = KAS
 discovered_by = indian
 discovered_by = muslim
@@ -26,6 +25,7 @@ center_of_trade = 1
 1449.2.1 = { #Conquered by Babur bin Baysunkur
 	owner = KHO
 	controller = KHO
+	add_core = KHO
 	remove_core = TIM
 }
 1507.7.1 = {

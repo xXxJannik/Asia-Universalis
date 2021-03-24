@@ -1,9 +1,6 @@
 #1035 - Penchisky
 
-add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = kamchatkan
+culture = kamchatkan
 religion = tengri_pagan_reformed
 capital = "Penzhinsky"
 trade_goods = unknown
@@ -29,10 +26,7 @@ discovered_by = KMC
 	owner = RUS
 	controller = RUS
 	is_city = yes
-	add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = russian
+	culture = russian
 	religion = orthodox
 	trade_goods = fish
 } # Conquered by Russia

@@ -1,20 +1,19 @@
 #689 - Hanzhong
 
-
-add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = xibei
+owner = MNG
+controller = MNG
+add_core = MNG
+culture = xibei
 religion = confucianism
 capital = "Hanzhong"
+trade_goods = iron
 hre = no
-base_tax = 1
-base_production = 1
-trade_goods = unknown
-base_manpower = 1
-native_size = 3
-native_ferocity = 1
-native_hostileness = 3
+base_tax = 4 
+base_production = 4
+base_manpower = 3
+is_city = yes
+add_core = CSH
+add_core = QIN
 
 
 

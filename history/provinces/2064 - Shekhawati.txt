@@ -1,20 +1,18 @@
 #2064 - Shekhawati
 
-
-add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = rajput
+owner = DHU
+controller = DHU
+culture = rajput
 religion = hinduism
 capital = "Sikar"
+trade_goods = copper #Khetri
 hre = no
-base_tax = 1
-base_production = 1
-trade_goods = unknown
+base_tax = 2 
+base_production = 2
 base_manpower = 1
-native_size = 3
-native_ferocity = 1
-native_hostileness = 3
+is_city = yes
+add_rajputs_or_marathas_or_nobles_effect = yes
+add_core = DHU
 discovered_by = nomad_group
 discovered_by = indian
 discovered_by = muslim 

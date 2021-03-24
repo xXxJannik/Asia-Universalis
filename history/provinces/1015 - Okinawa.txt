@@ -1,20 +1,17 @@
 #1015 - Okinawa
 
-
-add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = kyushuan #Was really Ryukuan
+owner = RYU
+controller = RYU
+culture = kyushuan #Was really Ryukuan
 religion = animism
 capital = "Shuri"
+trade_goods = chinaware
 hre = no
-base_tax = 1
-base_production = 1
-trade_goods = unknown
+base_tax = 2 
+base_production = 2
 base_manpower = 1
-native_size = 3
-native_ferocity = 1
-native_hostileness = 3
+is_city = yes
+add_core = RYU
 discovered_by = chinese
 discovered_by = MCH
 discovered_by = KHA

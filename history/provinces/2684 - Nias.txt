@@ -1,9 +1,6 @@
 #2684 - Nias
 
-add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = sumatran
+culture = sumatran
 religion = sunni
 capital = "Nias"
 trade_goods = unknown
@@ -44,6 +41,6 @@ discovered_by = indian
 discovered_by = muslim
 discovered_by = ottoman
 
-
+1405.1.1 = { discovered_by = MNG }
 1509.1.1 = { discovered_by = POR }
 

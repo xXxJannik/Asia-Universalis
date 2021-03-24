@@ -1,20 +1,17 @@
 #1033 - Sakhalin
 
-
-add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = ainu
+culture = ainu
 religion = animism
 capital = "Sakhalin"
-hre = no
-base_tax = 1
-base_production = 1
 trade_goods = unknown
+hre = no
+base_tax = 1 
+base_production = 1
 base_manpower = 1
-native_size = 3
+#is_city = yes
+native_size = 5
 native_ferocity = 1
-native_hostileness = 3
+native_hostileness = 1
 
 
 
@@ -67,10 +64,7 @@ discovered_by = ASK
 1679.1.1 = {
 	owner = TKG
 	controller = TKG
-	add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = togoku
+	culture = togoku
 	religion = shinto
 	trade_goods = fish
 } # Russian & Japanese attemps at colonization

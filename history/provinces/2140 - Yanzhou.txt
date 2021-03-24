@@ -1,20 +1,19 @@
 # 2140 - Yanzhou
 
-
-add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = zhongyuan
+owner = MNG
+controller = MNG
+add_core = MNG
+culture = zhongyuan
 religion = confucianism
 capital = "Yanzhou"
+trade_goods = grain
 hre = no
-base_tax = 1
-base_production = 1
-trade_goods = unknown
-base_manpower = 1
-native_size = 3
-native_ferocity = 1
-native_hostileness = 3
+base_tax = 3
+base_production = 3
+base_manpower = 3
+is_city = yes
+#fort_15th = yes #More than 1 Weisuo
+add_core = QIC
 
 
 

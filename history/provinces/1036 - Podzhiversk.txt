@@ -1,9 +1,6 @@
 #1036 - Podzhiversk
 
-add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = yukagyr
+culture = yukagyr
 religion = tengri_pagan_reformed
 capital = "Srednekolymsk"
 trade_goods = unknown
@@ -28,10 +25,7 @@ discovered_by = KMC
 	owner = RUS
 	controller = RUS
 	add_core = RUS 
-	add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = russian
+	culture = russian
 	religion = orthodox
 	trade_goods = fur
 	is_city = yes 

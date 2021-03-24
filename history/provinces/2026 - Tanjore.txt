@@ -1,20 +1,20 @@
 #2026 - Tanjore 
 
-
-add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = tamil
+owner = VIJ
+controller = VIJ
+culture = tamil
 religion = hinduism
 capital = "Thanjavur"
+trade_goods = cloth
 hre = no
-base_tax = 1
-base_production = 1
-trade_goods = unknown
-base_manpower = 1
-native_size = 3
-native_ferocity = 1
-native_hostileness = 3
+base_tax = 4
+base_production = 4
+base_manpower = 2
+is_city = yes
+add_brahmins_or_church_effect = yes
+add_core = VIJ
+add_core = MAD
+add_core = TNJ
 discovered_by = east_african
 discovered_by = indian
 discovered_by = muslim

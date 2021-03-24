@@ -1,20 +1,20 @@
 #524 - Central Doab
 
-
-add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = kanauji
+owner = DLH
+controller = DLH
+culture = kanauji
 religion = hinduism
 capital = "Mathura"
+trade_goods = silk
 hre = no
-base_tax = 1
-base_production = 1
-trade_goods = unknown
-base_manpower = 1
-native_size = 3
-native_ferocity = 1
-native_hostileness = 3
+base_tax = 10
+base_production = 10
+base_manpower = 4
+add_brahmins_or_church_effect = yes
+is_city = yes
+add_core = DLH
+add_core = JNP
+fort_15th = yes # Badalgarh
 discovered_by = indian
 discovered_by = muslim
 discovered_by = ottoman
@@ -23,7 +23,10 @@ discovered_by = chinese
 extra_cost = 16
 center_of_trade = 2
 
-
+1437.1.1 = {
+	owner = JNP
+	controller = JNP
+}
 1452.1.1 = {
 	owner = DLH
 	controller = DLH

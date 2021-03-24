@@ -1,9 +1,6 @@
 #2706 - Katapang
 
-add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = bornean
+culture = bornean
 religion = sunni
 capital = "Katapang"
 trade_goods = unknown

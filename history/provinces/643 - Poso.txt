@@ -1,9 +1,6 @@
 #643 - Poso
 
-add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = sulawesi
+culture = sulawesi
 religion = animism
 capital = "Poso"
 trade_goods = unknown

@@ -1,9 +1,6 @@
 #2708 - Sampit
 
-add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = bornean
+culture = bornean
 religion = hinduism
 capital = "Sampit"
 trade_goods = unknown

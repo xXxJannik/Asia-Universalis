@@ -1,20 +1,20 @@
 #1949 - Penukonda
 
-
-add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = telegu
+owner = VIJ
+controller = VIJ
+culture = telegu
 religion = hinduism
 capital = "Penukonda"
+trade_goods = cotton
 hre = no
-base_tax = 1
-base_production = 1
-trade_goods = unknown
-base_manpower = 1
-native_size = 3
-native_ferocity = 1
-native_hostileness = 3
+base_tax = 3
+base_production = 3
+base_manpower = 2
+is_city = yes
+add_core = KRK
+add_core = VIJ
+add_core = YOR
+fort_15th = yes #One of the great forts of the East
 discovered_by = indian
 discovered_by = muslim 
 discovered_by = ottoman

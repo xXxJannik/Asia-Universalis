@@ -1,9 +1,6 @@
 # 2154 - Kelang
 
-add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = polynesian
+culture = polynesian
 religion = animism
 capital = "Kelang"
 trade_goods = unknown

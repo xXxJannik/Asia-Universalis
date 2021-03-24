@@ -1,19 +1,18 @@
 #652 - Maguindanao
 
-add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = filipino
+culture = filipino
 religion = animism
 capital = "Maguindanao"
+trade_goods = spices
 hre = no
-base_tax = 1
-base_production = 1
-trade_goods = unknown
-base_manpower = 1
-native_size = 3
-native_ferocity = 1
-native_hostileness = 3
+is_city = yes
+base_tax = 5
+base_production = 5
+base_manpower = 3
+discovered_by = chinese
+owner = MGD
+controller = MGD
+add_core = MGD
 
 1520.1.1 = {
 	religion = sunni

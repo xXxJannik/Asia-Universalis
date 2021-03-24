@@ -1,20 +1,17 @@
 #2716 - Buton
 
-
-add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = sulawesi
+owner = BTN
+controller = BTN
+culture = sulawesi
 religion = animism
 capital = "Buton"
+trade_goods = spices
 hre = no
-base_tax = 1
-base_production = 1
-trade_goods = unknown
-base_manpower = 1
-native_size = 3
-native_ferocity = 1
-native_hostileness = 3
+base_tax = 3 
+base_production = 3
+base_manpower = 2
+is_city = yes
+add_core = BTN
 
 
 

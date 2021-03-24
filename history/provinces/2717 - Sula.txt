@@ -1,9 +1,6 @@
 #2717 - Sula
 
-add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = moluccan
+culture = moluccan
 religion = animism
 capital = "Sula"
 trade_goods = unknown
@@ -43,10 +40,7 @@ discovered_by = TID
 	discovered_by = NED
 	owner = NED
 	controller = NED
-	add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = dutch
+	culture = dutch
 	religion = reformed
 	is_city = yes
 	trade_goods = coffee

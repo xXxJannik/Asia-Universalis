@@ -1,20 +1,18 @@
 #517 - Surat (Surat, Rander)
 
-
-add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = gujarati
+owner = GUJ
+controller = GUJ
+culture = gujarati
 religion = hinduism
 capital = "Surat"
+trade_goods = silk
 hre = no
-base_tax = 1
-base_production = 1
-trade_goods = unknown
+base_tax = 5
+base_production = 5
 base_manpower = 1
-native_size = 3
-native_ferocity = 1
-native_hostileness = 3
+add_brahmins_or_church_effect = yes
+is_city = yes
+add_core = GUJ
 discovered_by = east_african
 discovered_by = indian
 discovered_by = muslim 

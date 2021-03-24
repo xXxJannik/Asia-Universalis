@@ -1,9 +1,6 @@
 #4356 - Taytay
 
-add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = filipino
+culture = filipino
 religion = animism
 capital = "Taytay"
 trade_goods = unknown
@@ -20,10 +17,7 @@ native_hostileness = 9
 1623.1.1 = {
 	owner = SPA
 	controller = SPA
-	add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = castillian
+	culture = castillian
 	religion = catholic
 	trade_goods = grain
 } # Taytay becomes a colony

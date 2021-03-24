@@ -1,20 +1,18 @@
 #1829 - Xiamen
 
-
-add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = chimin
+owner = MNG
+controller = MNG
+add_core = MNG
+culture = chimin
 religion = confucianism
 capital = "Quanzhou"
+trade_goods = tea
 hre = no
-base_tax = 1
-base_production = 1
-trade_goods = unknown
-base_manpower = 1
-native_size = 3
-native_ferocity = 1
-native_hostileness = 3
+base_tax = 8 
+base_production = 8
+base_manpower = 3
+is_city = yes
+add_core = MIN
 
 
 

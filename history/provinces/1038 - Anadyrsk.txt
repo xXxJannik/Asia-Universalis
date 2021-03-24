@@ -1,9 +1,6 @@
 #1038 - Karalveyem
 
-add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = yukagyr
+culture = yukagyr
 religion = tengri_pagan_reformed
 capital = "Karalveyem"
 trade_goods = unknown
@@ -29,10 +26,7 @@ discovered_by = KMC
 	owner = RUS
 	controller = RUS
 	religion = orthodox
-	add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = russian
+	culture = russian
 	is_city = yes
 	trade_goods = fish
 }

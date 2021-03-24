@@ -1,20 +1,17 @@
 #4493 - Sirmur
 
-
-add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = pahari
+owner = SRM
+controller = SRM 
+culture = pahari
 religion = hinduism
 capital = "Malaun"
+trade_goods = cotton
 hre = no
-base_tax = 1
+base_tax = 1 
 base_production = 1
-trade_goods = unknown
 base_manpower = 1
-native_size = 3
-native_ferocity = 1
-native_hostileness = 3
+is_city = yes
+add_core = SRM
 discovered_by = indian
 discovered_by = muslim
 discovered_by = ottoman

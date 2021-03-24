@@ -1,9 +1,6 @@
 #2725 - Aru
 
-add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = moluccan
+culture = moluccan
 religion = animism
 capital = "Aru"
 trade_goods = unknown

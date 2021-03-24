@@ -1,9 +1,6 @@
 #633 - Flores
 
-add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = papuan
+culture = papuan
 religion = animism
 capital = "Flores"
 trade_goods = unknown
@@ -48,10 +45,7 @@ discovered_by = TID
 	controller = POR
 	capital = "Solor"
 	religion = catholic
-	add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = portugese
+	culture = portugese
 	is_city = yes
 	trade_goods = spices
 } # Solor became the center of the Portuguese trade
@@ -64,10 +58,7 @@ discovered_by = TID
 	owner = ---
 	controller = ---
 	remove_core = POR 
-	add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = papuan
+	culture = papuan
 	religion = animism
 	trade_goods = unknown
 } # The Portuguese are driven out by the natives
@@ -76,10 +67,7 @@ discovered_by = TID
 	controller = POR
 	add_core = POR
 	religion = catholic
-	add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = portugese
+	culture = portugese
 	unrest = 4
 	is_city = yes
 } # Continous struggles between the Portuguese & the Dutch
@@ -87,10 +75,7 @@ discovered_by = TID
 	owner = NED
 	controller = NED
 	add_core = NED
-	add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = dutch
+	culture = dutch
 	religion = reformed
 	trade_goods = spices
 } # The Dutch managed to take control

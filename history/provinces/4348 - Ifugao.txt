@@ -1,9 +1,6 @@
 #4348 - Ifugao
 
-add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = filipino
+culture = filipino
 religion = animism
 capital = "Ifugao"
 trade_goods = unknown

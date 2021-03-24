@@ -1,20 +1,17 @@
 #2675 - Rokan
 
-
-add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = sumatran
+owner = PSA
+controller = PSA
+culture = sumatran
 religion = sunni
 capital = "Rokan"
+trade_goods = fish
 hre = no
-base_tax = 1
-base_production = 1
-trade_goods = unknown
-base_manpower = 1
-native_size = 3
-native_ferocity = 1
-native_hostileness = 3
+base_tax = 3 
+base_production = 3
+base_manpower = 2
+is_city = yes
+add_core = PSA
 
 
 
@@ -23,7 +20,7 @@ discovered_by = indian
 discovered_by = muslim
 discovered_by = ottoman
 
-
+1405.1.1 = { discovered_by = MNG }
 
 1471.1.1 = { add_core = ATJ }
 1509.1.1 = { discovered_by = POR }

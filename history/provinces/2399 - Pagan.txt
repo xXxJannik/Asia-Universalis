@@ -1,19 +1,17 @@
 #2399 - Pagan
 
-add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = burmese
+owner = AVA
+controller = AVA
+culture = burmese
 religion = buddhism
 capital = "Pagan"
+trade_goods = tropical_wood
 hre = no
-base_tax = 1
-base_production = 1
-trade_goods = unknown
-base_manpower = 1
-native_size = 3
-native_ferocity = 1
-native_hostileness = 3
+base_tax = 4 
+base_production = 4
+base_manpower = 3
+is_city = yes
+add_core = AVA
 
 
 

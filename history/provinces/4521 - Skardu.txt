@@ -1,20 +1,17 @@
 #4521 - Skardu
 
-
-add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = kashmiri
+owner = LDK
+controller = LDK
+culture = kashmiri
 religion = vajrayana
 capital = "Skardu"
+trade_goods = wool
 hre = no
-base_tax = 1
+base_tax = 1 
 base_production = 1
-trade_goods = unknown
 base_manpower = 1
-native_size = 3
-native_ferocity = 1
-native_hostileness = 3
+is_city = yes
+add_core = LDK
 
 
 

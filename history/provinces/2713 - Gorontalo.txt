@@ -1,9 +1,6 @@
 #2713 - Gorontalo
 
-add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = sulawesi
+culture = sulawesi
 religion = animism
 capital = "Gorontalo"
 trade_goods = unknown

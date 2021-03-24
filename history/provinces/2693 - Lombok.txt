@@ -1,9 +1,6 @@
 #2693 - Lombok
 
-add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = papuan
+culture = papuan
 religion = animism
 capital = "Lombok"
 trade_goods = unknown

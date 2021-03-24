@@ -1,9 +1,6 @@
 # 2155 - Middag
 
-add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = polynesian
+culture = polynesian
 religion = animism
 capital = "Middag"
 trade_goods = unknown

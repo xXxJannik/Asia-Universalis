@@ -1,9 +1,6 @@
 #1044 - Tauisk
 
-add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = kamchatkan
+culture = kamchatkan
 religion = tengri_pagan_reformed
 capital = "Tauisk"
 trade_goods = unknown
@@ -29,10 +26,7 @@ discovered_by = KMC
 	controller = RUS
 	is_city = yes
 	religion = orthodox
-	add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = russian
+	culture = russian
 	trade_goods = gold
 } # Conquered by Russia
 1757.1.1 = { add_core = RUS }

@@ -1,9 +1,6 @@
 #1069 - Surgut
 
-add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = samoyed
+culture = samoyed
 religion = tengri_pagan_reformed #Sami Shamanism
 capital = "Sörgüt"
 trade_goods = unknown
@@ -32,10 +29,7 @@ discovered_by = nomad_group
 	controller = RUS
 	add_core = RUS
 	religion = orthodox
-	add_core = PRU 
- owner = PRU 
- controller = PRU 
- culture = russian
+	culture = russian
 	capital = "Surgut" 
 } # Yermak Timofeevich
 1666.1.1 = { unrest = 4 } # Samoyed rebellion
