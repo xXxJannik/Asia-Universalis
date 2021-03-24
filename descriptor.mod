@@ -3,4 +3,6 @@ tags={
 	"Historical"
 }
 name="Asia Universalis"
-supported_version="1.30.4"
+picture="thumbnail.png"
+supported_version="1.30.*"
+remote_file_id="2434682559"
