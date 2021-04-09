@@ -1,8 +1,8 @@
 #667 - Guangzhou
 
-owner = MNG
-controller = MNG
-add_core = MNG
+owner = YUE
+controller = YUE
+add_core = YUE
 culture = cantonese
 religion = confucianism
 capital = "Canton"
@@ -12,7 +12,6 @@ base_tax = 12
 base_production = 12
 base_manpower = 3
 is_city = yes
-add_core = YUE
 fort_15th = yes #More than 1 Weisuo
 discovered_by = chinese
 discovered_by = indian
