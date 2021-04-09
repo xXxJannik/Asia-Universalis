@@ -1,0 +1,20 @@
+﻿l_english:
+ h_reform_warlord_1:0 "Warlord Clique"
+ h_reform_warlord_1_desc:0 "A rebel Nation led by a Warlord."
+ H_WARLORD1:0 "Warlord Clique"
+ H_WarlordTitle1:0 "Warlord"
+ promote_cavalry_decree: "Boost Cavalry Corps"
+ promote_cavalry_decree_title: "Boost Cavalry Corps"
+ promote_cavalry_decree_desc: "Hello world"
+
+expand_diplomacy_decree: "Expand the Diplomatic Court"
+expand_diplomacy_decree_title: "Expand the Diplomatic Court"
+expand_diplomacy_decree_desc: ""
+
+state_improvments_decree: "Introduce new laws"
+state_improvments_decree_title: "Introduce new laws"
+state_improvments_decree_desc: ""
+
+support_missionaries_decree: "Support religious affaires"
+support_missionaries_decree_title: "Support religious affaires"
+support_missionaries_decree_desc: ""

@@ -1,0 +1,36 @@
+h_reform_warlord_1 = {
+	icon = "celestial_empire"
+	allow_normal_conversion = yes
+	potential = {
+		AND = {
+			culture_group = east_asian
+			technology_group = chinese
+		}
+	}
+	maintain_dynasty = yes
+	lock_level_when_selected = yes
+	factions = {
+		temples
+		enuchs
+		bureaucrats
+	}
+	fixed_rank = 1
+	modifiers = {
+		land_forcelimit = 5
+		land_maintenance_modifier = -0.2
+	}
+	
+	ai = {
+		factor = 0 #never
+	}
+
+	custom_attributes = {
+		locked_government_type = yes
+	}
+
+	conditional = {
+		allow = { has_dlc = "Mandate of Heaven" }
+		has_meritocracy = yes
+		factions = {}
+	}
+}
