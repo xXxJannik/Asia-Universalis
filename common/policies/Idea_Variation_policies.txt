@@ -272,7 +272,7 @@ idea_variation_act_564 = {
 		full_idea_group = administrative_ideas
 	}
 
-	global_trade_goods_size_modifier = 0.15	
+	global_trade_goods_size_modifier = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -1213,7 +1213,7 @@ idea_variation_act_586 = {
 		}
 	}	
 	
-	trade_efficiency = 0.2
+	trade_efficiency = 0.1
 	global_ship_repair = 0.2
 	
 	ai_will_do = {
@@ -1417,7 +1417,7 @@ idea_variation_act_590 = {
 		full_idea_group = offensive_ideas
 	}
 	
-	trade_efficiency = 0.3
+	trade_efficiency = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -1568,7 +1568,7 @@ idea_variation_act_593 = {
 		full_idea_group = administrative_ideas
 	}
 	
-	trade_efficiency = 0.25
+	trade_efficiency = 0.1
 	
 	ai_will_do = {
 		factor = 1.2
@@ -1877,7 +1877,7 @@ idea_variation_act_599 = {
 		full_idea_group = trade_ideas
 	}
 		
-	trade_efficiency = 0.3	
+	trade_efficiency = 0.1	
 
 
 		ai_will_do = {
@@ -2091,7 +2091,7 @@ idea_variation_act_606 = {
 		full_idea_group = trade_ideas
 		full_idea_group = quality_ideas
 	}
-	trade_efficiency = 0.25
+	trade_efficiency = 0.1
 
 	ai_will_do = {
 		factor = 1.2
@@ -2132,7 +2132,7 @@ idea_variation_act_607 = {
 		full_idea_group = trade_ideas
 		full_idea_group = quantity_ideas
 	}
-	global_trade_goods_size_modifier = 0.15
+	global_trade_goods_size_modifier = 0.1
  
 
 	ai_will_do = {
@@ -2153,7 +2153,7 @@ idea_variation_act_608 = {
 		full_idea_group = expansion_ideas
 	}
 	
-	trade_efficiency = 0.15
+	trade_efficiency = 0.1
 	trade_steering = 0.15
  
 
@@ -3354,7 +3354,7 @@ idea_variation_act_639 = {
 	}
 	
 	production_efficiency = 0.15
-	trade_efficiency = 0.15
+	trade_efficiency = 0.1
 
 	ai_will_do = {
 		factor = 1.2		
@@ -4699,7 +4699,7 @@ idea_variation_act_14 = {
 		full_idea_group = kriegsproduktion0
 	}
 	
-	global_trade_goods_size_modifier = 0.15
+	global_trade_goods_size_modifier = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -9568,7 +9568,7 @@ idea_variation_act_160 = {
 		full_idea_group = kriegsproduktion0
 	}
 	
-	global_trade_goods_size_modifier = 0.15
+	global_trade_goods_size_modifier = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -12311,7 +12311,7 @@ idea_variation_act_241 = {
 		full_idea_group = wehrpflicht0
 	}
 	
-	trade_efficiency = 0.20
+	trade_efficiency = 0.1
 	trade_range_modifier = 0.25
 	
 	ai_will_do = {
@@ -13280,7 +13280,7 @@ idea_variation_act_274 = {
 		full_idea_group = festung0
 	}
 	
-	trade_efficiency = 0.15
+	trade_efficiency = 0.1
 	light_ship_power = 0.15
 	
 	ai_will_do = {
@@ -15823,9 +15823,7 @@ idea_variation_act_348 = {
 		full_idea_group = diktatur0
 	}
 	
-	global_trade_goods_size_modifier = 0.25
-	global_unrest = 3
-	global_autonomy = 0.05
+	global_trade_goods_size_modifier = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -15866,7 +15864,7 @@ idea_variation_act_349 = {
 		full_idea_group = republik0
 	}
 	
-	global_trade_goods_size_modifier = 0.2
+	global_trade_goods_size_modifier = 0.1
 	global_tax_modifier = -0.1
 	
 	ai_will_do = {
@@ -17046,7 +17044,7 @@ idea_variation_act_381 = {
 		full_idea_group = gesundheit0
 	}
 	
-	global_trade_goods_size_modifier = 0.15
+	global_trade_goods_size_modifier = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -19767,7 +19765,7 @@ idea_variation_act_465 = {
 		full_idea_group = staatsverwaltung0 
 	}
 	
-	global_trade_goods_size_modifier = 0.15
+	global_trade_goods_size_modifier = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -20652,7 +20650,7 @@ idea_variation_act_495 = {
 		full_idea_group = staatsverwaltung0 
 	}
 	
-	trade_efficiency = 0.25
+	trade_efficiency = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -20674,7 +20672,7 @@ idea_variation_act_496 = {
 		full_idea_group = zentra0
 	}
 	
-	global_trade_goods_size_modifier = 0.15
+	global_trade_goods_size_modifier = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -22233,7 +22231,7 @@ idea_variation_act_553 = {
 		full_idea_group = kriegsproduktion0
 	}
 	
-	global_trade_goods_size_modifier = 0.15
+	global_trade_goods_size_modifier = 0.1
 	
 	ai_will_do = {
 		factor = 1
