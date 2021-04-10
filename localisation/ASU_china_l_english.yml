@@ -28,14 +28,27 @@
  promote_cavalry_decree_title: "Boost Cavalry Corps"
  promote_cavalry_decree_desc: "Hello world"
 
-expand_diplomacy_decree: "Expand the Diplomatic Court"
-expand_diplomacy_decree_title: "Expand the Diplomatic Court"
-expand_diplomacy_decree_desc: ""
+ expand_diplomacy_decree: "Expand the Diplomatic Court"
+ expand_diplomacy_decree_title: "Expand the Diplomatic Court"
+ expand_diplomacy_decree_desc: ""
 
-state_improvments_decree: "Introduce new laws"
-state_improvments_decree_title: "Introduce new laws"
-state_improvments_decree_desc: ""
+ state_improvments_decree: "Introduce new laws"
+ state_improvments_decree_title: "Introduce new laws"
+ state_improvments_decree_desc: ""
 
-support_missionaries_decree: "Support religious affaires"
-support_missionaries_decree_title: "Support religious affaires"
-support_missionaries_decree_desc: ""
+ support_missionaries_decree: "Support religious affaires"
+ support_missionaries_decree_title: "Support religious affaires"
+ support_missionaries_decree_desc: ""
+
+
+ uprank_to_two_title:0 "Centralise power"
+ uprank_to_two_desc:0 "We have managed to rebell against our previous overlord. Now it is our time to rule."
+ uprank_to_two:0 ""
+
+ uprank_to_three_title:0 "Organize a state"
+ uprank_to_three_desc:0 "We need to increase our centralisation and secure our position."
+ uprank_to_three:0 ""
+
+ uprank_to_four_title:0 "Form a Royal Dynastie"
+ uprank_to_four_desc:0 "We will form a new Royal Dynastie and shall rule with the Mandate of Heaven!"
+ uprank_to_four:0 ""
