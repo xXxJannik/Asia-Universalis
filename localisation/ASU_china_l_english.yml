@@ -4,9 +4,9 @@
  H_WARLORD1:0 "Rebellious region"
  H_WarlordTitle1:0 "Rebel leader"
 
- h_reform_warlord_2:0 "Unorganized Clique"
+ h_reform_warlord_2:0 "Unorganized Warlord Clique"
  h_reform_warlord_2_desc:0 "A rebel Nation led by a Warlord."
- H_WARLORD2:0 "Unorganized Warlord Clique"
+ H_WARLORD2:0 "Unorganized Clique"
  H_WarlordTitle2:0 "Warlord"
 
  h_reform_warlord_3:0 "Organized Warlord Clique"
