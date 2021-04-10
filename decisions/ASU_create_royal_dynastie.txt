@@ -1,0 +1,176 @@
+country_decisions = {
+
+	declare_great_ming = {
+		major = yes
+		potential = {
+			AND = {
+                OR = {
+                    has_reform = h_reform_warlord_4
+                    is_emperor_of_china = yes
+                }
+                tag = MNG
+                NOT = { has_country_flag = formed_royal_dynastie }
+            }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		allow = {
+			OR = {
+                has_reform = h_reform_warlord_4
+                is_emperor_of_china = yes
+            }
+            total_development = 1000
+		}
+		effect = {
+            override_country_name = GREAT_MING
+            add_prestige = 100
+            set_country_flag = formed_royal_dynastie
+		}
+	}
+
+    declare_great_qing = {
+		major = yes
+		potential = {
+            OR = {
+                has_reform = reform_warlord_5
+                is_emperor_of_china = yes
+            }
+            tag = QNG
+            NOT = { has_country_flag = formed_royal_dynastie }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		allow = {
+            OR = {
+                has_reform = reform_warlord_5
+                is_emperor_of_china = yes
+            }
+            total_development = 1000
+		}
+		effect = {
+            override_country_name = GREAT_QING
+            add_prestige = 100
+            set_country_flag = formed_royal_dynastie
+		}
+	}
+
+     declare_great_shun = {
+		major = yes
+		potential = {
+            AND = {
+                OR = {
+                    has_reform = h_reform_warlord_4
+                    is_emperor_of_china = yes
+                }
+                tag = CSH
+                NOT = { has_country_flag = formed_royal_dynastie }
+            }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		allow = {
+            OR = {
+                has_reform = h_reform_warlord_4
+                is_emperor_of_china = yes
+            }
+            total_development = 1000
+		}
+		effect = {
+            override_country_name = GREAT_SHUN
+            add_prestige = 100
+            set_country_flag = formed_royal_dynastie
+		}
+	}
+
+    declare_great_xi = {
+		major = yes
+		potential = {
+            AND = {
+                OR = {
+                    has_reform = h_reform_warlord_4
+                    is_emperor_of_china = yes
+                }
+                tag = CXI
+                NOT = { has_country_flag = formed_royal_dynastie }
+            }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		allow = {
+            OR = {
+                has_reform = h_reform_warlord_4
+                is_emperor_of_china = yes
+            }
+            total_development = 1000
+		}
+		effect = {
+            override_country_name = GREAT_XI
+            add_prestige = 100
+            set_country_flag = formed_royal_dynastie
+		}
+	}
+
+    declare_great_yue = {
+		major = yes
+		potential = {
+            AND = {
+                OR = {
+                    has_reform = h_reform_warlord_4
+                    is_emperor_of_china = yes
+                }
+                tag = YUE
+                NOT = { has_country_flag = formed_royal_dynastie }
+            }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		allow = {
+            OR = {
+                has_reform = h_reform_warlord_4
+                is_emperor_of_china = yes
+            }
+            total_development = 1000
+		}
+		effect = {
+            override_country_name = GREAT_YUE
+            add_prestige = 100
+            set_country_flag = formed_royal_dynastie
+		}
+	}
+
+    declare_great_wu = {
+		major = yes
+		potential = {
+            AND = {
+                OR = {
+                    has_reform = h_reform_warlord_4
+                    is_emperor_of_china = yes
+                }
+                tag = WUU
+                NOT = { has_country_flag = formed_royal_dynastie }
+            }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		allow = {
+            OR = {
+                has_reform = h_reform_warlord_4
+                is_emperor_of_china = yes
+            }
+            total_development = 1000
+		}
+		effect = {
+            override_country_name = GREAT_WU
+            add_prestige = 100
+            set_country_flag = formed_royal_dynastie
+		}
+	}
+
+
+} #Ende

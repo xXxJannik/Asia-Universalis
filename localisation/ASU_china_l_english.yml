@@ -52,3 +52,46 @@
  uprank_to_four_title:0 "Form a Royal Dynastie"
  uprank_to_four_desc:0 "We will form a new Royal Dynastie and shall rule with the Mandate of Heaven!"
  uprank_to_four:0 ""
+
+
+ GREAT_MING:0 "Great Ming"
+ GREAT_MING_ADJ:0 "Ming"
+ GREAT_MING_ADJ2:0 "Ming"
+
+ GREAT_QING:0 "Great Qing"
+ GREAT_QING_ADJ:0 "Qing"
+ GREAT_QING_ADJ2:0 "Qing"
+
+ GREAT_SHUN:0 "Great Shun"
+ GREAT_SHUN_ADJ:0 "Shun"
+ GREAT_SHUN_ADJ2:0 "Shun"
+
+ GREAT_XI:0 "Great Xi"
+ GREAT_XI_ADJ:0 "Xi"
+ GREAT_XI_ADJ2:0 "Xi"
+
+ GREAT_YUE:0 "Great Yue"
+ GREAT_YUE_ADJ:0 "Yue"
+ GREAT_YUE_ADJ2:0 "Yue"
+
+ GREAT_WU:0 "Great Wu"
+ GREAT_WU_ADJ:0 "Wu"
+ GREAT_WU_ADJ2:0 "Wu"
+
+ declare_great_ming:0 "Start a legendary bloodline"
+ declare_great_ming_desc:0 "We have risen beyond our expectations, we survived many threats and problems. We truly have legendary blood."
+
+ declare_great_qing:0 "Start a legendary bloodline"
+ declare_great_qing_desc:0 "We have risen beyond our expectations, we survived many threats and problems. We truly have legendary blood."
+
+ declare_great_shun:0 "Start a legendary bloodline"
+ declare_great_shun_desc:0 "We have risen beyond our expectations, we survived many threats and problems. We truly have legendary blood."
+
+ declare_great_xi:0 "Start a legendary bloodline"
+ declare_great_xidesc:0 "We have risen beyond our expectations, we survived many threats and problems. We truly have legendary blood."
+
+ declare_great_yue:0 "Start a legendary bloodline"
+ declare_great_yue_desc:0 "We have risen beyond our expectations, we survived many threats and problems. We truly have legendary blood."
+
+ declare_great_wu:0 "Start a legendary bloodline"
+ declare_great_wu_desc:0 "We have risen beyond our expectations, we survived many threats and problems. We truly have legendary blood."
