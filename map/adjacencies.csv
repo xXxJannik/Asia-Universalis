@@ -38,4 +38,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 398;2999;sea;1334;3686;1080;3684;1084;Qawasim-Hormuz
 4353;4352;sea;1397;-1;-1;-1;-1;Leyte-Cebu
 4351;4352;sea;1397;-1;-1;-1;-1;Buglas-Cebu
+1017;4651;sea;1376;-1;-1;-1;-1;Suo-Tsushima
+2745;4651;sea;1376;-1;-1;-1;-1;Gyeongju-Tsushima
 -1;-1;;-1;-1;-1;-1;-1;-1;
