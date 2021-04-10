@@ -23,8 +23,8 @@ country_decisions = {
             total_development = 1000
 		}
 		effect = {
-            override_country_name = GREAT_MING
             add_prestige = 100
+            override_country_name = GREAT_MING
             set_country_flag = formed_royal_dynastie
 		}
 	}
@@ -50,8 +50,8 @@ country_decisions = {
             total_development = 1000
 		}
 		effect = {
-            override_country_name = GREAT_QING
             add_prestige = 100
+            override_country_name = GREAT_QING
             set_country_flag = formed_royal_dynastie
 		}
 	}
@@ -79,8 +79,8 @@ country_decisions = {
             total_development = 1000
 		}
 		effect = {
-            override_country_name = GREAT_SHUN
             add_prestige = 100
+            override_country_name = GREAT_SHUN
             set_country_flag = formed_royal_dynastie
 		}
 	}
@@ -108,8 +108,8 @@ country_decisions = {
             total_development = 1000
 		}
 		effect = {
-            override_country_name = GREAT_XI
             add_prestige = 100
+            override_country_name = GREAT_XI
             set_country_flag = formed_royal_dynastie
 		}
 	}
@@ -137,8 +137,8 @@ country_decisions = {
             total_development = 1000
 		}
 		effect = {
-            override_country_name = GREAT_YUE
             add_prestige = 100
+            override_country_name = GREAT_YUE
             set_country_flag = formed_royal_dynastie
 		}
 	}
@@ -166,8 +166,8 @@ country_decisions = {
             total_development = 1000
 		}
 		effect = {
-            override_country_name = GREAT_WU
             add_prestige = 100
+            override_country_name = GREAT_WU
             set_country_flag = formed_royal_dynastie
 		}
 	}
