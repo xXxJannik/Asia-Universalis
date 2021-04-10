@@ -115,3 +115,27 @@ gov_warlord5 = {
 		has_reform = reform_warlord_5
 	}
 }
+
+gov_warlord6 = {
+	rank = {
+		1 = KoreanKingRank
+		2 = KoreanKingRank
+		3 = KoreanKingRank
+	}
+	
+	ruler_male = {
+		1 = KoreanKing
+		2 = KoreanKing
+		3 = KoreanKing
+	}
+	
+	ruler_female = {
+		1 = KoreanQueen
+		2 = KoreanQueen
+		3 = KoreanQueen
+	}
+	
+	trigger = {
+		has_reform = reform_korea
+	}
+}

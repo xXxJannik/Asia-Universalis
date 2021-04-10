@@ -239,3 +239,30 @@ reform_warlord_5 = {
 		factions = {}
 	}
 }
+
+#Korea
+
+reform_korea = {
+	icon = "chinese_palace"
+	allow_normal_conversion = yes
+	potential = {
+		tag = KOR
+	}
+	lock_level_when_selected = yes
+	fixed_rank = 2
+	modifiers = {
+		fort_maintenance_modifier = -0.2
+		defensiveness = 0.25
+	}
+	
+	ai = {
+		factor = 1000
+	}
+
+	custom_attributes = {
+		locked_government_type = yes
+	}
+
+	conditional = {
+	}
+}

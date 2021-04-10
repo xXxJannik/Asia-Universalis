@@ -35,6 +35,7 @@ monarchy = {
 				h_reform_warlord_3
 				h_reform_warlord_4
 				reform_warlord_5
+				reform_korea
 			}
 		}
 		hereditary_vs_nobility = {

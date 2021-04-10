@@ -24,6 +24,12 @@
  WARLORD5:0 "Chinese Horde"
  WarlordTitle5:0 "Khan"
 
+ reform_korea:0 "Josoen Kingdom"
+ reform_korea_desc:0 "The Turtle Kingdom"
+ KoreanKingRank:0 "Josoen Kingdom"
+ KoreanKing:0 "Wang"
+ KoreanQueen:0 "Kwin"
+
  promote_cavalry_decree: "Boost Cavalry Corps"
  promote_cavalry_decree_title: "Boost Cavalry Corps"
  promote_cavalry_decree_desc: "Hello world"
