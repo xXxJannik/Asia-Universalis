@@ -1,11 +1,72 @@
 h_reform_warlord_1 = {
-	icon = "celestial_empire"
+	icon = "fist_in_air"
 	allow_normal_conversion = yes
 	potential = {
 		AND = {
 			culture_group = east_asian
 			technology_group = chinese
+			government_rank = 1
+			NOT = {
+				total_development = 100
+			}
 		}
+
+		NOT = { tag = QNG}
+		NOT = { tag = MCH}
+		NOT = { is_emperor_of_china = yes }
+		NOT = { has_reform = h_reform_warlord_2 }
+		NOT = { has_reform = h_reform_warlord_3 }
+		NOT = { has_reform = h_reform_warlord_4 }
+		NOT = { has_reform = reform_warlord_5 }
+	}
+	maintain_dynasty = yes
+	lock_level_when_selected = yes
+	factions = {
+		temples
+		enuchs
+		bureaucrats
+	}
+	fixed_rank = 1
+	modifiers = {
+		land_forcelimit = 3
+		land_maintenance_modifier = -0.2
+	}
+	
+	ai = {
+		factor = 1
+	}
+
+	custom_attributes = {
+		locked_government_type = yes
+	}
+
+	conditional = {
+		allow = { has_dlc = "Mandate of Heaven" }
+		has_meritocracy = yes
+		factions = {}
+	}
+}
+
+
+h_reform_warlord_2 = {
+	icon = "fist_in_air"
+	allow_normal_conversion = yes
+	potential = {
+		AND = {
+			culture_group = east_asian
+			technology_group = chinese
+			government_rank = 1
+			NOT = {
+				total_development = 200
+			}
+		}
+		NOT = { tag = QNG}
+		NOT = { tag = MCH}
+		NOT = { is_emperor_of_china = yes }
+		NOT = { has_reform = h_reform_warlord_1 }
+		NOT = { has_reform = h_reform_warlord_3 }
+		NOT = { has_reform = h_reform_warlord_4 }
+		NOT = { has_reform = reform_warlord_5 }
 	}
 	maintain_dynasty = yes
 	lock_level_when_selected = yes
@@ -17,11 +78,155 @@ h_reform_warlord_1 = {
 	fixed_rank = 1
 	modifiers = {
 		land_forcelimit = 5
-		land_maintenance_modifier = -0.2
+		land_maintenance_modifier = -0.1
 	}
 	
 	ai = {
-		factor = 0 #never
+		factor = 10
+	}
+
+	custom_attributes = {
+		locked_government_type = yes
+	}
+
+	conditional = {
+		allow = { has_dlc = "Mandate of Heaven" }
+		has_meritocracy = yes
+		factions = {}
+	}
+}
+
+h_reform_warlord_3 = {
+	icon = "fist_in_air"
+	allow_normal_conversion = yes
+	potential = {
+		AND = {
+			culture_group = east_asian
+			technology_group = chinese
+			government_rank = 1
+			NOT = {
+				total_development = 500
+			}
+		}
+		NOT = { tag = QNG}
+		NOT = { tag = MCH}
+		NOT = { is_emperor_of_china = yes }
+		NOT = { has_reform = h_reform_warlord_2 }
+		NOT = { has_reform = h_reform_warlord_1 }
+		NOT = { has_reform = h_reform_warlord_4 }
+		NOT = { has_reform = reform_warlord_5 }
+	}
+	maintain_dynasty = yes
+	lock_level_when_selected = yes
+	factions = {
+		temples
+		enuchs
+		bureaucrats
+	}
+	fixed_rank = 1
+	modifiers = {
+		land_forcelimit = 10
+	}
+	
+	ai = {
+		factor = 100
+	}
+
+	custom_attributes = {
+		locked_government_type = yes
+	}
+
+	conditional = {
+		allow = { has_dlc = "Mandate of Heaven" }
+		has_meritocracy = yes
+		factions = {}
+	}
+}
+
+h_reform_warlord_4 = {
+	icon = "celestial_empire"
+	allow_normal_conversion = yes
+	potential = {
+		AND = {
+			culture_group = east_asian
+			technology_group = chinese
+		}
+		NOT = { tag = QNG}
+		NOT = { tag = MCH}
+		NOT = { is_emperor_of_china = yes }
+		NOT = { has_reform = h_reform_warlord_2 }
+		NOT = { has_reform = h_reform_warlord_1 }
+		NOT = { has_reform = h_reform_warlord_3 }
+		NOT = { has_reform = reform_warlord_5 }
+	}
+	maintain_dynasty = yes
+	lock_level_when_selected = yes
+	factions = {
+		temples
+		enuchs
+		bureaucrats
+	}
+	fixed_rank = 2
+	modifiers = {
+		land_forcelimit = 10
+		manpower_recovery_speed = 0.20
+	}
+	
+	ai = {
+		factor = 1000
+	}
+
+	custom_attributes = {
+		locked_government_type = yes
+	}
+
+	conditional = {
+		allow = { has_dlc = "Mandate of Heaven" }
+		has_meritocracy = yes
+		factions = {}
+	}
+}
+
+#Chinese 'Horde'
+
+reform_warlord_5 = {
+	icon = "horde_riding"
+	allow_normal_conversion = yes
+	potential = {
+		AND = {
+			OR = {
+				tag = MCH
+				tag = QNG
+			}
+			NOT = { is_emperor_of_china = yes }
+			NOT = { has_reform = h_reform_warlord_1 }
+			NOT = { has_reform = h_reform_warlord_2 }
+			NOT = { has_reform = h_reform_warlord_3 }
+			NOT = { has_reform = h_reform_warlord_4 }	
+		}
+	}
+	maintain_dynasty = yes
+	lock_level_when_selected = yes
+	factions = {
+		temples
+		enuchs
+		bureaucrats
+	}
+	fixed_rank = 2
+	modifiers = {
+		shock_damage = 0.1
+		land_maintenance_modifier = -0.1
+		global_manpower_modifier = 0.2
+		land_forcelimit_modifier = 0.2
+		loot_amount = 0.50
+		reinforce_cost_modifier = -0.5
+		cav_to_inf_ratio = 0.1
+		movement_speed = 0.2
+		years_of_nationalism = -5
+	}
+	
+	ai = {
+		factor = 1000
 	}
 
 	custom_attributes = {

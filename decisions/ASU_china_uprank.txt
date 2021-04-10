@@ -1,0 +1,53 @@
+country_decisions = {
+	uprank_to_two = {
+		major = yes
+		potential = {
+			has_reform = h_reform_warlord_1
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		allow = {
+			has_reform = h_reform_warlord_1
+            total_development = 100
+		}
+		effect = {
+            add_government_reform = h_reform_warlord_2
+		}
+	}
+
+    uprank_to_three = {
+		major = yes
+		potential = {
+			has_reform = h_reform_warlord_2
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		allow = {
+			has_reform = h_reform_warlord_2
+            total_development = 200
+		}
+		effect = {
+            add_government_reform = h_reform_warlord_3
+		}
+	}
+
+    uprank_to_four = {
+		major = yes
+		potential = {
+			has_reform = h_reform_warlord_3
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		allow = {
+			has_reform = h_reform_warlord_3
+            total_development = 500
+		}
+		effect = {
+            add_government_reform = h_reform_warlord_4
+            add_prestige = 100
+		}
+	}
+}

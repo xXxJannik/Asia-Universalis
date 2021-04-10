@@ -91,3 +91,27 @@ gov_warlord4 = {
 		has_reform = h_reform_warlord_4
 	}
 }
+
+gov_warlord5 = {
+	rank = {
+		1 = WARLORD5
+		2 = WARLORD5
+		3 = WARLORD5
+	}
+	
+	ruler_male = {
+		1 = WarlordTitle5
+		2 = WarlordTitle5
+		3 = WarlordTitle5
+	}
+	
+	ruler_female = {
+		1 = WarlordTitle5
+		2 = WarlordTitle5
+		3 = WarlordTitle5
+	}
+	
+	trigger = {
+		has_reform = reform_warlord_5
+	}
+}

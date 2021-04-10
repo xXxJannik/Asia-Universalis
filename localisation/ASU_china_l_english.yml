@@ -1,20 +1,97 @@
 ﻿l_english:
- h_reform_warlord_1:0 "Warlord Clique"
- h_reform_warlord_1_desc:0 "A rebel Nation led by a Warlord."
- H_WARLORD1:0 "Warlord Clique"
- H_WarlordTitle1:0 "Warlord"
+ h_reform_warlord_1:0 "Rebellious region"
+ h_reform_warlord_1_desc:0 "A rebellious region led by a Warlord."
+ H_WARLORD1:0 "Rebellious region"
+ H_WarlordTitle1:0 "Rebel leader"
+
+ h_reform_warlord_2:0 "Unorganized Warlord Clique"
+ h_reform_warlord_2_desc:0 "A rebel Nation led by a Warlord."
+ H_WARLORD2:0 "Unorganized Warlord Clique"
+ H_WarlordTitle2:0 "Warlord"
+
+ h_reform_warlord_3:0 "Organized Warlord Clique"
+ h_reform_warlord_3_desc:0 "An organized Warlord Clique."
+ H_WARLORD3:0 "Organized Warlord Clique"
+ H_WarlordTitle3:0 "Warlord"
+
+ h_reform_warlord_4:0 "Chinese Kingdom"
+ h_reform_warlord_4_desc:0 "A Kingdom that claims the Mandate of Heaven."
+ H_WARLORD4:0 "Chinese Kingdom"
+ H_WarlordTitle4:0 "Pretender"
+
+ reform_warlord_5:0 "Chinese Horde"
+ reform_warlord_5_desc:0 "A Horde that interferes in Chinese affaires and claims the Mandate of Heaven."
+ WARLORD5:0 "Chinese Horde"
+ WarlordTitle5:0 "Khan"
+
  promote_cavalry_decree: "Boost Cavalry Corps"
  promote_cavalry_decree_title: "Boost Cavalry Corps"
  promote_cavalry_decree_desc: "Hello world"
 
-expand_diplomacy_decree: "Expand the Diplomatic Court"
-expand_diplomacy_decree_title: "Expand the Diplomatic Court"
-expand_diplomacy_decree_desc: ""
+ expand_diplomacy_decree: "Expand the Diplomatic Court"
+ expand_diplomacy_decree_title: "Expand the Diplomatic Court"
+ expand_diplomacy_decree_desc: ""
 
-state_improvments_decree: "Introduce new laws"
-state_improvments_decree_title: "Introduce new laws"
-state_improvments_decree_desc: ""
+ state_improvments_decree: "Introduce new laws"
+ state_improvments_decree_title: "Introduce new laws"
+ state_improvments_decree_desc: ""
 
-support_missionaries_decree: "Support religious affaires"
-support_missionaries_decree_title: "Support religious affaires"
-support_missionaries_decree_desc: ""
+ support_missionaries_decree: "Support religious affaires"
+ support_missionaries_decree_title: "Support religious affaires"
+ support_missionaries_decree_desc: ""
+
+
+ uprank_to_two_title:0 "Centralise power"
+ uprank_to_two_desc:0 "We have managed to rebell against our previous overlord. Now it is our time to rule."
+ uprank_to_two:0 ""
+
+ uprank_to_three_title:0 "Organize a state"
+ uprank_to_three_desc:0 "We need to increase our centralisation and secure our position."
+ uprank_to_three:0 ""
+
+ uprank_to_four_title:0 "Form a Royal Dynastie"
+ uprank_to_four_desc:0 "We will form a new Royal Dynastie and shall rule with the Mandate of Heaven!"
+ uprank_to_four:0 ""
+
+
+ GREAT_MING:0 "Great Ming"
+ GREAT_MING_ADJ:0 "Ming"
+ GREAT_MING_ADJ2:0 "Ming"
+
+ GREAT_QING:0 "Great Qing"
+ GREAT_QING_ADJ:0 "Qing"
+ GREAT_QING_ADJ2:0 "Qing"
+
+ GREAT_SHUN:0 "Great Shun"
+ GREAT_SHUN_ADJ:0 "Shun"
+ GREAT_SHUN_ADJ2:0 "Shun"
+
+ GREAT_XI:0 "Great Xi"
+ GREAT_XI_ADJ:0 "Xi"
+ GREAT_XI_ADJ2:0 "Xi"
+
+ GREAT_YUE:0 "Great Yue"
+ GREAT_YUE_ADJ:0 "Yue"
+ GREAT_YUE_ADJ2:0 "Yue"
+
+ GREAT_WU:0 "Great Wu"
+ GREAT_WU_ADJ:0 "Wu"
+ GREAT_WU_ADJ2:0 "Wu"
+
+ declare_great_ming_title:0 "Start a legendary bloodline"
+ declare_great_ming_desc:0 "We have risen beyond our expectations, we survived many threats and problems. We truly have legendary blood."
+
+ declare_great_qing_title:0 "Start a legendary bloodline"
+ declare_great_qing_desc:0 "We have risen beyond our expectations, we survived many threats and problems. We truly have legendary blood."
+
+ declare_great_shun_title:0 "Start a legendary bloodline"
+ declare_great_shun_desc:0 "We have risen beyond our expectations, we survived many threats and problems. We truly have legendary blood."
+
+ declare_great_xi_title:0 "Start a legendary bloodline"
+ declare_great_xidesc:0 "We have risen beyond our expectations, we survived many threats and problems. We truly have legendary blood."
+
+ declare_great_yue_title:0 "Start a legendary bloodline"
+ declare_great_yue_desc:0 "We have risen beyond our expectations, we survived many threats and problems. We truly have legendary blood."
+
+ declare_great_wu_title:0 "Start a legendary bloodline"
+ declare_great_wu_desc:0 "We have risen beyond our expectations, we survived many threats and problems. We truly have legendary blood."
