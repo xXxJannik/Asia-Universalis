@@ -4,12 +4,12 @@ l_german:
  H_WARLORD1:0 "Rebellen"
  H_WarlordTitle1:0 "Rebellen Anführer"
 
- h_reform_warlord_2:0 "Unorgarnisierte Kriegsherren Clique"
+ h_reform_warlord_2:0 "Unorgarnisierte Clique"
  h_reform_warlord_2_desc:0 "Eine unorgarnisierte Rebellen gruppierung, angeführt von einem Kriegsherren."
  H_WARLORD2:0 "Unorgarnisierte Kriegsherren Clique"
  H_WarlordTitle2:0 "Kriegsherr"
 
- h_reform_warlord_3:0 "Orgarnisierte Kriegsherren Clique"
+ h_reform_warlord_3:0 "Orgarnisierte Clique"
  h_reform_warlord_3_desc:0 "Eine orgarnisierte Rebellen gruppierung, angeführt von einem Kriegsherren."
  H_WARLORD3:0 "Orgarnisierte Kriegsherren Clique"
  H_WarlordTitle3:0 "Kriegsherr"
