@@ -1,0 +1,477 @@
+
+# Huai Army (China, Anhui, Huai River)
+merc_huai_army = {
+    regiments_per_development = 0.05
+	cavalry_weight = 0.1
+	cavalry_cap = 2
+    home_province = 688
+	sprites = { dlc068_mng_sprite_pack mng_base_sprite_pack }
+    trigger = {
+		OR = {
+			capital_scope = {
+				OR = {
+					superregion = china_superregion 
+					superregion = tartary_superregion
+				}
+			}
+			any_owned_province = {
+				superregion = china_superregion 
+			}
+			has_country_modifier = mercenaries_to_the_standard
+			has_country_modifier = glut_of_mercs
+		}
+	}
+	modifier = { }
+}
+
+# Xiang Army (China, Hunan, Xiang River)
+merc_xiang_army = {
+    regiments_per_development = 0.05
+	cavalry_weight = 0.1
+	cavalry_cap = 2
+    home_province = 2174
+	sprites = { dlc068_mng_sprite_pack mng_base_sprite_pack }
+    trigger = {
+		OR = {
+			capital_scope = {
+				OR = {
+					superregion = china_superregion 
+					superregion = tartary_superregion
+				}
+			}
+			any_owned_province = {
+				superregion = china_superregion 
+			}
+			has_country_modifier = mercenaries_to_the_standard
+			has_country_modifier = glut_of_mercs
+		}
+	}
+	modifier = { }
+}
+
+# Lang Bing/Wolf Troops (Guangxi)
+merc_wolf_troops = {
+    regiments_per_development = 0.025
+	cavalry_weight = 0.1
+	cavalry_cap = 2
+	cost_modifier = 1.2
+    home_province = 2164
+	sprites = { dlc068_mng_sprite_pack mng_base_sprite_pack }
+    trigger = {
+		any_owned_province = {
+			OR = {
+				superregion = china_superregion
+				region = indo_china_region
+				region = manchuria_region
+				region = korea_region
+			}
+		}
+	}
+	modifier = {
+        shock_damage = 0.1
+	}
+}
+
+# Mercenaries from Shanxi
+merc_shanxi_guard = {
+    regiments_per_development = 0.05
+	cavalry_weight = 0.1
+	cavalry_cap = 2
+    home_province = 2177
+	sprites = { dlc068_mng_sprite_pack mng_base_sprite_pack }
+    trigger = { 
+		capital_scope = {
+			OR = {
+				superregion = china_superregion 
+				superregion = tartary_superregion
+				region = korea_region
+			}
+		}
+	}
+	modifier = { }
+}
+
+# Mercenaries from Yongning, where the She-An Rebellion started
+merc_yongning_warriors = {
+    regiments_per_development = 0.05
+	cavalry_weight = 0.1
+	cavalry_cap = 2
+    home_province = 4213
+	sprites = { dlc068_mng_sprite_pack mng_base_sprite_pack }
+    trigger = { 
+		capital_scope = {
+			OR = {
+				superregion = china_superregion 
+				superregion = tartary_superregion
+			}
+		}
+	}
+	modifier = { }
+}
+
+# Kanto Ronin
+merc_kanto_ronin = {
+    regiments_per_development = 0.025
+    home_province = 1028
+	sprites = { dlc068_jap_sprite_pack jap_base_sprite_pack }
+    trigger = {
+		capital_scope = { region = japan_region }
+	}
+	modifier = { }
+}
+
+# Kyushu Wokou
+merc_kyushu_wokou = {
+    regiments_per_development = 0.025
+    home_province = 1818
+	sprites = { dlc067_smz_sprite_pack jap_base_sprite_pack }
+    trigger = {
+		any_owned_province = {
+			OR = {
+				region = japan_region
+				region = manchuria_region
+				region = korea_region
+			}
+		}
+	}
+	modifier = { }
+}
+
+# Shikoku Yojimbo
+merc_shikoku_yojimbo = {
+    regiments_per_development = 0.025
+    home_province = 1819
+	sprites = { dlc067_hsk_sprite_pack jap_base_sprite_pack }
+    trigger = {	
+		capital_scope = { region = japan_region }
+	}
+	modifier = { }
+}
+
+merc_purbiyas = {
+    regiments_per_development = 0.04
+    home_province = 555
+	sprites = { dlc092_jnp_sprite_pack dlh_base_sprite_pack }
+    trigger = {
+		capital_scope = { superregion = india_superregion }
+	}
+	modifier = { }
+}
+
+# Gurkhas
+merc_gorkhalis = {
+    regiments_per_development = 0.025
+    home_province = 4485
+    cost_modifier = 1.5
+	sprites = { dlc091_npl_sprite_pack indiangfx_sprite_pack }
+    trigger = {
+		OR = {
+			any_owned_province = {
+				superregion = india_superregion
+			}
+			has_country_modifier = mercenaries_to_the_standard
+			has_country_modifier = glut_of_mercs
+		}
+	}
+	modifier = {
+        infantry_power = 0.05
+        shock_damage = 0.05
+	}
+}
+
+# Gosains
+merc_gosains = {
+    regiments_per_development = 0.03
+	cavalry_weight = 0.1
+	cavalry_cap = 2
+	cost_modifier = 1.2
+    home_province = 523
+	sprites = { dlc092_jnp_sprite_pack indiangfx_sprite_pack }
+    trigger = {
+		religion = hinduism
+		any_owned_province = {
+			superregion = india_superregion
+		}
+	}
+	modifier = {
+        land_morale = 0.05
+	}
+}
+
+# Tamil Company
+merc_tamil_company = {
+    regiments_per_development = 0.05
+	cavalry_weight = 0.1
+	cavalry_cap = 2
+    home_province = 2085 # Tiruchirappalli
+	sprites = { dlc024_vij_sprite_pack vij_base_sprite_pack }
+    trigger = {
+		any_owned_province = {
+			OR = {
+				region = deccan_region
+				region = coromandel_region
+			}
+		}
+	}
+	modifier = { }
+}
+
+merc_company_of_the_ganges = {
+    regiments_per_development = 0.03
+    home_province = 4497 # Kannauj
+	sprites = { dlc092_jnp_sprite_pack dlh_base_sprite_pack }
+    trigger = {
+		any_owned_province = {
+			OR = {
+				region = bengal_region
+				region = hindusthan_region
+				region = west_india_region
+			}
+		}
+	}
+	modifier = { }
+}
+
+# Banjaras
+merc_banjara_company = {
+    regiments_per_development = 0.05
+    cavalry_weight = 0.4
+	cavalry_cap = 2
+	home_province = 514
+	sprites = { dlc091_mer_sprite_pack indiangfx_sprite_pack }
+    trigger = {
+		capital_scope = { superregion = india_superregion }
+	}
+	modifier = { }
+}
+
+# Bukhara Band
+merc_bukhara_band = {
+    regiments_per_development = 0.05
+	cavalry_weight = 0.4
+	cavalry_cap = 2
+	home_province = 442
+	sprites = { dlc048_tim_sprite_pack muslimgfx_sprite_pack }
+    trigger = {
+		any_owned_province = {
+			OR = {
+				region = persia_region
+				region = khorasan_region
+				region = central_asia_region
+				region = caucasia_region
+			}
+		}
+	}
+	modifier = { }
+}
+
+merc_delhi_mamluks = {
+    regiments_per_development = 0.05
+    cavalry_weight = 0.4
+	cavalry_cap = 2
+    home_province = 522
+	sprites = { dlh_base_sprite_pack }
+	trigger = { 
+		religion_group = muslim
+		capital_scope = {
+			superregion = india_superregion
+		}
+	}
+    modifier = { }
+}
+
+merc_tonkinese_army = {
+    regiments_per_development = 0.05
+    home_province = 2372
+	sprites = { dlc041_dai_sprite_pack dlc090_south_east_asian_elephant_sprite_pack asiangfx_sprite_pack }
+	cost_modifier = 1.1
+	trigger = {
+		OR = {
+			capital_scope = {
+				OR = {
+					superregion = china_superregion
+					superregion = east_indies_superregion
+				}
+			}
+			any_owned_province = {
+				region = indo_china_region
+			}
+			has_country_modifier = mercenaries_to_the_standard
+			has_country_modifier = glut_of_mercs
+		}
+	}
+    modifier = {
+		land_attrition = -0.2
+		reinforce_speed = 0.2
+	}
+}
+
+merc_mongol_mercenaries = {
+    regiments_per_development = 0.05
+    cavalry_weight = 0.4
+	cavalry_cap = 2
+	home_province = 2190
+	cost_modifier = 1.5
+	sprites = { dlc069_kha_sprite_pack muslimgfx_sprite_pack }
+	trigger = {
+		OR = {
+			any_neighbor_country = {
+				culture_group = altaic
+			}
+			culture_group = altaic
+			any_owned_province = {
+				OR = {
+					culture_group = altaic
+					region = north_china_region
+					region = mongolia_region
+					region = manchuria_region
+					region = central_asia_region
+				}
+			}
+		}
+	}
+    modifier = {
+        cavalry_power = 0.2
+    }
+}
+
+merc_tabarestan_company = {
+    regiments_per_development = 0.03
+    home_province = 417 # Lahijan
+	sprites = { dlc079_tab_sprite_pack muslimgfx_sprite_pack }
+	trigger = {
+		capital_scope = { superregion = persia_superregion }
+	}
+    modifier = { }
+}
+
+
+merc_buryat_band = {
+    regiments_per_development = 0.02
+    artillery_weight = 0 # No artillery
+	cost_modifier = 1.1
+    home_province = 1058 # Onan Gol
+	sprites = { asiangfx_sprite_pack }
+	trigger = {
+		any_owned_province = {
+			OR = {
+				region = east_siberia_region
+				region = mongolia_region
+				region = north_china_region
+				region = manchuria_region
+				region = korea_region
+			}
+		}
+	}
+    modifier = {
+        movement_speed = 0.1
+		raze_power_gain = 0.1
+	}
+}
+
+
+merc_kutai_company = {
+    regiments_per_development = 0.03
+	home_province = 638 # Kutai
+	sprites = { asiangfx_sprite_pack }
+	trigger = {
+		OR = {
+			capital_scope = {
+				superregion = east_indies_superregion
+			}
+			any_owned_province = {
+				region = indonesia_region
+			}
+			has_country_modifier = mercenaries_to_the_standard
+			has_country_modifier = glut_of_mercs
+		}
+	}
+    modifier = { }
+}
+
+
+merc_colonial_rangers = {
+    regiments_per_development = 0.025
+    home_province = 2569 # Eskikewakik, eventually Halifax, Nova Scotia
+    cost_modifier = 1.25
+	sprites = { dlc016_eng_sprite_pack westerngfx_sprite_pack }
+	trigger = { 
+		is_random_new_world = no
+		2569 = {
+			is_city = yes
+			owner = {
+				OR = {
+					is_colonial_nation = yes
+					is_former_colonial_nation = yes
+				}
+			}
+		}
+		OR = {
+			is_colonial_nation = yes
+			is_former_colonial_nation = yes
+			any_subject_country = {
+				is_colonial_nation = yes
+			}
+		}
+	}
+    modifier = {
+		movement_speed = 0.1
+        land_morale = 0.1
+	}
+}
+
+merc_kazakh_company = {
+    regiments_per_development = 0.05
+    home_province = 478 # Argyn
+	cavalry_weight = 0.4
+	cavalry_cap = 2
+	sprites = { dlc048_shy_sprite_pack muslimgfx_sprite_pack }
+	trigger = {
+		OR = {
+			capital_scope = { region = central_asia_region }
+			has_estate = estate_nomadic_tribes
+			any_neighbor_country = {
+				has_estate = estate_nomadic_tribes
+			}
+			has_country_modifier = mercenaries_to_the_standard
+			has_country_modifier = glut_of_mercs
+		}
+	}
+    modifier = { }
+}
+
+
+merc_thai_company = {
+    regiments_per_development = 0.03
+    home_province = 600
+	sprites = { ayu_base_sprite_pack }
+	trigger = {
+		any_owned_province = {
+			region = indo_china_region
+		}
+	}
+    modifier = { }
+}
+
+merc_mongol_banner = {
+    regiments_per_development = 0.05
+	cavalry_weight = 0.4
+	cavalry_cap = 2
+	home_province = 718
+	sprites = { dlc069_kha_sprite_pack muslimgfx_sprite_pack }
+	trigger = {
+		OR = {
+			tag = MJZ
+			tag = MHX
+			tag = MYR
+			tag = MCH
+			tag = QNG
+			tag = EJZ
+		}
+		mission_completed = mch_khan_of_the_mongols
+	}
+	cost_modifier = 1.1
+	modifier = {
+        cavalry_shock =1.0
+	}
+}
