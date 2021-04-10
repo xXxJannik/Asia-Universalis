@@ -5,7 +5,19 @@ h_reform_warlord_1 = {
 		AND = {
 			culture_group = east_asian
 			technology_group = chinese
+			government_rank = 1
+			NOT = {
+				total_development = 100
+			}
 		}
+
+		NOT = { tag = QNG}
+		NOT = { tag = MCH}
+		NOT = { is_emperor_of_china = yes }
+		NOT = { has_reform = h_reform_warlord_2 }
+		NOT = { has_reform = h_reform_warlord_3 }
+		NOT = { has_reform = h_reform_warlord_4 }
+		NOT = { has_reform = reform_warlord_5 }
 	}
 	maintain_dynasty = yes
 	lock_level_when_selected = yes
@@ -21,7 +33,7 @@ h_reform_warlord_1 = {
 	}
 	
 	ai = {
-		factor = 0 #never
+		factor = 1
 	}
 
 	custom_attributes = {
@@ -43,7 +55,18 @@ h_reform_warlord_2 = {
 		AND = {
 			culture_group = east_asian
 			technology_group = chinese
+			government_rank = 1
+			NOT = {
+				total_development = 200
+			}
 		}
+		NOT = { tag = QNG}
+		NOT = { tag = MCH}
+		NOT = { is_emperor_of_china = yes }
+		NOT = { has_reform = h_reform_warlord_1 }
+		NOT = { has_reform = h_reform_warlord_3 }
+		NOT = { has_reform = h_reform_warlord_4 }
+		NOT = { has_reform = reform_warlord_5 }
 	}
 	maintain_dynasty = yes
 	lock_level_when_selected = yes
@@ -59,7 +82,7 @@ h_reform_warlord_2 = {
 	}
 	
 	ai = {
-		factor = 0 #never
+		factor = 10
 	}
 
 	custom_attributes = {
@@ -80,7 +103,18 @@ h_reform_warlord_3 = {
 		AND = {
 			culture_group = east_asian
 			technology_group = chinese
+			government_rank = 1
+			NOT = {
+				total_development = 500
+			}
 		}
+		NOT = { tag = QNG}
+		NOT = { tag = MCH}
+		NOT = { is_emperor_of_china = yes }
+		NOT = { has_reform = h_reform_warlord_2 }
+		NOT = { has_reform = h_reform_warlord_1 }
+		NOT = { has_reform = h_reform_warlord_4 }
+		NOT = { has_reform = reform_warlord_5 }
 	}
 	maintain_dynasty = yes
 	lock_level_when_selected = yes
@@ -95,7 +129,7 @@ h_reform_warlord_3 = {
 	}
 	
 	ai = {
-		factor = 0 #never
+		factor = 100
 	}
 
 	custom_attributes = {
@@ -117,6 +151,13 @@ h_reform_warlord_4 = {
 			culture_group = east_asian
 			technology_group = chinese
 		}
+		NOT = { tag = QNG}
+		NOT = { tag = MCH}
+		NOT = { is_emperor_of_china = yes }
+		NOT = { has_reform = h_reform_warlord_2 }
+		NOT = { has_reform = h_reform_warlord_1 }
+		NOT = { has_reform = h_reform_warlord_3 }
+		NOT = { has_reform = reform_warlord_5 }
 	}
 	maintain_dynasty = yes
 	lock_level_when_selected = yes
@@ -132,7 +173,7 @@ h_reform_warlord_4 = {
 	}
 	
 	ai = {
-		factor = 0 #never
+		factor = 1000
 	}
 
 	custom_attributes = {
@@ -152,9 +193,16 @@ reform_warlord_5 = {
 	icon = "horde_riding"
 	allow_normal_conversion = yes
 	potential = {
-		OR = {
-			tag = MCH
-			tag = QNG
+		AND = {
+			OR = {
+				tag = MCH
+				tag = QNG
+			}
+			NOT = { is_emperor_of_china = yes }
+			NOT = { has_reform = h_reform_warlord_1 }
+			NOT = { has_reform = h_reform_warlord_2 }
+			NOT = { has_reform = h_reform_warlord_3 }
+			NOT = { has_reform = h_reform_warlord_4 }	
 		}
 	}
 	maintain_dynasty = yes
@@ -178,7 +226,7 @@ reform_warlord_5 = {
 	}
 	
 	ai = {
-		factor = 0 #never
+		factor = 1000
 	}
 
 	custom_attributes = {

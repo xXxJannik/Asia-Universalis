@@ -1405,33 +1405,6 @@ on_mandate_of_heaven_gained = {
 		name = new_mandate_holder
 		duration = 9125
 	}
-	1816 = {
-		if = {
-			limit = {
-				NOT = { owned_by = root }
-				NOT = { is_core = root }
-			}
-			add_core = root
-		}
-	}
-	1821 = {
-		if = {
-			limit = {
-				NOT = { owned_by = root }
-				NOT = { is_core = root }
-			}
-			add_core = root
-		}
-	}
-	667 = {
-		if = {
-			limit = {
-				NOT = { owned_by = root }
-				NOT = { is_core = root }
-			}
-			add_core = root
-		}
-	}
 	china_superregion = {
 		limit = {
 			NOT = { is_core = ROOT }
