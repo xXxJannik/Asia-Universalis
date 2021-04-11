@@ -1,6 +1,7 @@
 government = monarchy
 add_government_reform = h_reform_warlord_1
-technology_group = chinese
+primary_culture = yi
 religion = confucianism
-primary_culture = chihan
-capital = 4195 #Zhending
+technology_group = chinese
+capital = 675	# Umung
+
