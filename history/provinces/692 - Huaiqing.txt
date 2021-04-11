@@ -1,8 +1,8 @@
 #692 - Handan
 
-owner = LNG
-controller = LNG
-add_core = LNG
+owner = TNG
+controller = TNG
+add_core = TNG
 culture = jin
 religion = confucianism
 capital = "Huaiqing"

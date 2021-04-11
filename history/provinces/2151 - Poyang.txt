@@ -1,8 +1,8 @@
 # 2151 - Poyang
 
-owner = MIN
-controller = MIN
-add_core = MIN
+owner = NNG
+controller = NNG
+add_core = NNG
 culture = gan
 religion = confucianism
 capital = "Poyang"

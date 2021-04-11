@@ -1,8 +1,8 @@
 #683 - Nanchang
 
-owner = CMI
-controller = CMI
-add_core = CMI
+owner = NNG
+controller = NNG
+add_core = NNG
 culture = gan
 religion = confucianism
 capital = "Nanchang"
@@ -12,7 +12,6 @@ base_tax = 7
 base_production = 7
 base_manpower = 4
 is_city = yes
-add_core = NNG
 discovered_by = chinese
 discovered_by = nomad_group
 
