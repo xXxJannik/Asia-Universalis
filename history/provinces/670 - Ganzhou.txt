@@ -1,8 +1,8 @@
 #670 - Ganzhou
 
-owner = CMI
-controller = CMI
-add_core = CMI
+owner = HUA
+controller = HUA
+add_core = HUA
 culture = hakka
 religion = confucianism
 capital = "Ganzhou"

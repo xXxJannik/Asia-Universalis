@@ -1,8 +1,8 @@
 # 2158 - Shiukwan
 
-owner = CMI
-controller = CMI
-add_core = CMI
+owner = HUA
+controller = HUA
+add_core = HUA
 culture = hakka
 religion = confucianism
 capital = "Shiukwan"
