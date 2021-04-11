@@ -1,8 +1,8 @@
 # 2179 - Yan'an
 
-owner = CSH
-controller = CSH
-add_core = CSH
+owner = QIN
+controller = QIN
+add_core = QIN
 culture = jin
 religion = confucianism
 capital = "Yan'an"
