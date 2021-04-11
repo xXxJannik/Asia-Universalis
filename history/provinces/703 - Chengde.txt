@@ -1,10 +1,10 @@
 #703 - Chengde
 
-owner = KRC
-controller = KRC
-add_core = KRC
+owner = MNG
+controller = MNG
+add_core = MNG
 culture = chahar
-religion = vajrayana
+religion = confucianism
 capital = "Chengde"
 trade_goods = livestock
 hre = no

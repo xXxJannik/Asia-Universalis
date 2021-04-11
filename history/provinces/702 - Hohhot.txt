@@ -1,9 +1,9 @@
 #702 - Ulanqab
 
-owner = MNG
-controller = MNG
-add_core = MNG
-culture = mongol
+owner = JIN
+controller = JIN
+add_core = JIN
+culture = jin
 religion = vajrayana
 capital = "Hohhot"
 trade_goods = iron
@@ -12,7 +12,6 @@ base_tax = 4
 base_production = 4
 base_manpower = 4
 is_city = yes
-add_core = KHA
 
 
 
