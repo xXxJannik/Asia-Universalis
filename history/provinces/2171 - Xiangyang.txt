@@ -1,18 +1,17 @@
 # 2171 - Xiangyang
 
-owner = MNG
-controller = MNG
-add_core = MNG
+owner = CXI
+controller = CXI
+add_core = CXI
 culture = hubei
 religion = confucianism
 capital = "Xiangyang"
 trade_goods = gems #Turquoise
 hre = no
-base_tax = 4 
-base_production = 4
-base_manpower = 3
+base_tax = 5 
+base_production = 5
+base_manpower = 4
 is_city = yes
-add_core = CXI
 
 
 

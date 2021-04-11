@@ -1,18 +1,17 @@
 # 2157 - Waichow
 
-owner = MNG
-controller = MNG
-add_core = MNG
+owner = YUE
+controller = YUE
+add_core = YUE
 culture = hakka
 religion = confucianism
 capital = "Waichow"
 trade_goods = grain
 hre = no
-base_tax = 7
-base_production = 7
-base_manpower = 3
+base_tax = 8
+base_production = 8
+base_manpower = 4
 is_city = yes
-add_core = YUE
 
 
 

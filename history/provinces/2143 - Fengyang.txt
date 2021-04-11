@@ -1,16 +1,16 @@
 # 2143 - Fengyang
 
-owner = MNG
-controller = MNG
-add_core = MNG
+owner = LNG
+controller = LNG
+add_core = LNG
 culture = zhongyuan
 religion = confucianism
 capital = "Fengyang"
 trade_goods = silk
 hre = no
-base_tax = 2 
-base_production = 1
-base_manpower = 1
+base_tax = 3 
+base_production = 2
+base_manpower = 2
 is_city = yes
 
 

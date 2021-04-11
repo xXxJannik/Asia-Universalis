@@ -1,16 +1,16 @@
 #4223 - Hetao
 
-owner = MNG
-controller = MNG
-add_core = MNG
+owner = CSH
+controller = CSH
+add_core = CSH
 culture = mongol
 religion = vajrayana
 capital = "Otog"
 trade_goods = livestock
 hre = no
-base_tax = 1 
-base_production = 1
-base_manpower = 2
+base_tax = 2 
+base_production = 2
+base_manpower = 3
 is_city = yes
 add_core = KHA
 discovered_by = chinese

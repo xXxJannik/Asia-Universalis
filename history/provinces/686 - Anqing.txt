@@ -1,16 +1,16 @@
 #686 - Anqing (can't change file name)
 
-owner = MNG
-controller = MNG
-add_core = MNG
+owner = CHC
+controller = CHC
+add_core = CHC
 culture = jianghuai
 religion = confucianism
 capital = "Anqing"
 trade_goods = cloth
 hre = no
-base_tax = 6 
-base_production = 6
-base_manpower = 2
+base_tax = 7 
+base_production = 7
+base_manpower = 3
 is_city = yes
 
 

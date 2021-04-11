@@ -1,16 +1,16 @@
 #4196 - Haizhou
 
-owner = MNG
-controller = MNG
-add_core = MNG
+owner = LNG
+controller = LNG
+add_core = LNG
 culture = jianghuai
 religion = confucianism
 capital = "Haizhou"
 trade_goods = fish
 hre = no
-base_tax = 3 
-base_production = 3
-base_manpower = 2
+base_tax = 4 
+base_production = 4
+base_manpower = 3
 is_city = yes
 
 extra_cost = 10

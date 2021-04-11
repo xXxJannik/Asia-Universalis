@@ -1,18 +1,17 @@
 #665 - Jiangmen
 
-owner = MNG
-controller = MNG
-add_core = MNG
+owner = YUE
+controller = YUE
+add_core = YUE
 culture = cantonese
 religion = confucianism
 capital = "Shiuhing"
 trade_goods = chinaware
 hre = no
-base_tax = 4 
-base_production = 4
-base_manpower = 3
+base_tax = 5 
+base_production = 5
+base_manpower = 4
 is_city = yes
-add_core = YUE
 
 
 

@@ -1,16 +1,16 @@
 #1829 - Xiamen
 
-owner = MNG
-controller = MNG
-add_core = MNG
+owner = MIN
+controller = MIN
+add_core = MIN
 culture = chimin
 religion = confucianism
 capital = "Quanzhou"
 trade_goods = tea
 hre = no
-base_tax = 8 
-base_production = 8
-base_manpower = 3
+base_tax = 9 
+base_production = 9
+base_manpower = 4
 is_city = yes
 add_core = MIN
 

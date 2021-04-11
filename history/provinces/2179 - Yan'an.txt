@@ -1,18 +1,17 @@
 # 2179 - Yan'an
 
-owner = MNG
-controller = MNG
-add_core = MNG
+owner = CSH
+controller = CSH
+add_core = CSH
 culture = jin
 religion = confucianism
 capital = "Yan'an"
 trade_goods = grain
 hre = no
-base_tax = 3 
-base_production = 3
-base_manpower = 2
+base_tax = 4 
+base_production = 4
+base_manpower = 3
 is_city = yes
-add_core = QIN
 #fort_15th = yes #the Nine Garrisons
 
 
