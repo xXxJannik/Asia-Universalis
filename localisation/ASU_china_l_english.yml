@@ -30,6 +30,12 @@
  KoreanKing:0 "Wang"
  KoreanQueen:0 "Kwin"
 
+ reform_japan:0 "Japanese Empire"
+ reform_japan_desc:0 "The Eastern Empire"
+ JapaneseEmperorRank:0 "Japanese Empire"
+ JapaneseEmperor:0 "Tenno"
+ JapaneseEmpress:0 "Kogo"
+
  promote_cavalry_decree: "Boost Cavalry Corps"
  promote_cavalry_decree_title: "Boost Cavalry Corps"
  promote_cavalry_decree_desc: "Hello world"

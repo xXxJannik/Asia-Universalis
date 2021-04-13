@@ -266,3 +266,30 @@ reform_korea = {
 	conditional = {
 	}
 }
+
+
+#Japan
+
+reform_japan = {
+	icon = "chinese_palace"
+	allow_normal_conversion = yes
+	potential = {
+		tag = JAP
+	}
+	lock_level_when_selected = yes
+	fixed_rank = 3
+	modifiers = {
+		ae_impact = 0.2
+	}
+	
+	ai = {
+		factor = 1000
+	}
+
+	custom_attributes = {
+		locked_government_type = yes
+	}
+
+	conditional = {
+	}
+}

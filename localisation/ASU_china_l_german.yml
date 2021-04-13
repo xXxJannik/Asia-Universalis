@@ -24,6 +24,18 @@ l_german:
  WARLORD5:0 "Chinesische Horde"
  WarlordTitle5:0 "Khan"
 
+ reform_korea:0 "Josoen Königreich"
+ reform_korea_desc:0 "Das Schildkröten Reich"
+ KoreanKingRank:0 "Josoen Königreich"
+ KoreanKing:0 "Wang"
+ KoreanQueen:0 "Kwin"
+
+ reform_japan:0 "Japanisches Reich"
+ reform_japan_desc:0 "Das östliche Kaiserreich"
+ JapaneseEmperorRank:0 "Japanisches Reich"
+ JapaneseEmperor:0 "Tenno"
+ JapaneseEmpress:0 "Kogo"
+
  promote_cavalry_decree: "Verstärkte Pferdezucht"
  promote_cavalry_decree_title: "Verstärkte Pferdezucht"
  promote_cavalry_decree_desc: "Hello world"

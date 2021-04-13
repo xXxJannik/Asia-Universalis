@@ -116,7 +116,7 @@ gov_warlord5 = {
 	}
 }
 
-gov_warlord6 = {
+gov_korea = {
 	rank = {
 		1 = KoreanKingRank
 		2 = KoreanKingRank
@@ -137,5 +137,29 @@ gov_warlord6 = {
 	
 	trigger = {
 		has_reform = reform_korea
+	}
+}
+
+gov_japan = {
+	rank = {
+		1 = JapaneseEmperorRank
+		2 = JapaneseEmperorRank
+		3 = JapaneseEmperorRank
+	}
+	
+	ruler_male = {
+		1 = JapaneseEmperor
+		2 = JapaneseEmperor
+		3 = JapaneseEmperor
+	}
+	
+	ruler_female = {
+		1 = JapaneseEmpress
+		2 = JapaneseEmpress
+		3 = JapaneseEmpress
+	}
+	
+	trigger = {
+		has_reform = reform_japan
 	}
 }
