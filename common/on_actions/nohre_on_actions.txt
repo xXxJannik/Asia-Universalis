@@ -1,0 +1,29 @@
+on_startup = {
+	if = { # Removes all provinces from the HRE
+		limit = {
+			any_province = {
+				is_part_of_hre = yes
+			}
+		}
+		set_in_empire = no
+	}
+	if = { # Dismantle HRE Effect
+		limit = {
+			any_country = { 
+				OR = {
+					is_part_of_hre = yes 
+					is_part_of_hre = no
+				}
+			}
+		}
+		dismantle_hre = yes
+	}
+	if = { # Removes the Free City reform from any country that has it.
+		limit = {
+			has_reform = free_city 
+		}
+		country_event = { 
+			id = free_cities.2
+		}
+	}
+}
