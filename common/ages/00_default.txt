@@ -177,63 +177,6 @@ age_of_discovery = {
 				factor = 10
 			}
 		}
-		
-		ab_ottoman_siege_ability = {
-			allow = {
-				tag = TUR
-			}
-			modifier = {
-				siege_ability = 0.33
-			}
-			ai_will_do = {
-				factor = 100
-			}
-		}
-		
-		ab_portugal_colonial_growth = {
-		
-			allow = {
-				tag = POR
-			}
-			modifier = {
-				global_colonial_growth = 50
-			}
-			ai_will_do = {
-				factor = 100
-			}
-		}
-		ab_denmark_reduced_lib_desire = {
-		
-			allow = {
-				tag = DAN
-			}
-			modifier = {
-				reduced_liberty_desire = 30
-			}
-			ai_will_do = {
-				factor = 100
-				modifier = {
-					factor = 0
-					NOT = {
-						any_subject_country = {
-							liberty_desire = 20
-						}
-					}
-				}
-			}
-		}
-		ab_venice_ship_trade = {
-		
-			allow = {
-				tag = VEN
-			}
-			modifier = {
-				global_ship_trade_power = 0.5
-			}
-			ai_will_do = {
-				factor = 100
-			}
-		}
 	}
 }
 
@@ -384,19 +327,6 @@ age_of_reformation = {
 				factor = 10
 			}
 		}
-
-	
-		ab_spain_tercio = {
-			allow = {
-				tag = SPA
-			}
-			modifier = {
-				shock_damage_received = -0.3
-			}
-			ai_will_do = {
-				factor = 100
-			}
-		}
 		ab_mughal_artillery = {
 			allow = {
 				tag = MUG
@@ -407,23 +337,7 @@ age_of_reformation = {
 			ai_will_do = {
 				factor = 100
 			}
-		}
-		
-		ab_polish_legitimacy = {
-			allow = {
-				OR = {
-					tag = PLC
-					tag = POL
-				}
-			}
-			modifier = {
-				global_trade_goods_size_modifier = 0.33
-			}
-			ai_will_do = {
-				factor = 100
-			}
-		}
-		
+		}		
 		ab_persia_reinforce = {
 			allow = {
 				tag = PER
@@ -438,14 +352,7 @@ age_of_reformation = {
 	
 	}
 	
-	
-	
-
-	
 }
-
-
-
 
 age_of_absolutism = {
 	start = 1620
@@ -577,42 +484,6 @@ age_of_absolutism = {
 				factor = 100
 			}
 		}
-	
-	
-		ab_france_fire_damage = {
-			allow = {
-				tag = FRA
-			}
-			modifier = {
-				fire_damage = 0.2
-			}
-			ai_will_do = {
-				factor = 100
-			}
-		}
-		ab_dutch_anti_corruption = {
-			allow = {
-				tag = NED
-			}
-			modifier = {
-				yearly_corruption = -0.2
-			}
-			ai_will_do = {
-				factor = 100
-			}
-		}	
-		ab_sweden_manpower = {
-			allow = {
-				tag = SWE
-			}
-			modifier = {
-				manpower_recovery_speed = 0.35
-			}
-			ai_will_do = {
-				factor = 100
-			}
-		}
-
 		ab_manchu_banner = {
 			allow = {
 				OR = {
@@ -768,50 +639,6 @@ age_of_revolutions = {
 						}
 					}
 				}
-			}
-		}
-		ab_pru_military = {
-			allow = {
-				tag = PRU
-			}
-			modifier = {
-				fire_damage_received = -0.2
-			}
-			ai_will_do = {
-				factor = 100
-			}
-		}
-		ab_gbr_fleet = {
-			allow = {
-				tag = GBR
-			}
-			modifier = {
-				naval_maintenance_modifier = -0.33
-			}
-			ai_will_do = {
-				factor = 100
-			}
-		}
-		ab_russia_boost = {
-			allow = {
-				tag = RUS
-			}
-			modifier = {
-				governing_capacity_modifier = 0.33
-			}
-			ai_will_do = {
-				factor = 100
-			}
-		}
-		ab_austria_rep = {
-			allow = {
-				tag = HAB
-			}
-			modifier = {
-				diplomatic_reputation = 5
-			}
-			ai_will_do = {
-				factor = 100
 			}
 		}
 	}
