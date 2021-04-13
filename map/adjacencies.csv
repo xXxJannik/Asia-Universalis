@@ -1,14 +1,8 @@
 From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
-1017;1818;sea;1390;4853;1213;4848;1208;Suo-Chikuzen
-1014;4186;sea;1390;4860;1202;4872;1202;Bungo-Iyo
-4186;1825;sea;1390;4881;1219;4880;1214;Aki-Iyo
 2159;666;sea;1370;-1;-1;-1;-1;Jiangmen-Hainan
 597;620;sea;1361;4403;657;4415;672;Johor-Siak
 659;2677;sea;1361;4435;636;4433;631;Riau-Palembang
 1050;4658;sea;1379;5014;1562;5017;1564;Deren-Nanghaer
-1820;1021;sea;1391;4912;1219;4919;1223;Awa-Settsu
-4131;4193;sea;1387;4999;1357;5005;1351;Oshima-Mutsu
-1032;1852;sea;4225;5099;1408;5073;1386;Kurils-Tokachi
 394;396;sea;4347;3589;1076;3592;1074;Al Hasa-Bahrain
 395;396;sea;4347;3596;1071;3601;1071;Qatar-Bahrain
 4354;4351;sea;4357;4726;791;4732;786;Zamboanga-Buglas
@@ -40,4 +34,18 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 4351;4352;sea;1397;-1;-1;-1;-1;Buglas-Cebu
 1017;4651;sea;1376;-1;-1;-1;-1;Suo-Tsushima
 2745;4651;sea;1376;-1;-1;-1;-1;Gyeongju-Tsushima
+1017;1818;sea;1390;4853;1213;4848;1208;Suo-Chikuzen
+1014;4186;sea;1390;4860;1202;4872;1202;Bungo-Iyo
+206;1825;sea;1390;4881;1219;4880;1214;Aki-Matsayam
+227;221;sea;1980;-1;-1;-1;-1;Sado-Nagaoka
+207;1021;sea;1391;-1;-1;-1;-1;Awaji-Settsu
+207;1820;sea;1391;-1;-1;-1;-1;Awaji-Awa
+211;4193;sea;1387;4999;1357;5005;1351;Oshima-Mutsu
+1032;209;sea;4225;5099;1408;5073;1386;Kurils-Tokachi
+1018;228;sea;1388;-1;-1;-1;-1;Izumo-Dogojima
+4181;231;sea;1389;-1;-1;-1;-1;Higo-Shimoshima
+203;230;sea;1390;-1;-1;-1;-1;Miyakonojo-Tanegashima
+230;229;sea;1392;-1;-1;-1;-1;Tanegashima-Yakushima
+235;236;sea;1392;-1;-1;-1;-1;Amami-Amagi
+236;1015;sea;1392;-1;-1;-1;-1;Amagi-Okinawa
 -1;-1;;-1;-1;-1;-1;-1;-1;

@@ -293,7 +293,7 @@ normandy_area = { #4
 }
 
 provence_area = { #3
-	201 202 2991 4696
+	
 }
 
 poitou_area = { #4
@@ -309,7 +309,7 @@ pyrenees_area = { #4
 }
 
 languedoc_area = { #5
-	200 2753 4391 4695 196
+	
 }
 
 bourgogne_area = { #3
@@ -327,7 +327,7 @@ massif_central_area = { #3
 }
 
 savoy_dauphine_area = { #3 Savoy and Dauphiné, Upper Burgundy 
-	203 204 205 4719
+	 
 }
 
 lorraine_area = { #4
@@ -389,69 +389,69 @@ north_brabant_area = { #3
 ########################################
 
 aragon_area = { #4
-	211 214 2990 4557
+	
 }
 
 catalonia_area = { #5
-	197 212 213 2987 2988
+	
 }
 
 valencia_area = { #5
-	220 1750 4549 4550
+	
 }
 
 lower_andalucia_area = { #5
-	224 225 1748 1749 4548
+	
 }
 
 upper_andalucia_area = { #4
-	222 223 226 4546
+	
 }
 
 castille_area = { #5
 	color = { 58 58 207 }
-	215 217 2755 4551 4789
+	
 }
 
 toledo_area = { #5
-	219 221 2751 2754 4547
+	
 }
 
 asturias_area = { #4
-	 207 1745 4552 1746
+	
 }
 
 galicia_area = { #4
-	206 4554 4555 4558
+	
 }
 
 baleares_area = {
-	333 4559 4560
+	
 }
 
 basque_country = { #3
-	209 210 2989
+	
 }
 
 leon_area = { #3
 	color = { 243 235 28 }
-	208 216 4553 
+	
 }
 
 extremadura_area = {
-	4788 218 1747
+	
 }
 
 beieras_area = { #4
-	231 232 228 1851 4556
+	
 }
 
 alentejo_area = { #5
-	227 229 230 4150 4787
+	
 }
 
 macaronesia_area = { #3
-	366 367 368 4565
+	
 }
 
 ########################################
@@ -541,47 +541,47 @@ ulster_area = { #3
 }
 
 kingdom_of_the_isles_area = { #3
-	253 4364 4365
+	
 }
 
 highlands_area = { #5
-	250 252 369 4110 4363
+	
 }
 
 lowlands_area = { #5
-	248 249 251 4361 4362
+	
 }
 
 wales_area = { #4
-	241 242 4366 4369
+	
 }
 
 scottish_marches_area = { #4
-	246 247 244 4375
+	
 }
 
 yorkshire_area = { #4
-	245 4367 4368 4785
+	
 }
 
 west_midlands_area = { #3
-	239 240 4372
+	
 }
 
 east_midlands_area = { #3
-	243 1861 4376
+	
 }
 
 wessex_area = { #5
-	233 234 4130 4373 4374
+	
 }
 
 home_counties_area = { #4
-	235 236 237 4371 
+	
 }
 
 east_anglia_area = { #3
-	238 1860 4370
+	
 }
 
 ########################################
@@ -2510,6 +2510,10 @@ kyushu_area = { #4 #Southern Kyushu
 
 northern_kyushu = {
 	1014 1818 4182 4651
+}
+
+test_area = {
+	200 201 202 203 204 205 206 207 208 209 210 211 212 213 214 215 216 217 218 219 220 221 222 223 224 225 226 227 228 229 230 231 232 233 234 235 236 237 238 239 
 }
 
 shikoku_area = { #3

@@ -27,32 +27,6 @@ china_superregion = {
 	south_china_region
 }
 
-europe_superregion = { #Western Europe
-
-	restrict_charter		# harder to get TC here.
-
-	france_region
-	iberia_region
-	italy_region
-	british_isles_region
-	south_german_region
-	north_german_region
-	scandinavia_region
-	low_countries_region
-}
-
-eastern_europe_superregion = {
-	restrict_charter		# harder to get TC here.
-
-	poland_region
-	baltic_region
-	russia_region
-	ruthenia_region
-	carpathia_region
-	balkan_region
-	crimea_region
-	ural_region
-}
 
 tartary_superregion = {
 	east_siberia_region
@@ -83,10 +57,6 @@ southern_africa_superregion = {
 	central_africa_region
 }
 
-south_america_superregion = { # amazonia
-	brazil_region
-	colombia_region
-}
 
 andes_superregion = {
 	peru_region
