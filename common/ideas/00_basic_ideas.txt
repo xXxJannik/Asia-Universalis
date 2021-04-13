@@ -853,6 +853,17 @@ exploration_ideas = {
 			factor = 0.75
 			is_year = 1600
 		}
+		modifier = {
+			factor = 50
+			capital_scope = {
+				OR = {
+					region = indonesia_region 
+					region = moluccas_region 
+					region = malaya_region 	
+					region = australia_region		
+				}
+			}
+		}
 						
 	}
 }
