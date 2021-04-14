@@ -48,4 +48,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 230;229;sea;1392;-1;-1;-1;-1;Tanegashima-Yakushima
 235;236;sea;1392;-1;-1;-1;-1;Amami-Amagi
 236;1015;sea;1392;-1;-1;-1;-1;Amagi-Okinawa
+20;26;sea;1389;-1;-1;-1;-1;Wando-Gagjin
+21;4228;sea;1389;-1;-1;-1;-1;Yeosu-Boseong
 -1;-1;;-1;-1;-1;-1;-1;-1;

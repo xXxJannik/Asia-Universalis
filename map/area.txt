@@ -2468,24 +2468,8 @@ south_sulawesi_area = { #4
 # Korea & Japan                        #
 ########################################
 
-pyongan_area = { #3
-	1845 2744 4232
-}
-
-hamgyeong_area = { #3
-	732 2742 2743
-}
-
-western_korea_area = { #4 (Hwanghae + Gyeonggi)
-	733 735 4230 4231
-}
-
-eastern_korea_area = { #5 (Gangwon +  Gyeongsang)
-	734 736 2694 2745 4227
-}
-
 south_korea_area = { #4 (Jeolla, Chungcheong) +Jeju
-	 737 1013 2741 4228 4229
+	 
 }
 
 hokkaido_area = { #5
@@ -2514,10 +2498,6 @@ northern_kyushu = {
 
 test_area = {
 	200 201 202 203 204 205 206 207 208 209 210 211 212 213 214 215 216 217 218 219 220 221 222 223 224 225 226 227 228 229 230 231 232 233 234 235 236 237 238 239 
-}
-
-test_area_two = {
-	20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81
 }
 
 shikoku_area = { #3
@@ -2549,6 +2529,76 @@ sanindo_area = { #4
 saigoku_area = { #4 #Sanyodo
 	1017 1019 1825 4184
 }
+
+basun_area = {
+	2745 33 32 30 23 
+}
+
+jinju_area = {
+	4227 52 28 4228 27 
+}
+
+korean_shore_area = {
+	2741 20 21 22
+}
+
+mokpo_area = {
+	24 26 25 34
+}
+
+jeonju_area = {
+	737 41 42 35 4229
+}
+
+yeongcheon_area = {
+	36 40 39 736 38
+}
+
+seosan_area = {
+	44 1013 43 4230 50
+}
+
+cheongju_area = {
+	71 51 53 54 55
+}
+
+cheongsong_area = {
+	37 46 45 47 48
+}
+
+western_korea_area = { #4 (Hwanghae + Gyeonggi)
+	733 735 4231 734 58
+}
+
+eastern_korea_area = { #5 (Gangwon +  Gyeongsang)
+	2694 66 68 49 56
+}
+
+chon_dong_area = {
+	61 60 65 59 57
+}
+
+
+pyongan_area = { #3
+	1845 2744 4232 74 73
+}
+
+sungho_guyok_area = {
+	62 64 63 67
+}
+
+hamhung_area = {
+	70 72 732 80 
+}
+
+jangjin_area = {
+	69 76 75 77
+}
+
+hamgyeong_area = { #3
+    2742 2743 81 78 79
+}
+
 
 ########################################
 # North Asia     	                   #
