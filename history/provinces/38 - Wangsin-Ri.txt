@@ -1,0 +1,16 @@
+#Riga Bight, incl. the city of Riga, and D�nam�nde.
+
+owner = KOR
+controller = KOR
+culture = korean
+religion = confucianism
+trade_goods = fish
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+is_city = yes
+add_core = KOR
+discovered_by = chinese
+discovered_by = nomad_group
+1721.8.30 = { owner = RUS add_core = RUS remove_core = SWE } # The Peace of Nystad
