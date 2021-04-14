@@ -1,14 +1,10 @@
 #62 - Leipzig
 
-latent_trade_goods = {
-	coal
-}
-
 owner = KOR
 controller = KOR
 culture = korean
 religion = confucianism
-trade_goods = fish
+trade_goods = grain
 hre = no
 base_tax = 1
 base_production = 1
