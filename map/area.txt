@@ -2468,68 +2468,92 @@ south_sulawesi_area = { #4
 # Korea & Japan                        #
 ########################################
 
-south_korea_area = { #4 (Jeolla, Chungcheong) +Jeju
-	 
-}
-
 hokkaido_area = { #5
-	1031 1032 1847 1852 4193
+	1031 1847 4193 208
 }
 
 hokuriku_area = { #3
-	1023 1024 1837
+	1023 1837 225
 }
 
 kanto_area = { #3 #Western Kanto
-	1028 1843 4189
+	1028 4189 1029 239
 }
 
 eastern_kanto_area = { #3
-	1027 4190 4191
+	1027 4190 4191 218
 }
 
 kyushu_area = { #4 #Southern Kyushu
-	1012 1015 4180 4181
+	1012 4180 4181 203 231
 }
 
 northern_kyushu = {
-	1014 1818 4182 4651
+	1014 4182 202 201 200
 }
 
-test_area = {
-	200 201 202 203 204 205 206 207 208 209 210 211 212 213 214 215 216 217 218 219 220 221 222 223 224 225 226 227 228 229 230 231 232 233 234 235 236 237 238 239 
-}
 
 shikoku_area = { #3
-	1819 1820 4186
+	1819 4186 204 206 205
 }
 
 eastern_chubu_area = { #4
-	1029 1839 4188 4360
+	1839 4360 1030 4359 237 
 }
 
-chubu_area = { #3 (Western Chubu)
-	color = { 219 83 61 }
-	1030 1835 4359
-}
 
 kinai_area = { #4
 	color = { 208 206 65 }
-	1020 1021 1832 4187
+	 1021 1832 4187 207 1820 
 }
 
 thohoku_area = { #4
-	1025 1026 4131 4192
+	1025 1026 220 216 217
 }
 
 sanindo_area = { #4
-	1018 1830 4183 4185 
+	1018 1830 4183 4184
 }
 
 saigoku_area = { #4 #Sanyodo
-	1017 1019 1825 4184
+	1017 1825 1818 232 233
 }
 
+#mod
+south_japanese_islands_area = {
+	1015 236 235 229 230
+}
+
+japanese_coastal_islands_area = {
+	4651 228 227
+}
+
+east_hokkaido_area = {
+	1032 210 209 1852 
+}
+
+hirosaki_area = {
+	211 219 213 212
+}
+
+mutsu_area = {
+	4192 4131 214 215
+}
+
+katashina_area = {
+	222 221 1024 223 1843
+}
+
+saku_area = {
+	224 226 4188 1835
+}
+
+kyoto_area = {
+	234 238 1019 1020 4185
+}
+
+
+#Korea
 basun_area = {
 	2745 33 32 30 23 
 }

@@ -684,6 +684,21 @@ korea_region = {
 		western_korea_area
 		eastern_korea_area
 		south_korea_area
+		basun_area
+		jinju_area
+		korean_shore_area
+		mokpo_area
+		jeonju_area
+		yeongcheon_area
+		seosan_area
+		cheongju_area
+		cheongsong_area
+		chon_dong_area
+		pyongan_area
+		sungho_guyok_area
+		hamhung_area
+		jangjin_area
+		hamgyeong_area
 	}
 	monsoon = {
 		00.06.01
@@ -842,6 +857,14 @@ japan_region = {
 		sanindo_area
 		shikoku_area
 		northern_kyushu
+		south_japanese_islands_area
+		japanese_coastal_islands_area
+		east_hokkaido_area
+		hirosaki_area
+		mutsu_area
+		katashina_area
+		saku_area
+		kyoto_area
 	}
 	monsoon = {
 		00.06.01
