@@ -290,7 +290,7 @@
  confucian_events.11.a:0 "We must teach them the proper ways!"
  confucian_events.11.b:0 "Let us accommodate this abstraction."
  confucian_events.12.t:0 "Translations of the Classics"
- confucian_events.12.d:0 "The [harmonization_province.Religion.GetName]s are a people with strong traditions and rites and their adherence to the archaic language of their own teachings is holding them back from progressing towards civilization. If they are to ever elevate themselves from the Barbarian Yi of this world we must perhaps ensure that the classics and the proper rites are available for them to digest in their own language.\nThere are some scholars that have already begun to create such works. Should we encourage them to continue synthesizing their old religious concepts with the sublime principles of Confucius?"
+ confucian_events.12.d:1 "Believers of the [harmonization_province.Religion.GetName] faith are a people with strong traditions and rites and their adherence to the archaic language of their own teachings is holding them back from progressing towards civilization. If they are to ever elevate themselves from the Barbarian Yi of this world we must perhaps ensure that the classics and the proper rites are available for them to digest in their own language.\nThere are some scholars that have already begun to create such works. Should we encourage them to continue synthesizing their old religious concepts with the sublime principles of Confucius?"
  confucian_events.12.a:0 "Let them create their own version of proper form."
  confucian_events.12.b:0 "This would be a travesty on our ideology!"
  confucian_events.13.t:0 "Faith of [Root.Adm_Advisor.GetName]"

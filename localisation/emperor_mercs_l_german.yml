@@ -24,7 +24,7 @@
  MERCENARY_COMPANY_MANPOWER_DELAYED:1 "Söldnerkompanien schöpfen Rekruten aus ihrer eigenen Rekrutenreserve ab, um sich zu verstärken. Während die Kompanie angeheuert ist, wächst die Rekrutenreserve langsam. Ist die Kompanie nicht im Feld, erholt sie sich viel schneller."
  MERCENARY_COMPANY_EFFECTS:0 "Aus $COMPANY|Y$-Traditionen:\n"
  REINFORCE_MERCENARY_COMPANY_EXTRA:0 " und $VALUE$ aus $COMPANY|Y$"
- MERC_COMP_MANPOWER_BASE:0 "Die maximale Rekrutenreserve von $MP|Y$ basiert auf $VAL|Y$ ursprünglichen Regimentern."
+ MERC_COMP_MANPOWER_BASE:0 "Die maximale Rekrutenreserve von $MP|Y$ basiert auf $VAL|Y$ ursprünglichen Regimentern."
  MERC_COMP_MANPOWER_CHANGE:0 " Modifiziert um $VAL|+=2%$ aufgrund von:\n$WHY$"
  BUILD_UNIT_NOT_MERCENARY_COMPANY:0 "Söldnerkompanien können keine weiteren Einheiten rekrutieren."
  alert_mercenary_company_low_manpower_instant:1 "§YGeringe Rekrutenreserve in einer Söldnerkompanie§!"
