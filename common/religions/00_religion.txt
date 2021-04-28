@@ -1952,12 +1952,14 @@ dharmic = {
 					}
 				}
 			}
+		}
 	}
 	
 	harmonized_modifier = harmonized_dharmic
 	
 	crusade_name = CRUSADE
 }
+
 
 pagan = {
 
