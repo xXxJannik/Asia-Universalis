@@ -109,6 +109,7 @@ plutocratic_reform = {
 		trade_city_reform = trading_city
 	ai = {
 		factor = 0.75 #generic
+		}
 	}
 }
 
