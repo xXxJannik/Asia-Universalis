@@ -1,16 +1,16 @@
-#4939 - Te Moana a Toi
+#1108 - Tauranga
 
-add_core = MAA
-owner = MAA
-controller = MAA
+add_core = TEA
+owner = TEA
+controller = TEA
 culture = maori
 religion = animism
 hre = no
-capital = "Whakatame"
+capital = "Tauranga"
 is_city = yes
-trade_goods = gems
-base_tax = 4 
-base_production = 4
+trade_goods = grain
+base_tax = 3 
+base_production = 3
 base_manpower = 1
 discovered_by = polynesian_tech
 
