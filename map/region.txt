@@ -674,6 +674,18 @@ manchuria_region = {
 		central_heilongjiang_area
 		sakhalin_area
 		furdan_area
+		dalian_area
+		andong_area
+		manjiang_area
+		hunchun_area
+		jixi_area
+		yaran_area
+		wanino_area
+		duki_area
+		hurha_area
+		xingfu_area
+		yilan_area
+		khalkhgol_area
 	}
 }
 
