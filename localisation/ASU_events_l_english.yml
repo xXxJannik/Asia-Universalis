@@ -1,4 +1,5 @@
 l_english:
- ASU_advisor_delayed_tooltip:0 "Not yet"
+ ASU_commandant_delayed_tooltip:0 "Not yet"
+ ASU_grand_captain_delayed_tooltip:0 "Not yet"
  ASU_commandant_delayed:0 "Commandant delayed"
  ASU_grand_captain_delayed:0 "Grand Captain delayed"

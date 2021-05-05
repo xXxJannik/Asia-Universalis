@@ -1045,7 +1045,7 @@ country_event = {
 	}
 
 	option = {
-		name = "ASU_advisor_delayed_tooltip"	# I dont want this advisor now
+		name = "ASU_grand_captain_delayed_tooltip"	# I dont want this advisor now
 		ai_chance = {
 			factor = 1
 			modifier = {
@@ -1205,7 +1205,7 @@ country_event = {
 	}
 
 	option = {
-		name = "ASU_advisor_delayed_tooltip"	# I dont want this advisor now
+		name = "ASU_commandant_delayed_tooltip"	# I dont want this advisor now
 		ai_chance = {
 			factor = 1
 			modifier = {
