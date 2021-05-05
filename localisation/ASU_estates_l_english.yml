@@ -1,4 +1,8 @@
 ﻿l_english:
+
+ estate_ASU_tribes:0 "Tribes"
+ estate_ASU_tribes_desc:0 "This estate is represented by a collection of local chiefs. They rule mostly over autonomous steppe regions."
+
  estate_herding_rights:0 "Prime herding rights"
  estate_herding_rights_desc:0 "By granting herding rights we will secure our position."
  ASU_estate_herding_rights_tooltip:0 "Will grant -5% development cost on steppe provinces."

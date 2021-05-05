@@ -1,4 +1,8 @@
 ﻿l_german:
+
+ estate_ASU_tribes:0 "Stämme"
+ estate_ASU_tribes_desc:0 "Dieser Stand,wenn man es so nennen möchte, wird vertreten von einigen wenigen Stammoberhäupten."
+
  estate_herding_rights:0 "Vorrecht auf Herdengebiet"
  estate_herding_rights_desc:0 "Indem wir Vorrechte auf Herdengebiete vergeben, werden unsere Untertanen diese Gebiete besiedeln."
  ASU_estate_herding_rights_tooltip:0 "Alle Steppenprovinzen werden -5% Entwicklungskosten kriegen."
