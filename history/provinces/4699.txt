@@ -1,9 +1,9 @@
-owner = ASK
-controller = ASK
-add_core = ASK
+owner = MJZ
+controller = MJZ
+add_core = MJZ
 culture = manchu
 religion = confucianism
-trade_goods = fur
+trade_goods = grain
 hre = no
 base_tax = 1 
 base_production = 1

@@ -1,8 +1,8 @@
-owner = ASK
-controller = ASK
-add_core = ASK
+owner = EJZ
+controller = EJZ
+add_core = EJZ
 culture = manchu
-religion = confucianism
+religion = tengri_pagan_reformed
 trade_goods = fur
 hre = no
 base_tax = 1 
