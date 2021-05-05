@@ -3939,7 +3939,7 @@ sankin_kotai_palaces = {
 }
 
 
-terra_cotta_army = {
+terracotta = {
 	# province it starts in
 	start = 700 #Xi'an
 	
