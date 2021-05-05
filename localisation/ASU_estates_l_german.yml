@@ -1,0 +1,6 @@
+﻿l_german:
+ estate_herding_rights:0 "Vorrecht auf Herdengebiet"
+ estate_herding_rights_desc:0 "Indem wir Vorrechte auf Herdengebiete vergeben, werden unsere Untertanen diese Gebiete besiedeln."
+ ASU_estate_herding_rights_tooltip:0 "Alle Steppenprovinzen werden -5% Entwicklungskosten kriegen."
+ ASU_estate_herding_rights_revoke_tooltip:0 "Wird alle Vorrechte auf Herdengebiete entfernen."
+ ASU_estate_herding_rights_modifier:0 "Vorrecht auf Herdengebiet vergeben"

@@ -1,0 +1,55 @@
+estate_herding_rights = {
+	icon = privilege_monopoly_of_goods_livestock
+	max_absolutism = -5
+	influence = 0.1
+	loyalty = 0.05
+	is_valid = {
+		has_dlc = "Emperor"
+		any_owned_province = {
+			has_terrain = steppe
+		}
+	}
+	on_granted = {
+		custom_tooltip = ASU_estate_herding_rights_tooltip
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_terrain = steppe
+				}
+				add_province_modifier = {
+					name = ASU_estate_herding_rights_modifier
+					duration = -1
+				}
+			}
+		}
+	}
+	on_revoked = {
+		custom_tooltip = ASU_estate_herding_rights_revoke_tooltip
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = ASU_estate_herding_rights_modifier
+				}
+				remove_province_modifier = ASU_estate_herding_rights_modifier
+			}
+		}
+	}
+	on_invalid = {
+		custom_tooltip = ASU_estate_herding_rights_revoke_tooltip
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = ASU_estate_herding_rights_modifier
+				}
+				remove_province_modifier = ASU_estate_herding_rights_modifier
+			}
+		}
+	}
+	penalties = {
+	}
+	benefits = {
+	}
+	ai_will_do = {
+		factor = 10
+	}
+}

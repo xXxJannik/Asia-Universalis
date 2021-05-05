@@ -1,0 +1,7 @@
+﻿l_english:
+ estate_herding_rights:0 "Prime herding rights"
+ estate_herding_rights_desc:0 "By granting herding rights we will secure our position."
+ ASU_estate_herding_rights_tooltip:0 "Will grant -5% development cost on steppe provinces."
+ ASU_estate_herding_rights_revoke_tooltip:0 "Will remove any prime herding rights modifier."
+ ASU_estate_herding_rights_modifier:0 "Herding rights granted"
+ 

@@ -11803,3 +11803,7 @@ ASU_commandant_delayed = {
 ASU_grand_captain_delayed = {
 	land_morale = 0.001
 }
+
+ASU_estate_herding_rights_modifier = {
+	local_development_cost = -0.05
+}
