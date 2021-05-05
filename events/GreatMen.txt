@@ -1043,6 +1043,22 @@ country_event = {
 		}
 		set_country_flag = grand_captain
 	}
+
+	option = {
+		name = "ASU_advisor_delayed_tooltip"	# I dont want this advisor now
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 100
+				is_at_war = no
+			}
+		}
+		#delayed for 20 years
+		add_country_modifier = {
+			name = "ASU_grand_captain_delayed"
+			duration = 7300
+		}
+	}
 }
 
 
@@ -1127,6 +1143,7 @@ country_event = {
 	trigger = {
 		commandant = 3
 		NOT = { has_country_flag = commandant }
+		NOT = { has_county_modifier = ASU_commandant_delayed}
 	}
 	
 	mean_time_to_happen = {
@@ -1185,6 +1202,22 @@ country_event = {
 			duration = 2190
 		}
 		set_country_flag = commandant
+	}
+
+	option = {
+		name = "ASU_advisor_delayed_tooltip"	# I dont want this advisor now
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 100
+				is_at_war = no
+			}
+		}
+		#delayed for 20 years
+		add_country_modifier = {
+			name = "ASU_commandant_delayed"
+			duration = 7300
+		}
 	}
 }
 

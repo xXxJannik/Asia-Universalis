@@ -11793,3 +11793,13 @@ monument_church_of_the_people = {
 shwedagon_pilgrimage = {
 	trade_efficiency = 0.15
 }
+
+#ASU
+
+ASU_commandant_delayed = {
+	discipline = 0.001
+}
+
+ASU_grand_captain_delayed = {
+	land_morale = 0.001
+}
