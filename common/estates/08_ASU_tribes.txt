@@ -58,6 +58,7 @@ estate_ASU_tribes = {
 
 	privileges = {
 		estate_herding_rights
+        estate_tribal_deal
 	}
 
 	agendas = {

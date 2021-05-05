@@ -11807,3 +11807,8 @@ ASU_grand_captain_delayed = {
 ASU_estate_herding_rights_modifier = {
 	local_development_cost = -0.05
 }
+
+ASU_estate_tribal_deal_modifier = {
+	local_manpower_modifier = 0.1
+	local_autonomy = 0.05
+}

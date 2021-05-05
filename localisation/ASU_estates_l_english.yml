@@ -5,7 +5,13 @@
 
  estate_herding_rights:0 "Prime herding rights"
  estate_herding_rights_desc:0 "By granting herding rights we will secure our position."
- ASU_estate_herding_rights_tooltip:0 "Will grant -5% development cost on steppe provinces."
+ ASU_estate_herding_rights_tooltip:0 "Will grant -5% development cost on steppe provinces. Unlocks further privileges."
  ASU_estate_herding_rights_revoke_tooltip:0 "Will remove any prime herding rights modifier."
  ASU_estate_herding_rights_modifier:0 "Herding rights granted"
+
+ estate_tribal_deal:0 "Make a deal with the Tribes"
+ estate_tribal_deal_desc:0 "We will require their levies, in return we will grant them more autonomy."
+ ASU_estate_tribal_deal_tooltip:0 "We will gain 10% more manpower in eligible provinces in exchange for local autonomy."
+ ASU_estate_tribal_deal_revoke_tooltip:0 "Will break the deal."
+ ASU_estate_tribal_deal_modifier:0 "Tribal deal"
  

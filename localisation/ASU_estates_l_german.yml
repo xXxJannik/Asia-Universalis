@@ -5,6 +5,12 @@
 
  estate_herding_rights:0 "Vorrecht auf Herdengebiet"
  estate_herding_rights_desc:0 "Indem wir Vorrechte auf Herdengebiete vergeben, werden unsere Untertanen diese Gebiete besiedeln."
- ASU_estate_herding_rights_tooltip:0 "Alle Steppenprovinzen werden -5% Entwicklungskosten kriegen."
+ ASU_estate_herding_rights_tooltip:0 "Alle Steppenprovinzen werden -5% Entwicklungskosten kriegen. Schaltet weitere Privilegien frei."
  ASU_estate_herding_rights_revoke_tooltip:0 "Wird alle Vorrechte auf Herdengebiete entfernen."
  ASU_estate_herding_rights_modifier:0 "Vorrecht auf Herdengebiet vergeben"
+
+ estate_tribal_deal:0 "Macht einen Vertrag mit den Stämmen"
+ estate_tribal_deal_desc:0 "Wir werden ihre Männer rekrutieren dürfen, im gegenzug erhalten sie mehr lokale Autonomie."
+ ASU_estate_tribal_deal_tooltip:0 "Alle Provinzen, die die Bedingung erfüllen, werden 10% mehr Rekruten hervorbringen, im Gegenzug erhalten die Provinzen mehr Autonomie."
+ ASU_estate_tribal_deal_revoke_tooltip:0 "Brecht den Vertrag."
+ ASU_estate_tribal_deal_modifier:0 "Vertrag mit den Stämmen"
