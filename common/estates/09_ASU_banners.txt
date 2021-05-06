@@ -5,7 +5,10 @@ estate_ASU_banners = {
 	trigger = {
 		has_dlc = "The Cossacks"
 		is_colonial_nation = no
-        has_reform = reform_warlord_5 #Chinese Horde
+		OR = {
+			has_reform = reform_warlord_5 #Chinese Horde
+			has_reform = celestial_empire
+		}
 	}
 
 	# These scale with loyalty & power
@@ -23,6 +26,32 @@ estate_ASU_banners = {
 	}
 
 	province_independence_weight = {
+		factor = 1
+		modifier = {
+			factor = 2
+			has_terrain = steppe
+		}
+		modifier = {
+			factor = 2
+			culture_group = owner
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { religion = owner }
+			NOT = { culture_group = owner }
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { development = 10 }
+		}
+		modifier = {
+			factor = 0.75
+			development = 15
+		}
+		modifier = {
+			factor = 0.75
+			development = 20
+		}
 	}
 
 	# Influence modifiers
@@ -31,6 +60,7 @@ estate_ASU_banners = {
 	influence_from_dev_modifier = 0.4
 
 	privileges = {
+		estate_banners_allow_banners
 	}
 
 	agendas = {

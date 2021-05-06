@@ -1,3 +1,5 @@
+#Tribal privileges
+
 estate_herding_rights = {
 	icon = privilege_monopoly_of_goods_livestock
 	land_share = 5
@@ -163,6 +165,28 @@ estate_tribal_production = {
 	penalties = {
 	}
 	benefits = {
+	}
+	ai_will_do = {
+		factor = 10
+	}
+}
+
+#banner privileges
+
+estate_banners_allow_banners = {
+	icon = privilege_promote_purbias
+	max_absolutism = -5
+	influence = 0.1
+	loyalty = 0.05
+	is_valid = {
+		has_dlc = "Mandate of Heaven"
+	}
+	penalties = {
+		add_corruption = 1
+		yearly_corruption = 0.1
+	}
+	benefits = {
+		amount_of_banners = 0.25
 	}
 	ai_will_do = {
 		factor = 10

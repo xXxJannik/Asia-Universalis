@@ -35,4 +35,9 @@
  ASU_estate_tribal_production_tooltip:0 "We will grant the Tribes more autonomy in exchange for more taxes."
  ASU_estate_tribal_production_revoke_tooltip:0 "We will no longer demand extra taxes."
  ASU_estate_tribal_production_modifier:0 "Increased Tribal taxes"
+
+ estate_banners_allow_banners:0 "Recruit Banners"
+ estate_banners_allow_banners_desc:0 "Introduces a new system where our most loyal soldiers and generals will benefit."
+ ASU_estate_allow_banners_tooltip:0 "Will allow the recruitment of Banners."
+ ASU_estate_allow_banners_revoke_tooltip:0 "Will stop any Banner recruitment."
  

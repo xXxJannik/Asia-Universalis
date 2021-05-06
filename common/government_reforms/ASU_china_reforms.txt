@@ -28,6 +28,7 @@ h_reform_warlord_1 = {
 	}
 	fixed_rank = 1
 	modifiers = {
+		amount_of_banners = -1
 		land_forcelimit = 3
 		land_maintenance_modifier = -0.2
 	}
@@ -77,6 +78,7 @@ h_reform_warlord_2 = {
 	}
 	fixed_rank = 1
 	modifiers = {
+		amount_of_banners = -1
 		land_forcelimit = 5
 		land_maintenance_modifier = -0.1
 	}
@@ -125,6 +127,7 @@ h_reform_warlord_3 = {
 	}
 	fixed_rank = 1
 	modifiers = {
+		amount_of_banners = -1
 		land_forcelimit = 10
 	}
 	
@@ -168,6 +171,7 @@ h_reform_warlord_4 = {
 	}
 	fixed_rank = 2
 	modifiers = {
+		amount_of_banners = -1
 		land_forcelimit = 10
 		manpower_recovery_speed = 0.20
 	}

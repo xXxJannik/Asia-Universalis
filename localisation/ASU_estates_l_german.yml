@@ -35,3 +35,8 @@
  ASU_estate_tribal_production_tooltip:0 "Wir werden mehr Steuern von den Stämmen erhalten, dafür kriegen sie Autonomie."
  ASU_estate_tribal_production_revoke_tooltip:0 "Wir werden nicht weiter mehr Steuern verlangen."
  ASU_estate_tribal_production_modifier:0 "Erhöhte Stammessteuern"
+
+ estate_banners_allow_banners:0 "Rekrutiert Banner"
+ estate_banners_allow_banners_desc:0 "Veranlasst ein neues System, in dem unsere loyalsten Männer profitieren."
+ ASU_estate_allow_banners_tooltip:0 "Erlaubt es uns Banner zu rekrutieren."
+ ASU_estate_allow_banners_revoke_tooltip:0 "Verbietet es uns Banner zu rekrutieren."
