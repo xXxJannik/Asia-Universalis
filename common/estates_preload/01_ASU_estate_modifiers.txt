@@ -15,8 +15,10 @@ estate_ASU_tribes = {
 			has_estate = estate_ASU_tribes
 		}
 	}
+}
 
-
+estate_ASU_banners = {
+	
 	#Banner estate
 	modifier_definition = {
 		type = loyalty
@@ -32,7 +34,9 @@ estate_ASU_tribes = {
 			has_estate = estate_ASU_banners
 		}
 	}
+}
 
+estate_ASU_janissaries = {
 	#Janissaries
 	modifier_definition = {
 		type = loyalty
