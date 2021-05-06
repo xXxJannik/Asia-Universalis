@@ -1,4 +1,4 @@
-estate_ASU_jannisaries = {
+estate_ASU_janissaries = {
 	icon = 13
 
 	# If true, country will get estate
@@ -19,7 +19,7 @@ estate_ASU_jannisaries = {
 		global_unrest = -2
 	}
 	land_ownership_modifier = {
-		ASU_jannisaries_loyalty_modifier = 0.2
+		ASU_janissaries_loyalty_modifier = 0.2
 	}
 
 	province_independence_weight = {

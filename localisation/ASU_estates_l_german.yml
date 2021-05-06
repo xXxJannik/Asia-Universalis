@@ -6,6 +6,18 @@
  ASU_tribes_loyalty_modifier:0 "Stamm Loyalität"
  ASU_tribes_influence_modifier:0 "Stamm Einfluss"
 
+ estate_ASU_banners:0 "Banner"
+ estate_ASU_banners_desc:0 "Dieser Stand repräsentiert unsere loyalsten und besten Männer."
+ estate_ASU_banners_ownership:0 "Landanteil"
+ ASU_banners_loyalty_modifier:0 "Banners Loyalität"
+ ASU_banners_influence_modifier:0 "Banners Einfluss"
+
+ estate_ASU_janissaries:0 "Janitscharen"
+ estate_ASU_janissaries_desc:0 "Dieser Stand repräsentiert die Janitscharen."
+ estate_ASU_janissaries_ownership:0 "Landshare"
+ ASU_janissaries_loyalty_modifier:0 "Janitscharen Loyalität"
+ ASU_janissaries_influence_modifier:0 "Janitscharen Einfluss"
+
  estate_herding_rights:0 "Vorrecht auf Herdengebiet"
  estate_herding_rights_desc:0 "Indem wir Vorrechte auf Herdengebiete vergeben, werden unsere Untertanen diese Gebiete besiedeln."
  ASU_estate_herding_rights_tooltip:0 "Alle Steppenprovinzen werden -5% Entwicklungskosten kriegen. Schaltet weitere Privilegien frei."

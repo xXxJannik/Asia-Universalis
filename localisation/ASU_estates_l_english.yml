@@ -6,6 +6,18 @@
  ASU_tribes_loyalty_modifier:0 "Tribes loyalty"
  ASU_tribes_influence_modifier:0 "Tribes influence"
 
+ estate_ASU_banners:0 "Banners"
+ estate_ASU_banners_desc:0 "This estate represents our most loyal soldiers and generals."
+ estate_ASU_banners_ownership:0 "Landshare"
+ ASU_banners_loyalty_modifier:0 "Banners loyalty"
+ ASU_banners_influence_modifier:0 "Banners influence"
+
+ estate_ASU_janissaries:0 "Janissaries"
+ estate_ASU_janissaries_desc:0 "This estate represents the Janissaries."
+ estate_ASU_janissaries_ownership:0 "Landshare"
+ ASU_janissaries_loyalty_modifier:0 "Janissaries loyalty"
+ ASU_janissaries_influence_modifier:0 "Janissaries influence"
+
  estate_herding_rights:0 "Prime herding rights"
  estate_herding_rights_desc:0 "By granting herding rights we will secure our position."
  ASU_estate_herding_rights_tooltip:0 "Will grant -5% development cost on steppe provinces. Unlocks further privileges."
