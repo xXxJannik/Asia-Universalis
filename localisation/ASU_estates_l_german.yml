@@ -17,3 +17,9 @@
  ASU_estate_tribal_deal_tooltip:0 "Alle Provinzen, die die Bedingung erfüllen, werden 10% mehr Rekruten hervorbringen, im Gegenzug erhalten die Provinzen mehr Autonomie."
  ASU_estate_tribal_deal_revoke_tooltip:0 "Brecht den Vertrag."
  ASU_estate_tribal_deal_modifier:0 "Vertrag mit den Stämmen"
+
+ estate_tribal_production:0 "Erweiterte Steuern"
+ estate_tribal_production_desc:0 "Wir werden mehr Steuern verlangen, dafür bekommen sie mehr Autonomie."
+ ASU_estate_tribal_production_tooltip:0 "Wir werden mehr Steuern von den Stämmen erhalten, dafür kriegen sie Autonomie."
+ ASU_estate_tribal_production_revoke_tooltip:0 "Wir werden nicht weiter mehr Steuern verlangen."
+ ASU_estate_tribal_production_modifier:0 "Erhöhte Stammessteuern"

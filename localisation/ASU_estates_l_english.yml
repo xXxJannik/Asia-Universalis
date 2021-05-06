@@ -17,4 +17,10 @@
  ASU_estate_tribal_deal_tooltip:0 "We will gain 10% more manpower in eligible provinces in exchange for local autonomy."
  ASU_estate_tribal_deal_revoke_tooltip:0 "Will break the deal."
  ASU_estate_tribal_deal_modifier:0 "Tribal deal"
+
+ estate_tribal_production:0 "Extended taxes"
+ estate_tribal_production_desc:0 "We will demand more taxes in exchange for more their autonomy."
+ ASU_estate_tribal_production_tooltip:0 "We will grant the Tribes more autonomy in exchange for more taxes."
+ ASU_estate_tribal_production_revoke_tooltip:0 "We will no longer demand extra taxes."
+ ASU_estate_tribal_production_modifier:0 "Increased Tribal taxes"
  

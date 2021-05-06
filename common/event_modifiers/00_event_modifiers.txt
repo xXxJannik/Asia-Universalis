@@ -11812,3 +11812,8 @@ ASU_estate_tribal_deal_modifier = {
 	local_manpower_modifier = 0.1
 	local_autonomy = 0.05
 }
+
+ASU_estate_tribal_production_modifier = {
+	trade_goods_size_modifier = 0.2
+	min_local_autonomy = 10
+}
