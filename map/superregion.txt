@@ -34,6 +34,7 @@ tartary_superregion = {
 	mongolia_region
 	central_asia_region
 	tibet_region
+	ural_region
 }
 
 far_east_superregion = {
