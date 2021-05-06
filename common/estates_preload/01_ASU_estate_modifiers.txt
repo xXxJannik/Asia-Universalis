@@ -1,4 +1,6 @@
 estate_ASU_tribes = {
+
+	#Tribe estate
 	modifier_definition = {
 		type = loyalty
 		key = ASU_tribes_loyalty_modifier
@@ -11,6 +13,23 @@ estate_ASU_tribes = {
 		key = ASU_tribes_influence_modifier
 		trigger = {
 			has_estate = estate_ASU_tribes
+		}
+	}
+
+
+	#Banner estate
+	modifier_definition = {
+		type = loyalty
+		key = ASU_banners_loyalty_modifier
+		trigger = {
+			has_estate = estate_ASU_banners
+		}
+	}
+	modifier_definition = {
+		type = influence
+		key = ASU_banners_loyalty_modifier
+		trigger = {
+			has_estate = estate_ASU_banners
 		}
 	}
 }

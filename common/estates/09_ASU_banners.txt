@@ -1,0 +1,40 @@
+estate_ASU_banners = {
+	icon = 5
+
+	# If true, country will get estate
+	trigger = {
+		has_dlc = "The Cossacks"
+		is_colonial_nation = no
+        has_reform = reform_warlord_5 #Chinese Horde
+	}
+
+	# These scale with loyalty & power
+	country_modifier_happy = {
+		global_manpower_modifier = 0.1
+	}
+	country_modifier_neutral = {
+		global_manpower_modifier = 0.05
+	}	
+	country_modifier_angry = {
+		global_unrest = -2
+	}
+	land_ownership_modifier = {
+		ASU_banners_loyalty_modifier = 0.2
+	}
+
+	province_independence_weight = {
+	}
+
+	# Influence modifiers
+	base_influence = 25
+
+	influence_from_dev_modifier = 0.4
+
+	privileges = {
+	}
+
+	agendas = {
+	}
+
+	color = { 255 0 0 }
+}
