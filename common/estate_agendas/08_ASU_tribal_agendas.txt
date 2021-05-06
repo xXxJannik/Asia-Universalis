@@ -1,0 +1,174 @@
+estate_tribal_develop_x = {
+	selection_weight = {
+		factor = 1
+	}
+	can_select = {
+		any_owned_province = {
+			is_state_core = root
+            has_province_modifier = ASU_estate_herding_rights_modifier
+		}
+	}
+	pre_effect = {
+		set_variable = {
+			which = develop_x_category
+			value = 0
+		}
+		random_list = {
+			2 = { #Mil is weighted higher
+				set_variable = {
+					which = develop_x_category
+					value = 3
+				}
+			}
+			1 = { #dip
+				set_variable = {
+					which = develop_x_category
+					value = 2
+				}
+			}
+		}
+		random_owned_province = {
+			limit = {
+				is_state_core = root
+                has_province_modifier = ASU_estate_herding_rights_modifier
+			}
+			save_event_target_as = agenda_province
+		}
+		event_target:agenda_province = {
+			if = {
+				limit = {
+					root = {
+						check_variable = {
+							which = develop_x_category
+							value = 3
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							which = province_mil_var
+							value = 1
+						}
+					}
+					set_variable = {
+						which = province_mil_var
+						value = 0
+					}
+				}
+				export_to_variable = {
+					which = province_mil_var
+					value = trigger_value:base_manpower
+				}
+				change_variable = {
+					which = province_mil_var
+					value = 2
+				}
+			}
+			else_if = {
+				limit = {
+					root = {
+						check_variable = {
+							which = develop_x_category
+							value = 2
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							which = province_dip_var
+							value = 1
+						}
+					}
+					set_variable = {
+						which = province_dip_var
+						value = 0
+					}
+				}
+				export_to_variable = {
+					which = province_dip_var
+					value = trigger_value:base_production
+				}
+				change_variable = {
+					which = province_dip_var
+					value = 2
+				}
+			}
+		}
+	}
+	provinces_to_highlight = {
+		province_id = event_target:agenda_province
+	}
+	fail_if = {
+		event_target:agenda_province = {
+			NOT = { owned_by = root }
+		}
+	}
+    task_requirements = {
+		event_target:agenda_province = {
+			if = {
+				limit = {
+					root = {
+						check_variable = {
+							which = develop_x_category
+							value = 3
+						}
+					}
+				}
+				base_manpower = "province_mil_var"
+			}
+			else_if = {
+				limit = {
+					root = {
+						check_variable = {
+							which = develop_x_category
+							value = 2
+						}
+					}
+				}
+				base_production = "province_dip_var"
+			}
+			else = {
+				base_tax = "province_adm_var"
+			}
+		}
+    }
+    task_completed_effect = {
+        event_target:agenda_province = {
+			if = {
+				limit = { owned_by = root }
+				add_local_autonomy = -25
+			}
+		}
+		if = {
+			limit = {
+				check_variable = {
+					which = develop_x_category
+					value = 3
+				}
+			}
+			 add_yearly_manpower = 0.3
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = develop_x_category
+					value = 2
+				}
+			}
+			add_years_of_income = 0.3
+		}
+		else = {
+			add_prestige = 10
+		}
+    }
+    failing_effect = {
+        event_target:agenda_province = {
+			if = {
+				limit = { owned_by = root }
+				add_local_autonomy = 25
+			}
+		}
+    }
+}

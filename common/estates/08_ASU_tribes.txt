@@ -63,7 +63,7 @@ estate_ASU_tribes = {
 	}
 
 	agendas = {
-        
+        estate_tribal_develop_x
 	}
 
 	color = { 150 250 0 }
