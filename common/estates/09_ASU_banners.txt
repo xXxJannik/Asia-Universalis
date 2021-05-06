@@ -29,7 +29,7 @@ estate_ASU_banners = {
 	}
 
 	# Influence modifiers
-	base_influence = 25
+	base_influence = 0
 
 	influence_from_dev_modifier = 0.4
 
