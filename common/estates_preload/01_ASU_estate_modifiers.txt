@@ -1,0 +1,16 @@
+estate_ASU_tribes = {
+	modifier_definition = {
+		type = loyalty
+		key = ASU_tribes_loyalty_modifier
+		trigger = {
+			has_estate = estate_ASU_tribes
+		}
+	}
+	modifier_definition = {
+		type = influence
+		key = ASU_tribes_influence_modifier
+		trigger = {
+			has_estate = estate_ASU_tribes
+		}
+	}
+}

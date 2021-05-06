@@ -10,6 +10,9 @@ estate_herding_rights = {
 			has_terrain = steppe
 		}
 	}
+	can_revoke = {
+		NOT = { has_estate_privilege = estate_tribal_deal}
+	}
 	on_granted = {
 		custom_tooltip = ASU_estate_herding_rights_tooltip
 		hidden_effect = {

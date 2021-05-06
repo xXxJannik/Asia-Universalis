@@ -2,6 +2,9 @@
 
  estate_ASU_tribes:0 "Stämme"
  estate_ASU_tribes_desc:0 "Dieser Stand,wenn man es so nennen möchte, wird vertreten von einigen wenigen Stammoberhäupten."
+ estate_ASU_tribes_ownership:0 "Landanteil"
+ ASU_tribes_loyalty_modifier:0 "Stamm Loyalität"
+ ASU_tribes_influence_modifier:0 "Stamm Einfluss"
 
  estate_herding_rights:0 "Vorrecht auf Herdengebiet"
  estate_herding_rights_desc:0 "Indem wir Vorrechte auf Herdengebiete vergeben, werden unsere Untertanen diese Gebiete besiedeln."
