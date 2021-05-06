@@ -23,32 +23,6 @@ estate_ASU_tribes = {
 	}
 
 	province_independence_weight = {
-		factor = 1
-		modifier = {
-			factor = 2
-			has_terrain = steppe
-		}
-		modifier = {
-			factor = 2
-			culture_group = owner
-		}
-		modifier = {
-			factor = 0.5
-			NOT = { religion = owner }
-			NOT = { culture_group = owner }
-		}
-		modifier = {
-			factor = 1.5
-			NOT = { development = 10 }
-		}
-		modifier = {
-			factor = 0.75
-			development = 15
-		}
-		modifier = {
-			factor = 0.75
-			development = 20
-		}
 	}
 
 	# Influence modifiers
