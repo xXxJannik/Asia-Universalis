@@ -32,4 +32,20 @@ estate_ASU_tribes = {
 			has_estate = estate_ASU_banners
 		}
 	}
+
+	#Jannisaries
+	modifier_definition = {
+		type = loyalty
+		key = ASU_jannisaries_loyalty_modifier
+		trigger = {
+			has_estate = estate_ASU_jannisaries
+		}
+	}
+	modifier_definition = {
+		type = influence
+		key = ASU_jannisaries_loyalty_modifier
+		trigger = {
+			has_estate = estate_ASU_jannisaries
+		}
+	}
 }

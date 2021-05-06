@@ -1,4 +1,4 @@
-estate_ASU_banners = {
+estate_ASU_jannisaries = {
 	icon = 12
 
 	# If true, country will get estate
@@ -19,7 +19,7 @@ estate_ASU_banners = {
 		global_unrest = -2
 	}
 	land_ownership_modifier = {
-		ASU_banners_loyalty_modifier = 0.2
+		ASU_jannisaries_loyalty_modifier = 0.2
 	}
 
 	province_independence_weight = {
@@ -36,5 +36,5 @@ estate_ASU_banners = {
 	agendas = {
 	}
 
-	color = { 255 0 220 }
+	color = { 255 0 0 }
 }
