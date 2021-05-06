@@ -1,5 +1,5 @@
 estate_ASU_banners = {
-	icon = 5
+	icon = 12
 
 	# If true, country will get estate
 	trigger = {
