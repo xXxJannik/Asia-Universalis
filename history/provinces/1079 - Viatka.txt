@@ -3,7 +3,7 @@
 owner = MOS
 controller = MOS
 capital = "Hlynov"
-culture = russian
+culture = uralic
 religion = orthodox
 trade_goods = copper
 hre = no
