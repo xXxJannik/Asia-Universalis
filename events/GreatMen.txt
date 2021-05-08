@@ -985,6 +985,7 @@ country_event = {
 	trigger = {
 		grand_captain = 3
 		NOT = { has_country_flag = grand_captain }
+		NOT = { has_county_modifier = ASU_grand_captain_delayed}
 	}
 	
 	mean_time_to_happen = {
