@@ -5,6 +5,7 @@ estate_ASU_janissaries = {
 	trigger = {
 		has_dlc = "The Cossacks"
 		is_colonial_nation = no
+		has_reform = feudal_theocracy #Persia
 	}
 
 	# These scale with loyalty & power
