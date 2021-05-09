@@ -11817,3 +11817,8 @@ ASU_estate_tribal_production_modifier = {
 	trade_goods_size_modifier = 0.2
 	min_local_autonomy = 10
 }
+
+ASU_Korea_Strait = {
+	local_hostile_movement_speed = -0.5
+	local_friendly_movement_speed = -0.5
+}
