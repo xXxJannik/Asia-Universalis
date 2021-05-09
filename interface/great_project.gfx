@@ -241,6 +241,11 @@ spriteTypes = {
 		name = "GFX_great_project_terracotta"	
 		texturefile = "gfx//interface//great_projects//great_project_terracotta.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_great_project_shrine_ise"	
+		texturefile = "gfx//interface//great_projects//great_project_shrine_ise.dds"
+	}
 
 ### CANALS ###
 
