@@ -10,25 +10,6 @@ age_of_discovery = {
 	
 
 	objectives = {
-		obj_discover_america = {
-			allow = {
-				capital_scope = {
-					OR = {
-						continent = europe
-						continent = asia
-						continent = africa
-					}
-				}
-			}
-			custom_trigger_tooltip = {
-				tooltip = obj_discover_america_tooltip
-					OR = {
-						north_america = { has_discovered = ROOT }
-						south_america = { has_discovered = ROOT }
-						new_world = { has_discovered = ROOT }
-					}
-				}
-		}
 		obj_100_development = {
 			allow = {
 				capital_scope = {
@@ -89,11 +70,7 @@ age_of_discovery = {
 			}
 			vassal = 5
 		}		
-	
-		obj_two_continents = {
-			num_of_continents = 2
-		}
-	
+
 		obj_humiliate_rival = {
 			custom_trigger_tooltip = {
 				tooltip = obj_humiliate_rival_tooltip
@@ -191,16 +168,7 @@ age_of_reformation = {
 	religious_conflicts = yes
 	papacy = 1.25
 	
-	objectives = {
-		obj_christian_convert = {
-			OR = {
-				religion = protestant
-				religion = reformed
-				religion = anglican
-				religion = hussite
-			}
-		}
-		
+	objectives = {	
 		obj_humanism_religious = {
 			OR = {
 				full_idea_group = humanist_ideas
@@ -214,11 +182,7 @@ age_of_reformation = {
 				check_variable = { which = num_converted_religion value = 10 }
 			}
 		}
-		
-		obj_colonial_empire = {
-			colony = 5
-		}
-		
+
 		obj_force_converted = {
 			custom_trigger_tooltip = {
 				tooltip = obj_force_converted_tooltip
@@ -382,11 +346,7 @@ age_of_absolutism = {
 	
 	
 	
-	objectives = {
-		obj_3_trade_companies = {
-			num_of_trade_companies = 3
-		}
-		
+	objectives = {	
 		obj_universities = {
 			university = 5
 		}
@@ -407,14 +367,7 @@ age_of_absolutism = {
 		obj_cultures_accepted = {
 			num_accepted_cultures = 5
 		}
-		
-		obj_win_religious_war = {
-			custom_trigger_tooltip = {
-				tooltip = obj_religious_league_war_on_winning_side_tooltip
-				has_country_flag = religious_league_war_on_winning_side
-			}
-			
-		}
+
 	}	
 	
 	
@@ -542,13 +495,6 @@ age_of_revolutions = {
 		obj_large_subject = {
 			any_subject_country = {
 				total_development = 250
-			}
-		}
-		obj_disc_army = {
-			has_global_modifier_value = {
-				which = discipline
-				value = 0.25
-				extra_shortcut = yes
 			}
 		}
 		obj_huge_capital = {
