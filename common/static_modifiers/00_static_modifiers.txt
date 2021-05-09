@@ -868,7 +868,7 @@ devotion = {
 # Multiplied by current meritocracy - 50
 meritocracy = {
 	global_spy_defence = 1.0
-	advisor_cost = -0.5
+	advisor_cost = -0.20
 }
 
 # Multiplied by 50 - meritocracy
