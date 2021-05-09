@@ -1152,10 +1152,7 @@ confucian_bureaucracy = {
 		}
 	}
 	potential = {
-		OR = {
-			religion = confucianism
-			primary_culture = vietnamese
-		}
+		tag = DAI
 	}
 	valid_for_nation_designer = yes
 	modifiers = {
