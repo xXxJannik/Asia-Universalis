@@ -13,7 +13,7 @@ innovativeness_ideas = {
 	category = ADM
 
 	bonus = {
-		advisor_cost = -0.33
+		advisor_cost = -0.05
 	}
 
 	patron_of_art_2  = {
@@ -214,7 +214,7 @@ spy_ideas = {
 
 	bonus = {
 		rebel_support_efficiency = 0.50
-		advisor_cost = -0.10
+		advisor_cost = -0.05
 	}
 
 	efficient_spies = {

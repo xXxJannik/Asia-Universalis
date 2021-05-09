@@ -4541,7 +4541,7 @@ idea_variation_act_8 = {
 	}
 	
 	
-	advisor_cost = -0.15
+	advisor_cost = -0.05
 	
 	ai_will_do = {
 		factor = 1
@@ -9653,7 +9653,7 @@ idea_variation_act_163 = {
 		full_idea_group = innovativeness_ideas
 	}
 	
-	same_culture_advisor_cost = -0.15
+	same_culture_advisor_cost = -0.05
 	
 	ai_will_do = {
 		factor = 1
@@ -10525,7 +10525,7 @@ idea_variation_act_187 = {
 		full_idea_group = economic_ideas
 	}
 	
-	advisor_cost = -0.15
+	advisor_cost = -0.05
 	
 	ai_will_do = {
 		factor = 1
@@ -22275,7 +22275,7 @@ idea_variation_act_555 = {
 		full_idea_group = militarismus0
 	}
 	
-	advisor_cost = -0.15
+	advisor_cost = -0.05
 	
 	ai_will_do = {
 		factor = 1

@@ -939,7 +939,7 @@ basic_idea_variation_act_8 = {
 	
 	#female_advisor_chance = 0.25
 	cb_on_religious_enemies = yes
-	advisor_cost = -0.1
+	advisor_cost = -0.05
 	
 	ai_will_do = {
 		factor = 1

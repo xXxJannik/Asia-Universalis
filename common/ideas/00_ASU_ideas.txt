@@ -145,7 +145,7 @@ protestant0 = {
 		technology_cost = -0.05
 	}
 	protestant7 = {
-		advisor_cost = -0.2
+		advisor_cost = -0.05
 		advisor_pool = 1
 	}
 	
@@ -596,7 +596,7 @@ hindu0 = {
 
 	hindu5 = {
 		heir_chance = 0.25
-		advisor_cost = -0.1	
+		advisor_cost = -0.05	
 	}
 	hindu6 = {
 		global_unrest = -1
@@ -688,7 +688,7 @@ confuci0 = {
 	}
 
 	confuci4 = {
-		advisor_cost = -0.15
+		advisor_cost = -0.05
 	}
 
 	confuci5 = {
@@ -2419,7 +2419,7 @@ inti0 = {
 	}
 
 	inti5 = {
-		same_culture_advisor_cost = -0.33
+		same_culture_advisor_cost = -0.05
 	}
 	inti6 = {
 		female_advisor_chance = 0.5	
@@ -2679,7 +2679,7 @@ ibadi0 = {
 	}	
 	
 	ibadi1 = {
-		same_culture_advisor_cost = -0.25
+		same_culture_advisor_cost = -0.05
 	}
 	ibadi2 = {
 		development_cost = -0.1
@@ -3981,7 +3981,7 @@ gesellschaft0 = {
 	}
 
 	gesellschaft4 = {
-		advisor_cost = -0.15
+		advisor_cost = -0.05
 	}
 
 	gesellschaft5 = {
