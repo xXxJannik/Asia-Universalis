@@ -3,7 +3,7 @@
 owner = MNG
 controller = MNG
 add_core = MNG
-culture = chahar
+culture = mongol
 religion = confucianism
 capital = "Chengde"
 trade_goods = livestock
