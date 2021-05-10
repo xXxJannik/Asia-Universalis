@@ -1390,7 +1390,7 @@ divert_trade = {
 karma_just_right =
 {
 	diplomatic_reputation = 2
-	all_power_cost = -0.10
+	all_power_cost = -0.05
 }
 
 karma_too_high =
