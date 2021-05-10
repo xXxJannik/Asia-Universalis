@@ -246,6 +246,16 @@ spriteTypes = {
 		name = "GFX_great_project_shrine_ise"	
 		texturefile = "gfx//interface//great_projects//great_project_shrine_ise.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_great_project_mogao_grottoes"	
+		texturefile = "gfx//interface//great_projects//great_project_mogao_grottoes.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_great_project_palace_potala"	
+		texturefile = "gfx//interface//great_projects//great_project_palace_potala.dds"
+	}
 
 ### CANALS ###
 
