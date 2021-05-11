@@ -1,9 +1,9 @@
-owner = KOR
-controller = KOR
-add_core = KOR
-culture = manchu
-religion = tengri_pagan_reformed
-trade_goods = fur
+owner = QIC
+controller = QIC
+add_core = QIC
+culture = shandong_culture
+religion = confucianism
+trade_goods = grain
 hre = no
 base_tax = 1 
 base_production = 1
