@@ -1,8 +1,6 @@
-#1032 - Kurils
 
 culture = ainu
 religion = animism
-capital = "Kuril"
 trade_goods = fish
 hre = no
 base_tax = 1 
@@ -55,3 +53,4 @@ discovered_by = TKI
 discovered_by = UTN
 discovered_by = TTI
 discovered_by = ASK
+
