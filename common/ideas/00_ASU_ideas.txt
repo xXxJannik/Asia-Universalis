@@ -4496,7 +4496,7 @@ generalstab0 = {
 		leader_naval_shock = 1
 	}
 	generalstab6 = {
-		yearly_army_professionalism = 0.002
+		yearly_army_professionalism = 0.02
 	}
 	generalstab7 = {
 		free_leader_pool = 1
@@ -4556,7 +4556,7 @@ stehendesheer0 = {
 
 	bonus = {
 		drill_decay_modifier = -0.25
-		yearly_army_professionalism = 0.001
+		yearly_army_professionalism = 0.01
 	}
 		
 		trigger = {
