@@ -221,7 +221,6 @@ technology = { #The Constitution
 	# Tech 22
 	year = 1687
 	
-	allowed_idea_groups = 6
 	constitutional_monarchy = yes
 	constitutional_republic = yes  
 	allowed_idea_groups = 12
