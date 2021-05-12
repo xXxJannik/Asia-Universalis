@@ -20,7 +20,7 @@ feudalism_reform = {
 	allow_normal_conversion = yes
 	legacy_equivalent = feudal_monarchy
 	potential = {
-		NOT = { technology_group = chinese }
+		NOT = { culture_group = east_asian }
 	}
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
@@ -40,7 +40,7 @@ autocracy_reform = {
 	allow_normal_conversion = yes
 	legacy_equivalent = despotic_monarchy
 	potential = {
-		NOT = { technology_group = chinese }
+		NOT = { culture_group = east_asian }
 	}
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
@@ -60,13 +60,16 @@ plutocratic_reform = {
 		OR = {
 			technology_group = indian
 			technology_group = muslim
+			technology_group = chinese				 
 			technology_group = east_african
 		}
+			NOT = { culture_group = east_asian }
 	}
 	nation_designer_trigger = {
 		OR = {
 			technology_group = indian
 			technology_group = muslim
+			technology_group = chinese				 
 			technology_group = east_african
 		}
 	}
