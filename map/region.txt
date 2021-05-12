@@ -12,11 +12,8 @@ france_region = {
 	areas = {
 		brittany_area
 		normandy_area
-		provence_area
 		guyenne_area
-		languedoc_area
 		massif_central_area
-		savoy_dauphine_area
 		lorraine_area
 		picardy_area
 		champagne_area
@@ -171,40 +168,13 @@ ural_region = {
 }
 
 iberia_region = {
-	areas = {
-		aragon_area
-		catalonia_area
-		valencia_area
-		lower_andalucia_area
-		upper_andalucia_area
-		castille_area
-		toledo_area
-		asturias_area
-		leon_area
-		alentejo_area
-		beieras_area
-		basque_country
-		galicia_area
-		baleares_area
-		extremadura_area
-	}
+	
 }
 
 
 
 british_isles_region = {
 	areas = {
-		east_midlands_area
-		west_midlands_area
-		yorkshire_area
-		scottish_marches_area
-		wessex_area
-		home_counties_area
-		east_anglia_area
-		wales_area
-		lowlands_area
-		highlands_area
-		kingdom_of_the_isles_area
 		munster_area
 		connacht_area
 		leinster_area
@@ -220,7 +190,6 @@ baltic_region = {
 		curonia_area
 		west_prussia_area
 		east_prussia_area
-		pomerelia_area
 		samogitia_area
 	}
 }
@@ -327,7 +296,6 @@ maghreb_region = {
 		western_morocco_area
 		tripolitania_area
 		barbary_coast_area
-		macaronesia_area
 	}
 }
 
@@ -656,8 +624,6 @@ mongolia_region = {
 		uliastai_area
 		turpan_kumul_area
 		tannu_uriankhai_area
-		xilin_gol_area
-		chahar_area
 		cicigar_area
 	}
 }
@@ -667,9 +633,6 @@ manchuria_region = {
 		heilongjiang_area
 		east_heilongjiang_area
 		jilin_area
-		central_jilin_area
-		ilan_hala_area
-		liaoning_area
 		ningguta_area
 		central_heilongjiang_area
 		sakhalin_area
@@ -854,26 +817,35 @@ burma_region = {
 
 japan_region = {
 	areas = {
-		hokkaido_area
-		hokuriku_area
-		kanto_area
-		eastern_kanto_area
+		northern_kyushu
+		central_kyushu_area
+		west_kyushu_area
 		kyushu_area
-		eastern_chubu_area
-		kinai_area
-		thohoku_area
+		okinawa_area
+		shikoku_area
+		east_shikoku_area
 		saigoku_area
 		sanindo_area
-		shikoku_area
-		northern_kyushu
-		south_japanese_islands_area
-		japanese_coastal_islands_area
-		east_hokkaido_area
-		hirosaki_area
-		mutsu_area
-		katashina_area
-		saku_area
+		tottori_area
 		kyoto_area
+		kinai_area
+		eastern_chubu_area
+		hokuriku_area
+		saku_area
+		kanto_area
+		tokyo_area
+		eastern_kanto_area 
+		katashina_area
+		fukushima_area
+		yamagata_area
+		thohoku_area
+		akita_area
+		mutsu_area
+		east_hokkaido_area
+		hokkaido_area
+		hokkaido_south_area
+		hokkaido_north_area
+		kuril_islands_area
 	}
 	monsoon = {
 		00.06.01
@@ -939,7 +911,6 @@ xinan_region = {
 north_china_region = {
 	
 	areas = {
-		hebei_area
 		south_hebei_area
 		shandong_area
 		henan_area
@@ -1127,7 +1098,6 @@ indonesia_region = { #Eastern Indonesian/Malayan Islands.
 		central_java_area
 		west_java_area
 		lesser_sunda_islands_area
-		indonesian_islands_area
 		surabaya_area
 		banten_area 
 	}
