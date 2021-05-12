@@ -1288,7 +1288,7 @@ basic_idea_variation_act_11 = {
 		}
 	}
 	
-	build_time = -0.25
+	build_time = -0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -2206,7 +2206,7 @@ basic_idea_variation_act_20 = {
 		}
 	}
 	
-	siege_ability = 0.15
+	siege_ability = 0.10
 	
 	ai_will_do = {
 		factor = 1
@@ -2614,7 +2614,7 @@ basic_idea_variation_act_24 = {
 		}
 	}
 	
-	institution_spread_from_true_faith = 0.15
+	institution_spread_from_true_faith = 0.25
 	
 	ai_will_do = {
 		factor = 1
@@ -3226,7 +3226,7 @@ basic_idea_variation_act_30 = {
 		}
 	}
 	
-	drill_gain_modifier = 0.5
+	drill_gain_modifier = 0.25
 	
 	ai_will_do = {
 		factor = 1
@@ -3634,7 +3634,7 @@ basic_idea_variation_act_34 = {
 		}
 	}
 	
-	artillery_cost = -0.15
+	artillery_cost = -0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -3736,7 +3736,7 @@ basic_idea_variation_act_35 = {
 		}
 	}
 	
-	fort_maintenance_modifier = -0.25
+	fort_maintenance_modifier = -0.20
 	
 	ai_will_do = {
 		factor = 1
@@ -3838,7 +3838,7 @@ basic_idea_variation_act_36 = {
 		}
 	}
 	
-	global_regiment_cost = -0.15
+	global_regiment_cost = -0.10
 	
 	ai_will_do = {
 		factor = 1
@@ -4553,7 +4553,7 @@ basic_idea_variation_act_43 = {
 		}
 	}
 	
-	artillery_cost = -0.15
+	artillery_cost = -0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -4655,7 +4655,7 @@ basic_idea_variation_act_44 = {
 		}
 	}
 	
-	global_spy_defence = 0.35
+	global_spy_defence = 0.50
 	
 	ai_will_do = {
 		factor = 1
@@ -5167,7 +5167,7 @@ basic_idea_variation_act_49 = {
 		}
 	}
 	
-	infantry_cost = -0.15	
+	infantry_cost = -0.10	
 	
 	ai_will_do = {
 		factor = 1
@@ -5578,9 +5578,7 @@ basic_idea_variation_act_53 = {
 	}
 	
 	sea_repair = yes
-	#may_perform_slave_raid = yes
-	may_perform_slave_raid_on_same_religion = yes
-	
+
 	ai_will_do = {
 		factor = 1
 		
@@ -5785,7 +5783,7 @@ basic_idea_variation_act_55 = {
 		}
 	}
 	
-	infantry_cost = -0.15
+	infantry_cost = -0.10
 	
 	ai_will_do = {
 		factor = 1
