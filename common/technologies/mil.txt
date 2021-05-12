@@ -14,7 +14,7 @@ technology = {
 
 	infantry_fire		= 	0.25
 	infantry_shock 		= 	0.20	
-	cavalry_shock  		= 	2.0	
+	cavalry_shock  		= 	1.0	
 	land_morale 		= 	2.0
 }
 
@@ -73,7 +73,7 @@ technology = {
 	year = 1420
 	
 	infantry_shock		= 	0.2
-	cavalry_shock		= 	1.0
+	cavalry_shock		= 	0.5
 	
 	combat_width = 5
 }
@@ -105,7 +105,7 @@ technology = {
 	#Standardised Pikes
 	supply_limit 		= 	0.5
 	infantry_shock		= 	0.15
-	cavalry_shock		= 	1.0
+	cavalry_shock		= 	0.5
 
 	enable = western_men_at_arms	
 	enable = western_longbow	
@@ -258,7 +258,7 @@ technology = {
 	
 	#Matchlock Musket
 	infantry_shock		= 	0.20
-	cavalry_fire		= 	1.25
+	cavalry_fire		= 	0.8
 
 	
 	weapons = yes
@@ -476,7 +476,7 @@ technology = {
 	year = 1687
 	
 	#Cartridge	(1620)?)
-	cavalry_fire		=	1.25
+	cavalry_fire		=	0.8
 	artillery_shock 	=	0.1
 	artillery_fire		=	2.0
 	
