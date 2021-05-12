@@ -791,7 +791,7 @@ budda0 = {
 		tolerance_heretic = 1
 	}
 	budda6 = {
-		production_efficiency = 0.25
+		production_efficiency = 0.15
 	}
 	budda7 = {
 		merchants = 1
@@ -3098,7 +3098,7 @@ monarchie0 = {
 	category = ADM
 
 	bonus = {
-		cavalry_cost = -0.1
+		cav_to_inf_ratio = 0.10
 	}
 		
 	trigger = {
@@ -3464,7 +3464,7 @@ gross0 = {
 		heavy_ship_cost = -0.2
 	}
 	gross2 = {
-		heavy_ship_power = 0.1
+		heavy_ship_power = 0.2
 	}
 	gross3 = {
 		global_ship_recruit_speed = -0.1
@@ -3558,11 +3558,11 @@ galle0 = {
 		naval_forcelimit = 50
 	}
 	galle2 = {
-		galley_cost = -0.5
+		galley_cost = -0.1
 		
 	}
 	galle3 = {
-		galley_power = 0.25
+		galley_power = 0.1
 	}
 
 	galle7 = {
@@ -3570,7 +3570,7 @@ galle0 = {
 	}
 
 	galle5 = {
-		sailor_maintenance_modifer = -0.25
+		sailor_maintenance_modifer = -0.1
 	}
 	galle6 = {
 		ship_durability = 0.05
@@ -3971,7 +3971,7 @@ gesellschaft0 = {
 		
 	
 	gesellschaft1 = {
-		land_maintenance_modifier = -0.10
+		land_maintenance_modifier = -0.05
 	}
 	gesellschaft2 = {
 		improve_relation_modifier = 0.15
@@ -4475,7 +4475,7 @@ generalstab0 = {
 	category = MIL
 
 	bonus = {
-		general_cost = -0.20
+		general_cost = -0.10
 	}
 		
 	
@@ -4502,7 +4502,7 @@ generalstab0 = {
 		yearly_army_professionalism = 0.002
 	}
 	generalstab7 = {
-		free_leader_pool = 2
+		free_leader_pool = 1
 	}
 	
 	ai_will_do = {
@@ -4742,7 +4742,6 @@ wehrpflicht0 = {
 
 	bonus = {
 		manpower_recovery_speed = 0.33
-		land_forcelimit_modifier = 0.15
 	}
 		
 		trigger = {
@@ -5026,8 +5025,8 @@ kriegsproduktion0 = {
 	}
 
 	kriegsproduktion4 = {
-		reinforce_speed = 0.33
-		reinforce_cost_modifier = -0.33
+		reinforce_speed = 0.25
+		reinforce_cost_modifier = -0.20
 	}
 
 	kriegsproduktion5 = {
@@ -5197,7 +5196,7 @@ zentra0 = {
 		
 	
 	zentra1 = {
-		build_time = -0.25
+		build_time = -0.10
 	}
 	zentra2 = {
 		global_trade_goods_size_modifier = 0.1
@@ -5373,7 +5372,7 @@ formation0 = {
 	}
 	formation6 = {
 		global_supply_limit_modifier = 0.5
-		land_attrition = -0.2
+		land_attrition = -0.1
 	}
 	formation7 = {
 		fire_damage_received = -0.05
@@ -5537,7 +5536,7 @@ shock0 = {
 		cavalry_cost = -0.10
 	}
 	shock6 = {
-		cav_to_inf_ratio = 0.10
+		cav_to_inf_ratio = 0.20
 	}
 	shock4 = {
 		shock_damage = 0.05

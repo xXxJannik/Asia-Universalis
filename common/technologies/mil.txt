@@ -14,7 +14,7 @@ technology = {
 
 	infantry_fire		= 	0.25
 	infantry_shock 		= 	0.20	
-	cavalry_shock  		= 	1.0	
+	cavalry_shock  		= 	0.5	
 	land_morale 		= 	2.0
 }
 

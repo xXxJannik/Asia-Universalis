@@ -3409,7 +3409,7 @@ idea_variation_act_641 = {
 		full_idea_group = offensive_ideas
 	}
 	
-	cav_to_inf_ratio = 0.15	
+	cav_to_inf_ratio = 0.10	
 
 	ai_will_do = {
 		factor = 1
@@ -10794,7 +10794,7 @@ idea_variation_act_193 = {
 		full_idea_group = quantity_ideas
 	}
 	
-	cav_to_inf_ratio = 0.15
+	cav_to_inf_ratio = 0.10
 	
 	ai_will_do = {
 		factor = 1
@@ -18943,7 +18943,7 @@ idea_variation_act_441 = {
 		full_idea_group = spy_ideas
 	}
 	
-	cav_to_inf_ratio = 0.15	
+	cav_to_inf_ratio = 0.10	
 	
 	ai_will_do = {
 		factor = 1
@@ -19383,6 +19383,7 @@ idea_variation_act_459 = {
 	}
 	
 	cavalry_power = 0.15	
+	cav_to_inf_ratio = 0.1				   
 	
 	ai_will_do = {
 		factor = 1
