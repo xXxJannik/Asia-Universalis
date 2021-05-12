@@ -673,7 +673,6 @@ manchuria_region = {
 		ningguta_area
 		central_heilongjiang_area
 		sakhalin_area
-		furdan_area
 		dalian_area
 		andong_area
 		manjiang_area
@@ -695,7 +694,6 @@ korea_region = {
 		hamgyeong_area
 		western_korea_area
 		eastern_korea_area
-		south_korea_area
 		basun_area
 		jinju_area
 		korean_shore_area
@@ -861,7 +859,6 @@ japan_region = {
 		kanto_area
 		eastern_kanto_area
 		kyushu_area
-		chubu_area
 		eastern_chubu_area
 		kinai_area
 		thohoku_area
