@@ -182,7 +182,6 @@ estate_banners_allow_banners = {
 		has_dlc = "Mandate of Heaven"
 	}
 	penalties = {
-		add_corruption = 1
 		yearly_corruption = 0.1
 	}
 	benefits = {
