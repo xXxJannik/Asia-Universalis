@@ -62,6 +62,7 @@ great_mongol_state_reform = {
 	fixed_rank = 3
 	valid_for_nation_designer = no
 	nomad = yes
+	raze_province = yes				
 	modifiers = {
 		horde_unity = 1
 		global_manpower_modifier = 0.2
@@ -421,6 +422,7 @@ tribe_becomes_republic_reform = {
 			change_unit_type = chinese
 		}
 		change_government = republic
+		if = {
 			limit = {
 				have_had_reform = stateless_society
 			}
