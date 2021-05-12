@@ -1,8 +1,8 @@
-owner = ASK
-controller = ASK
-add_core = ASK
-culture = japanese
-religion = shinto
+owner = ANU
+controller = ANU
+add_core = ANU
+culture = ainu
+religion = animism
 trade_goods = silk
 hre = no
 base_tax = 1
