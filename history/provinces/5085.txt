@@ -1,9 +1,9 @@
-owner = ASK
-controller = ASK
-add_core = ASK
+owner = OGS
+controller = OGS
+add_core = OGS
 culture = togoku
 religion = shinto
-trade_goods = silk
+trade_goods = livestock
 hre = no
 base_tax = 1
 base_production = 1

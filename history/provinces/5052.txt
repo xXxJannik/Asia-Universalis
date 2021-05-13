@@ -1,9 +1,9 @@
-owner = ASK
-controller = ASK
-add_core = ASK
+owner = ITO
+controller = ITO
+add_core = ITO
 culture = kyushuan
 religion = shinto
-trade_goods = silk
+trade_goods = livestock
 hre = no
 base_tax = 1
 base_production = 1

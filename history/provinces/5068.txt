@@ -1,6 +1,6 @@
-owner = ASK
-controller = ASK
-add_core = ASK
+owner = OUC
+controller = OUC
+add_core = OUC
 culture = japanese
 religion = shinto
 trade_goods = silk

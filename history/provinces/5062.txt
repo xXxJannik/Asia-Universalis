@@ -1,9 +1,9 @@
-owner = ASK
-controller = ASK
-add_core = ASK
+owner = KNO
+controller = KNO
+add_core = KNO
 culture = japanese
 religion = shinto
-trade_goods = silk
+trade_goods = copper
 hre = no
 base_tax = 1
 base_production = 1
