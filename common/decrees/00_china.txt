@@ -175,6 +175,9 @@ expand_diplomacy_decree = {
 		diplomatic_reputation = 2
 		diplomatic_annexation_cost = -0.2
 	}
+	ai_will_do = {
+		factor = 1
+	}
 }
 
 state_improvments_decree = {
@@ -185,6 +188,9 @@ state_improvments_decree = {
 		global_unrest = -3
 		global_trade_goods_size_modifier = 0.15
 	}
+	ai_will_do = {
+		factor = 1
+	}
 }
 
 support_missionaries_decree = {
@@ -193,5 +199,8 @@ support_missionaries_decree = {
 	modifier = {
 		global_missionary_strength = 0.03
 		harmonization_speed = 0.33
+	}
+	ai_will_do = {
+		factor = 1
 	}
 }
