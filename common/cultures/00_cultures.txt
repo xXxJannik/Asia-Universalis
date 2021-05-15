@@ -9319,3 +9319,67 @@ lost_cultures_group = {
 		}
 	}
 }
+
+turko_semitic = { #Levantine
+	graphical_culture = muslimgfx
+	
+	turkish = {
+		primary = TUR
+		dynasty_names = {
+			"Osmanoglu" "Karamanoglu" "Menteseoglu" "Ramazanoglu" "Saruhanoglu"
+			"Dulkadiroglu" "Candaroglu" "Germiyanoglu" "Aydinoglu" "Eretnaoglu"
+			"Artukoglu" "Mutahhartenoglu" "Tekeoglu" "Hamidoglu" "Tacettinoglu"
+			"Oguzoglu" "Haciemiroglu" "Kubatoglu" "Bafraoglu" "Alaiyeoglu"
+		}
+		male_names = {
+			Mehmet Mustafa Murat Ahmet Selim Osman Mahmut Süleyman Bayezid Orhan Abdulaziz Abdülhamit Ibrahim 
+			Abdülmecit Abdullah Cem Cihangir Alaattin Isa Musa Ömer Seyfettin Yakup Yusuf Giyasettin Numan 
+			Ali Davut Hasan Hüseyin Ishak Kamer Kasim Korkut Emin Iskender Halil Sait Hamit Ertugrul Izzettin 
+			Nizamettin Sinan Ferhat Salih Ismail Cüneyt Bahadir Hizir Harun Cemal Inal Celalettin Ilyas 
+			Dursun Ramazan Recep Abdulrahman Hayrettin
+			Çagri Çaka Afsin Ahmet Aksonqor Alaeddin Ali Alkan "Alp Arslan" "Alp Yurek" Alptigin Artuk Ayaz 
+			Aydin Aydogan Aydogdu Aytekin Böru Bulend Bahadir Balaban Basbuga Batuhan Baturay Baybars 
+			Bayezid Baytas Belek Berkan Berkiyaruk Bozan Bugra Burak Cuneyd Dundar Danismend Davud David 
+			Demir Dogan Dogukan Dukak Erdem Ertan Ertekin Ertugrul Gunduz Hasan Hasan Hizir Ibrahim Ilgazi 
+			Inal Iskender Alexander Kurboga Kaikaus Kaikhusraw Kaiqobad Kara Karatay Kasim Kaya Kaytun 
+			Kemal Kiliç Korkut Kutalmis Kutay Kutlug Mursel Mahmud Mehmed Meliksah Mengucek Mesud Murad 
+			Mustafa Orhan Osman Porsuk Rustem Ramazan Ridvan Söbuk Sökmen Sönmez Suleyman Saim Saltuk 
+			Saruca Savtekin Savur Sehinsah Selçuk Selim Sencer Sinan Tanrivermis Tekin Timurtas Togay 
+			Togtekin Toktamis Tolun Toruntay Tugrul Tunga Turgut Turhan Tutus Uluç Umur Yakut Yaman Yinal 
+			Yunus
+		}
+		female_names = {
+			Çiçek Çilen Çiltanesi Özgul Özlem Akgul Asli Aslihan Ayasun Ayla Ayse Ayten Azize Bahar Banu 
+			Bozçin Canan Ceylan Dunya Dilber Dilek Emine Esin Fatma Firuze Gulçiçek Gulay Gulbahar Gulfem 
+			Gulsum Gumus Gunduz Gundes Gunes Hatice Hayat Huriye Ilkay Ilknur Ipek Ipekel Irge Karacik Lale 
+			Leyla Mala Mansure Merve Mutlu Nagihan Nergis Neslihan Nilufer Nur Peksen Terkhen Samur Sarica 
+			Sati Sehnaz Serap Serife Sevilay Sevindik Sibel Sibylla Sirin Sirma Songul Sumru Tekçe Tura 
+			Umay Usunbike Vahide Yasar Yeldem Yildiz Zehra Zuhal Hatice Safiye Zeynep Hürrem Mihrimah Nurbanu 
+			Handan Alime Kösem Hüma 
+		}
+	}
+	
+}
+
+burman = {
+	graphical_culture = asiangfx
+	al_misr_arabic = { #Egyptian Arab
+		primary = MAM
+		dynasty_names = {
+			"Burji" "Alawiyya" "Bahri"
+			Katkhuda Abaza Qasimiyya Qitas al-Qazdughli Yakubid Hassanid
+		}
+		male_names = {
+			Muhammad Ahmad Qânsawh Tûmân Bay Inâl Khusqadam 'Abd al-'Aziz al-Musta'in al-Nasr Faraj Barsbay 
+			Qâyit Bay Shaik al-Mahmudi Timurbughâ 'Uthman Yalbay Jânbulât Yûsuf Barqûq 'Alî Baybars Hâjjî 
+			Bakr al-Hasan Isma'îl Kûjûk Sâlih 'Abd al-Malik Basir Fadl Ghayth Hatim Ilyas Jabir Nadim Nizar 
+			Sayyid Yunus Jaqmaq Qasim Sa'di Sha'bân Abû 
+		}
+		female_names = {
+			Shahira Yusra Asma Abda Ahu Aiza Aliyah Butayna Daniyah Dima Fahra Fahriya Fatima Gamila Ghada Habiba Huda Ibtisam 
+			Isra Karima Kera Khadija Layla Maha Malika Mariam Maria Munya Munia Nadia Naila Nur Rafiqa Rahat 
+			Raisa Randa Safiya Salma Shakira Suraya Tahira Tarifa Thashim Umm Wahida Yasmin Zahida Zahra
+		}
+	}
+	
+}
