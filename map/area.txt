@@ -2997,7 +2997,10 @@ fujian_area = { #4
 }
 
 taiwan_area = { #3
-	738 2154 2155
+	738 5135 5136 5137 
+}
+north_taiwan_area = {
+	5138 5139 2154 2155
 }
 
 guangdong_area = { #5
