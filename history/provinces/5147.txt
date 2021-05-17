@@ -1,7 +1,7 @@
-owner = KOR
-controller = KOR
-add_core = KOR
-culture = korean
+owner = YAN
+controller = YAN
+add_core = YAN
+culture = chihan
 religion = confucianism
 trade_goods = grain
 hre = no
