@@ -3,7 +3,7 @@
 owner = CHC
 controller = CHC
 add_core = CHC
-culture = jianghuai
+culture = wu
 religion = confucianism
 capital = "Anqing"
 trade_goods = cloth

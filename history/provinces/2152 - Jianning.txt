@@ -1,9 +1,9 @@
 # 2152 - Jianning
 
-owner = MIN
-controller = MIN
-add_core = MIN
-culture = chimin
+owner = NNG
+controller = NNG
+add_core = NNG
+culture = gan
 religion = confucianism
 capital = "Jianning"
 trade_goods = tea

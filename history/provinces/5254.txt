@@ -1,7 +1,7 @@
-owner = KOR
-controller = KOR
-add_core = KOR
-culture = korean
+owner = MIN
+controller = MIN
+add_core = MIN
+culture = chimin
 religion = confucianism
 trade_goods = grain
 hre = no
