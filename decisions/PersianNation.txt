@@ -52,11 +52,6 @@ country_decisions = {
 					ROOT = { NOT = { owns_core_province = 426 } }
 				}
 				AND = {
-					province_id = 416
-					ROOT = { NOT = { owns_core_province = 432 } }
-					ROOT = { NOT = { owns_core_province = 2221 } }
-				}
-				AND = {
 					province_id = 432
 					ROOT = { NOT = { owns_core_province = 416 } }
 					ROOT = { NOT = { owns_core_province = 2221 } }
@@ -87,7 +82,6 @@ country_decisions = {
 				owns_core_province = 2218		# Shiraz
 			}
 			OR = {
-				owns_core_province = 416		# Tabriz
 				owns_core_province = 432		# Kerman
 				owns_core_province = 2221		# Mashhad
 			}
