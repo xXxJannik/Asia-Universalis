@@ -534,7 +534,7 @@ ai_nation = {
 	yearly_corruption = -1
 	amount_of_banners = -5.0
 	cavalry_cost = -0.5
-	artillery_cost = -0.6
+	artillery_cost = -0.5
 	idea_cost = -0.2
 }
 
