@@ -265,7 +265,7 @@ patriarch_state = {
 # Multiplied in provinces of same religion.
 patriarch_authority_local = {
 	local_unrest = -3
-	local_manpower_modifier = 0.33
+	local_manpower_modifier = 0.10
 }
 
 #for the country
@@ -515,7 +515,7 @@ base_values = {
 	vassal_income = 0.10
 	horde_unity = -2
 	devotion = -0.5
-	meritocracy = -1
+	meritocracy = -2
 	governing_capacity = 300
 	num_accepted_cultures = 2
 	monthly_splendor = 1
@@ -1447,6 +1447,7 @@ native_policy_hostile = {
 
 high_harmony = {
 	tolerance_own = 1
+	global_manpower_modifier = 0.10
 }
 
 low_harmony = {
