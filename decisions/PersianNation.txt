@@ -39,7 +39,6 @@ country_decisions = {
 		}
 		provinces_to_highlight = {
 			OR = {
-				province_id = 414		# Hamadan
 				province_id = 429		# Isfahan
 				province_id = 433		# Yazd
 				province_id = 2213		# Qom
@@ -79,7 +78,6 @@ country_decisions = {
 			is_at_war = no
 			is_tribal = no
 			NOT = { exists = PER }
-			owns_core_province = 414		# Hamadan
 			owns_core_province = 429		# Isfahan
 			owns_core_province = 433		# Yazd
 			owns_core_province = 2213		# Qom
