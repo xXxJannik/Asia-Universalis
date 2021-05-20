@@ -635,9 +635,6 @@ new_world_i = {
 			is_capital = yes
 		}
 		is_in_capital_area = yes
-		owner = { 
-			has_idea = quest_for_the_new_world 
-		}
 	}
 	start_chance = 5		#in 100 for when a province can_start
 	
