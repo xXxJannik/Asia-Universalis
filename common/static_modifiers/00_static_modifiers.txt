@@ -536,6 +536,7 @@ ai_nation = {
 	cavalry_cost = -0.5
 	artillery_cost = -0.5
 	idea_cost = -0.2
+	meritocracy = 1
 }
 
 
