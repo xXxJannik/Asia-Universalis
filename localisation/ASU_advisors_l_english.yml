@@ -9,6 +9,8 @@
  reformist_desc: "Open for any new ideas."
  religious_representative: "Religious Representative"
  religious_representative_desc: "Represents the one and only true faith."
+ humanist_advisor: "Humanist"
+ humanist_advisor_desc: "Tolerance and harmony will lead us to glory."
  negotiator: "Negotiator"
  negotiator_desc: "Probably an AI favourite."
  pioneer: "Pioneer"
@@ -39,6 +41,8 @@
  logistician_desc: "Likes to plan ahead."
  recruiting_officer: "Recruiting Officer"
  recruiting_officer_desc : "You are in the army now!"
+ noble_representative: "Noble Representative"
+ noble_representative_desc: "Represents the nobility."
 
 
  

@@ -1,4 +1,6 @@
+###################################
 ##### ADMINISTRATIVE ADVISORS #####
+###################################
 administrator = {
 	monarch_power = ADM
 	
@@ -86,7 +88,27 @@ religious_representative = {
 	}
 }
 
+humanist_advisor = {
+	monarch_power = ADM
+	
+	# Bonus
+	religious_unity = 0.2
+
+	skill_scaled_modifier = { meritocracy = 0.25 }
+
+	chance = {
+		factor = 1
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+
+###############################
 ##### DIPLOMATIC ADVISORS #####
+###############################
 negotiator = {
 	monarch_power = DIP
 	
@@ -223,8 +245,9 @@ subject_mediator = {
 		factor = 1
 	}
 }
-
+#############################
 ##### MILITARY ADVISORS #####
+#############################
 commander = {
 	monarch_power = MIL
 	
@@ -362,6 +385,27 @@ recruiting_officer = {
 	}
 }
 
+noble_representative = {
+	monarch_power = MIL
+	
+	# Bonus
+	nobles_loyalty_modifier = 0.1
+
+	skill_scaled_modifier = { meritocracy = 0.25 }
+
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0
+			owner = { NOT = { has_estate = estate_nobles } }
+		}
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
 
 
 ###### New Advisors to add #####
@@ -379,7 +423,6 @@ recruiting_officer = {
 #legitimacy = 1	/ horde_unity = 1 / devotion = 0.5
 #monthly_militarized_society = 0.05
 #yearly_tribal_allegiance = 0.5
-#nobles_loyalty_modifier = 0.1
 #burghers_loyalty_modifier = 0.2	
 #fabricate_claims_cost= -0.25
 #possible_condottieri = 1

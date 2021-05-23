@@ -656,7 +656,8 @@ spriteTypes = {
 		loadType = "INGAME"
 	}
 
-	#wip
+	#logistician
+	#Asian male 
 	spriteType = {
 		name = "GFX_advisor_asiangfx_logistician"
 		texturefile = "gfx//interface//advisors//asian_logistician.dds"
@@ -665,7 +666,7 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate.lua"
 		loadType = "INGAME"
 	}
-
+	#Asian female
 	spriteType = {
 		name = "GFX_advisor_asiangfx_logistician_female"
 		texturefile = "gfx//interface//advisors//asian_logistician_female.dds"
@@ -674,7 +675,27 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate.lua"
 		loadType = "INGAME"
 	}
+	#generic male 
+	spriteType = {
+		name = "GFX_advisor_logistician"
+		texturefile = "gfx//interface//advisors//logistician.dds"
+		noOfFrames = 1
 
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	#generic female 
+	spriteType = {
+		name = "GFX_advisor_logistician_female"
+		texturefile = "gfx//interface//advisors//asian_logistician_female.dds"
+		noOfFrames = 1
+
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+
+	#recruiting_officer
+	#Asian male
 	spriteType = {
 		name = "GFX_advisor_asiangfx_recruiting_officer"
 		texturefile = "gfx//interface//advisors//asian_recruiting_officer.dds"
@@ -683,10 +704,88 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate.lua"
 		loadType = "INGAME"
 	}
-
+	#Asian female
 	spriteType = {
 		name = "GFX_advisor_asiangfx_recruiting_officer_female"
 		texturefile = "gfx//interface//advisors//asian_recruiting_officer_female.dds"
+		noOfFrames = 1
+
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+
+	#generic male 
+	spriteType = {
+		name = "GFX_advisor_recruiting_officer"
+		texturefile = "gfx//interface//advisors//recruiting_officer.dds"
+		noOfFrames = 1
+
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	#generic female 
+	spriteType = {
+		name = "GFX_advisor_recruiting_officer_female"
+		texturefile = "gfx//interface//advisors//asian_logistician_female.dds"
+		noOfFrames = 1
+
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+
+	#noble_representative
+	#Asian male
+	spriteType = {
+		name = "GFX_advisor_asiangfx_noble_representative"
+		texturefile = "gfx//interface//advisors//asian_recruiting_officer.dds"
+		noOfFrames = 1
+
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	#Asian female
+	spriteType = {
+		name = "GFX_advisor_asiangfx_noble_representative_female"
+		texturefile = "gfx//interface//advisors//asian_recruiting_officer_female.dds"
+		noOfFrames = 1
+
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+
+	#generic male 
+	spriteType = {
+		name = "GFX_advisor_noble_representative"
+		texturefile = "gfx//interface//advisors//noble_representative.dds"
+		noOfFrames = 1
+
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	#generic female 
+	spriteType = {
+		name = "GFX_advisor_noble_representative_female"
+		texturefile = "gfx//interface//advisors//noble_representative_female.dds"
+		noOfFrames = 1
+
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+
+	#Humanist
+	#generic male 
+	spriteType = {
+		name = "GFX_advisor_humanist_advisor"
+		texturefile = "gfx//interface//advisors//humanist_advisor.dds"
+		noOfFrames = 1
+
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	#generic female 
+	spriteType = {
+		name = "GFX_advisor_humanist_advisor_female"
+		texturefile = "gfx//interface//advisors//humanist_advisor_female.dds"
 		noOfFrames = 1
 
 		effectFile = "gfx/FX/buttonstate.lua"
