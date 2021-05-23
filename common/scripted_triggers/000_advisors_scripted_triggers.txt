@@ -213,7 +213,7 @@ has_mil_advisor_3 = {
 			recruiting_officer = 3
 			noble_representative = 3
 			infantry_leader = 3
-			cavalry_leader = 2
+			cavalry_leader = 3
 		}
 	}
 }
