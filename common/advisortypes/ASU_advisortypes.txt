@@ -521,4 +521,14 @@ cavalry_leader = {
 #special_unit_forcelimit= 0.2
 #ship_durability = 0.05
 #yearly_tribal_allegiance = 0.5
+#Schiffbauer - schiffbauzeit
+#
+#
+#
+#
+#
+#
+#
+#
+#
 
