@@ -4,3 +4,16 @@ technology_group = chinese
 religion = confucianism
 primary_culture = hakka
 capital = 2158	#Shiukwan
+
+1444.1.31 = {
+	monarch = {
+		name = "Zaihou"
+		dynasty = "Huai"
+		birth_date = 1420.1.1 #Age - 24
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = bold_fighter_personality
+}
