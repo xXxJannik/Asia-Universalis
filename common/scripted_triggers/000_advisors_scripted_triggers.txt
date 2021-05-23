@@ -87,6 +87,7 @@ has_dip_advisor = {
 			advisor = navarch
 			advisor = subject_mediator
 			advisor = burgher_representative
+			advisor = marine_leader
 		}
 	}
 }
@@ -110,6 +111,7 @@ has_dip_advisor_2 = {
 			navarch = 2
 			subject_mediator = 2
 			burgher_representative = 2
+			marine_leader = 2
 		}
 	}
 }
@@ -133,6 +135,7 @@ has_dip_advisor_3 = {
 			navarch = 3
 			subject_mediator = 3
 			burgher_representative = 3
+			marine_leader = 3
 		}
 	}
 }

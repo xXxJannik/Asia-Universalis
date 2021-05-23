@@ -842,5 +842,25 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate.lua"
 		loadType = "INGAME"
 	}
+
+	#marine_leader
+	#generic male 
+	spriteType = {
+		name = "GFX_advisor_marine_leader"
+		texturefile = "gfx//interface//advisors//marine_leader.dds"
+		noOfFrames = 1
+
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	#generic female 
+	spriteType = {
+		name = "GFX_advisor_marine_leader_female"
+		texturefile = "gfx//interface//advisors//marine_leader_female.dds"
+		noOfFrames = 1
+
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
 }
 

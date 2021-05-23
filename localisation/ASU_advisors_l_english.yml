@@ -31,6 +31,8 @@
  subject_mediator_desc: "Tricks subjects into beeing loyal."
  burgher_representative: "Burgher Representative"
  burgher_representative_desc: "Represents the burghers."
+ marine_leader: "Marine Leader"
+ marine_leader_desc: "Will guide the few of your marines to glory."
  commander: "Commander" 
  commander_desc: "Wants more money for army maintenance."
  drill_instructor: "Drill Instructor"
