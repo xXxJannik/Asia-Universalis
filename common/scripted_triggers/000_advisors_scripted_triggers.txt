@@ -161,6 +161,7 @@ has_mil_advisor = {
 			advisor = recruiting_officer
 			advisor = noble_representative
 			advisor = infantry_leader
+			advisor = cavalry_leader
 		}
 	}
 }
@@ -186,6 +187,7 @@ has_mil_advisor_2 = {
 			recruiting_officer = 2
 			noble_representative = 2
 			infantry_leader = 2
+			cavalry_leader = 2
 		}
 	}
 }
@@ -211,6 +213,7 @@ has_mil_advisor_3 = {
 			recruiting_officer = 3
 			noble_representative = 3
 			infantry_leader = 3
+			cavalry_leader = 2
 		}
 	}
 }

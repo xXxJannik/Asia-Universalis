@@ -494,6 +494,24 @@ infantry_leader = {
 	}
 }
 
+cavalry_leader = {
+	monarch_power = MIL
+	
+	# Bonus
+	cavalry_power = 0.1
+	cavalry_flanking = 0.25
+
+	skill_scaled_modifier = { meritocracy = 0.25 }
+
+	chance = {
+		factor = 1
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
 
 
 ################################

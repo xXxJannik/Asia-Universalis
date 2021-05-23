@@ -53,6 +53,8 @@
  noble_representative_desc: "Represents the nobility."
  infantry_leader: "Infantry Leader"
  infantry_leader_desc: "Rage my soldiers!"
+ cavalry_leader: "Cavalry Leader"
+ cavalry_leader_desc : "Chaaaaaaaaaaaaarge!"
 
 
 
