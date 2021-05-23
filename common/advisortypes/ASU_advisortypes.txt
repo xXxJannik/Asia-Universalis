@@ -345,6 +345,23 @@ logistician = {
 	}
 }
 
+recruiting_officer = {
+	monarch_power = MIL
+	
+	# Bonus
+	manpower_recovery_speed = 0.20
+
+	skill_scaled_modifier = { meritocracy = 0.25 }
+
+	chance = {
+		factor = 1
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
 
 
 ###### New Advisors to add #####
@@ -363,11 +380,6 @@ logistician = {
 #monthly_militarized_society = 0.05
 #yearly_tribal_allegiance = 0.5
 #nobles_loyalty_modifier = 0.1
-#burghers_loyalty_modifier = 0.2
-#num_accepted_cultures = 2	
+#burghers_loyalty_modifier = 0.2	
 #fabricate_claims_cost= -0.25
-#papal_influence = 1
-#yearly_patriarch_authority = 0.01
-#migration_cooldown = -0.5
-#manpower_recovery_speed = 0.20
 #possible_condottieri = 1

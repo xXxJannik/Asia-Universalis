@@ -143,6 +143,7 @@ has_mil_advisor = {
 			advisor = mercenary_captain
 			advisor = defensive_planner
 			advisor = logistician
+			advisor = recruiting_officer
 		}
 	}
 }
@@ -165,6 +166,7 @@ has_mil_advisor_2 = {
 			mercenary_captain = 2
 			defensive_planner = 2
 			logistician = 2
+			recruiting_officer = 2
 		}
 	}
 }
@@ -187,6 +189,7 @@ has_mil_advisor_3 = {
 			mercenary_captain = 3
 			defensive_planner = 3
 			logistician = 3
+			recruiting_officer = 3
 		}
 	}
 }
