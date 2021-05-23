@@ -15,6 +15,7 @@ has_adm_advisor = {
 			advisor = reformist
 			advisor = religious_representative
 			advisor = humanist_advisor
+			advisor = innovatist
 		}
 	}
 }
@@ -36,6 +37,7 @@ has_adm_advisor_2 = {
 			reformist = 2
 			religious_representative = 2
 			humanist_advisor = 2
+			innovatist = 2
 		}
 	}
 }
@@ -57,6 +59,7 @@ has_adm_advisor_3 = {
 			reformist = 3
 			religious_representative = 3
 			humanist_advisor = 3
+			innovatist = 3
 		}
 	}
 }

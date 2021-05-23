@@ -11,6 +11,8 @@
  religious_representative_desc: "Represents the one and only true faith."
  humanist_advisor: "Humanist"
  humanist_advisor_desc: "Tolerance and harmony will lead us to glory."
+ innovatist: "Innovatist"
+ innovatist_desc: "Thinks outside the box."
  negotiator: "Negotiator"
  negotiator_desc: "Probably an AI favourite."
  pioneer: "Pioneer"
@@ -43,6 +45,7 @@
  recruiting_officer_desc : "You are in the army now!"
  noble_representative: "Noble Representative"
  noble_representative_desc: "Represents the nobility."
+
 
 
  

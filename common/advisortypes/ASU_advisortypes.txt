@@ -93,6 +93,7 @@ humanist_advisor = {
 	
 	# Bonus
 	religious_unity = 0.2
+	monthly_splendor = 1
 
 	skill_scaled_modifier = { meritocracy = 0.25 }
 
@@ -105,6 +106,22 @@ humanist_advisor = {
 	}
 }
 
+innovatist = {
+	monarch_power = ADM
+	
+	# Bonus
+	innovativeness_gain = 0.5
+
+	skill_scaled_modifier = { meritocracy = 0.25 }
+
+	chance = {
+		factor = 1
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
 
 ###############################
 ##### DIPLOMATIC ADVISORS #####

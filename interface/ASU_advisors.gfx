@@ -791,5 +791,25 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate.lua"
 		loadType = "INGAME"
 	}
+
+	#innovatist
+	#generic male 
+	spriteType = {
+		name = "GFX_advisor_innovatist"
+		texturefile = "gfx//interface//advisors//innovatist.dds"
+		noOfFrames = 1
+
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	#generic female 
+	spriteType = {
+		name = "GFX_advisor_humanist_innovatist"
+		texturefile = "gfx//interface//advisors//innovatist_female.dds"
+		noOfFrames = 1
+
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
 }
 
