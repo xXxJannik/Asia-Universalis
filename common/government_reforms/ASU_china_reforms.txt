@@ -7,7 +7,7 @@ h_reform_warlord_1 = {
 			technology_group = chinese
 			government_rank = 1
 			NOT = {
-				total_development = 100
+				total_development = 125
 			}
 		}
 
@@ -58,7 +58,7 @@ h_reform_warlord_2 = {
 			technology_group = chinese
 			government_rank = 1
 			NOT = {
-				total_development = 200
+				total_development = 250
 			}
 		}
 		NOT = { tag = QNG}
@@ -106,8 +106,9 @@ h_reform_warlord_3 = {
 			culture_group = east_asian
 			technology_group = chinese
 			government_rank = 1
+			total_development = 200
 			NOT = {
-				total_development = 500
+				total_development = 550
 			}
 		}
 		NOT = { tag = QNG}
@@ -117,6 +118,7 @@ h_reform_warlord_3 = {
 		NOT = { has_reform = h_reform_warlord_1 }
 		NOT = { has_reform = h_reform_warlord_4 }
 		NOT = { has_reform = reform_warlord_5 }
+		
 	}
 	maintain_dynasty = yes
 	lock_level_when_selected = yes
@@ -153,6 +155,7 @@ h_reform_warlord_4 = {
 		AND = {
 			culture_group = east_asian
 			technology_group = chinese
+			total_development = 500
 		}
 		NOT = { tag = QNG}
 		NOT = { tag = MCH}
