@@ -283,6 +283,22 @@ subject_mediator = {
 		factor = 1
 	}
 }
+
+
+burgher_representative = {
+	monarch_power = DIP
+
+	# Bonus
+	burghers_loyalty_modifier = 0.2
+	
+	chance = {
+		factor = 1
+	}
+
+	ai_will_do = {
+		factor = 1
+	}
+}
 #############################
 ##### MILITARY ADVISORS #####
 #############################
@@ -455,10 +471,7 @@ noble_representative = {
 #vassal_tax_income = 0.25
 #interest = -1
 #ship_durability = 0.05
-#heir_chance = 0.25
 #legitimacy = 1	/ horde_unity = 1 / devotion = 0.5
-#monthly_militarized_society = 0.05
 #yearly_tribal_allegiance = 0.5
-#burghers_loyalty_modifier = 0.2	
 #fabricate_claims_cost= -0.25
 #possible_condottieri = 1

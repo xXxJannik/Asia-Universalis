@@ -86,6 +86,7 @@ has_dip_advisor = {
 			advisor = mercantile_influencer
 			advisor = navarch
 			advisor = subject_mediator
+			advisor = burgher_representative
 		}
 	}
 }
@@ -108,6 +109,7 @@ has_dip_advisor_2 = {
 			mercantile_influencer = 2
 			navarch = 2
 			subject_mediator = 2
+			burgher_representative = 2
 		}
 	}
 }
@@ -130,6 +132,7 @@ has_dip_advisor_3 = {
 			mercantile_influencer = 3
 			navarch = 3
 			subject_mediator = 3
+			burgher_representative = 3
 		}
 	}
 }

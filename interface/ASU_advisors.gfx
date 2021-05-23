@@ -804,7 +804,7 @@ spriteTypes = {
 	}
 	#generic female 
 	spriteType = {
-		name = "GFX_advisor_innovatist"
+		name = "GFX_advisor_innovatist_female"
 		texturefile = "gfx//interface//advisors//innovatist_female.dds"
 		noOfFrames = 1
 
@@ -817,6 +817,26 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_advisor_concubine"
 		texturefile = "gfx//interface//advisors//concubine_female.dds"
+		noOfFrames = 1
+
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+
+	#burgher_representative
+	#generic male 
+	spriteType = {
+		name = "GFX_advisor_burgher_representative"
+		texturefile = "gfx//interface//advisors//burgher_representative.dds"
+		noOfFrames = 1
+
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	#generic female 
+	spriteType = {
+		name = "GFX_advisor_burgher_representative_female"
+		texturefile = "gfx//interface//advisors//burgher_representative_female.dds"
 		noOfFrames = 1
 
 		effectFile = "gfx/FX/buttonstate.lua"

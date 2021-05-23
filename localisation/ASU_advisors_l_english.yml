@@ -29,6 +29,8 @@
  navarch_desc: "Thinks that Navy actually matters in this game."
  subject_mediator: "Subject Mediator"
  subject_mediator_desc: "Tricks subjects into beeing loyal."
+ burgher_representative: "Burgher Representative"
+ burgher_representative_desc: "Represents the burghers."
  commander: "Commander" 
  commander_desc: "Wants more money for army maintenance."
  drill_instructor: "Drill Instructor"

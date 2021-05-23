@@ -29,6 +29,8 @@
  navarch_desc: "Denkt das Schiffe wichtig sind."
  subject_mediator: "Untertanen Repräsentant."
  subject_mediator_desc: "Lässt Untertanen denken sie hätten was zu sagen."
+ burgher_representative: "Bürger Repräsentant"
+ burgher_representative_desc: "Repräsentiert die Bürger unserer Nation."
  commander: "Befehlshaber" 
  commander_desc: "Will mehr Geld für die Armee haben."
  drill_instructor: "Rekrutenausbilder"
