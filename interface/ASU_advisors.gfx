@@ -655,7 +655,7 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate.lua"
 		loadType = "INGAME"
 	}
-
+	#######################
 	#logistician
 	#Asian male 
 	spriteType = {
@@ -693,7 +693,7 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate.lua"
 		loadType = "INGAME"
 	}
-
+	#######################
 	#recruiting_officer
 	#Asian male
 	spriteType = {
@@ -732,7 +732,7 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate.lua"
 		loadType = "INGAME"
 	}
-
+	#######################
 	#noble_representative
 	#Asian male
 	spriteType = {
@@ -771,7 +771,7 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate.lua"
 		loadType = "INGAME"
 	}
-
+	#######################
 	#Humanist
 	#generic male 
 	spriteType = {
@@ -791,7 +791,7 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate.lua"
 		loadType = "INGAME"
 	}
-
+	#######################
 	#innovatist
 	#generic male 
 	spriteType = {
@@ -811,7 +811,7 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate.lua"
 		loadType = "INGAME"
 	}
-
+	#######################
 	#concubine - has only female
 	#generic female 
 	spriteType = {
@@ -822,7 +822,7 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate.lua"
 		loadType = "INGAME"
 	}
-
+	#######################
 	#burgher_representative
 	#generic male 
 	spriteType = {
@@ -842,7 +842,7 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate.lua"
 		loadType = "INGAME"
 	}
-
+	#######################
 	#marine_leader
 	#generic male 
 	spriteType = {
@@ -862,7 +862,7 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate.lua"
 		loadType = "INGAME"
 	}
-
+	#######################
 	#infantry_leader
 	#generic male 
 	spriteType = {
@@ -882,7 +882,7 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate.lua"
 		loadType = "INGAME"
 	}
-
+	#######################
 	#cavalry_leader
 	#generic male 
 	spriteType = {
