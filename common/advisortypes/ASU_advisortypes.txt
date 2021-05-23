@@ -306,6 +306,7 @@ marine_leader = {
 
 	# Bonus
 	allowed_marine_fraction = 0.2
+	sailors_recovery_speed = 0.1
 	
 	chance = {
 		factor = 1
@@ -511,24 +512,4 @@ cavalry_leader = {
 		factor = 1
 	}
 }
-
-
-
-################################
-###### New advisors? #####
-################################
-#amount_of_banners = 0.25
-#special_unit_forcelimit= 0.2
-#ship_durability = 0.05
-#yearly_tribal_allegiance = 0.5
-#Schiffbauer - schiffbauzeit
-#
-#
-#
-#
-#
-#
-#
-#
-#
 
