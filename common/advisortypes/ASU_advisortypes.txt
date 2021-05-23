@@ -194,6 +194,7 @@ marauder_captain = {
 	
 	# Bonus
 	privateer_efficiency = 0.20
+	blockade_efficiency = 0.20
 
 	skill_scaled_modifier = { meritocracy = 0.25 }
 
