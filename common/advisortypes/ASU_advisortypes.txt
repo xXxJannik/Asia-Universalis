@@ -328,8 +328,26 @@ defensive_planner = {
 	}
 }
 
+logistician = {
+	monarch_power = MIL
+	
+	# Bonus
+	land_attrition = -0.2
+
+	skill_scaled_modifier = { meritocracy = 0.25 }
+
+	chance = {
+		factor = 1
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+
+
 ###### New Advisors to add #####
-#land_attrition = -0.1
 #amount_of_banners = 0.25
 #special_unit_forcelimit= 0.2
 #allowed_marine_fraction = 0.15
