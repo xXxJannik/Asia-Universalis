@@ -6,6 +6,7 @@ estate_ASU_banners = {
 		has_dlc = "The Cossacks"
 		is_colonial_nation = no
 		OR = {
+			has_reform = h_reform_warlord_4 #Chinese Kingdom
 			has_reform = reform_warlord_5 #Chinese Horde
 			has_reform = celestial_empire
 		}
