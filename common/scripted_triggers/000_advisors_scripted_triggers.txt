@@ -160,6 +160,7 @@ has_mil_advisor = {
 			advisor = logistician
 			advisor = recruiting_officer
 			advisor = noble_representative
+			advisor = infantry_leader
 		}
 	}
 }
@@ -184,6 +185,7 @@ has_mil_advisor_2 = {
 			logistician = 2
 			recruiting_officer = 2
 			noble_representative = 2
+			infantry_leader = 2
 		}
 	}
 }
@@ -208,6 +210,7 @@ has_mil_advisor_3 = {
 			logistician = 3
 			recruiting_officer = 3
 			noble_representative = 3
+			infantry_leader = 3
 		}
 	}
 }
