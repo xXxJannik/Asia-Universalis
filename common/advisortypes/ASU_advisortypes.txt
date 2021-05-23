@@ -123,6 +123,26 @@ innovatist = {
 	}
 }
 
+concubine = {
+	monarch_power = ADM
+	
+	# Bonus
+	heir_chance = 0.5
+
+	skill_scaled_modifier = { meritocracy = 0.25 }
+	allow_only_female = yes
+	chance = {
+		factor = 1
+		modifier = {
+			NOT = {is_female = yes}
+		}
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
 ###############################
 ##### DIPLOMATIC ADVISORS #####
 ###############################
@@ -434,8 +454,6 @@ noble_representative = {
 #vassal_tax_income = 0.25
 #interest = -1
 #ship_durability = 0.05
-#innovativeness_gain = 0.5
-#monthly_splendor = 2
 #heir_chance = 0.25
 #legitimacy = 1	/ horde_unity = 1 / devotion = 0.5
 #monthly_militarized_society = 0.05

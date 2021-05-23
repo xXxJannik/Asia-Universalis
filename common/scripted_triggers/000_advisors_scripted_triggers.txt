@@ -16,6 +16,7 @@ has_adm_advisor = {
 			advisor = religious_representative
 			advisor = humanist_advisor
 			advisor = innovatist
+			advisor = concubine
 		}
 	}
 }
@@ -38,6 +39,7 @@ has_adm_advisor_2 = {
 			religious_representative = 2
 			humanist_advisor = 2
 			innovatist = 2
+			concubine = 2
 		}
 	}
 }
@@ -60,6 +62,7 @@ has_adm_advisor_3 = {
 			religious_representative = 3
 			humanist_advisor = 3
 			innovatist = 3
+			concubine = 3
 		}
 	}
 }
