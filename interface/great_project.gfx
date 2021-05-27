@@ -256,6 +256,39 @@ spriteTypes = {
 		name = "GFX_great_project_palace_potala"	
 		texturefile = "gfx//interface//great_projects//great_project_palace_potala.dds"
 	}
+	spriteType = {
+		name = "GFX_great_project_big_buddha"	
+		texturefile = "gfx//interface//great_projects//great_project_big_buddha.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_fuling_mausoleum"	
+		texturefile = "gfx//interface//great_projects//great_project_fuling_mausoleum.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_maoling"	
+		texturefile = "gfx//interface//great_projects//great_project_maoling.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_pavilion_of_prince_teng"	
+		texturefile = "gfx//interface//great_projects//great_project_pavilion_of_prince_teng.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_wannian_temple"	
+		texturefile = "gfx//interface//great_projects//great_project_wannian_temple.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_western_qing_tombs"	
+		texturefile = "gfx//interface//great_projects//great_project_western_qing_tombs.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_xia_mausoleums"	
+		texturefile = "gfx//interface//great_projects//great_project_western_xia_mausoleums.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_three_pagodas"	
+		texturefile = "gfx//interface//great_projects//great_project_three_pagodas.dds"
+	}
+	
 
 ### CANALS ###
 
