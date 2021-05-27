@@ -2,7 +2,7 @@
 owner = CHC
 controller = CHC
 add_core = CHC
-culture = xiang
+culture = hubei
 religion = confucianism
 trade_goods = grain
 hre = no
