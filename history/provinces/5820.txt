@@ -1,14 +1,14 @@
 
-owner = KOR
-controller = KOR
-culture = korean
-religion = confucianism
+owner = JIN
+controller = JIN
+add_core = JIN
+culture = jin
+religion = vajrayana
 trade_goods = grain
 hre = no
 base_tax = 1
 base_production = 1
 base_manpower = 1
 is_city = yes
-add_core = KOR
 discovered_by = chinese
 discovered_by = nomad_group
