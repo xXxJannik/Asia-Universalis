@@ -892,6 +892,16 @@ south_china_region = {
 		hunan_area
 		guangxi_area
 		north_taiwan_area
+		test_area
+		test_two_area
+		test_three_area
+		test_four_area
+		test_five_area
+		test_six_area
+		test_seven_area
+		test_eight_area
+		test_nine_area
+		test_ten_area
 	}
 	monsoon = {
 		00.05.01
