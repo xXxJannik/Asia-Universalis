@@ -3,7 +3,7 @@
 owner = MNG
 controller = MNG
 add_core = MNG
-culture = manchu
+culture = shandong_culture
 religion = confucianism
 capital = "Shenyang"
 trade_goods = gems #Youyan Jade
