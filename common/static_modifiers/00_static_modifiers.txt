@@ -1696,6 +1696,7 @@ over_governing_capacity_modifier = {
 
 lost_hegemony = {
 	all_power_cost	= 0
+	prestige = -2
 }
 
 at_peace_revolutionary = { # Applied if at peace while reactionaries are bordering you
