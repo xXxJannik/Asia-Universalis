@@ -625,6 +625,17 @@ mongolia_region = {
 		turpan_kumul_area
 		tannu_uriankhai_area
 		cicigar_area
+		khalkhgol_area
+		jirem_area
+		chifeng_area
+		xingfuzhilu_area
+		chicheng_area
+		kalgan_area
+		naran_area
+		asgat_area
+		airag_area
+		barag_area
+		matad_area
 	}
 }
 
@@ -647,7 +658,7 @@ manchuria_region = {
 		hurha_area
 		xingfu_area
 		yilan_area
-		khalkhgol_area
+		shenyang_area
 	}
 }
 
@@ -932,6 +943,22 @@ north_china_region = {
 		west_gansu_area
 		jiangsu_area
 		anhui_area
+		beijing_area
+		caofeidian_area
+		jizhou_area
+		jianchang_area
+		jianzhou_area
+		yanqing_area
+		weihai_area
+		qingdao_area
+		baoding_area
+		yingbin_area
+		rizhao_area
+		jinan_area
+		yulin_area
+		linyi_area
+		laiwu_area
+		wuding_area
 	}
 }
 
