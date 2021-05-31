@@ -913,6 +913,9 @@ south_china_region = {
 		test_eight_area
 		test_nine_area
 		test_ten_area
+		shanghai_area
+		jiaxing_area
+		nanjing_area
 	}
 	monsoon = {
 		00.05.01
@@ -959,6 +962,19 @@ north_china_region = {
 		linyi_area
 		laiwu_area
 		wuding_area
+		nantong_area
+		fuping_area
+		hengshui_area
+		xingtai_area
+		zhengzhuo_area
+		kaifeng_area
+		shuyang_area
+		hefei_area
+		sihong_area
+		hongwei_area
+		binhai_area
+		yangzhou_area
+		xinghua_area
 	}
 }
 
