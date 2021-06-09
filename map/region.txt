@@ -1029,6 +1029,29 @@ north_china_region = {
 		yanzhizhen_area
 		yashali_area
 		sedixang_area
+		ye_area
+		nanzhao_area
+		yiyang_area
+		kaifeng_area
+		baifang_area
+		ying_area
+		beiguan_area
+		dai_area
+		yuncheng_area
+		pingyang_area
+		jincheng_area
+		litan_area
+		qijiazhen_area
+		yanzhizhen_area
+		yashali_area
+		sedixang_area
+		changyuan_area
+		yucheng_area
+		qi_area
+		taihe_area
+		shenqiu_area
+		lixin_area
+		chenlou_area
 	}
 }
 
