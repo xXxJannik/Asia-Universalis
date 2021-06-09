@@ -1052,6 +1052,10 @@ north_china_region = {
 		shenqiu_area
 		lixin_area
 		chenlou_area
+		handan_area
+		jinxiang_area
+		xiao_area
+		puyang_area
 	}
 }
 
