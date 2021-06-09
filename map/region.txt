@@ -636,6 +636,7 @@ mongolia_region = {
 		airag_area
 		barag_area
 		matad_area
+		jinchang_area
 	}
 }
 
@@ -916,6 +917,27 @@ south_china_region = {
 		shanghai_area
 		jiaxing_area
 		nanjing_area
+		guangde_area
+		wuyuan_area
+		dexing_area
+		hukou_area
+		poyang_area
+		pucheng_area
+		zixi_area
+		nanfeng_area
+		ningdu_area
+		nanfeng_area
+		sha_area
+		quanzhou_area
+		ningde_area
+		yunhe_area
+		wenzhou_area
+		ninghai_area
+		xinchang_area
+		wuyi_area
+		tonglu_area
+		shangyu_area
+		yinzhou_area
 	}
 	monsoon = {
 		00.05.01
@@ -975,6 +997,38 @@ north_china_region = {
 		binhai_area
 		yangzhou_area
 		xinghua_area
+		gushi_area
+		macheng_area
+		dongzhi_area
+		wuhu_area
+		changfeng_area
+		jiuquan_area
+		xining_area
+		yinchuan_area
+		zhongwei_area
+		ningxia_area
+		yicun_area
+		yanan_area
+		huan_area
+		zhidan_area
+		heyang_area
+		ansai_area
+		zizhou_area
+		mazhen_area
+		togtoh_area
+		zuhuxiang_area
+		baifang_area
+		ying_area
+		beiguan_area
+		dai_area
+		yuncheng_area
+		pingyang_area
+		jincheng_area
+		litan_area
+		qijiazhen_area
+		yanzhizhen_area
+		yashali_area
+		sedixang_area
 	}
 }
 
