@@ -164,7 +164,7 @@ gov_japan = {
 	}
 }
 
-gov_city_state_leader = {
+gov_city_state = {
 	rank = {
 		1 = CityStateRank
 		2 = CityStateRank
