@@ -1,4 +1,4 @@
-government = republic
+government = monarchy
 add_government_reform = h_reform_warlord_1
 technology_group = chinese
 religion = confucianism
@@ -8,8 +8,8 @@ capital = 5016	#Weihai
 
 1444.1.31 = {
 	monarch = {
-		name = "VORNAME"
-		dynasty = "NACHNAME"
+		name = "Zhanyin"
+		dynasty = "Yi"
 		birth_date = 1420.1.1 #Age - 24
 		adm = 4
 		dip = 4

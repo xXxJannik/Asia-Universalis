@@ -68,3 +68,11 @@ vassal = {
 	end_date = 1462.1.1
 }
 
+#Korean subjext
+
+vassal = {
+	first = KOR
+	second = WEI
+	start_date = 1444.1.1
+	end_date = 1821.1.1
+}
