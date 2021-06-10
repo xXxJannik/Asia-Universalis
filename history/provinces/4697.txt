@@ -1,6 +1,6 @@
-owner = MNG
-controller = MNG
-add_core = MNG
+owner = DLA
+controller = DLA
+add_core = DLA
 culture = shandong_culture
 religion = confucianism
 trade_goods = fish
