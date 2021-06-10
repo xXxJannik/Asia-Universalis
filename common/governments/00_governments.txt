@@ -268,6 +268,7 @@ republic = {
 				united_cantons_reform
 				kongsi_federation
 				millenarian_theocracy_reform
+				chinese_city_reform
 			}
 		}
 		republican_virtues = {

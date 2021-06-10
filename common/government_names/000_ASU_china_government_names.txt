@@ -163,3 +163,27 @@ gov_japan = {
 		has_reform = reform_japan
 	}
 }
+
+gov_city_state_leader = {
+	rank = {
+		1 = CityStateRank
+		2 = CityStateRank
+		3 = CityStateRank
+	}
+	
+	ruler_male = {
+		1 = CityStateLeader
+		2 = CityStateLeader
+		3 = CityStateLeader
+	}
+	
+	ruler_female = {
+		1 = CityStateLeader
+		2 = CityStateLeader
+		3 = CityStateLeader
+	}
+	
+	trigger = {
+		has_reform = chinese_city_reform
+	}
+}

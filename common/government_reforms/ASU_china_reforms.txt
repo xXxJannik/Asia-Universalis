@@ -299,3 +299,39 @@ reform_japan = {
 	conditional = {
 	}
 }
+
+
+#Chinese City states 
+
+chinese_city_reform = {
+	icon = "people_walking"
+	allow_normal_conversion = no
+	duration = 4
+	legacy_equivalent = oligarchic_republic
+	potential = {
+		OR = {
+			tag = NAN
+		}
+	}
+	lock_level_when_selected = yes
+	modifiers = {
+		garrison_size = 1
+		defensiveness = 0.5
+		global_tax_income = 150
+		diplomatic_upkeep = -4
+		diplomatic_reputation = -10
+		liberty_desire = 500
+		land_morale = 0.25
+		land_forcelimit = 25
+		possible_condottieri = -1.0
+		governing_capacity = -500
+		global_manpower = 25
+	}
+	custom_attributes = {
+		enables_plutocratic_idea_group = yes
+		enables_aristocratic_idea_group = no
+	}
+	ai = {
+		factor = 1000
+	}
+}

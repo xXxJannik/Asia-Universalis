@@ -36,6 +36,11 @@
  JapaneseEmperor:0 "Tenno"
  JapaneseEmpress:0 "Kogo"
 
+ chinese_city_reform:0 "City State"
+ reform_japan_desc:0 "A democratic city state."
+ CityStateRank:0 "City State"
+ CityStateLeader:0 "President"
+
  promote_cavalry_decree: "Boost Cavalry Corps"
  promote_cavalry_decree_title: "Boost Cavalry Corps"
  promote_cavalry_decree_desc: "Hello world"
