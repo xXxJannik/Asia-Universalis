@@ -1083,3 +1083,4 @@ SYN = "countries/Synthetics.txt"
 
 NAN = countries/Nanjing.txt
 QND = countries/Qingdao.txt
+WEI = countries/Weihai.txt
