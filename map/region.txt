@@ -1056,6 +1056,14 @@ north_china_region = {
 		jinxiang_area
 		xiao_area
 		puyang_area
+		xian_area
+		shanyang_area
+		hui_area
+		ningshan_area
+		ankang_area
+		bazhong_area
+		nanjiang_area
+		wanyuan_area
 	}
 }
 
