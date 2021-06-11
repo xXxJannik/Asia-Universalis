@@ -2,7 +2,7 @@ chinese_ambush = {
 	type = superiority
 	
 	attacker = {
-		badboy_factor = 1
+		badboy_factor = 1.25
 		prestige_factor = 0.5
 		peace_cost_factor = 1
 
