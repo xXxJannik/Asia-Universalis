@@ -1085,3 +1085,7 @@ NAN = countries/Nanjing.txt
 QND = countries/Qingdao.txt
 WEI = countries/Weihai.txt
 DLA = countries/Dalian.txt
+XIN = countries/Xian.txt
+HZH = countries/Hangzhou.txt
+WFG = countries/Weifang.txt
+JNA = countries/Jinan.txt

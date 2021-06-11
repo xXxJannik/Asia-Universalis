@@ -1,0 +1,18 @@
+government = republic
+add_government_reform = chinese_city_reform
+technology_group = chinese
+religion = confucianism
+primary_culture = shandong_culture
+capital = 691	#Jinan
+
+
+1444.1.31 = {
+	monarch = {
+		name = "VORNAME"
+		dynasty = "NACHNAME"
+		birth_date = 1420.1.1 #Age - 24
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}

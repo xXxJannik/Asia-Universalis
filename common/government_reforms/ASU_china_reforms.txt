@@ -301,6 +301,10 @@ chinese_city_reform = {
 		OR = {
 			tag = NAN
 			tag = QND
+			tag = HZH
+			tag = JNA
+			tag = WFG
+			tag = XIN
 		}
 	}
 	lock_level_when_selected = yes
