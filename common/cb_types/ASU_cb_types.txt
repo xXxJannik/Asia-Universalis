@@ -1,0 +1,32 @@
+
+
+cb_ambush = {
+	valid_for_subject = no
+	prerequisites = {
+		is_neighbor_of = FROM
+		is_free_or_tributary_trigger = yes
+		# ATTACKER
+		ROOT = {
+			OR = {
+				has_reform = h_reform_warlord_1
+				has_reform = h_reform_warlord_2
+				has_reform = h_reform_warlord_3
+				has_reform = h_reform_warlord_4
+				has_reform = reform_warlord_5
+			}
+		}
+		# DEFENDER
+		FROM = {
+			OR = {
+				has_reform = h_reform_warlord_1
+				has_reform = h_reform_warlord_2
+				has_reform = h_reform_warlord_3
+				has_reform = h_reform_warlord_4
+				has_reform = reform_warlord_5
+				has_reform = chinese_city_reform
+			}
+		}
+	}
+
+	war_goal = chinese_ambush
+}
