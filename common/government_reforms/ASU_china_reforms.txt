@@ -300,6 +300,7 @@ chinese_city_reform = {
 	potential = {
 		OR = {
 			tag = NAN
+			tag = QND
 		}
 	}
 	lock_level_when_selected = yes
