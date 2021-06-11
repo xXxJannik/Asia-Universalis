@@ -672,6 +672,7 @@ confuci0 = {
 	
 	bonus = {
 		fort_maintenance_modifier = -0.1
+		shock_damage_received = -0.10
 	}
 		
 	
