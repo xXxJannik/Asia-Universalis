@@ -938,6 +938,21 @@ south_china_region = {
 		tonglu_area
 		shangyu_area
 		yinzhou_area
+		hongya_area
+		chengdu_area
+		dazu_area
+		beibei_area
+		sunwan_area
+		shizhu_area
+		laifeng_area
+		yanhe_area
+		tongren_area
+		qijang_area
+		bozhou_area
+		neijiang_area
+		zigong_area
+		zuogou_area
+		fuling_area
 	}
 	monsoon = {
 		00.05.01
@@ -1064,6 +1079,9 @@ north_china_region = {
 		bazhong_area
 		nanjiang_area
 		wanyuan_area
+		mao_area
+		zitong_area
+		nanchon_area
 	}
 }
 
