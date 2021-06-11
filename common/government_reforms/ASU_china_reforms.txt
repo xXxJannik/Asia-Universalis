@@ -1,14 +1,10 @@
 h_reform_warlord_1 = {
 	icon = "fist_in_air"
-	allow_normal_conversion = yes
+	allow_normal_conversion = no
 	potential = {
 		AND = {
 			culture_group = east_asian
 			technology_group = chinese
-			government_rank = 1
-			NOT = {
-				total_development = 125
-			}
 		}
 
 		NOT = { tag = QNG}
@@ -51,15 +47,12 @@ h_reform_warlord_1 = {
 
 h_reform_warlord_2 = {
 	icon = "fist_in_air"
-	allow_normal_conversion = yes
+	allow_normal_conversion = no
 	potential = {
 		AND = {
 			culture_group = east_asian
 			technology_group = chinese
 			government_rank = 1
-			NOT = {
-				total_development = 250
-			}
 		}
 		NOT = { tag = QNG}
 		NOT = { tag = MCH}
@@ -100,16 +93,12 @@ h_reform_warlord_2 = {
 
 h_reform_warlord_3 = {
 	icon = "fist_in_air"
-	allow_normal_conversion = yes
+	allow_normal_conversion = no
 	potential = {
 		AND = {
 			culture_group = east_asian
 			technology_group = chinese
 			government_rank = 1
-			total_development = 200
-			NOT = {
-				total_development = 550
-			}
 		}
 		NOT = { tag = QNG}
 		NOT = { tag = MCH}
