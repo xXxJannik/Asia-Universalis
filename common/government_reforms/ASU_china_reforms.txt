@@ -320,6 +320,7 @@ chinese_city_reform = {
 		possible_condottieri = -1.0
 		governing_capacity = -500
 		global_manpower = 25
+		global_supply_limit_modifier = 0.5
 	}
 	custom_attributes = {
 		enables_plutocratic_idea_group = yes
