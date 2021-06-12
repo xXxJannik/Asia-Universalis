@@ -1,4 +1,4 @@
-#726 - Liaodong
+#726 - Shenyang
 
 owner = SHG
 controller = SHG

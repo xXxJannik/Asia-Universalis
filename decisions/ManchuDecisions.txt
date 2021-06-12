@@ -25,6 +25,7 @@ country_decisions = {
 					province_id = 4662
 					province_id = 731
 					province_id = 4655
+					province_id = 726
 				}
 				OR = {
 					AND = {
@@ -63,6 +64,7 @@ country_decisions = {
 			owns_core_province = 4662
 			owns_core_province = 731
 			owns_core_province = 4655
+			owns_core_province = 726	    #Shenyang
 			custom_trigger_tooltip = {
 				tooltip = manchu_manchuria_decision.tooltip
 				num_of_owned_provinces_with = {
