@@ -305,6 +305,7 @@ chinese_city_reform = {
 			tag = JNA
 			tag = WFG
 			tag = XIN
+			tag = SHG
 		}
 	}
 	lock_level_when_selected = yes
