@@ -964,6 +964,17 @@ south_china_region = {
 		guangning_area
 		huaiji_area
 		zhaoping_area
+		xiamen_area
+		shipai_area
+		yunxiag_area
+		shantou_area
+		shanwei_area
+		heyuan_area
+		meizhou_area
+		pingyuan_area
+		anyuan_area
+		longyan_area
+		shanghang_area
 	}
 	monsoon = {
 		00.05.01
