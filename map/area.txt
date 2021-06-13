@@ -2605,11 +2605,11 @@ kanto_area = { #Western Kanto
 }
 
 tokyo_area = {
-	5088 5089 1028
+	5088 5089 1028 4190 5094
 }
 
 eastern_kanto_area = { 
-	1027 4190 5094 5099 5100
+	1027 5099 5100
 }
 
 katashina_area = {
