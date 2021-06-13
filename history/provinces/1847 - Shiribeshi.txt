@@ -22,15 +22,6 @@ discovered_by = OIR
 discovered_by = QNG
 discovered_by = ANU
 
-1640.1.1 = { discovered_by = RUS } # Ivan Moskvitin
-
-1679.1.1 = {	
-	owner = TKG
-	controller = TKG
-	culture = togoku
-	religion = shinto
-	trade_goods = fish
-} # Russian & Japanese attemps at colonization
-1704.1.1 = { add_core = TKG }
-1767.1.1 = { add_core = RUS }
-1787.1.1 = { discovered_by = FRA } # Jean-Francois de La Pérouse
+latent_trade_goods = {
+	coal
+}
