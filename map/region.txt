@@ -559,9 +559,6 @@ central_asia_region = {
 		arys_area
 		lower_yik_area
 		syr_darya_area
-		kashgaria_area
-		tarim_basin_area
-		shanshan_area
 		kyzylkum_area
 		termez_area
 	}
@@ -699,6 +696,9 @@ tibet_region = {
 		kham_area
 		bhutan_area
 		ngari_area
+		shanshan_area
+		tarim_basin_area
+		kashgaria_area
 	}
 }
 
