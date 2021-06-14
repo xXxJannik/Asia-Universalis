@@ -904,16 +904,6 @@ south_china_region = {
 		hunan_area
 		guangxi_area
 		north_taiwan_area
-		test_area
-		test_two_area
-		test_three_area
-		test_four_area
-		test_five_area
-		test_six_area
-		test_seven_area
-		test_eight_area
-		test_nine_area
-		test_ten_area
 		shanghai_area
 		jiaxing_area
 		nanjing_area
@@ -975,6 +965,16 @@ south_china_region = {
 		anyuan_area
 		longyan_area
 		shanghang_area
+		deshizhen_area
+		jinyang_area
+		zunyi_area
+		dafang_area
+		bijie_area
+		dacun_area
+		hebian_area
+		nayong_area
+		qiannan_area
+		leye_area
 	}
 	monsoon = {
 		00.05.01
