@@ -2317,7 +2317,7 @@ shan_hill_area = { #4
 }
 
 karenni_area = { #3 #Southern Shan States
-	587 2401 4398
+	587 2401 4398 660
 }
 
 
@@ -3547,6 +3547,52 @@ leye_area = {
 	5656 5668 5655
 }
 
+# aus test_eight_area
+
+jigaxiang_area = {
+	5703 2167 5702
+}
+
+bokexiang_area = {
+	5701 2748 5700 5698
+}
+
+lanping_area = {
+	5697 5699 5696 
+}
+
+baoshan_area = {
+	5694 5695 661 2166 5693
+}
+
+dali_area = {
+	5691 5688 5686 5689 5692
+}
+
+mangma_area = {
+	5643 2165 5642 5639
+}
+
+xinping_area = {
+	662 5653 5687 5690 5641
+}
+
+yiwu_area = {
+	5638 5640 5637 5635
+}
+
+kunming_area = {
+	5633 5652 663 5630 5647
+}
+
+shangzai_area = {
+	5632 5636 5634 5631
+}
+
+wenshan_area = {
+	5628 5629 5627 5644 5645
+}
+
 ######################################################
 ######################################################
 ### A1 localisation ende
@@ -3735,7 +3781,6 @@ yun_gui_area = { #5 (Yun-Gui Hinterland)
 }
 
 yun_gui_borderland_area = { #5
-	660
 }
 
 sichuan_area = { #3

@@ -975,6 +975,17 @@ south_china_region = {
 		nayong_area
 		qiannan_area
 		leye_area
+		jigaxiang_area
+		bokexiang_area
+		lanping_area
+		baoshan_area
+		dali_area
+		mangma_area
+		xinping_area
+		yiwu_area
+		kunming_area
+		shangzai_area
+		wenshan_area
 	}
 	monsoon = {
 		00.05.01
