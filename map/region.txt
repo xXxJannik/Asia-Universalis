@@ -996,6 +996,13 @@ south_china_region = {
 		tangdi_area
 		liannan_area
 		malucun_area
+		nanchang_area
+		wuning_area
+		jian_area
+		pingxiang_area
+		guangchang_area
+		yudu_area
+		nankang_area
 	}
 	monsoon = {
 		00.05.01
@@ -1125,6 +1132,7 @@ north_china_region = {
 		mao_area
 		zitong_area
 		nanchon_area
+		shangsheng_area
 	}
 }
 
