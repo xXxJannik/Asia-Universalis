@@ -1090,3 +1090,15 @@ HZH = countries/Hangzhou.txt
 WFG = countries/Weifang.txt
 JNA = countries/Jinan.txt
 SHG = countries/Shenyang.txt
+CHN = countries/Chen.txt
+CIN = countries/Xin.txt
+CWI = countries/Wei.txt
+HNN = countries/Han.txt
+LAO = countries/Liao.txt
+LSG = countries/LiuSong.txt
+SAG = countries/Shang.txt
+SHH = countries/ShuHan.txt
+SNG = countries/Song.txt
+SUI = countries/Sui.txt
+XIA = countries/Xia.txt
+

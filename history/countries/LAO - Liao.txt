@@ -1,0 +1,19 @@
+government = monarchy
+add_government_reform = h_reform_warlord_1
+primary_culture = wu
+religion = buddhism
+technology_group = chinese
+capital = 2150	# Jinhua
+
+1444.1.31 = {
+	monarch = {
+		name = "Miao"
+		dynasty = "Liao"
+		birth_date = 1420.1.1 #Age - 24
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = bold_fighter_personality
+}
