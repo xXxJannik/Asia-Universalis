@@ -3448,7 +3448,7 @@ guangzhou_area = {
 }
 
 guangning_area = {
-	5402 5405 5404 5406
+	5402 5405 5404 5406 5445
 }
 
 huaiji_area = {
@@ -3591,6 +3591,49 @@ shangzai_area = {
 
 wenshan_area = {
 	5628 5629 5627 5644 5645
+}
+
+
+# aus test_six_area
+
+qiaobei_area = {
+	5421 5425 5424 5422 5420
+}
+
+dabuznen_area = {
+	5427 5426 5428 2158 
+}
+
+yizhang_area = {
+	5435 5423 5429
+}
+
+shixing_area = {
+	670 5430 5432 5433
+}
+
+zixing_area = {
+	5434 5431 5436 5437
+}
+
+ningyuan_area = {
+	5440 5438 5439
+}
+
+xiewu_area = {
+	5446 5450 5449 2174 5444
+}
+
+tangdi_area = {
+	5453 5454 5455 1840 5451
+}
+
+liannan_area = {
+	5443 5442 5441 5447
+}
+
+malucun_area = {
+	5452 5448 2173
 }
 
 ######################################################

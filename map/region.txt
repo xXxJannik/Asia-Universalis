@@ -986,6 +986,16 @@ south_china_region = {
 		kunming_area
 		shangzai_area
 		wenshan_area
+		qiaobei_area
+		dabuznen_area
+		yizhang_area
+		shixing_area
+		zixing_area
+		ningyuan_area
+		xiewu_area
+		tangdi_area
+		liannan_area
+		malucun_area
 	}
 	monsoon = {
 		00.05.01
