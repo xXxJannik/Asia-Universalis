@@ -1,0 +1,72 @@
+country_decisions = {
+
+
+    # check for critical events, many thanks to PR
+	ASU_critical_events = {
+		major = yes
+		potential = {
+			ai = no
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		allow = {
+			custom_trigger_tooltip = {
+				tooltip = ASU_radical_reform_decision
+				NOT = { has_country_flag = radical_mercantilist_reforms }
+			}
+			custom_trigger_tooltip = {
+				tooltip = ASU_military_reform_decision
+				NOT = { has_country_flag = military_reform }
+			}
+			custom_trigger_tooltip = {
+				tooltip = ASU_commandant_decision
+				NOT = { has_country_flag = commandant }
+			}
+			custom_trigger_tooltip = {
+				tooltip = ASU_grand_captain_decision
+				NOT = { has_country_flag = grand_captain }
+			}
+			always = no
+		}
+		effect = {
+		}
+	}
+
+
+    ASU_fire_commander_event = {
+		major = yes
+		potential = {
+			ai = no
+		    NOT = { has_country_flag = commandant }
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		allow = {
+            commandant = 3
+		}
+		effect = {
+           country_event = { id = 4116 }
+		}
+	}
+
+    ASU_fire_grand_captain_event = {
+		major = yes
+		potential = {
+			ai = no
+		    NOT = { has_country_flag = grand_captain }
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		allow = {
+            grand_captain = 3
+		}
+		effect = {
+            country_event = { id = 4114 }
+		}
+	}
+
+
+} #Ende

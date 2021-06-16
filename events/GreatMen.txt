@@ -981,34 +981,12 @@ country_event = {
 	title = "EVTNAME4114"
 	desc = "EVTDESC4114"
 	picture = ADVISOR_eventPicture	
-	
+	is_triggered_only = yes
 	trigger = {
 		grand_captain = 3
 		NOT = { has_country_flag = grand_captain }
-		NOT = { has_country_modifier = ASU_grand_captain_delayed}
 	}
-	
-	mean_time_to_happen = {
-		months = 300
 
-		modifier = {
-			factor = 0.9
-			innovativeness_ideas = 4
-		}
-		modifier = {
-			factor = 0.9
-			innovativeness_ideas = 6
-		}
-		modifier = {
-			factor = 1.1
-			NOT = { innovativeness_ideas = 4 }
-		}
-		modifier = {
-			factor = 1.1
-			NOT = { innovativeness_ideas = 2 }
-		}
-	}
-	
 	option = {
 		name = "EVTOPTA4114"	# His efforts will be admired throughout the nation
 		ai_chance = {
@@ -1053,11 +1031,6 @@ country_event = {
 				factor = 100
 				is_at_war = no
 			}
-		}
-		#delayed for 20 years
-		add_country_modifier = {
-			name = "ASU_grand_captain_delayed"
-			duration = 7300
 		}
 	}
 }
@@ -1140,35 +1113,12 @@ country_event = {
 	title = "EVTNAME4116"
 	desc = "EVTDESC4116"
 	picture = ADVISOR_eventPicture
-	
+	is_triggered_only = yes
 	trigger = {
 		commandant = 3
 		NOT = { has_country_flag = commandant }
-		NOT = { has_country_modifier = ASU_commandant_delayed}
 	}
-	
-	mean_time_to_happen = {
-		months = 300
-		
-		
-		modifier = {
-			factor = 0.9
-			innovativeness_ideas = 4
-		}
-		modifier = {
-			factor = 0.9
-			innovativeness_ideas = 6
-		}
-		modifier = {
-			factor = 1.1
-			NOT = { innovativeness_ideas = 4 }
-		}
-		modifier = {
-			factor = 1.1
-			NOT = { innovativeness_ideas = 2 }
-		}
-	}
-	
+
 	option = {
 		name = "EVTOPTA4116"	# His efforts will be admired throughout the nation
 		ai_chance = {
@@ -1213,11 +1163,6 @@ country_event = {
 				factor = 100
 				is_at_war = no
 			}
-		}
-		#delayed for 20 years
-		add_country_modifier = {
-			name = "ASU_commandant_delayed"
-			duration = 7300
 		}
 	}
 }
