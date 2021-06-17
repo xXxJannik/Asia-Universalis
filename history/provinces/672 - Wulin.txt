@@ -1,8 +1,8 @@
 #672 - Chenzhou
 
-owner = CXI
-controller = CXI
-add_core = CXI
+owner = CHN
+controller = CHN
+add_core = CHN
 culture = xiang
 religion = confucianism
 capital = "Wulin"

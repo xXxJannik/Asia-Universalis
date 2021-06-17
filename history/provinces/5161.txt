@@ -1,6 +1,6 @@
-owner = TNG
-controller = TNG
-add_core = TNG
+owner = SAG
+controller = SAG
+add_core = SAG
 culture = zhongyuan
 religion = confucianism
 trade_goods = fish

@@ -1,7 +1,7 @@
 
-owner = JIN
-controller = JIN
-add_core = JIN
+owner = CIN
+controller = CIN
+add_core = CIN
 culture = jin
 religion = confucianism
 trade_goods = grain

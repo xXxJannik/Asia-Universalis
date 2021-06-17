@@ -1,7 +1,7 @@
 
-owner = CXI
-controller = CXI
-add_core = CXI
+owner = LSG
+controller = LSG
+add_core = LSG
 culture = sichuanese
 religion = confucianism
 trade_goods = grain

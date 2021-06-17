@@ -1,7 +1,7 @@
 
-owner = TNG
-controller = TNG
-add_core = TNG
+owner = XIA
+controller = XIA
+add_core = XIA
 culture = zhongyuan
 religion = confucianism
 trade_goods = grain
