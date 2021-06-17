@@ -196,19 +196,12 @@ country_decisions = {
 				is_emperor_of_china = yes
 			}
 			else_if = {
-				limit = {
-					has_dlc = "Common Sense"
-				}
-				government_rank = 3
-			}
-			else = {
 				total_development = 1000
 			}
 		}
 		effect = {
 			change_tag = QNG
 			swap_non_generic_missions = yes
-			set_government_rank = 3
 			if = {
 				limit = {
 					has_reform = steppe_horde
