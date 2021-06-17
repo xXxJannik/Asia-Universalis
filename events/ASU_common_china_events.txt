@@ -1,0 +1,33 @@
+namespace = ASU_china_events
+
+#creation of a royal Dynasty
+country_event = {
+	id = ASU_china_events.1
+	title = "ASU_china_events.1.t"
+	desc = "ASU_china_events.1.d"
+	is_triggered_only = yes
+    major = yes  #Notification for everyone
+	option = {
+		name = "ASU_china_events.1.a"
+        add_prestige = 100
+        ai_chance = {            # the AI does not take the event without
+			factor = 100
+		}
+	}
+}
+
+#creation of a legendary Bloodline
+country_event = {
+	id = ASU_china_events.2
+	title = "ASU_china_events.2.t"
+	desc = "ASU_china_events.2.d"
+	is_triggered_only = yes
+    major = yes  #Notification for everyone
+	option = {
+		name = "ASU_china_events.2.a"
+        add_prestige = 100
+        ai_chance = {            # the AI does not take the event without
+			factor = 100
+		}
+	}
+}

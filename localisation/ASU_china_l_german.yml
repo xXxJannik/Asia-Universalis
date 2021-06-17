@@ -67,28 +67,32 @@ l_german:
 
 
  GREAT_MING:0 "Groß Ming"
- GREAT_MING_ADJ:0 "Ming"
- GREAT_MING_ADJ2:0 "Ming"
+ GREAT_MING_ADJ:0 "Groß Ming"
+ GREAT_MING_ADJ2:0 "Groß Ming"
 
  GREAT_QING:0 "Groß Qing"
- GREAT_QING_ADJ:0 "Qing"
- GREAT_QING_ADJ2:0 "Qing"
+ GREAT_QING_ADJ:0 "Groß Qing"
+ GREAT_QING_ADJ2:0 "Groß Qing"
 
  GREAT_SHUN:0 "Groß Shun"
- GREAT_SHUN_ADJ:0 "Shun"
- GREAT_SHUN_ADJ2:0 "Shun"
+ GREAT_SHUN_ADJ:0 "Groß Shun"
+ GREAT_SHUN_ADJ2:0 "Groß Shun"
 
  GREAT_XI:0 "Groß Xi"
- GREAT_XI_ADJ:0 "Xi"
- GREAT_XI_ADJ2:0 "Xi"
+ GREAT_XI_ADJ:0 "Groß Xi"
+ GREAT_XI_ADJ2:0 "Groß Xi"
 
  GREAT_YUE:0 "Groß Yue"
- GREAT_YUE_ADJ:0 "Yue"
- GREAT_YUE_ADJ2:0 "Yue"
+ GREAT_YUE_ADJ:0 "Groß Yue"
+ GREAT_YUE_ADJ2:0 "Groß Yue"
 
  GREAT_WU:0 "Groß Wu"
- GREAT_WU_ADJ:0 "Wu"
- GREAT_WU_ADJ2:0 "Wu"
+ GREAT_WU_ADJ:0 "Groß Wu"
+ GREAT_WU_ADJ2:0 "Groß Wu"
+
+ GREAT_YI:0 "Groß Yi"
+ GREAT_YI_ADJ:0 "Groß Yi"
+ GREAT_YI_ADJ2:0 "Groß Yi"
 
  declare_great_ming_title:0 "Gründet eine legendäre Blutlinie"
  declare_great_ming_desc:0 "Wir haben es trotz aller erwartungen geschafft unsere Macht zu sichern. Wir sind wahrlich mit legendärem Blut gesegnet."
@@ -107,3 +111,6 @@ l_german:
 
  declare_great_wu_title:0 "Gründet eine legendäre Blutlinie"
  declare_great_wu_desc:0 "Wir haben es trotz aller erwartungen geschafft unsere Macht zu sichern. Wir sind wahrlich mit legendärem Blut gesegnet."
+ 
+ declare_great_yi_title:0 "Gründet eine legendäre Blutlinie"
+ declare_great_yi_desc:0 "Wir haben es trotz aller erwartungen geschafft unsere Macht zu sichern. Wir sind wahrlich mit legendärem Blut gesegnet."

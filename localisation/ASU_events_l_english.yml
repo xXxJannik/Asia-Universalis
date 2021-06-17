@@ -13,3 +13,11 @@
  ASU_japan_events.1.t:0 "A great Emperor"
  ASU_japan_events.1.d:0 "[Root.Monarch.GetName] inherited the Throne from [Root.Monarch.GetHerHis] predecessor.[Root.Monarch.GetSheHeCap] has shown signs of greatness since [Root.Monarch.GetHerHis] childhood."
  ASU_japan_events.1.a:0 "May [Root.Monarch.GetSheHe] live long!"
+
+ #China - for everyone
+ ASU_china_events.1.t:0 "A new Royal Dynasty"
+ ASU_china_events.1.d:0 "[Root.Monarch.GetName] has started a new royal Dynasty. [Root.Monarch.GetSheHeCap] is the first person of [Root.Monarch.GetHerHis] that is worthy of claiming a royal bloodline!"
+ ASU_china_events.1.a:0 "We are worthy!"
+ ASU_china_events.2.t:0 "A legendary bloodline!"
+ ASU_china_events.2.d:0 "[Root.Monarch.GetName] is the first one of [Root.Monarch.GetHerHis] family to claim a legendary bloodline. [Root.Monarch.GetSheHeCap] is worthy of the Mandate of Heaven."
+ ASU_china_events.2.a:0 "The chosen one."

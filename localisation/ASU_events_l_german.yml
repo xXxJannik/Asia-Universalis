@@ -12,3 +12,11 @@
  ASU_japan_events.1.t:0 "Ein großer Kaiser"
  ASU_japan_events.1.d:0 "[Root.Monarch.GetName] übernahm den Thron und die Verantwortung [Root.Monarch.GetHerHis] Vorfahren.[Root.Monarch.GetSheHeCap] hat bereits in [Root.Monarch.GetHerHis] Kindheit Anzeichen von größe bewiesen."
  ASU_japan_events.1.a:0 "Möge [Root.Monarch.GetSheHe] lang leben!"
+
+ #China - for everyone
+ ASU_china_events.1.t:0 "Eine neue Dynasty"
+ ASU_china_events.1.d:0 "[Root.Monarch.GetName] hat eine neue königliche Blutlinie gestartet. [Root.Monarch.GetSheHeCap] ist die erste Person [Root.Monarch.GetHerHis] Blutlinie die es würdig ist, sich königlich zu nennen!"
+ ASU_china_events.1.a:0 "Wir sind würdig!"
+ ASU_china_events.2.t:0 "Eine legendäre Blutlinie!"
+ ASU_china_events.2.d:0 "[Root.Monarch.GetName] ist die erste Person [Root.Monarch.GetHerHis] Familie die eine legendäre Blutlinie beansprucht. [Root.Monarch.GetSheHeCap] ist dem Mandat des Himmels würdig!"
+ ASU_china_events.2.a:0 "Gewählt vom Himmel!"

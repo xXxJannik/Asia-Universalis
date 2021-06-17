@@ -47,7 +47,9 @@ country_decisions = {
 		}
 		effect = {
             add_government_reform = h_reform_warlord_4
-            add_prestige = 100
+            country_event = {
+				id = ASU_china_events.1
+			}
 		}
 	}
 }

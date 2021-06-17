@@ -23,9 +23,11 @@ country_decisions = {
             total_development = 1000
 		}
 		effect = {
-            add_prestige = 100
             override_country_name = GREAT_MING
             set_country_flag = formed_royal_dynastie
+            country_event = {
+				id = ASU_china_events.2
+			}
 		}
 	}
 
@@ -50,9 +52,11 @@ country_decisions = {
             total_development = 1000
 		}
 		effect = {
-            add_prestige = 100
             override_country_name = GREAT_QING
             set_country_flag = formed_royal_dynastie
+            country_event = {
+				id = ASU_china_events.2
+			}
 		}
 	}
 
@@ -79,9 +83,11 @@ country_decisions = {
             total_development = 1000
 		}
 		effect = {
-            add_prestige = 100
             override_country_name = GREAT_SHUN
             set_country_flag = formed_royal_dynastie
+            country_event = {
+				id = ASU_china_events.2
+			}
 		}
 	}
 
@@ -108,9 +114,11 @@ country_decisions = {
             total_development = 1000
 		}
 		effect = {
-            add_prestige = 100
             override_country_name = GREAT_XI
             set_country_flag = formed_royal_dynastie
+            country_event = {
+				id = ASU_china_events.2
+			}
 		}
 	}
 
@@ -137,9 +145,11 @@ country_decisions = {
             total_development = 1000
 		}
 		effect = {
-            add_prestige = 100
             override_country_name = GREAT_YUE
             set_country_flag = formed_royal_dynastie
+            country_event = {
+				id = ASU_china_events.2
+			}
 		}
 	}
 
@@ -166,9 +176,42 @@ country_decisions = {
             total_development = 1000
 		}
 		effect = {
-            add_prestige = 100
             override_country_name = GREAT_WU
             set_country_flag = formed_royal_dynastie
+            country_event = {
+				id = ASU_china_events.2
+			}
+		}
+	}
+
+    declare_great_yi = {
+		major = yes
+		potential = {
+            AND = {
+                OR = {
+                    has_reform = h_reform_warlord_4
+                    is_emperor_of_china = yes
+                }
+                tag = CYI
+                NOT = { has_country_flag = formed_royal_dynastie }
+            }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		allow = {
+            OR = {
+                has_reform = h_reform_warlord_4
+                is_emperor_of_china = yes
+            }
+            total_development = 1000
+		}
+		effect = {
+            override_country_name = GREAT_YI
+            set_country_flag = formed_royal_dynastie
+            country_event = {
+				id = ASU_china_events.2
+			}
 		}
 	}
 
