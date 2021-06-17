@@ -69,6 +69,7 @@ country_decisions = {
             set_meritocracy = 60
 			set_emperor_of_china = ROOT
 			dismantle_empire_of_china = no
+			clr_global_flag = empire_of_china_dismantled
         }
     }
 }
