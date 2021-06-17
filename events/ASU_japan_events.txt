@@ -11,7 +11,7 @@ country_event = {
 		tag = JAP
         MIL = 6
         NOT = {
-            has_ruler_modifier = ASU_a_new_emperor
+            has_ruler_modifier = ASU_japan_a_new_emperor
         }
 	}
 	option = {
