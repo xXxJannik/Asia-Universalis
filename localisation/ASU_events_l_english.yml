@@ -1,3 +1,8 @@
 ﻿l_english:
  ASU_commandant_delayed_tooltip:0 "Not yet"
  ASU_grand_captain_delayed_tooltip:0 "Not yet"
+
+ #Manchu
+ ASU_manchu_events.1.t:0 "Rise of a great Khan"
+ ASU_manchu_events.1.d:0 "[Root.Monarch.GetName] has taken over the position of Khan. [Root.Monarch.GetSheHeCap] has proven to be a great and inspiring leader and will lead us to glory and prosperity!"
+ ASU_manchu_events.1.a:0 "Long live the [Root.Monarch.GetTitle]!"

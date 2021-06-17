@@ -903,6 +903,9 @@ on_new_monarch = {
 		muslim_school_events.20 #No Religious School
 		flavor_daimyo.4			#Shiba Yoshikado
 		flavor_fra.9000			# François Villon
+
+		#ASU
+		ASU_manchu_events.1     #Rise of a great Khan
 	}
 	random_events = {
 		1000 = 0

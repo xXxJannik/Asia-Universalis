@@ -11815,3 +11815,7 @@ ASU_Korea_Strait = {
 	local_hostile_movement_speed = -0.5
 	local_friendly_movement_speed = -0.5
 }
+
+ASU_rise_of_a_great_khan = {
+	land_morale = 0.2
+}
