@@ -55,13 +55,29 @@ country_decisions = {
 	emperor_of_china_failsafe = {
         major = yes
         potential = {
-            always = yes
+            NOT = {
+                any_country  = {
+                    is_emperor_of_china = yes
+                }
+            }
+            capital_scope = { 
+                OR = {
+                    region = north_china_region
+                    region = south_china_region
+                }
+            }
+            total_development = 200
         }
         ai_will_do = {
             factor = 1000
         }
         allow = {
-            always = yes
+            capital_scope = { 
+                OR = {
+                    region = north_china_region
+                    region = south_china_region
+                }
+            }
         }
         effect = {
 			clr_global_flag = empire_of_china_dismantled
