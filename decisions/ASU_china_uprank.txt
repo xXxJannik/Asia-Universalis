@@ -52,4 +52,23 @@ country_decisions = {
 			}
 		}
 	}
+	emperor_of_china_failsafe = {
+        major = yes
+        potential = {
+            always = yes
+        }
+        ai_will_do = {
+            factor = 1000
+        }
+        allow = {
+            always = yes
+        }
+        effect = {
+            add_government_reform = celestial_empire
+            set_mandate = 60
+            set_meritocracy = 60
+			set_emperor_of_china = ROOT
+			dismantle_empire_of_china = no
+        }
+    }
 }
