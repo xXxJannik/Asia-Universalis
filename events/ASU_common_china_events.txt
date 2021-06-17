@@ -31,3 +31,53 @@ country_event = {
 		}
 	}
 }
+
+
+
+# Emperor of China aid
+province_event = {
+	id = ASU_china_events.3
+	title = "ASU_china_events.3.t"
+	desc = "ASU_china_events.3.d"
+	picture = ANGRY_MOB_eventPicture
+
+	trigger = {
+		is_capital = yes
+		owner = {
+			is_in_war = {
+				casus_belli = cb_take_mandate 
+			}
+			is_emperor_of_china = yes
+			NOT = {
+				has_country_modifier = ASU_eoc_population_support
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = "ASU_china_events.3.a"
+		infantry = ROOT
+		infantry = ROOT
+		infantry = ROOT
+		infantry = ROOT
+		infantry = ROOT
+		infantry = ROOT
+		infantry = ROOT
+		infantry = ROOT
+		infantry = ROOT
+		infantry = ROOT
+		ai_chance = {            # the AI does not take the event without
+			factor = 100
+		}
+		owner = {
+			add_country_modifier = {
+				name = "ASU_eoc_population_support"
+				duration = 1825
+			}
+		}
+	}
+}

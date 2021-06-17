@@ -11823,3 +11823,7 @@ ASU_rise_of_a_great_khan = {
 ASU_japan_a_new_emperor = {
 	land_morale = 0.2
 }
+
+ASU_eoc_population_support = {
+	imperial_mandate = 0.01
+}
