@@ -64,12 +64,12 @@ country_decisions = {
             always = yes
         }
         effect = {
-            add_government_reform = celestial_empire
-            set_mandate = 60
-            set_meritocracy = 60
+			clr_global_flag = empire_of_china_dismantled
 			set_emperor_of_china = ROOT
 			dismantle_empire_of_china = no
-			clr_global_flag = empire_of_china_dismantled
+			add_government_reform = celestial_empire
+			set_mandate = 60
+			set_meritocracy = 60
         }
     }
 }
