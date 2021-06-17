@@ -1,0 +1,28 @@
+namespace = ASU_japan_events
+
+
+country_event = {
+	id = ASU_japan_events.1
+	title = "ASU_japan_events.1.t"
+	desc = "ASU_japan_events.1.d"
+	is_triggered_only = yes
+    major = yes  #Notification for everyone
+    trigger = {
+		tag = JAP
+        MIL = 6
+        NOT = {
+            has_ruler_modifier = ASU_a_new_emperor
+        }
+	}
+	option = {
+		name = "ASU_japan_events.1.a"
+        add_ruler_modifier = {
+			name = "ASU_japan_a_new_emperor"
+			duration = -1
+		}
+        add_prestige = 50
+        ai_chance = {            # the AI does not take the event without
+			factor = 100
+		}
+	}
+}

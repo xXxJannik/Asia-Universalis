@@ -6,3 +6,9 @@
  ASU_manchu_events.1.t:0 "Aufstieg eines großen Khans"
  ASU_manchu_events.1.d:0 "[Root.Monarch.GetName] hat die Position des Khans übernommen. [Root.Monarch.GetSheHeCap] hat sich als großer Anführer bewiesen und wird uns zu Ruhm und Wohlstand führen!"
  ASU_manchu_events.1.a:0 "Lang lebe [Root.Monarch.GetName]!"
+
+
+ #Japan
+ ASU_japan_events.1.t:0 "Ein großer Kaiser"
+ ASU_japan_events.1.d:0 "[Root.Monarch.GetName] übernahm den Thron und die Verantwortung [Root.Monarch.GetHerHis] Vorfahren.[Root.Monarch.GetSheHeCap] hat bereits in [Root.Monarch.GetHerHis] Kindheit Anzeichen von größe bewiesen."
+ ASU_japan_events.1.a:0 "Möge [Root.Monarch.GetSheHe] lang leben!"

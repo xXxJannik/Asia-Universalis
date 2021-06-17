@@ -11819,3 +11819,7 @@ ASU_Korea_Strait = {
 ASU_rise_of_a_great_khan = {
 	land_morale = 0.2
 }
+
+ASU_japan_a_new_emperor = {
+	land_morale = 0.2
+}

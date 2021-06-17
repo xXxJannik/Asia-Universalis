@@ -905,7 +905,8 @@ on_new_monarch = {
 		flavor_fra.9000			# François Villon
 
 		#ASU
-		ASU_manchu_events.1     #Rise of a great Khan
+		ASU_manchu_events.1     #Rise of a great Khan,
+		ASU_japan_events.1		#Rise of an Emperor
 	}
 	random_events = {
 		1000 = 0
