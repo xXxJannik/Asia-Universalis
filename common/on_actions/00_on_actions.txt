@@ -1484,10 +1484,14 @@ on_annexed = {
 	}
 	on_annexed_estate_privileges_effect = yes
 	FROM = {
+		# if Empereror of China gets annexed
 		if = {
 			limit = { is_emperor_of_china = yes }
 			dismantle_empire_of_china = yes
 			set_global_flag = empire_of_china_dismantled
+
+			#ASU
+			clr_global_flag = ASU_eoc_failsafe_flag
 		}
 		if = {
 			limit = { has_country_modifier = legatus_natus }
