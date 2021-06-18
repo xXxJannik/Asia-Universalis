@@ -1,6 +1,6 @@
-owner = MNG
-controller = MNG
-add_core = MNG
+owner = GTG
+controller = GTG
+add_core = GTG
 culture = chihan
 religion = confucianism
 trade_goods = chinaware

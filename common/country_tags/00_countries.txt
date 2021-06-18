@@ -1101,4 +1101,7 @@ SHH = countries/ShuHan.txt
 SNG = countries/Song.txt
 SUI = countries/Sui.txt
 XIA = countries/Xia.txt
+CLN = countries/Lan.txt
+GTG = countries/Guangting.txt
+
 

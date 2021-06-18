@@ -1,6 +1,6 @@
-owner = MNG
-controller = MNG
-add_core = MNG
+owner = GTG
+controller = GTG
+add_core = GTG
 culture = chihan
 religion = confucianism
 trade_goods = grain
@@ -11,3 +11,5 @@ base_manpower = 1
 is_city = yes
 discovered_by = chinese
 discovered_by = nomad_group
+
+fort_15th = yes

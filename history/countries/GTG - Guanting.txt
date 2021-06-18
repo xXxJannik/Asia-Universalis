@@ -1,0 +1,18 @@
+government = monarchy
+add_government_reform = h_reform_warlord_1
+technology_group = chinese
+religion = confucianism
+primary_culture = chihan
+capital = 4949	#Jinzhou
+
+
+1444.1.31 = {
+	monarch = {
+		name = "Kong"
+		dynasty = "Guanting"
+		birth_date = 1420.1.1 #Age - 24
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}

@@ -1,13 +1,15 @@
-owner = MNG
-controller = MNG
-add_core = MNG
+owner = CLN
+controller = CLN
+add_core = CLN
 culture = shandong_culture
 religion = confucianism
 trade_goods = fish
 hre = no
-base_tax = 1
-base_production = 1
-base_manpower = 1
+base_tax = 4
+base_production = 5
+base_manpower = 5
 is_city = yes
 discovered_by = chinese
 discovered_by = nomad_group
+
+fort_15th = yes

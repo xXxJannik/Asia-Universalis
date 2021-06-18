@@ -1,6 +1,6 @@
-owner = MNG
-controller = MNG
-add_core = MNG
+owner = KRC
+controller = KRC
+add_core = KRC
 culture = shandong_culture
 religion = confucianism
 trade_goods = gems

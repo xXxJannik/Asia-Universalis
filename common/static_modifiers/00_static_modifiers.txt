@@ -538,6 +538,7 @@ ai_nation = {
 	idea_cost = -0.2
 	meritocracy = 1
 	fort_maintenance_modifier = -0.5
+	global_tax_income = 24
 }
 
 
