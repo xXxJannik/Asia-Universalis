@@ -1,13 +1,16 @@
-owner = KHA
-controller = KHA
-add_core = KHA
+owner = YUA
+controller = YUA
+add_core = YUA
 culture = mongol
 religion = vajrayana
 trade_goods = livestock
 hre = no
-base_tax = 1
-base_production = 1
-base_manpower = 1
+base_tax = 6
+base_production = 4
+base_manpower = 7
 is_city = yes
 discovered_by = chinese
 discovered_by = nomad_group
+
+forth_15th = yes
+center_of_trade = 2

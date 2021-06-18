@@ -70,12 +70,18 @@ feudalism = {
 					culture_group = scandinavian
 					culture_group = west_slavic
 					culture_group = western_aryan
+					culture_group = altaic
+					culture_group = tartar
+					culture_group = evenks
 					province_id = 383
 					province_id = 412
 					province_id = 2327
 					province_id = 2329
 					province_id = 2331
 					province_id = 2999
+					province_id = 4981
+					province_id = 2116
+					province_id = 677
 				}
 			}
 			AND = {
