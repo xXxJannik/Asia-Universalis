@@ -1,8 +1,6 @@
-#681 - Yichuan
-
-owner = LSG
-controller = LSG
-add_core = LSG
+owner = CXI
+controller = CXI
+add_core = CXI
 culture = sichuanese
 religion = confucianism
 capital = "Yichang"

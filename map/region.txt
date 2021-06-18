@@ -1015,7 +1015,19 @@ south_china_region = {
 		hangwa_area
 		shangjia_area
 		dayuxiang_area
-		jingzhou_area
+		zhongfang_area
+		shaoyang_area
+		changde_area
+		tianzhu_area
+		changsha_area
+		zhuzhou_area
+		pingjiang_area
+		tongcheng_area
+		xianning_area
+		hefang_area
+		enshi_area
+		hongyanzi_area
+		waipo_area
 	}
 	monsoon = {
 		00.05.01
@@ -1146,6 +1158,15 @@ north_china_region = {
 		zitong_area
 		nanchon_area
 		shangsheng_area
+		jiangling_area
+		xiantao_area
+		wuhan_area
+		xinyang_area
+		jingzhou_area
+		xianyang_area
+		fang_area
+		wushan_area
+		yunyang_area
 	}
 }
 

@@ -1,8 +1,7 @@
-
-owner = LSG
-controller = LSG
-add_core = LSG
-culture = hubei
+owner = CHC
+controller = CHC
+add_core = CHC
+culture = xiang
 religion = confucianism
 trade_goods = grain
 hre = no
