@@ -495,7 +495,7 @@ tengri0 = {
 	}
 	tengri3 = {
 	cavalry_power = 0.10
-	cavalry_cost = -0.10
+	cavalry_cost = -0.2
 	}
 
 	tengri4 = {
@@ -2591,7 +2591,7 @@ shia0 = {
 		missionaries = 1 
 	}
 	shia2 = {
-		army_tradition = 1
+		army_tradition = 0.5
 	}
 	shia3 = {
 		tolerance_own = 2
@@ -3398,7 +3398,7 @@ horde0 = {
 		raze_power_gain = 0.25
 	}
 	horde2 = {
-		cavalry_cost = -0.10	
+		cavalry_cost = -0.2	
 	}
 	horde3 = {
 		claim_duration = 0.25
@@ -4760,7 +4760,7 @@ wehrpflicht0 = {
 	}
 
 	wehrpflicht4 = {
-		army_tradition = 1
+		army_tradition = 0.5
 	}
 
 	wehrpflicht5 = {
@@ -5013,10 +5013,10 @@ kriegsproduktion0 = {
 		
 	
 	kriegsproduktion1 = {
-		infantry_cost = -0.1
+		infantry_cost = -0.2
 	}
 	kriegsproduktion2 = {
-		cavalry_cost = -0.1
+		cavalry_cost = -0.2
 	}
 	kriegsproduktion3 = {
 		interest = -0.5
@@ -5532,7 +5532,7 @@ shock0 = {
 		fire_damage_received = -0.05
 	}
 	shock3 = {
-		cavalry_cost = -0.10
+		cavalry_cost = -0.2
 	}
 	shock6 = {
 		cav_to_inf_ratio = 0.20
