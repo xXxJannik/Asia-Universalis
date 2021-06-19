@@ -617,7 +617,6 @@ mongolia_region = {
 		north_zungaria
 		altai_sayan_area
 		eastern_mongolia
-		central_mongolia_area
 		uliastai_area
 		turpan_kumul_area
 		tannu_uriankhai_area
@@ -633,7 +632,8 @@ mongolia_region = {
 		airag_area
 		barag_area
 		matad_area
-		jinchang_area
+		govi_area
+		dundgovi_area
 	}
 }
 
