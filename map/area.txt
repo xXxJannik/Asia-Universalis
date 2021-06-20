@@ -3264,11 +3264,11 @@ kaifeng_area = {
 #aus test_nine_area
 
 xian_area = {
-	5759 5760 5756 5758 5779
+	5759 5760 5758 5779
 }
 
 shanyang_area = {
-	5753 5752 5751
+	5753 5752 5751 5756
 }
 
 hui_area = {
