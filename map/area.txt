@@ -2880,7 +2880,7 @@ barag_area = {
 }
 
 matad_area = {
-	4989 5001 4667
+	4989 5001 4667 717
 }
 
 # aus test_area_two
@@ -3833,7 +3833,7 @@ inner_mongolia_area = { #5
 }
 
 outer_mongolia_area = { #5
-	717 2116  4220 4998 4999
+	2116  4220 4998 4999 4668
 }
 
 xilin_gol_area = {
@@ -3851,7 +3851,7 @@ tannu_uriankhai_area = {#3
 
 
 uliastai_area = {#3
-	719 2189 2190 4668 4678
+	719 2189 2190 4678
 }
 
 jetysuu_area = { #5
