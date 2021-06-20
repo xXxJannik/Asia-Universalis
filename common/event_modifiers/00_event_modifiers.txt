@@ -11827,3 +11827,7 @@ ASU_japan_a_new_emperor = {
 ASU_eoc_population_support = {
 	imperial_mandate = 0.01
 }
+
+ASU_shenyang_gems = {
+	trade_goods_size = 2
+}
