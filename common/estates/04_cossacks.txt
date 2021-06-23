@@ -39,7 +39,6 @@ estate_cossacks = {
 	trigger = {	
 		has_dlc = "The Cossacks"
 		NOT = { has_reform = pirate_republic_reform }
-		NOT = { has_reform = cossacks_reform }
 		NOT = { has_government_attribute = is_merchant_republic }
 		NOT = { has_reform = trading_city }
 		NOT = { is_revolutionary_republic_trigger = yes }
@@ -49,7 +48,7 @@ estate_cossacks = {
 		is_nomad = no
 		is_colonial_nation = no
 		NOT = { has_reform = celestial_empire }
-		unit_type = eastern
+		
 		religion_group = christian
 		NOT = { has_reform = revolutionary_empire_reform }
 		OR = {
@@ -57,6 +56,10 @@ estate_cossacks = {
 			any_owned_province = {
 				has_terrain = steppe
 			}
+		}
+		OR = {
+			unit_type = eastern
+			has_reform = cossacks_reform
 		}
 	}
 
