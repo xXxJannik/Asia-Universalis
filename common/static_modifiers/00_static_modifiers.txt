@@ -916,6 +916,7 @@ root_out_corruption = {
 	yearly_corruption = -1.0
 }
 
+#Revanchism
 recovery_motivation = {
 	global_tax_modifier = 0.5
 	defensiveness = 0.25
