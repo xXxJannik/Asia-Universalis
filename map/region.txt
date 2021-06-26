@@ -878,6 +878,13 @@ australia_region = {
 		south_queensland_area
 		pilbara_area
 		tasmania_area
+		eucla_area
+		ceduna_area
+		wabma_area
+		pundalpa_area
+		mungo_area
+		umaroona_area
+		jundah_area
 	}
 	monsoon = {
 		00.10.01
