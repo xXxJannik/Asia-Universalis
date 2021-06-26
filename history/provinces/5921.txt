@@ -2,8 +2,8 @@
 owner = KAS
 controller = KAS
 add_core = KAS
-culture = khorasani
-religion = shiite
+culture = uyghur
+religion = sunni
 trade_goods = cloth
 hre = no
 base_tax = 1 			

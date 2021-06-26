@@ -1,7 +1,7 @@
 
-owner = UTS
-controller = UTS
-add_core = UTS
+owner = KAM
+controller = KAM
+add_core = KAM
 culture = tibetan
 religion = vajrayana
 trade_goods = cloth
