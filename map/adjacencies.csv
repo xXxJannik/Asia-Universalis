@@ -71,4 +71,8 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 5205;5204;sea;1373;-1;-1;-1;-1;CHINA
 2703;651;sea;1398;-1;-1;-1;-1;SULU
 651;4354;sea;1398;-1;-1;-1;-1;SULU
+4350;656;sea;1395;-1;-1;-1;-1;Phillipines
+2684;4811;sea;1350;-1;-1;-1;-1;Sumatra
+2683;4817;sea;1351;-1;-1;-1;-1;Sumatra
+2730;2722;sea;1410;-1;-1;-1;-1;Australia-Papua
 -1;-1;;-1;-1;-1;-1;-1;-1;
