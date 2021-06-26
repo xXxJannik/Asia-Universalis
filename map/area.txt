@@ -3096,7 +3096,7 @@ sha_area = {
 # aus test_ten_area
 
 jiuquan_area = {
-	5850 707 708 
+	5850 707 708 2123
 }
 
 govi_area = {
@@ -3868,7 +3868,7 @@ tarim_basin_area = { #3 #The rest of the Seven Cities
 }
 
 shanshan_area = { #4
-	710 711 2123 4693
+	710 711 4693
 }
 
 turpan_kumul_area = { #4
