@@ -699,6 +699,18 @@ tibet_region = {
 		shanshan_area
 		tarim_basin_area
 		kashgaria_area
+		shiyou_area
+		bayingolin_area
+		wudule_area
+		cuona_area
+		jargoe_area
+		zheri_area
+		pasighat_area
+		dabba_area
+		nyainrong_area
+		haixi_area
+		subei_area
+		dabusun_area
 	}
 }
 
