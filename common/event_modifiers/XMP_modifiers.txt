@@ -1,0 +1,143 @@
+###Province Modifiers###
+#Event Modifiers
+XMP_cashmere_wool = {
+	trade_goods_size = 1.0
+	}
+	
+XMP_cashmere_wool_production_center = {
+	trade_goods_size = 5.0
+	province_trade_power_value = 10
+	}	
+
+XMP_cashmere_wool_trade_center = {
+	trade_goods_size = 2.5
+	province_trade_power_value = 20
+	}
+	
+#Mission Modifiers
+XMP_tibetan_handicrafts = {
+	trade_goods_size = 1.0
+	}
+	
+XMP_lhasa_united = {
+	local_development_cost = -0.2
+	local_build_cost = -0.1
+	}
+
+XMP_changpa_integration = {
+	local_friendly_movement_speed = 0.25
+	}
+
+XMP_amdo_salt_mines = {
+	trade_goods_size = 0.2
+	}
+XMP_hotan_jade = {
+	trade_goods_size = 2.0
+	trade_value_modifier = 0.1
+	}
+#Game Start
+XMP_gang_rinpoche = {
+	religious_unity = 0.25
+	local_autonomy = -0.05
+	}
+	
+###Country Modifiers###
+#Mission Modifiers
+
+XMP_tibet_fl_modifier = {
+	land_morale = 0.05
+	global_tax_income = 18
+}
+
+XMP_defend_against_hordes = {
+	shock_damage_received = -0.10
+	manpower_recovery_speed = 0.10
+	}
+	
+XMP_dali_bai_people = {
+	num_accepted_cultures = 1
+	}
+
+XMP_sichuan_basin_owner = {
+	manpower_recovery_speed = 0.10
+	}
+	
+XMP_silk_road_trade = {
+	merchants = 1
+	global_own_trade_power = 0.1
+	}
+	
+XMP_internal_agriculture = {
+	global_manpower_modifier = 0.10
+	}
+	
+XMP_tibetan_spices = {
+	production_efficiency = 0.05
+	}
+	
+XMP_tibetan_ironworks = {
+	fire_damage_received = -0.05
+	prestige_decay = -0.01
+	}
+
+XMP_restore_the_gompas = {
+	devotion = 1
+	advisor_cost =  -0.1
+	}
+	
+XMP_divine_rule = {
+	administrative_efficiency = 0.1
+	governing_capacity_modifier = 0.15
+	}
+	
+XMP_convert_the_basin = {
+	devotion = 1
+	}
+	
+XMP_tibet_restored_pala	 = {
+	land_morale = 0.15
+	}
+	
+#Event Modifiers
+
+XMP_tea_horse_road_trade = {
+	trade_efficiency = 0.15
+	trade_steering = 0.1
+	idea_cost = -0.10
+	}
+	
+XMP_tea_horse_road_cultural_exchange_modifier = {
+	num_accepted_cultures = 1
+	}
+	
+XMP_tea_horse_road_participant_modifier = {
+	trade_efficiency = 0.10
+	idea_cost = -0.10
+	}
+
+XMP_tea_horse_road_benefits_modifier = {
+	trade_efficiency = 0.20
+	}
+
+XMP_southern_silk_road = {
+	trade_efficiency = 0.10
+	idea_cost = -0.10
+	}
+
+XMP_internal_spice_trade = {
+	global_trade_goods_size_modifier = 0.10
+	}
+	
+XMP_cashmere_wool_sales = {
+	global_trade_goods_size_modifier = 0.10
+	}
+	
+	
+###Base Game Modifiers Edits###
+#Buddhism
+vajrayana_lama = {
+	legitimacy = 1
+	devotion = 1 #XMP
+	tolerance_own = 1
+}
+###############################

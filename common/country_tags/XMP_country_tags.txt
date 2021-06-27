@@ -1,0 +1,3 @@
+#XMP_Tibet
+XTS = "countries/XMP_Tsang.txt"
+XTB = "countries/XMP_Tibet.txt"

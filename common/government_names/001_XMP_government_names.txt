@@ -1,0 +1,24 @@
+#XMP_Tibet
+XMP_TIB_Government = {
+	rank = {
+		1 = XMP_BUDDHIST_THEOCRATIC_ORDER
+		2 = XMP_BUDDHIST_THEOCRATIC_STATE
+		3 = XMP_BUDDHIST_THEOCRATIC_EMPIRE
+	}
+
+	ruler_male = {
+		1 = XMP_DALAI_LAMA
+		2 = XMP_DALAI_LAMA
+		3 = XMP_DALAI_LAMA
+	}
+	
+    heir_male = {
+        1 = XMP_YANGSI
+        2 = XMP_YANGSI
+        3 = XMP_YANGSI
+    }
+	
+	trigger = {
+		has_reform = XMP_TIB_tibetan_theocracy_reform
+	}
+}

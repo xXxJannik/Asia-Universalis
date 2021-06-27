@@ -836,6 +836,14 @@ on_great_project_constructed = {
 on_new_monarch = {
 	crimean_succession_effect = yes #Scripted effect
 	slesvig_question_effect = yes #Scripted effect
+	###XMP###
+	if = { 
+		limit = {
+			has_reform = XMP_TIB_tibetan_theocracy_reform
+			}
+		clr_country_flag = XMP_dalai_lama_heir_flag
+	}
+	#########
 	if = {
 		limit = {
 			has_consort_regency = no
@@ -973,6 +981,33 @@ on_monarch_death = {
 		}
 		clr_country_flag = sax_thuringen_split_to_happen
 	}
+	###XMP###
+	if = { #on death of dalai lama without heir
+		limit = {
+			has_reform = XMP_TIB_tibetan_theocracy_reform
+			has_heir = no
+			has_regency = no
+			#these flags prevent certain events from firing
+			NOT = { has_country_flag = XMP_first_dalai_lama_on_action_bugfix_flag } 
+			NOT = { has_country_flag = XMP_on_regent_death_dalai_lama_bugfix_flag }
+			NOT = { has_country_flag = XMP_on_high_lama_removal_bugfix_flag }
+			NOT = { has_country_flag = XMP_high_lama_election_bugfix_flag }
+			NOT = { has_country_flag = XMP_dalai_lama_heir_flag }
+			}
+		country_event = { id = XMP_TIB.11 }
+	}
+	if = {
+		limit = {
+			has_reform = XMP_TIB_tibetan_theocracy_reform
+			}
+		clr_country_flag = XMP_on_regent_death_dalai_lama_bugfix_flag
+		clr_country_flag = XMP_on_high_lama_removal_bugfix_flag
+		clr_country_flag = XMP_tibetan_regency_council_flag
+  
+								   
+					   
+	 }
+	#########
 	if = {
 		limit = { tag = SAM }
 		country_event = { id = polynesian.35 }
@@ -1029,6 +1064,15 @@ on_regent = {
 		}
 		set_global_flag = death_of_haji_giray
 	}
+	###XMP###
+	if = {
+		limit = {
+			has_reform = XMP_TIB_tibetan_theocracy_reform
+			}
+		set_country_flag = XMP_on_regent_death_dalai_lama_bugfix_flag
+		country_event = { id = XMP_TIB.13 }
+	}
+	#########
 	events = {
 		tribal_succession.1	# harsh anti-tribals.
 		flavor_tim.1			#Death of Shah Rukh
@@ -1142,6 +1186,22 @@ on_heir_death = {
 		limit = { primary_culture = maori }
 		country_event = { id = polynesian.26 }
 	}
+	###XMP###
+	if = { #death of heir with regency council
+		limit = { 
+			has_reform = XMP_TIB_tibetan_theocracy_reform
+			has_regency = yes
+			}
+		set_country_flag = XMP_high_lama_election_bugfix_flag
+		country_event = { id = XMP_TIB.14 }
+		}
+	if = {
+		limit = {
+			has_reform = XMP_TIB_tibetan_theocracy_reform
+			}
+		clr_country_flag = XMP_dalai_lama_heir_flag
+		}
+	#########
 }
 
 # country

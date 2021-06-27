@@ -1,7 +1,7 @@
 
-owner = UTS
-controller = UTS
-add_core = UTS
+owner = XTS
+controller = XTS
+add_core = XTS
 culture = tibetan
 religion = vajrayana
 trade_goods = cloth

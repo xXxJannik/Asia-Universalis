@@ -1,0 +1,19 @@
+#XMP_Tibet
+change_government_to_XMP_TIB_Government = {
+	if = {
+		limit = {
+			NOT = { government = XMP_TIB_Government }
+		}
+		if = {
+			limit = {
+				government = republic
+			}
+			change_government = XMP_TIB_Government
+			lose_reforms = 4
+		}
+		else = {
+			change_government = XMP_TIB_Government
+			lose_reforms = 2
+		}
+	}
+}

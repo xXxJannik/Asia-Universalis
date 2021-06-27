@@ -1,0 +1,35 @@
+spriteTypes = {
+	
+	###XMP_Tibet###
+	#Blue Lake Mongols
+	spriteType = {
+		name = "GFX_faction_bg_XMP_blue_lake_mongols"
+		texturefile = "gfx//interface//faction_red_frame.tga"
+		transparencecheck = yes
+	}	
+	spriteType = {
+		name = "GFX_faction_XMP_blue_lake_mongols"	
+		texturefile = "gfx//interface//XMP_blue_lake_mongols.dds"
+	}
+	#Yellow Hats
+	spriteType = {
+		name = "GFX_faction_bg_XMP_yellow_hats"
+		texturefile = "gfx//interface//faction_red_frame.tga"
+		transparencecheck = yes
+	}	
+	spriteType = {
+		name = "GFX_faction_XMP_yellow_hats"	
+		texturefile = "gfx//interface//XMP_yellow_hats.dds"
+	}
+	#Red Hats
+	spriteType = {
+		name = "GFX_faction_bg_XMP_red_hats"
+		texturefile = "gfx//interface//faction_red_frame.tga"
+		transparencecheck = yes
+	}	
+	spriteType = {
+		name = "GFX_faction_XMP_red_hats"	
+		texturefile = "gfx//interface//XMP_red_hats.dds"
+	}
+	###############
+}

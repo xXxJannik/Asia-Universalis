@@ -1,0 +1,65 @@
+XMP_TIB_Mechanic = {
+
+	has_devotion = yes
+	monarchy = yes
+	heir = yes
+	queen = no
+	rulers_can_be_generals = no
+	heirs_can_be_generals = no
+	royal_marriage = no
+	
+	different_religion_acceptance = -20
+	different_religion_group_acceptance = -50
+	
+	basic_reform = yes # = invisible/does not take up a slot
+	valid_for_nation_designer = no
+	modifiers = {
+		brahmins_hindu_influence_modifier = 0.1
+		church_loyalty_modifier = 0.1
+		church_influence_modifier = 0.05
+		heir_chance = -1
+		block_introduce_heir = yes
+	}
+}
+
+XMP_TIB_tibetan_theocracy_reform = { #tier 1
+	icon = "divine_guidance_reform"
+	potential = {
+		AND = {
+			religion = vajrayana
+			}
+		}
+	modifiers = {
+		advisor_cost = -0.10
+		monarch_lifespan = 0.25
+		global_missionary_strength = 0.01
+		missionaries = 1
+		devotion = 1
+		}
+		factions = {
+			XMP_red_hats
+			XMP_yellow_hats
+			XMP_blue_lake_mongols
+			}
+	custom_attributes = {
+		XMP_enables_dalai_lama_selection = yes #used for localization of estate privilege
+		locked_government_type = yes
+		}
+}
+
+XMP_TIB_khampa_warriors_reform = { #tier 2
+	icon = "horde_riding"
+	potential = {
+		AND = {
+			religion = vajrayana
+			}
+		}
+	modifiers = {
+		manpower_recovery_speed = 0.10
+		army_tradition = 0.5
+		}
+	custom_attributes = {
+		XMP_enables_khampa_warriors_mercs = yes #used for localization of estate privilege
+		}
+}
+		

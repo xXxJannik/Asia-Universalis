@@ -1,0 +1,38 @@
+XMP_changpa_integration = {
+	potential = {
+		region = tibet_region
+		owner = {
+			OR = {
+				tag = XTS
+				tag = XTB
+				}
+			}
+		}
+	trigger = {
+		is_core = ROOT
+	}
+	local_friendly_movement_speed = 0.25
+	#Province scope
+	on_activation = {
+	}
+	on_deactivation = {
+	}
+}
+
+
+XMP_golog_tribes = {
+	potential = {
+		culture = golog
+		}
+	trigger = {
+		culture = golog
+	}
+	local_unrest = 20
+	local_autonomy = 0.05
+	local_defensiveness = 0.25
+	#Province scope
+	on_activation = {
+	}
+	on_deactivation = {
+	}
+}

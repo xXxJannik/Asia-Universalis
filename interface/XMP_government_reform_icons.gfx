@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "government_reform_XMP_tibetan_theocracy_icon"	
+		texturefile = "gfx/interface/government_reform_icons/XMP_tibetan_theocracy_icon.dds"
+	}
+}
