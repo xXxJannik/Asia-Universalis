@@ -1,45 +1,4 @@
 ﻿l_english:
- h_reform_warlord_1:0 "Rebellious region"
- h_reform_warlord_1_desc:0 "A rebellious region led by a Warlord."
- H_WARLORD1:0 "Rebellious region"
- H_WarlordTitle1:0 "Rebel leader"
-
- h_reform_warlord_2:0 "Unorganized Warlord Clique"
- h_reform_warlord_2_desc:0 "A rebel Nation led by a Warlord."
- H_WARLORD2:0 "Unorganized Clique"
- H_WarlordTitle2:0 "Warlord"
-
- h_reform_warlord_3:0 "Organized Warlord Clique"
- h_reform_warlord_3_desc:0 "An organized Warlord Clique."
- H_WARLORD3:0 "Organized Warlord Clique"
- H_WarlordTitle3:0 "Warlord"
-
- h_reform_warlord_4:0 "Chinese Kingdom"
- h_reform_warlord_4_desc:0 "A Kingdom that claims the Mandate of Heaven."
- H_WARLORD4:0 "Chinese Kingdom"
- H_WarlordTitle4:0 "Pretender"
-
- reform_warlord_5:0 "Chinese Horde"
- reform_warlord_5_desc:0 "A Horde that interferes in Chinese affaires and claims the Mandate of Heaven."
- WARLORD5:0 "Chinese Horde"
- WarlordTitle5:0 "Khan"
-
- reform_korea:0 "Josoen Kingdom"
- reform_korea_desc:0 "The Turtle Kingdom"
- KoreanKingRank:0 "Josoen Kingdom"
- KoreanKing:0 "Wang"
- KoreanQueen:0 "Kwin"
-
- reform_japan:0 "Japanese Empire"
- reform_japan_desc:0 "The Eastern Empire"
- JapaneseEmperorRank:0 "Japanese Empire"
- JapaneseEmperor:0 "Tenno"
- JapaneseEmpress:0 "Kogo"
-
- chinese_city_reform:0 "City State"
- reform_japan_desc:0 "A democratic city state."
- CityStateRank:0 "City State"
- CityStateLeader:0 "President"
 
  promote_cavalry_decree: "Boost Cavalry Corps"
  promote_cavalry_decree_title: "Boost Cavalry Corps"

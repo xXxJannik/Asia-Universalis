@@ -11835,3 +11835,18 @@ ASU_shenyang_gems = {
 ASU_estate_janissaries_foreign_conscription = {
 	local_manpower_modifier = 0.25
 }
+
+ASU_estate_janissaries_invest_in_janissaries = {
+	local_development_cost = -0.1
+}
+
+ASU_estate_janissaries_discipline = {
+	is_janissary_modifier = yes
+	discipline = 0.1
+}
+
+ASU_estate_janissaries_militarisation = {
+	is_janissary_modifier = yes
+	infantry_power = 0.2
+	infantry_fire = 0.2
+}
