@@ -3,20 +3,20 @@ estate_ASU_janissaries = {
 
 	# If true, country will get estate
 	trigger = {
-		has_dlc = "The Cossacks"
-		is_colonial_nation = no
-		has_reform = feudal_theocracy #Persia
+		has_reform = ASU_persia_reform_2 #Persia
 	}
 
 	# These scale with loyalty & power
 	country_modifier_happy = {
-		global_manpower_modifier = 0.1
+		global_manpower_modifier = 0.2
 	}
 	country_modifier_neutral = {
-		global_manpower_modifier = 0.05
+		global_manpower_modifier = 0.1
 	}	
 	country_modifier_angry = {
 		global_unrest = -2
+		global_manpower_modifier = -0.2
+		tolerance_heathen = -4
 	}
 	land_ownership_modifier = {
 		ASU_janissaries_loyalty_modifier = 0.2
@@ -31,6 +31,10 @@ estate_ASU_janissaries = {
 	influence_from_dev_modifier = 0.4
 
 	privileges = {
+		estate_janissaries_extended_privileges_2
+		estate_janissaries_extended_privileges_3
+		estate_janissaries_extended_privileges_4
+		estate_janissaries_extended_privileges_5
 	}
 
 	agendas = {

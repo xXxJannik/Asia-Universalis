@@ -42,14 +42,14 @@ estate_ASU_janissaries = {
 		type = loyalty
 		key = ASU_janissaries_loyalty_modifier
 		trigger = {
-			has_estate = estate_ASU_jannisaries
+			has_estate = estate_ASU_janissaries
 		}
 	}
 	modifier_definition = {
 		type = influence
 		key = ASU_janissaries_influence_modifier
 		trigger = {
-			has_estate = estate_ASU_jannisaries
+			has_estate = estate_ASU_janissaries
 		}
 	}
 }

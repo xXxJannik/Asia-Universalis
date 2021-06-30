@@ -41,7 +41,7 @@ monarchy = {
 				confucian_bureaucracy
 			}
 		}
-		hereditary_vs_nobility = {
+		hereditary_vs_nobility = { #tier 2
 			reforms = {
 				enforce_privileges_reform
 				quash_noble_power_reform
@@ -56,9 +56,10 @@ monarchy = {
 				legion_of_honor_reform
 				imperial_nobility_reform
 				uparaja_reform
+				ASU_persia_reform_2
 			}
 		}
-		bureaucracy = {
+		bureaucracy = { #tier 3
 			reforms = {
 				centralize_reform
 				decentralize_reform
@@ -70,9 +71,10 @@ monarchy = {
 				fraternite_reform
 				examination_system_reform
 				corvee_reform
+				ASU_persia_reform_3
 			}
 		}
-		growth_of_administration = {
+		growth_of_administration = { #tier 4
 			reforms = {
 				clergy_in_administration_reform
 				of_noble_bearing_reform
@@ -85,9 +87,10 @@ monarchy = {
 				equality_principle_reform
 				imperial_principle_reform
 				sakdina_system_reform
+				ASU_persia_reform_4
 			}
 		}
-		deliberative_assembly = {
+		deliberative_assembly = { #tier 5
 			reforms = {
 				parliamentary_reform
 				royal_decree_reform
@@ -99,9 +102,10 @@ monarchy = {
 				feuillant_reform
 				two_chamber_reform
 				imperial_decree_reform
+				ASU_persia_reform_5
 			}
 		}
-		absolute_rule_vs_constitutional = {
+		absolute_rule_vs_constitutional = { #tier 6
 			reforms = {
 				letat_cest_moi_reform
 				regional_representation_reform
@@ -109,7 +113,7 @@ monarchy = {
 				military_electorate_reform
 			}
 		}
-		separation_of_power = {
+		separation_of_power = { #tier 7 
 			reforms = {
 				political_absolutism_reform
 				legislative_houses_reform
