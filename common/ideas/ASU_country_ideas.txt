@@ -36,3 +36,255 @@ HET_ideas = {
 		cavalry_fire = 1
 	}
 }
+
+YUE_ideas = { 
+	start = {
+		land_morale = 0.1
+		advisor_cost = -0.1
+	}
+	bonus = {
+		land_forcelimit_modifier = 0.5
+	}
+	trigger = {
+		OR = {
+			tag = YUE
+		}
+	}
+	free = yes       #will be added at load.
+	ASU_yue_NI1= {            
+		technology_cost = -0.1
+		idea_cost = -0.1
+	}
+	ASU_yue_NI2 = {     
+		global_sailors_modifier = 0.2
+		galley_power = 0.1           
+	}
+	ASU_yue_NI3 = {
+		trade_efficiency = 0.2
+	}
+	ASU_yue_NI4 = {
+		global_manpower_modifier = 0.5
+	}
+	ASU_yue_NI5 = {                             
+		naval_forcelimit_modifier = 0.25
+	}
+	ASU_yue_NI6 = {
+		infantry_power = 0.1
+		drill_gain_modifier = 0.5
+	}
+	ASU_yue_NI7  = {                    
+		artillery_fire = 1
+	}
+}
+
+WUU_ideas = { 
+	start = {
+		land_morale = 0.1
+		trade_efficiency = 0.1
+	}
+	bonus = {
+		land_forcelimit_modifier = 0.5
+	}
+	trigger = {
+		OR = {
+			tag = WUU
+		}
+	}
+	free = yes       #will be added at load.
+	ASU_WUU_NI1= {            
+		mercenary_manpower = 0.5
+		merc_maintenance_modifier = -0.2
+	}
+	ASU_WUU_NI2 = {     
+		mercenary_discipline = 0.05
+		mercenary_cost = -0.2
+	}
+	ASU_WUU_NI3 = {
+		global_sailors_modifier = 0.2
+		ship_durability = 0.05
+	}
+	ASU_WUU_NI4 = {
+		merchants = 1
+		naval_forcelimit_modifier = 0.25
+	}
+	ASU_WUU_NI5 = {                             
+		global_manpower_modifier = 0.5
+	}
+	ASU_WUU_NI6 = {
+		global_trade_goods_size_modifier = 0.2
+	}
+	ASU_WUU_NI7  = {                    
+		artillery_fire = 1
+	}
+}
+
+
+CYI_ideas = {
+	start = {
+		defensiveness = 0.2
+		shock_damage_received = -0.1
+	}
+
+	bonus = {
+		manpower_recovery_speed = 0.2
+	}
+	
+	trigger = {
+		tag = CYI
+	}
+	free = yes
+	
+	cyi_children_of_the_black_tiger = {
+		land_morale = 0.2
+	}
+	ASU_cyi_NI2 = {
+		amount_of_banners = 0.5
+	}
+	cyi_deep_in_mountains = {
+		hostile_attrition = 1.0
+	}
+	cyi_chain_of_zimo_domains = {
+		reinforce_speed = 0.25
+		leader_land_manuever = 1
+	}
+	cyi_solar_calendar = {
+		development_cost = -0.1
+	}
+	ASU_cyi_NI6 = {
+		global_manpower_modifier = 0.5
+	}
+	ASU_cyi_NI7 = {
+		land_forcelimit_modifier = 0.5
+	}
+}
+
+QNG_ideas = {
+	start = {
+		shock_damage = 0.2
+		fire_damage_received = -0.1
+	}
+	
+	bonus = {
+		advisor_cost = -0.1
+	}
+	
+	trigger = {
+		tag = QNG
+	}
+	free = yes
+	
+	
+	expand_the_banners = {
+		amount_of_banners = 0.5
+	}
+	the_green_standard_army = {
+		manpower_recovery_speed = 0.2
+		global_manpower_modifier = 0.3
+	}
+	ASU_qng_NI3 = {
+		production_efficiency = 0.25
+	}
+	qng_bogda_khan = {
+		years_of_nationalism = -5
+		legitimacy = 1
+		meritocracy = 1
+	}
+	ASU_qng_NI5 = {
+		land_forcelimit_modifier = 0.3
+	}
+	ASU_qng_NI6 = {
+		development_cost = -0.05
+		global_autonomy = -0.05
+	}
+	the_ten_great_campaigns = {
+		land_morale = 0.2
+		prestige_from_land = 0.5
+	}
+}
+
+KOR_ideas = {
+	start = {
+		global_own_trade_power = 0.25
+		build_cost = -0.1
+	}
+	
+	bonus = {
+		artillery_power = 0.1
+	}
+	
+	trigger = {
+		tag = KOR
+	}
+	free = yes
+	
+	hanguel_alphabet = {
+		technology_cost = -0.1
+		idea_cost = -0.1
+	}
+	grand_code = {
+		stability_cost_modifier = -0.10
+		global_unrest = -2
+	}
+	hyanyak_system = {
+		production_efficiency = 0.10
+		global_trade_goods_size_modifier = 0.1
+	}
+	geobukseon = {
+		ship_durability = 0.1
+		naval_forcelimit_modifier = 0.5
+	}
+	hopae_system = {
+		global_manpower_modifier = 0.25
+		global_sailors_modifier = 0.25
+	}
+	kyujanggak = {
+		advisor_cost = -0.1
+	}
+	ASU_kor_NI7 = {
+		land_morale = 0.1
+		infantry_power = 0.1
+	}
+}
+
+JAP_ideas = {
+	start = {
+		monarch_military_power = 1
+		discipline = 0.05
+	}
+	
+	bonus = {
+		infantry_power = 0.2
+	}
+	
+	trigger = {
+		tag = JAP
+	}
+	free = yes
+	
+	jap_unification_under_the_emperor = {
+		global_unrest = -2
+		land_morale = 0.1
+	}
+	reformed_land_holding = {
+		global_manpower_modifier = 0.25
+		land_forcelimit_modifier = 0.25
+	}
+	jap_modernization = {
+		technology_cost = -0.1
+		global_institution_spread = 0.1
+	}
+	jap_maritime_legacy = {
+		ship_durability = 0.1
+	}
+	jap_land_of_the_rising_sun = {
+		prestige = 1
+	}
+	jap_kaitakudan = {
+		global_colonial_growth = 20
+		development_cost = -0.05
+	}
+	jap_great_power_diplomacy = {
+		ae_impact = -0.20
+		army_tradition_decay = -0.01
+	}
+}

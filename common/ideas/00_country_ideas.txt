@@ -1191,12 +1191,12 @@ HAB_ideas = {
 
 CHI_ideas = {
 	start = {
-		fort_maintenance_modifier = -0.2
-		idea_cost = -0.10
+		shock_damage_received = -0.1
+		infantry_power = 0.1
 	}
 	
 	bonus = {
-		improve_relation_modifier = 0.3
+		land_forcelimit_modifier = 0.5
 	}
 	
 	trigger = {
@@ -1204,27 +1204,29 @@ CHI_ideas = {
 	}
 	free = yes		#will be added at load.
 	
-	nine_garrisons_of_the_great_wall = {
-		defensiveness = 0.05
-		garrison_size = 0.25
+	ASU_mng_NI1 = {
+		defensiveness = 0.20
+		garrison_size = 0.20
 	}
-	revived_three_grand_divisions = {
+	ASU_mng_NI2 = {
 		discipline = 0.05
 	}
-	inward_perfection = {
-		stability_cost_modifier = -0.10
+	ASU_mng_NI3 = {
+		global_trade_goods_size_modifier = 0.1
 	}
-	yellow_river_dykes = {
-		production_efficiency = 0.1
+	ASU_mng_NI4 = {
+		global_manpower_modifier = 0.5
 	}
-	salt_monopoly = {
-		trade_efficiency = 0.1
+	ASU_mng_NI5 = {
+		land_morale = 0.1
+		imperial_mandate = 0.03
 	}
-	single_whip_law = {
-		global_tax_modifier = 0.10
+	ASU_mng_NI6 = {
+		artillery_power = 0.1
+		technology_cost = -0.05
 	}
-	the_red_cannon = {
-		leader_land_fire = 1
+	ASU_mng_NI7 = {
+		amount_of_banners = 0.25
 	}
 }
 
@@ -1424,49 +1426,6 @@ HUN_ideas = {
 	}
 	hungarian_estates_general = {
 		no_religion_penalty = yes
-	}
-}
-
-
-JAP_ideas = {
-	start = {
-		monarch_military_power = 1
-		discipline = 0.05
-	}
-	
-	bonus = {
-		infantry_power = 0.2
-	}
-	
-	trigger = {
-		tag = JAP
-	}
-	free = yes
-	
-	jap_unification_under_the_emperor = {
-		global_unrest = -2
-		land_morale = 0.1
-	}
-	reformed_land_holding = {
-		global_manpower_modifier = 0.2
-	}
-	jap_modernization = {
-		technology_cost = -0.1
-		global_institution_spread = 0.1
-	}
-	jap_maritime_legacy = {
-		ship_durability = 0.1
-	}
-	jap_land_of_the_rising_sun = {
-		prestige = 1
-	}
-	jap_kaitakudan = {
-		global_colonial_growth = 20
-		development_cost = -0.05
-	}
-	jap_great_power_diplomacy = {
-		ae_impact = -0.20
-		army_tradition_decay = -0.01
 	}
 }
 
@@ -1991,46 +1950,6 @@ OMA_ideas = {
 }
 
 
-KOR_ideas = {
-	start = {
-		global_own_trade_power = 0.25
-		build_cost = -0.1
-	}
-	
-	bonus = {
-		infantry_power = 0.1
-	}
-	
-	trigger = {
-		tag = KOR
-	}
-	free = yes
-	
-	hanguel_alphabet = {
-		technology_cost = -0.05
-	}
-	grand_code = {
-		stability_cost_modifier = -0.10
-	}
-	hyanyak_system = {
-		production_efficiency = 0.10
-	}
-	geobukseon = {
-		ship_durability = 0.1
-	}
-	hopae_system = {
-		global_manpower_modifier = 0.10
-	}
-	kyujanggak = {
-		idea_cost = -0.1
-	}
-	kor_economy_reform = {
-		global_tax_modifier = 0.10
-	}
-	
-}
-
-
 BOH_ideas = {
 	start = {
 		imperial_authority = 0.10
@@ -2196,52 +2115,6 @@ MCH_ideas = {
 		ae_impact = -0.1
 	}
 }
-
-
-QNG_ideas = {
-	start = {
-		core_creation = -0.2
-		ae_impact = -0.1
-	}
-	
-	bonus = {
-		advisor_cost = -0.15
-	}
-	
-	trigger = {
-		tag = QNG
-	}
-	free = yes
-	
-	
-	expand_the_banners = {
-		amount_of_banners = 0.3
-	}
-	the_green_standard_army = {
-		manpower_recovery_speed = 0.15
-		global_manpower_modifier = 0.15
-	}
-	pigtail_or_death = {
-		global_unrest = -2
-	}
-	qng_bogda_khan = {
-		years_of_nationalism = -5
-		legitimacy = 1
-		meritocracy = 1
-	}
-	the_chinese_rules = {
-		administrative_efficiency = 0.05
-	}
-	qing_viceroyalties = {
-		state_maintenance_modifier = -0.15
-		global_autonomy = -0.05
-	}
-	the_ten_great_campaigns = {
-		land_morale = 0.15
-		prestige_from_land = 0.5
-	}
-}
-
 
 PAL_ideas = {
 	start = {
@@ -7904,45 +7777,6 @@ LON_ideas = {
 	}
 	lon_nationalism = {
 		infantry_power = 0.1
-	}
-}
-
-CYI_ideas = {
-	start = {
-		defensiveness = 0.2
-		shock_damage_received = -0.1
-	}
-
-	bonus = {
-		manpower_recovery_speed = 0.1
-	}
-	
-	trigger = {
-		tag = CYI
-	}
-	free = yes
-	
-	cyi_strengthen_yi_caste_system = {
-		stability_cost_modifier = -0.1
-	}
-	cyi_deep_in_mountains = {
-		hostile_attrition = 1.0
-	}
-	cyi_chain_of_zimo_domains = {
-		reinforce_speed = 0.15
-	}
-	cyi_solar_calendar = {
-		global_tax_modifier = 0.1
-	}
-	cyi_promote_bimoism = {
-		tolerance_own = 2
-	}
-	cyi_renovate_skyward_tombs = {
-		legitimacy = 1
-		devotion = 1
-	}
-	cyi_children_of_the_black_tiger = {
-		land_morale = 0.1
 	}
 }
 
@@ -14505,11 +14339,11 @@ CHG_ideas = {
 CSH_ideas = {
 	start = {
 		global_manpower_modifier = 0.25
-		production_efficiency = 0.10
+		shock_damage_received = -0.2
 	}
 	
 	bonus = {
-		prestige = 1
+		land_forcelimit_modifier = 0.5
 	}
 	
 	trigger = {
@@ -14518,23 +14352,24 @@ CSH_ideas = {
 	free = yes
 	
 	shun_humble_beginnings = {
-		manpower_recovery_speed = 0.1
+		manpower_recovery_speed = 0.2
 	}
 	shun_dashing_king = {
 		diplomatic_reputation = 1
+		prestige = 1
 	}
 	shun_hidden_treasury = {
 		interest = -0.5
 	}
 	shun_obedient_to_heaven = {
-		land_morale = 0.1
-		stability_cost_modifier = -0.1
+		land_morale = 0.2
+		global_manpower_modifier = 0.25
 	}
 	shun_perfection_of_sieging = {
-		siege_ability = 0.10
+		siege_ability = 0.2
 	}
 	shun_from_sticks_to_guns = {
-		infantry_power = 0.15
+		infantry_power = 0.2
 	}
 	shun_claim_to_the_mandate = {
 		imperial_mandate = 0.03
