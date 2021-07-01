@@ -1,6 +1,6 @@
 HET_ideas = { 
 	start = {
-		cavalry_power = 0.33
+		cavalry_power = 0.25
 		movement_speed = 0.25
 	}
 	bonus = {
@@ -26,7 +26,7 @@ HET_ideas = {
 		interest = -0.5
 	}
 	ASU_het_NI5 = {                             
-		shock_damage = 0.2
+		shock_damage = 0.1
 	}
 	ASU_het_NI6 = {
 		years_of_nationalism = -5
