@@ -1,0 +1,38 @@
+HET_ideas = { 
+	start = {
+		cavalry_power = 0.33
+		movement_speed = 0.25
+	}
+	bonus = {
+		land_forcelimit_modifier = 0.5
+	}
+	trigger = {
+		OR = {
+			tag = HET
+		}
+	}
+	free = yes       #will be added at load.
+	ASU_het_NI1= {            
+		development_cost = -0.1
+        power_projection_from_insults = 1
+	}
+	ASU_het_NI2 = {                
+		global_trade_goods_size_modifier = 0.2
+	}
+	ASU_het_NI3 = {
+		global_manpower_modifier = 0.5
+	}
+	ASU_het_NI4 = {
+		interest = -0.5
+	}
+	ASU_het_NI5 = {                             
+		shock_damage = 0.2
+	}
+	ASU_het_NI6 = {
+		years_of_nationalism = -5
+        tolerance_heathen = 3
+	}
+	ASU_het_NI7  = {                    
+		cavalry_fire = 1
+	}
+}

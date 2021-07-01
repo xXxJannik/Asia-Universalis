@@ -1,0 +1,8 @@
+government = republic
+add_government_reform = cossacks_reform
+technology_group = eastern
+religion = orthodox
+primary_culture = ruthenian
+capital = 2420
+
+add_accepted_culture = bashkir

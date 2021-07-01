@@ -1,0 +1,61 @@
+country_decisions = {
+
+	ASU_ZAZ_form_Hetmanate = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			was_never_end_game_tag_trigger = yes
+			NOT = { has_country_flag = ASU_formed_hetmanate }
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			NOT = { exists = HET }
+			primary_culture = ruthenian
+			tag = ZAZ
+			is_colonial_nation = no
+		}
+		provinces_to_highlight = {
+			
+		}
+		allow = {
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+		}
+		effect = {
+			change_tag = HET
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			if = {
+				limit = { NOT = { government_rank = 2 } }
+				set_government_rank = 2
+			}
+			if = {
+				limit = {
+					NOT = { government = republic }
+					is_revolutionary = no
+				}
+				change_government_to_republic = yes
+				add_government_reform = cossacks_reform
+			}
+			if = {
+				limit = {
+					technology_group = nomad_group
+				}
+				change_technology_group = eastern
+				change_unit_type = eastern
+			}
+			add_prestige = 25
+			set_country_flag = ASU_formed_hetmanate
+			country_event = {
+				id = ideagroups.1
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		ai_importance = 400
+	}
+}
