@@ -274,7 +274,7 @@ reform_japan = {
 	lock_level_when_selected = yes
 	fixed_rank = 3
 	modifiers = {
-		ae_impact = 0.2
+		infantry_power = 0.2
 	}
 	
 	ai = {
@@ -286,6 +286,8 @@ reform_japan = {
 	}
 
 	conditional = {
+		allow = { has_dlc = "Rights of Man" }
+		militarised_society = yes
 	}
 }
 

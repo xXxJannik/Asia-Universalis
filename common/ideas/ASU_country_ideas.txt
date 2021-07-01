@@ -253,7 +253,7 @@ JAP_ideas = {
 	}
 	
 	bonus = {
-		infantry_power = 0.2
+		artillery_power = 0.2
 	}
 	
 	trigger = {
@@ -275,6 +275,7 @@ JAP_ideas = {
 	}
 	jap_maritime_legacy = {
 		ship_durability = 0.1
+		naval_forcelimit_modifier = 0.25
 	}
 	jap_land_of_the_rising_sun = {
 		prestige = 1
