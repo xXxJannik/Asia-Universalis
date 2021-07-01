@@ -89,8 +89,10 @@ dlc047_feo_sprite_pack = {
 dlc047_zaz_sprite_pack = {
 	# Tests against every tag in game
 	country_trigger = {
-		tag = ZAZ
-		tag = HET
+		OR = {
+			tag = ZAZ
+			tag = HET
+		}
 	}
 
 	sprite_infantry = {
