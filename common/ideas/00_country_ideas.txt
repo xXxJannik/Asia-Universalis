@@ -1236,7 +1236,7 @@ PER_ideas = {
 	}
 	
 	bonus = {
-		recover_army_morale_speed = 0.1
+		shock_damage_received = -0.2
 	}
 	
 	trigger = {
