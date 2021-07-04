@@ -835,23 +835,23 @@ lower_don_area = { #4
 }
 
 kazan_area = { #3
-	1082 2422 4264
+	2422 4264
 }
 
 samara_area = { #3
-	473 1081 2423
+	1081 2423
 }
 
 lower_yik_area = { #4
-	469 474 2365 2367
+	469 474 2367 473
 }
 
 nogai_area = { #5
-	465 470 471 472 2366
+	465 470 472 2366 5979
 }
 
 ural_area = { #5
-	1080 1078 1780 2427 2441 
+	1080 1078 1780 2427 5993
 }
 
 pomor_area = { #4
@@ -863,19 +863,19 @@ arkhangelsk_area = { #4
 }
 
 bashkiria_area = { #5
-	475 1965 1966 2420 2444
+	475 2444 2441 5992
 }
 
 volga_area = { #3
-	2421 4265 4267
+	2421 4265 4267 1082
 }
 
 galich_area = { #4
-	306 1079 1083 1957
+	306 1083 1957
 }
 
 kama_area = { #4
-	305 1962 1972 4266
+	305 1962 1972 4266 1079
 }
 
 tambov_area = { #3
@@ -1254,7 +1254,7 @@ north_kurdistan_area = { #5
 }
 
 khuzestan_area = { #5
-	412 2217 4289 4290 4342
+	412 4289 4290 
 }
 
 shahrizor_area = {	#4
@@ -1273,7 +1273,7 @@ al_jazira_area = { #5
 ########################################
 
 bahrain_area = { #5
-	394 395 396 2340 2347
+	395 396 2347 2339
 }
 
 pirate_coast_area = { #4
@@ -1315,15 +1315,15 @@ yemen_area = { #Lower Yemen #
 }
 
 hadramut_area = { #3
-	389 2343 4283
+	389
 }
 
 mahra_area = { #3
-	402 1099 4284
+	402 4284 4283 2343
 }
 
 yamamah_area = { #4
-	2335 2336 2339 4275
+	2335 2336 4275
 }
 
 qasim_area = { #4
@@ -1455,7 +1455,7 @@ madagascar_highlands_area = { #3
 
 betsimasaraka_area = { #3
 	color = { 29 162 26 }
-	4021 4024 4025
+	4021 4025
 }
 
 sakalava_area = { #5
@@ -1664,7 +1664,7 @@ ajuuran_area = { #4
 }
 
 majarteen_area = { #5
-	1206 2024 2783 2784 2788 
+	1206 2788 1099
 }
 
 ########################################
@@ -1672,7 +1672,7 @@ majarteen_area = { #5
 ########################################
 
 mascarenes_area = { #3
-	1100 1102 1103
+	1100 1102 1103 4024
 }
 
 indian_ocean_islands_area = { #5
@@ -1927,11 +1927,11 @@ makran_area = { #5
 }
 
 sistan_area = { #4
-	435 2224 2229 2230
+	435 2224 2229 2230 5947
 }
 
 kalat_area = { #3
-	576 577 2068
+	576 2068 5956 5954
 }
 
 ferghana_area = { #3
@@ -1943,11 +1943,11 @@ arys_area = { #3
 }
 
 kyzylkum_area = { #3
-	455 1970 2363
+	455 1970 5983
 }
 
 transoxiana_area = { #3
-	442 453 454
+	442 453 454 5968 5969
 }
 
 termez_area = { #3
@@ -1964,7 +1964,7 @@ kabulistan_area = { #5
 }
 
 transcaspia_area = {
-	437 438 439 443 2349
+	437 438 2349 5963 5971
 }
 
 mashhad_area = { #4 - Northern Khorasan
@@ -1972,21 +1972,21 @@ mashhad_area = { #4 - Northern Khorasan
 }
 
 herat_area = {	#3 - Eastern Khorasan
-	446 4324 4325 
+	446 4324 4325 5946
 }
 
 birjand_area = { #3 - Western Khorasan
-	436 4334 4336 
+	436 4336 5941 5940 4334
 }
 
 ghor_area = { #3
 	color = { 191 176 53 }
-	447 449 2225
+	447 449 2225 5953 5951
 }
 
 merv_area = { #3
 	color = { 60 186 134 }
-	444 445 2350
+	445 2350 5961 5962 5958
 }
 
 balkh_area = { #3
@@ -1994,11 +1994,11 @@ balkh_area = { #3
 }
 
 kerman_area = { #4
-	432 2220 2234 4345
+	432 5938 5939 5945 
 }
 
 persian_gulf_coast = { #4
-	430 2219 2223 4332 
+	430 2219 4332 2217 4342
 }
 
 mogostan_area = { #3
@@ -2006,19 +2006,19 @@ mogostan_area = { #3
 }
 
 farsistan_area = { #4
-	2218 4329 4330 4331
+	2218 4329 4330 4331 2223
 }
 
 iraq_e_ajam_area = { #5
-	427 428 2213 2216 4337
+	428 2213 4337 5925 5926
 }
 
 azerbaijan_area = { #5 #Southern Azerbaijan
-	2212 2215 4300 4338
+	2212 4300 4338
 }
 
 isfahan_area = { #3
-	429 433 2222 4335 4171
+	429 4335 5932 5933 5934
 }
 
 tabriz_area = { #4 Central Azerbaijan
@@ -2026,7 +2026,7 @@ tabriz_area = { #4 Central Azerbaijan
 }
 
 tabarestan_area = { #5
-	417 426 2214 4339 4341
+	417 426 2214 4341 2215
 }
 
 ########################################
@@ -2779,19 +2779,19 @@ irkutsk_area = { #5
 }
 
 perm_area = { #5
-	1077 1755 1963 1964 4129
+	1077 1963 1964 4129
 }
 
 balchasj_area = { #5
-	477 478 2355 2360 4685
+	478 2355 2360 4685 5996
 }
 
 kazakhstan_area = { #5
-	476 2351 2353 2358 2359
+	2351 2353 5978 1966 5990
 }
 
 syr_darya_area = { #4
-	456 1969 2352 2361
+	456 1969 2352 5984 5986
 }
 
 yrtesh_area = { #5
@@ -4921,6 +4921,74 @@ subei_area = {
 
 dabusun_area = {
 	5902 5904 5905 5906
+}
+
+#############################
+#ASU - loc missing
+#############################
+
+tuchah_area = {
+	5928 5927 2216
+}
+
+chejam_area = {
+	5931 427 5930 5929
+}
+
+yazd_area = {
+	433 2222 5935 4171
+}
+
+saidabad_area = {
+	4345 2234 5936 5937
+}
+
+bam_area = {
+	2220 5942 5943 5944
+}
+
+quetta_area = {
+	577 5948 5955
+}
+
+bakhora_area = {
+	5950 5949 5952
+}
+
+basbeden_area = {
+	5957 5959 444
+}
+
+turkmenabat_area = {
+	5967 5960 5966 5965 5964
+}
+
+north_transcaspia_area = {
+	5973 5974 439 443 5980
+}
+
+bozoy_area = {
+	5975 5976 5977 471
+}
+
+orenburg_area = {
+	2420 5981 5982 1965
+}
+
+atakent_area = {
+	2363 5970 5972
+}
+
+koskol_area = {
+	5985 2358 5989 5988
+}
+
+kypshak_area = {
+	476 2359 5991
+}
+
+saryschagan_area = {
+	5995 5994 477 5987 2361
 }
 
 #############################
