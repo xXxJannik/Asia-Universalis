@@ -343,12 +343,16 @@ persia_region = {
 		khuzestan_area
 		shahrizor_area
 		mogostan_area
+		tuchah_area
+		chejam_area
+		yazd_area
+		saidabad_area
+		bam_area
 	}
 }
 
 khorasan_region = {
 	areas = {
-		merv_area
 		balkh_area
 		kabulistan_area
 		ghor_area
@@ -358,6 +362,8 @@ khorasan_region = {
 		birjand_area
 		herat_area
 		mashhad_area
+		quetta_area
+		bakhora_area
 	}
 }
 
@@ -561,6 +567,15 @@ central_asia_region = {
 		syr_darya_area
 		kyzylkum_area
 		termez_area
+		merv_area
+		basbeden_area
+		turkmenabat_area
+		atakent_area
+		orenburg_area
+		koskol_area
+		saryschagan_area
+		north_transcaspia_area
+		bozoy_area
 	}
 }
 
@@ -594,6 +609,7 @@ west_siberia_region = {
 		ishim_area
 		kara_area
 		aqmola_area
+		kypshak_area
 	}
 }
 
