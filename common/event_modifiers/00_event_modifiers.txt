@@ -3168,6 +3168,7 @@ the_triumphal_procession = {
 
 burgundian_succession_crisis = {
 	heir_chance = -0.95
+	monthly_heir_claim_increase = -1							 
 	block_introduce_heir = yes
 }
 
@@ -6396,6 +6397,7 @@ royal_fires_modifier = {
 	prestige = 0.5
 	legitimacy = 0.5
 	devotion = 0.5
+	manpower_in_true_faith_provinces= 0.2								  
 	religion = yes
 }
 
