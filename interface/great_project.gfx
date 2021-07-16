@@ -288,7 +288,10 @@ spriteTypes = {
 		name = "GFX_great_project_three_pagodas"	
 		texturefile = "gfx//interface//great_projects//great_project_three_pagodas.dds"
 	}
-	
+	spriteType = {
+		name = "GFX_great_project_imperial_city_hue"	
+		texturefile = "gfx//interface//great_projects//great_project_imperial_city_hue.dds"
+	}
 
 ### CANALS ###
 
