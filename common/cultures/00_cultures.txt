@@ -1480,7 +1480,33 @@ iberian	= {
 		}
 	}
 }
+cushitic = {
+	graphical_culture = africangfx
+	occitain = {
+		primary = PRO
+	}
+	dynasty_names = {
+		Ginocho Bahrid "Darod" "Marisid" "Muqurrid" "Pakhoras" "Ramlid" "Sebsibeid" "Kebedeid" "Bekeleid" 
+		"Abateid" "Sabraid" "Astatkeid" "Habeshid" "Dubé" "Gobena" "Selassie" "Zagwe" "Dengel" "Sehul" 
+		"Daw" "Alwa" "Dahnay" "Gideon" "Assabi" "Afari" "Tamirat" "Mengesha" "Teka" "Getachew" "Na'akuelo" "Yostos" 
+		"Merkourios" "Shamumun" "Desta"
+	}
+}
+
+finno_ugric = { #Ugric
+	graphical_culture = westerngfx
 	
+	wallonian = {
+		primary = HAI
+	}
+	dynasty_names = {
+		# CKII - Lappish
+		"Ubmeje" "Nuoráne" "Gájka" "Kaise" "Saiva" "Keite" "Sapmi" "Magga" "Guoládat"
+		# Komi
+		"Azegid" "Gachegid" "Zhebegid" "Lunegid" "Zhunegid" "Irtegid" "Moshegid" "Nydogid" "Nylogid" "Ozhegid" "Odegid" 
+		"Rategid" "Permyakid" "Yugra" "Syktyvkar"
+	}
+}	
 french	= {
 	graphical_culture = westerngfx
 
@@ -1504,12 +1530,7 @@ french	= {
 	burgundian = {
 		primary = BUR
 	}
-	occitain = {
-		primary = PRO
-	}
-	wallonian = {
-		primary = HAI
-	}
+	
 	breton = {
 		primary = BRI
 		dynasty_names = { 
