@@ -1112,8 +1112,6 @@ north_china_region = {
 		nantong_area
 		fuping_area
 		hengshui_area
-		xingtai_area
-		zhengzhuo_area
 		kaifeng_area
 		shuyang_area
 		hefei_area

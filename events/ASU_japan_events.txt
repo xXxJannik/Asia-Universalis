@@ -5,6 +5,7 @@ country_event = {
 	id = ASU_japan_events.1
 	title = "ASU_japan_events.1.t"
 	desc = "ASU_japan_events.1.d"
+	picture = ANGRY_MOB_eventPicture
 	is_triggered_only = yes
     major = yes  #Notification for everyone
     trigger = {
