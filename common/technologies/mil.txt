@@ -678,10 +678,34 @@ technology = {
 
 technology = {
 	# Tech 32
-	year = 1835
+	year = 1830
 	
 	#Field Howitzer
 	military_tactics	=	0.25
 	artillery_shock		=	0.1
+	artillery_fire		=	2.0	
+}
+
+technology = {
+	# Tech 33
+	year = 1840
+	
+	#Medizin
+	supply_limit = 1
+}
+
+technology = {
+	# Tech 34
+	year = 1845
+	
+	#Telegraphen
+	military_tactics = 0.25
+}
+
+technology = {
+	# Tech 35
+	year = 1850
+	
+	#Rifling - casting spiraling lines inside the cannon's barrel
 	artillery_fire		=	2.0	
 }

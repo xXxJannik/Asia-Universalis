@@ -1,0 +1,26 @@
+﻿l_english:
+ 
+ #Adm
+ adm_tech_cs_33_name: "Tech name here"
+ adm_tech_cs_33_desc: "Tech description here"
+ adm_tech_cs_34_name: "Tech name here"
+ adm_tech_cs_34_desc: "Tech description here"
+ adm_tech_cs_35_name: "Tech name here"
+ adm_tech_cs_35_desc: "Tech description here"
+
+
+ #Dip
+ dip_tech_cs_33_name: "Tech name here"
+ dip_tech_cs_33_desc: "Tech description here"
+ dip_tech_cs_34_name: "Tech name here"
+ dip_tech_cs_34_desc: "Tech description here"
+ dip_tech_cs_35_name: "Tech name here"
+ dip_tech_cs_35_desc: "Tech description here"
+
+ #Mil
+ mil_tech_cs_33_name: "Improved medicine"
+ mil_tech_cs_33_desc: "New discoveries in medicine have lead to better medical treatment."
+ mil_tech_cs_34_name: "Telegraphs"
+ mil_tech_cs_34_desc: "The ability to transfer messages quickly over distance is a great advantage."
+ mil_tech_cs_35_name: "Rifling"
+ mil_tech_cs_35_desc: "Casting spiraling lines inside the cannon's barrel increases the accuracy."
