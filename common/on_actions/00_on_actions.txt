@@ -915,7 +915,6 @@ on_new_monarch = {
 		flavor_tim.1			#Death of Shah Rukh
 		muslim_school_events.20 #No Religious School
 		flavor_daimyo.4			#Shiba Yoshikado
-		flavor_fra.9000			# François Villon
 
 		#ASU
 		ASU_manchu_events.1     #Rise of a great Khan,
@@ -3505,7 +3504,6 @@ on_five_year_pulse_2 = {
 		100 = rajputs_estate_events.10
 		100 = rajputs_estate_events.11
 		# Random
-		5 = flavor_fra.9500
 		1000 = 0
 	}
 }
