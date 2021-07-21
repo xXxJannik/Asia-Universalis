@@ -310,3 +310,25 @@ technology = { #Four Field Rotation
 	#Four field rotation
 	production_efficiency 	=	0.02
 }
+
+technology = { #Commercial railways
+	# Tech 33
+	year = 1840
+	
+	administrative_efficiency = 0.1
+	development_efficiency = 0.1
+}
+
+technology = { #Reformed Bureaucracy
+	# Tech 34
+	year = 1845
+	
+	governing_capacity = 500
+}
+
+technology = { #Worker Rights
+	# Tech 35
+	year = 1850
+	
+	production_efficiency = 0.05
+}

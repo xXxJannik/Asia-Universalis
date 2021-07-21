@@ -1,12 +1,12 @@
 ﻿l_english:
  
  #Adm
- adm_tech_cs_33_name: "Tech name here"
- adm_tech_cs_33_desc: "Tech description here"
- adm_tech_cs_34_name: "Tech name here"
- adm_tech_cs_34_desc: "Tech description here"
- adm_tech_cs_35_name: "Tech name here"
- adm_tech_cs_35_desc: "Tech description here"
+ adm_tech_cs_33_name: "Commercial railways"
+ adm_tech_cs_33_desc: "The invention of the railway allowed us to bring goods and people across the country in a matter of hours."
+ adm_tech_cs_34_name: "Reformed bureaucracy"
+ adm_tech_cs_34_desc: "A reformation of our bureaucratic system will allow us to govern more efficently."
+ adm_tech_cs_35_name: "Worker rights"
+ adm_tech_cs_35_desc: "Although disliked by the rich, worker rights will increase the standart of living for the vast majority."
 
 
  #Dip
