@@ -382,3 +382,22 @@ technology = { #The Gold Standard
 	trade_range				=	20
 	global_colonial_growth  = 	50
 }
+
+technology = { #Steamer ships
+	# Tech 33
+	year = 1840
+	
+	enable = ASU_steamship
+}
+
+technology = { #Improved Bankingsystem
+	# Tech 34
+	year = 1845
+	trade_efficiency 		= 	0.05
+}
+
+technology = { #Liberty and freedom
+	# Tech 35
+	year = 1850
+	num_accepted_cultures = 2
+}

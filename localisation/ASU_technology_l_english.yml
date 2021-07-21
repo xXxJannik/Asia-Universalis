@@ -10,12 +10,12 @@
 
 
  #Dip
- dip_tech_cs_33_name: "Tech name here"
- dip_tech_cs_33_desc: "Tech description here"
- dip_tech_cs_34_name: "Tech name here"
- dip_tech_cs_34_desc: "Tech description here"
- dip_tech_cs_35_name: "Tech name here"
- dip_tech_cs_35_desc: "Tech description here"
+ dip_tech_cs_33_name: "Steamships"
+ dip_tech_cs_33_desc: "A steamship, often referred to as a steamer, is a type of steam-powered vessel, typically ocean-faring and seaworthy, that is propelled by one or more steam engines that typically move (turn) propellers or paddlewheels. The first steamships came into practical usage during the early 1800s; however, there were exceptions that came before."
+ dip_tech_cs_34_name: "Improved bankingsystem"
+ dip_tech_cs_34_desc: "The invention of telegraphs have benefited the bankingsystem and the stock market."
+ dip_tech_cs_35_name: "Liberty and freedom"
+ dip_tech_cs_35_desc: "The ideas of the 1848 revolution have lead to great ideas and more liberty."
 
  #Mil
  mil_tech_cs_33_name: "Improved medicine"
