@@ -65,7 +65,8 @@ technology = {
 	enable = ha_xantican_warrior
 	enable = aboriginal_boomerang
 	enable = aboriginal_warrior
-	enable = pacific_spearman				  
+	enable = pacific_spearman		
+	enable = ASU_reformed_asian_infantry1		  
 }
 
 technology = {
@@ -135,6 +136,7 @@ technology = {
 	enable = aboriginal_infantry
 	enable = aboriginal_reformed_boomerang
 	enable = pacific_reformed_spearman
+	enable = ASU_reformed_asian_infantry2
 							 
 	
 	combat_width = 2
@@ -214,6 +216,7 @@ technology = {
 	enable = asian_arquebusier	
 	enable = steppe_raiders
 	enable = ha_xiuhtecuhtli_soldier
+	enable = ASU_reformed_asian_infantry3
 	military_tactics 	= 	0.25
 	combat_width = 1	
 }
@@ -291,6 +294,7 @@ technology = {
 	enable = ethiopian_mountain_warfare		
 	enable = steppe_footmen
 	enable = ha_xiuhtecuhtlian_infantry
+	enable = ASU_reformed_asian_infantry4
 }
 
 technology = {
@@ -363,6 +367,7 @@ technology = {
 	enable = adal_gunpowder_warfare		
 	enable = ethiopian_gunpowder_warfare	
 	enable = steppe_musketeers
+	enable = ASU_reformed_asian_infantry5
 }
 
 technology = {
@@ -444,7 +449,8 @@ technology = {
 	enable = steppe_infantry
 	enable = high_american_swarm
 	enable = aboriginal_riflemen
-	enable = pacific_riflemen				  
+	enable = pacific_riflemen	
+	enable = ASU_reformed_asian_infantry6			  
 }
 
 technology = {
@@ -527,7 +533,8 @@ technology = {
 	enable = ha_foreign_influenced_infantry
 	enable = high_american_dragoon
 	enable = aboriginal_dragoon
-	enable = pacific_dragoon				 
+	enable = pacific_dragoon	
+	enable = ASU_reformed_asian_infantry7			 
 }
 
 technology = {
@@ -589,7 +596,8 @@ technology = {
 	enable = steppe_rifles
 	enable = ha_reformed_influenced_infantry
 	enable = aboriginal_guerrillas
-	enable = pacific_guerrillas						
+	enable = pacific_guerrillas		
+	enable = ASU_reformed_asian_infantry8				
 	
 	combat_width = 2
 }
@@ -628,6 +636,7 @@ technology = {
 	enable = french_impulse
 	enable = british_square
 	enable = steppe_uhlans
+	enable = ASU_reformed_asian_infantry9
 }
 
 technology = {
@@ -664,6 +673,7 @@ technology = {
 	enable = reformed_westernized_incan		
 	enable = reformed_steppe_rifles
 	enable = ha_reformed_xoloti
+	enable = ASU_reformed_asian_infantry10
 }
 
 technology = {
