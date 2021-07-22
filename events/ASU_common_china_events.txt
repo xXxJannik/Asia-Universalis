@@ -83,3 +83,25 @@ province_event = {
 		}
 	}
 }
+
+country_event = {
+	id = ASU_china_events.4
+	title = "ASU_china_events.4.t"
+	desc = "ASU_china_events.4.d"
+	picture = REFORM_eventPicture
+	is_triggered_only = yes
+    major = yes  #Notification for everyone
+	option = {
+		name = "ASU_china_events.4.a"
+		add_stability = 1
+		add_prestige = 50
+		add_adm_power = 100
+		add_dip_power = 100
+		add_mil_power = 100
+		change_technology_group = ASU_reformed_asian_tech
+		change_unit_type = ASU_reformed_asian_tech
+        ai_chance = {            # the AI does not take the event without
+			factor = 100
+		}
+	}
+}
