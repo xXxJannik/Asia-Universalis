@@ -1,5 +1,7 @@
 ﻿l_english:
  
+ ASU_reformed_asian_tech:0 "Reformed Asian"
+
  #Adm
  adm_tech_cs_33_name: "Commercial railways"
  adm_tech_cs_33_desc: "The invention of the railway allowed us to bring goods and people across the country in a matter of hours."
