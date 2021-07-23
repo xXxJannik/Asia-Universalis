@@ -1,0 +1,22 @@
+government = republic
+add_government_reform = cossacks_reform
+technology_group = nomad_group
+religion = orthodox
+primary_culture = ruthenian
+capital = 1966
+
+add_accepted_culture = bashkir
+add_accepted_culture = khazak
+historical_friend = ZAZ
+historical_friend = DON
+
+
+1444.1.31 = {
+	monarch = {
+		name = "Vassyl"
+		birth_date = 1380.1.1 #Age - 24
+		adm = 4
+		dip = 2
+		mil = 4
+	}
+}

@@ -1,10 +1,11 @@
 # 2356 - Shymkent
 
-owner = TRS
-controller = TRS
+owner = KZH
+controller = KZH
+add_core = KZH
 add_core = TRS
 culture = uzbehk
-religion = sunni
+religion = orthodox
 capital = "Shymkent"
 trade_goods = tea
 hre = no

@@ -3,7 +3,7 @@
 owner = CHG
 controller = CHG
 add_core = CHG
-culture = uyghur
+culture = oirats
 religion = sunni
 capital = "Ili"
 trade_goods = grain

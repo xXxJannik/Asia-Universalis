@@ -1,10 +1,11 @@
 #1967 - Khujand
 
-owner = TRS
-controller = TRS
+owner = KOK
+controller = KOK
+add_core = KOK
 add_core = TRS
 culture = uzbehk
-religion = sunni
+religion = orthodox
 capital = "Khujand"
 trade_goods = silk
 hre = no

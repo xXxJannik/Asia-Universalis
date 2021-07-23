@@ -16,11 +16,42 @@ country_decisions = {
 			is_colonial_nation = no
 		}
 		provinces_to_highlight = {
-			
+			OR = {
+					province_id = 5975
+					province_id = 476		
+					province_id = 2420
+					province_id = 5992
+					province_id = 457
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
 		}
 		allow = {
 			is_at_war = no
 			is_free_or_tributary_trigger = yes
+			owns_core_province = 5975
+			owns_core_province = 476
+			owns_core_province = 2420
+			owns_core_province = 5992
+			owns_core_province = 457
+			NOT = { exists = KAZ }
+			NOT = { exists = BSH }
+			NOT = { exists = CRI }
+			NOT = { exists = PRM }
+			NOT = { exists = MOS }
+			NOT = { exists = KHI }
+			NOT = { exists = NOG }
+			NOT = { exists = SIB }
+			NOT = { exists = SHY }
+			NOT = { exists = KZH }
+			NOT = { exists = DON }
+			NOT = { exists = JAZ }
+			custom_trigger_tooltip = {
+				tooltip = ASU_form_hetmanate_decision.tooltip
+					always = yes
+			}
 		}
 		effect = {
 			change_tag = HET

@@ -14,3 +14,4 @@
  ASU_fire_grand_captain_event_desc:0 "This decision will trigger the event modifier from Grand captain. It can not be used twice and will disable the event itself. Trying to trigger it while having the event is going to delete your Grand captain."
  ASU_ZAZ_form_Hetmanate_title:0 "Form the Hetmanate"
  ASU_ZAZ_form_Hetmanate_desc:0 "The Hetmanate is a cossack state. Born in the steppes, these people do not care about hurting others, may it be by brute force or with words. "
+ ASU_form_hetmanate_decision.tooltip:0 "Is the master of the steppes."

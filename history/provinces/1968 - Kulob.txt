@@ -1,10 +1,11 @@
 #1968 - Kulob
 
-owner = TRS
-controller = TRS
+owner = KOK
+controller = KOK
+add_core = KOK
 add_core = TRS
 culture = uzbehk
-religion = sunni
+religion = orthodox
 capital = "Kulob"
 trade_goods = wool
 hre = no

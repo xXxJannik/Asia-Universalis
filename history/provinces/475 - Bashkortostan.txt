@@ -1,9 +1,11 @@
 #475 - Bashkortostan
 
-owner = KAZ
-controller = KAZ
+owner = ZAZ
+controller = ZAZ
+add_core = ZAZ
+add_core = BSH
 culture = bashkir
-religion = sunni
+religion = orthodox
 capital = "Bashkort"
 trade_goods = wool
 hre = no
@@ -11,8 +13,7 @@ base_tax = 3
 base_production = 3
 base_manpower = 3
 is_city = yes
-add_core = KAZ
-add_core = BSH
+
 
 
 

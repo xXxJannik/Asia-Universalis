@@ -1104,5 +1104,7 @@ SUI = countries/Sui.txt
 XIA = countries/Xia.txt
 CLN = countries/Lan.txt
 GTG = countries/Guangting.txt
-
+DON = countries/DonCossacks.txt
+JAZ = countries/Jaizk.txt
+ORS = countries/Ordas.txt
 

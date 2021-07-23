@@ -3,7 +3,7 @@
 owner = NOG
 controller = NOG
 culture = nogaybak
-religion = sunni
+religion = orthodox
 capital = "Ust Yurt"
 trade_goods = livestock
 hre = no

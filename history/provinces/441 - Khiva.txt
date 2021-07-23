@@ -3,8 +3,9 @@
 owner = TRS
 controller = TRS
 add_core = TRS
+add_core = KHI
 culture = uzbehk
-religion = sunni
+religion = orthodox
 capital = "Khiva"
 trade_goods = wool
 hre = no

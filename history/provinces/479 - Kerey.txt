@@ -2,6 +2,7 @@
 
 owner = SHY
 controller = SHY
+add_core = SHY
 culture = khazak
 religion = sunni
 capital = "Kerey"
@@ -11,8 +12,7 @@ base_tax = 2
 base_production = 2
 base_manpower = 2
 is_city = yes
-add_core = KZH
-add_core = SHY
+
 
 
 

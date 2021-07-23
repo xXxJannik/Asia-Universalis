@@ -1,0 +1,18 @@
+government = republic
+add_government_reform = cossacks_reform
+primary_culture = bashkir
+religion = sunni
+technology_group = nomad_group
+capital = 2444	# Bashkortostan
+religious_school = hanafi_school
+
+1444.1.31 = {
+	monarch = {
+		name = "Ishim"
+		dynasty = "Vylka"
+		birth_date = 1420.1.1 #Age - 24
+		adm = 2
+		dip = 0
+		mil = 3
+	}
+}

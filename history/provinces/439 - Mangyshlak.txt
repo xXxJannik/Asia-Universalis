@@ -3,7 +3,7 @@
 owner = NOG
 controller = NOG
 culture = nogaybak
-religion = sunni
+religion = orthodox
 capital = "Mangyshlak"
 trade_goods = fish
 hre = no

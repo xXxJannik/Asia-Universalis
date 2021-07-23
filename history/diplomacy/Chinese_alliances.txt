@@ -60,27 +60,5 @@ vassal = {
 	end_date = 1776.1.1
 }
 
-#Chagatai Subject
-vassal = {
-	first = CHG
-	second = KAS
-	start_date = 1444.1.1
-	end_date = 1462.1.1
-}
 
-#ASU changes
-#Korean subject
 
-vassal = {
-	first = KOR
-	second = WEI
-	start_date = 1444.1.1
-	end_date = 1821.1.1
-}
-
-alliance = {
-	first = KHA
-	second = YUA
-	start_date = 1444.1.1
-	end_date = 1500.1.1
-}

@@ -1,9 +1,11 @@
 # 2352 - Alty-Kuduk
 
-owner = SHY
-controller = SHY
+owner = DON
+controller = DON
+add_core = KZH
+add_core = DON
 culture = khazak
-religion = sunni
+religion = orthodox
 capital = "Alty-Kuduk"
 trade_goods = fish
 hre = no
@@ -11,8 +13,7 @@ base_tax = 3
 base_production = 3
 base_manpower = 3
 is_city = yes
-add_core = KZH
-add_core = SHY
+
 
 
 

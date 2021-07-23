@@ -1,0 +1,26 @@
+#ASU changes
+#Korean subject
+
+vassal = {
+	first = KOR
+	second = WEI
+	start_date = 1444.1.1
+	end_date = 1821.1.1
+}
+
+#Mongol alliance
+alliance = {
+	first = KHA
+	second = YUA
+	start_date = 1444.1.1
+	end_date = 1500.1.1
+}
+
+#Zaporzhie subject
+
+vassal = {
+	first = ZAZ
+	second = JAZ
+	start_date = 1444.1.1
+	end_date = 1821.1.1
+}

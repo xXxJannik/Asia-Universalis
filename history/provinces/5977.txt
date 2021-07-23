@@ -1,8 +1,8 @@
-owner = NOG
-controller = NOG
-add_core = NOG
+owner = DON
+controller = DON
+add_core = DON
 culture = nogaybak
-religion = sunni
+religion = orthodox
 trade_goods = fish
 hre = no
 base_tax = 1

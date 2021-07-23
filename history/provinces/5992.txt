@@ -1,6 +1,6 @@
-owner = SHY
-controller = SHY
-add_core = SHY
+owner = BSH
+controller = BSH
+add_core = BSH
 culture = siberian
 religion = sunni
 trade_goods = fur

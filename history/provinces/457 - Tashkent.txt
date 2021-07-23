@@ -1,10 +1,11 @@
 #457 - Tashkent
 
-owner = TRS
-controller = TRS
+owner = KZH
+controller = KZH
+add_core = KZH
 add_core = TRS
 culture = uzbehk
-religion = sunni
+religion = orthodox
 capital = "Tashkent"
 trade_goods = tea
 hre = no

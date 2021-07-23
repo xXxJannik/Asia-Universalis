@@ -1,8 +1,8 @@
-owner = SHY
-controller = SHY
-add_core = SHY
+owner = JAZ
+controller = JAZ
+add_core = JAZ
 culture = khazak
-religion = sunni
+religion = orthodox
 trade_goods = iron
 hre = no
 base_tax = 1

@@ -1,6 +1,6 @@
-owner = SHY
-controller = SHY
-add_core = SHY
+owner = KZH
+controller = KZH
+add_core = KZH
 add_core = TRS
 culture = khazak
 religion = sunni
