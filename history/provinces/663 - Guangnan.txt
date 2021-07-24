@@ -1,8 +1,8 @@
 #663 - Wenshan
 
-owner = CDL
-controller = CDL
-add_core = CDL
+owner = XXJ
+controller = XXJ
+add_core = XXJ
 culture = bai
 religion = buddhism
 capital = "Guangnan"

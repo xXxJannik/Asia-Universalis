@@ -1,8 +1,8 @@
 #666 - Hainan
 
-owner = YUE
-controller = YUE
-add_core = YUE
+owner = XXR
+controller = XXR
+add_core = XXR
 culture = chimin
 religion = confucianism
 capital = "Kingchow"

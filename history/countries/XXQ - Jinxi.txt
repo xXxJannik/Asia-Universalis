@@ -1,0 +1,6 @@
+government = republic
+add_government_reform = chinese_city_reform
+technology_group = chinese
+religion = confucianism
+primary_culture = gan
+capital = 5245

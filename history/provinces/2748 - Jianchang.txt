@@ -1,8 +1,8 @@
 #2406 - Jianchang
 
-owner = CDL
-controller = CDL
-add_core = CDL
+owner = XXK
+controller = XXK
+add_core = XXK
 culture = yi
 religion = buddhism
 capital = "Jianchang"

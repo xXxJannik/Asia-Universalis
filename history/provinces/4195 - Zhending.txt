@@ -1,8 +1,8 @@
 #4195 - Zhending
 
-owner = YAN
-controller = YAN
-add_core = YAN
+owner = XXN
+controller = XXN
+add_core = XXN
 culture = chihan
 religion = confucianism
 capital = "Zhending"

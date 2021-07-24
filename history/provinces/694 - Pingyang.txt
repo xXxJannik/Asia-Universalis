@@ -1,8 +1,8 @@
 #694 - Luzhou
 
-owner = JIN
-controller = JIN
-add_core = JIN
+owner = XXG
+controller = XXG
+add_core = XXG
 culture = jin
 religion = confucianism
 capital = "Pingyang"

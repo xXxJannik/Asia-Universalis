@@ -1,6 +1,6 @@
-owner = CHC
-controller = CHC
-add_core = CHC
+owner = XXE
+controller = XXE
+add_core = XXE
 culture = xiang
 religion = confucianism
 trade_goods = grain

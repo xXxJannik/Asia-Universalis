@@ -1,6 +1,6 @@
-owner = MNG
-controller = MNG
-add_core = MNG
+owner = XXO
+controller = XXO
+add_core = XXO
 culture = chihan
 religion = confucianism
 trade_goods = tea

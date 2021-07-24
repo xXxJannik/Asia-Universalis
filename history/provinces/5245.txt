@@ -1,6 +1,6 @@
-owner = NNG
-controller = NNG
-add_core = NNG
+owner = XXQ
+controller = XXQ
+add_core = XXQ
 culture = gan
 religion = confucianism
 trade_goods = naval_supplies

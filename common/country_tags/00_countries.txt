@@ -1107,5 +1107,24 @@ GTG = countries/Guangting.txt
 DON = countries/DonCossacks.txt
 JAZ = countries/Jaizk.txt
 ORS = countries/Ordas.txt
+
+#Chinese tags
 XXA = countries/Wuhan.txt
+XXB = countries/Chongqing.txt
+XXC = countries/Nanning.txt
+XXD = countries/Changsha.txt
+XXE = countries/Enshi.txt
+XXF = countries/Feng.txt
+XXG = countries/Pingyang.txt
+XXH = countries/Yulin.txt
+XXI = countries/Ningwu.txt
+XXJ = countries/Shangtun.txt
+XXK = countries/Liangshan.txt
+XXL = countries/Zunyi.txt
+XXM = countries/Fuzhou.txt
+XXN = countries/Shuozhou.txt
+XXO = countries/Caofeidian.txt
+XXP = countries/Nanchang.txt
+XXQ = countries/Jinxi.txt
+XXR = countries/Fuzhaicun.txt
 
