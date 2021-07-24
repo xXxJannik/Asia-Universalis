@@ -1107,4 +1107,5 @@ GTG = countries/Guangting.txt
 DON = countries/DonCossacks.txt
 JAZ = countries/Jaizk.txt
 ORS = countries/Ordas.txt
+XXA = countries/Wuhan.txt
 
