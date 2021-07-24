@@ -1,8 +1,8 @@
 # 2173 - Yuanling
 
-owner = CMI
-controller = CMI
-add_core = CMI
+owner = XYS
+controller = XYS
+add_core = XYS
 culture = miao
 religion = confucianism
 capital = "Yuanling"

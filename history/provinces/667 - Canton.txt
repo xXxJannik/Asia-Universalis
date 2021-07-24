@@ -1,8 +1,8 @@
 #667 - Guangzhou
 
-owner = YUE
-controller = YUE
-add_core = YUE
+owner = XYQ
+controller = XYQ
+add_core = XYQ
 culture = cantonese
 religion = confucianism
 capital = "Canton"

@@ -1,6 +1,6 @@
-owner = MIN
-controller = MIN
-add_core = MIN
+owner = XZN
+controller = XZN
+add_core = XZN
 culture = chimin
 religion = confucianism
 trade_goods = grain

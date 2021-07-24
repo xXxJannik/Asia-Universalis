@@ -1,8 +1,8 @@
 # 2148 - Shaoxin
 
-owner = WUU
-controller = WUU
-add_core = WUU
+owner = YAE
+controller = YAE
+add_core = YAE
 culture = wu
 religion = confucianism
 capital = "Shaoxin"

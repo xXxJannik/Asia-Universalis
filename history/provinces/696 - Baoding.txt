@@ -1,8 +1,8 @@
 #696 - Baoding
 
-owner = YAN
-controller = YAN
-add_core = YAN
+owner = YCG
+controller = YCG
+add_core = YCG
 culture = chihan
 religion = confucianism
 capital = "Baoding"

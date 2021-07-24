@@ -1,6 +1,6 @@
-owner = QIC
-controller = QIC
-add_core = QIC
+owner = YCE
+controller = YCE
+add_core = YCE
 culture = shandong_culture
 religion = confucianism
 trade_goods = livestock

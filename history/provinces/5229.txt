@@ -1,6 +1,6 @@
-owner = WUU
-controller = WUU
-add_core = WUU
+owner = YAD
+controller = YAD
+add_core = YAD
 culture = wu
 religion = confucianism
 trade_goods = chinaware

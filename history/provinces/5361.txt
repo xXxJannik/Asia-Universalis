@@ -1,7 +1,7 @@
 
-owner = LNG
-controller = LNG
-add_core = LNG
+owner = YAZ
+controller = YAZ
+add_core = YAZ
 culture = zhongyuan
 religion = confucianism
 trade_goods = glass

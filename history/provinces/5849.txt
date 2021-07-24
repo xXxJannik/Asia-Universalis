@@ -1,7 +1,7 @@
 
-owner = CSH
-controller = CSH
-add_core = CSH
+owner = YBP
+controller = YBP
+add_core = YBP
 culture = xibei
 religion = vajrayana
 trade_goods = livestock

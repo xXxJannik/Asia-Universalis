@@ -1,7 +1,7 @@
 
-owner = TNG
-controller = TNG
-add_core = TNG
+owner = YBY
+controller = YBY
+add_core = YBY
 culture = zhongyuan
 religion = confucianism
 trade_goods = cloth

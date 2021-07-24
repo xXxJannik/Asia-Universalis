@@ -1,7 +1,7 @@
 
-owner = CHC
-controller = CHC
-add_core = CHC
+owner = YBE
+controller = YBE
+add_core = YBE
 culture = hubei
 religion = confucianism
 trade_goods = silk

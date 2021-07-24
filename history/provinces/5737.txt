@@ -1,7 +1,7 @@
 
-owner = TNG
-controller = TNG
-add_core = TNG
+owner = YBA
+controller = YBA
+add_core = YBA
 culture = zhongyuan
 religion = confucianism
 trade_goods = glass

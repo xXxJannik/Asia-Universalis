@@ -1,8 +1,8 @@
 # 2159 - Leichow
 
-owner = YUE
-controller = YUE
-add_core = YUE
+owner = XYM
+controller = XYM
+add_core = XYM
 culture = chimin
 religion = confucianism
 capital = "Leichow"
