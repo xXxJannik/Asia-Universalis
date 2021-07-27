@@ -1,8 +1,8 @@
 # 2160 - Ngaichow
 
-owner = YUE
-controller = YUE
-add_core = YUE
+owner = XYN
+controller = XYN
+add_core = XYN
 culture = chimin
 religion = confucianism
 capital = "Ngaichow"

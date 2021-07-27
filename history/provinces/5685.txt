@@ -1,7 +1,7 @@
 
-owner = CYI
-controller = CYI
-add_core = CYI
+owner = XXZ
+controller = XXZ
+add_core = XXZ
 culture = yi
 religion = confucianism
 trade_goods = cloth

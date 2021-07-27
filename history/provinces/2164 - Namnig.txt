@@ -1,8 +1,8 @@
 # 2164 - Namning
 
-owner = CGS
-controller = CGS
-add_core = CGS
+owner = XYJ
+controller = XYJ
+add_core = XYJ
 culture = zhuang
 religion = confucianism
 capital = "Namning"

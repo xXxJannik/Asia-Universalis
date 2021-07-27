@@ -1,7 +1,7 @@
 
-owner = CSH
-controller = CSH
-add_core = CSH
+owner = YBM
+controller = YBM
+add_core = YBM
 culture = xibei
 religion = confucianism
 trade_goods = salt

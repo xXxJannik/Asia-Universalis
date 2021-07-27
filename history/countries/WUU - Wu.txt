@@ -4,7 +4,7 @@ government_rank = 1
 technology_group = chinese
 religion = confucianism
 primary_culture = wu
-capital = 684	#Hangzhou
+capital = 5195
 
 1444.1.31 = {
 	monarch = {

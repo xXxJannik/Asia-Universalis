@@ -11858,3 +11858,11 @@ ASU_estate_janissaries_militarisation_2 = {
 	infantry_power = 0.1
 	infantry_shock = 0.1
 }
+
+ASU_chengdu_valley = {
+	trade_goods_size = 2
+}
+
+ASU_macau_modifier = {
+	province_trade_power_value = 25
+}

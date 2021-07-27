@@ -1,7 +1,7 @@
 
-owner = CDL
-controller = CDL
-add_core = CDL
+owner = XXX
+controller = XXX
+add_core = XXX
 culture = bai
 religion = buddhism
 trade_goods = glass

@@ -1,7 +1,7 @@
 
-owner = MIN
-controller = MIN
-add_core = MIN
+owner = XZI
+controller = XZI
+add_core = XZI
 culture = hakka
 religion = confucianism
 trade_goods = dyes

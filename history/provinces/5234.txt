@@ -1,6 +1,6 @@
-owner = CHC
-controller = CHC
-add_core = CHC
+owner = YAD
+controller = YAD
+add_core = YAD
 culture = wu
 religion = confucianism
 trade_goods = cotton

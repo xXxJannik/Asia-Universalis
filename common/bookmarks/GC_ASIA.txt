@@ -6,16 +6,16 @@ bookmark =
 
 	center = 2133
 	
-	country = AYU
-	country = VIJ
-	country = MNG
-	country = YUE
-	country = MLC
-	country = TIM
-	country = ASK
-	country = BAH
+	country = ODA
 	country = KOR
-	country = YMN
-	country = BNG
+	country = MJZ
+	country = MNG
+	country = CSH
+	country = WUU
+	country = CYI
+	country = YUE
+	country = XTS
+	country = FRS
+	country = ZAZ
 	
 }

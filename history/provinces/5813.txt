@@ -1,7 +1,7 @@
 
-owner = CSH
-controller = CSH
-add_core = CSH
+owner = YBO
+controller = YBO
+add_core = YBO
 culture = xibei
 religion = confucianism
 trade_goods = cloth

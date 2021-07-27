@@ -10,3 +10,7 @@
  ASU_estate_janissaries_discipline:0 "Janissary discipline"
  ASU_estate_janissaries_militarisation:0 "Experimental fire weapons"
  ASU_estate_janissaries_militarisation_2:0 "Experimental shock weapons"
+ ASU_chengdu_valley:0 "Chengdu valley"
+ desc_ASU_chengdu_valley:0 "The Chengdu valley is very fertile."
+ ASU_macau_modifier:0 "World Port of Macau"
+ desc_ASU_macau_modifier:0 "The World Port of Macau is a hub for various merchants from across the world."

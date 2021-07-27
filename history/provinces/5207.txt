@@ -1,6 +1,6 @@
-owner = WUU
-controller = WUU
-add_core = WUU
+owner = YAF
+controller = YAF
+add_core = YAF
 culture = wu
 religion = confucianism
 trade_goods = naval_supplies

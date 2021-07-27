@@ -1,6 +1,6 @@
-owner = LNG
-controller = LNG
-add_core = LNG
+owner = YAL
+controller = YAL
+add_core = YAL
 culture = jianghuai
 religion = confucianism
 trade_goods = naval_supplies

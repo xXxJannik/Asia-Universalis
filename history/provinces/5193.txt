@@ -1,6 +1,6 @@
-owner = WUU
-controller = WUU
-add_core = WUU
+owner = YAJ
+controller = YAJ
+add_core = YAJ
 culture = wu
 religion = confucianism
 trade_goods = tea

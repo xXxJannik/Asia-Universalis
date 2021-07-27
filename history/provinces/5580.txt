@@ -1,7 +1,7 @@
 
-owner = YUE
-controller = YUE
-add_core = YUE
+owner = XYK
+controller = XYK
+add_core = XYK
 culture = cantonese
 religion = confucianism
 trade_goods = silk

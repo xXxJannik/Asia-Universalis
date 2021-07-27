@@ -1,7 +1,7 @@
 
-owner = CDL
-controller = CDL
-add_core = CDL
+owner = XXV
+controller = XXV
+add_core = XXV
 culture = bai
 religion = buddhism
 trade_goods = iron

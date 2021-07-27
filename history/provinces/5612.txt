@@ -1,7 +1,7 @@
 
-owner = CGS
-controller = CGS
-add_core = CGS
+owner = XYE
+controller = XYE
+add_core = XYE
 culture = zhuang
 religion = confucianism
 trade_goods = grain

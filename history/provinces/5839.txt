@@ -1,7 +1,6 @@
-
-owner = CSH
-controller = CSH
-add_core = CSH
+owner = YBR
+controller = YBR
+add_core = YBR
 culture = xibei
 religion = confucianism
 trade_goods = paper

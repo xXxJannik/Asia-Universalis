@@ -1,8 +1,8 @@
 # 2167 - Lijiang
 
-owner = CDL
-controller = CDL
-add_core = CDL
+owner = XXS
+controller = XXS
+add_core = XXS
 culture = bai
 religion = buddhism
 capital = "Lijiang"
