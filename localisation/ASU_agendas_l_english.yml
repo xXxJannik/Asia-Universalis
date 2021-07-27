@@ -13,3 +13,13 @@
 
  estate_banners_have_generals:0 "recruit generals"
  estate_banners_have_generals_desc:0 "Our country needs more and better generals."
+
+ #Janissary agendas
+ estate_janissaries_start_war:0 "start a war"
+ estate_janissaries_start_war_desc:0 "They were drilled to fight a war."
+
+ estate_janissaries_develop_x:0 "develop heathen province"
+ estate_janissaries_develop_x_desc:0 "The Janissaries demand a little support for their people."
+
+ estate_janissaries_build_up:0 "build an army"
+ estate_janissaries_build_up_desc:0 "The Janissaries perform the best whenever they are in a supportive position."

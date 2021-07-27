@@ -38,6 +38,9 @@ estate_ASU_janissaries = {
 	}
 
 	agendas = {
+		estate_janissaries_start_war
+		estate_janissaries_develop_x
+		estate_janissaries_build_up
 	}
 
 	color = { 255 0 0 }
