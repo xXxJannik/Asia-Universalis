@@ -60,6 +60,11 @@ country_decisions = {
                     is_emperor_of_china = yes
                 }
             }
+			ROOT = {
+				NOT = {
+					is_emperor_of_china = yes
+				}
+			}
             capital_scope = { 
                 OR = {
                     region = north_china_region
