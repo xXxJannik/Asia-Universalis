@@ -10,3 +10,6 @@
 
  estate_banners_build_up:0 "build an army"
  estate_banners_build_up_desc:0 "We should increase the size of our regular army and in doing so reduce the influence of the Banners."
+
+ estate_banners_have_generals:0 "recruit generals"
+ estate_banners_have_generals_desc:0 "Our country needs more and better generals."

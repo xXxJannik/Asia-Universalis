@@ -45,6 +45,7 @@ estate_ASU_banners = {
 	agendas = {
 		estate_banners_start_war
 		estate_banners_build_up
+		estate_banners_have_generals
 	}
 
 	color = { 255 0 220 }
