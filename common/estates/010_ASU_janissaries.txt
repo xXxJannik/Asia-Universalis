@@ -14,7 +14,7 @@ estate_ASU_janissaries = {
 		global_manpower_modifier = 0.1
 	}	
 	country_modifier_angry = {
-		global_unrest = -2
+		global_unrest = 2
 		global_manpower_modifier = -0.2
 		tolerance_heathen = -4
 	}

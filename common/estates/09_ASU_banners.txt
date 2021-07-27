@@ -14,13 +14,13 @@ estate_ASU_banners = {
 
 	# These scale with loyalty & power
 	country_modifier_happy = {
-		global_manpower_modifier = 0.1
+		global_manpower_modifier = 0.2
 	}
 	country_modifier_neutral = {
-		global_manpower_modifier = 0.05
+		global_manpower_modifier = 0.1
 	}	
 	country_modifier_angry = {
-		global_unrest = -2
+		global_unrest = 2
 	}
 	land_ownership_modifier = {
 		ASU_banners_loyalty_modifier = 0.2
@@ -36,6 +36,10 @@ estate_ASU_banners = {
 
 	privileges = {
 		estate_banners_allow_banners
+		estate_banners_allow_banners_2
+		estate_banners_allow_banners_3
+		estate_banners_control_over_army
+		estate_banners_infantry_tactics
 	}
 
 	agendas = {

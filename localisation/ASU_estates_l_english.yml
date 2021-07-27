@@ -43,11 +43,30 @@
  ASU_estate_tribal_production_modifier:0 "Increased Tribal taxes"
 
  #Banner
- estate_banners_allow_banners:0 "Recruit Banners"
+ estate_banners_allow_banners:0 "Recruit Banners I"
  estate_banners_allow_banners_desc:0 "Introduces a new system where our most loyal soldiers and generals will benefit."
  ASU_estate_allow_banners_tooltip:0 "Will allow the recruitment of Banners."
- ASU_estate_allow_banners_revoke_tooltip:0 "Will stop any Banner recruitment."
+ ASU_estate_allow_banners_revoke_tooltip:0 "Reduce our banner conscription."
 
+ estate_banners_allow_banners_2:0 "Recruit Banners II"
+ estate_banners_allow_banners_2_desc:0 "Introduces a new system where our most loyal soldiers and generals will benefit."
+ ASU_estate_allow_banners_2_tooltip:0 "Will allow the recruitment of Banners."
+ ASU_estate_allow_banners_2_revoke_tooltip:0 "Reduce our banner conscription."
+
+ estate_banners_allow_banners_3:0 "Recruit Banners III"
+ estate_banners_allow_banners_3_desc:0 "Introduces a new system where our most loyal soldiers and generals will benefit."
+ ASU_estate_allow_banners_3_tooltip:0 "Will allow the recruitment of more Banners."
+ ASU_estate_allow_banners_3_revoke_tooltip:0 "Reduce our banner conscription."
+
+ estate_banners_control_over_army:0 "Banner Officers"
+ estate_banners_control_over_army_desc:0 "A few selected veterans from our Banner army will be granted leadership as Officers in our regular army."
+ ASU_estate_banners_control_over_army_tooltip:0 "Officers from Banner regiments will take positions of leadership in our regular army."
+ ASU_estate_banners_control_over_army_revoke_tooltip:0 "Withdraw Banner Officers."
+
+ estate_banners_infantry_tactics:0 "Banner Tactics"
+ estate_banners_infantry_tactics_desc:0 "Our soldiers within use different but experimental tactics. Tactics that have been approved by our generals will be implemented into our regular army."
+ ASU_estate_banners_infantry_tactics_tooltip:0 "Implement approved new tactics."
+ ASU_estate_banners_infantry_tactics_revoke_tooltip:0 "Revoke the new tactics and revert to old and more approved tactics."
 
  #Janissaries
  estate_janissaries_extended_privileges_2:0 "Conscript foreigner"

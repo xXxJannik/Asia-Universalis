@@ -16,7 +16,7 @@ estate_ASU_tribes = {
 		global_manpower_modifier = 0.05
 	}	
 	country_modifier_angry = {
-		global_unrest = -2
+		global_unrest = 2
 	}
 	land_ownership_modifier = {
 		ASU_tribes_loyalty_modifier = 0.2
