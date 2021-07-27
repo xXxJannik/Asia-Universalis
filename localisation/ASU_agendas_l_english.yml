@@ -1,4 +1,12 @@
 ﻿l_english:
 
+ #Tribe agendas
  estate_tribal_develop_x:0 "support a Tribe"
  estate_tribal_develop_x_desc:0 "The Tribes demand support."
+
+ #Banner agendas
+ estate_banners_start_war:0 "start a war"
+ estate_banners_start_war_desc:0 "Our administration suffers during peace times as the corrupt Banners do their thing."
+
+ estate_banners_build_up:0 "build an army"
+ estate_banners_build_up_desc:0 "We should increase the size of our regular army and in doing so reduce the influence of the Banners."
