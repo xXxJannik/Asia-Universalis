@@ -19,7 +19,11 @@
  ASU_janissaries_loyalty_modifier:0 "Janissaries loyalty"
  ASU_janissaries_influence_modifier:0 "Janissaries influence"
 
+ ###########
  #Privileges
+ ###########
+
+ #Tribes
  estate_herding_rights:0 "Prime herding rights"
  estate_herding_rights_desc:0 "By granting herding rights we will secure our position."
  ASU_estate_herding_rights_tooltip:0 "Will grant -5% development cost on steppe provinces. Unlocks further privileges."
@@ -38,11 +42,14 @@
  ASU_estate_tribal_production_revoke_tooltip:0 "We will no longer demand extra taxes."
  ASU_estate_tribal_production_modifier:0 "Increased Tribal taxes"
 
+ #Banner
  estate_banners_allow_banners:0 "Recruit Banners"
  estate_banners_allow_banners_desc:0 "Introduces a new system where our most loyal soldiers and generals will benefit."
  ASU_estate_allow_banners_tooltip:0 "Will allow the recruitment of Banners."
  ASU_estate_allow_banners_revoke_tooltip:0 "Will stop any Banner recruitment."
 
+
+ #Janissaries
  estate_janissaries_extended_privileges_2:0 "Conscript foreigner"
  estate_janissaries_extended_privileges_2_desc:0 "We will pursue the conscription of our Subjects that choosed to believe in the wrong God."
  ASU_estate_janissaries_foreign_conscription_tooltip:0 "Every province with non muslim religion will gain 20% local manpower."

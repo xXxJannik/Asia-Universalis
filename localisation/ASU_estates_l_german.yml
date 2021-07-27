@@ -1,5 +1,6 @@
 ﻿l_german:
 
+ #Estates
  estate_ASU_tribes:0 "Stämme"
  estate_ASU_tribes_desc:0 "Dieser Stand,wenn man es so nennen möchte, wird vertreten von einigen wenigen Stammoberhäupten."
  estate_ASU_tribes_ownership:0 "Landanteil"
@@ -18,6 +19,11 @@
  ASU_janissaries_loyalty_modifier:0 "Janitscharen Loyalität"
  ASU_janissaries_influence_modifier:0 "Janitscharen Einfluss"
 
+ ###########
+ #Privileges
+ ###########
+
+ #Tribes
  estate_herding_rights:0 "Vorrecht auf Herdengebiet"
  estate_herding_rights_desc:0 "Indem wir Vorrechte auf Herdengebiete vergeben, werden unsere Untertanen diese Gebiete besiedeln."
  ASU_estate_herding_rights_tooltip:0 "Alle Steppenprovinzen werden -5% Entwicklungskosten kriegen. Schaltet weitere Privilegien frei."
@@ -36,6 +42,7 @@
  ASU_estate_tribal_production_revoke_tooltip:0 "Wir werden nicht weiter mehr Steuern verlangen."
  ASU_estate_tribal_production_modifier:0 "Erhöhte Stammessteuern"
 
+ #Banner
  estate_banners_allow_banners:0 "Rekrutiert Banner"
  estate_banners_allow_banners_desc:0 "Veranlasst ein neues System, in dem unsere loyalsten Männer profitieren."
  ASU_estate_allow_banners_tooltip:0 "Erlaubt es uns Banner zu rekrutieren."
