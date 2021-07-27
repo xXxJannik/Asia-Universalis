@@ -35,6 +35,7 @@ estate_ASU_janissaries = {
 		estate_janissaries_extended_privileges_3
 		estate_janissaries_extended_privileges_4
 		estate_janissaries_extended_privileges_5
+		estate_janissaries_extended_privileges_6
 	}
 
 	agendas = {

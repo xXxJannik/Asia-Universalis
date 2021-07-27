@@ -82,6 +82,9 @@
  estate_janissaries_extended_privileges_4:0 "Demand Discipline"
  estate_janissaries_extended_privileges_4_desc:0 "In return for their bribes they have to deliver a certain discipline. Afterall they are our subjects born to fight."
 
- estate_janissaries_extended_privileges_5:0 "New Infantry Weapons"
+ estate_janissaries_extended_privileges_5:0 "New fire Weapons"
  estate_janissaries_extended_privileges_5_desc:0 "The Janissaries will be supplied with the latest weapon technology and tactics."
+
+ estate_janissaries_extended_privileges_6:0 "New shock Weapons"
+ estate_janissaries_extended_privileges_6_desc:0 "The Janissaries will be supplied with the latest weapon technology and tactics."
  

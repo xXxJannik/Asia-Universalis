@@ -11849,6 +11849,12 @@ ASU_estate_janissaries_discipline = {
 
 ASU_estate_janissaries_militarisation = {
 	is_janissary_modifier = yes
-	infantry_power = 0.2
-	infantry_fire = 0.2
+	infantry_power = 0.1
+	infantry_fire = 0.1
+}
+
+ASU_estate_janissaries_militarisation_2 = {
+	is_janissary_modifier = yes
+	infantry_power = 0.1
+	infantry_shock = 0.1
 }

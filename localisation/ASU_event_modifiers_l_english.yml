@@ -8,4 +8,5 @@
  ASU_estate_janissaries_foreign_conscription:0 "Conscripted foreigners"
  ASU_estate_janissaries_invest_in_janissaries:0 "Janissary investment"
  ASU_estate_janissaries_discipline:0 "Janissary discipline"
- ASU_estate_janissaries_militarisation:0 "Experimental weapons"
+ ASU_estate_janissaries_militarisation:0 "Experimental fire weapons"
+ ASU_estate_janissaries_militarisation_2:0 "Experimental shock weapons"

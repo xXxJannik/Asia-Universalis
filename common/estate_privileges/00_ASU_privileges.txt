@@ -440,3 +440,32 @@ estate_janissaries_extended_privileges_5 = { #tier 5
         factor = 0                               
     }
 }
+
+estate_janissaries_extended_privileges_6 = { #tier 5
+	icon = privilege_promote_purbias
+	land_share = 0
+	max_absolutism = -5
+	loyalty = 0.05
+	influence = 0.10
+	is_valid = {
+		has_reform = ASU_persia_reform_5
+	}
+	on_granted = {
+		add_country_modifier = { 
+			name = ASU_estate_janissaries_militarisation_2
+			duration = -1
+			}
+		}
+	can_revoke = {
+		has_country_modifier = ASU_estate_janissaries_militarisation_2
+		}
+	on_revoked = {
+        remove_country_modifier = ASU_estate_janissaries_militarisation_2
+            }
+	on_invalid = {
+		remove_country_modifier = ASU_estate_janissaries_militarisation_2
+		}		
+	ai_will_do = {					
+        factor = 0                               
+    }
+}
