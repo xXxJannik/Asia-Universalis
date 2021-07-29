@@ -9,6 +9,7 @@ h_reform_warlord_1 = {
 
 		NOT = { tag = QNG}
 		NOT = { tag = MCH}
+		NOT = { tag = CAU}
 		NOT = { is_emperor_of_china = yes }
 		NOT = { has_reform = h_reform_warlord_2 }
 		NOT = { has_reform = h_reform_warlord_3 }
@@ -56,6 +57,7 @@ h_reform_warlord_2 = {
 		}
 		NOT = { tag = QNG}
 		NOT = { tag = MCH}
+		NOT = { tag = CAU}
 		NOT = { is_emperor_of_china = yes }
 		NOT = { has_reform = h_reform_warlord_1 }
 		NOT = { has_reform = h_reform_warlord_3 }
@@ -102,6 +104,7 @@ h_reform_warlord_3 = {
 		}
 		NOT = { tag = QNG}
 		NOT = { tag = MCH}
+		NOT = { tag = CAU}
 		NOT = { is_emperor_of_china = yes }
 		NOT = { has_reform = h_reform_warlord_2 }
 		NOT = { has_reform = h_reform_warlord_1 }
@@ -148,6 +151,7 @@ h_reform_warlord_4 = {
 		}
 		NOT = { tag = QNG}
 		NOT = { tag = MCH}
+		NOT = { tag = CAU}
 		NOT = { is_emperor_of_china = yes }
 		NOT = { has_reform = h_reform_warlord_2 }
 		NOT = { has_reform = h_reform_warlord_1 }
@@ -349,5 +353,32 @@ chinese_city_reform = {
 	}
 	ai = {
 		factor = 1000
+	}
+}
+
+#Australien
+reform_australia = {
+	icon = "chinese_palace"
+	allow_normal_conversion = yes
+	potential = {
+		tag = CAU
+	}
+	lock_level_when_selected = yes
+	fixed_rank = 2
+	modifiers = {
+		colonists = 1
+		global_colonial_growth = 20
+	}
+	
+	ai = {
+		factor = 1000
+	}
+
+	custom_attributes = {
+		locked_government_type = yes
+	}
+
+	conditional = {
+		
 	}
 }

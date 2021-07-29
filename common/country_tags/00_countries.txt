@@ -1107,6 +1107,7 @@ GTG = countries/Guangting.txt
 DON = countries/DonCossacks.txt
 JAZ = countries/Jaizk.txt
 ORS = countries/Ordas.txt
+CAU = countries/Aodaliya.txt
 
 #Chinese tags
 #City states

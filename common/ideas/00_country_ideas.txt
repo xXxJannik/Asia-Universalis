@@ -15374,8 +15374,7 @@ MSA_ideas = {
 		trade_efficiency = 0.15
 	}
 	msa_chart_the_seas = {
-		own_coast_naval_combat_bonus = 1
-		naval_morale = 0.15
+		global_sailors_modifier = 0.25
 	}
 	msa_in_every_port = {
 		merchants = 1

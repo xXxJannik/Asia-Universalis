@@ -97,3 +97,21 @@
  #Korea
  ASU_kor_NI7:0 "Legacy of Admiral Yi"
  ASU_kor_NI7_desc:0 "Admiral Yi is probably Korea's most famous and best Commander to this day. His legacy is one of greatness and invincibility as he won against all odds."
+
+ #Australia
+ CAU_ideas:0 "Aodaliyan ideas"
+ CAU_ideas_start:0 "Aodaliyan ideas"
+ ASU_cau_NI1:0 "Communal construction"
+ ASU_cau_NI1_desc:0 "Everyone has a helping hand."
+ ASU_cau_NI2:0 "Jewel hunters"
+ ASU_cau_NI2_desc:0 "Aodaliyan, also known as Australia, has very rich soil."
+ ASU_cau_NI3:0 "Naval heritage"
+ ASU_cau_NI3_desc:0 "The sea is a beast that we ought to conquer."
+ ASU_cau_NI4:0 "Coastal life"
+ ASU_cau_NI4_desc:0 "Due to the extreme weather in Australia, most of our population lives along the coast, making their living of fishing or trading."
+ ASU_cau_NI5:0 "Paradise fleet"
+ ASU_cau_NI5_desc:0 "The luxurious goods brought from Australia has earned the arriving trade fleets the name 'Paradise fleets'."
+ ASU_cau_NI6:0 "Chinese Trade"
+ ASU_cau_NI6_desc:0 "Our goods are very demanded in China. Australian gems are of finest quality, our gold used in various crowns."
+ ASU_cau_NI7:0 "Veteran sailors"
+ ASU_cau_NI7_desc:0 "The coast of Australia is sometimes very rough to sail on. The sailors of Australia are used to these conditions and perfected their ships."

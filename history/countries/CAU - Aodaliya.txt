@@ -1,0 +1,18 @@
+government = monarchy
+add_government_reform = reform_australia
+government_rank = 1
+technology_group = chinese
+religion = confucianism
+primary_culture = cantonese
+capital = 2730
+
+1444.1.31 = {
+	monarch = {
+		name = "Shao"
+		dynasty = "Yu Wu"
+		birth_date = 1400.1.1 #Age - 44
+		adm = 5
+		dip = 5
+		mil = 3
+	}
+}

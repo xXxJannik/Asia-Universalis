@@ -42,6 +42,11 @@
  CityStateRank:0 "City State"
  CityStateLeader:0 "President"
 
+ reform_australia:0 "Australian frontier"
+ AustraliaGovRank1:0 "Colonial Outpost"
+ AustraliaGovRank2:0 "Chinese Kingdom"
+ AustraliaGovRank3:0 "Chinese Empire"
+
  ASU_persia_reform_2:0 "Foreign conscription"
  ASU_persia_reform_2_desc:0 "By introducing foreigners into our army we can secure the safety of our own people. Although their loyaly will be never fully attained by us, our money will bribe them into pretending to."
  ASU_persia_reform_3:0 "Janissary bureaucracy"

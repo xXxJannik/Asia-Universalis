@@ -289,3 +289,47 @@ JAP_ideas = {
 		army_tradition_decay = -0.01
 	}
 }
+
+CAU_ideas = {
+	start = {
+		may_explore = yes
+		development_cost = -0.1
+	}
+	
+	bonus = {
+		ship_durability = 0.1
+	}
+	
+	trigger = {
+		tag = CAU
+	}
+	free = yes
+	
+	
+	ASU_cau_NI1 = {
+		build_cost = -0.1
+	}
+	ASU_cau_NI2 = {
+		global_tax_modifier = 0.25
+		production_efficiency = 0.2
+	}
+	ASU_cau_NI3 = {
+		global_ship_cost = -0.2
+		naval_forcelimit_modifier = 0.2
+	}
+	ASU_cau_NI4 = {
+		global_sailors_modifier = 0.25
+		allowed_marine_fraction = 0.1
+	}
+	ASU_cau_NI5 = {
+		global_trade_power = 0.2
+		ship_power_propagation = 0.2
+	}
+	ASU_cau_NI6 = {
+		trade_efficiency = 0.1
+		global_trade_goods_size_modifier = 0.1
+	}
+	ASU_cau_NI7 = {
+		galley_power = 0.25
+	}
+}

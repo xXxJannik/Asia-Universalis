@@ -187,3 +187,27 @@ gov_city_state = {
 		has_reform = chinese_city_reform
 	}
 }
+
+gov_australia = {
+	rank = {
+		1 = AustraliaGovRank1
+		2 = AustraliaGovRank2
+		3 = AustraliaGovRank3
+	}
+	
+	ruler_male = {
+		1 = H_WarlordTitle4
+		2 = H_WarlordTitle4
+		3 = H_WarlordTitle4
+	}
+	
+	ruler_female = {
+		1 = H_WarlordTitle4
+		2 = H_WarlordTitle4
+		3 = H_WarlordTitle4
+	}
+	
+	trigger = {
+		has_reform = reform_australia
+	}
+}

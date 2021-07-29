@@ -4,7 +4,7 @@ discovered_by = TID
 discovered_by = aboriginal_tech
 
 
-
+discovered_by = chinese
 
 1526.1.1 = { discovered_by = POR }
 
