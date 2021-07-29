@@ -643,6 +643,7 @@ technology = {
 	enable = steppe_uhlans
 	enable = ASU_reformed_asian_infantry_9
 	enable = ASU_reformed_asian_cavalry_6
+	enable = ASU_reformed_asian_cavalry_7
 }
 
 technology = {
