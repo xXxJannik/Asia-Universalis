@@ -1,6 +1,6 @@
-owner = NNG
-controller = NNG
-add_core = NNG
+owner = XZS
+controller = XZS
+add_core = XZS
 culture = gan
 religion = confucianism
 trade_goods = grain

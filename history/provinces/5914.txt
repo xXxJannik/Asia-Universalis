@@ -1,7 +1,7 @@
 
-owner = KAM
-controller = KAM
-add_core = KAM
+owner = XXZ
+controller = XXZ
+add_core = XXZ
 culture = tibetan
 religion = vajrayana
 trade_goods = livestock

@@ -1,7 +1,7 @@
 
-owner = JIN
-controller = JIN
-add_core = JIN
+owner = YBW
+controller = YBW
+add_core = YBW
 culture = jin
 religion = confucianism
 trade_goods = iron

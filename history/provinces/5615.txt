@@ -1,7 +1,7 @@
 
-owner = XYT
-controller = XYT
-add_core = XYT
+owner = XYU
+controller = XYU
+add_core = XYU
 culture = zhuang
 religion = confucianism
 trade_goods = silk

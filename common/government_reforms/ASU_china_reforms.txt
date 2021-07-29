@@ -308,6 +308,24 @@ chinese_city_reform = {
 			tag = WFG
 			tag = XIN
 			tag = SHG
+			tag = XXA 
+			tag = XXB
+			tag = XXC
+			tag = XXD
+			tag = XXE
+			tag = XXF
+			tag = XXG
+			tag = XXH
+			tag = XXI
+			tag = XXJ
+			tag = XXK
+			tag = XXL
+			tag = XXM
+			tag = XXN
+			tag = XXO
+			tag = XXP
+			tag = XXQ
+			tag = XXR
 		}
 	}
 	lock_level_when_selected = yes

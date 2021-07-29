@@ -1,7 +1,7 @@
 
-owner = CHC
-controller = CHC
-add_core = CHC
+owner = XZW
+controller = XZW
+add_core = XZW
 culture = xiang
 religion = confucianism
 trade_goods = cotton

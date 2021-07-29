@@ -1,7 +1,6 @@
-
-owner = CHC
-controller = CHC
-add_core = CHC
+owner = XZD
+controller = XZD
+add_core = XZD
 culture = xiang
 religion = confucianism
 trade_goods = salt

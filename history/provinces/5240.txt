@@ -1,6 +1,6 @@
-owner = NNG
-controller = NNG
-add_core = NNG
+owner = YAB
+controller = YAB
+add_core = YAB
 culture = gan
 religion = confucianism
 trade_goods = spices

@@ -1,7 +1,7 @@
 
-owner = JIN
-controller = JIN
-add_core = JIN
+owner = YBV
+controller = YBV
+add_core = YBV
 culture = jin
 religion = confucianism
 trade_goods = copper

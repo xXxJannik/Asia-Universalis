@@ -1,7 +1,7 @@
 
-owner = XXL
-controller = XXL
-add_core = XXL
+owner = XYA
+controller = XYA
+add_core = XYA
 culture = yi
 religion = confucianism
 trade_goods = tea

@@ -1,6 +1,6 @@
-owner = CXI
-controller = CXI
-add_core = CXI
+owner = XYZ
+controller = XYZ
+add_core = XYZ
 culture = sichuanese
 religion = confucianism
 capital = "Yichang"

@@ -1,7 +1,6 @@
-
-owner = LNG
-controller = LNG
-add_core = LNG
+owner = YCA
+controller = YCA
+add_core = YCA
 culture = zhongyuan
 religion = confucianism
 trade_goods = livestock

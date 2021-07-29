@@ -1,7 +1,7 @@
 
-owner = HUA
-controller = HUA
-add_core = HUA
+owner = XYO
+controller = XYO
+add_core = XYO
 culture = hakka
 religion = confucianism
 trade_goods = grain

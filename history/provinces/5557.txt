@@ -1,7 +1,7 @@
 
-owner = CXI
-controller = CXI
-add_core = CXI
+owner = XYW
+controller = XYW
+add_core = XYW
 culture = sichuanese
 religion = confucianism
 trade_goods = cloth

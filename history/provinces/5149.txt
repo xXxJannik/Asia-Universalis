@@ -1,6 +1,6 @@
-owner = YAN
-controller = YAN
-add_core = YAN
+owner = YCC
+controller = YCC
+add_core = YCC
 culture = chihan
 religion = confucianism
 trade_goods = naval_supplies

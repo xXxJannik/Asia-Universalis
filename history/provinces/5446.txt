@@ -1,7 +1,6 @@
-
-owner = CMI
-controller = CMI
-add_core = CMI
+owner = XYO
+controller = XYO
+add_core = XYO
 culture = miao
 religion = confucianism
 trade_goods = wine

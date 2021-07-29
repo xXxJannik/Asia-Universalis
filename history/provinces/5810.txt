@@ -1,7 +1,6 @@
-
-owner = JIN
-controller = JIN
-add_core = JIN
+owner = YBU
+controller = YBU
+add_core = YBU
 culture = jin
 religion = confucianism
 trade_goods = glass

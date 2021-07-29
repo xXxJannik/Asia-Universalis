@@ -1,7 +1,6 @@
-
-owner = QIN
-controller = QIN
-add_core = QIN
+owner = YBG
+controller = YBG
+add_core = YBG
 culture = xibei
 religion = confucianism
 trade_goods = copper

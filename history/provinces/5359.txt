@@ -1,7 +1,6 @@
-
-owner = LNG
-controller = LNG
-add_core = LNG
+owner = XZZ
+controller = XZZ
+add_core = XZZ
 culture = zhongyuan
 religion = confucianism
 trade_goods = spices

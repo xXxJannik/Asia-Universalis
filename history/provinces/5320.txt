@@ -1,7 +1,6 @@
-
-owner = MIN
-controller = MIN
-add_core = MIN
+owner = XZG
+controller = XZG
+add_core = XZG
 culture = hakka
 religion = confucianism
 trade_goods = grain

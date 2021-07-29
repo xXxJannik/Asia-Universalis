@@ -3,7 +3,7 @@ add_government_reform = h_reform_warlord_1
 primary_culture = hubei
 religion = confucianism
 technology_group = chinese
-capital = 5502	# Jingzhou
+capital = 5510
 
 1444.1.31 = {
 	monarch = {

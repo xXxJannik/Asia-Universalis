@@ -1,7 +1,6 @@
-
-owner = CGS
-controller = CGS
-add_core = CGS
+owner = XYS
+controller = XYS
+add_core = XYS
 culture = zhuang
 religion = confucianism
 trade_goods = wine
@@ -10,5 +9,6 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 is_city = yes
+
 discovered_by = chinese
 discovered_by = nomad_group

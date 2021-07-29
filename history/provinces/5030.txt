@@ -1,6 +1,6 @@
-owner = QIC
-controller = QIC
-add_core = QIC
+owner = TNG
+controller = TNG
+add_core = TNG
 culture = shandong_culture
 religion = confucianism
 trade_goods = grain

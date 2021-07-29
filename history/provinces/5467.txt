@@ -1,7 +1,6 @@
-
-owner = CHC
-controller = CHC
-add_core = CHC
+owner = XZX
+controller = XZX
+add_core = XZX
 culture = xiang
 religion = confucianism
 trade_goods = gems

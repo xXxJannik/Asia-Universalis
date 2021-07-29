@@ -1,7 +1,6 @@
-
-owner = HUA
-controller = HUA
-add_core = HUA
+owner = XZG
+controller = XZG
+add_core = XZGA
 culture = hakka
 religion = confucianism
 trade_goods = cloth

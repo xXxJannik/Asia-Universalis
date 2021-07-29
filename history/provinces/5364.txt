@@ -1,7 +1,6 @@
-
-owner = LNG
-controller = LNG
-add_core = LNG
+owner = YAX
+controller = YAX
+add_core = YAX
 culture = zhongyuan
 religion = confucianism
 trade_goods = livestock

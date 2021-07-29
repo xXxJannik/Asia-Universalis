@@ -1,6 +1,6 @@
-owner = CHC
-controller = CHC
-add_core = CHC
+owner = XZA
+controller = XZA
+add_core = XZA
 culture = xiang
 religion = confucianism
 trade_goods = wine

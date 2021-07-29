@@ -1,6 +1,6 @@
-owner = CHC
-controller = CHC
-add_core = CHC
+owner = XZA
+controller = XZA
+add_core = XZA
 culture = xiang
 religion = confucianism
 capital = "Wulin"
@@ -10,6 +10,7 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 is_city = yes
+
 discovered_by = chinese
 discovered_by = nomad_group
 

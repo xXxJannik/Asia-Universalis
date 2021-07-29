@@ -4,7 +4,7 @@ government_rank = 1
 technology_group = chinese
 religion = confucianism
 primary_culture = sichuanese
-capital = 679
+capital = 5718
 
 1444.1.31 = {
 	monarch = {
