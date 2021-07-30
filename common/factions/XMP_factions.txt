@@ -1,7 +1,7 @@
 XMP_blue_lake_mongols = {
 	monarch_power = mil
 	modifier = {
-		cavalry_power = 0.05
+		cavalry_power = 0.2
 		army_tradition_from_battle = 0.25
 		}
 	}
@@ -19,7 +19,7 @@ XMP_yellow_hats = { #Gelugpa
 XMP_red_hats = { #Nyingmapa, Sakyapa, Kagyupa
 	monarch_power = dip 
 	modifier = {
-		global_unrest = -1
+		global_unrest = -2
 		ae_impact = -0.1
 		improve_relation_modifier = 0.1
 		}
