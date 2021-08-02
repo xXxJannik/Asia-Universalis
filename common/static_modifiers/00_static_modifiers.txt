@@ -587,10 +587,10 @@ negative_stability = {
 positive_mandate = {	# 100% strength at 100 mandate, 0% at 50 mandate
 	global_unrest = -5.0
 	war_exhaustion = -0.05
-	land_morale = 0.2
-	global_tax_income = 240
-	advisor_cost = -0.25
-	all_power_cost = -0.10
+	land_morale = 0.10
+	global_tax_income = 120
+	advisor_cost = -0.20
+	all_power_cost = -0.05
 }
 
 negative_mandate = { # By default, starts at 50 mandate, 100% strength at 0 mandate
