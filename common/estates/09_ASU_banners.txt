@@ -3,7 +3,6 @@ estate_ASU_banners = {
 
 	# If true, country will get estate
 	trigger = {
-		has_dlc = "The Cossacks"
 		is_colonial_nation = no
 		OR = {
 			has_reform = h_reform_warlord_4 #Chinese Kingdom

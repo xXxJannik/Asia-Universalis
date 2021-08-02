@@ -5,7 +5,10 @@ estate_ASU_tribes = {
 	trigger = {
 		has_dlc = "The Cossacks"
 		is_colonial_nation = no
-        has_reform = reform_warlord_5 #Chinese Horde
+        OR = {
+			has_reform = reform_warlord_5 #Chinese Horde
+			has_reform = celestial_empire #Eoc 
+		}
 	}
 
 	# These scale with loyalty & power
