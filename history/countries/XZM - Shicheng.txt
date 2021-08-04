@@ -1,6 +1,6 @@
 government = monarchy
 add_government_reform = h_reform_warlord_1
-primary_culture = Gan
+primary_culture = gan
 religion = confucianism
 technology_group = chinese
 capital = 5331
