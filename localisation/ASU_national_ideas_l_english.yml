@@ -11,6 +11,7 @@
  #Hetmanate
  HET_ideas:0 "Hetmanate Ideas"
  HET_ideas_start:0 "Hetmanate Ideas"
+ HET_ideas_bonus:0 "Hetmanate Ambition"
  ASU_het_NI1:0 "Steppe born"
  ASU_het_NI1_desc:0 "These men were born in the steppes."
  ASU_het_NI2:0 "Excellent craftsmen"
@@ -45,6 +46,7 @@
  #Yue
  YUE_ideas:0 "Yue Ideas"
  YUE_ideas_start:0 "Yue Ideas"
+ YUE_ideas_bonus:0 "Yue Ambition"
  ASU_yue_NI1:0 "Intellectual trade"
  ASU_yue_NI1_desc:0 "As the protector of the great port of Macau new ideas and technology quickly spread to us."
  ASU_yue_NI2:0 "Anti piracy policy"
@@ -63,6 +65,7 @@
  #Wu
  WUU_ideas:0 "Wu ideas"
  WUU_ideas_start:0 "Wu ideas"
+ WUU_ideas_bonus:0 "Wu Ambition"
  ASU_WUU_NI1:0 "Mercenary tradition"
  ASU_WUU_NI1_desc:0 "Our wealth has always attracted all kinds of men."
  ASU_WUU_NI2:0 "Integrated mercenaries"
@@ -101,6 +104,7 @@
  #Australia
  CAU_ideas:0 "Aodaliyan ideas"
  CAU_ideas_start:0 "Aodaliyan ideas"
+ CAU_ideas_bonus:0 "Aodaliyan Ambition"
  ASU_cau_NI1:0 "Communal construction"
  ASU_cau_NI1_desc:0 "Everyone has a helping hand."
  ASU_cau_NI2:0 "Jewel hunters"
