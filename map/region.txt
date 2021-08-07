@@ -610,6 +610,16 @@ west_siberia_region = {
 		kara_area
 		aqmola_area
 		kypshak_area
+		oyek_area
+		tannu_area
+		teeli_area
+		bulakesi_area
+		koo_area
+		abasa_area
+		oyash_area
+		barnaul_area
+		inja_area
+		yustik_area
 	}
 }
 
@@ -650,6 +660,8 @@ mongolia_region = {
 		matad_area
 		govi_area
 		dundgovi_area
+		manas_area
+		altay_area
 	}
 }
 
