@@ -16,17 +16,18 @@ if = {
 	}
 	change_estate_land_share = {
 		estate = estate_burghers
-		share = 10
+		share = 20
 	}
 	change_estate_land_share = {
 		estate = estate_church
-		share = 10
+		share = 20
 	}
 	change_estate_land_share = {
 		estate = estate_nobles
 		share = -20
 	}
 }
+
 
 1368.1.1 = {
 	monarch = {
@@ -166,12 +167,7 @@ if = {
 	}
 }
 
-1444.11.10 = {
-	change_estate_land_share = {
-		estate = estate_nobles
-		share = 40
-	}
-}
+
 
 1449.11.23 = {
 	monarch = {
