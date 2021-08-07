@@ -14226,7 +14226,7 @@ OIR_ideas = {
 	trigger = {
 		OR = {
 			tag = OIR
-			tag = ZUN
+			tag = ORS
 		}
 	}
 	free = yes

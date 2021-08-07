@@ -382,3 +382,36 @@ reform_australia = {
 		
 	}
 }
+
+
+#Dzungar
+reform_dzungar = {
+	icon = "horde_riding"
+	allow_normal_conversion = yes
+	potential = {
+		tag = ZUN
+	}
+	nomad = yes
+	raze_province = yes	
+	lock_level_when_selected = yes
+	fixed_rank = 2
+	modifiers = {
+		global_manpower_modifier = 0.2
+		land_forcelimit_modifier = 0.2
+		loot_amount = 0.50
+		reinforce_cost_modifier = -0.5
+		cav_to_inf_ratio = 0.1
+		movement_speed = 0.2
+		years_of_nationalism = -5
+		colonists = 1
+		horde_unity = 2
+	}
+	
+	ai = {
+		factor = 1000
+	}
+
+	custom_attributes = {
+		locked_government_type = yes
+	}
+}

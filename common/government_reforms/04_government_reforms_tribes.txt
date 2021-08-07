@@ -298,6 +298,7 @@ horde_barbaric_despoilers_reform = {
 		OR = {
 			has_reform = steppe_horde
 			has_reform = great_mongol_state_reform
+			has_reform = reform_dzungar
 		}
 		has_dlc = "The Cossacks"
 	}
@@ -317,6 +318,7 @@ horde_tribal_unity_reform = {
 		OR = {
 			has_reform = steppe_horde
 			has_reform = great_mongol_state_reform
+			has_reform = reform_dzungar
 		}
 		has_dlc = "The Cossacks"
 	}
@@ -334,6 +336,9 @@ tribe_becomes_monarchy_reform = {
 	potential = {
 		NOT = { 
 			has_reform = stateless_society
+		}
+		NOT = { 
+			has_reform = reform_dzungar
 		}
 	}
 	effect = {
@@ -382,8 +387,19 @@ tribe_becomes_monarchy_reform = {
 tribe_becomes_republic_reform = {
 	icon = "parliament_highlighted"
 	allow_normal_conversion = yes
+		potential = {
+		NOT = { 
+			has_reform = stateless_society
+		}
+		NOT = { 
+			has_reform = reform_dzungar
+		}
+	}
 	trigger = {
 		NOT = { is_lesser_in_union = yes }
+		NOT = { 
+			has_reform = reform_dzungar
+		}
 	}
 	effect = {
 		set_country_flag = populists_in_government
@@ -456,6 +472,9 @@ tribe_becomes_theocracy_reform = {
 		NOT = { 
 			has_reform = stateless_society
 		}
+		NOT = { 
+			has_reform = reform_dzungar
+		}
 	}
 	trigger = {
 		NOT = { is_lesser_in_union = yes }
@@ -517,6 +536,9 @@ tribe_becomes_horde_reform = {
 	potential = {
 		NOT = { 
 			has_reform = stateless_society
+		}
+		NOT = { 
+			has_reform = reform_dzungar
 		}
 	}
 	effect = {

@@ -1,0 +1,81 @@
+country_decisions = {
+
+	ASU_ORS_form_dzungar= {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			was_never_end_game_tag_trigger = yes
+            is_colonial_nation = no
+			NOT = { has_country_flag = ASU_formed_dzungar }
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+            tag = ORS
+			NOT = { exists = ZUN }
+		}
+		provinces_to_highlight = {
+			OR = {
+					province_id = 6029
+					province_id = 2118		
+					province_id = 4684
+					province_id = 6040
+					province_id = 2119
+
+                    province_id = 6037
+					province_id = 2120		
+					province_id = 4208
+					province_id = 6038
+					province_id = 715
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+
+            owns_core_province = 6029
+            owns_core_province = 2118
+            owns_core_province = 4684
+            owns_core_province = 6040
+            owns_core_province = 2119
+
+            owns_core_province = 6037
+            owns_core_province = 2120
+            owns_core_province = 4208
+            owns_core_province = 6038
+            owns_core_province = 715
+		}
+		effect = {
+			change_tag = ZUN
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			if = {
+				limit = { NOT = { government_rank = 2 } }
+				set_government_rank = 2
+			}
+            if = {
+				limit = {
+					NOT = { government = tribal }
+					is_revolutionary = no
+				}
+				change_government_to_tribal = yes
+			}
+            add_government_reform = reform_dzungar
+			add_prestige = 25
+			set_country_flag = ASU_formed_dzungar
+			country_event = {
+				id = ideagroups.1
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		ai_importance = 400
+	}
+}

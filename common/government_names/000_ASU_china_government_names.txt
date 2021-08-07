@@ -211,3 +211,27 @@ gov_australia = {
 		has_reform = reform_australia
 	}
 }
+
+gov_dzungar = {
+	rank = {
+		1 = DzungarGovRank1
+		2 = DzungarGovRank2
+		3 = DzungarGovRank3
+	}
+	
+	ruler_male = {
+		1 = DzungarKing1
+		2 = DzungarKing2
+		3 = DzungarKing3
+	}
+	
+	ruler_female = {
+		1 = DzungarKing1
+		2 = DzungarKing2
+		3 = DzungarKing3
+	}
+	
+	trigger = {
+		has_reform = reform_dzungar
+	}
+}

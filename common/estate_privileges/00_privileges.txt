@@ -814,6 +814,7 @@ estate_nobles_nobility_primacy = {
 			tooltip = no_other_mil_privilege
 			NOT = { has_estate_privilege = estate_rajput_military }
 			NOT = { has_estate_privilege = estate_maratha_military }
+			NOT = { has_estate_privilege = estate_tribes_mil_power }
 		}
 	}
 	on_granted = {

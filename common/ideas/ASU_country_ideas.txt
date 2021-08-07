@@ -333,3 +333,51 @@ CAU_ideas = {
 		galley_power = 0.25
 	}
 }
+
+
+ZUN_ideas = {
+	start = {
+		development_cost = -0.1
+		cavalry_power = 0.33
+	}
+	
+	bonus = {
+		discipline = 0.05
+	}
+	
+	trigger = {
+		tag = ZUN
+	}
+	free = yes
+	
+	
+	ASU_ZUN_NI1 = { #Steppe life
+		cavalry_cost = -0.25
+		build_cost = -0.2
+	}
+	ASU_ZUN_NI2 = { #Self sufficiency
+		global_tax_modifier = 0.2
+		production_efficiency = 0.2
+	}
+	ASU_ZUN_NI3 = { #Yurt Wagon
+		prestige_from_land = 1
+		prestige = 1
+	}
+	ASU_ZUN_NI4 = { #Mongol heritage
+		global_unrest = -2
+		land_forcelimit_modifier = 0.25
+	}
+	ASU_ZUN_NI5 = { #Hunter and Herder
+		global_manpower_modifier = 0.25
+		manpower_recovery_speed = 0.2
+	}
+	ASU_ZUN_NI6 = { #Legacy of the Horse Archer
+		cavalry_fire = 1
+	}
+	ASU_ZUN_NI7 = { #Khan of Khans
+		monarch_military_power = 1
+		horde_unity = 1
+		legitimacy = 1
+		meritocracy = 1
+	}
+}

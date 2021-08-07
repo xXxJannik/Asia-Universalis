@@ -469,3 +469,31 @@ estate_janissaries_extended_privileges_6 = { #tier 5
         factor = 0                               
     }
 }
+
+
+#Tribal mil power
+
+estate_tribes_mil_power = {
+	icon = privilege_military_power
+	land_share = 10
+	max_absolutism = -5
+	loyalty = -0.05
+	can_select = {
+		custom_trigger_tooltip = {
+			tooltip = no_other_mil_privilege
+			NOT = { has_estate_privilege = estate_rajput_military }
+			NOT = { has_estate_privilege = estate_maratha_military }
+			NOT = { has_estate_privilege = estate_nobles_nobility_primacy }
+		}
+	}
+	on_granted = {
+	}
+	penalties = {
+	}
+	benefits = {
+		country_military_power = 1
+	}
+	ai_will_do = {
+		factor = 1000
+	}
+}

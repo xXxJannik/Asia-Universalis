@@ -43,9 +43,19 @@
  CityStateLeader:0 "President"
 
  reform_australia:0 "Australian frontier"
+ reform_australia_desc:0 "Paradise Island"
  AustraliaGovRank1:0 "Colonial Outpost"
  AustraliaGovRank2:0 "Chinese Kingdom"
  AustraliaGovRank3:0 "Chinese Empire"
+
+ reform_dzungar:0 "Dzungar Khanate"
+ reform_dzungar_desc:0 "The Dzungar Khanate is an Khanate of Oirat Mongol origin."
+ DzungarGovRank1:0 "Steppe Horde"
+ DzungarGovRank2:0 "Khanate"
+ DzungarGovRank3:0 "Great Khanate"
+ DzungarKing1:0 "Leader"
+ DzungarKing2:0 "Khan"
+ DzungarKing3:0 "Great Khan"
 
  ASU_persia_reform_2:0 "Foreign conscription"
  ASU_persia_reform_2_desc:0 "By introducing foreigners into our army we can secure the safety of our own people. Although their loyaly will be never fully attained by us, our money will bribe them into pretending to."
