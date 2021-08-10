@@ -11866,3 +11866,7 @@ ASU_chengdu_valley = {
 ASU_macau_modifier = {
 	province_trade_power_value = 25
 }
+
+ASU_estate_tibet_mountain_modifier = {
+	local_development_cost = -0.15
+}

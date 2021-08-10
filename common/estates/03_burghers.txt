@@ -255,6 +255,7 @@ estate_burghers =
 		estate_burghers_prussian_confederation
 		estate_burghers_statutory_rights
 		estate_burghers_orang_laut_alliances
+		estate_tibet_mountains #ASU
 	}
 
 	agendas = {

@@ -91,4 +91,9 @@
  #Tribal
  estate_tribes_mil_power:0 "Tribal Commanders"
  estate_tribes_mil_power_desc:0 "Every Tribal Chief has to provide a General."
+
+ #Tibet
+ estate_tibet_mountains:0 "Extreme condition living"
+ estate_tibet_mountains_desc:0 "The people of Tibet are both fortune and unfortunate to have their mountains.They have adopted a different life style."
+ ASU_estate_tibet_mountain_tooltip:0 "Grants -15% devcost on every owned mountain province."
  
