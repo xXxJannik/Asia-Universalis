@@ -52,7 +52,9 @@ estate_ASU_rajputs = {
 	}
 
 	agendas = {
-		
+		estate_ASU_rajputs_start_war
+		estate_ASU_rajputs_build_up
+		estate_ASU_rajputs_have_rajputs
 	}
 
 	color = { 255 255 0 }

@@ -23,3 +23,14 @@
 
  estate_janissaries_build_up:0 "build an army"
  estate_janissaries_build_up_desc:0 "The Janissaries perform the best whenever they are in a supportive position."
+
+ #Rajput Soldiers Agendas
+
+ estate_ASU_rajputs_start_war:0 "start a war"
+ estate_ASU_rajputs_start_war_desc:0 "Our Rajput Soldiers demand a war."
+
+ estate_ASU_rajputs_build_up:0 "build an army"
+ estate_ASU_rajputs_build_up_desc:0 "Our strength lies in numbers."
+
+ estate_ASU_rajputs_have_rajputs:0 "reinforce Rajput regiments"
+ estate_ASU_rajputs_have_rajputs_desc:0 "The Rajput Soldiers demand more regiments."
