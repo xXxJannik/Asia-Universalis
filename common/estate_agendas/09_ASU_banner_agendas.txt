@@ -9,10 +9,6 @@ estate_banners_start_war = {
         is_at_war = yes
     }
     task_completed_effect = {
-        add_estate_loyalty = {
-			estate = estate_ASU_banners
-			loyalty = 10
-		}
         add_corruption = -2
     }
     failing_effect = {
@@ -31,10 +27,6 @@ estate_banners_build_up = {
         army_size_percentage = 0.75
     }
     task_completed_effect = {
-        add_estate_loyalty = {
-			estate = estate_ASU_banners
-			loyalty = 10
-		}
         add_corruption = -2
     }
     failing_effect = {
