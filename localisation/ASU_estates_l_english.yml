@@ -85,7 +85,7 @@
  ASU_estate_banners_infantry_tactics_revoke_tooltip:0 "Revoke the new tactics and revert to old and more approved tactics."
 
  #Janissaries
- estate_janissaries_extended_privileges_2:0 "Conscript foreigner"
+ estate_janissaries_extended_privileges_2:0 "Conscript foreigners"
  estate_janissaries_extended_privileges_2_desc:0 "We will pursue the conscription of our Subjects that choosed to believe in the wrong God."
  ASU_estate_janissaries_foreign_conscription_tooltip:0 "Every province with non muslim religion will gain 20% local manpower."
  ASU_estate_janissaries_foreign_conscription_revoke_tooltip:0 "Every province with the 'Foreign Conscription' modifier will lose said modifier."

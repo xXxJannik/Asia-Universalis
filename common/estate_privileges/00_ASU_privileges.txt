@@ -324,7 +324,7 @@ estate_banners_infantry_tactics = {
 ##########################################################
 
 estate_janissaries_extended_privileges_2 = { #tier 2
-	icon = privilege_promote_purbias
+	icon = privilege_demand_more_troops
 	land_share = 10
 	max_absolutism = -5
 	loyalty = 0
@@ -380,7 +380,7 @@ estate_janissaries_extended_privileges_2 = { #tier 2
 }
 
 estate_janissaries_extended_privileges_3 = { #tier 3
-	icon = privilege_promote_purbias
+	icon = privilege_tolerance_heathen
 	land_share = 0
 	max_absolutism = -10
 	loyalty = 0.10
@@ -432,7 +432,7 @@ estate_janissaries_extended_privileges_3 = { #tier 3
 }
 
 estate_janissaries_extended_privileges_4 = { #tier 4
-	icon = privilege_promote_purbias
+	icon = privilege_supply_arms
 	land_share = 0
 	max_absolutism = -10
 	loyalty = 0.05
@@ -490,7 +490,7 @@ estate_janissaries_extended_privileges_5 = { #tier 5
 }
 
 estate_janissaries_extended_privileges_6 = { #tier 5
-	icon = privilege_promote_purbias
+	icon = privilege_spawn_rajput_regiments
 	land_share = 0
 	max_absolutism = -5
 	loyalty = 0.05
@@ -520,7 +520,7 @@ estate_janissaries_extended_privileges_6 = { #tier 5
 
 #Options
 estate_janissaries_extended_privileges_7 = { #tier 5
-	icon = privilege_promote_purbias
+	icon = privilege_exempt_officers_from_jaziya
 	land_share = 0
 	max_absolutism = -5
 	loyalty = 0.05
@@ -578,7 +578,7 @@ estate_janissaries_extended_privileges_8 = { #tier 5
 }
 
 estate_janissaries_extended_privileges_9 = { #tier 5
-	icon = privilege_promote_purbias
+	icon = privilege_make_generous_donation
 	land_share = 5
 	max_absolutism = -5
 	loyalty = 0.05
