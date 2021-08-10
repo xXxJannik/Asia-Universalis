@@ -11870,3 +11870,19 @@ ASU_macau_modifier = {
 ASU_estate_tibet_mountain_modifier = {
 	local_development_cost = -0.15
 }
+
+ASU_estate_janissaries_reinforce_speed = {
+	is_janissary_modifier = yes
+	reinforce_speed = 0.25
+}
+
+ASU_estate_janissaries_improved_fire = {
+	is_janissary_modifier = yes
+	fire_damage = 0.1
+	fire_damage_received = -0.1
+}
+
+ASU_estate_janissaries_improved_moral = {
+	is_janissary_modifier = yes
+	land_morale = 0.2
+}

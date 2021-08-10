@@ -88,6 +88,15 @@
  estate_janissaries_extended_privileges_6:0 "New shock Weapons"
  estate_janissaries_extended_privileges_6_desc:0 "The Janissaries will be supplied with the latest weapon technology and tactics."
 
+ estate_janissaries_extended_privileges_7:0 "Janissary reserve"
+ estate_janissaries_extended_privileges_7_desc:0 "We should have a strategic reserve in case of total defeat."
+
+ estate_janissaries_extended_privileges_8:0 "Enact new fire tactics"
+ estate_janissaries_extended_privileges_8_desc:0 "The Janissaries will from now on use special fire tactics."
+
+ estate_janissaries_extended_privileges_9:0 "New rights and privileges"
+ estate_janissaries_extended_privileges_9_desc:0 "We have agreed upon new benefits."
+
  #Tribal
  estate_tribes_mil_power:0 "Tribal Commanders"
  estate_tribes_mil_power_desc:0 "Every Tribal Chief has to provide a General."

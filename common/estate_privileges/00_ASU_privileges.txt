@@ -176,7 +176,7 @@ estate_tribal_production = {
 estate_banners_allow_banners = {
 	icon = privilege_promote_purbias
 	max_absolutism = -5
-	influence = 0.1
+	influence = 0.05
 	loyalty = 0.05
 	land_share = 5
 	is_valid = {
@@ -196,7 +196,7 @@ estate_banners_allow_banners = {
 estate_banners_allow_banners_2 = {
 	icon = privilege_promote_purbias
 	max_absolutism = -5
-	influence = 0.1
+	influence = 0.05
 	loyalty = 0.05
 	land_share = 5
 	is_valid = {
@@ -216,7 +216,7 @@ estate_banners_allow_banners_2 = {
 estate_banners_allow_banners_3 = {
 	icon = privilege_promote_purbias
 	max_absolutism = -5
-	influence = 0.1
+	influence = 0.05
 	loyalty = 0.05
 	land_share = 5
 	is_valid = {
@@ -236,7 +236,7 @@ estate_banners_allow_banners_3 = {
 estate_banners_control_over_army = {
 	icon = privilege_promote_purbias
 	max_absolutism = -5
-	influence = 0.1
+	influence = 0.05
 	loyalty = 0.05
 	is_valid = {
 		has_dlc = "Mandate of Heaven"
@@ -256,7 +256,7 @@ estate_banners_control_over_army = {
 estate_banners_infantry_tactics = {
 	icon = privilege_promote_purbias
 	max_absolutism = -5
-	influence = 0.1
+	influence = 0.05
 	loyalty = 0.05
 	is_valid = {
 		has_dlc = "Mandate of Heaven"
@@ -336,7 +336,7 @@ estate_janissaries_extended_privileges_3 = { #tier 3
 	land_share = 0
 	max_absolutism = -10
 	loyalty = 0.10
-	influence = 0.10
+	influence = 0.05
 	is_valid = {
 		has_reform = ASU_persia_reform_3
 	}
@@ -388,7 +388,7 @@ estate_janissaries_extended_privileges_4 = { #tier 4
 	land_share = 0
 	max_absolutism = -10
 	loyalty = 0.05
-	influence = 0.10
+	influence = 0.05
 	is_valid = {
 		has_reform = ASU_persia_reform_4
 	}
@@ -417,7 +417,7 @@ estate_janissaries_extended_privileges_5 = { #tier 5
 	land_share = 0
 	max_absolutism = -5
 	loyalty = 0.05
-	influence = 0.10
+	influence = 0.05
 	is_valid = {
 		has_reform = ASU_persia_reform_5
 	}
@@ -446,7 +446,7 @@ estate_janissaries_extended_privileges_6 = { #tier 5
 	land_share = 0
 	max_absolutism = -5
 	loyalty = 0.05
-	influence = 0.10
+	influence = 0.05
 	is_valid = {
 		has_reform = ASU_persia_reform_5
 	}
@@ -464,6 +464,94 @@ estate_janissaries_extended_privileges_6 = { #tier 5
             }
 	on_invalid = {
 		remove_country_modifier = ASU_estate_janissaries_militarisation_2
+		}		
+	ai_will_do = {					
+        factor = 0                               
+    }
+}
+
+#Options
+estate_janissaries_extended_privileges_7 = { #tier 5
+	icon = privilege_promote_purbias
+	land_share = 0
+	max_absolutism = -5
+	loyalty = 0.05
+	influence = 0.05
+	is_valid = {
+		has_reform = ASU_persia_reform_5
+	}
+	on_granted = {
+		add_country_modifier = { 
+			name = ASU_estate_janissaries_reinforce_speed
+			duration = -1
+			}
+		}
+	can_revoke = {
+		has_country_modifier = ASU_estate_janissaries_reinforce_speed
+		}
+	on_revoked = {
+        remove_country_modifier = ASU_estate_janissaries_reinforce_speed
+            }
+	on_invalid = {
+		remove_country_modifier = ASU_estate_janissaries_reinforce_speed
+		}		
+	ai_will_do = {					
+        factor = 0                               
+    }
+}
+
+estate_janissaries_extended_privileges_8 = { #tier 5
+	icon = privilege_promote_purbias
+	land_share = 0
+	max_absolutism = -5
+	loyalty = 0.05
+	influence = 0.05
+	is_valid = {
+		has_reform = ASU_persia_reform_5
+	}
+	on_granted = {
+		add_country_modifier = { 
+			name = ASU_estate_janissaries_improved_fire
+			duration = -1
+			}
+		}
+	can_revoke = {
+		has_country_modifier = ASU_estate_janissaries_improved_fire
+		}
+	on_revoked = {
+        remove_country_modifier = ASU_estate_janissaries_improved_fire
+            }
+	on_invalid = {
+		remove_country_modifier = ASU_estate_janissaries_improved_fire
+		}		
+	ai_will_do = {					
+        factor = 0                               
+    }
+}
+
+estate_janissaries_extended_privileges_9 = { #tier 5
+	icon = privilege_promote_purbias
+	land_share = 5
+	max_absolutism = -5
+	loyalty = 0.05
+	influence = 0.05
+	is_valid = {
+		has_reform = ASU_persia_reform_5
+	}
+	on_granted = {
+		add_country_modifier = { 
+			name = ASU_estate_janissaries_improved_moral
+			duration = -1
+			}
+		}
+	can_revoke = {
+		has_country_modifier = ASU_estate_janissaries_improved_moral
+		}
+	on_revoked = {
+        remove_country_modifier = ASU_estate_janissaries_improved_moral
+            }
+	on_invalid = {
+		remove_country_modifier = ASU_estate_janissaries_improved_moral
 		}		
 	ai_will_do = {					
         factor = 0                               

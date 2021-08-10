@@ -15,3 +15,6 @@
  ASU_macau_modifier:0 "World Port of Macau"
  desc_ASU_macau_modifier:0 "The World Port of Macau is a hub for various merchants from across the world."
  ASU_estate_tibet_mountain_modifier:0 "Extreme condition living"
+ ASU_estate_janissaries_reinforce_speed:0 "Fast replenishment"
+ ASU_estate_janissaries_improved_fire:0 "New fire weapons"
+ ASU_estate_janissaries_improved_moral:0 "New rights and benefits"
