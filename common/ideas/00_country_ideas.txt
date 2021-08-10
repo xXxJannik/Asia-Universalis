@@ -13167,7 +13167,7 @@ DLH_ideas = {
 
 BHA_ideas = {
 	start = {
-		stability_cost_modifier = -0.1
+		land_morale = 0.1
 		state_maintenance_modifier = -0.15
 	}
 	bonus = {
