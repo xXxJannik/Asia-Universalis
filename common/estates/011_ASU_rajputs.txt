@@ -18,7 +18,7 @@ estate_ASU_rajputs = {
 		global_manpower_modifier = -0.2
 	}
 	land_ownership_modifier = {
-		ASU_rajput_loyalty_modifier = 0.2
+		ASU_rajputs_loyalty_modifier = 0.2
 	}
 
 	province_independence_weight = {
