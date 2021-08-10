@@ -53,3 +53,21 @@ estate_ASU_janissaries = {
 		}
 	}
 }
+
+estate_ASU_rajputs = {
+	#Rajputs
+	modifier_definition = {
+		type = loyalty
+		key = ASU_rajputs_loyalty_modifier
+		trigger = {
+			has_estate = estate_ASU_rajputs
+		}
+	}
+	modifier_definition = {
+		type = influence
+		key = ASU_rajputs_influence_modifier
+		trigger = {
+			has_estate = estate_ASU_rajputs
+		}
+	}
+}

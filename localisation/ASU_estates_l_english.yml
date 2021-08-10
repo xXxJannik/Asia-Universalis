@@ -19,6 +19,12 @@
  ASU_janissaries_loyalty_modifier:0 "Janissaries loyalty"
  ASU_janissaries_influence_modifier:0 "Janissaries influence"
 
+ estate_ASU_rajputs:0 "Rajput Soldiers"
+ estate_ASU_rajputs_desc:0 "This estate represents the Rajput Soldiers. They are subordinates of the Rajputs."
+ estate_ASU_rajputs_ownership:0 "Landshare"
+ ASU_rajputs_loyalty_modifier:0 "Rajput Soldiers loyalty"
+ ASU_rajputs_influence_modifier:0 "Rajput Soldiers influence"
+
  ###########
  #Privileges
  ###########
