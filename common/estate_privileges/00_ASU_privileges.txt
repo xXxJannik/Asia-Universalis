@@ -652,3 +652,217 @@ estate_tibet_mountains = {
 		factor = 10
 	}
 }
+
+
+#Rajput Soldiers
+
+estate_ASU_rajputs_privileges_1 = {
+	icon = privilege_promote_purbias
+	land_share = 0
+	max_absolutism = -5
+	loyalty = 0.05
+	influence = 0.05
+	on_granted = {
+		add_country_modifier = { 
+			name = ASU_estate_rajputs_modifier_1
+			duration = -1
+			}
+		}
+	can_revoke = {
+		has_country_modifier = ASU_estate_rajputs_modifier_1
+	}
+	on_revoked = {
+        remove_country_modifier = ASU_estate_rajputs_modifier_1
+    }
+	on_invalid = {
+		remove_country_modifier = ASU_estate_rajputs_modifier_1
+	}		
+	mechanics = {
+		enables_rajput_regiments
+	}
+	ai_will_do = {					
+        factor = 0                               
+    }
+}
+
+estate_ASU_rajputs_privileges_2 = {
+	icon = privilege_promote_purbias
+	land_share = 0
+	max_absolutism = -5
+	loyalty = 0.05
+	influence = 0.05
+	on_granted = {
+		add_country_modifier = { 
+			name = ASU_estate_rajputs_modifier_2
+			duration = -1
+			}
+		}
+	can_revoke = {
+		has_country_modifier = ASU_estate_rajputs_modifier_2
+		}
+	on_revoked = {
+        remove_country_modifier = ASU_estate_rajputs_modifier_2
+            }
+	on_invalid = {
+		remove_country_modifier = ASU_estate_rajputs_modifier_2
+		}		
+	ai_will_do = {					
+        factor = 0                               
+    }
+}
+
+estate_ASU_rajputs_privileges_3 = {
+	icon = privilege_promote_purbias
+	land_share = 0
+	max_absolutism = -5
+	loyalty = 0.05
+	influence = 0.05
+	on_granted = {
+		add_country_modifier = { 
+			name = ASU_estate_rajputs_modifier_3
+			duration = -1
+			}
+		}
+	can_revoke = {
+		has_country_modifier = ASU_estate_rajputs_modifier_3
+		}
+	on_revoked = {
+        remove_country_modifier = ASU_estate_rajputs_modifier_3
+            }
+	on_invalid = {
+		remove_country_modifier = ASU_estate_rajputs_modifier_3
+		}		
+	ai_will_do = {					
+        factor = 0                               
+    }
+}
+
+estate_ASU_rajputs_privileges_4 = {
+	icon = privilege_promote_purbias
+	land_share = 0
+	max_absolutism = -5
+	loyalty = 0.05
+	influence = 0.05
+	on_granted = {
+		add_country_modifier = { 
+			name = ASU_estate_rajputs_modifier_4
+			duration = -1
+			}
+		}
+	can_revoke = {
+		has_country_modifier = ASU_estate_rajputs_modifier_4
+		}
+	on_revoked = {
+        remove_country_modifier = ASU_estate_rajputs_modifier_4
+            }
+	on_invalid = {
+		remove_country_modifier = ASU_estate_rajputs_modifier_4
+		}		
+	ai_will_do = {					
+        factor = 0                               
+    }
+}
+
+estate_ASU_rajputs_privileges_5 = {
+	icon = privilege_promote_purbias
+	land_share = 0
+	max_absolutism = -5
+	loyalty = 0.05
+	influence = 0.05
+	on_granted = {
+		add_country_modifier = { 
+			name = ASU_estate_rajputs_modifier_5
+			duration = -1
+			}
+		}
+	can_revoke = {
+		has_country_modifier = ASU_estate_rajputs_modifier_5
+		}
+	on_revoked = {
+        remove_country_modifier = ASU_estate_rajputs_modifier_5
+            }
+	on_invalid = {
+		remove_country_modifier = ASU_estate_rajputs_modifier_5
+		}		
+	ai_will_do = {					
+        factor = 0                               
+    }
+}
+
+estate_ASU_rajputs_privileges_6 = {
+	icon = privilege_promote_purbias
+	land_share = 0
+	max_absolutism = -5
+	loyalty = 0.05
+	influence = 0.05
+	on_granted = {
+		add_country_modifier = { 
+			name = ASU_estate_rajputs_modifier_6
+			duration = -1
+			}
+		}
+	can_revoke = {
+		has_country_modifier = ASU_estate_rajputs_modifier_6
+		}
+	on_revoked = {
+        remove_country_modifier = ASU_estate_rajputs_modifier_6
+            }
+	on_invalid = {
+		remove_country_modifier = ASU_estate_rajputs_modifier_6
+		}		
+	ai_will_do = {					
+        factor = 0                               
+    }
+}
+
+estate_ASU_rajputs_privileges_7 = {
+	icon = privilege_promote_purbias
+	land_share = 0
+	max_absolutism = -5
+	loyalty = 0.05
+	influence = 0.05
+	on_granted = {
+		add_country_modifier = { 
+			name = ASU_estate_rajputs_modifier_7
+			duration = -1
+			}
+		}
+	can_revoke = {
+		has_country_modifier = ASU_estate_rajputs_modifier_7
+		}
+	on_revoked = {
+        remove_country_modifier = ASU_estate_rajputs_modifier_7
+            }
+	on_invalid = {
+		remove_country_modifier = ASU_estate_rajputs_modifier_7
+		}		
+	ai_will_do = {					
+        factor = 0                               
+    }
+}
+
+estate_ASU_rajputs_privileges_8 = {
+	icon = privilege_promote_purbias
+	land_share = 0
+	max_absolutism = -5
+	loyalty = 0.05
+	influence = 0.05
+	on_granted = {
+		add_country_modifier = { 
+			name = ASU_estate_rajputs_modifier_8
+			duration = -1
+			}
+		}
+	can_revoke = {
+		has_country_modifier = ASU_estate_rajputs_modifier_8
+		}
+	on_revoked = {
+        remove_country_modifier = ASU_estate_rajputs_modifier_8
+            }
+	on_invalid = {
+		remove_country_modifier = ASU_estate_rajputs_modifier_8
+		}		
+	ai_will_do = {					
+        factor = 0                               
+    }
+}

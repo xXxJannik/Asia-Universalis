@@ -113,3 +113,27 @@
  
 
  #Rajput Soldiers
+
+ estate_ASU_rajputs_privileges_1:0 "Recruit more Rajputs"
+ estate_ASU_rajputs_privileges_1_desc:0 "We must force them into the military."
+
+ estate_ASU_rajputs_privileges_2:0 "Infantry specialists"
+ estate_ASU_rajputs_privileges_2_desc:0 "The Rajputs focus solely on infantry."
+
+ estate_ASU_rajputs_privileges_3:0 "Rajput Discipline"
+ estate_ASU_rajputs_privileges_3_desc:0 "With great discipline come great victories."
+
+ estate_ASU_rajputs_privileges_4:0 "Strategic reserve"
+ estate_ASU_rajputs_privileges_4_desc:0 "We must ensure a strategic reserve."
+
+ estate_ASU_rajputs_privileges_5:0 "Increased benefits"
+ estate_ASU_rajputs_privileges_5_desc:0 "Increased privileges will boost their moral."
+
+ estate_ASU_rajputs_privileges_6:0 "Standing Army"
+ estate_ASU_rajputs_privileges_6_desc:0 "The Rajputs will become our regulars."
+
+ estate_ASU_rajputs_privileges_7:0 "New fire tactics"
+ estate_ASU_rajputs_privileges_7_desc:0 "Our Rajputs will use advanced fire tactics."
+
+ estate_ASU_rajputs_privileges_8:0 "New shock tactics"
+ estate_ASU_rajputs_privileges_8_desc:0 "Our Rajputs will use advanced shock tactics."

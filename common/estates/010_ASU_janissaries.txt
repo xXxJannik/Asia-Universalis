@@ -4,6 +4,17 @@ estate_ASU_janissaries = {
 	# If true, country will get estate
 	trigger = {
 		has_reform = ASU_persia_reform_2 #Persia
+		NOT = { has_reform = pirate_republic_reform }
+		NOT = { has_government_attribute = is_merchant_republic }
+        NOT = { has_reform = veche_republic }
+		NOT = { has_reform = trading_city }
+		NOT = { has_reform = siberian_tribe }
+		NOT = { government = native }
+        NOT = { is_revolutionary_republic_trigger = yes }
+        NOT = { tag = USA }
+        NOT = { has_reform = revolutionary_empire_reform }
+        is_colonial_nation = no
+        is_nomad = no
 	}
 
 	# These scale with loyalty & power
