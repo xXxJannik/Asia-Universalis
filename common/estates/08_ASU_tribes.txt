@@ -7,7 +7,12 @@ estate_ASU_tribes = {
 		is_colonial_nation = no
         OR = {
 			has_reform = reform_warlord_5 #Chinese Horde
-			has_reform = celestial_empire #Eoc 
+			AND = {
+				has_reform = celestial_empire #Eoc 
+				any_owned_province = {
+					has_terrain = steppe
+				}
+			}
 		}
 	}
 
