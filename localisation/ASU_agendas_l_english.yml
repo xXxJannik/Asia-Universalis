@@ -4,6 +4,9 @@
  estate_tribal_develop_x:0 "support a Tribe"
  estate_tribal_develop_x_desc:0 "The Tribes demand support."
 
+ estate_tribal_build_temple_in_y:0 "build a Temple"
+ estate_tribal_build_temple_in_y_desc:0 "Our Tribes demand a temple."
+
  #Banner agendas
  estate_banners_start_war:0 "start a war"
  estate_banners_start_war_desc:0 "Our administration suffers during peace times as the corrupt Banners do their thing."

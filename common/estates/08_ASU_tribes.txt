@@ -42,10 +42,13 @@ estate_ASU_tribes = {
 		estate_herding_rights
         estate_tribal_deal
 		estate_tribal_production
+		estate_tribal_leader
+		estate_tribal_recruitment
 	}
 
 	agendas = {
         estate_tribal_develop_x
+		estate_tribal_build_temple_in_y
 	}
 
 	color = { 150 250 0 }

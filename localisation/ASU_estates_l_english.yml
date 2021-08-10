@@ -48,6 +48,13 @@
  ASU_estate_tribal_production_revoke_tooltip:0 "We will no longer demand extra taxes."
  ASU_estate_tribal_production_modifier:0 "Increased Tribal taxes"
 
+ estate_tribal_leader:0 "Tribal General"
+ estate_tribal_leader_desc:0 "We will force our tribes to provide a General."
+
+ estate_tribal_recruitment:0 "Tribal Recruitment"
+ estate_tribal_recruitment_desc:0 "We will force them to join our military."
+
+ #This one is for vanilla tribes, gives a mil point each month
  estate_tribes_mil_power:0 "Tribal Commanders"
  estate_tribes_mil_power_desc:0 "Every Tribal Chief has to provide a General."
 

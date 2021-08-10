@@ -1,4 +1,6 @@
-#Tribal privileges
+##########################################################
+#########        Tribal privileges         ###############
+##########################################################
 
 estate_herding_rights = {
 	icon = privilege_monopoly_of_goods_livestock
@@ -171,7 +173,51 @@ estate_tribal_production = {
 	}
 }
 
-#Banner privileges
+estate_tribal_leader = {
+	icon = privilege_conscript_cossack_elite
+	max_absolutism = -5
+	influence = 0.05
+	loyalty = -0.05
+	land_share = 5
+	is_valid = {
+		has_dlc = "Mandate of Heaven"
+	}
+	penalties = {
+		global_tax_modifier = -0.1
+	}
+	benefits = {
+		general_cost = -0.05
+		free_leader_pool = 1
+	}
+	ai_will_do = {
+		factor = 10
+	}
+}
+
+estate_tribal_recruitment = {
+	icon = privilege_raise_host
+	max_absolutism = -5
+	influence = 0.05
+	loyalty = -0.05
+	land_share = 5
+	is_valid = {
+		has_dlc = "Mandate of Heaven"
+	}
+	penalties = {
+		cavalry_cost = 0.1
+	}
+	benefits = {
+		cavalry_power = 0.1
+		cav_to_inf_ratio = 0.1
+	}
+	ai_will_do = {
+		factor = 10
+	}
+}
+
+##########################################################
+#########        Banner privileges         ###############
+##########################################################
 
 estate_banners_allow_banners = {
 	icon = privilege_promote_purbias
@@ -273,7 +319,9 @@ estate_banners_infantry_tactics = {
 	}
 }
 
-#Jannisaries privileges
+##########################################################
+#########        Janissary privileges         ############
+##########################################################
 
 estate_janissaries_extended_privileges_2 = { #tier 2
 	icon = privilege_promote_purbias
@@ -559,7 +607,9 @@ estate_janissaries_extended_privileges_9 = { #tier 5
 }
 
 
-#Tribal mil power
+##########################################################
+#########        Vanilla Tribal privileges         #######
+##########################################################
 
 estate_tribes_mil_power = {
 	icon = privilege_military_power
@@ -588,7 +638,9 @@ estate_tribes_mil_power = {
 
 
 
-#Tibet mountain dev
+##########################################################
+#########        Tibet privileges         ###############
+##########################################################
 
 estate_tibet_mountains = {
 	icon = privilege_grant_autonomy
@@ -654,7 +706,9 @@ estate_tibet_mountains = {
 }
 
 
-#Rajput Soldiers
+##########################################################
+#########        Rajput Soldiers privileges       ########
+##########################################################
 
 estate_ASU_rajputs_privileges_1 = {
 	icon = privilege_promote_purbias

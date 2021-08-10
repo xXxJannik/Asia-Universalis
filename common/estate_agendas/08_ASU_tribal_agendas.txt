@@ -172,3 +172,75 @@ estate_tribal_develop_x = {
 		}
     }
 }
+
+estate_tribal_build_temple_in_y = {
+	can_select = {
+		adm_tech = 4
+		any_owned_province = {
+			NOT = { has_building = cathedral }
+			NOT = { has_building = temple }
+			is_state_core = root
+			num_free_building_slots = 1		
+			has_terrain = steppe
+		}
+	}
+	selection_weight = {
+		factor = 1
+	}
+	pre_effect = {
+		set_variable = {
+			which = estate_tribal_build_temple_in_y_var
+			value = 0
+		}
+		random_owned_province = {
+			limit = {
+				NOT = { has_building = cathedral }
+				NOT = { has_building = temple }
+				is_state_core = root
+				num_free_building_slots = 1
+				has_terrain = steppe
+			}
+			save_event_target_as = agenda_province
+		}
+		event_target:agenda_province = {
+			if = {
+				limit = {
+					NOT = { has_building = temple }
+				}
+				ROOT = {
+					set_variable = {
+						which = estate_tribal_build_temple_in_y_var
+						value = 1
+					}
+				}
+			}
+		}
+	}
+	fail_if = {
+		event_target:agenda_province = {
+			NOT = { owned_by = root }
+		}
+	}
+	provinces_to_highlight = {
+		province_id = event_target:agenda_province
+	}
+    task_requirements = {
+		if = {
+			limit = {
+				check_variable = {
+					which = estate_tribal_build_temple_in_y_var
+					value = 1
+				}
+			}
+			event_target:agenda_province = {
+				has_building = temple
+			}
+		}
+    }
+    task_completed_effect = {
+		add_treasury = 100
+    }
+    failing_effect = {
+		add_prestige = -20
+    }
+}
