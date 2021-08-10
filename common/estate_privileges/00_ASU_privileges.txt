@@ -711,7 +711,7 @@ estate_tibet_mountains = {
 ##########################################################
 
 estate_ASU_rajputs_privileges_1 = {
-	icon = privilege_promote_purbias
+	icon = privilege_recruit_rajput_general
 	land_share = 0
 	max_absolutism = -5
 	loyalty = 0.05
@@ -766,7 +766,7 @@ estate_ASU_rajputs_privileges_2 = {
 }
 
 estate_ASU_rajputs_privileges_3 = {
-	icon = privilege_promote_purbias
+	icon = privilege_supply_arms
 	land_share = 0
 	max_absolutism = -5
 	loyalty = 0.05
@@ -792,7 +792,7 @@ estate_ASU_rajputs_privileges_3 = {
 }
 
 estate_ASU_rajputs_privileges_4 = {
-	icon = privilege_promote_purbias
+	icon = privilege_exempt_officers_from_jaziya
 	land_share = 0
 	max_absolutism = -5
 	loyalty = 0.05
@@ -818,7 +818,7 @@ estate_ASU_rajputs_privileges_4 = {
 }
 
 estate_ASU_rajputs_privileges_5 = {
-	icon = privilege_promote_purbias
+	icon = privilege_make_generous_donation
 	land_share = 0
 	max_absolutism = -5
 	loyalty = 0.05
@@ -844,7 +844,7 @@ estate_ASU_rajputs_privileges_5 = {
 }
 
 estate_ASU_rajputs_privileges_6 = {
-	icon = privilege_promote_purbias
+	icon = privilege_promote_rajput_nobility
 	land_share = 0
 	max_absolutism = -5
 	loyalty = 0.05
@@ -896,7 +896,7 @@ estate_ASU_rajputs_privileges_7 = {
 }
 
 estate_ASU_rajputs_privileges_8 = {
-	icon = privilege_promote_purbias
+	icon = privilege_spawn_rajput_regiments
 	land_share = 0
 	max_absolutism = -5
 	loyalty = 0.05
