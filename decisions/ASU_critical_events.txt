@@ -39,6 +39,7 @@ country_decisions = {
 		potential = {
 			ai = no
 		    NOT = { has_country_flag = commandant }
+			commandant = 3
 		}
 		ai_will_do = {
 			factor = 0
@@ -56,6 +57,7 @@ country_decisions = {
 		potential = {
 			ai = no
 		    NOT = { has_country_flag = grand_captain }
+			grand_captain = 3
 		}
 		ai_will_do = {
 			factor = 0
