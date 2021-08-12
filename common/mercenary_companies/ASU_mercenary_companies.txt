@@ -1,0 +1,212 @@
+#Tibet
+merc_XMP_khampa_warriors = {
+	regiments_per_development = 0.04
+	cost_modifier = 0.5
+	home_province = 2133
+	cavalry_weight = 1
+	sprites = { asianfx_sprite_pack }
+	trigger = {
+		has_reform = XMP_TIB_khampa_warriors_reform
+		}
+	modifier = {
+		cavalry_power = 0.2
+		shock_damage = 0.20
+	}
+
+}
+
+ASU_merc_shanghai = {
+	regiments_per_development = 0.05
+	cost_modifier = 1
+	home_province = 5195
+	cavalry_weight = 0
+	sprites = { mng_base_sprite_pack }
+	trigger = {
+		tag = WUU
+	}
+	modifier = {
+		
+	}
+}
+
+
+ASU_merc_wuhan = {
+	regiments_per_development = 0.05
+	cost_modifier = 0.75
+	home_province = 5390
+	cavalry_weight = 0.2
+	cavalry_cap = 8
+	sprites = { mng_base_sprite_pack }
+	trigger = {
+		OR = {
+			capital_scope = {
+				OR = {
+					superregion = china_superregion 
+				}
+			}
+			any_owned_province = {
+				superregion = china_superregion 
+			}
+		}
+	}
+	modifier = {
+		land_attrition = -0.2
+	}
+}
+ASU_merc_kaohsiung = {
+	regiments_per_development = 0.05
+	cost_modifier = 1
+	home_province = 5135
+	cavalry_weight = 0
+	sprites = { mng_base_sprite_pack }
+	trigger = {
+		OR = {
+			capital_scope = {
+				OR = {
+					superregion = china_superregion 
+				}
+			}
+			any_owned_province = {
+				superregion = china_superregion 
+			}
+		}
+	}
+	modifier = {
+		land_attrition = -0.2
+	}
+}
+ASU_merc_imperial_guard = {
+	regiments_per_development = 0.05
+	cost_modifier = 1
+	home_province = 4958
+	cavalry_weight = 0
+	sprites = { mng_base_sprite_pack }
+	trigger = {
+		tag = MNG
+	}
+	modifier = {
+		shock_damage_received = -0.1
+	}
+}
+ASU_merc_steppe_hunter = {
+	regiments_per_development = 0.05
+	cost_modifier = 0.5
+	home_province = 701
+	cavalry_weight = 1
+	sprites = { mng_base_sprite_pack }
+	trigger = {
+		OR = {
+			capital_scope = {
+				OR = {
+					superregion = china_superregion 
+					superregion = tartary_superregion
+				}
+			}
+			any_owned_province = {
+				superregion = china_superregion 
+			}
+		}
+	}
+	modifier = {
+		cavalry_power = 0.2
+	}
+}
+ASU_merc_hanseong = {
+	regiments_per_development = 0.05
+	cost_modifier = 0.75
+	home_province = 735
+	cavalry_weight = 0
+	sprites = { mng_base_sprite_pack }
+	trigger = {
+		OR = {
+			tag = KOR
+		}
+	}
+	modifier = {
+		shock_damage_received = -0.1
+	}
+}
+ASU_merc_shenyang = {
+	regiments_per_development = 0.05
+	cost_modifier = 0.75
+	home_province = 726
+	cavalry_weight = 0.5
+	sprites = { mng_base_sprite_pack }
+	trigger = {
+		OR = {
+			tag = KOR
+			tag = MNG
+			tag = ZUN
+			tag = WUU
+			tag = JAP
+			tag = MJZ
+			tag = MCH
+			tag = QNG
+		}
+	}
+	modifier = {
+		shock_damage = 0.1
+	}
+}
+ASU_merc_foreign_cossacks = {
+	regiments_per_development = 0.05
+	cost_modifier = 0.5
+	home_province = 2420
+	cavalry_weight = 1
+	sprites = { easterngfx_sprite_pack }
+	trigger = {
+		OR = {
+			tag = ZAZ
+			tag = ZUN
+			tag = HET
+		}
+	}
+	modifier = {
+		shock_damage = 0.1
+	}
+}
+ASU_merc_australia = {
+	regiments_per_development = 0.05
+	cost_modifier = 1
+	home_province = 2730
+	cavalry_weight = 0
+	sprites = { mng_base_sprite_pack }
+	trigger = {
+		OR = {
+			tag = CAU
+		}
+	}
+	modifier = {
+		land_attrition = -0.2
+	}
+}
+ASU_merc_new_zealand = {
+	regiments_per_development = 0.05
+	cost_modifier = 1
+	home_province = 1106
+	cavalry_weight = 0
+	sprites = { mng_base_sprite_pack }
+	trigger = {
+		OR = {
+			tag = CAU
+		}
+	}
+	modifier = {
+		land_attrition = -0.2
+	}
+}
+
+ASU_merc_palast_guard = {
+	regiments_per_development = 0.05
+	cost_modifier = 2
+	cavalry_weight = 0
+	sprites = { mng_base_sprite_pack }
+	trigger = {
+		is_emperor_of_china = yes
+	}
+	modifier = {
+		leader_land_shock = 2
+		shock_damage_received = -0.2
+		discipline = 0.1
+	}
+}
