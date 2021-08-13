@@ -11957,3 +11957,20 @@ ASU_mob_ended_modifier = {
 ASU_mob_transition_modifier = {
 	prestige = 1
 }
+
+ASU_mob_guild_support = {
+	interest = -0.25
+}
+
+ASU_mob_mercs_form = {
+	mercenary_cost = -0.25
+	prestige = -1
+}
+
+ASU_mob_lifetime_of_war = {
+	mercenary_manpower = -0.5
+}
+
+ASU_mob_people_demobilise = {
+	global_unrest = 2
+}

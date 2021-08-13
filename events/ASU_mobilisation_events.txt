@@ -10,6 +10,7 @@ country_event = {
 	major = yes  #Notification for everyone
 	option = {
 		name = "ASU_mob.1.a"
+		add_yearly_manpower = 2.5
         add_country_modifier = {
 			name = "ASU_early_mob_modifier"
 			duration = -1
@@ -27,6 +28,7 @@ country_event = {
 	major = yes  #Notification for everyone
 	option = {
 		name = "ASU_mob.2.a"
+		add_yearly_manpower = 5
         add_country_modifier = {
 			name = "ASU_mob_modifier"
 			duration = -1
@@ -34,3 +36,220 @@ country_event = {
 	}
 }
 
+
+#Events that can happen during mobilisation
+
+#Forced conscription
+country_event = {
+	id = ASU_mob.3
+	title = "ASU_mob.3.t"
+	desc = "ASU_mob.3.d"
+	picture = ANGRY_MOB_eventPicture
+	mean_time_to_happen = {
+		months = 120
+	}
+	trigger = {
+		OR = {
+			has_country_modifier = ASU_early_mob_modifier
+			has_country_modifier = ASU_mob_modifier
+		}
+		is_at_war = yes
+	}
+	option = {
+		name = "ASU_mob.3.a"
+        add_yearly_manpower = 2
+		add_war_exhaustion = 5
+	}
+}
+
+#War effort
+country_event = {
+	id = ASU_mob.4
+	title = "ASU_mob.4.t"
+	desc = "ASU_mob.4.d"
+	picture = ANGRY_MOB_eventPicture
+	mean_time_to_happen = {
+		months = 120
+	}
+	trigger = {
+		OR = {
+			has_country_modifier = ASU_early_mob_modifier
+			has_country_modifier = ASU_mob_modifier
+		}
+		is_at_war = yes
+	}
+	option = {
+		name = "ASU_mob.4.a"
+        add_years_of_income = -1
+	}
+}
+
+#The people are tired of war
+country_event = {
+	id = ASU_mob.5
+	title = "ASU_mob.5.t"
+	desc = "ASU_mob.5.d"
+	picture = ANGRY_MOB_eventPicture
+	mean_time_to_happen = {
+		months = 120
+	}
+	trigger = {
+		OR = {
+			has_country_modifier = ASU_early_mob_modifier
+			has_country_modifier = ASU_mob_modifier
+		}
+		is_at_war = yes
+	}
+	option = {
+		name = "ASU_mob.5.a"
+        add_war_exhaustion = 2
+	}
+}
+
+#War enthusiasm
+country_event = {
+	id = ASU_mob.6
+	title = "ASU_mob.6.t"
+	desc = "ASU_mob.6.d"
+	picture = ANGRY_MOB_eventPicture
+	mean_time_to_happen = {
+		months = 120
+	}
+	trigger = {
+		OR = {
+			has_country_modifier = ASU_early_mob_modifier
+			has_country_modifier = ASU_mob_modifier
+		}
+		is_at_war = yes
+	}
+	option = {
+		name = "ASU_mob.6.a"
+        add_years_of_income = 1
+	}
+}
+
+#Support from the Guilds
+country_event = {
+	id = ASU_mob.7
+	title = "ASU_mob.7.t"
+	desc = "ASU_mob.7.d"
+	picture = ANGRY_MOB_eventPicture
+	mean_time_to_happen = {
+		months = 480
+	}
+	trigger = {
+		OR = {
+			has_country_modifier = ASU_early_mob_modifier
+			has_country_modifier = ASU_mob_modifier
+		}
+		is_at_war = yes
+	}
+	option = {
+		name = "ASU_mob.7.a"
+        add_country_modifier = {
+			name = "ASU_mob_guild_support"
+			duration = 1825
+		}
+	}
+}
+
+
+#Local Mercenary Company forms
+country_event = {
+	id = ASU_mob.8
+	title = "ASU_mob.8.t"
+	desc = "ASU_mob.8.d"
+	picture = ANGRY_MOB_eventPicture
+	mean_time_to_happen = {
+		months = 240
+	}
+	trigger = {
+		OR = {
+			has_country_modifier = ASU_early_mob_modifier
+			has_country_modifier = ASU_mob_modifier
+		}
+		is_at_war = yes
+	}
+	option = {
+		name = "ASU_mob.8.a"
+        add_country_modifier = {
+			name = "ASU_mob_mercs_form"
+			duration = 1825
+		}
+	}
+}
+
+#Lifetime of war
+country_event = {
+	id = ASU_mob.9
+	title = "ASU_mob.9.t"
+	desc = "ASU_mob.9.d"
+	picture = ANGRY_MOB_eventPicture
+	mean_time_to_happen = {
+		months = 480
+	}
+	trigger = {
+		OR = {
+			has_country_modifier = ASU_early_mob_modifier
+			has_country_modifier = ASU_mob_modifier
+		}
+		is_at_war = yes
+	}
+	option = {
+		name = "ASU_mob.9.a"
+        add_country_modifier = {
+			name = "ASU_mob_lifetime_of_war"
+			duration = 1825
+		}
+	}
+}
+
+#Public demand for demobilisation
+country_event = {
+	id = ASU_mob.10
+	title = "ASU_mob.10.t"
+	desc = "ASU_mob.10.d"
+	picture = ANGRY_MOB_eventPicture
+	mean_time_to_happen = {
+		months = 120
+	}
+	trigger = {
+		OR = {
+			has_country_modifier = ASU_early_mob_modifier
+			has_country_modifier = ASU_mob_modifier
+		}
+		is_at_war = no
+		NOT = {
+			has_country_modifier = ASU_mob_people_demobilise
+		}
+	}
+	option = {
+		name = "ASU_mob.10.a"
+        add_country_modifier = {
+			name = "ASU_mob_people_demobilise"
+			duration = 1825
+		}
+	}
+}
+
+#Costly mobilisation
+country_event = {
+	id = ASU_mob.11
+	title = "ASU_mob.11.t"
+	desc = "ASU_mob.11.d"
+	picture = ANGRY_MOB_eventPicture
+	mean_time_to_happen = {
+		months = 120
+	}
+	trigger = {
+		OR = {
+			has_country_modifier = ASU_early_mob_modifier
+			has_country_modifier = ASU_mob_modifier
+		}
+		is_at_war = no
+	}
+	option = {
+		name = "ASU_mob.11.a"
+        add_years_of_income = -2
+	}
+}
