@@ -17,3 +17,16 @@
  ASU_form_hetmanate_decision.tooltip:0 "Is the master of the steppes."
  ASU_ORS_form_dzungar_title:0 "Form Dzungar"
  ASU_ORS_form_dzungar_desc:0 "The Khanate of Dzungar is an inner Asian Khanate of Oirat Mongol origin."
+
+ #Mobilisation
+ ASU_early_mob_title:0 "Mobilise our Country!"
+ ASU_early_mob_desc:0 "We can mobilise our Country, which will grant us more man for our military at the expense of our economy."
+
+ ASU_remove_early_mob_title:0 "Demobilise our Country"
+ ASU_remove_early_mob_desc:0 "The impact of our mobilisation will be felt for a few years."
+
+ ASU_normal_mob_title:0 "Mobilise our Country!"
+ ASU_normal_mob_desc:0 "We can mobilise our Country, which will grant us more man for our military at the expense of our economy."
+
+ ASU_remove_normal_mob_title:0 "Demobilise our Country"
+ ASU_remove_normal_mob_desc:0 "The impact of our mobilisation will be felt for a few years."

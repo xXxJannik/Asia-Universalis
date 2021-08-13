@@ -1,0 +1,108 @@
+country_decisions = {
+
+    ASU_early_mob = {
+        major = yes
+        potential = {
+			mil_tech = 15
+            NOT = { mil_tech = 21 }
+            NOT = { has_country_modifier = ASU_early_mob_modifier }
+            ai = no
+		}
+        allow = {
+            mil_tech = 15
+            NOT = { mil_tech = 21 }
+            NOT = { has_country_modifier = ASU_early_mob_modifier }
+            NOT = { has_country_modifier = ASU_mob_transition_modifier }
+            is_bankrupt = no
+            ai = no
+		}
+        effect = {
+            country_event = { #triggers the mob event
+				id = ASU_mob.1
+			}
+		}
+    }
+
+    ASU_remove_early_mob = {
+        major = yes
+        potential = {
+			has_country_modifier = ASU_early_mob_modifier
+		}
+        allow = {
+            has_country_modifier = ASU_early_mob_modifier
+		}
+        effect = {
+            remove_country_modifier = ASU_early_mob_modifier
+            add_country_modifier = {
+                name = "ASU_early_mob_ended_modifier"
+                duration = 1825
+            }
+            add_country_modifier = {
+                name = "ASU_mob_transition_modifier"
+                duration = 365
+            }
+		}
+        ai_will_do = {
+			factor = 1000
+            modifier = {
+	 	        factor = 0
+	 	        is_at_war = yes
+	        }
+		}
+        ai_importance = 400
+    }
+
+    #normal mob
+    ASU_normal_mob = {
+        major = yes
+        potential = {
+	        mil_tech = 21
+            NOT = { has_country_modifier = ASU_mob_modifier }
+            ai = no
+	    }
+        allow = {
+            mil_tech = 21
+            NOT = { has_country_modifier = ASU_mob_modifier }
+            NOT = { has_country_modifier = ASU_mob_transition_modifier }
+            is_bankrupt = no
+            ai = no
+	    }
+        effect = {
+            country_event = { #trigger the mob event
+			    id = ASU_mob.2
+		    }
+		}
+    }
+
+    ASU_remove_normal_mob = {
+        major = yes
+        potential = {
+			has_country_modifier = ASU_mob_modifier
+		}
+        allow = {
+            has_country_modifier = ASU_mob_modifier
+		}
+        effect = {
+            remove_country_modifier = ASU_mob_modifier
+            add_country_modifier = {
+                name = "ASU_mob_ended_modifier"
+                duration = 1825
+            }
+            add_country_modifier = {
+                name = "ASU_mob_transition_modifier"
+                duration = 365
+            }
+		}
+        ai_will_do = {
+			factor = 1000
+            modifier = {
+	 	        factor = 0
+	 	        is_at_war = yes
+	        }
+		}
+        ai_importance = 400
+    }
+}
+} #Ende
+
+

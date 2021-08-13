@@ -27,3 +27,13 @@
  ASU_china_events.4.t:0 "The reformation of an Empire"
  ASU_china_events.4.d:0 "We have achieved the reformation of our Empire and thus increased our military capacities."
  ASU_china_events.4.a:0 "We did it!"
+
+ #Mobilisation
+
+ ASU_mob.1.t:0 "$COUNTRY$ mobilizes!"
+ ASU_mob.1.d:0 "We have ordered limited mobilisation. Soon we will be able to strike with all of our military might."
+ ASU_mob.1.a:0 "We will crush them!"
+
+ ASU_mob.2.t:0 "$COUNTRY$ mobilizes!"
+ ASU_mob.2.d:0 "We have ordered general mobilisation. Soon we will be able to strike with all of our military might."
+ ASU_mob.2.a:0 "We will crush them!"

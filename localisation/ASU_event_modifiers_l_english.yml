@@ -5,19 +5,23 @@
  ASU_eoc_population_support:0 "Support from the population"
  ASU_shenyang_gems:0 "Shenyang Gems"
  desc_ASU_shenyang_gems:0 "The Shenyang gems are one of the worlds finest gems."
- ASU_estate_janissaries_foreign_conscription:0 "Conscripted foreigners"
- ASU_estate_janissaries_invest_in_janissaries:0 "Janissary investment"
- ASU_estate_janissaries_discipline:0 "Janissary discipline"
- ASU_estate_janissaries_militarisation:0 "Experimental fire weapons"
- ASU_estate_janissaries_militarisation_2:0 "Experimental shock weapons"
  ASU_chengdu_valley:0 "Chengdu valley"
  desc_ASU_chengdu_valley:0 "The Chengdu valley is very fertile."
  ASU_macau_modifier:0 "World Port of Macau"
  desc_ASU_macau_modifier:0 "The World Port of Macau is a hub for various merchants from across the world."
  ASU_estate_tibet_mountain_modifier:0 "Extreme condition living"
+ 
+ #Janissaries
+ ASU_estate_janissaries_foreign_conscription:0 "Conscripted foreigners"
+ ASU_estate_janissaries_invest_in_janissaries:0 "Janissary investment"
+ ASU_estate_janissaries_discipline:0 "Janissary discipline"
+ ASU_estate_janissaries_militarisation:0 "Experimental fire weapons"
+ ASU_estate_janissaries_militarisation_2:0 "Experimental shock weapons"
  ASU_estate_janissaries_reinforce_speed:0 "Fast replenishment"
  ASU_estate_janissaries_improved_fire:0 "New fire weapons"
  ASU_estate_janissaries_improved_moral:0 "New rights and benefits"
+
+ #Rajputs
  ASU_estate_rajputs_modifier_1:0 "Recruit more Rajputs"
  ASU_estate_rajputs_modifier_2:0 "Infantry specialists"
  ASU_estate_rajputs_modifier_3:0 "Rajput Discipline"
@@ -26,3 +30,13 @@
  ASU_estate_rajputs_modifier_6:0 "Standing Army"
  ASU_estate_rajputs_modifier_7:0 "New fire tactics"
  ASU_estate_rajputs_modifier_8:0 "New shock tactics"
+
+ #Mobilisation
+ ASU_early_mob_modifier:0 "Early mobilisation"
+ ASU_early_mob_ended_modifier:0 "Mobilisation ended"
+
+ ASU_mob_modifier:0 "Mobilisation"
+ ASU_mob_ended_modifier:0 "Mobilisation ended"
+
+ ASU_mob_transition_modifier:0 "Returning Soldiers"
+

@@ -1,0 +1,36 @@
+namespace = ASU_mob
+
+#early mobilisation
+country_event = {
+	id = ASU_mob.1
+	title = "ASU_mob.1.t"
+	desc = "ASU_mob.1.d"
+	picture = ANGRY_MOB_eventPicture
+	is_triggered_only = yes
+	major = yes  #Notification for everyone
+	option = {
+		name = "ASU_mob.1.a"
+        add_country_modifier = {
+			name = "ASU_early_mob_modifier"
+			duration = -1
+		}
+	}
+}
+
+#normal mobilisation
+country_event = {
+	id = ASU_mob.2
+	title = "ASU_mob.2.t"
+	desc = "ASU_mob.2.d"
+	picture = ANGRY_MOB_eventPicture
+	is_triggered_only = yes
+	major = yes  #Notification for everyone
+	option = {
+		name = "ASU_mob.2.a"
+        add_country_modifier = {
+			name = "ASU_mob_modifier"
+			duration = -1
+		}
+	}
+}
+
