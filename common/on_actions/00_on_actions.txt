@@ -1677,6 +1677,9 @@ on_mandate_of_heaven_lost = {
 	}
 	if = {
 		limit = {
+			capital_scope = {
+				superregion = china_superregion 
+			}
 			NOT = {
 				total_development = 100
 			}
@@ -1685,6 +1688,9 @@ on_mandate_of_heaven_lost = {
 	}
 	else_if = {
 		limit = {
+			capital_scope = {
+				superregion = china_superregion 
+			}
 			NOT = {
 				total_development = 200
 			}
@@ -1693,6 +1699,9 @@ on_mandate_of_heaven_lost = {
 	}
 	else_if = {
 		limit = {
+			capital_scope = {
+				superregion = china_superregion 
+			}
 			NOT = {
 				total_development = 500
 			}
@@ -1701,9 +1710,52 @@ on_mandate_of_heaven_lost = {
 	}
 	else_if = {
 		limit = {
+			capital_scope = {
+				superregion = china_superregion 
+			}
 			total_development = 500
 		}
 		add_government_reform = h_reform_warlord_4
+	}
+	if = {
+		limit = {
+			tag = ZUN
+		}
+		add_government_reform = reform_dzungar
+	}
+	if = {
+		limit = {
+			tag = JAP
+		}
+		add_government_reform = reform_japan
+	}
+	if = {
+		limit = {
+			tag = CAU
+		}
+		add_government_reform = reform_australia
+	}
+	if = {
+		limit = {
+			tag = KOR
+		}
+		add_government_reform = reform_korea
+	}
+	if = {
+		limit = {
+			OR = {
+				tag = MCH
+				tag = QNG
+			}
+		}
+		add_government_reform = reform_warlord_5
+	}
+	if = {
+		limit = {
+			tag = XTB
+		}
+		change_government_to_XMP_TIB_Government = yes
+		add_government_reform = XMP_TIB_tibetan_theocracy_reform
 	}
 }
 
