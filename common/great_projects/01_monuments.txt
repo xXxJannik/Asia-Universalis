@@ -162,7 +162,7 @@ buddha_statues = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 3500
+			factor = 2500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -193,7 +193,7 @@ buddha_statues = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 7000
+			factor = 5000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -343,7 +343,7 @@ forbidden_city = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 3500
+			factor = 2500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -374,7 +374,7 @@ forbidden_city = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 7000
+			factor = 5000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -576,7 +576,7 @@ angkor_wat = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 3500
+			factor = 2500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -610,7 +610,7 @@ angkor_wat = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 7000
+			factor = 5000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -760,7 +760,7 @@ himeji_castle = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 3500
+			factor = 2500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -792,7 +792,7 @@ himeji_castle = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 7000
+			factor = 5000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -968,7 +968,7 @@ mount_fuji = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 3500
+			factor = 2500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -1000,7 +1000,7 @@ mount_fuji = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 7000
+			factor = 5000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -1190,7 +1190,7 @@ shwedagon_pagoda = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 3500
+			factor = 2500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -1226,7 +1226,7 @@ shwedagon_pagoda = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 7000
+			factor = 5000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -1390,7 +1390,7 @@ the_great_wall_of_china = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 3500
+			factor = 2500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -1422,7 +1422,7 @@ the_great_wall_of_china = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 7000
+			factor = 5000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -1574,7 +1574,7 @@ taj_mahal = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 3500
+			factor = 2500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -1605,7 +1605,7 @@ taj_mahal = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 7000
+			factor = 5000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -1754,7 +1754,7 @@ the_grand_palace = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 3500
+			factor = 2500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -1785,7 +1785,7 @@ the_grand_palace = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 7000
+			factor = 5000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -1973,7 +1973,7 @@ bagan_temples = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 3500
+			factor = 2500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -2005,7 +2005,7 @@ bagan_temples = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 7000
+			factor = 5000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -2156,7 +2156,7 @@ registan_square = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 3500
+			factor = 2500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -2187,7 +2187,7 @@ registan_square = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 7000
+			factor = 5000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -2337,7 +2337,7 @@ golden_temple = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 3500
+			factor = 2500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -2368,7 +2368,7 @@ golden_temple = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 7000
+			factor = 5000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -2555,7 +2555,7 @@ jokhang_temple = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 3500
+			factor = 2500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -2586,7 +2586,7 @@ jokhang_temple = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 7000
+			factor = 5000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -2792,7 +2792,7 @@ borobudur_temple = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 3500
+			factor = 2500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -2822,7 +2822,7 @@ borobudur_temple = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 7000
+			factor = 5000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -2976,7 +2976,7 @@ temple_of_confucius = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 3500
+			factor = 2500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -3011,7 +3011,7 @@ temple_of_confucius = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 7000
+			factor = 5000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -3162,7 +3162,7 @@ murud_janjira = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 3500
+			factor = 2500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -3193,7 +3193,7 @@ murud_janjira = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 7000
+			factor = 5000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -3344,7 +3344,7 @@ pura_besakih = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 3500
+			factor = 2500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -3375,7 +3375,7 @@ pura_besakih = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 7000
+			factor = 5000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -3522,7 +3522,7 @@ kanbawzathadi_palace = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 3500
+			factor = 2500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -3553,7 +3553,7 @@ kanbawzathadi_palace = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 7000
+			factor = 5000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -3703,7 +3703,7 @@ prambanan_temple = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 3500
+			factor = 2500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -3733,7 +3733,7 @@ prambanan_temple = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 7000
+			factor = 5000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -3891,7 +3891,7 @@ sankin_kotai_palaces = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 3500
+			factor = 2500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -3922,7 +3922,7 @@ sankin_kotai_palaces = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 7000
+			factor = 5000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -4054,7 +4054,7 @@ terracotta = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			prestige = 1
+			army_tradition	= 0.1
 		}
 
 		#what effects happen when this tier is achieved
@@ -4070,7 +4070,7 @@ terracotta = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 3500
+			factor = 2500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -4083,7 +4083,8 @@ terracotta = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			prestige = 2
+			army_tradition	= 0.1
+			prestige_from_land = 0.5
 		}
 
 		#what effects happen when this tier is achieved
@@ -4099,7 +4100,7 @@ terracotta = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 7000
+			factor = 5000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -4113,7 +4114,9 @@ terracotta = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			prestige = 2
+			army_tradition	= 0.1
+			prestige_from_land = 0.5
+			general_cost = -0.05
 		}
 
 		#what effects happen when this tier is achieved
@@ -4238,9 +4241,7 @@ shrine_ise = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			tolerance_own = 1
-			global_missionary_strength = 0.005
-			
+			prestige = 0.25
 		}
 
 		#what effects happen when this tier is achieved
@@ -4256,7 +4257,7 @@ shrine_ise = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 3500
+			factor = 2500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -4265,12 +4266,12 @@ shrine_ise = {
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
+			local_development_cost = -0.2
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			tolerance_own = 2
-			global_missionary_strength = 0.01
+			prestige = 0.25
 		}
 
 		#what effects happen when this tier is achieved
@@ -4286,11 +4287,12 @@ shrine_ise = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 7000
+			factor = 5000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
+			local_development_cost = -0.2
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -4300,9 +4302,8 @@ shrine_ise = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			tolerance_own = 3
-			global_missionary_strength = 0.02
-			missionaries = 1
+			prestige = 0.25
+			same_culture_advisor_cost = -0.05
 		}
 
 		#what effects happen when this tier is achieved
@@ -4410,6 +4411,7 @@ mogao_grottoes = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
+			trade_goods_size = 1
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -4418,7 +4420,7 @@ mogao_grottoes = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			prestige = 1
+			
 		}
 
 		#what effects happen when this tier is achieved
@@ -4434,11 +4436,12 @@ mogao_grottoes = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 3500
+			factor = 2500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
+			trade_goods_size = 3
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -4447,7 +4450,7 @@ mogao_grottoes = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			prestige = 2
+			
 		}
 
 		#what effects happen when this tier is achieved
@@ -4463,11 +4466,12 @@ mogao_grottoes = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 7000
+			factor = 5000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
+			trade_goods_size = 3
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -4477,7 +4481,7 @@ mogao_grottoes = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			prestige = 2
+			production_efficiency = 0.05
 		}
 
 		#what effects happen when this tier is achieved
@@ -4585,15 +4589,17 @@ palace_potala = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
+			
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
+			local_development_cost = -0.2
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			prestige = 1
+			
 		}
 
 		#what effects happen when this tier is achieved
@@ -4609,7 +4615,7 @@ palace_potala = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 3500
+			factor = 2500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -4618,11 +4624,12 @@ palace_potala = {
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
+			local_development_cost = -0.2
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			prestige = 2
+			religious_unity = 0.25
 		}
 
 		#what effects happen when this tier is achieved
@@ -4638,7 +4645,7 @@ palace_potala = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 7000
+			factor = 5000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -4647,12 +4654,13 @@ palace_potala = {
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
-			
+			local_development_cost = -0.2
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			prestige = 2
+			religious_unity = 0.25
+			global_unrest = -1
 		}
 
 		#what effects happen when this tier is achieved
@@ -4761,6 +4769,7 @@ big_buddha = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
+			province_trade_power_value = 5
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -4769,7 +4778,7 @@ big_buddha = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			prestige = 1
+			
 		}
 
 		#what effects happen when this tier is achieved
@@ -4785,11 +4794,12 @@ big_buddha = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 3500
+			factor = 2500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
+			province_trade_power_value = 5
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -4798,7 +4808,7 @@ big_buddha = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			prestige = 2
+			religious_unity = 0.25
 		}
 
 		#what effects happen when this tier is achieved
@@ -4814,11 +4824,12 @@ big_buddha = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 7000
+			factor = 5000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
+			province_trade_power_value = 5
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -4828,7 +4839,8 @@ big_buddha = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			prestige = 2
+			religious_unity = 0.25
+			trade_efficiency = 0.05
 		}
 
 		#what effects happen when this tier is achieved
@@ -4944,7 +4956,7 @@ fuling_mausoleum = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			prestige = 1
+			army_tradition = 0.1
 		}
 
 		#what effects happen when this tier is achieved
@@ -4960,7 +4972,7 @@ fuling_mausoleum = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 3500
+			factor = 2500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -4973,7 +4985,8 @@ fuling_mausoleum = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			prestige = 2
+			army_tradition = 0.1
+			prestige_from_land = 0.5
 		}
 
 		#what effects happen when this tier is achieved
@@ -4989,7 +5002,7 @@ fuling_mausoleum = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 7000
+			factor = 5000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -5003,7 +5016,9 @@ fuling_mausoleum = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			prestige = 2
+			army_tradition = 0.1
+			prestige_from_land = 0.5
+			general_cost = -0.05
 		}
 
 		#what effects happen when this tier is achieved
@@ -5090,6 +5105,7 @@ maoling = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			
 		}
 
 		#what effects happen when this tier is achieved
@@ -5119,7 +5135,7 @@ maoling = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			prestige = 1
+			army_tradition_decay = -0.001
 		}
 
 		#what effects happen when this tier is achieved
@@ -5135,7 +5151,7 @@ maoling = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 3500
+			factor = 2500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -5144,11 +5160,12 @@ maoling = {
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
+			local_manpower_modifier = 0.2
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			prestige = 2
+			army_tradition_decay = -0.001
 		}
 
 		#what effects happen when this tier is achieved
@@ -5164,7 +5181,7 @@ maoling = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 7000
+			factor = 5000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -5173,12 +5190,13 @@ maoling = {
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
-			
+			local_manpower_modifier = 0.2
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			prestige = 2
+			army_tradition_decay = -0.001
+			amount_of_banners = 0.2
 		}
 
 		#what effects happen when this tier is achieved
@@ -5286,6 +5304,7 @@ pavilion_of_prince_teng = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
+			province_trade_power_value = 5
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -5294,7 +5313,7 @@ pavilion_of_prince_teng = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			prestige = 1
+			
 		}
 
 		#what effects happen when this tier is achieved
@@ -5310,20 +5329,22 @@ pavilion_of_prince_teng = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 3500
+			factor = 2500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
+			province_trade_power_value = 5
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
+			local_development_cost = -0.2
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			prestige = 2
+			
 		}
 
 		#what effects happen when this tier is achieved
@@ -5339,21 +5360,22 @@ pavilion_of_prince_teng = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 7000
+			factor = 5000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
+			province_trade_power_value = 5
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
-			
+			local_development_cost = -0.2
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			prestige = 2
+			prestige = 0.5
 		}
 
 		#what effects happen when this tier is achieved
@@ -5465,11 +5487,12 @@ wannian_temple = {
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
+			local_development_cost = -0.2
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			prestige = 1
+			
 		}
 
 		#what effects happen when this tier is achieved
@@ -5485,7 +5508,7 @@ wannian_temple = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 3500
+			factor = 2500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -5494,11 +5517,12 @@ wannian_temple = {
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
+			local_development_cost = -0.2
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			prestige = 2
+			harmonization_speed = 0.2
 		}
 
 		#what effects happen when this tier is achieved
@@ -5514,7 +5538,7 @@ wannian_temple = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 7000
+			factor = 5000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -5523,12 +5547,13 @@ wannian_temple = {
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
-			
+			local_development_cost = -0.2
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			prestige = 2
+			harmonization_speed = 0.2
+			global_unrest = -1
 		}
 
 		#what effects happen when this tier is achieved
@@ -5644,7 +5669,7 @@ western_qing_tombs = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			prestige = 1
+			prestige = 0.25
 		}
 
 		#what effects happen when this tier is achieved
@@ -5660,7 +5685,7 @@ western_qing_tombs = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 3500
+			factor = 2500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -5673,7 +5698,8 @@ western_qing_tombs = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			prestige = 2
+			prestige = 0.25
+			heir_chance = 0.33
 		}
 
 		#what effects happen when this tier is achieved
@@ -5689,7 +5715,7 @@ western_qing_tombs = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 7000
+			factor = 5000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -5703,7 +5729,9 @@ western_qing_tombs = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			prestige = 2
+			prestige = 0.25
+			heir_chance = 0.33
+			free_leader_pool = 1
 		}
 
 		#what effects happen when this tier is achieved
@@ -5819,7 +5847,7 @@ xia_mausoleums = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			prestige = 1
+			army_tradition = 0.1
 		}
 
 		#what effects happen when this tier is achieved
@@ -5835,7 +5863,7 @@ xia_mausoleums = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 3500
+			factor = 2500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -5848,7 +5876,8 @@ xia_mausoleums = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			prestige = 2
+			army_tradition = 0.1
+			army_tradition_from_battle = 0.25
 		}
 
 		#what effects happen when this tier is achieved
@@ -5864,7 +5893,7 @@ xia_mausoleums = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 7000
+			factor = 5000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -5878,7 +5907,9 @@ xia_mausoleums = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			prestige = 2
+			army_tradition = 0.1
+			army_tradition_from_battle = 0.25
+			free_leader_pool = 1
 		}
 
 		#what effects happen when this tier is achieved
@@ -5994,7 +6025,7 @@ three_pagodas = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			prestige = 1
+			religious_unity = 0.2
 		}
 
 		#what effects happen when this tier is achieved
@@ -6010,7 +6041,7 @@ three_pagodas = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 3500
+			factor = 2500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -6023,7 +6054,8 @@ three_pagodas = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			prestige = 2
+			religious_unity = 0.2
+			harmonization_speed = 0.2
 		}
 
 		#what effects happen when this tier is achieved
@@ -6039,7 +6071,7 @@ three_pagodas = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 7000
+			factor = 5000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -6053,7 +6085,9 @@ three_pagodas = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			prestige = 2
+			religious_unity = 0.2
+			harmonization_speed = 0.2
+			global_unrest = -1
 		}
 
 		#what effects happen when this tier is achieved
