@@ -36,7 +36,7 @@ estate_ASU_rajputs_build_up = {
 
 estate_ASU_rajputs_have_rajputs = {
     can_select = {
-        has_privileg = estate_ASU_rajputs_privileges_1^
+        has_estate_privilege = estate_ASU_rajputs_privileges_1
         army_size = 25
     }
     selection_weight = {
