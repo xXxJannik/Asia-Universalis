@@ -36,6 +36,7 @@ country_decisions = {
 		allow = {
 			is_at_war = no
 			is_free_or_tributary_trigger = yes
+			is_emperor_of_china = no
 
             owns_core_province = 6029
             owns_core_province = 2118

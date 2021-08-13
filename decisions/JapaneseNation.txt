@@ -23,6 +23,7 @@ country_decisions = {
 		allow = {
 			NOT = { exists = JAP }
 			is_free_or_tributary_trigger = yes
+			is_emperor_of_china = no
 			is_nomad = no
 			is_at_war = no
 			num_of_cities = 25
@@ -78,6 +79,7 @@ country_decisions = {
 		allow = {
 			NOT = { exists = JAP }
 			is_free_or_tributary_trigger = yes
+			is_emperor_of_china = no
 			owns = 1020
 			owns = 1028
 			all_country = {
@@ -132,6 +134,7 @@ country_decisions = {
 		allow = {
 			NOT = { exists = JAP }
 			is_free_or_tributary_trigger = yes
+			is_emperor_of_china = no
 			owns = 1020
 			owns = 1028
 			all_country = {

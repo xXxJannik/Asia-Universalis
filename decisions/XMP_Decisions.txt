@@ -44,7 +44,8 @@ country_decisions = {
 			tibet_region = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
-				}
+			}
+			is_emperor_of_china = no
 		}
 		effect = {
 			change_tag = XTB
