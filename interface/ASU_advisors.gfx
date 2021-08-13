@@ -791,6 +791,23 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate.lua"
 		loadType = "INGAME"
 	}
+	spriteType = {
+		name = "GFX_advisor_asiangfx_humanist_advisor"
+		texturefile = "gfx//interface//advisors//asian_humanist.dds"
+		noOfFrames = 1
+
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	 
+	spriteType = {
+		name = "GFX_advisor_asiangfx_humanist_advisor_female"
+		texturefile = "gfx//interface//advisors//asian_humanist_female.dds"
+		noOfFrames = 1
+
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
 	#######################
 	#innovatist
 	#generic male 
@@ -811,12 +828,36 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate.lua"
 		loadType = "INGAME"
 	}
+	spriteType = {
+		name = "GFX_advisor_asiangfx_innovatist"
+		texturefile = "gfx//interface//advisors//asian_innovatist.dds"
+		noOfFrames = 1
+
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	} 
+	spriteType = {
+		name = "GFX_advisor_asiangfx_innovatist_female"
+		texturefile = "gfx//interface//advisors//asian_innovatist_female.dds"
+		noOfFrames = 1
+
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
 	#######################
 	#concubine - has only female
 	#generic female 
 	spriteType = {
 		name = "GFX_advisor_concubine"
 		texturefile = "gfx//interface//advisors//concubine_female.dds"
+		noOfFrames = 1
+
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_asiangfx_concubine"
+		texturefile = "gfx//interface//advisors//asian_concubine_female.dds"
 		noOfFrames = 1
 
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -842,6 +883,22 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate.lua"
 		loadType = "INGAME"
 	}
+	spriteType = {
+		name = "GFX_advisor_asiangfx_burgher_representative"
+		texturefile = "gfx//interface//advisors//asian_burgher_representative.dds"
+		noOfFrames = 1
+
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_asiangfx_burgher_representative_female"
+		texturefile = "gfx//interface//advisors//asian_burgher_representative_female.dds"
+		noOfFrames = 1
+
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
 	#######################
 	#marine_leader
 	#generic male 
@@ -857,6 +914,22 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_advisor_marine_leader_female"
 		texturefile = "gfx//interface//advisors//marine_leader_female.dds"
+		noOfFrames = 1
+
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_asiangfx_marine_leader"
+		texturefile = "gfx//interface//advisors//asian_marine_leader.dds"
+		noOfFrames = 1
+
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_asiangfx_marine_leader_female"
+		texturefile = "gfx//interface//advisors//asian_marine_leader_female.dds"
 		noOfFrames = 1
 
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -882,6 +955,22 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate.lua"
 		loadType = "INGAME"
 	}
+	spriteType = {
+		name = "GFX_advisor_asiangfx_infantry_leader"
+		texturefile = "gfx//interface//advisors//asian_infantry_leader.dds"
+		noOfFrames = 1
+
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	} 
+	spriteType = {
+		name = "GFX_advisor_asiangfx_infantry_leader_female"
+		texturefile = "gfx//interface//advisors//asian_infantry_leader_female.dds"
+		noOfFrames = 1
+
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
 	#######################
 	#cavalry_leader
 	#generic male 
@@ -897,6 +986,23 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_advisor_cavalry_leader_female"
 		texturefile = "gfx//interface//advisors//cavalry_leader_female.dds"
+		noOfFrames = 1
+
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_asiangfx_cavalry_leader"
+		texturefile = "gfx//interface//advisors//asian_cavalry_leader.dds"
+		noOfFrames = 1
+
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	#generic female 
+	spriteType = {
+		name = "GFX_advisor_asiangfx_cavalry_leader_female"
+		texturefile = "gfx//interface//advisors//asian_cavalry_leader_female.dds"
 		noOfFrames = 1
 
 		effectFile = "gfx/FX/buttonstate.lua"
