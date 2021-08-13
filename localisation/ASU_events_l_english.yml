@@ -37,3 +37,39 @@
  ASU_mob.2.t:0 "$COUNTRY$ mobilizes!"
  ASU_mob.2.d:0 "We have ordered general mobilisation. Soon we will be able to strike with all of our military might."
  ASU_mob.2.a:0 "We will crush them!"
+
+ ASU_mob.3.t:0 "Forced consription"
+ ASU_mob.3.d:0 "Our mobilisation includes every man above the age of 15. The idea of serving the military is not liked by everyone."
+ ASU_mob.3.a:0 "Everyone must serve"
+
+ ASU_mob.4.t:0 "War effort"
+ ASU_mob.4.d:0 "The mobilisation is very expensive and unforseen expenses are nothing special."
+ ASU_mob.4.a:0 "Sacrifices must be made"
+
+ ASU_mob.5.t:0 "The people are tired of war"
+ ASU_mob.5.d:0 "Public unrest can be felt through the streets of our cities. The people call for peace!"
+ ASU_mob.5.a:0 "Thats war"
+
+ ASU_mob.6.t:0 "War enthusiasm"
+ ASU_mob.6.d:0 "The recently ordered mobilisation has spread a wave of enthusiasm throughout our country!"
+ ASU_mob.6.a:0 "We will win!"
+
+ ASU_mob.7.t:0 "Support from the guilds"
+ ASU_mob.7.d:0 "Our merchant guilds have loaned us money with below average interest. They claim this as their part of the war effort."
+ ASU_mob.7.a:0 "Money they will never see again"
+
+ ASU_mob.8.t:0 "Local Mercenary Companies form"
+ ASU_mob.8.d:0 "The chance of good money has lured many foreigners into joining one of the several mercenary companies."
+ ASU_mob.8.a:0 "These fools!"
+
+ ASU_mob.9.t:0 "A lifetime of war"
+ ASU_mob.9.d:0 "The current war includes many different generations. Some children fight side by side with their parents, others have never seen their father."
+ ASU_mob.9.a:0 "Has man gone insane?"
+
+ ASU_mob.10.t:0 "Public demand for demobilisation"
+ ASU_mob.10.d:0 "Our mobilisation has drafted many man into the army. They have been drilled to fight, yet there is no war to fight. It is demanded that we pay them, but without combat there is no payment."
+ ASU_mob.10.a:0 "We will strike any moment!"
+
+ ASU_mob.11.t:0 "Costly mobilisation"
+ ASU_mob.11.d:0 "Our mobilisation is very expensive. We have to pay our armies while our peasents can not work their fields."
+ ASU_mob.11.a:0 "It is time to make decisions"
