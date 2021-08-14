@@ -24,9 +24,6 @@ age_of_discovery = {
 
 		}
 		
-		
-		
-	
 		obj_5_centers_of_trade = {
 			calc_true_if = {
 				all_owned_province = {
@@ -77,6 +74,50 @@ age_of_discovery = {
 				has_country_flag = humiliated_rival
 			}
 		}
+
+		#ASU
+		obj_ten_churches = {
+			num_of_owned_provinces_with = {
+				value = 10
+				has_tax_building_trigger = yes
+			}
+		}
+
+		obj_ten_workshops = {
+			num_of_owned_provinces_with = {
+				value = 10
+				workshop = yes
+			}
+		}
+
+		obj_world_port = {
+			any_owned_province = {
+				province_has_center_of_trade_of_level = 3
+				controlled_by = owner
+				is_core = ROOT
+			}
+		}
+
+		obj_have_fleet_age_1 = {
+			OR = {
+				num_of_heavy_ship = 5
+				num_of_galley = 25
+			}
+		}
+
+		obj_have_gold_provinces = {
+			num_of_owned_provinces_with = {
+				value = 2
+				trade_goods = gold
+			}
+		}
+
+		obj_be_advised = {
+			has_adm_advisor = yes
+			has_dip_advisor = yes
+			has_mil_advisor = yes
+		}
+
 	}		
 	
 
@@ -223,16 +264,6 @@ age_of_reformation = {
 	
 	abilities = {
 	
-		ab_allow_religion_enforced = {
-			effect = {
-				custom_tooltip = religion_enforced_edict
-				set_country_flag = religion_enforced_edict
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-	
 
 		ab_siege_blockades = {
 			modifier = {
@@ -293,17 +324,6 @@ age_of_reformation = {
 			}
 			ai_will_do = {
 				factor = 10
-			}
-		}
-		ab_mughal_artillery = {
-			allow = {
-				tag = MUG
-			}
-			modifier = {
-				artillery_cost = -0.5
-			}
-			ai_will_do = {
-				factor = 100
 			}
 		}		
 		ab_persia_reinforce = {
@@ -375,15 +395,6 @@ age_of_absolutism = {
 	
 	abilities = {
 	
-		ab_rival_change = {
-			modifier = {
-				rival_change_cost = -0.5
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-
 		ab_rival_border_fort = {
 			modifier = {
 				rival_border_fort_maintenance = -1.0
