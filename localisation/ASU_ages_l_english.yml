@@ -1,8 +1,39 @@
 ﻿l_english:
 
 
+ #Age 1
 
+ #Objectives
+ obj_ten_churches:0 "Own 10 Temples"
+ obj_ten_churches_desc:0 "Own atleast 10 Temples."
+
+ obj_ten_workshops:0 "Own 10 Workshops"
+ obj_ten_workshops_desc:0 "Own atleast 10 Workshops."
+
+ obj_world_port:0 "Own a World Port"
+ obj_world_port_desc:0 "Be in control of a World Port."
+
+ obj_have_fleet_age_1:0 "Have a Fleet"
+ obj_have_fleet_age_1_desc:0 "Have atleast 5 Heavies or 25 Galleys."
+
+ obj_have_gold_provinces:0 "Produce Gold"
+ obj_have_gold_provinces_desc:0 "Have two provinces that produce Gold."
+
+ obj_be_advised:0 "Have Advisors"
+ obj_be_advised_desc:0 "Have an Advisor of each type."
+
+ #Abilities
+ ab_vassal_income:0 "Increased Vassal Taxation"
+
+ ab_diplomats_age_1:0 "More Diplomats"
+
+ ab_tax_income_age_1:0 "Tax Income"
+
+ ab_tax_efficiency_age_1:0 "Efficent Taxcollectors"
+
+ ab_flat_manpower_age_1:0 "Manpower Reserve"
  
+ ab_chinese_civil_war:0 "Chinese Civil War"
  
  
  
