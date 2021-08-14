@@ -77,7 +77,26 @@
 
  #Objectives
 
- 
+ obj_good_income:0 "Good Income"
+ obj_good_income_desc:0 "Have an income of atleast 300 Ducats a month."
+
+ obj_manufactories:0 "Own Manufactories"
+ obj_manufactories_desc:0 "Own atleast 50 Manufactories."
+
+ obj_one_hundred_workshops:0 "Own Workshops"
+ obj_one_hundred_workshops_desc:0 "Own atleast 100 Workshops or Counting Houses."
+
+ obj_a_million_man:0 "A Great Reserve"
+ obj_a_million_man_desc:0 "Have atleast 1 Million Manpower reserve."
+
+ obj_have_fleet_age_3:0 "Build a Fleet"
+ obj_have_fleet_age_3_desc:0 "Have atleast 100 Heavy Ships or 400 Galleys."
+
+ obj_have_innovativeness:0 "Have Innovativeness"
+ obj_have_innovativeness_desc:0 "Have an Innovativeness of atleast 30."
+
+ #Abilities
+
  
  
  

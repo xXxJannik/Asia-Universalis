@@ -531,15 +531,21 @@ age_of_absolutism = {
 
 		obj_manufactories = {
 			num_of_owned_provinces_with = {
-				value = 15
+				value = 50
 				has_manufactory_trigger = yes
 			}
 		}
 
 		obj_one_hundred_workshops = {
-			num_of_owned_provinces_with = {
-				value = 100
-				has_building = workshop
+			OR = {
+				num_of_owned_provinces_with = {
+					value = 100
+					has_building = workshop
+				}
+				num_of_owned_provinces_with = {
+					value = 100
+					has_building = counting_house
+				}
 			}
 		}
 
@@ -628,6 +634,26 @@ age_of_absolutism = {
 			}
 			ai_will_do = {
 				factor = 100
+			}
+		}
+
+		#ASU
+
+		ab_free_force_march = {
+			rule = {
+				force_march_free = yes
+			}
+		}
+
+		ab_army_prof_age_3 = {
+			modifier = {
+				yearly_army_professionalism = 0.1
+			}
+		}
+
+		ab_build_cost = {
+			modifier = {
+				build_cost = -0.1
 			}
 		}
 	}
