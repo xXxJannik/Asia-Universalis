@@ -97,6 +97,38 @@
 
  #Abilities
 
+ ab_free_force_march:0 "Free Force March"
+
+ ab_army_prof_age_3:0 "Army of Regulars"
+
+ ab_build_cost:0 "New Material"
+
+ ab_max_absolutism:0 "Absolute Rule"
+
+ ab_advisor_cost:0 "Good Education"
+
+ #Age 4
+
+ #Objectives
+
+ obj_be_hegemon:0 "Proclaim Hegemony"
+ obj_be_hegemon_desc:0 "Be a Hegemon."
+
+ obj_have_development:0 "Big and Prosperous"
+ obj_have_development_desc:0 "Have atleast 3000 development."
+
+ obj_reformed_asian:0 "Reformed Empire"
+ obj_reformed_asian_desc:0 "Complete all steps to reform."
+
+ obj_have_furnaces:0 "Industrialisation"
+ obj_have_furnaces_desc:0 "Own atleast three Furnaces."
+
+ obj_diplo_slots:0 "Strong Diplomacy"
+ obj_diplo_slots_desc:0 "Have atleast seven Diplomatic Relation Slots."
+
+ obj_revolution:0 "The Revolution"
+ obj_revolution_desc:0 "Either become the Revolution or crush it."
+
  
  
  

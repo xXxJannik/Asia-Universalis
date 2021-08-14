@@ -647,7 +647,7 @@ age_of_absolutism = {
 
 		ab_army_prof_age_3 = {
 			modifier = {
-				yearly_army_professionalism = 0.1
+				yearly_army_professionalism = 0.01
 			}
 		}
 
@@ -656,6 +656,20 @@ age_of_absolutism = {
 				build_cost = -0.1
 			}
 		}
+
+		ab_max_absolutism = {
+			modifier = {
+				max_absolutism = 25
+			}
+		}
+
+		ab_advisor_cost = {
+			modifier = {
+				advisor_cost = -0.05
+			}
+		}
+
+
 	}
 }
 
@@ -709,6 +723,40 @@ age_of_revolutions = {
 	
 		obj_two_institutions = {
 			num_of_owned_and_controlled_institutions = 2
+		}
+
+		#ASU
+
+		obj_be_hegemon = {
+			is_hegemon = yes
+		}
+
+		obj_have_development = {
+			total_development = 3000
+		}
+
+		obj_reformed_asian = {
+			technology_group = ASU_reformed_asian_tech
+		}
+
+		obj_have_furnaces = {
+			num_of_owned_provinces_with = {
+				value = 3
+				has_building = furnace
+			}
+		}
+
+		obj_diplo_slots = {
+			num_of_diplomatic_relations = 7
+		}
+
+		obj_revolution = {
+			OR = {
+				is_revolution_target = yes
+				revolution_target = {
+					war_with = ROOT
+				}
+			}
 		}
 	}
 
