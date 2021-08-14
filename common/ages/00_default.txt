@@ -523,6 +523,45 @@ age_of_absolutism = {
 			num_accepted_cultures = 5
 		}
 
+		#ASU
+
+		obj_good_income = {
+			monthly_income = 300
+		}
+
+		obj_manufactories = {
+			num_of_owned_provinces_with = {
+				value = 15
+				has_manufactory_trigger = yes
+			}
+		}
+
+		obj_one_hundred_workshops = {
+			num_of_owned_provinces_with = {
+				value = 100
+				has_building = workshop
+			}
+		}
+
+		obj_a_million_man = {
+			manpower = 1000
+		}
+
+		obj_have_fleet_age_3 = {
+			OR = {
+				num_of_heavy_ship = 100
+				num_of_galley = 400
+			}
+		}
+
+		obj_have_innovativeness = {
+			innovativeness = 30
+		}
+
+		obj_be_empire = {
+			government_rank = 3
+		}
+
 	}	
 	
 	
