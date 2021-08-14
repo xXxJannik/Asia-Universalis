@@ -1,0 +1,54 @@
+estate_ASU_royalists_have_generals = {
+    can_select = {
+        NOT = { num_of_generals = 3 }
+    }
+    selection_weight = {
+        factor = 1
+    }
+    task_requirements = {
+        num_of_generals = 4
+    }
+    task_completed_effect = {
+        add_mil_power = 50
+    }
+    failing_effect = {
+        add_years_of_income = -1
+    }
+}
+
+estate_ASU_royalists_have_admirals = {
+    can_select = {
+        NOT = { num_of_admirals = 3 }
+    }
+    num_of_ports = 30
+    selection_weight = {
+        factor = 1
+    }
+    task_requirements = {
+        num_of_admirals = 4
+    }
+    task_completed_effect = {
+        add_dip_power = 50
+    }
+    failing_effect = {
+        add_years_of_income = -1
+    }
+}
+
+estate_ASU_royalists_have_prestige = {
+    can_select = {
+        NOT = { prestige =  25}
+    }
+    selection_weight = {
+        factor = 1
+    }
+    task_requirements = {
+        prestige = 50
+    }
+    task_completed_effect = {
+        add_adm_power = 50
+    }
+    failing_effect = {
+        add_prestige = -25
+    }
+}

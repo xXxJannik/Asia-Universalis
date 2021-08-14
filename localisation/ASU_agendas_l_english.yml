@@ -11,10 +11,10 @@
  estate_banners_start_war:0 "start a war"
  estate_banners_start_war_desc:0 "Our administration suffers during peace times as the corrupt Banners do their thing."
 
- estate_banners_build_up:0 "build an army"
+ estate_banners_build_up:0 "build an Army"
  estate_banners_build_up_desc:0 "We should increase the size of our regular army and in doing so reduce the influence of the Banners."
 
- estate_banners_have_generals:0 "recruit generals"
+ estate_banners_have_generals:0 "recruit Generals"
  estate_banners_have_generals_desc:0 "Our country needs more and better generals."
 
  #Janissary agendas
@@ -24,16 +24,63 @@
  estate_janissaries_develop_x:0 "develop heathen province"
  estate_janissaries_develop_x_desc:0 "The Janissaries demand a little support for their people."
 
- estate_janissaries_build_up:0 "build an army"
+ estate_janissaries_build_up:0 "build an Army"
  estate_janissaries_build_up_desc:0 "The Janissaries perform the best whenever they are in a supportive position."
 
- #Rajput Soldiers Agendas
+ #Rajput Soldiers agendas
 
  estate_ASU_rajputs_start_war:0 "start a war"
  estate_ASU_rajputs_start_war_desc:0 "Our Rajput Soldiers demand a war."
 
- estate_ASU_rajputs_build_up:0 "build an army"
+ estate_ASU_rajputs_build_up:0 "build an Army"
  estate_ASU_rajputs_build_up_desc:0 "Our strength lies in numbers."
 
  estate_ASU_rajputs_have_rajputs:0 "reinforce Rajput regiments"
- estate_ASU_rajputs_have_rajputs_desc:0 "The Rajput Soldiers demand more regiments."
+ estate_ASU_rajputs_have_rajputs_desc:0 "The Rajput Soldiers demand more regiments."^
+
+ #Radicals agendas
+ estate_ASU_radicals_start_war:0 "start a war"
+ estate_ASU_radicals_start_war_desc:0 "The Radicals demand a war! It would be better to have them fight the enemy."
+
+ estate_ASU_radicals_build_up:0 "build an Army"
+ estate_ASU_radicals_build_up_desc:0 "It is in the interest of the people to have an army that defends them!"
+
+ estate_ASU_radicals_have_arty:0 "build Artillery"
+ estate_ASU_radicals_have_arty_desc:0 "Our cannons will shred them to pieces."
+
+
+ #Royalists agendas
+ estate_ASU_royalists_have_generals:0 "recruit Generals"
+ estate_ASU_royalists_have_generals_desc:0 "The Royalists demand enlistment as Officers and Generals."
+
+ estate_ASU_royalists_have_admirals:0 "recruit Admirals"
+ estate_ASU_royalists_have_admirals_desc:0 "The Royalists demand enlistment as Officers and Admirals."
+
+ estate_ASU_royalists_have_prestige:0 "have Prestige"
+ estate_ASU_royalists_have_prestige_desc:0 "Our Country should have more prestige!"
+
+ #Peasants agendas
+ estate_ASU_peasants_have_stability:0 "have Stability"
+ estate_ASU_peasants_have_stability_desc:0 "Stability brings prosperity."
+
+ estate_ASU_peasants_have_peace:0 "have Peace"
+ estate_ASU_peasants_have_peace_desc:0 "Peace and prosperity is a man's dream."
+
+ estate_peasants_build_workshop_in_y:0 "build Counting House"
+ estate_peasants_build_workshop_in_y_desc:0 "It is demanded, that we build a Counting House."
+
+ estate_peasants_develop_x:0 "develop Province"
+ estate_peasants_develop_x_desc:0 "They demand improvements in infrastructure!"
+
+ #Moderates agendas
+ estate_ASU_moderates_have_stability:0 "have Stability"
+ estate_ASU_moderates_have_stability_desc:0 "Stability brings prosperity."
+
+ estate_ASU_moderates_have_peace:0 "have Peace"
+ estate_ASU_moderates_have_peace_desc:0 "Peace and prosperity is a man's dream."
+
+ estate_moderates_build_workshop_in_y:0 "build Counting House"
+ estate_moderates_build_workshop_in_y_desc:0 "It is demanded, that we build a Counting House."
+
+ estate_moderates_develop_x:0 "develop Province"
+ estate_moderates_develop_x_desc:0 "They demand investments in infrastructure!"

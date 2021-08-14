@@ -1,0 +1,53 @@
+estate_ASU_radicals_start_war = {
+    can_select = {
+        is_at_war = no
+    }
+    selection_weight = {
+		factor = 1
+	}
+    task_requirements = {
+        is_at_war = yes
+    }
+    task_completed_effect = {
+        add_mil_power = 50
+    }
+    failing_effect = {
+        add_years_of_income = -2
+    }
+}
+
+estate_ASU_radicals_build_up = {
+    can_select = {
+        NOT = { army_size_percentage = 0.6 }
+    }
+    selection_weight = {
+        factor = 1
+    }
+    task_requirements = {
+        army_size_percentage = 0.75
+    }
+    task_completed_effect = {
+        add_mil_power = 50
+    }
+    failing_effect = {
+        add_yearly_manpower = -1
+    }
+}
+
+estate_ASU_radicals_have_arty = {
+    can_select = {
+        NOT = { artillery_fraction = 0.10 }
+    }
+    selection_weight = {
+        factor = 1
+    }
+    task_requirements = {
+        artillery_fraction = 0.15
+    }
+    task_completed_effect = {
+        add_mil_power = 50
+    }
+    failing_effect = {
+        add_yearly_manpower = -1
+    }
+}

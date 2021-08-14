@@ -41,7 +41,9 @@ estate_ASU_radicals = {
 	}
 
 	agendas = {
-		
+		estate_ASU_radicals_start_war
+		estate_ASU_radicals_build_up
+		estate_ASU_radicals_have_arty
 	}
 
 	color = { 255 153 0 }

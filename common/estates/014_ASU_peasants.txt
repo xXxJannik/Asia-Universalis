@@ -42,7 +42,10 @@ estate_ASU_peasants = {
 	}
 
 	agendas = {
-		
+		estate_ASU_peasants_have_stability
+		estate_ASU_peasants_have_peace
+		estate_peasants_build_workshop_in_y
+		estate_peasants_develop_x
 	}
 
 	color = { 0 255 0 }

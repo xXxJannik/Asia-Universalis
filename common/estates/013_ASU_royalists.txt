@@ -42,7 +42,9 @@ estate_ASU_royalists = {
 	}
 
 	agendas = {
-		
+		estate_ASU_royalists_have_generals
+		estate_ASU_royalists_have_admirals
+		estate_ASU_royalists_have_prestige
 	}
 
 	color = { 153 0 0 }
