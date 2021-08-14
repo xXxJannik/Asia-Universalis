@@ -195,6 +195,50 @@ age_of_discovery = {
 				factor = 10
 			}
 		}
+
+		#ASU
+		ab_vassal_income = {
+			modifier = {
+				vassal_income = 0.5
+			}
+		}
+
+		ab_diplomats_age_1 = {
+			modifier = {
+				diplomats = 2
+			}
+		}
+
+		ab_tax_income_age_1 = {
+			modifier = {
+				global_tax_income = 24
+			}
+		}
+
+		ab_tax_efficiency_age_1 = {
+			modifier = {
+				global_tax_modifier = 0.2
+			}
+		}
+
+		ab_flat_manpower_age 1 = {
+			modifier = {
+				global_manpower = 10
+			}
+		}
+
+		ab_chinese_civil_war = {
+			allow = {
+				capital_scope = {
+					OR = {
+						superregion = china_superregion 
+					}
+				}
+				modifier = {
+					ae_impact = -0.1
+				}
+			}
+		}
 	}
 }
 
