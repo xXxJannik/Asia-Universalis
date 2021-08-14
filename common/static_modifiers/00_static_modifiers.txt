@@ -569,6 +569,10 @@ positive_stability = {
 	yearly_corruption = -0.02
 	global_institution_spread = 0.05
 	yearly_harmony = 0.25
+
+	#ASU
+	ASU_peasants_loyalty_modifier = 0.01
+	ASU_moderates_loyalty_modifier = 0.01
 }
 
 privateering = {
@@ -662,6 +666,10 @@ peace = {
 	global_institution_spread = 0.1
 	rr_girondists_influence = -0.1
 	pr_smugglers_influence = 0.1
+
+	#ASU
+	ASU_peasants_loyalty_modifier = 0.05
+	ASU_moderates_loyalty_modifier = 0.05
 }
 
 unconditional_surrender = {
@@ -741,6 +749,8 @@ army_tradition = {
 	ASU_rajputs_loyalty_modifier = 0.05
 	ASU_banners_loyalty_modifier = 0.05
 	ASU_janissaries_loyalty_modifier = 0.05
+	ASU_radicals_loyalty_modifier = 0.05
+	ASU_royalists_loyalty_modifier = 0.05
 }
 
 navy_tradition = {
@@ -914,6 +924,17 @@ corruption = {
 	jains_loyalty_modifier = 0.1
 	rajput_loyalty_modifier = 0.1
 
+
+	#ASU
+	ASU_tribes_loyalty_modifier = 0.05
+	ASU_banners_loyalty_modifier = 0.05
+	ASU_janissaries_loyalty_modifier = 0.05
+	ASU_rajputs_loyalty_modifier = 0.05
+	ASU_radicals_loyalty_modifier = 0.05
+	ASU_royalists_loyalty_modifier = 0.05
+	ASU_peasants_loyalty_modifier = 0.05
+	ASU_moderates_loyalty_modifier = 0.05
+
 	monthly_heir_claim_increase = 0.025								
 }
 
@@ -1015,6 +1036,10 @@ prestige = {
 	ASU_banners_loyalty_modifier = 0.05
 	ASU_janissaries_loyalty_modifier = 0.05
 	ASU_rajputs_loyalty_modifier = 0.05
+	ASU_radicals_loyalty_modifier = 0.05
+	ASU_royalists_loyalty_modifier = 0.05
+	ASU_peasants_loyalty_modifier = 0.05
+	ASU_moderates_loyalty_modifier = 0.05
 }
 
 no_debate_in_parliament = {
@@ -1028,6 +1053,8 @@ republican_tradition = {
 	reform_progress_growth = 1.0
 	burghers_loyalty_modifier = 0.05
 	vaisyas_loyalty_modifier = 0.05
+	ASU_peasants_loyalty_modifier = 0.05
+	ASU_moderates_loyalty_modifier = 0.05
 }
 
 inverse_republican_tradition = {
@@ -1315,6 +1342,12 @@ revolution_target = {
 	land_forcelimit_modifier = 0.4
 	naval_forcelimit_modifier = 0.4
 	papal_influence = -100
+
+	#ASU
+	ASU_radicals_loyalty_modifier = 0.05
+	ASU_royalists_loyalty_modifier = 0.05
+	ASU_peasants_loyalty_modifier = 0.05
+	ASU_moderates_loyalty_modifier = 0.05
 }
 
 dishonoured_alliance =  {
