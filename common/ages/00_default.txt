@@ -840,5 +840,58 @@ age_of_revolutions = {
 				}
 			}
 		}
+
+
+		#ASU
+
+		ab_land_attrition = {
+			modifier = {
+				land_attrition = -0.2
+			}
+		}
+
+		ab_rev_or_monarchy = {
+			modifier = {
+				max_absolutism = 25
+				max_revolutionary_zeal = 25
+			}
+		}
+
+		ab_army_prof_age_4 = {
+			modifier = {
+				yearly_army_professionalism = 0.02
+			}
+		}
+
+		ab_advisor_cost_age_4 = {
+			modifier = {
+				advisor_cost = -0.05
+			}
+		}
+
+		ab_fire_damage_received = {
+			modifier = {
+				fire_damage_received = -0.05
+			}
+		}
+
+		ab_shock_damage_received = {
+			modifier = {
+				shock_damage_received = -0.05
+			}
+		}
+
+		ab_gov_cap = {
+			modifier = {
+				governing_capacity = 250
+			}
+		}
+
+		ab_national_supply = {
+			modifier = {
+				global_supply_limit_modifier = 0.5
+			}
+		}
+
 	}
 }

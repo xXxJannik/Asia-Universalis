@@ -127,7 +127,25 @@
  obj_diplo_slots_desc:0 "Have atleast seven Diplomatic Relation Slots."
 
  obj_revolution:0 "The Revolution"
- obj_revolution_desc:0 "Either become the Revolution or crush it."
+ obj_revolution_desc:0 "Either become the Revolution or crush it."^
+
+ #Abilities
+
+ ab_land_attrition:0 "Improved Medicine"
+
+ ab_rev_or_monarchy:0 "Revolutionary Struggle"
+
+ ab_army_prof_age_4:0 "Standardised Army"
+
+ ab_advisor_cost_age_4:0 "Quality Education"
+
+ ab_fire_damage_received:0 "New Fire Tactics"
+
+ ab_shock_damage_received:0 "New Shock Tactics"
+
+ ab_gov_cap:0 "Good Administration"
+
+ ab_national_supply:0 "Supply Trains"
 
  
  
