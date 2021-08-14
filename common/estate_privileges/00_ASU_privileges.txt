@@ -920,3 +920,329 @@ estate_ASU_rajputs_privileges_8 = {
         factor = 0                               
     }
 }
+
+##########################################################
+#########        Radicals privileges              ########
+##########################################################
+
+estate_ASU_radicals_privileges_1 = {
+	icon = privilege_promote_purbias
+	max_absolutism = -5
+	influence = 0.05
+	loyalty = 0.05
+	land_share = 0
+	benefits = {
+		special_unit_forcelimit = 0.25
+	}
+	penalties = {
+		global_trade_goods_size_modifier = -0.1
+		ASU_royalists_loyalty_modifier = -0.05
+	}
+	ai_will_do = {
+		factor = 10
+	}
+}
+
+estate_ASU_radicals_privileges_2 = {
+	icon = privilege_promote_purbias
+	land_share = 0
+	max_absolutism = -5
+	loyalty = 0.05
+	influence = 0.05
+	on_granted = {
+		add_country_modifier = { 
+			name = ASU_estate_radicals_guards_moral
+			duration = -1
+		}
+	}
+	can_revoke = {
+		has_country_modifier = ASU_estate_radicals_guards_moral
+	}
+	on_revoked = {
+        remove_country_modifier = ASU_estate_radicals_guards_moral
+    }
+	on_invalid = {
+		remove_country_modifier = ASU_estate_radicals_guards_moral
+	}		
+	penalties = {
+		land_maintenance_modifier = 0.1
+		ASU_royalists_loyalty_modifier = -0.05
+	}
+	ai_will_do = {					
+        factor = 0                               
+    }
+}
+
+estate_ASU_radicals_privileges_3 = {
+	icon = privilege_promote_purbias
+	land_share = 0
+	max_absolutism = -5
+	loyalty = 0.05
+	influence = 0.05
+	on_granted = {
+		add_country_modifier = { 
+			name = ASU_estate_radicals_guards_drill_loss
+			duration = -1
+		}
+	}
+	can_revoke = {
+		has_country_modifier = ASU_estate_radicals_guards_drill_loss
+	}
+	on_revoked = {
+        remove_country_modifier = ASU_estate_radicals_guards_drill_loss
+    }
+	on_invalid = {
+		remove_country_modifier = ASU_estate_radicals_guards_drill_loss
+	}		
+	penalties = {
+		global_trade_goods_size_modifier = -0.1
+		ASU_royalists_loyalty_modifier = -0.05
+	}
+	ai_will_do = {					
+        factor = 0                               
+    }
+}
+
+estate_ASU_radicals_privileges_4 = {
+	icon = privilege_promote_purbias
+	land_share = 0
+	max_absolutism = -5
+	loyalty = 0.05
+	influence = 0.05
+	on_granted = {
+		add_country_modifier = { 
+			name = ASU_estate_radicals_guards_discipline
+			duration = -1
+		}
+	}
+	can_revoke = {
+		has_country_modifier = ASU_estate_radicals_guards_discipline
+	}
+	on_revoked = {
+        remove_country_modifier = ASU_estate_radicals_guards_discipline
+    }
+	on_invalid = {
+		remove_country_modifier = ASU_estate_radicals_guards_discipline
+	}	
+	penalties = {
+		ASU_royalists_loyalty_modifier = -0.05
+	}	
+	ai_will_do = {					
+        factor = 0                               
+    }
+}
+
+##########################################################
+#########        Royalists privileges             ########
+##########################################################
+
+estate_ASU_royalists_privileges_1 = {
+	icon = privilege_promote_purbias
+	max_absolutism = -5
+	influence = 0.05
+	loyalty = 0.05
+	land_share = 0
+	penalties = {
+		global_tax_modifier = -0.25
+	}
+	ai_will_do = {
+		factor = 10
+	}
+}
+
+estate_ASU_royalists_privileges_2 = {
+	icon = privilege_promote_purbias
+	max_absolutism = -5
+	influence = 0.05
+	loyalty = 0.05
+	land_share = 0
+	penalties = {
+		production_efficiency = -0.1
+	}
+	ai_will_do = {
+		factor = 10
+	}
+}
+
+estate_ASU_royalists_privileges_3 = {
+	icon = privilege_promote_purbias
+	max_absolutism = -5
+	influence = 0.05
+	loyalty = 0.05
+	land_share = 0
+	penalties = {
+		global_trade_goods_size_modifier = -0.1
+	}
+	ai_will_do = {
+		factor = 10
+	}
+}
+
+estate_ASU_royalists_privileges_4 = {
+	icon = privilege_promote_purbias
+	max_absolutism = -5
+	influence = 0.05
+	loyalty = 0.05
+	land_share = 0
+	penalties = {
+		trade_efficiency = -0.1
+	}
+	ai_will_do = {
+		factor = 10
+	}
+}
+
+##########################################################
+#########        Peasants privileges              ########
+##########################################################
+
+estate_ASU_peasants_privileges_1 = {
+	icon = privilege_promote_purbias
+	max_absolutism = -5
+	influence = 0.05
+	loyalty = 0.05
+	land_share = 0
+	modifier_by_land_ownership = {
+		global_trade_goods_size_modifier = 0.33
+	}
+	penalties = {
+		ASU_royalists_loyalty_modifier = -0.05
+	}
+	ai_will_do = {
+		factor = 10
+	}
+}
+
+estate_ASU_peasants_privileges_2 = {
+	icon = privilege_promote_purbias
+	max_absolutism = -5
+	influence = 0.05
+	loyalty = 0.05
+	land_share = 0
+	benefits = {
+		development_cost = -0.05
+	}
+	penalties = {
+		global_manpower_modifier = -0.2
+		global_sailors_modifier = -0.2
+		ASU_royalists_loyalty_modifier = -0.05
+	}
+	ai_will_do = {
+		factor = 10
+	}
+}
+
+estate_ASU_peasants_privileges_3 = {
+	icon = privilege_promote_purbias
+	max_absolutism = -5
+	influence = 0.05
+	loyalty = 0.05
+	land_share = 0
+	benefits = {
+		build_cost = -0.2
+	}
+	penalties = {
+		trade_efficiency = -0.1
+		ASU_royalists_loyalty_modifier = -0.05
+	}
+	ai_will_do = {
+		factor = 10
+	}
+}
+
+estate_ASU_peasants_privileges_4 = {
+	icon = privilege_promote_purbias
+	max_absolutism = -5
+	influence = 0.05
+	loyalty = 0.05
+	land_share = 0
+	benefits = {
+		global_tax_modifier = 0.33
+	}
+	penalties = {
+		land_forcelimit_modifier = -0.1
+		naval_forcelimit_modifier = -0.1
+		ASU_royalists_loyalty_modifier = -0.05
+	}
+	ai_will_do = {
+		factor = 10
+	}
+}
+
+##########################################################
+#########        Moderates privileges              ########
+##########################################################
+
+
+
+esate_ASU_moderates_privileges_1 = {
+	icon = privilege_promote_purbias
+	max_absolutism = -5
+	influence = 0.05
+	loyalty = 0.05
+	land_share = 0
+	modifier_by_land_ownership = {
+		global_trade_goods_size_modifier = 0.2
+	}
+	penalties = {
+		ASU_royalists_loyalty_modifier = -0.05
+	}
+	ai_will_do = {
+		factor = 10
+	}
+}
+
+esate_ASU_moderates_privileges_2 = {
+	icon = privilege_promote_purbias
+	max_absolutism = -5
+	influence = 0.05
+	loyalty = 0.05
+	land_share = 0
+	benefits = {
+		development_cost = -0.05
+	}
+	penalties = {
+		land_maintenance_modifier = 0.2
+		ASU_royalists_loyalty_modifier = -0.05
+	}
+	ai_will_do = {
+		factor = 10
+	}
+}
+
+esate_ASU_moderates_privileges_3 = {
+	icon = privilege_promote_purbias
+	max_absolutism = -5
+	influence = 0.05
+	loyalty = 0.05
+	land_share = 0
+	benefits = {
+		special_unit_forcelimit = 0.1
+		land_morale = 0.1
+	}
+	penalties = {
+		ASU_royalists_loyalty_modifier = -0.05
+	}
+	ai_will_do = {
+		factor = 10
+	}
+}
+
+esate_ASU_moderates_privileges_4 = {
+	icon = privilege_promote_purbias
+	max_absolutism = -5
+	influence = 0.05
+	loyalty = 0.05
+	land_share = 0
+	benefits = {
+		global_tax_modifier = 0.33
+	}
+	penalties = {
+		land_forcelimit_modifier = -0.05
+		naval_forcelimit_modifier = -0.05
+		ASU_royalists_loyalty_modifier = -0.05
+	}
+	ai_will_do = {
+		factor = 10
+	}
+}

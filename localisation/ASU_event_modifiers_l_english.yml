@@ -34,16 +34,15 @@
  #Mobilisation
  ASU_early_mob_modifier:0 "Early mobilisation"
  ASU_early_mob_ended_modifier:0 "Mobilisation ended"
-
  ASU_mob_modifier:0 "Mobilisation"
  ASU_mob_ended_modifier:0 "Mobilisation ended"
-
  ASU_mob_transition_modifier:0 "Returning Soldiers"
-
  ASU_mob_guild_support:0 "Guild support"
-
  ASU_mob_mercs_form:0 "Mercenary Companies form"
-
  ASU_mob_lifetime_of_war:0 "Lifetime of war"
-
  ASU_mob_people_demobilise:0 "People demand demobilisation"
+
+ #Radicals
+ ASU_estate_radicals_guards_moral:0 "Defend the revolution!"
+ ASU_estate_radicals_guards_drill_loss:0 "The old Guard"
+ ASU_estate_radicals_guards_discipline:0 "Revolutionary Discipline"

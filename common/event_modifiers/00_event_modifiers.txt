@@ -11974,3 +11974,19 @@ ASU_mob_lifetime_of_war = {
 ASU_mob_people_demobilise = {
 	global_unrest = 2
 }
+
+ASU_estate_radicals_guards_moral = {
+	is_revolutionary_guard_modifier = yes
+	land_morale = 0.2
+}
+
+ASU_estate_radicals_guards_drill_loss = {
+	is_revolutionary_guard_modifier = yes
+	drill_decay_modifier = -0.5
+}
+
+ASU_estate_radicals_guards_discipline = {
+	is_revolutionary_guard_modifier = yes
+	discipline = 0.05
+	land_maintenance_modifier = 0.5
+}

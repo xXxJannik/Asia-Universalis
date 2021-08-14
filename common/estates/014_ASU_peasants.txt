@@ -35,7 +35,10 @@ estate_ASU_peasants = {
 	influence_from_dev_modifier = 1
 
 	privileges = {
-		
+		estate_ASU_peasants_privileges_1
+		estate_ASU_peasants_privileges_2
+		estate_ASU_peasants_privileges_3
+		estate_ASU_peasants_privileges_4
 	}
 
 	agendas = {

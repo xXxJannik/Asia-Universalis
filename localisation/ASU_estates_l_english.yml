@@ -170,3 +170,55 @@
 
  estate_ASU_rajputs_privileges_8:0 "New shock tactics"
  estate_ASU_rajputs_privileges_8_desc:0 "Our Rajputs will use advanced shock tactics."
+
+ #Radicals
+ estate_ASU_radicals_privileges_1:0 "Peoples Revolution"
+ estate_ASU_radicals_privileges_1_desc:0 "The people must be defended by all means necessary! Vive la révolution!"
+
+ estate_ASU_radicals_privileges_2:0 "Defend the Revolution"
+ estate_ASU_radicals_privileges_2_desc:0 "The revolution has brought everyone great benefits! Vive la révolution!"
+
+ estate_ASU_radicals_privileges_3:0 "The old Guard"
+ estate_ASU_radicals_privileges_3_desc:0 "Veterans at their finest."
+
+ estate_ASU_radicals_privileges_4:0 "Revolutionary Discipline"
+ estate_ASU_radicals_privileges_4_desc:0 "We know what we fight for!"
+
+ #Royalists
+ estate_ASU_royalists_privileges_1:0 "Bribe with gold"
+ estate_ASU_royalists_privileges_1_desc:0 "We can bribe the Royalists with gold."
+
+ estate_ASU_royalists_privileges_2:0 "Bribe with goods"
+ estate_ASU_royalists_privileges_2_desc:0 "We can bribe the Royalists with goods."
+ 
+ estate_ASU_royalists_privileges_3:0 "Bribe with land"
+ estate_ASU_royalists_privileges_3_desc:0 "We can bribe the Royalists with land."
+
+ estate_ASU_royalists_privileges_4:0 "Bribe with tariffs"
+ estate_ASU_royalists_privileges_4_desc:0 "We can bribe the Royalists with reduced tariffs."
+
+ #Peasants
+ estate_ASU_peasants_privileges_1:0 "Redistribute land"
+ estate_ASU_peasants_privileges_1_desc:0 "Those lands are now yours!"
+
+ estate_ASU_peasants_privileges_2:0 "Limited conscription"
+ estate_ASU_peasants_privileges_2_desc:0 "No one wants to die in the military."
+ 
+ estate_ASU_peasants_privileges_3:0 "Reduce tariffs"
+ estate_ASU_peasants_privileges_3_desc:0 "Reduced tariffs on trade will benefit the peasants."
+
+ estate_ASU_peasants_privileges_4:0 "Avoid conscription"
+ estate_ASU_peasants_privileges_4_desc:0 "Allows the peasants to pay a tax instead of serving in the military."
+
+ #Moderates
+ esate_ASU_moderates_privileges_1:0 "Subsidise land"
+ esate_ASU_moderates_privileges_1_desc:0 "The state will aid the people."
+
+ esate_ASU_moderates_privileges_2:0 "Quality over Quantity"
+ esate_ASU_moderates_privileges_2_desc:0 "Our military will handpick our soldiers."
+
+ esate_ASU_moderates_privileges_3:0 "Defend the people"
+ esate_ASU_moderates_privileges_3_desc:0 "The people are the revolution. They must be defended at all costs."
+
+ esate_ASU_moderates_privileges_4:0 "New Administration"
+ esate_ASU_moderates_privileges_4_desc:0 "Introduce a new administration that will increase our taxes."
