@@ -11988,5 +11988,5 @@ ASU_estate_radicals_guards_drill_loss = {
 ASU_estate_radicals_guards_discipline = {
 	is_revolutionary_guard_modifier = yes
 	discipline = 0.05
-	land_maintenance_modifier = 0.5
+	reinforce_cost_modifier = 1
 }
