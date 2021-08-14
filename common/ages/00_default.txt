@@ -221,7 +221,7 @@ age_of_discovery = {
 			}
 		}
 
-		ab_flat_manpower_age 1 = {
+		ab_flat_manpower_age_1 = {
 			modifier = {
 				global_manpower = 10
 			}
