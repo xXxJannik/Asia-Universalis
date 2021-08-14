@@ -86,7 +86,7 @@ age_of_discovery = {
 		obj_ten_workshops = {
 			num_of_owned_provinces_with = {
 				value = 10
-				workshop = yes
+				has_building = workshop
 			}
 		}
 
@@ -116,6 +116,10 @@ age_of_discovery = {
 			has_adm_advisor = yes
 			has_dip_advisor = yes
 			has_mil_advisor = yes
+		}
+
+		obj_be_kingdom= {
+			government_rank = 2
 		}
 
 	}		
@@ -255,9 +259,34 @@ age_of_reformation = {
 	
 	objectives = {	
 		obj_humanism_religious = {
-			OR = {
-				full_idea_group = humanist_ideas
-				full_idea_group = religious_ideas
+			custom_trigger_tooltip = {
+				tooltip = ASU_have_full_religious
+				OR = {
+					full_idea_group = humanist_ideas
+					full_idea_group = religious_ideas
+					full_idea_group = katholisch0
+					full_idea_group = protestant0
+					full_idea_group = reformiert0
+					full_idea_group = orthodox0
+					full_idea_group = islam0
+					full_idea_group = tengri0
+					full_idea_group = hindu0
+					full_idea_group = confuci0
+					full_idea_group = budda0
+					full_idea_group = shinto0
+					full_idea_group = coptic0
+					full_idea_group = animist0
+					full_idea_group = feti0
+					full_idea_group = zoro0
+					full_idea_group = ancli0
+					full_idea_group = nahu0
+					full_idea_group = mesoam0
+					full_idea_group = inti0
+					full_idea_group = tote0
+					full_idea_group = shia0
+					full_idea_group = ibadi0
+					full_idea_group = hussite0
+				}
 			}
 		}
 		
@@ -303,6 +332,9 @@ age_of_reformation = {
 			is_subject = no
 			has_unified_culture_group = yes
 		}
+
+		#ASU
+
 	}	
 	
 	
@@ -381,9 +413,7 @@ age_of_reformation = {
 				factor = 100
 			}
 		}
-	
-	}
-	
+    }
 }
 
 age_of_absolutism = {
