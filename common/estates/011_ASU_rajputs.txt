@@ -1,5 +1,5 @@
 estate_ASU_rajputs = {
-	icon = 10
+	icon = 14
 
 	# If true, country will get estate
 	trigger = {
