@@ -11990,3 +11990,64 @@ ASU_estate_radicals_guards_discipline = {
 	discipline = 0.05
 	reinforce_cost_modifier = 1
 }
+
+ASU_researcher_boost = {
+	global_institution_spread = 0.5
+}
+
+ASU_reformist_boost = {
+	reform_progress_growth = 0.4
+}
+
+ASU_humanist_boost = {
+	monthly_splendor = 3
+}
+
+ASU_negotiator_boost = {
+	diplomatic_upkeep = 2
+}
+
+ASU_pioneer_boost = {
+	global_colonial_growth = 30
+}
+
+ASU_markeeter_boost = {
+	global_trade_power = 0.2
+}
+
+ASU_marine_leader_boost = {
+	sailors_recovery_speed = 0.2
+}
+
+ASU_drill_instructor_boost = {
+	drill_gain_modifier = 0.5
+}
+
+ASU_combat_engineer_boost = {
+	siege_ability = 0.25
+}
+
+ASU_mercenary_captain_boost = {
+	merc_maintenance_modifier = -0.25
+}
+
+ASU_defensiv_planner_boost = {
+	shock_damage_received = -0.1
+}
+
+ASU_logistician_boost = {
+	land_attrition = -0.2
+}
+
+ASU_recruiting_officer_boost = {
+	manpower_recovery_speed = 0.20
+}
+
+ASU_infantry_leader_boost = {
+	infantry_power = 0.1
+}
+
+ASU_cavalry_leader_boost = {
+	cavalry_power = 0.1
+}
+

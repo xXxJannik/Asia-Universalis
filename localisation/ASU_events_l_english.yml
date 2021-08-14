@@ -73,3 +73,94 @@
  ASU_mob.11.t:0 "Costly mobilisation"
  ASU_mob.11.d:0 "Our mobilisation is very expensive. We have to pay our armies while our peasents can not work their fields."
  ASU_mob.11.a:0 "It is time to make decisions"
+
+ #Advisor Events
+
+ ASU_advisor_events.1.a:0 "His efforts will be admired throughout the nation"
+ ASU_advisor_events.1.b:0 "His reputation will reach further than our borders"
+
+ ASU_advisor_events.1.t:0 "$ADMINISTRATOR$"
+ ASU_advisor_events.1.d:0 "$ADMINISTRATOR$ is considered one of the best in his/her field of expertise and has recently achieved a breakthrough. This will benefit our country."
+
+ ASU_advisor_events.2.t:0 "$STATE_OVERSEER$"
+ ASU_advisor_events.2.d:0 "$STATE_OVERSEER$ is considered one of the best in his/her field of expertise and has recently achieved a breakthrough. This will benefit our country."
+
+ ASU_advisor_events.3.t:0 "$RESEARCHER$"
+ ASU_advisor_events.3.d:0 "$RESEARCHER$ is considered one of the best in his/her field of expertise and has recently achieved a breakthrough. This will benefit our country."
+
+ ASU_advisor_events.4.t:0 "$REFORMIST$"
+ ASU_advisor_events.4.d:0 "$REFORMIST$ is considered one of the best in his/her field of expertise and has recently achieved a breakthrough. This will benefit our country."
+
+ ASU_advisor_events.5.t:0 "$RELIGIOUS_REPRESENTATIVE$"
+ ASU_advisor_events.5.d:0 "$RELIGIOUS_REPRESENTATIVE$ is considered one of the best in his/her field of expertise and has recently achieved a breakthrough. This will benefit our country."
+
+ ASU_advisor_events.6.t:0 "$HUMANIST_ADVISOR$"
+ ASU_advisor_events.6.d:0 "$HUMANIST_ADVISOR$ is considered one of the best in his/her field of expertise and has recently achieved a breakthrough. This will benefit our country."
+
+ ASU_advisor_events.7.t:0 "$INNOVATIST$"
+ ASU_advisor_events.7.d:0 "$INNOVATIST$ is considered one of the best in his/her field of expertise and has recently achieved a breakthrough. This will benefit our country."
+
+ ASU_advisor_events.8.t:0 "$NEGOTIATOR$"
+ ASU_advisor_events.8.d:0 "$NEGOTIATOR$ is considered one of the best in his/her field of expertise and has recently achieved a breakthrough. This will benefit our country."
+
+ ASU_advisor_events.9.t:0 "$PIONEER$"
+ ASU_advisor_events.9.d:0 "$PIONEER$ is considered one of the best in his/her field of expertise and has recently achieved a breakthrough. This will benefit our country."
+ 
+ ASU_advisor_events.10.t:0 "$MARAUDER_CAPTAIN$"
+ ASU_advisor_events.10.d:0 "$MARAUDER_CAPTAIN$ is considered one of the best in his/her field of expertise and has recently achieved a breakthrough. This will benefit our country."
+ 
+ ASU_advisor_events.11.t:0 "$MARKETEER$"
+ ASU_advisor_events.11.d:0 "$MARKETEER$ is considered one of the best in his/her field of expertise and has recently achieved a breakthrough. This will benefit our country."
+ 
+ ASU_advisor_events.12.t:0 "$MERCANTILE_INFLUENCER$"
+ ASU_advisor_events.12.d:0 "$MERCANTILE_INFLUENCER$ is considered one of the best in his/her field of expertise and has recently achieved a breakthrough. This will benefit our country."
+ 
+ ASU_advisor_events.13.t:0 "$NAVARCH$"
+ ASU_advisor_events.13.d:0 "$NAVARCH$ is considered one of the best in his/her field of expertise and has recently achieved a breakthrough. This will benefit our country."
+ 
+ ASU_advisor_events.14.t:0 "$SUBJECT_MEDIATOR$"
+ ASU_advisor_events.14.d:0 "$SUBJECT_MEDIATOR$ is considered one of the best in his/her field of expertise and has recently achieved a breakthrough. This will benefit our country."
+ 
+ ASU_advisor_events.15.t:0 "$BURGHER_REPRESENTATIVE$"
+ ASU_advisor_events.15.d:0 "$BURGHER_REPRESENTATIVE$ is considered one of the best in his/her field of expertise and has recently achieved a breakthrough. This will benefit our country."
+ 
+ ASU_advisor_events.16.t:0 "$MARINE_LEADER$"
+ ASU_advisor_events.16.d:0 "$MARINE_LEADER$ is considered one of the best in his/her field of expertise and has recently achieved a breakthrough. This will benefit our country."
+ 
+ ASU_advisor_events.17.t:0 "$COMMANDER$"
+ ASU_advisor_events.17.d:0 "$COMMANDER$ is considered one of the best in his/her field of expertise and has recently achieved a breakthrough. This will benefit our country."
+ 
+ ASU_advisor_events.18.t:0 "$DRILL_INSTRUCTOR$"
+ ASU_advisor_events.18.d:0 "$DRILL_INSTRUCTOR$ is considered one of the best in his/her field of expertise and has recently achieved a breakthrough. This will benefit our country."
+ 
+ ASU_advisor_events.19.t:0 "$COMBAT_ENGINEER$"
+ ASU_advisor_events.19.d:0 "$COMBAT_ENGINEER$ is considered one of the best in his/her field of expertise and has recently achieved a breakthrough. This will benefit our country."
+ 
+ ASU_advisor_events.20.t:0 "$TACTICIAN$"
+ ASU_advisor_events.20.d:0 "$TACTICIAN$ is considered one of the best in his/her field of expertise and has recently achieved a breakthrough. This will benefit our country."
+
+ ASU_advisor_events.21.t:0 "$MERCENARY_CAPTAIN$"
+ ASU_advisor_events.21.d:0 "$MERCENARY_CAPTAIN$ is considered one of the best in his/her field of expertise and has recently achieved a breakthrough. This will benefit our country."
+
+ ASU_advisor_events.22.t:0 "$DEFENSIVE_PLANNER$"
+ ASU_advisor_events.22.d:0 "$DEFENSIVE_PLANNER$ is considered one of the best in his/her field of expertise and has recently achieved a breakthrough. This will benefit our country."
+
+ ASU_advisor_events.23.t:0 "$LOGISTICIAN$"
+ ASU_advisor_events.23.d:0 "$LOGISTICIAN$ is considered one of the best in his/her field of expertise and has recently achieved a breakthrough. This will benefit our country."
+
+ ASU_advisor_events.24.t:0 "$RECRUITING_OFFICER$"
+ ASU_advisor_events.24.d:0 "$RECRUITING_OFFICER$ is considered one of the best in his/her field of expertise and has recently achieved a breakthrough. This will benefit our country."
+
+ ASU_advisor_events.25.t:0 "$NOBLE_REPRESENTATIVE$"
+ ASU_advisor_events.25.d:0 "$NOBLE_REPRESENTATIVE$ is considered one of the best in his/her field of expertise and has recently achieved a breakthrough. This will benefit our country."
+
+ ASU_advisor_events.26.t:0 "$INFANTRY_LEADER$"
+ ASU_advisor_events.26.d:0 "$INFANTRY_LEADER$ is considered one of the best in his/her field of expertise and has recently achieved a breakthrough. This will benefit our country."
+
+ ASU_advisor_events.27.t:0 "$CAVALRY_LEADER$"
+ ASU_advisor_events.27.d:0 "$CAVALRY_LEADER$ is considered one of the best in his/her field of expertise and has recently achieved a breakthrough. This will benefit our country."
+
+ 
+
+ 
+

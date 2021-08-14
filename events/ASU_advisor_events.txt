@@ -1,0 +1,1127 @@
+namespace = ASU_advisor_events
+
+#Adm
+
+#administrator 1
+country_event = {
+	id = ASU_advisor_events.1
+	title = "ASU_advisor_events.1.t"
+	desc = "ASU_advisor_events.1.d"
+	picture = ADVISOR_eventPicture
+	
+	trigger = {
+		administrator = 3
+		NOT = { has_country_flag = ASU_administrator_flag }
+	}
+	
+	mean_time_to_happen = {
+		months = 300
+	}
+	
+	option = {
+		name = "ASU_advisor_events.1.a"	# His efforts will be admired throughout the nation
+		ai_chance = {
+			factor = 50
+		}
+		add_meritocracy_effect = yes
+		add_stability_or_adm_power = yes
+		set_country_flag = ASU_administrator_flag
+	}
+		
+	option = {
+		name = "ASU_advisor_events.1.b"	# His reputation will reach further than our borders
+		ai_chance = {
+			factor = 50
+		}
+		add_meritocracy_effect = yes
+		add_prestige = 50
+		set_country_flag = ASU_administrator_flag
+	}
+}
+
+#state_overseer 2
+country_event = {
+	id = ASU_advisor_events.2
+	title = "ASU_advisor_events.2.t"
+	desc = "ASU_advisor_events.2.d"
+	picture = ADVISOR_eventPicture
+	
+	trigger = {
+		state_overseer = 3
+		NOT = { has_country_flag = ASU_state_overseer_flag }
+	}
+	
+	mean_time_to_happen = {
+		months = 300
+	}
+	
+	option = {
+		name = "ASU_advisor_events.1.a"	# His efforts will be admired throughout the nation
+		ai_chance = {
+			factor = 50
+		}
+		add_meritocracy_effect = yes
+		add_stability_or_adm_power = yes
+		set_country_flag = ASU_state_overseer_flag
+	}
+		
+	option = {
+		name = "ASU_advisor_events.1.b"	# His reputation will reach further than our borders
+		ai_chance = {
+			factor = 50
+		}
+		add_meritocracy_effect = yes
+		add_prestige = 50
+		set_country_flag = ASU_state_overseer_flag
+	}
+}
+
+#researcher 3 
+country_event = {
+	id = ASU_advisor_events.3
+	title = "ASU_advisor_events.3.t"
+	desc = "ASU_advisor_events.3.d"
+	picture = ADVISOR_eventPicture
+	
+	trigger = {
+		researcher = 3
+		NOT = { has_country_flag = ASU_researcher_flag }
+	}
+	
+	mean_time_to_happen = {
+		months = 300
+	}
+	
+	option = {
+		name = "ASU_advisor_events.1.a"	# His efforts will be admired throughout the nation
+		ai_chance = {
+			factor = 50
+		}
+		add_meritocracy_effect = yes
+		add_stability_or_adm_power = yes
+        add_country_modifier = {
+			name = "ASU_researcher_boost"
+			duration = 2190
+		}
+		set_country_flag = ASU_researcher_flag
+	}
+		
+	option = {
+		name = "ASU_advisor_events.1.b"	# His reputation will reach further than our borders
+		ai_chance = {
+			factor = 50
+		}
+		add_meritocracy_effect = yes
+		add_prestige = 50
+        add_country_modifier = {
+			name = "ASU_researcher_boost"
+			duration = 2190
+		}
+		set_country_flag = ASU_researcher_flag
+	}
+}
+
+#reformist 4
+country_event = {
+	id = ASU_advisor_events.4
+	title = "ASU_advisor_events.4.t"
+	desc = "ASU_advisor_events.4.d"
+	picture = ADVISOR_eventPicture
+	
+	trigger = {
+		reformist = 3
+		NOT = { has_country_flag = ASU_reformist_flag }
+	}
+	
+	mean_time_to_happen = {
+		months = 300
+	}
+	
+	option = {
+		name = "ASU_advisor_events.1.a"	# His efforts will be admired throughout the nation
+		ai_chance = {
+			factor = 50
+		}
+		add_meritocracy_effect = yes
+		add_stability_or_adm_power = yes
+        add_country_modifier = {
+			name = "ASU_reformist_boost"
+			duration = 2190
+		}
+		set_country_flag = ASU_reformist_flag
+	}
+		
+	option = {
+		name = "ASU_advisor_events.1.b"	# His reputation will reach further than our borders
+		ai_chance = {
+			factor = 50
+		}
+		add_meritocracy_effect = yes
+		add_prestige = 50
+        add_country_modifier = {
+			name = "ASU_reformist_boost"
+			duration = 2190
+		}
+		set_country_flag = ASU_reformist_flag
+	}
+}
+
+#religious_representative 5
+country_event = {
+	id = ASU_advisor_events.5
+	title = "ASU_advisor_events.5.t"
+	desc = "ASU_advisor_events.5.d"
+	picture = ADVISOR_eventPicture
+	
+	trigger = {
+		religious_representative = 3
+		NOT = { has_country_flag = ASU_religious_representative_flag }
+	}
+	
+	mean_time_to_happen = {
+		months = 300
+	}
+	
+	option = {
+		name = "ASU_advisor_events.1.a"	# His efforts will be admired throughout the nation
+		ai_chance = {
+			factor = 50
+		}
+		add_meritocracy_effect = yes
+		add_stability_or_adm_power = yes
+		set_country_flag = ASU_religious_representative_flag
+	}
+		
+	option = {
+		name = "ASU_advisor_events.1.b"	# His reputation will reach further than our borders
+		ai_chance = {
+			factor = 50
+		}
+		add_meritocracy_effect = yes
+		add_prestige = 50
+		set_country_flag = ASU_religious_representative_flag
+	}
+}
+
+#humanist_advisor 6
+country_event = {
+	id = ASU_advisor_events.6
+	title = "ASU_advisor_events.6.t"
+	desc = "ASU_advisor_events.6.d"
+	picture = ADVISOR_eventPicture
+	
+	trigger = {
+		humanist_advisor = 3
+		NOT = { has_country_flag = ASU_humanist_advisor_flag }
+	}
+	
+	mean_time_to_happen = {
+		months = 300
+	}
+	
+	option = {
+		name = "ASU_advisor_events.1.a"	# His efforts will be admired throughout the nation
+		ai_chance = {
+			factor = 50
+		}
+		add_meritocracy_effect = yes
+		add_stability_or_adm_power = yes
+        add_country_modifier = {
+			name = "ASU_humanist_boost"
+			duration = 2190
+		}
+		set_country_flag = ASU_humanist_advisor_flag
+	}
+		
+	option = {
+		name = "ASU_advisor_events.1.b"	# His reputation will reach further than our borders
+		ai_chance = {
+			factor = 50
+		}
+		add_meritocracy_effect = yes
+		add_prestige = 50
+        add_country_modifier = {
+			name = "ASU_humanist_boost"
+			duration = 2190
+		}
+		set_country_flag = ASU_humanist_advisor_flag
+	}
+}
+
+#innovatist 7
+country_event = {
+	id = ASU_advisor_events.7
+	title = "ASU_advisor_events.7.t"
+	desc = "ASU_advisor_events.7.d"
+	picture = ADVISOR_eventPicture
+	
+	trigger = {
+		innovatist = 3
+		NOT = { has_country_flag = ASU_innovatist_flag }
+	}
+	
+	mean_time_to_happen = {
+		months = 300
+	}
+	
+	option = {
+		name = "ASU_advisor_events.1.a"	# His efforts will be admired throughout the nation
+		ai_chance = {
+			factor = 50
+		}
+		add_meritocracy_effect = yes
+		add_stability_or_adm_power = yes
+		set_country_flag = ASU_innovatist_flag
+	}
+		
+	option = {
+		name = "ASU_advisor_events.1.b"	# His reputation will reach further than our borders
+		ai_chance = {
+			factor = 50
+		}
+		add_meritocracy_effect = yes
+		add_prestige = 50
+		set_country_flag = ASU_innovatist_flag
+	}
+}
+
+#Dip
+
+
+#negotiator 8
+country_event = {
+	id = ASU_advisor_events.8
+	title = "ASU_advisor_events.8.t"
+	desc = "ASU_advisor_events.8.d"
+	picture = ADVISOR_eventPicture
+	
+	trigger = {
+		negotiator = 3
+		NOT = { has_country_flag = ASU_negotiator_flag }
+	}
+	
+	mean_time_to_happen = {
+		months = 300
+	}
+	
+	option = {
+		name = "ASU_advisor_events.1.a"	# His efforts will be admired throughout the nation
+		ai_chance = {
+			factor = 50
+		}
+		add_meritocracy_effect = yes
+		add_stability_or_adm_power = yes
+        add_country_modifier = {
+			name = "ASU_negotiator_boost"
+			duration = 2190
+		}
+		set_country_flag = ASU_negotiator_flag
+	}
+		
+	option = {
+		name = "ASU_advisor_events.1.b"	# His reputation will reach further than our borders
+		ai_chance = {
+			factor = 50
+		}
+		add_meritocracy_effect = yes
+		add_prestige = 50
+        add_country_modifier = {
+			name = "ASU_negotiator_boost"
+			duration = 2190
+		}
+		set_country_flag = ASU_negotiator_flag
+	}
+}
+
+#pioneer 9
+country_event = {
+	id = ASU_advisor_events.9
+	title = "ASU_advisor_events.9.t"
+	desc = "ASU_advisor_events.9.d"
+	picture = ADVISOR_eventPicture
+	
+	trigger = {
+		pioneer = 3
+		NOT = { has_country_flag = ASU_pioneer_flag }
+	}
+	
+	mean_time_to_happen = {
+		months = 300
+	}
+	
+	option = {
+		name = "ASU_advisor_events.1.a"	# His efforts will be admired throughout the nation
+		ai_chance = {
+			factor = 50
+		}
+		add_meritocracy_effect = yes
+		add_stability_or_adm_power = yes
+        add_country_modifier = {
+			name = "ASU_pioneer_boost"
+			duration = 2190
+		}
+		set_country_flag = ASU_pioneer_flag
+	}
+		
+	option = {
+		name = "ASU_advisor_events.1.b"	# His reputation will reach further than our borders
+		ai_chance = {
+			factor = 50
+		}
+		add_meritocracy_effect = yes
+		add_prestige = 50
+        add_country_modifier = {
+			name = "ASU_pioneer_boost"
+			duration = 2190
+		}
+		set_country_flag = ASU_pioneer_flag
+	}
+}
+
+#marauder_captain 10 
+country_event = {
+	id = ASU_advisor_events.10
+	title = "ASU_advisor_events.10.t"
+	desc = "ASU_advisor_events.10.d"
+	picture = ADVISOR_eventPicture
+	
+	trigger = {
+		marauder_captain = 3
+		NOT = { has_country_flag = ASU_marauder_captain_flag }
+	}
+	
+	mean_time_to_happen = {
+		months = 300
+	}
+	
+	option = {
+		name = "ASU_advisor_events.1.a"	# His efforts will be admired throughout the nation
+		ai_chance = {
+			factor = 50
+		}
+		add_meritocracy_effect = yes
+		add_stability_or_adm_power = yes
+		set_country_flag = ASU_marauder_captain_flag
+	}
+		
+	option = {
+		name = "ASU_advisor_events.1.b"	# His reputation will reach further than our borders
+		ai_chance = {
+			factor = 50
+		}
+		add_meritocracy_effect = yes
+		add_prestige = 50
+		set_country_flag = ASU_marauder_captain_flag
+	}
+}
+
+#marketeer 11
+country_event = {
+	id = ASU_advisor_events.11
+	title = "ASU_advisor_events.11.t"
+	desc = "ASU_advisor_events.11.d"
+	picture = ADVISOR_eventPicture
+	
+	trigger = {
+		marketeer = 3
+		NOT = { has_country_flag = ASU_marketeer_flag }
+	}
+	
+	mean_time_to_happen = {
+		months = 300
+	}
+	
+	option = {
+		name = "ASU_advisor_events.1.a"	# His efforts will be admired throughout the nation
+		ai_chance = {
+			factor = 50
+		}
+		add_meritocracy_effect = yes
+		add_stability_or_adm_power = yes
+        add_country_modifier = {
+			name = "ASU_markeeter_boost"
+			duration = 2190
+		}
+		set_country_flag = ASU_marketeer_flag
+	}
+		
+	option = {
+		name = "ASU_advisor_events.1.b"	# His reputation will reach further than our borders
+		ai_chance = {
+			factor = 50
+		}
+		add_meritocracy_effect = yes
+		add_prestige = 50
+        add_country_modifier = {
+			name = "ASU_markeeter_boost"
+			duration = 2190
+		}
+		set_country_flag = ASU_marketeer_flag
+	}
+}
+
+#mercantile_influencer 12
+country_event = {
+	id = ASU_advisor_events.12
+	title = "ASU_advisor_events.12.t"
+	desc = "ASU_advisor_events.12.d"
+	picture = ADVISOR_eventPicture
+	
+	trigger = {
+		mercantile_influencer = 3
+		NOT = { has_country_flag = ASU_mercantile_influencer_flag }
+	}
+	
+	mean_time_to_happen = {
+		months = 300
+	}
+	
+	option = {
+		name = "ASU_advisor_events.1.a"	# His efforts will be admired throughout the nation
+		ai_chance = {
+			factor = 50
+		}
+		add_meritocracy_effect = yes
+		add_stability_or_adm_power = yes
+		set_country_flag = ASU_mercantile_influencer_flag
+	}
+		
+	option = {
+		name = "ASU_advisor_events.1.b"	# His reputation will reach further than our borders
+		ai_chance = {
+			factor = 50
+		}
+		add_meritocracy_effect = yes
+		add_prestige = 50
+		set_country_flag = ASU_mercantile_influencer_flag
+	}
+}
+
+#navarch 13
+country_event = {
+	id = ASU_advisor_events.13
+	title = "ASU_advisor_events.13.t"
+	desc = "ASU_advisor_events.13.d"
+	picture = ADVISOR_eventPicture
+	
+	trigger = {
+		navarch = 3
+		NOT = { has_country_flag = ASU_navarch_flag }
+	}
+	
+	mean_time_to_happen = {
+		months = 300
+	}
+	
+	option = {
+		name = "ASU_advisor_events.1.a"	# His efforts will be admired throughout the nation
+		ai_chance = {
+			factor = 50
+		}
+		add_meritocracy_effect = yes
+		add_stability_or_adm_power = yes
+		set_country_flag = ASU_navarch_flag
+	}
+		
+	option = {
+		name = "ASU_advisor_events.1.b"	# His reputation will reach further than our borders
+		ai_chance = {
+			factor = 50
+		}
+		add_meritocracy_effect = yes
+		add_prestige = 50
+		set_country_flag = ASU_navarch_flag
+	}
+}
+
+#subject_mediator 14
+country_event = {
+	id = ASU_advisor_events.14
+	title = "ASU_advisor_events.14.t"
+	desc = "ASU_advisor_events.14.d"
+	picture = ADVISOR_eventPicture
+	
+	trigger = {
+		subject_mediator = 3
+		NOT = { has_country_flag = ASU_subject_mediator_flag }
+	}
+	
+	mean_time_to_happen = {
+		months = 300
+	}
+	
+	option = {
+		name = "ASU_advisor_events.1.a"	# His efforts will be admired throughout the nation
+		ai_chance = {
+			factor = 50
+		}
+		add_meritocracy_effect = yes
+		add_stability_or_adm_power = yes
+		set_country_flag = ASU_subject_mediator_flag
+	}
+		
+	option = {
+		name = "ASU_advisor_events.1.b"	# His reputation will reach further than our borders
+		ai_chance = {
+			factor = 50
+		}
+		add_meritocracy_effect = yes
+		add_prestige = 50
+		set_country_flag = ASU_subject_mediator_flag
+	}
+}
+
+#burgher_representative 15
+country_event = {
+	id = ASU_advisor_events.15
+	title = "ASU_advisor_events.15.t"
+	desc = "ASU_advisor_events.15.d"
+	picture = ADVISOR_eventPicture
+	
+	trigger = {
+		burgher_representative = 3
+		NOT = { has_country_flag = ASU_burgher_representative_flag }
+	}
+	
+	mean_time_to_happen = {
+		months = 300
+	}
+	
+	option = {
+		name = "ASU_advisor_events.1.a"	# His efforts will be admired throughout the nation
+		ai_chance = {
+			factor = 50
+		}
+		add_meritocracy_effect = yes
+		add_stability_or_adm_power = yes
+		set_country_flag = ASU_burgher_representative_flag
+	}
+		
+	option = {
+		name = "ASU_advisor_events.1.b"	# His reputation will reach further than our borders
+		ai_chance = {
+			factor = 50
+		}
+		add_meritocracy_effect = yes
+		add_prestige = 50
+		set_country_flag = ASU_burgher_representative_flag
+	}
+}
+
+#marine_leader 16
+country_event = {
+	id = ASU_advisor_events.16
+	title = "ASU_advisor_events.16.t"
+	desc = "ASU_advisor_events.16.d"
+	picture = ADVISOR_eventPicture
+	
+	trigger = {
+		marine_leader = 3
+		NOT = { has_country_flag = ASU_marine_leader_flag }
+	}
+	
+	mean_time_to_happen = {
+		months = 300
+	}
+	
+	option = {
+		name = "ASU_advisor_events.1.a"	# His efforts will be admired throughout the nation
+		ai_chance = {
+			factor = 50
+		}
+		add_meritocracy_effect = yes
+		add_stability_or_adm_power = yes
+        add_country_modifier = {
+			name = "ASU_marine_leader_boost"
+			duration = 2190
+		}
+		set_country_flag = ASU_marine_leader_flag
+	}
+		
+	option = {
+		name = "ASU_advisor_events.1.b"	# His reputation will reach further than our borders
+		ai_chance = {
+			factor = 50
+		}
+		add_meritocracy_effect = yes
+		add_prestige = 50
+        add_country_modifier = {
+			name = "ASU_marine_leader_boost"
+			duration = 2190
+		}
+		set_country_flag = ASU_marine_leader_flag
+	}
+}
+
+#Mil
+
+#commander 17
+country_event = {
+	id = ASU_advisor_events.17
+	title = "ASU_advisor_events.17.t"
+	desc = "ASU_advisor_events.17.d"
+	picture = ADVISOR_eventPicture
+	
+	trigger = {
+		commander = 3
+		NOT = { has_country_flag = ASU_commander_flag }
+	}
+	
+	mean_time_to_happen = {
+		months = 300
+	}
+	
+	option = {
+		name = "ASU_advisor_events.1.a"	# His efforts will be admired throughout the nation
+		ai_chance = {
+			factor = 50
+		}
+		add_meritocracy_effect = yes
+		add_stability_or_adm_power = yes
+		set_country_flag = ASU_commander_flag
+	}
+		
+	option = {
+		name = "ASU_advisor_events.1.b"	# His reputation will reach further than our borders
+		ai_chance = {
+			factor = 50
+		}
+		add_meritocracy_effect = yes
+		add_prestige = 50
+		set_country_flag = ASU_commander_flag
+	}
+}
+
+#drill_instructor 18
+country_event = {
+	id = ASU_advisor_events.18
+	title = "ASU_advisor_events.18.t"
+	desc = "ASU_advisor_events.18.d"
+	picture = ADVISOR_eventPicture
+	
+	trigger = {
+		drill_instructor = 3
+		NOT = { has_country_flag = ASU_drill_instructor_flag }
+	}
+	
+	mean_time_to_happen = {
+		months = 300
+	}
+	
+	option = {
+		name = "ASU_advisor_events.1.a"	# His efforts will be admired throughout the nation
+		ai_chance = {
+			factor = 50
+		}
+		add_meritocracy_effect = yes
+		add_stability_or_adm_power = yes
+        add_country_modifier = {
+			name = "ASU_drill_instructor_boost"
+			duration = 2190
+		}
+		set_country_flag = ASU_drill_instructor_flag
+	}
+		
+	option = {
+		name = "ASU_advisor_events.1.b"	# His reputation will reach further than our borders
+		ai_chance = {
+			factor = 50
+		}
+		add_meritocracy_effect = yes
+		add_prestige = 50
+        add_country_modifier = {
+			name = "ASU_drill_instructor_boost"
+			duration = 2190
+		}
+		set_country_flag = ASU_drill_instructor_flag
+	}
+}
+
+#combat_engineer 19
+country_event = {
+	id = ASU_advisor_events.19
+	title = "ASU_advisor_events.19.t"
+	desc = "ASU_advisor_events.19.d"
+	picture = ADVISOR_eventPicture
+	
+	trigger = {
+		combat_engineer = 3
+		NOT = { has_country_flag = ASU_combat_engineer_flag }
+	}
+	
+	mean_time_to_happen = {
+		months = 300
+	}
+	
+	option = {
+		name = "ASU_advisor_events.1.a"	# His efforts will be admired throughout the nation
+		ai_chance = {
+			factor = 50
+		}
+		add_meritocracy_effect = yes
+		add_stability_or_adm_power = yes
+        add_country_modifier = {
+			name = "ASU_combat_engineer_boost"
+			duration = 2190
+		}
+		set_country_flag = ASU_combat_engineer_flag
+	}
+		
+	option = {
+		name = "ASU_advisor_events.1.b"	# His reputation will reach further than our borders
+		ai_chance = {
+			factor = 50
+		}
+		add_meritocracy_effect = yes
+		add_prestige = 50
+        add_country_modifier = {
+			name = "ASU_combat_engineer_boost"
+			duration = 2190
+		}
+		set_country_flag = ASU_combat_engineer_flag
+	}
+}
+
+#tactician 20
+country_event = {
+	id = ASU_advisor_events.20
+	title = "ASU_advisor_events.20.t"
+	desc = "ASU_advisor_events.20.d"
+	picture = ADVISOR_eventPicture
+	
+	trigger = {
+		tactician = 3
+		NOT = { has_country_flag = ASU_tactician_flag }
+	}
+	
+	mean_time_to_happen = {
+		months = 300
+	}
+	
+	option = {
+		name = "ASU_advisor_events.1.a"	# His efforts will be admired throughout the nation
+		ai_chance = {
+			factor = 50
+		}
+		add_meritocracy_effect = yes
+		add_stability_or_adm_power = yes
+		set_country_flag = ASU_tactician_flag
+	}
+		
+	option = {
+		name = "ASU_advisor_events.1.b"	# His reputation will reach further than our borders
+		ai_chance = {
+			factor = 50
+		}
+		add_meritocracy_effect = yes
+		add_prestige = 50
+		set_country_flag = ASU_tactician_flag
+	}
+}
+
+#mercenary_captain 21
+country_event = {
+	id = ASU_advisor_events.21
+	title = "ASU_advisor_events.21.t"
+	desc = "ASU_advisor_events.21.d"
+	picture = ADVISOR_eventPicture
+	
+	trigger = {
+		mercenary_captain = 3
+		NOT = { has_country_flag = ASU_mercenary_captain_flag }
+	}
+	
+	mean_time_to_happen = {
+		months = 300
+	}
+	
+	option = {
+		name = "ASU_advisor_events.1.a"	# His efforts will be admired throughout the nation
+		ai_chance = {
+			factor = 50
+		}
+		add_meritocracy_effect = yes
+		add_stability_or_adm_power = yes
+        add_country_modifier = {
+			name = "ASU_mercenary_captain_boost"
+			duration = 2190
+		}
+		set_country_flag = ASU_mercenary_captain_flag
+	}
+		
+	option = {
+		name = "ASU_advisor_events.1.b"	# His reputation will reach further than our borders
+		ai_chance = {
+			factor = 50
+		}
+		add_meritocracy_effect = yes
+		add_prestige = 50
+        add_country_modifier = {
+			name = "ASU_mercenary_captain_boost"
+			duration = 2190
+		}
+		set_country_flag = ASU_mercenary_captain_flag
+	}
+}
+
+#defensive_planner 22
+country_event = {
+	id = ASU_advisor_events.22
+	title = "ASU_advisor_events.22.t"
+	desc = "ASU_advisor_events.22.d"
+	picture = ADVISOR_eventPicture
+	
+	trigger = {
+		defensive_planner = 3
+		NOT = { has_country_flag = ASU_defensive_planner_flag }
+	}
+	
+	mean_time_to_happen = {
+		months = 300
+	}
+	
+	option = {
+		name = "ASU_advisor_events.1.a"	# His efforts will be admired throughout the nation
+		ai_chance = {
+			factor = 50
+		}
+		add_meritocracy_effect = yes
+		add_stability_or_adm_power = yes
+        add_country_modifier = {
+			name = "ASU_defensiv_planner_boost"
+			duration = 2190
+		}
+		set_country_flag = ASU_defensive_planner_flag
+	}
+		
+	option = {
+		name = "ASU_advisor_events.1.b"	# His reputation will reach further than our borders
+		ai_chance = {
+			factor = 50
+		}
+		add_meritocracy_effect = yes
+		add_prestige = 50
+        add_country_modifier = {
+			name = "ASU_defensiv_planner_boost"
+			duration = 2190
+		}
+		set_country_flag = ASU_defensive_planner_flag
+	}
+}
+
+#logistician 23
+country_event = {
+	id = ASU_advisor_events.23
+	title = "ASU_advisor_events.23.t"
+	desc = "ASU_advisor_events.23.d"
+	picture = ADVISOR_eventPicture
+	
+	trigger = {
+		logistician = 3
+		NOT = { has_country_flag = ASU_logistician_flag }
+	}
+	
+	mean_time_to_happen = {
+		months = 300
+	}
+	
+	option = {
+		name = "ASU_advisor_events.1.a"	# His efforts will be admired throughout the nation
+		ai_chance = {
+			factor = 50
+		}
+		add_meritocracy_effect = yes
+		add_stability_or_adm_power = yes
+        add_country_modifier = {
+			name = "ASU_logistician_boost"
+			duration = 2190
+		}
+		set_country_flag = ASU_logistician_flag
+	}
+		
+	option = {
+		name = "ASU_advisor_events.1.b"	# His reputation will reach further than our borders
+		ai_chance = {
+			factor = 50
+		}
+		add_meritocracy_effect = yes
+		add_prestige = 50
+        add_country_modifier = {
+			name = "ASU_logistician_boost"
+			duration = 2190
+		}
+		set_country_flag = ASU_logistician_flag
+	}
+}
+
+#recruiting_officer 24
+country_event = {
+	id = ASU_advisor_events.24
+	title = "ASU_advisor_events.24.t"
+	desc = "ASU_advisor_events.24.d"
+	picture = ADVISOR_eventPicture
+	
+	trigger = {
+		recruiting_officer = 3
+		NOT = { has_country_flag = ASU_recruiting_officer_flag }
+	}
+	
+	mean_time_to_happen = {
+		months = 300
+	}
+	
+	option = {
+		name = "ASU_advisor_events.1.a"	# His efforts will be admired throughout the nation
+		ai_chance = {
+			factor = 50
+		}
+		add_meritocracy_effect = yes
+		add_stability_or_adm_power = yes
+        add_country_modifier = {
+			name = "ASU_recruiting_officer_boost"
+			duration = 2190
+		}
+		set_country_flag = ASU_recruiting_officer_flag
+	}
+		
+	option = {
+		name = "ASU_advisor_events.1.b"	# His reputation will reach further than our borders
+		ai_chance = {
+			factor = 50
+		}
+		add_meritocracy_effect = yes
+		add_prestige = 50
+        add_country_modifier = {
+			name = "ASU_recruiting_officer_boost"
+			duration = 2190
+		}
+		set_country_flag = ASU_recruiting_officer_flag
+	}
+}
+
+#noble_representative 25
+country_event = {
+	id = ASU_advisor_events.25
+	title = "ASU_advisor_events.25.t"
+	desc = "ASU_advisor_events.25.d"
+	picture = ADVISOR_eventPicture
+	
+	trigger = {
+		noble_representative = 3
+		NOT = { has_country_flag = ASU_noble_representative_flag }
+	}
+	
+	mean_time_to_happen = {
+		months = 300
+	}
+	
+	option = {
+		name = "ASU_advisor_events.1.a"	# His efforts will be admired throughout the nation
+		ai_chance = {
+			factor = 50
+		}
+		add_meritocracy_effect = yes
+		add_stability_or_adm_power = yes
+		set_country_flag = ASU_noble_representative_flag
+	}
+		
+	option = {
+		name = "ASU_advisor_events.1.b"	# His reputation will reach further than our borders
+		ai_chance = {
+			factor = 50
+		}
+		add_meritocracy_effect = yes
+		add_prestige = 50
+		set_country_flag = ASU_noble_representative_flag
+	}
+}
+
+#infantry_leader 26
+country_event = {
+	id = ASU_advisor_events.26
+	title = "ASU_advisor_events.26.t"
+	desc = "ASU_advisor_events.26.d"
+	picture = ADVISOR_eventPicture
+	
+	trigger = {
+		infantry_leader = 3
+		NOT = { has_country_flag = ASU_infantry_leader_flag }
+	}
+	
+	mean_time_to_happen = {
+		months = 300
+	}
+	
+	option = {
+		name = "ASU_advisor_events.1.a"	# His efforts will be admired throughout the nation
+		ai_chance = {
+			factor = 50
+		}
+		add_meritocracy_effect = yes
+		add_stability_or_adm_power = yes
+        add_country_modifier = {
+			name = "ASU_infantry_leader_boost"
+			duration = 2190
+		}
+		set_country_flag = ASU_infantry_leader_flag
+	}
+		
+	option = {
+		name = "ASU_advisor_events.1.b"	# His reputation will reach further than our borders
+		ai_chance = {
+			factor = 50
+		}
+		add_meritocracy_effect = yes
+		add_prestige = 50
+        add_country_modifier = {
+			name = "ASU_infantry_leader_boost"
+			duration = 2190
+		}
+		set_country_flag = ASU_infantry_leader_flag
+	}
+}
+
+#cavalry_leader 27
+country_event = {
+	id = ASU_advisor_events.27
+	title = "ASU_advisor_events.27.t"
+	desc = "ASU_advisor_events.27.d"
+	picture = ADVISOR_eventPicture
+	
+	trigger = {
+		cavalry_leader = 3
+		NOT = { has_country_flag = ASU_cavalry_leader_flag }
+	}
+	
+	mean_time_to_happen = {
+		months = 300
+	}
+	
+	option = {
+		name = "ASU_advisor_events.1.a"	# His efforts will be admired throughout the nation
+		ai_chance = {
+			factor = 50
+		}
+		add_meritocracy_effect = yes
+		add_stability_or_adm_power = yes
+        add_country_modifier = {
+			name = "ASU_cavalry_leader_boost"
+			duration = 2190
+		}
+		set_country_flag = ASU_cavalry_leader_flag
+	}
+		
+	option = {
+		name = "ASU_advisor_events.1.b"	# His reputation will reach further than our borders
+		ai_chance = {
+			factor = 50
+		}
+		add_meritocracy_effect = yes
+		add_prestige = 50
+        add_country_modifier = {
+			name = "ASU_cavalry_leader_boost"
+			duration = 2190
+		}
+		set_country_flag = ASU_cavalry_leader_flag
+	}
+}

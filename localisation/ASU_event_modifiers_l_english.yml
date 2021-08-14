@@ -46,3 +46,26 @@
  ASU_estate_radicals_guards_moral:0 "Defend the revolution!"
  ASU_estate_radicals_guards_drill_loss:0 "The old Guard"
  ASU_estate_radicals_guards_discipline:0 "Revolutionary Discipline"
+
+ #Advisor Events
+ #adm
+ ASU_researcher_boost:0 "Inspiring Researcher"
+ ASU_reformist_boost:0 "Inspiring Reformist"
+ ASU_humanist_boost:0 "Inspiring Humanist"
+ 
+ #dip
+ ASU_negotiator_boost:0 "Inspiring Negotiator"
+ ASU_pioneer_boost:0 "Inspiring Pioneer"
+ ASU_markeeter_boost:0 "Inspiring Markeeter"
+ ASU_marine_leader_boost:0 "Inspiring Marine Leader"
+
+ #mil
+ ASU_drill_instructor_boost:0 "Inspiring Drill Instructor"
+ ASU_combat_engineer_boost:0 "Inspiring Combat Engineer"
+ ASU_mercenary_captain_boost:0 "Inspiring Mercenary Captain"
+ ASU_defensiv_planner_boost:0 "Inspiring Defensiv Planner"
+ ASU_logistician_boost:0 "Inspiring Logistician"
+ ASU_recruiting_officer_boost:0 "Inspiring Recruiting Officer"
+ ASU_infantry_leader_boost:0 "Inspiring Infantry Leader"
+ ASU_cavalry_leader_boost:0 "Inspiring Cavalry Leader"
+ 
