@@ -67,6 +67,40 @@ spriteTypes = {
 		texturefile = "gfx/interface/ages/ase_vijayanagar_nayankara.dds"
 	}
 
+	#ASU
+
+	spriteType = {
+		name = "GFX_obj_ten_churches"
+		texturefile = "gfx/interface/ages/obj_ten_churches.dds"
+	}
+	spriteType = {
+		name = "GFX_obj_ten_workshops"
+		texturefile = "gfx/interface/ages/obj_ten_workshops.dds"
+	}
+	spriteType = {
+		name = "GFX_obj_world_port"
+		texturefile = "gfx/interface/ages/obj_world_port.dds"
+	}
+	spriteType = {
+		name = "GFX_obj_have_fleet_age_1"
+		texturefile = "gfx/interface/ages/obj_have_fleet_age_1.dds"
+	}
+	spriteType = {
+		name = "GFX_obj_have_gold_provinces"
+		texturefile = "gfx/interface/ages/obj_have_gold_provinces.dds"
+	}
+	spriteType = {
+		name = "GFX_obj_be_advised"
+		texturefile = "gfx/interface/ages/obj_be_advised.dds"
+	}
+	spriteType = {
+		name = "GFX_obj_be_kingdom"
+		texturefile = "gfx/interface/ages/obj_be_kingdom.dds"
+	}
+
+
+
+
 	#Reformation
 	spriteType = {
 		name = "GFX_ase_foster_piety"
