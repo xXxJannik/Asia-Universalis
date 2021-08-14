@@ -238,9 +238,9 @@ age_of_discovery = {
 						superregion = china_superregion 
 					}
 				}
-				modifier = {
+			}
+			modifier = {
 					ae_impact = -0.1
-				}
 			}
 		}
 	}
@@ -334,6 +334,35 @@ age_of_reformation = {
 		}
 
 		#ASU
+		
+		obj_100_unity = {
+			religious_unity = 1
+		}
+
+		obj_twenty_five_churches = {
+			num_of_owned_provinces_with = {
+				value = 25
+				has_tax_building_trigger = yes
+			}
+		}
+
+		obj_twenty_five_workshops = {
+			num_of_owned_provinces_with = {
+				value = 25
+				has_building = workshop
+			}
+		}
+
+		obj_be_empire = {
+			government_rank = 3
+		}
+
+		obj_have_ships_age_2 = {
+			OR = {
+				num_of_heavy_ship = 25
+				num_of_galley = 75
+			}
+		}
 
 	}	
 	
@@ -413,6 +442,28 @@ age_of_reformation = {
 				factor = 100
 			}
 		}
+
+		#ASU 
+
+		ab_diplomats_age_2 = {
+			modifier = {
+				diplomats = 3
+			}
+		}
+
+		ab_tax_income_age_2 = {
+			modifier = {
+				global_tax_income = 60
+			}
+		}
+
+		ab_tax_efficiency_age_2 = {
+			modifier = {
+				global_tax_modifier = 0.3
+			}
+		}
+
+
     }
 }
 
