@@ -926,7 +926,7 @@ estate_ASU_rajputs_privileges_8 = {
 ##########################################################
 
 estate_ASU_radicals_privileges_1 = {
-	icon = privilege_promote_purbias
+	icon = privilege_demand_more_troops
 	max_absolutism = -5
 	influence = 0.05
 	loyalty = 0.05
@@ -944,7 +944,7 @@ estate_ASU_radicals_privileges_1 = {
 }
 
 estate_ASU_radicals_privileges_2 = {
-	icon = privilege_promote_purbias
+	icon = privilege_admiral
 	land_share = 0
 	max_absolutism = -5
 	loyalty = 0.05
@@ -974,7 +974,7 @@ estate_ASU_radicals_privileges_2 = {
 }
 
 estate_ASU_radicals_privileges_3 = {
-	icon = privilege_promote_purbias
+	icon = privilege_exempt_officers_from_jaziya
 	land_share = 0
 	max_absolutism = -5
 	loyalty = 0.05
@@ -1004,7 +1004,7 @@ estate_ASU_radicals_privileges_3 = {
 }
 
 estate_ASU_radicals_privileges_4 = {
-	icon = privilege_promote_purbias
+	icon = privilege_supply_arms
 	land_share = 0
 	max_absolutism = -5
 	loyalty = 0.05
@@ -1037,7 +1037,7 @@ estate_ASU_radicals_privileges_4 = {
 ##########################################################
 
 estate_ASU_royalists_privileges_1 = {
-	icon = privilege_promote_purbias
+	icon = privilege_investigate_corruption
 	max_absolutism = -5
 	influence = 0.05
 	loyalty = 0.05
@@ -1051,7 +1051,7 @@ estate_ASU_royalists_privileges_1 = {
 }
 
 estate_ASU_royalists_privileges_2 = {
-	icon = privilege_promote_purbias
+	icon = privilege_give_money
 	max_absolutism = -5
 	influence = 0.05
 	loyalty = 0.05
@@ -1065,7 +1065,7 @@ estate_ASU_royalists_privileges_2 = {
 }
 
 estate_ASU_royalists_privileges_3 = {
-	icon = privilege_promote_purbias
+	icon = privilege_make_generous_donation
 	max_absolutism = -5
 	influence = 0.05
 	loyalty = 0.05
@@ -1079,7 +1079,7 @@ estate_ASU_royalists_privileges_3 = {
 }
 
 estate_ASU_royalists_privileges_4 = {
-	icon = privilege_promote_purbias
+	icon = privilege_monopoly_of_goods_gems
 	max_absolutism = -5
 	influence = 0.05
 	loyalty = 0.05
@@ -1097,7 +1097,7 @@ estate_ASU_royalists_privileges_4 = {
 ##########################################################
 
 estate_ASU_peasants_privileges_1 = {
-	icon = privilege_promote_purbias
+	icon = privilege_make_generous_donation
 	max_absolutism = -5
 	influence = 0.05
 	loyalty = 0.05
@@ -1114,7 +1114,7 @@ estate_ASU_peasants_privileges_1 = {
 }
 
 estate_ASU_peasants_privileges_2 = {
-	icon = privilege_promote_purbias
+	icon = privilege_grant_autonomy
 	max_absolutism = -5
 	influence = 0.05
 	loyalty = 0.05
@@ -1133,7 +1133,7 @@ estate_ASU_peasants_privileges_2 = {
 }
 
 estate_ASU_peasants_privileges_3 = {
-	icon = privilege_promote_purbias
+	icon = privilege_grant_new_world_charter
 	max_absolutism = -5
 	influence = 0.05
 	loyalty = 0.05
@@ -1151,7 +1151,7 @@ estate_ASU_peasants_privileges_3 = {
 }
 
 estate_ASU_peasants_privileges_4 = {
-	icon = privilege_promote_purbias
+	icon = privilege_give_money
 	max_absolutism = -5
 	influence = 0.05
 	loyalty = 0.05
@@ -1176,7 +1176,7 @@ estate_ASU_peasants_privileges_4 = {
 
 
 esate_ASU_moderates_privileges_1 = {
-	icon = privilege_promote_purbias
+	icon = privilege_make_generous_donation
 	max_absolutism = -5
 	influence = 0.05
 	loyalty = 0.05
@@ -1193,7 +1193,7 @@ esate_ASU_moderates_privileges_1 = {
 }
 
 esate_ASU_moderates_privileges_2 = {
-	icon = privilege_promote_purbias
+	icon = privilege_grant_autonomy
 	max_absolutism = -5
 	influence = 0.05
 	loyalty = 0.05
@@ -1211,7 +1211,7 @@ esate_ASU_moderates_privileges_2 = {
 }
 
 esate_ASU_moderates_privileges_3 = {
-	icon = privilege_promote_purbias
+	icon = privilege_supply_arms
 	max_absolutism = -5
 	influence = 0.05
 	loyalty = 0.05
@@ -1229,7 +1229,7 @@ esate_ASU_moderates_privileges_3 = {
 }
 
 esate_ASU_moderates_privileges_4 = {
-	icon = privilege_promote_purbias
+	icon = privilege_give_money
 	max_absolutism = -5
 	influence = 0.05
 	loyalty = 0.05
