@@ -25,6 +25,32 @@
  ASU_rajputs_loyalty_modifier:0 "Rajput Soldiers loyalty"
  ASU_rajputs_influence_modifier:0 "Rajput Soldiers influence"
 
+
+ #Rev estates
+ estate_ASU_radicals:0 "Radicals"
+ estate_ASU_radicals_desc:0 "Composes mostly of extreme radicals that believe the revolution is the true government reform."
+ estate_ASU_radicals_ownership:0 "Landshare"
+ ASU_radicals_loyalty_modifier:0 "Radicals loyalty"
+ ASU_radicals_influence_modifier:0 "Radicals influence"
+
+ estate_ASU_royalists:0 "Royalists"
+ estate_ASU_royalists_desc:0 "Composes mostly of a wide range of supporters of the previous regime."
+ estate_ASU_royalists_ownership:0 "Landshare"
+ ASU_royalists_loyalty_modifier:0 "Royalists loyalty"
+ ASU_royalists_influence_modifier:0 "Royalists influence"
+
+ estate_ASU_peasants:0 "Peasants"
+ estate_ASU_peasants_desc:0 "The peasants are the ones that perform labour such as farming and crafting."
+ estate_ASU_peasants_ownership:0 "Landshare"
+ ASU_peasants_loyalty_modifier:0 "Peasants loyalty"
+ ASU_peasants_influence_modifier:0 "Peasants influence"
+
+ estate_ASU_moderates:0 "Moderates"
+ estate_ASU_moderates_desc:0 "Composes of a wide range of people that want to keep things how they are."
+ estate_ASU_moderates_ownership:0 "Landshare"
+ ASU_moderates_loyalty_modifier:0 "Moderates loyalty"
+ ASU_moderates_influence_modifier:0 "Moderates influence"
+
  ###########
  #Privileges
  ###########

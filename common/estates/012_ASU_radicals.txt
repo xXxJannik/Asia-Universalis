@@ -1,0 +1,45 @@
+estate_ASU_radicals = {
+	icon = 15
+
+	# If true, country will get estate
+	trigger = {
+		OR = {
+            has_reform = revolutionary_empire_reform
+            has_reform = revolutionary_republic_reform
+            has_reform = junior_revolutionary_republic_reform
+        }
+	}
+
+	# These scale with loyalty & power
+	country_modifier_happy = {
+		global_manpower_modifier = 0.2
+	}
+	country_modifier_neutral = {
+		global_manpower_modifier = 0.1
+	}	
+	country_modifier_angry = {
+		global_unrest = 6
+		global_manpower_modifier = -0.2
+	}
+	land_ownership_modifier = {
+		ASU_radicals_loyalty_modifier = 0.2
+	}
+
+	province_independence_weight = {
+	}
+
+	# Influence modifiers
+	base_influence = 25
+
+	influence_from_dev_modifier = 1
+
+	privileges = {
+		
+	}
+
+	agendas = {
+		
+	}
+
+	color = { 255 153 0 }
+}

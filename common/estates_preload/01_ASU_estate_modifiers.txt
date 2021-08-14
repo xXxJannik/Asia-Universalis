@@ -71,3 +71,73 @@ estate_ASU_rajputs = {
 		}
 	}
 }
+
+#Rev estates
+
+estate_ASU_radicals = {
+	modifier_definition = {
+		type = loyalty
+		key = ASU_radicals_loyalty_modifier
+		trigger = {
+			has_estate = estate_ASU_radicals
+		}
+	}
+	modifier_definition = {
+		type = influence
+		key = ASU_radicals_influence_modifier
+		trigger = {
+			has_estate = estate_ASU_radicals
+		}
+	}
+}
+
+estate_ASU_royalists = {
+	modifier_definition = {
+		type = loyalty
+		key = ASU_royalists_loyalty_modifier
+		trigger = {
+			has_estate = estate_ASU_royalists
+		}
+	}
+	modifier_definition = {
+		type = influence
+		key = ASU_royalists_influence_modifier
+		trigger = {
+			has_estate = estate_ASU_royalists
+		}
+	}
+}
+
+estate_ASU_peasants = {
+	modifier_definition = {
+		type = loyalty
+		key = ASU_peasants_loyalty_modifier
+		trigger = {
+			has_estate = estate_ASU_peasants
+		}
+	}
+	modifier_definition = {
+		type = influence
+		key = ASU_peasants_influence_modifier
+		trigger = {
+			has_estate = estate_ASU_peasants
+		}
+	}
+}
+
+estate_ASU_moderates = {
+	modifier_definition = {
+		type = loyalty
+		key = ASU_moderates_loyalty_modifier
+		trigger = {
+			has_estate = estate_ASU_moderates
+		}
+	}
+	modifier_definition = {
+		type = influence
+		key = ASU_moderates_influence_modifier
+		trigger = {
+			has_estate = estate_ASU_moderates
+		}
+	}
+}
