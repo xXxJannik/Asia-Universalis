@@ -764,6 +764,9 @@ navy_tradition = {
 	sailors_recovery_speed = 0.2
 	burghers_loyalty_modifier = 0.05
 	vaisyas_loyalty_modifier = 0.05
+
+	#ASU
+	ASU_royalists_loyalty_modifier = 0.05
 }
 
 positive_piety = { #As of 1.23 Legalism
@@ -1345,7 +1348,6 @@ revolution_target = {
 
 	#ASU
 	ASU_radicals_loyalty_modifier = 0.05
-	ASU_royalists_loyalty_modifier = 0.05
 	ASU_peasants_loyalty_modifier = 0.05
 	ASU_moderates_loyalty_modifier = 0.05
 }
