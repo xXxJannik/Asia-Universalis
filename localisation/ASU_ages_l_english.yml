@@ -1,5 +1,7 @@
 ﻿l_english:
+ #Stuff that doesnt fit elsewhere
 
+ ASU_have_full_religious:0 "Have either full Religious Ideas or Humanist Ideas"
 
  #Age 1
 
@@ -13,7 +15,7 @@
  obj_world_port:0 "Own a World Port"
  obj_world_port_desc:0 "Be in control of a World Port."
 
- obj_have_fleet_age_1:0 "Have a Fleet"
+ obj_have_fleet_age_1:0 "Build a Fleet"
  obj_have_fleet_age_1_desc:0 "Have atleast 5 Heavies or 25 Galleys."
 
  obj_have_gold_provinces:0 "Produce Gold"
@@ -21,6 +23,9 @@
 
  obj_be_advised:0 "Have Advisors"
  obj_be_advised_desc:0 "Have an Advisor of each type."
+
+ obj_be_kingdom:0 "Be a Kingdom"
+ obj_be_kingdom_desc:0 "Be atleast a Kingdom."
 
  #Abilities
  ab_vassal_income:0 "Increased Vassal Taxation"
@@ -34,6 +39,39 @@
  ab_flat_manpower_age_1:0 "Manpower Reserve"
  
  ab_chinese_civil_war:0 "Chinese Civil War"
+
+
+
+ #Age 2
+
+ #Objectives
+
+ obj_100_unity:0 "Have Religious Unity"
+ obj_100_unity_desc:0 "Have a Religious Unity of 100."
+
+ obj_twenty_five_churches:0 "Own 25 Temples"
+ obj_twenty_five_churches_desc:0 "Own atleast 25 Temples."
+
+ obj_twenty_five_workshops:0 "Own 25 Workshops"
+ obj_twenty_five_workshops_desc:0 "Own atleast 25 Workshops."
+
+ obj_be_empire:0 "Be an Empire"
+ obj_be_empire_desc:0 "Have the Rank of an Empire."
+
+ obj_have_ships_age_2:0 "Build a Fleet"
+ obj_have_ships_age_2_desc:0 "Have atleast 25 Heavy Ships or 75 Galleys."
+
+ #Abilities
+
+ ab_diplomats_age_2:0 "More Diplomats II"
+
+ ab_tax_income_age_2:0 "Tax Income II"
+
+ ab_tax_efficiency_age_2:0 "Efficent Taxcollectors II"
+
+ ab_flat_manpower_age_2:0 "Manpower Reserve II"
+
+ ab_settler_increase:0 "Colonial Enthusiasm"
  
  
  

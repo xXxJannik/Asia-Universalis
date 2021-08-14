@@ -463,7 +463,17 @@ age_of_reformation = {
 			}
 		}
 
+		ab_flat_manpower_age_2 = {
+			modifier = {
+				global_manpower = 20
+			}
+		}
 
+		ab_settler_increase = {
+			modifier = {
+				global_colonial_growth = 20
+			}
+		}
     }
 }
 
