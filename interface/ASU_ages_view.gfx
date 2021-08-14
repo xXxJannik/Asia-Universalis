@@ -1,0 +1,222 @@
+spriteTypes = {
+	#Discovery
+	spriteType = {
+		name = "GFX_obj_ten_churches"
+		texturefile = "gfx/interface/ages/obj_ten_churches.dds"
+	}
+	spriteType = {
+		name = "GFX_obj_ten_workshops"
+		texturefile = "gfx/interface/ages/obj_ten_workshops.dds"
+	}
+	spriteType = {
+		name = "GFX_obj_world_port"
+		texturefile = "gfx/interface/ages/obj_world_port.dds"
+	}
+	spriteType = {
+		name = "GFX_obj_have_fleet_age_1"
+		texturefile = "gfx/interface/ages/obj_have_fleet_age_1.dds"
+	}
+	spriteType = {
+		name = "GFX_obj_have_gold_provinces"
+		texturefile = "gfx/interface/ages/obj_have_gold_provinces.dds"
+	}
+	spriteType = {
+		name = "GFX_obj_be_advised"
+		texturefile = "gfx/interface/ages/obj_be_advised.dds"
+	}
+	spriteType = {
+		name = "GFX_obj_be_kingdom"
+		texturefile = "gfx/interface/ages/obj_be_kingdom.dds"
+	}
+
+
+
+	spriteType = {
+		name = "GFX_ab_vassal_income"
+		texturefile = "gfx/interface/ages/ab_vassal_income.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_diplomats_age_1"
+		texturefile = "gfx/interface/ages/ab_diplomats_age_1.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_tax_income_age_1"
+		texturefile = "gfx/interface/ages/ab_tax_income_age_1.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_tax_efficiency_age_1"
+		texturefile = "gfx/interface/ages/ab_tax_efficiency_age_1.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_flat_manpower_age_1"
+		texturefile = "gfx/interface/ages/ab_flat_manpower_age_1.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_chinese_civil_war"
+		texturefile = "gfx/interface/ages/ab_chinese_civil_war.dds"
+	}
+
+
+
+
+	#Reformation
+	spriteType = {
+		name = "GFX_obj_twenty_five_churches"
+		texturefile = "gfx/interface/ages/obj_ten_churches.dds"
+	}
+	spriteType = {
+		name = "GFX_obj_twenty_five_workshops"
+		texturefile = "gfx/interface/ages/obj_ten_workshops.dds"
+	}
+	spriteType = {
+		name = "GFX_obj_have_ships_age_2"
+		texturefile = "gfx/interface/ages/obj_have_fleet_age_1.dds"
+	}
+	spriteType = {
+		name = "GFX_obj_100_unity"
+		texturefile = "gfx/interface/ages/obj_100_unity.dds"
+	}
+	spriteType = {
+		name = "GFX_obj_be_empire"
+		texturefile = "gfx/interface/ages/obj_be_empire.dds"
+	}
+
+
+
+	
+	spriteType = {
+		name = "GFX_ab_diplomats_age_2"
+		texturefile = "gfx/interface/ages/ab_diplomats_age_1.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_tax_income_age_2"
+		texturefile = "gfx/interface/ages/ab_tax_income_age_1.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_tax_efficiency_age_2"
+		texturefile = "gfx/interface/ages/ab_tax_efficiency_age_1.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_flat_manpower_age_2"
+		texturefile = "gfx/interface/ages/ab_flat_manpower_age_1.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_settler_increase"
+		texturefile = "gfx/interface/ages/ab_settler_increase.dds"
+	}
+
+
+
+	#Absolutism
+
+	spriteType = {
+		name = "GFX_obj_good_income"
+		texturefile = "gfx/interface/ages/obj_good_income.dds"
+	}
+	spriteType = {
+		name = "GFX_obj_one_hundred_workshops"
+		texturefile = "gfx/interface/ages/obj_ten_workshops.dds"
+	}
+	spriteType = {
+		name = "GFX_obj_have_fleet_age_3"
+		texturefile = "gfx/interface/ages/obj_have_fleet_age_1.dds"
+	}
+	spriteType = {
+		name = "GFX_obj_a_million_man"
+		texturefile = "gfx/interface/ages/obj_a_million_man.dds"
+	}
+	spriteType = {
+		name = "GFX_obj_have_innovativeness"
+		texturefile = "gfx/interface/ages/obj_have_innovativeness.dds"
+	}
+	spriteType = {
+		name = "GFX_obj_manufactories"
+		texturefile = "gfx/interface/ages/obj_manufactories.dds"
+	}
+
+
+
+	spriteType = {
+		name = "GFX_ab_free_force_march"
+		texturefile = "gfx/interface/ages/ab_force_march.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_army_prof_age_3"
+		texturefile = "gfx/interface/ages/ab_army_prof_age_3.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_build_cost"
+		texturefile = "gfx/interface/ages/ab_build_cost.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_max_absolutism"
+		texturefile = "gfx/interface/ages/ab_max_absolutism.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_advisor_cost"
+		texturefile = "gfx/interface/ages/ab_advisor_cost.dds"
+	}
+
+	#Revolution
+	
+	spriteType = {
+		name = "GFX_obj_be_hegemon"
+		texturefile = "gfx/interface/ages/obj_be_hegemon.dds"
+	}
+	spriteType = {
+		name = "GFX_obj_have_development"
+		texturefile = "gfx/interface/ages/obj_have_development.dds"
+	}
+	spriteType = {
+		name = "GFX_obj_reformed_asian"
+		texturefile = "gfx/interface/ages/obj_reformed_asian.dds"
+	}
+	spriteType = {
+		name = "GFX_obj_have_furnaces"
+		texturefile = "gfx/interface/ages/obj_have_furnaces.dds"
+	}
+	spriteType = {
+		name = "GFX_obj_diplo_slots"
+		texturefile = "gfx/interface/ages/obj_diplo_slots.dds"
+	}
+	spriteType = {
+		name = "GFX_obj_revolution"
+		texturefile = "gfx/interface/ages/obj_revolution.dds"
+	}
+	
+
+
+	
+	spriteType = {
+		name = "GFX_ab_army_prof_age_4"
+		texturefile = "gfx/interface/ages/ab_army_prof_age_3.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_advisor_cost_age_4"
+		texturefile = "gfx/interface/ages/ab_advisor_cost.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_land_attrition"
+		texturefile = "gfx/interface/ages/ab_land_attrition.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_rev_or_monarchy"
+		texturefile = "gfx/interface/ages/ab_rev_or_monarchy.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_fire_damage_received"
+		texturefile = "gfx/interface/ages/ab_fire_damage_received.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_shock_damage_received"
+		texturefile = "gfx/interface/ages/ab_shock_damage_received.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_gov_cap"
+		texturefile = "gfx/interface/ages/ab_gov_cap.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_national_supply"
+		texturefile = "gfx/interface/ages/ab_national_supply.dds"
+	}
+}
