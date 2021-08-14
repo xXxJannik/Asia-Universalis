@@ -98,6 +98,31 @@ spriteTypes = {
 		texturefile = "gfx/interface/ages/obj_be_kingdom.dds"
 	}
 
+	spriteType = {
+		name = "GFX_ab_vassal_income"
+		texturefile = "gfx/interface/ages/ab_vassal_income.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_diplomats_age_1"
+		texturefile = "gfx/interface/ages/ab_diplomats_age_1.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_tax_income_age_1"
+		texturefile = "gfx/interface/ages/ab_tax_income_age_1.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_tax_efficiency_age_1"
+		texturefile = "gfx/interface/ages/ab_tax_efficiency_age_1.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_flat_manpower_age_1"
+		texturefile = "gfx/interface/ages/ab_flat_manpower_age_1.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_chinese_civil_war"
+		texturefile = "gfx/interface/ages/ab_chinese_civil_war.dds"
+	}
+
 
 
 
