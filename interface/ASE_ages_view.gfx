@@ -98,6 +98,31 @@ spriteTypes = {
 		texturefile = "gfx/interface/ages/obj_be_kingdom.dds"
 	}
 
+	spriteType = {
+		name = "GFX_ab_vassal_income"
+		texturefile = "gfx/interface/ages/ab_vassal_income.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_diplomats_age_1"
+		texturefile = "gfx/interface/ages/ab_diplomats_age_1.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_tax_income_age_1"
+		texturefile = "gfx/interface/ages/ab_tax_income_age_1.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_tax_efficiency_age_1"
+		texturefile = "gfx/interface/ages/ab_tax_efficiency_age_1.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_flat_manpower_age_1"
+		texturefile = "gfx/interface/ages/ab_flat_manpower_age_1.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_chinese_civil_war"
+		texturefile = "gfx/interface/ages/ab_chinese_civil_war.dds"
+	}
+
 
 
 
@@ -160,6 +185,55 @@ spriteTypes = {
 		name = "GFX_ase_taungu_military_reforms"
 		texturefile = "gfx/interface/ages/ase_taungu_military_reforms.dds"
 	}
+
+	#ASU
+
+	spriteType = {
+		name = "GFX_obj_twenty_five_churches"
+		texturefile = "gfx/interface/ages/obj_ten_churches.dds"
+	}
+	spriteType = {
+		name = "GFX_obj_twenty_five_workshops"
+		texturefile = "gfx/interface/ages/obj_ten_workshops.dds"
+	}
+	spriteType = {
+		name = "GFX_obj_have_ships_age_2"
+		texturefile = "gfx/interface/ages/obj_have_fleet_age_1.dds"
+	}
+	spriteType = {
+		name = "GFX_obj_100_unity"
+		texturefile = "gfx/interface/ages/obj_100_unity.dds"
+	}
+	spriteType = {
+		name = "GFX_obj_be_empire"
+		texturefile = "gfx/interface/ages/obj_be_empire.dds"
+	}
+
+
+
+	
+	spriteType = {
+		name = "GFX_ab_diplomats_age_2"
+		texturefile = "gfx/interface/ages/ab_diplomats_age_1.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_tax_income_age_2"
+		texturefile = "gfx/interface/ages/ab_tax_income_age_1.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_tax_efficiency_age_2"
+		texturefile = "gfx/interface/ages/ab_tax_efficiency_age_1.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_flat_manpower_age_2"
+		texturefile = "gfx/interface/ages/ab_flat_manpower_age_1.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_settler_increase"
+		texturefile = "gfx/interface/ages/ab_settler_increase.dds"
+	}
+
+
 
 	#Absolutism
 	spriteType = {
