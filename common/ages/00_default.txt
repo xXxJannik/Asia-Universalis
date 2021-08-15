@@ -260,6 +260,7 @@ age_of_discovery = {
 			}
 			modifier = {
 				idea_cost = -0.1
+				technology_cost = -0.1
 			}
 		}
 		ab_aodaliya = {
@@ -723,7 +724,7 @@ age_of_absolutism = {
 				tag = JAP
 			}
 			modifier = {
-				development_cost = -0.05
+				development_cost = -0.1
 			}
 		}
 		ab_yi = {
@@ -1005,7 +1006,7 @@ age_of_revolutions = {
 					tag = DLH
 					tag = PUN
 					tag = BNG 
-					tag = NEP
+					tag = NPL
 				}
 			}
 			modifier = {
