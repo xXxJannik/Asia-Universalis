@@ -904,7 +904,7 @@ age_of_revolutions = {
 		
 		ab_backrow_artillery = {
 			modifier = {
-				backrow_artillery_damage = 0.20
+				backrow_artillery_damage = 0.10
 			}
 			ai_will_do = {
 				factor = 10
