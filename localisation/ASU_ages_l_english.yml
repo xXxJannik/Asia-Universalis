@@ -147,6 +147,24 @@
 
  ab_national_supply:0 "Supply Trains"
 
+
+
+ #Special Abilities
+
+ ab_korea:0 "Korean Towns"
+ ab_majahapit:0 "Majahapitan Education"
+ ab_aodaliya:0 "Australian Frontier"
+ ab_ming:0 "Son of Heaven"
+ ab_shun:0 "Nomad Frontier"
+ ab_japan:0 "Japanese Spirit"
+ ab_yi:0 "Yi University"
+ ab_yue:0 "Southern Ports"
+ ab_hordes:0 "Nomad life"
+ ab_wu:0 "Yangtze River Dominance"
+ ab_siam:0 "The White Elephant"
+ ab_indian_prosperity:0 "Indian Prosperity"
+
+
  
  
  

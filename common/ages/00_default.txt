@@ -243,6 +243,33 @@ age_of_discovery = {
 					ae_impact = -0.1
 			}
 		}
+
+		#Special abilities
+		ab_korea = {
+			allow = {
+				tag = KOR
+			}
+			modifier = {
+				build_cost = -0.2
+			}
+		}
+
+		ab_majahapit = {
+			allow = {
+				tag = MAJ
+			}
+			modifier = {
+				idea_cost = -0.1
+			}
+		}
+		ab_aodaliya = {
+			allow = {
+				tag = CAU
+			}
+			modifier = {
+				colonists = 2
+			}
+		}
 	}
 }
 
@@ -477,6 +504,22 @@ age_of_reformation = {
 				factor = 100
 			}
 		}
+		ab_ming = {
+			allow = {
+				tag = MNG
+			}
+			modifier = {
+				imperial_mandate = 0.03
+			}
+		}
+		ab_shun = {
+			allow = {
+				tag = CSH
+			}
+			modifier = {
+				shock_damage_received = -0.1
+			}
+		}
     }
 }
 
@@ -673,6 +716,43 @@ age_of_absolutism = {
 			}
 			ai_will_do = {
 				factor = 100
+			}
+		}
+		ab_japan = {
+			allow = {
+				tag = JAP
+			}
+			modifier = {
+				development_cost = -0.05
+			}
+		}
+		ab_yi = {
+			allow = {
+				tag = CYI
+			}
+			modifier = {
+				advisor_cost = -0.1
+			}
+		}
+		ab_yue = {
+			allow = {
+				tag = YUE
+			}
+			modifier = {
+				ship_power_propagation = 0.2
+			}
+		}
+		ab_hordes = {
+			allow = {
+				OR = {
+					tag = ZAZ
+					tag = ORS
+					tag = HET 
+					tag = ZUN
+				}
+			}
+			modifier = {
+				cavalry_cost = -0.2
 			}
 		}
 
@@ -896,6 +976,40 @@ age_of_revolutions = {
 		ab_national_supply = {
 			modifier = {
 				global_supply_limit_modifier = 0.5
+			}
+		}
+
+
+		#Special abilities 
+		ab_wu = {
+			allow = {
+				tag = WUU
+			}
+			modifier = {
+				trade_efficiency = 0.1
+			}
+		}
+		ab_siam = {
+			allow = {
+				tag = SIA
+			}
+			modifier = {
+				cavalry_cost = -0.2
+			}
+		}
+		ab_indian_prosperity = {
+			allow = {
+				OR = {
+					tag = VIJ
+					tag = BHA
+					tag = DLH
+					tag = PUN
+					tag = BNG 
+					tag = NEP
+				}
+			}
+			modifier = {
+				development_cost = -0.05
 			}
 		}
 
