@@ -1013,6 +1013,13 @@ age_of_revolutions = {
 				development_cost = -0.05
 			}
 		}
-
+		ab_tibet = {
+			allow = {
+				tag = XTB
+			}
+			modifier = {
+				global_trade_goods_size_modifier = 0.2
+			}
+		}
 	}
 }
