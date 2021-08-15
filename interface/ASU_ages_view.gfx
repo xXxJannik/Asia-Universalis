@@ -58,6 +58,19 @@ spriteTypes = {
 
 
 
+	spriteType = {
+		name = "GFX_ab_korea"
+		texturefile = "gfx/interface/ages/ab_korea.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_majahapit"
+		texturefile = "gfx/interface/ages/ab_majahapit.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_aodaliya"
+		texturefile = "gfx/interface/ages/ab_aodaliya.dds"
+	}
+
 
 	#Reformation
 	spriteType = {
@@ -105,6 +118,15 @@ spriteTypes = {
 		texturefile = "gfx/interface/ages/ab_settler_increase.dds"
 	}
 
+	
+	spriteType = {
+		name = "GFX_ab_ming"
+		texturefile = "gfx/interface/ages/ab_ming.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_shun"
+		texturefile = "gfx/interface/ages/ab_shun.dds"
+	}
 
 
 	#Absolutism
@@ -155,6 +177,26 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ab_advisor_cost"
 		texturefile = "gfx/interface/ages/ab_advisor_cost.dds"
+	}
+
+	
+
+
+	spriteType = {
+		name = "GFX_ab_japan"
+		texturefile = "gfx/interface/ages/ab_japan.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_yi"
+		texturefile = "gfx/interface/ages/ab_yi.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_yue"
+		texturefile = "gfx/interface/ages/ab_yue.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_hordes"
+		texturefile = "gfx/interface/ages/ab_hordes.dds"
 	}
 
 	#Revolution
@@ -218,5 +260,23 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ab_national_supply"
 		texturefile = "gfx/interface/ages/ab_national_supply.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_ab_wu"
+		texturefile = "gfx/interface/ages/ab_wu.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_siam"
+		texturefile = "gfx/interface/ages/ab_siam.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_indian_prosperity"
+		texturefile = "gfx/interface/ages/ab_indian_prosperity.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_tibet"
+		texturefile = "gfx/interface/ages/ab_tibet.dds"
 	}
 }
