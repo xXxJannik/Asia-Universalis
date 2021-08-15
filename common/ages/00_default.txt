@@ -431,17 +431,7 @@ age_of_reformation = {
 				factor = 10
 			}
 		}		
-		ab_persia_reinforce = {
-			allow = {
-				tag = PER
-			}
-			modifier = {
-				reinforce_cost_modifier = -0.3
-			}
-			ai_will_do = {
-				factor = 100
-			}
-		}
+		
 
 		#ASU 
 
@@ -472,6 +462,19 @@ age_of_reformation = {
 		ab_settler_increase = {
 			modifier = {
 				global_colonial_growth = 20
+			}
+		}
+
+		#Special abilities
+		ab_persia_reinforce = {
+			allow = {
+				tag = PER
+			}
+			modifier = {
+				reinforce_cost_modifier = -0.3
+			}
+			ai_will_do = {
+				factor = 100
 			}
 		}
     }
@@ -622,20 +625,7 @@ age_of_absolutism = {
 				factor = 100
 			}
 		}
-		ab_manchu_banner = {
-			allow = {
-				OR = {
-					tag = MCH
-					tag = QNG
-				}
-			}
-			modifier = {
-				amount_of_banners = 0.5
-			}
-			ai_will_do = {
-				factor = 100
-			}
-		}
+		
 
 		#ASU
 
@@ -669,6 +659,22 @@ age_of_absolutism = {
 			}
 		}
 
+
+		#Special abilities
+		ab_manchu_banner = {
+			allow = {
+				OR = {
+					tag = MCH
+					tag = QNG
+				}
+			}
+			modifier = {
+				amount_of_banners = 0.5
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
 
 	}
 }
