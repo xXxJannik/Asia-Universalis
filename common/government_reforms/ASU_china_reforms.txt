@@ -4,7 +4,10 @@ h_reform_warlord_1 = {
 	potential = {
 		AND = {
 			culture_group = east_asian
-			technology_group = chinese
+			OR = {
+				technology_group = chinese
+				technology_group = ASU_reformed_asian_tech 
+			}
 		}
 
 		NOT = { tag = QNG}
@@ -52,7 +55,10 @@ h_reform_warlord_2 = {
 	potential = {
 		AND = {
 			culture_group = east_asian
-			technology_group = chinese
+			OR = {
+				technology_group = chinese
+				technology_group = ASU_reformed_asian_tech 
+			}
 			government_rank = 1
 		}
 		NOT = { tag = QNG}
@@ -99,7 +105,10 @@ h_reform_warlord_3 = {
 	potential = {
 		AND = {
 			culture_group = east_asian
-			technology_group = chinese
+			OR = {
+				technology_group = chinese
+				technology_group = ASU_reformed_asian_tech 
+			}
 			government_rank = 1
 		}
 		NOT = { tag = QNG}
@@ -146,7 +155,10 @@ h_reform_warlord_4 = {
 	potential = {
 		AND = {
 			culture_group = east_asian
-			technology_group = chinese
+			OR = {
+				technology_group = chinese
+				technology_group = ASU_reformed_asian_tech 
+			}
 			total_development = 500
 		}
 		NOT = { tag = QNG}
