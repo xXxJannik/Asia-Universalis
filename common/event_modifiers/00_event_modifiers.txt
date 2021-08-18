@@ -12093,3 +12093,12 @@ ASU_korea_defensive_mentality_defence = {
 ASU_korea_merchant_society = {
 	global_ship_trade_power = 0.2
 }
+
+ASU_korean_golden_age = {
+	all_power_cost = -0.01
+}
+
+ASU_korean_reformation = {
+	trade_efficiency = 0.1
+	naval_morale = 0.05
+}

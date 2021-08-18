@@ -8,7 +8,7 @@ ASU_korea_branch_1 = {
 	has_country_shield = yes
 
 	ASU_korea_mission_1 = {
-		icon = default
+		icon = mission_manchu_warrior
 		required_missions = { }
 		position = 1
 
@@ -28,7 +28,7 @@ ASU_korea_branch_1 = {
 	}
 
     ASU_korea_mission_2 = {
-		icon = default
+		icon = mission_asian_city
 		required_missions = { ASU_korea_mission_1 }
 		position = 2
 
@@ -70,7 +70,7 @@ ASU_korea_branch_1 = {
 	}
 
     ASU_korea_mission_3 = {
-		icon = default
+		icon = mission_japanese_fort
 		required_missions = { ASU_korea_mission_2 }
 		position = 3
     	
@@ -96,7 +96,7 @@ ASU_korea_branch_1 = {
 	}
 
     ASU_korea_mission_4 = {
-		icon = default
+		icon = mission_establish_high_seas_navy
 		required_missions = { ASU_korea_mission_8 }
 		position = 5
 
@@ -125,7 +125,7 @@ ASU_korea_branch_1 = {
 	}
 
     ASU_korea_mission_5 = {
-		icon = default
+		icon = mission_japanese_fort
 		required_missions = { ASU_korea_mission_4 }
 		position = 6
 
@@ -174,7 +174,7 @@ ASU_korea_branch_2 = {
 	has_country_shield = yes
 
 	ASU_korea_mission_6 = {
-		icon = default
+		icon = mission_asian_city
 		required_missions = { ASU_korea_mission_1 }
 		position = 2
 
@@ -197,7 +197,7 @@ ASU_korea_branch_2 = {
 	}
 
     ASU_korea_mission_7 = {
-		icon = default
+		icon = mission_japanese_fort
 		required_missions = { ASU_korea_mission_6 }
 		position = 3
 
@@ -223,7 +223,7 @@ ASU_korea_branch_2 = {
 	}
 
     ASU_korea_mission_8 = {
-		icon = default
+		icon = mission_junk_boat
 		required_missions = {  }
 		position = 4
 
@@ -265,7 +265,7 @@ ASU_korea_branch_2 = {
 	}
 
     ASU_korea_mission_9 = {
-		icon = default
+		icon = mission_colonial
 		required_missions = { ASU_korea_mission_8 }
 		position = 5
 
@@ -294,7 +294,7 @@ ASU_korea_branch_2 = {
 	}
 
     ASU_korea_mission_10 = {
-		icon = default
+		icon = mission_japanese_fort
 		required_missions = { ASU_korea_mission_9 }
 		position = 6
 
@@ -320,7 +320,7 @@ ASU_korea_branch_2 = {
 	}
 
     ASU_korea_mission_11 = {
-		icon = default
+		icon = mission_establish_high_seas_navy
 		required_missions = { ASU_korea_mission_10 ASU_korea_mission_16 }
 		position = 8
 
@@ -380,7 +380,7 @@ ASU_korea_branch_3 = {
 	has_country_shield = yes
 
 	ASU_korea_mission_12 = {
-		icon = default
+		icon = mission_asian_city
 		required_missions = { ASU_korea_mission_1 }
 		position = 2
 
@@ -403,7 +403,7 @@ ASU_korea_branch_3 = {
 	}
 
     ASU_korea_mission_13 = {
-		icon = default
+		icon = mission_japanese_fort
 		required_missions = { ASU_korea_mission_12 }
 		position = 3
 
@@ -429,7 +429,7 @@ ASU_korea_branch_3 = {
 	}
 
     ASU_korea_mission_14 = {
-		icon = default
+		icon = mission_invade_island
 		required_missions = { ASU_korea_mission_8 }
 		position = 5
 
@@ -452,7 +452,7 @@ ASU_korea_branch_3 = {
 	}
 
     ASU_korea_mission_15 = {
-		icon = default
+		icon = mission_japanese_fort
 		required_missions = { ASU_korea_mission_14 }
 		position = 6
 
@@ -500,7 +500,7 @@ ASU_korea_branch_3 = {
 	}
 
     ASU_korea_mission_16 = {
-		icon = default
+		icon = mission_establish_high_seas_navy
 		required_missions = {  }
 		position = 7
 
@@ -528,7 +528,7 @@ ASU_korea_branch_3 = {
 	}
 
     ASU_korea_mission_17 = {
-		icon = default
+		icon = mission_galleys_in_port
 		required_missions = { ASU_korea_mission_16 }
 		position = 8
 
@@ -543,7 +543,7 @@ ASU_korea_branch_3 = {
 	}
 
     ASU_korea_mission_18 = {
-		icon = default
+		icon = mission_sea_battles
 		required_missions = { ASU_korea_mission_17 ASU_korea_mission_25 }
 		position = 10
 
@@ -558,7 +558,7 @@ ASU_korea_branch_3 = {
 	}
 
     ASU_korea_mission_19 = {
-		icon = default
+		icon = mission_asian_trader
 		required_missions = {  }
 		position = 11
 
@@ -583,7 +583,7 @@ ASU_korea_branch_3 = {
 	}
 
     ASU_korea_mission_20 = {
-		icon = default
+		icon = mission_asian_trader
 		required_missions = { ASU_korea_mission_19 }
 		position = 12
 
@@ -623,7 +623,7 @@ ASU_korea_branch_4 = {
 	has_country_shield = yes
 
 	ASU_korea_mission_21 = {
-		icon = default
+		icon = mission_buddhist_monk_praying
 		required_missions = { ASU_korea_mission_28 }
 		position = 2
 
@@ -647,7 +647,7 @@ ASU_korea_branch_4 = {
 	}
 
     ASU_korea_mission_22 = {
-		icon = default
+		icon = mission_japanese_fort
 		required_missions = { ASU_korea_mission_30 }
 		position = 4
 
@@ -673,7 +673,7 @@ ASU_korea_branch_4 = {
 	}
 
     ASU_korea_mission_23 = {
-		icon = default
+		icon = mission_early_game_buildings
 		required_missions = { ASU_korea_mission_14 }
 		position = 6
 
@@ -697,7 +697,7 @@ ASU_korea_branch_4 = {
 	}
 
     ASU_korea_mission_24 = {
-		icon = default
+		icon = mission_invade_island
 		required_missions = { ASU_korea_mission_16 }
 		position = 8
 
@@ -726,7 +726,7 @@ ASU_korea_branch_4 = {
 	}
 
     ASU_korea_mission_25 = {
-		icon = default
+		icon = mission_japanese_fort
 		required_missions = { ASU_korea_mission_24 }
 		position = 9
 
@@ -752,7 +752,7 @@ ASU_korea_branch_4 = {
 	}
 
     ASU_korea_mission_26 = {
-		icon = default
+		icon = mission_dominate_home_trade_node
 		required_missions = {  }
 		position = 11
 
@@ -781,7 +781,7 @@ ASU_korea_branch_4 = {
 	}
 
     ASU_korea_mission_27 = {
-		icon = default
+		icon = mission_dominate_home_trade_node
 		required_missions = { ASU_korea_mission_26 }
 		position = 12
 
@@ -825,7 +825,7 @@ ASU_korea_branch_5 = {
 	has_country_shield = yes
 
 	ASU_korea_mission_28 = {
-		icon = default
+		icon = mission_rice_field
 		required_missions = {  }
 		position = 1
 
@@ -848,7 +848,7 @@ ASU_korea_branch_5 = {
 	}
 
     ASU_korea_mission_29 = {
-		icon = default
+		icon = mission_have_manufactories
 		required_missions = { ASU_korea_mission_28 }
 		position = 2
 
@@ -871,8 +871,8 @@ ASU_korea_branch_5 = {
 	}
 
     ASU_korea_mission_30 = {
-		icon = default
-		required_missions = { ASU_korea_mission_21 ASU_korea_mission_39 }
+		icon = mission_colonial
+		required_missions = { ASU_korea_mission_21 ASU_korea_mission_39 ASU_korea_mission_29 }
 		position = 3
 
         provinces_to_highlight = {
@@ -894,7 +894,7 @@ ASU_korea_branch_5 = {
 	}
 
     ASU_korea_mission_31 = {
-		icon = default
+		icon = mission_japanese_fort
 		required_missions = { ASU_korea_mission_30 }
 		position = 4
 
@@ -920,7 +920,7 @@ ASU_korea_branch_5 = {
 	}
 
     ASU_korea_mission_32 = {
-		icon = default
+		icon = mission_scholar_officials
 		required_missions = {  }
 		position = 6
 
@@ -943,7 +943,7 @@ ASU_korea_branch_5 = {
 	}
 
     ASU_korea_mission_33 = {
-		icon = default
+		icon = mission_asian_city
 		required_missions = { ASU_korea_mission_32 }
 		position = 7
 
@@ -966,7 +966,7 @@ ASU_korea_branch_5 = {
 	}
 
     ASU_korea_mission_34 = {
-		icon = default
+		icon = mission_kowtow
 		required_missions = {  }
 		position = 9
 
@@ -975,26 +975,32 @@ ASU_korea_branch_5 = {
 		}
 
 		effect = { 
-            
+            add_country_modifier = {
+				name = "ASU_korean_golden_age"
+				duration = 36500
+			}
 		}
 	}
 
     ASU_korea_mission_35 = {
-		icon = default
+		icon = mission_empire
 		required_missions = { ASU_korea_mission_34 }
 		position = 10
 
 		trigger = { 
-            total_development = 2000
+            total_development = 3000
 		}
 
 		effect = { 
-            
+			add_prestige = 100
+			add_adm_power = 300
+			add_dip_power = 300
+			add_mil_power = 300
 		}
 	}
 
     ASU_korea_mission_36 = {
-		icon = default
+		icon = mission_have_manufactories
 		required_missions = {  }
 		position = 11
 
@@ -1013,7 +1019,7 @@ ASU_korea_branch_5 = {
 	}
 
     ASU_korea_mission_37 = {
-		icon = default
+		icon = mission_have_manufactories
 		required_missions = { ASU_korea_mission_36 }
 		position = 12
 
@@ -1036,7 +1042,7 @@ ASU_korea_branch_5 = {
 	}
 
     ASU_korea_mission_38 = { #Reformed Asian Event
-		icon = default
+		icon = mission_empire
 		required_missions = { ASU_korea_mission_20 ASU_korea_mission_27 ASU_korea_mission_37 ASU_korea_mission_45 ASU_korea_mission_54 }
 		position = 13
 
@@ -1047,14 +1053,16 @@ ASU_korea_branch_5 = {
 
 		effect = { 
             add_treasury = -5000
+			add_country_modifier = {
+				name = "ASU_korean_reformation"
+				duration = 36500
+			}
 			country_event = {
 				id = ASU_china_events.4
 			}
 		}
 	}
     
-
-
 } #Ende Branch 5
 
 ASU_korea_branch_6 = { 
@@ -1067,7 +1075,7 @@ ASU_korea_branch_6 = {
 	has_country_shield = yes
 
 	ASU_korea_mission_39 = {
-		icon = default
+		icon = mission_japanese_samurai
 		required_missions = { ASU_korea_mission_28 }
 		position = 2
 
@@ -1090,7 +1098,7 @@ ASU_korea_branch_6 = {
 	}
 
     ASU_korea_mission_40 = {
-		icon = default
+		icon = mission_japanese_fort
 		required_missions = { ASU_korea_mission_30 }
 		position = 4
 
@@ -1116,7 +1124,7 @@ ASU_korea_branch_6 = {
 	}
 
     ASU_korea_mission_41 = {
-		icon = default
+		icon = mission_colonial
 		required_missions = { ASU_korea_mission_47 }
 		position = 5
 
@@ -1157,7 +1165,7 @@ ASU_korea_branch_6 = {
 	}
 
     ASU_korea_mission_42 = {
-		icon = default
+		icon = mission_colonial
 		required_missions = { ASU_korea_mission_41 }
 		position = 6
 
@@ -1198,7 +1206,7 @@ ASU_korea_branch_6 = {
 	}
 
     ASU_korea_mission_43 = {
-		icon = default
+		icon = mission_great_wall
 		required_missions = {  }
 		position = 8
 
@@ -1222,7 +1230,7 @@ ASU_korea_branch_6 = {
 	}
 
     ASU_korea_mission_44 = {
-		icon = default
+		icon = mission_rice_field
 		required_missions = {  }
 		position = 11
 
@@ -1247,7 +1255,7 @@ ASU_korea_branch_6 = {
 	}
 
     ASU_korea_mission_45 = {
-		icon = default
+		icon = mission_rice_field
 		required_missions = { ASU_korea_mission_44 }
 		position = 12
 
@@ -1288,7 +1296,7 @@ ASU_korea_branch_7 = {
 	has_country_shield = yes
 
 	ASU_korea_mission_46 = {
-		icon = default
+		icon = mission_japanese_fort
 		required_missions = {  }
 		position = 1
 
@@ -1314,7 +1322,7 @@ ASU_korea_branch_7 = {
 	}
 
     ASU_korea_mission_47 = {
-		icon = default
+		icon = mission_colonial
 		required_missions = {  }
 		position = 4
 
@@ -1355,7 +1363,7 @@ ASU_korea_branch_7 = {
 	}
 
     ASU_korea_mission_48 = {
-		icon = default
+		icon = mission_colonial
 		required_missions = { ASU_korea_mission_47 }
 		position = 5
 
@@ -1396,7 +1404,7 @@ ASU_korea_branch_7 = {
 	}
 
     ASU_korea_mission_49 = {
-		icon = default
+		icon = mission_colonial
 		required_missions = { ASU_korea_mission_48 }
 		position = 6
 
@@ -1429,7 +1437,7 @@ ASU_korea_branch_7 = {
 	}
 
     ASU_korea_mission_50 = {
-		icon = default
+		icon = mission_colonial
 		required_missions = { ASU_korea_mission_49 }
 		position = 7
 
@@ -1453,7 +1461,7 @@ ASU_korea_branch_7 = {
 	}
 
     ASU_korea_mission_51 = {
-		icon = default
+		icon = mission_great_wall
 		required_missions = {  }
 		position = 8
 
@@ -1484,7 +1492,7 @@ ASU_korea_branch_7 = {
 	}
 
     ASU_korea_mission_52 = {
-		icon = default
+		icon = mission_manchu_warrior
 		required_missions = {ASU_korea_mission_43 ASU_korea_mission_51 ASU_korea_mission_59  }
 		position = 9
 
@@ -1504,7 +1512,7 @@ ASU_korea_branch_7 = {
 	}
 
     ASU_korea_mission_53 = {
-		icon = default
+		icon = mission_junk_boat
 		required_missions = {  }
 		position = 11
 
@@ -1529,7 +1537,7 @@ ASU_korea_branch_7 = {
 	}
 
     ASU_korea_mission_54 = {
-		icon = default
+		icon = mission_junk_boat
 		required_missions = { ASU_korea_mission_53 }
 		position = 12
 
@@ -1570,7 +1578,7 @@ ASU_korea_branch_8 = {
 	has_country_shield = yes
 
 	ASU_korea_mission_55 = {
-		icon = default
+		icon = mission_japanese_fort
 		required_missions = {  }
 		position = 1
 
@@ -1596,7 +1604,7 @@ ASU_korea_branch_8 = {
 	}
 
     ASU_korea_mission_56 = {
-		icon = default
+		icon = mission_asian_cannon
 		required_missions = { ASU_korea_mission_46 ASU_korea_mission_55 ASU_korea_mission_61 ASU_korea_mission_68 }
 		position = 2
 
@@ -1615,7 +1623,7 @@ ASU_korea_branch_8 = {
 	}
 
     ASU_korea_mission_57 = {
-		icon = default
+		icon = mission_japanese_fort
 		required_missions = {  }
 		position = 3
 
@@ -1641,7 +1649,7 @@ ASU_korea_branch_8 = {
 	}
 
     ASU_korea_mission_58 = {
-		icon = default
+		icon = mission_chinese_general_riding
 		required_missions = { ASU_korea_mission_64 }
 		position = 6
 
@@ -1663,7 +1671,7 @@ ASU_korea_branch_8 = {
 	}
 
     ASU_korea_mission_59 = {
-		icon = default
+		icon = mission_great_wall
 		required_missions = {  }
 		position = 8
 
@@ -1687,7 +1695,7 @@ ASU_korea_branch_8 = {
 	}
 
     ASU_korea_mission_60 = {
-		icon = default
+		icon = mission_cossack_cavalry
 		required_missions = { ASU_korea_mission_52 ASU_korea_mission_67 }
 		position = 10
 
@@ -1722,7 +1730,7 @@ ASU_korea_branch_9 = {
 	has_country_shield = yes
 
 	ASU_korea_mission_61 = {
-		icon = default
+		icon = mission_japanese_fort
 		required_missions = {  }
 		position = 1
 
@@ -1748,7 +1756,7 @@ ASU_korea_branch_9 = {
 	}
 
     ASU_korea_mission_62 = {
-		icon = default
+		icon = mission_japanese_fort
 		required_missions = {  }
 		position = 3
 
@@ -1781,7 +1789,7 @@ ASU_korea_branch_9 = {
 	}
 
     ASU_korea_mission_63 = {
-		icon = default
+		icon = mission_unite_home_region
 		required_missions = { ASU_korea_mission_57 ASU_korea_mission_62 ASU_korea_mission_69 }
 		position = 4
 
@@ -1807,7 +1815,7 @@ ASU_korea_branch_9 = {
 	}
 
     ASU_korea_mission_64 = {
-		icon = default
+		icon = mission_establish_high_seas_navy
 		required_missions = { ASU_korea_mission_63 }
 		position = 5
 
@@ -1840,7 +1848,7 @@ ASU_korea_branch_9 = {
 	}
 
     ASU_korea_mission_65 = {
-		icon = default
+		icon = mission_chinese_general_riding
 		required_missions = { ASU_korea_mission_64 }
 		position = 6
 
@@ -1862,7 +1870,7 @@ ASU_korea_branch_9 = {
 	}
 
     ASU_korea_mission_66 = {
-		icon = default
+		icon = mission_great_wall
 		required_missions = {  }
 		position = 8
 
@@ -1886,8 +1894,8 @@ ASU_korea_branch_9 = {
 	}
 
     ASU_korea_mission_67 = {
-		icon = default
-		required_missions = { ASU_korea_mission_66 ASU_korea_mission_72 }
+		icon = mission_manchu_warrior
+		required_missions = { ASU_korea_mission_66 ASU_korea_mission_72 ASU_korea_mission_59 }
 		position = 9
 
 		trigger = { 
@@ -1919,7 +1927,7 @@ ASU_korea_branch_10 = {
 	has_country_shield = yes
 
 	ASU_korea_mission_68 = {
-		icon = default
+		icon = mission_japanese_fort
 		required_missions = {  }
 		position = 1
 
@@ -1945,7 +1953,7 @@ ASU_korea_branch_10 = {
 	}
 
     ASU_korea_mission_69 = {
-		icon = default
+		icon = mission_japanese_fort
 		required_missions = {  }
 		position = 3
 
@@ -1971,7 +1979,7 @@ ASU_korea_branch_10 = {
 	}
 
     ASU_korea_mission_70 = {
-		icon = default
+		icon = mission_junk_boat
 		required_missions = {  }
 		position = 6
 
@@ -1985,7 +1993,7 @@ ASU_korea_branch_10 = {
 	}
 
     ASU_korea_mission_71 = {
-		icon = default
+		icon = mission_dominate_home_trade_node
 		required_missions = { ASU_korea_mission_70 }
 		position = 7
 
@@ -2001,7 +2009,7 @@ ASU_korea_branch_10 = {
 	}
 
     ASU_korea_mission_72 = {
-		icon = default
+		icon = mission_great_wall
 		required_missions = {  }
 		position = 8
 
