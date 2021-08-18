@@ -1,0 +1,45 @@
+namespace = ASU_korea_events
+
+
+country_event = {
+	id = ASU_korea_events.1
+	title = "ASU_korea_events.1.t"
+	desc = "ASU_korea_events.1.d"
+	picture = ECONOMY_eventPicture
+	is_triggered_only = yes
+    trigger = {
+		tag = KOR
+	}
+	option = {
+		name = "ASU_korea_events.1.a"
+        add_country_modifier = {
+			name = "ASU_korea_defensive_mentality_cost"
+			duration = -1
+		}
+	}
+    option = {
+		name = "ASU_korea_events.1.b"
+        add_country_modifier = {
+			name = "ASU_korea_defensive_mentality_defence"
+			duration = -1
+		}
+	}
+}
+
+country_event = {
+	id = ASU_korea_events.2
+	title = "ASU_korea_events.2.t"
+	desc = "ASU_korea_events.2.d"
+	picture = ECONOMY_eventPicture
+	is_triggered_only = yes
+    trigger = {
+		tag = KOR
+	}
+	option = {
+		name = "ASU_korea_events.2.a"
+        add_country_modifier = {
+			name = "ASU_korea_merchant_society"
+			duration = -1
+		}
+	}
+}

@@ -12051,3 +12051,45 @@ ASU_cavalry_leader_boost = {
 	cavalry_power = 0.1
 }
 
+####################################
+#These ones are for Reformed Asian
+####################################
+ASU_reformed_administration = {
+	governing_capacity = 500
+}
+
+ASU_reformed_commercial = {
+	trade_efficiency = 0.05
+}
+
+ASU_reformed_production = {
+	production_efficiency = 0.05
+}
+
+ASU_reformed_conscription = {
+	global_manpower_modifier = 0.1
+}
+
+ASU_reformed_navy = {
+	global_sailors_modifier = 0.1
+}
+
+ASU_reformed_army = {
+	manpower_recovery_speed = 0.05
+}
+
+####################################
+####################################
+####################################
+
+ASU_korea_defensive_mentality_cost = {
+	fort_maintenance_modifier = -0.1
+}
+
+ASU_korea_defensive_mentality_defence = {
+	defensiveness = 0.2
+}
+
+ASU_korea_merchant_society = {
+	global_ship_trade_power = 0.2
+}

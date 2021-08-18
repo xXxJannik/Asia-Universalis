@@ -68,4 +68,17 @@
  ASU_recruiting_officer_boost:0 "Inspiring Recruiting Officer"
  ASU_infantry_leader_boost:0 "Inspiring Infantry Leader"
  ASU_cavalry_leader_boost:0 "Inspiring Cavalry Leader"
+
+ #Reformed Asian
+ ASU_reformed_administration:0 "Reformed Administration"
+ ASU_reformed_commercial:0 "Reformed Commercials"
+ ASU_reformed_production:0 "Reformed Production"
+ ASU_reformed_conscription:0 "Reformed Conscription"
+ ASU_reformed_navy:0 "Reformed Navy"
+ ASU_reformed_army:0 "Reformed Army"
+
+ #Korea
+ ASU_korea_defensive_mentality_cost:0 "Cheaper Material"
+ ASU_korea_defensive_mentality_defence:0 "Expensive Material"
+ ASU_korea_merchant_society:0 "Merchant Society"
  

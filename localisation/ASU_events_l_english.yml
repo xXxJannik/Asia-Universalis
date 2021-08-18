@@ -18,12 +18,15 @@
  ASU_china_events.1.t:0 "A new Royal Dynasty"
  ASU_china_events.1.d:0 "[Root.Monarch.GetName] has started a new royal Dynasty. [Root.Monarch.GetSheHeCap] is the first person of [Root.Monarch.GetHerHis] that is worthy of claiming a royal bloodline!"
  ASU_china_events.1.a:0 "We are worthy!"
+
  ASU_china_events.2.t:0 "A legendary bloodline!"
  ASU_china_events.2.d:0 "[Root.Monarch.GetName] is the first one of [Root.Monarch.GetHerHis] family to claim a legendary bloodline. [Root.Monarch.GetSheHeCap] is worthy of the Mandate of Heaven."
  ASU_china_events.2.a:0 "The chosen one."
+
  ASU_china_events.3.t:0 "Volunteer corps"
  ASU_china_events.3.d:0 "The population is outraged by the attack. They believe our Monarch is the only worthy person to claim the Mandate of Heaven."
  ASU_china_events.3.a:0 "Hand them weapons!"
+ 
  ASU_china_events.4.t:0 "The reformation of an Empire"
  ASU_china_events.4.d:0 "We have achieved the reformation of our Empire and thus increased our military capacities."
  ASU_china_events.4.a:0 "We did it!"
@@ -159,6 +162,17 @@
 
  ASU_advisor_events.27.t:0 "$CAVALRY_LEADER$"
  ASU_advisor_events.27.d:0 "$CAVALRY_LEADER$ is considered one of the best in his/her field of expertise and has recently achieved a breakthrough. This will benefit our country."
+
+
+ #Korea
+ ASU_korea_events.1.t:0 "Defensive Mentality"
+ ASU_korea_events.1.d:0 "The Korean state has always focused on its defence. Fortresses are usually fairly expensive, which led to the discussion among our defensive planners whether we should use cheaper material to decrease the cost or more expensive ones which have been proved to be more effective."
+ ASU_korea_events.1.a:0 "We should rely on cheap materials"
+ ASU_korea_events.1.b:0 "We should rely on expensive materials"
+
+ ASU_korea_events.2.t:0 "Merchan Society"
+ ASU_korea_events.2.d:0 "The state of Korea has always tried to pursue economic strength by allying with the Son of Heaven. We should continue that tradition even with China in ruines."
+ ASU_korea_events.2.a:0 "We live in a Society"
 
  
 

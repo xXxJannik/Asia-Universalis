@@ -563,6 +563,8 @@ ASU_korea_branch_3 = {
 		position = 11
 
 		trigger = { 
+			NOT = { num_of_loans = 10 }
+			treasury = 2000
             OR = {
                 num_of_owned_provinces_with = {
 				    value = 25
@@ -576,7 +578,7 @@ ASU_korea_branch_3 = {
 		}
 
 		effect = { 
-            
+            add_treasury = -2000
 		}
 	}
 
@@ -586,6 +588,8 @@ ASU_korea_branch_3 = {
 		position = 12
 
 		trigger = { 
+			NOT = { num_of_loans = 10 }
+			treasury = 3000
             OR = {
                 num_of_owned_provinces_with = {
 				    value = 75
@@ -599,7 +603,11 @@ ASU_korea_branch_3 = {
 		}
 
 		effect = { 
-            
+            add_treasury = -3000
+			add_country_modifier = {
+				name = "ASU_reformed_administration"
+				duration = -1
+			}
 		}
 	}
 
@@ -749,6 +757,8 @@ ASU_korea_branch_4 = {
 		position = 11
 
 		trigger = { 
+			NOT = { num_of_loans = 10 }
+			treasury = 2000
             OR = {
                 num_of_owned_provinces_with = {
 				    value = 25
@@ -766,7 +776,7 @@ ASU_korea_branch_4 = {
 		}
 
 		effect = { 
-            
+            add_treasury = -2000
 		}
 	}
 
@@ -776,6 +786,8 @@ ASU_korea_branch_4 = {
 		position = 12
 
 		trigger = { 
+			NOT = { num_of_loans = 10 }
+			treasury = 3000
             OR = {
                 num_of_owned_provinces_with = {
 				    value = 75
@@ -793,7 +805,11 @@ ASU_korea_branch_4 = {
 		}
 
 		effect = { 
-            
+			add_treasury = -3000
+            add_country_modifier = {
+				name = "ASU_reformed_commercial"
+				duration = -1
+			}
 		}
 	}
 
@@ -983,6 +999,8 @@ ASU_korea_branch_5 = {
 		position = 11
 
 		trigger = { 
+			NOT = { num_of_loans = 10 }
+			treasury = 2000
             num_of_owned_provinces_with = {
 				value = 25
 				has_manufactory_trigger = yes
@@ -990,7 +1008,7 @@ ASU_korea_branch_5 = {
 		}
 
 		effect = { 
-            
+           add_treasury = -2000 
 		}
 	}
 
@@ -1000,6 +1018,8 @@ ASU_korea_branch_5 = {
 		position = 12
 
 		trigger = { 
+			NOT = { num_of_loans = 10 }
+			treasury = 3000
             num_of_owned_provinces_with = {
 				value = 75
 				has_manufactory_trigger = yes
@@ -1007,21 +1027,29 @@ ASU_korea_branch_5 = {
 		}
 
 		effect = { 
-            
+			add_treasury = -3000
+            add_country_modifier = {
+				name = "ASU_reformed_production"
+				duration = -1
+			}
 		}
 	}
 
-    ASU_korea_mission_38 = {
+    ASU_korea_mission_38 = { #Reformed Asian Event
 		icon = default
 		required_missions = { ASU_korea_mission_20 ASU_korea_mission_27 ASU_korea_mission_37 ASU_korea_mission_45 ASU_korea_mission_54 }
 		position = 13
 
 		trigger = { 
-            
+			NOT = { num_of_loans = 10 }
+            treasury = 5000
 		}
 
 		effect = { 
-            
+            add_treasury = -5000
+			country_event = {
+				id = ASU_china_events.4
+			}
 		}
 	}
     
@@ -1199,6 +1227,8 @@ ASU_korea_branch_6 = {
 		position = 11
 
 		trigger = { 
+			NOT = { num_of_loans = 10 }
+			treasury = 2000
             OR = {
                 num_of_owned_provinces_with = {
                     value = 25
@@ -1212,7 +1242,7 @@ ASU_korea_branch_6 = {
 		}
 
 		effect = { 
-            
+            add_treasury = -2000
 		}
 	}
 
@@ -1222,6 +1252,8 @@ ASU_korea_branch_6 = {
 		position = 12
 
 		trigger = { 
+			NOT = { num_of_loans = 10 }
+			treasury = 3000
             OR = {
                 num_of_owned_provinces_with = {
                     value = 75
@@ -1235,7 +1267,11 @@ ASU_korea_branch_6 = {
 		}
 
 		effect = { 
-            
+			add_treasury = -3000
+            add_country_modifier = {
+				name = "ASU_reformed_conscription"
+				duration = -1
+			}
 		}
 	}
 
@@ -1473,6 +1509,8 @@ ASU_korea_branch_7 = {
 		position = 11
 
 		trigger = { 
+			NOT = { num_of_loans = 10 }
+			treasury = 2000
             OR = {
                 num_of_owned_provinces_with = {
                     value = 25
@@ -1486,7 +1524,7 @@ ASU_korea_branch_7 = {
 		}
 
 		effect = { 
-            
+            add_treasury = -2000
 		}
 	}
 
@@ -1496,6 +1534,8 @@ ASU_korea_branch_7 = {
 		position = 12
 
 		trigger = { 
+			NOT = { num_of_loans = 10 }
+			treasury = 3000
             OR = {
                 num_of_owned_provinces_with = {
                     value = 75
@@ -1509,7 +1549,11 @@ ASU_korea_branch_7 = {
 		}
 
 		effect = { 
-            
+			add_treasury = -3000
+            add_country_modifier = {
+				name = "ASU_reformed_navy"
+				duration = -1
+			}
 		}
 	}
 
@@ -1564,7 +1608,9 @@ ASU_korea_branch_8 = {
 		}
 
 		effect = { 
-            #Event mit -10 fort maintenance
+			country_event = { #defensive mentality
+				id = ASU_korea_events.1
+			}
 		}
 	}
 
@@ -1841,7 +1887,7 @@ ASU_korea_branch_9 = {
 
     ASU_korea_mission_67 = {
 		icon = default
-		required_missions = { ASU_korea_mission_66 }
+		required_missions = { ASU_korea_mission_66 ASU_korea_mission_72 }
 		position = 9
 
 		trigger = { 
@@ -1948,7 +1994,9 @@ ASU_korea_branch_10 = {
 		}
 
 		effect = { 
-            
+            country_event = {
+				id = ASU_korea_events.2
+			}
 		}
 	}
 
