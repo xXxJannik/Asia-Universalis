@@ -1,0 +1,1980 @@
+ASU_korea_branch_1 = { 
+	slot = 1
+	generic = no
+	ai = no
+	potential = {
+		tag = KOR
+	}
+	has_country_shield = yes
+
+	ASU_korea_mission_1 = {
+		icon = default
+		required_missions = { }
+		position = 1
+
+		trigger = { 
+            army_size = 40
+		}
+
+		effect = { 
+            qingdao_area = {
+                limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_claim = ROOT }
+				}
+				add_claim = ROOT
+            }
+		}
+	}
+
+    ASU_korea_mission_2 = {
+		icon = default
+		required_missions = { ASU_korea_mission_1 }
+		position = 2
+
+        provinces_to_highlight = {
+			area = qingdao_area
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+
+		trigger = { 
+            qingdao_area = {
+                type = all
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+		}
+
+		effect = { 
+            rizhao_area = {
+                limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_claim = ROOT }
+				}
+				add_claim = ROOT
+            }
+            linyi_area = {
+                limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_claim = ROOT }
+				}
+				add_claim = ROOT
+            }
+            laiwu_area = {
+                limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_claim = ROOT }
+				}
+				add_claim = ROOT
+            }
+		}
+	}
+
+    ASU_korea_mission_3 = {
+		icon = default
+		required_missions = { ASU_korea_mission_2 }
+		position = 3
+    	
+        provinces_to_highlight = {
+			province_id = 5014
+		}
+
+		trigger = { 
+            5014 = {
+                OR = {
+                    has_building = fort_15th
+                    has_building = fort_16th
+                    has_building = fort_17th
+                    has_building = fort_18th
+                }
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+		}
+
+		effect = { 
+            add_treasury = 100
+		}
+	}
+
+    ASU_korea_mission_4 = {
+		icon = default
+		required_missions = { ASU_korea_mission_8 }
+		position = 5
+
+        provinces_to_highlight = {
+			OR = {
+                area = taiwan_area
+                area = north_taiwan_area
+            }
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+
+		trigger = { 
+            taiwan_area = {
+                type = all
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+            north_taiwan_area = {
+                type = all
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+		}
+
+		effect = { 
+            add_years_of_income = 0.5
+		}
+	}
+
+    ASU_korea_mission_5 = {
+		icon = default
+		required_missions = { ASU_korea_mission_4 }
+		position = 6
+
+        provinces_to_highlight = {
+			OR = {
+                province_id = 5136
+                province_id = 5139
+            }
+		}
+
+		trigger = { 
+            5136 = {
+                OR = {
+                    has_building = fort_15th
+                    has_building = fort_16th
+                    has_building = fort_17th
+                    has_building = fort_18th
+                }
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+            5139 = {
+                OR = {
+                    has_building = fort_15th
+                    has_building = fort_16th
+                    has_building = fort_17th
+                    has_building = fort_18th
+                }
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+		}
+
+		effect = { 
+            add_treasury = 200
+		}
+	}
+
+} #Ende Branch 1
+
+ASU_korea_branch_2 = { 
+	slot = 2
+	generic = no
+	ai = no
+	potential = {
+		tag = KOR
+	}
+	has_country_shield = yes
+
+	ASU_korea_mission_6 = {
+		icon = default
+		required_missions = { ASU_korea_mission_1 }
+		position = 2
+
+        provinces_to_highlight = {
+			area = linyi_area
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+
+		trigger = { 
+            linyi_area = {
+                type = all
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+		}
+
+		effect = { 
+            add_mil_power = 25
+            add_yearly_manpower = 0.5
+		}
+	}
+
+    ASU_korea_mission_7 = {
+		icon = default
+		required_missions = { ASU_korea_mission_6 }
+		position = 3
+
+        provinces_to_highlight = {
+			province_id = 690
+		}
+
+		trigger = { 
+            690 = {
+                OR = {
+                    has_building = fort_15th
+                    has_building = fort_16th
+                    has_building = fort_17th
+                    has_building = fort_18th
+                }
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+		}
+
+		effect = { 
+            add_treasury = 100
+		}
+	}
+
+    ASU_korea_mission_8 = {
+		icon = default
+		required_missions = {  }
+		position = 4
+
+		trigger = { 
+            num_of_galley = 50
+            num_of_transport = 25
+		}
+
+		effect = { 
+            north_taiwan_area = {
+                limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_claim = ROOT }
+				}
+				add_claim = ROOT
+            }
+            taiwan_area = {
+                limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_claim = ROOT }
+				}
+				add_claim = ROOT
+            }
+            okinawa_area = {
+                limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_claim = ROOT }
+				}
+				add_claim = ROOT
+            }
+            luzon_area = {
+                limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_claim = ROOT }
+				}
+				add_claim = ROOT
+            }
+		}
+	}
+
+    ASU_korea_mission_9 = {
+		icon = default
+		required_missions = { ASU_korea_mission_8 }
+		position = 5
+
+        provinces_to_highlight = {
+			area = luzon_area
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+
+		trigger = { 
+            luzon_area = {
+                type = all
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+		}
+
+		effect = { 
+            add_years_of_income = 0.2
+            southern_luzon_area = {
+                limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_claim = ROOT }
+				}
+				add_claim = ROOT
+            }
+		}
+	}
+
+    ASU_korea_mission_10 = {
+		icon = default
+		required_missions = { ASU_korea_mission_9 }
+		position = 6
+
+        provinces_to_highlight = {
+			province_id = 2697
+		}
+
+		trigger = { 
+            2697 = {
+                OR = {
+                    has_building = fort_15th
+                    has_building = fort_16th
+                    has_building = fort_17th
+                    has_building = fort_18th
+                }
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+		}
+
+		effect = { 
+            add_treasury = 100
+		}
+	}
+
+    ASU_korea_mission_11 = {
+		icon = default
+		required_missions = { ASU_korea_mission_10 ASU_korea_mission_16 }
+		position = 8
+
+        provinces_to_highlight = {
+			OR = {
+                area = luzon_area
+                area = southern_luzon_area
+                area = visayas_area
+                area = west_mindanao_area
+                area = mindanao_area
+                area = palawan_area
+            }
+            NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+
+		trigger = { 
+            luzon_area = {
+                type = all
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+            southern_luzon_area = {
+                type = all
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+            visayas_area = {
+                type = all
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+            west_mindanao_area = {
+                type = all
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+            mindanao_area = {
+                type = all
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+            palawan_area = {
+                type = all
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+		}
+
+		effect = { 
+            add_years_of_income = 5
+		}
+	}
+
+} #Ende Branch 2
+
+ASU_korea_branch_3 = { 
+	slot = 3
+	generic = no
+	ai = no
+	potential = {
+		tag = KOR
+	}
+	has_country_shield = yes
+
+	ASU_korea_mission_12 = {
+		icon = default
+		required_missions = { ASU_korea_mission_1 }
+		position = 2
+
+        provinces_to_highlight = {
+			area = rizhao_area
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+
+		trigger = { 
+            rizhao_area = {
+                type = all
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+		}
+
+		effect = { 
+            add_mil_power = 25
+            add_yearly_manpower = 0.5
+		}
+	}
+
+    ASU_korea_mission_13 = {
+		icon = default
+		required_missions = { ASU_korea_mission_12 }
+		position = 3
+
+        provinces_to_highlight = {
+			province_id = 5027
+		}
+
+		trigger = { 
+            5027 = {
+                country_or_non_sovereign_subject_holds = ROOT
+                OR = {
+                    has_building = fort_15th
+                    has_building = fort_16th
+                    has_building = fort_17th
+                    has_building = fort_18th
+                }
+            }
+		}
+
+		effect = { 
+            add_treasury = 100
+		}
+	}
+
+    ASU_korea_mission_14 = {
+		icon = default
+		required_missions = { ASU_korea_mission_8 }
+		position = 5
+
+        provinces_to_highlight = {
+			area = okinawa_area
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+
+		trigger = { 
+            okinawa_area = {
+                type = all
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+		}
+
+		effect = { 
+            add_mil_power = 25
+            add_yearly_manpower = 0.5
+		}
+	}
+
+    ASU_korea_mission_15 = {
+		icon = default
+		required_missions = { ASU_korea_mission_14 }
+		position = 6
+
+        provinces_to_highlight = {
+			OR = {
+                province_id = 1015
+                province_id = 5044
+                province_id = 5046
+            }
+		}
+
+		trigger = { 
+            1015 = {
+                country_or_non_sovereign_subject_holds = ROOT
+                OR = {
+                    has_building = fort_15th
+                    has_building = fort_16th
+                    has_building = fort_17th
+                    has_building = fort_18th
+                }
+            }
+            5044 = {
+                country_or_non_sovereign_subject_holds = ROOT
+                OR = {
+                    has_building = fort_15th
+                    has_building = fort_16th
+                    has_building = fort_17th
+                    has_building = fort_18th
+                }
+            }
+            5046 = {
+                country_or_non_sovereign_subject_holds = ROOT
+                OR = {
+                    has_building = fort_15th
+                    has_building = fort_16th
+                    has_building = fort_17th
+                    has_building = fort_18th
+                }
+            }
+		}
+
+		effect = { 
+            add_treasury = 300
+		}
+	}
+
+    ASU_korea_mission_16 = {
+		icon = default
+		required_missions = {  }
+		position = 7
+
+		trigger = { 
+            num_of_galley = 200
+            num_of_transport = 50
+		}
+
+		effect = { 
+            west_hainan_area = {
+                limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_claim = ROOT }
+				}
+				add_claim = ROOT
+            }
+            east_hainan_area = {
+                limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_claim = ROOT }
+				}
+				add_claim = ROOT
+            }
+		}
+	}
+
+    ASU_korea_mission_17 = {
+		icon = default
+		required_missions = { ASU_korea_mission_16 }
+		position = 8
+
+
+		trigger = { 
+            full_idea_group = maritime_ideas
+		}
+
+		effect = { 
+           add_dip_power = 250 
+		}
+	}
+
+    ASU_korea_mission_18 = {
+		icon = default
+		required_missions = { ASU_korea_mission_17 ASU_korea_mission_25 }
+		position = 10
+
+
+		trigger = { 
+           num_of_galley = 500 
+		}
+
+		effect = { 
+            add_treasury = 2500
+		}
+	}
+
+    ASU_korea_mission_19 = {
+		icon = default
+		required_missions = {  }
+		position = 11
+
+		trigger = { 
+            OR = {
+                num_of_owned_provinces_with = {
+				    value = 25
+				    has_building = courthouse
+			    }
+                num_of_owned_provinces_with = {
+				    value = 25
+				    has_building = town_hall
+			    }
+            }
+		}
+
+		effect = { 
+            
+		}
+	}
+
+    ASU_korea_mission_20 = {
+		icon = default
+		required_missions = { ASU_korea_mission_19 }
+		position = 12
+
+		trigger = { 
+            OR = {
+                num_of_owned_provinces_with = {
+				    value = 75
+				    has_building = courthouse
+			    }
+                num_of_owned_provinces_with = {
+				    value = 75
+				    has_building = town_hall
+			    }
+            }
+		}
+
+		effect = { 
+            
+		}
+	}
+
+} #Ende Branch 3
+
+ASU_korea_branch_4 = { 
+	slot = 4
+	generic = no
+	ai = no
+	potential = {
+		tag = KOR
+	}
+	has_country_shield = yes
+
+	ASU_korea_mission_21 = {
+		icon = default
+		required_missions = { ASU_korea_mission_28 }
+		position = 2
+
+        provinces_to_highlight = {
+			province_id = 735
+		}
+
+		trigger = { 
+            735 = {
+                has_tax_building_trigger = yes
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+
+		}
+
+		effect = { 
+            735 = {
+                add_base_tax = 2
+            }
+		}
+	}
+
+    ASU_korea_mission_22 = {
+		icon = default
+		required_missions = { ASU_korea_mission_30 }
+		position = 4
+
+        provinces_to_highlight = {
+			province_id = 55
+		}
+
+		trigger = { 
+            55 = {
+                country_or_non_sovereign_subject_holds = ROOT
+                OR = {
+                    has_building = fort_15th
+                    has_building = fort_16th
+                    has_building = fort_17th
+                    has_building = fort_18th
+                }
+            }
+		}
+
+		effect = { 
+            add_treasury = 100
+		}
+	}
+
+    ASU_korea_mission_23 = {
+		icon = default
+		required_missions = { ASU_korea_mission_14 }
+		position = 6
+
+        provinces_to_highlight = {
+			area = okinawa_area
+		}
+
+		trigger = { 
+            okinawa_area = {
+                OR = {
+                    has_building = naval_battery
+                    has_building = coastal_defence
+                }
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+		}
+
+		effect = { 
+            add_dip_power = 25
+		}
+	}
+
+    ASU_korea_mission_24 = {
+		icon = default
+		required_missions = { ASU_korea_mission_16 }
+		position = 8
+
+        provinces_to_highlight = {
+			OR = {
+                area = west_hainan_area
+                area = east_hainan_area
+            }
+            NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+
+		trigger = { 
+            west_hainan_area = {
+                type = all
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+            east_hainan_area = {
+                type = all
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+		}
+
+		effect = { 
+            add_years_of_income = 2.5
+		}
+	}
+
+    ASU_korea_mission_25 = {
+		icon = default
+		required_missions = { ASU_korea_mission_24 }
+		position = 9
+
+        provinces_to_highlight = {
+			province_id = 666
+		}
+
+		trigger = { 
+            666 = {
+               country_or_non_sovereign_subject_holds = ROOT
+               OR = {
+                   has_building = fort_15th
+                   has_building = fort_16th
+                   has_building = fort_17th
+                   has_building = fort_18th
+               } 
+            }
+		}
+
+		effect = { 
+            add_treasury = 100
+		}
+	}
+
+    ASU_korea_mission_26 = {
+		icon = default
+		required_missions = {  }
+		position = 11
+
+		trigger = { 
+            OR = {
+                num_of_owned_provinces_with = {
+				    value = 25
+				    has_building = marketplace
+			    }
+                num_of_owned_provinces_with = {
+				    value = 25
+				    has_building = trade_depot
+			    }
+                num_of_owned_provinces_with = {
+				    value = 25
+				    has_building = stock_exchange
+			    }
+            }
+		}
+
+		effect = { 
+            
+		}
+	}
+
+    ASU_korea_mission_27 = {
+		icon = default
+		required_missions = { ASU_korea_mission_26 }
+		position = 12
+
+		trigger = { 
+            OR = {
+                num_of_owned_provinces_with = {
+				    value = 75
+				    has_building = marketplace
+			    }
+                num_of_owned_provinces_with = {
+				    value = 75
+				    has_building = trade_depot
+			    }
+                num_of_owned_provinces_with = {
+				    value = 75
+				    has_building = stock_exchange
+			    }
+            }
+		}
+
+		effect = { 
+            
+		}
+	}
+
+} #Ende Branch 4
+
+ASU_korea_branch_5 = { 
+	slot = 5
+	generic = no
+	ai = no
+	potential = {
+		tag = KOR
+	}
+	has_country_shield = yes
+
+	ASU_korea_mission_28 = {
+		icon = default
+		required_missions = {  }
+		position = 1
+
+        provinces_to_highlight = {
+			province_id = 735
+		}
+
+		trigger = { 
+            735 = {
+                country_or_non_sovereign_subject_holds = ROOT
+                development = 20
+            }
+		}
+
+		effect = { 
+            add_adm_power = 25
+            add_dip_power = 25
+            add_mil_power = 25
+		}
+	}
+
+    ASU_korea_mission_29 = {
+		icon = default
+		required_missions = { ASU_korea_mission_28 }
+		position = 2
+
+        provinces_to_highlight = {
+			province_id = 735
+		}
+
+		trigger = { 
+            735 = {
+                country_or_non_sovereign_subject_holds = ROOT
+                has_building = workshop
+            }
+		}
+
+		effect = { 
+            735 = {
+                add_base_production = 2
+            }
+		}
+	}
+
+    ASU_korea_mission_30 = {
+		icon = default
+		required_missions = { ASU_korea_mission_21 ASU_korea_mission_39 }
+		position = 3
+
+        provinces_to_highlight = {
+			province_id = 735
+		}
+
+		trigger = { 
+            735 = {
+                country_or_non_sovereign_subject_holds = ROOT
+                development = 20
+            }
+		}
+
+		effect = { 
+            add_adm_power = 50
+            add_dip_power = 50
+            add_mil_power = 50
+		}
+	}
+
+    ASU_korea_mission_31 = {
+		icon = default
+		required_missions = { ASU_korea_mission_30 }
+		position = 4
+
+        provinces_to_highlight = {
+			province_id = 734
+		}
+
+		trigger = { 
+            734 = {
+                country_or_non_sovereign_subject_holds = ROOT
+                OR = {
+                    has_building = fort_15th
+                    has_building = fort_16th
+                    has_building = fort_17th
+                    has_building = fort_18th
+                }
+            }
+		}
+
+		effect = { 
+            add_treasury = 100
+		}
+	}
+
+    ASU_korea_mission_32 = {
+		icon = default
+		required_missions = {  }
+		position = 6
+
+        provinces_to_highlight = {
+			province_id = 735
+		}
+
+		trigger = { 
+            735 = {
+                country_or_non_sovereign_subject_holds = ROOT
+                has_building = university
+            }
+		}
+
+		effect = { 
+            add_adm_power = 50
+            add_dip_power = 50
+            add_mil_power = 50
+		}
+	}
+
+    ASU_korea_mission_33 = {
+		icon = default
+		required_missions = { ASU_korea_mission_32 }
+		position = 7
+
+        provinces_to_highlight = {
+			province_id = 735
+		}
+
+		trigger = { 
+            735 = {
+                country_or_non_sovereign_subject_holds = ROOT
+                development = 50
+            }
+		}
+
+		effect = { 
+            add_adm_power = 200
+            add_dip_power = 200
+            add_mil_power = 200
+		}
+	}
+
+    ASU_korea_mission_34 = {
+		icon = default
+		required_missions = {  }
+		position = 9
+
+		trigger = { 
+            in_golden_age = yes
+		}
+
+		effect = { 
+            
+		}
+	}
+
+    ASU_korea_mission_35 = {
+		icon = default
+		required_missions = { ASU_korea_mission_34 }
+		position = 10
+
+		trigger = { 
+            total_development = 2000
+		}
+
+		effect = { 
+            
+		}
+	}
+
+    ASU_korea_mission_36 = {
+		icon = default
+		required_missions = {  }
+		position = 11
+
+		trigger = { 
+            num_of_owned_provinces_with = {
+				value = 25
+				has_manufactory_trigger = yes
+			}
+		}
+
+		effect = { 
+            
+		}
+	}
+
+    ASU_korea_mission_37 = {
+		icon = default
+		required_missions = { ASU_korea_mission_36 }
+		position = 12
+
+		trigger = { 
+            num_of_owned_provinces_with = {
+				value = 75
+				has_manufactory_trigger = yes
+			}
+		}
+
+		effect = { 
+            
+		}
+	}
+
+    ASU_korea_mission_38 = {
+		icon = default
+		required_missions = { ASU_korea_mission_20 ASU_korea_mission_27 ASU_korea_mission_37 ASU_korea_mission_45 ASU_korea_mission_54 }
+		position = 13
+
+		trigger = { 
+            
+		}
+
+		effect = { 
+            
+		}
+	}
+    
+
+
+} #Ende Branch 5
+
+ASU_korea_branch_6 = { 
+	slot = 6
+	generic = no
+	ai = no
+	potential = {
+		tag = KOR
+	}
+	has_country_shield = yes
+
+	ASU_korea_mission_39 = {
+		icon = default
+		required_missions = { ASU_korea_mission_28 }
+		position = 2
+
+        provinces_to_highlight = {
+			province_id = 735
+		}
+
+		trigger = { 
+            735 = {
+                country_or_non_sovereign_subject_holds = ROOT
+                has_building = barracks
+            }
+		}
+
+		effect = { 
+            735 = {
+                add_base_manpower = 2
+            }
+		}
+	}
+
+    ASU_korea_mission_40 = {
+		icon = default
+		required_missions = { ASU_korea_mission_30 }
+		position = 4
+
+        provinces_to_highlight = {
+			province_id = 4231
+		}
+
+		trigger = { 
+            4231 = {
+                country_or_non_sovereign_subject_holds = ROOT
+                OR = {
+                    has_building = fort_15th
+                    has_building = fort_16th
+                    has_building = fort_17th
+                    has_building = fort_18th
+                }
+            }
+		}
+
+		effect = { 
+            add_treasury = 100
+		}
+	}
+
+    ASU_korea_mission_41 = {
+		icon = default
+		required_missions = { ASU_korea_mission_47 }
+		position = 5
+
+        provinces_to_highlight = {
+			OR = {
+                province_id = 65
+                province_id = 60
+                province_id = 61
+            }
+		}
+
+		trigger = { 
+            65 = {
+                country_or_non_sovereign_subject_holds = ROOT
+                has_building = shipyard
+            }
+            60 = {
+                country_or_non_sovereign_subject_holds = ROOT
+                has_building = shipyard
+            }
+            61 = {
+                country_or_non_sovereign_subject_holds = ROOT
+                has_building = shipyard
+            }
+		}
+
+		effect = { 
+            65 = {
+                add_base_production = 2
+            }
+            60 = {
+                add_base_production = 2
+            }
+            61 = {
+                add_base_production = 2
+            }
+		}
+	}
+
+    ASU_korea_mission_42 = {
+		icon = default
+		required_missions = { ASU_korea_mission_41 }
+		position = 6
+
+        provinces_to_highlight = {
+			OR = {
+                province_id = 1845
+                province_id = 73
+                province_id = 2744
+            }
+		}
+
+		trigger = { 
+            1845 = {
+                country_or_non_sovereign_subject_holds = ROOT
+                has_building = shipyard
+            }
+            73 = {
+                country_or_non_sovereign_subject_holds = ROOT
+                has_building = shipyard
+            }
+            2744 = {
+                country_or_non_sovereign_subject_holds = ROOT
+                has_building = shipyard
+            }
+		}
+
+		effect = { 
+            1845 = {
+                add_base_production = 2
+            }
+            73 = {
+                add_base_production = 2
+            }
+            2744 = {
+                add_base_production = 2
+            }
+		}
+	}
+
+    ASU_korea_mission_43 = {
+		icon = default
+		required_missions = {  }
+		position = 8
+
+        provinces_to_highlight = {
+			area = pyongan_area
+		}
+
+		trigger = { 
+            pyongan_area = {
+                type = all
+                has_building = barracks
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+		}
+
+		effect = { 
+            pyongan_area = {
+                add_base_manpower = 2
+            }
+		}
+	}
+
+    ASU_korea_mission_44 = {
+		icon = default
+		required_missions = {  }
+		position = 11
+
+		trigger = { 
+            OR = {
+                num_of_owned_provinces_with = {
+                    value = 25
+                    has_building = barracks
+                }
+                num_of_owned_provinces_with = {
+                    value = 25
+                    has_building = training_fields
+                }
+            }
+		}
+
+		effect = { 
+            
+		}
+	}
+
+    ASU_korea_mission_45 = {
+		icon = default
+		required_missions = { ASU_korea_mission_44 }
+		position = 12
+
+		trigger = { 
+            OR = {
+                num_of_owned_provinces_with = {
+                    value = 75
+                    has_building = barracks
+                }
+                num_of_owned_provinces_with = {
+                    value = 75
+                    has_building = training_fields
+                }
+            }
+		}
+
+		effect = { 
+            
+		}
+	}
+
+    
+} #Ende Branch 6
+
+ASU_korea_branch_7 = { 
+	slot = 7
+	generic = no
+	ai = no
+	potential = {
+		tag = KOR
+	}
+	has_country_shield = yes
+
+	ASU_korea_mission_46 = {
+		icon = default
+		required_missions = {  }
+		position = 1
+
+        provinces_to_highlight = {
+			province_id = 70
+		}
+
+		trigger = { 
+            70 = {
+                country_or_non_sovereign_subject_holds = ROOT
+                OR = {
+                    has_building = fort_15th
+                    has_building = fort_16th
+                    has_building = fort_17th
+                    has_building = fort_18th
+                }
+            }
+		}
+
+		effect = { 
+            add_treasury = 100
+		}
+	}
+
+    ASU_korea_mission_47 = {
+		icon = default
+		required_missions = {  }
+		position = 4
+
+        provinces_to_highlight = {
+			OR = {
+                province_id = 735
+                province_id = 4231
+                province_id = 733
+            }
+		}
+
+		trigger = { 
+            735 = {
+                country_or_non_sovereign_subject_holds = ROOT
+                has_building = shipyard
+            }
+            4231 = {
+                country_or_non_sovereign_subject_holds = ROOT
+                has_building = shipyard
+            }
+            733 = {
+                country_or_non_sovereign_subject_holds = ROOT
+                has_building = shipyard
+            }
+		}
+
+		effect = { 
+            735 = {
+                add_base_production = 2
+            }
+            4231 = {
+                add_base_production = 2
+            }
+            733 = {
+                add_base_production = 2
+            }
+		}
+	}
+
+    ASU_korea_mission_48 = {
+		icon = default
+		required_missions = { ASU_korea_mission_47 }
+		position = 5
+
+        provinces_to_highlight = {
+			OR = {
+                province_id = 4230
+                province_id = 1013
+                province_id = 44
+            }
+		}
+
+		trigger = { 
+            4230 = {
+                country_or_non_sovereign_subject_holds = ROOT
+                has_building = shipyard
+            }
+            1013 = {
+                country_or_non_sovereign_subject_holds = ROOT
+                has_building = shipyard
+            }
+            44 = {
+                country_or_non_sovereign_subject_holds = ROOT
+                has_building = shipyard
+            }
+		}
+
+		effect = { 
+            4230 = {
+                add_base_production = 2
+            }
+            1013 = {
+                add_base_production = 2
+            }
+            44 = {
+                add_base_production = 2
+            }
+		}
+	}
+
+    ASU_korea_mission_49 = {
+		icon = default
+		required_missions = { ASU_korea_mission_48 }
+		position = 6
+
+        provinces_to_highlight = {
+			OR = {
+                province_id = 41
+                province_id = 737
+            }
+		}
+
+		trigger = { 
+            41 = {
+                country_or_non_sovereign_subject_holds = ROOT
+                has_building = shipyard
+            }
+            737 = {
+                country_or_non_sovereign_subject_holds = ROOT
+                has_building = shipyard
+            }
+		}
+
+		effect = { 
+            41 = {
+                add_base_production = 2
+            }
+            737 = {
+                add_base_production = 2
+            }
+		}
+	}
+
+    ASU_korea_mission_50 = {
+		icon = default
+		required_missions = { ASU_korea_mission_49 }
+		position = 7
+
+        provinces_to_highlight = {
+			area = mokpo_area
+		}
+
+		trigger = { 
+            mokpo_area = {
+                country_or_non_sovereign_subject_holds = ROOT
+                type = all
+                has_building = shipyard
+            }
+		}
+
+		effect = { 
+            mokpo_area = {
+                add_base_production = 2
+            }
+		}
+	}
+
+    ASU_korea_mission_51 = {
+		icon = default
+		required_missions = {  }
+		position = 8
+
+        provinces_to_highlight = {
+			area = sungho_guyok_area
+		}
+
+		trigger = { 
+            sungho_guyok_area = {
+                country_or_non_sovereign_subject_holds = ROOT
+                type = all
+                has_building = barracks
+            }
+		}
+
+		effect = { 
+            sungho_guyok_area = {
+                add_base_manpower = 2
+            }
+            2112 = {
+                limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_claim = ROOT }
+				}
+				add_claim = ROOT 
+            }
+		}
+	}
+
+    ASU_korea_mission_52 = {
+		icon = default
+		required_missions = {ASU_korea_mission_43 ASU_korea_mission_51 ASU_korea_mission_59  }
+		position = 9
+
+        provinces_to_highlight = {
+			province_id = 2112
+		}
+
+		trigger = { 
+            2112 = {
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+		}
+
+		effect = { 
+            add_mil_power = 50
+		}
+	}
+
+    ASU_korea_mission_53 = {
+		icon = default
+		required_missions = {  }
+		position = 11
+
+		trigger = { 
+            OR = {
+                num_of_owned_provinces_with = {
+                    value = 25
+                    has_building = dock
+                }
+                num_of_owned_provinces_with = {
+                    value = 25
+                    has_building = drydock
+                }
+            }
+		}
+
+		effect = { 
+            
+		}
+	}
+
+    ASU_korea_mission_54 = {
+		icon = default
+		required_missions = { ASU_korea_mission_53 }
+		position = 12
+
+		trigger = { 
+            OR = {
+                num_of_owned_provinces_with = {
+                    value = 75
+                    has_building = dock
+                }
+                num_of_owned_provinces_with = {
+                    value = 75
+                    has_building = drydock
+                }
+            }
+		}
+
+		effect = { 
+            
+		}
+	}
+
+ 
+} #Ende Branch 7
+
+ASU_korea_branch_8 = { 
+	slot = 8
+	generic = no
+	ai = no
+	potential = {
+		tag = KOR
+	}
+	has_country_shield = yes
+
+	ASU_korea_mission_55 = {
+		icon = default
+		required_missions = {  }
+		position = 1
+
+        provinces_to_highlight = {
+			province_id = 2744
+		}
+
+		trigger = { 
+            2744 = {
+                country_or_non_sovereign_subject_holds = ROOT
+                OR = {
+                    has_building = fort_15th
+                    has_building = fort_16th
+                    has_building = fort_17th
+                    has_building = fort_18th
+                }
+            }
+		}
+
+		effect = { 
+            add_treasury = 100
+		}
+	}
+
+    ASU_korea_mission_56 = {
+		icon = default
+		required_missions = { ASU_korea_mission_46 ASU_korea_mission_55 ASU_korea_mission_61 ASU_korea_mission_68 }
+		position = 2
+
+		trigger = { 
+            OR = {
+                full_idea_group = festung0
+                full_idea_group = defensive_ideas
+            }
+		}
+
+		effect = { 
+            #Event mit -10 fort maintenance
+		}
+	}
+
+    ASU_korea_mission_57 = {
+		icon = default
+		required_missions = {  }
+		position = 3
+
+        provinces_to_highlight = {
+			province_id = 4227
+		}
+
+		trigger = { 
+            4227 = {
+                country_or_non_sovereign_subject_holds = ROOT
+                OR = {
+                    has_building = fort_15th
+                    has_building = fort_16th
+                    has_building = fort_17th
+                    has_building = fort_18th
+                }
+            }
+		}
+
+		effect = { 
+            add_treasury = 100
+		}
+	}
+
+    ASU_korea_mission_58 = {
+		icon = default
+		required_missions = { ASU_korea_mission_64 }
+		position = 6
+
+        provinces_to_highlight = {
+			area = northern_kyushu
+		}
+
+		trigger = { 
+            northern_kyushu = {
+                country_or_non_sovereign_subject_holds = ROOT
+                type = all
+            }
+		}
+
+		effect = { 
+            add_yearly_manpower = 2.5
+            add_mil_power = 50
+		}
+	}
+
+    ASU_korea_mission_59 = {
+		icon = default
+		required_missions = {  }
+		position = 8
+
+        provinces_to_highlight = {
+			area = hamhung_area 
+		}
+
+		trigger = { 
+            hamhung_area = {
+                country_or_non_sovereign_subject_holds = ROOT
+                type = all
+                has_building = barracks
+            }
+		}
+
+		effect = { 
+            hamhung_area = {
+                add_base_manpower = 2
+            }
+		}
+	}
+
+    ASU_korea_mission_60 = {
+		icon = default
+		required_missions = { ASU_korea_mission_52 ASU_korea_mission_67 }
+		position = 10
+
+        provinces_to_highlight = {
+			area = dalian_area
+            NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+
+		trigger = { 
+            dalian_area = {
+                type = all
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+		}
+
+		effect = { 
+            add_yearly_manpower = 2.5
+            add_mil_power = 50
+		}
+	}
+
+
+} #Ende Branch 8
+
+ASU_korea_branch_9 = { 
+	slot = 9
+	generic = no
+	ai = no
+	potential = {
+		tag = KOR
+	}
+	has_country_shield = yes
+
+	ASU_korea_mission_61 = {
+		icon = default
+		required_missions = {  }
+		position = 1
+
+        provinces_to_highlight = {
+			province_id = 77
+		}
+
+		trigger = { 
+            77 = {
+                country_or_non_sovereign_subject_holds = ROOT
+                OR = {
+                    has_building = fort_15th
+                    has_building = fort_16th
+                    has_building = fort_17th
+                    has_building = fort_18th
+                }
+            }
+		}
+
+		effect = { 
+            add_treasury = 100
+		}
+	}
+
+    ASU_korea_mission_62 = {
+		icon = default
+		required_missions = {  }
+		position = 3
+
+        provinces_to_highlight = {
+			province_id = 36
+		}
+
+		trigger = { 
+            36 = {
+                country_or_non_sovereign_subject_holds = ROOT
+                OR = {
+                    has_building = fort_15th
+                    has_building = fort_16th
+                    has_building = fort_17th
+                    has_building = fort_18th
+                }
+            }
+		}
+
+		effect = { 
+            add_treasury = 100
+            4651 = {
+                limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_claim = ROOT }
+				}
+                add_claim = ROOT
+            }
+		}
+	}
+
+    ASU_korea_mission_63 = {
+		icon = default
+		required_missions = { ASU_korea_mission_57 ASU_korea_mission_62 ASU_korea_mission_69 }
+		position = 4
+
+        provinces_to_highlight = {
+			province_id = 4651
+		}
+
+		trigger = { 
+            4651 = {
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+		}
+
+		effect = { 
+            1017 = {
+                limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_claim = ROOT }
+				}
+                add_claim = ROOT
+            }
+		}
+	}
+
+    ASU_korea_mission_64 = {
+		icon = default
+		required_missions = { ASU_korea_mission_63 }
+		position = 5
+
+        provinces_to_highlight = {
+			province_id = 1017
+		}
+
+		trigger = { 
+            1017 = {
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+		}
+
+		effect = { 
+            northern_kyushu = {
+                limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_claim = ROOT }
+				}
+                add_claim = ROOT
+            }
+            saigoku_area = {
+                limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_claim = ROOT }
+				}
+                add_claim = ROOT
+            }
+		}
+	}
+
+    ASU_korea_mission_65 = {
+		icon = default
+		required_missions = { ASU_korea_mission_64 }
+		position = 6
+
+        provinces_to_highlight = {
+			area = saigoku_area
+		}
+
+		trigger = { 
+            saigoku_area = {
+                country_or_non_sovereign_subject_holds = ROOT
+                type = all
+            }
+		}
+
+		effect = { 
+            add_mil_power = 50
+            add_yearly_manpower = 2.5
+		}
+	}
+
+    ASU_korea_mission_66 = {
+		icon = default
+		required_missions = {  }
+		position = 8
+
+        provinces_to_highlight = {
+			area = jangjin_area
+		}
+
+		trigger = { 
+            jangjin_area = {
+                country_or_non_sovereign_subject_holds = ROOT
+                type = all
+                has_building = barracks
+            }
+		}
+
+		effect = { 
+            jangjin_area = {
+                add_base_manpower = 2
+            }
+		}
+	}
+
+    ASU_korea_mission_67 = {
+		icon = default
+		required_missions = { ASU_korea_mission_66 }
+		position = 9
+
+		trigger = { 
+            land_forcelimit = 100
+		}
+
+		effect = { 
+            dalian_area = {
+                limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_claim = ROOT }
+				}
+                add_claim = ROOT
+            }
+            add_yearly_manpower = 2.5
+		}
+	}
+
+
+} #Ende Branch 9
+
+ASU_korea_branch_10 = { 
+	slot = 10
+	generic = no
+	ai = no
+	potential = {
+		tag = KOR
+	}
+	has_country_shield = yes
+
+	ASU_korea_mission_68 = {
+		icon = default
+		required_missions = {  }
+		position = 1
+
+        provinces_to_highlight = {
+			province_id = 2742
+		}
+
+		trigger = { 
+            2742 = {
+                country_or_non_sovereign_subject_holds = ROOT
+                OR = {
+                    has_building = fort_15th
+                    has_building = fort_16th
+                    has_building = fort_17th
+                    has_building = fort_18th
+                }
+            }
+		}
+
+		effect = { 
+            add_treasury = 100
+		}
+	}
+
+    ASU_korea_mission_69 = {
+		icon = default
+		required_missions = {  }
+		position = 3
+
+        provinces_to_highlight = {
+			province_id = 38
+		}
+
+		trigger = { 
+            38 = {
+                country_or_non_sovereign_subject_holds = ROOT
+                OR = {
+                    has_building = fort_15th
+                    has_building = fort_16th
+                    has_building = fort_17th
+                    has_building = fort_18th
+                }
+            }
+		}
+
+		effect = { 
+            add_treasury = 100
+		}
+	}
+
+    ASU_korea_mission_70 = {
+		icon = default
+		required_missions = {  }
+		position = 6
+
+		trigger = { 
+            num_of_light_ship = 100
+		}
+
+		effect = { 
+            add_treasury = 1000
+		}
+	}
+
+    ASU_korea_mission_71 = {
+		icon = default
+		required_missions = { ASU_korea_mission_70 }
+		position = 7
+
+		trigger = { 
+            full_idea_group = trade_ideas
+		}
+
+		effect = { 
+            
+		}
+	}
+
+    ASU_korea_mission_72 = {
+		icon = default
+		required_missions = {  }
+		position = 8
+
+        provinces_to_highlight = {
+			area = hamgyeong_area
+		}
+
+		trigger = { 
+            hamgyeong_area = {
+                country_or_non_sovereign_subject_holds = ROOT
+                has_building = barracks
+            }
+		}
+
+		effect = { 
+            hamgyeong_area = {
+                add_base_manpower = 2
+            }
+		}
+	}
+
+
+
+} #Ende Branch 10
