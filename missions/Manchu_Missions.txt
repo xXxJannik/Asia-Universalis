@@ -1,0 +1,1271 @@
+ASU_manchu_branch_1 = { 
+	slot = 1
+	generic = no
+	ai = no
+	potential = {
+		OR = {
+            tag = MJZ
+            tag = MCH
+            tag = QNG
+        }
+	}
+	has_country_shield = yes
+
+	ASU_manchu_mission_1 = {
+		icon = default
+		required_missions = { }
+		position = 8
+
+		trigger = { 
+            
+		}
+
+		effect = { 
+            
+		}
+	}
+
+    ASU_manchu_mission_2 = {
+		icon = default
+		required_missions = { ASU_manchu_mission_1 ASU_manchu_mission_5 }
+		position = 9
+
+		trigger = { 
+            
+		}
+
+		effect = { 
+            
+		}
+	}
+
+} #Ende Branch 1
+
+ASU_manchu_branch_2 = { 
+	slot = 2
+	generic = no
+	ai = no
+	potential = {
+		OR = {
+            tag = MJZ
+            tag = MCH
+            tag = QNG
+        }
+	}
+	has_country_shield = yes
+
+	ASU_manchu_mission_3 = {
+		icon = default
+		required_missions = { }
+		position = 2
+
+		trigger = { 
+            
+		}
+
+		effect = { 
+            
+		}
+	}
+
+    ASU_manchu_mission_4 = {
+		icon = default
+		required_missions = { ASU_manchu_mission_3 }
+		position = 3
+
+		trigger = { 
+            
+		}
+
+		effect = { 
+            
+		}
+	}
+
+    ASU_manchu_mission_5 = {
+		icon = default
+		required_missions = {  }
+		position = 8
+
+		trigger = { 
+            
+		}
+
+		effect = { 
+            
+		}
+	}
+
+    ASU_manchu_mission_6 = {
+		icon = default
+		required_missions = { ASU_manchu_mission_13 }
+		position = 10
+
+		trigger = { 
+            
+		}
+
+		effect = { 
+            
+		}
+	}
+
+    ASU_manchu_mission_7 = {
+		icon = default
+		required_missions = { ASU_manchu_mission_16 }
+		position = 15
+
+		trigger = { 
+            
+		}
+
+		effect = { 
+            
+		}
+	}
+
+    ASU_manchu_mission_8 = {
+		icon = default
+		required_missions = { ASU_manchu_mission_19 }
+		position = 18
+
+		trigger = { 
+            
+		}
+
+		effect = { 
+            
+		}
+	}
+
+    ASU_manchu_mission_9 = {
+		icon = default
+		required_missions = { ASU_manchu_mission_8 }
+		position = 19
+
+		trigger = { 
+            
+		}
+
+		effect = { 
+            
+		}
+	}
+
+    ASU_manchu_mission_10 = {
+		icon = default
+		required_missions = { ASU_manchu_mission_9 }
+		position = 20
+
+		trigger = { 
+            
+		}
+
+		effect = { 
+            
+		}
+	}
+
+    ASU_manchu_mission_11 = {
+		icon = default
+		required_missions = { ASU_manchu_mission_10 }
+		position = 21
+
+		trigger = { 
+            
+		}
+
+		effect = { 
+            
+		}
+	}
+
+} #Ende Branch 2
+
+ASU_manchu_branch_3 = { 
+	slot = 3
+	generic = no
+	ai = no
+	potential = {
+		OR = {
+            tag = MJZ
+            tag = MCH
+            tag = QNG
+        }
+	}
+	has_country_shield = yes
+
+    ASU_manchu_mission_100 = {
+		icon = default
+		required_missions = { }
+		position = 5
+
+		trigger = { 
+            
+		}
+
+		effect = { 
+            
+		}
+	}
+
+	ASU_manchu_mission_12 = {
+		icon = default
+		required_missions = { ASU_manchu_mission_26 }
+		position = 8
+
+		trigger = { 
+            
+		}
+
+		effect = { 
+            
+		}
+	}
+
+    ASU_manchu_mission_13 = {
+		icon = default
+		required_missions = { ASU_manchu_mission_12 }
+		position = 9
+
+		trigger = { 
+            
+		}
+
+		effect = { 
+            
+		}
+	}
+
+    ASU_manchu_mission_14 = {
+		icon = default
+		required_missions = { ASU_manchu_mission_13 }
+		position = 10
+
+		trigger = { 
+            
+		}
+
+		effect = { 
+            
+		}
+	}
+
+    ASU_manchu_mission_15 = {
+		icon = default
+		required_missions = { ASU_manchu_mission_14 }
+		position = 13
+
+		trigger = { 
+            
+		}
+
+		effect = { 
+            
+		}
+	}
+
+    ASU_manchu_mission_16 = {
+		icon = default
+		required_missions = { ASU_manchu_mission_15 }
+		position = 14
+
+		trigger = { 
+            
+		}
+
+		effect = { 
+            
+		}
+	}
+
+    ASU_manchu_mission_17 = {
+		icon = default
+		required_missions = { ASU_manchu_mission_16 }
+		position = 15
+
+		trigger = { 
+            
+		}
+
+		effect = { 
+            
+		}
+	}
+
+    ASU_manchu_mission_18 = {
+		icon = default
+		required_missions = { ASU_manchu_mission_17 }
+		position = 16
+
+		trigger = { 
+            
+		}
+
+		effect = { 
+            
+		}
+	}
+
+    ASU_manchu_mission_19 = {
+		icon = default
+		required_missions = { ASU_manchu_mission_18 }
+		position = 17
+
+		trigger = { 
+            
+		}
+
+		effect = { 
+            
+		}
+	}
+
+    ASU_manchu_mission_20 = {
+		icon = default
+		required_missions = { ASU_manchu_mission_18 }
+		position = 18
+
+		trigger = { 
+            
+		}
+
+		effect = { 
+            
+		}
+	}
+
+    ASU_manchu_mission_21 = {
+		icon = default
+		required_missions = { ASU_manchu_mission_20 }
+		position = 19
+
+		trigger = { 
+            
+		}
+
+		effect = { 
+            
+		}
+	}
+
+    ASU_manchu_mission_22 = {
+		icon = default
+		required_missions = { ASU_manchu_mission_21 }
+		position = 20
+
+		trigger = { 
+            
+		}
+
+		effect = { 
+            
+		}
+	}
+
+    ASU_manchu_mission_23 = {
+		icon = default
+		required_missions = { ASU_manchu_mission_22 }
+		position = 21
+
+		trigger = { 
+            
+		}
+
+		effect = { 
+            
+		}
+	}
+
+    
+    ASU_manchu_mission_101 = {
+		icon = default
+		required_missions = { ASU_manchu_mission_11 ASU_manchu_mission_23 ASU_manchu_mission_34 }
+		position = 22
+
+		trigger = { 
+            
+		}
+
+		effect = { 
+            
+		}
+	}
+
+} #Ende Branch 3
+
+ASU_manchu_branch_4 = { 
+	slot = 4
+	generic = no
+	ai = no
+	potential = {
+		OR = {
+            tag = MJZ
+            tag = MCH
+            tag = QNG
+        }
+	}
+	has_country_shield = yes
+
+	ASU_manchu_mission_24 = {
+		icon = default
+		required_missions = { ASU_manchu_mission_36 }
+		position = 3
+
+		trigger = { 
+            
+		}
+
+		effect = { 
+            
+		}
+	}
+
+    
+	ASU_manchu_mission_25 = {
+		icon = default
+		required_missions = { ASU_manchu_mission_24 }
+		position = 4
+
+		trigger = { 
+            
+		}
+
+		effect = { 
+            
+		}
+	}
+
+    
+	ASU_manchu_mission_26 = {
+		icon = default
+		required_missions = { ASU_manchu_mission_39 }
+		position = 7
+
+		trigger = { 
+            
+		}
+
+		effect = { 
+            
+		}
+	}
+
+    
+	ASU_manchu_mission_27 = {
+		icon = default
+		required_missions = { ASU_manchu_mission_26 }
+		position = 8
+
+		trigger = { 
+            
+		}
+
+		effect = { 
+            
+		}
+	}
+
+    
+	ASU_manchu_mission_28 = {
+		icon = default
+		required_missions = { ASU_manchu_mission_27 }
+		position = 9
+
+		trigger = { 
+            
+		}
+
+		effect = { 
+            
+		}
+	}
+
+    
+	ASU_manchu_mission_29 = {
+		icon = default
+		required_missions = { ASU_manchu_mission_28 }
+		position = 10
+
+		trigger = { 
+            
+		}
+
+		effect = { 
+            
+		}
+	}
+
+    
+	ASU_manchu_mission_30 = {
+		icon = default
+		required_missions = { ASU_manchu_mission_16 }
+		position = 15
+
+		trigger = { 
+            
+		}
+
+		effect = { 
+            
+		}
+	}
+
+    
+	ASU_manchu_mission_31 = {
+		icon = default
+		required_missions = { ASU_manchu_mission_19 }
+		position = 18
+
+		trigger = { 
+            
+		}
+
+		effect = { 
+            
+		}
+	}
+
+    
+	ASU_manchu_mission_32 = {
+		icon = default
+		required_missions = { ASU_manchu_mission_31 }
+		position = 19
+
+		trigger = { 
+            
+		}
+
+		effect = { 
+            
+		}
+	}
+
+    
+	ASU_manchu_mission_33 = {
+		icon = default
+		required_missions = { ASU_manchu_mission_32 }
+		position = 20
+
+		trigger = { 
+            
+		}
+
+		effect = { 
+            
+		}
+	}
+
+    ASU_manchu_mission_34 = {
+		icon = default
+		required_missions = { ASU_manchu_mission_33 }
+		position = 21
+
+		trigger = { 
+            
+		}
+
+		effect = { 
+            
+		}
+	}
+
+} #Ende Branch 4
+
+ASU_manchu_branch_5 = { 
+	slot = 5
+	generic = no
+	ai = no
+	potential = {
+		OR = {
+            tag = MJZ
+            tag = MCH
+            tag = QNG
+        }
+	}
+	has_country_shield = yes
+
+	ASU_manchu_mission_35 = {
+		icon = default
+		required_missions = { }
+		position = 1
+
+		trigger = { 
+            
+		}
+
+		effect = { 
+            
+		}
+	}
+
+    
+	ASU_manchu_mission_36 = {
+		icon = default
+		required_missions = { ASU_manchu_mission_35 }
+		position = 2
+
+		trigger = { 
+            
+		}
+
+		effect = { 
+            
+		}
+	}
+
+    
+	ASU_manchu_mission_37 = {
+		icon = default
+		required_missions = { }
+		position = 4
+
+		trigger = { 
+            
+		}
+
+		effect = { 
+            
+		}
+	}
+
+    
+	ASU_manchu_mission_38 = {
+		icon = default
+		required_missions = { ASU_manchu_mission_25 ASU_manchu_mission_37 ASU_manchu_mission_44 }
+		position = 5
+
+		trigger = { 
+            
+		}
+
+		effect = { 
+            
+		}
+	}
+
+    
+	ASU_manchu_mission_39 = {
+		icon = default
+		required_missions = { ASU_manchu_mission_38 }
+		position = 6
+
+		trigger = { 
+            
+		}
+
+		effect = { 
+            
+		}
+	}
+
+    
+	ASU_manchu_mission_40 = {
+		icon = default
+		required_missions = { ASU_manchu_mission_39 }
+		position = 7
+
+		trigger = { 
+            
+		}
+
+		effect = { 
+            
+		}
+	}
+
+    ASU_manchu_mission_102 = {
+		icon = default
+		required_missions = { ASU_manchu_mission_40 }
+		position = 8
+
+		trigger = { 
+            
+		}
+
+		effect = { 
+            
+		}
+	}
+
+    
+	ASU_manchu_mission_41 = {
+		icon = default
+		required_missions = { ASU_manchu_mission_47 }
+		position = 10
+
+		trigger = { 
+            
+		}
+
+		effect = { 
+            
+		}
+	}
+
+    
+	ASU_manchu_mission_42 = {
+		icon = default
+		required_missions = { ASU_manchu_mission_49 }
+		position = 12
+
+		trigger = { 
+            
+		}
+
+		effect = { 
+            
+		}
+	}
+
+} #Ende Branch 5
+
+ASU_manchu_branch_6 = { 
+	slot = 6
+	generic = no
+	ai = no
+	potential = {
+		OR = {
+            tag = MJZ
+            tag = MCH
+            tag = QNG
+        }
+	}
+	has_country_shield = yes
+
+	ASU_manchu_mission_43 = {
+		icon = default
+		required_missions = { ASU_manchu_mission_36 }
+		position = 3
+
+		trigger = { 
+            
+		}
+
+		effect = { 
+            
+		}
+	}
+
+    
+	ASU_manchu_mission_44 = {
+		icon = default
+		required_missions = { ASU_manchu_mission_43 }
+		position = 4
+
+		trigger = { 
+            
+		}
+
+		effect = { 
+            
+		}
+	}
+
+    
+	ASU_manchu_mission_45 = {
+		icon = default
+		required_missions = { ASU_manchu_mission_39 }
+		position = 7
+
+		trigger = { 
+            
+		}
+
+		effect = { 
+            
+		}
+	}
+
+    
+	ASU_manchu_mission_46 = {
+		icon = default
+		required_missions = { ASU_manchu_mission_45 }
+		position = 8
+
+		trigger = { 
+            
+		}
+
+		effect = { 
+            
+		}
+	}
+
+    
+	ASU_manchu_mission_47 = {
+		icon = default
+		required_missions = { ASU_manchu_mission_46 ASU_manchu_mission_102 }
+		position = 9
+
+		trigger = { 
+            
+		}
+
+		effect = { 
+            
+		}
+	}
+
+    
+	ASU_manchu_mission_48 = {
+		icon = default
+		required_missions = { ASU_manchu_mission_47 }
+		position = 10
+
+		trigger = { 
+            
+		}
+
+		effect = { 
+            
+		}
+	}
+
+    
+	ASU_manchu_mission_49 = {
+		icon = default
+		required_missions = { ASU_manchu_mission_48 ASU_manchu_mission_41 }
+		position = 11
+
+		trigger = { 
+            
+		}
+
+		effect = { 
+            
+		}
+	}
+
+    
+	ASU_manchu_mission_50 = {
+		icon = default
+		required_missions = { ASU_manchu_mission_42 ASU_manchu_mission_49 }
+		position = 13
+
+		trigger = { 
+            
+		}
+
+		effect = { 
+            
+		}
+	}
+
+    
+	ASU_manchu_mission_51 = {
+		icon = default
+		required_missions = { }
+		position = 15
+
+		trigger = { 
+            
+		}
+
+		effect = { 
+            
+		}
+	}
+
+    
+	ASU_manchu_mission_52 = {
+		icon = default
+		required_missions = { ASU_manchu_mission_51 }
+		position = 16
+
+		trigger = { 
+            
+		}
+
+		effect = { 
+            
+		}
+	}
+
+} #Ende Branch 6
+
+ASU_manchu_branch_7 = { 
+	slot = 7
+	generic = no
+	ai = no
+	potential = {
+		OR = {
+            tag = MJZ
+            tag = MCH
+            tag = QNG
+        }
+	}
+	has_country_shield = yes
+
+	ASU_manchu_mission_53 = {
+		icon = default
+		required_missions = { ASU_manchu_mission_39 }
+		position = 7
+
+		trigger = { 
+            
+		}
+
+		effect = { 
+            
+		}
+	}
+
+    
+	ASU_manchu_mission_54 = {
+		icon = default
+		required_missions = { }
+		position = 15
+
+		trigger = { 
+            
+		}
+
+		effect = { 
+            
+		}
+	}
+
+    
+	ASU_manchu_mission_55 = {
+		icon = default
+		required_missions = { ASU_manchu_mission_54 }
+		position = 16
+
+		trigger = { 
+            
+		}
+
+		effect = { 
+            
+		}
+	}
+
+} #Ende Branch 7
+
+ASU_manchu_branch_8 = { 
+	slot = 8
+	generic = no
+	ai = no
+	potential = {
+		OR = {
+            tag = MJZ
+            tag = MCH
+            tag = QNG
+        }
+	}
+	has_country_shield = yes
+
+	ASU_manchu_mission_56 = {
+		icon = default
+		required_missions = { }
+		position = 2
+
+		trigger = { 
+            
+		}
+
+		effect = { 
+            
+		}
+	}
+
+    
+	ASU_manchu_mission_57 = {
+		icon = default
+		required_missions = { }
+		position = 3
+
+		trigger = { 
+            
+		}
+
+		effect = { 
+            
+		}
+	}
+
+    
+	ASU_manchu_mission_58 = {
+		icon = default
+		required_missions = { ASU_manchu_mission_57 }
+		position = 4
+
+		trigger = { 
+            
+		}
+
+		effect = { 
+            
+		}
+	}
+
+    
+	ASU_manchu_mission_59 = {
+		icon = default
+		required_missions = { }
+		position = 7
+
+		trigger = { 
+            
+		}
+
+		effect = { 
+            
+		}
+	}
+
+    
+	ASU_manchu_mission_60 = {
+		icon = default
+		required_missions = { ASU_manchu_mission_59 }
+		position = 8
+
+		trigger = { 
+            
+		}
+
+		effect = { 
+            
+		}
+	}
+
+    
+	ASU_manchu_mission_61 = {
+		icon = default
+		required_missions = { }
+		position = 9
+
+		trigger = { 
+            
+		}
+
+		effect = { 
+            
+		}
+	}
+
+    
+	ASU_manchu_mission_62 = {
+		icon = default
+		required_missions = { ASU_manchu_mission_61 }
+		position = 10
+
+		trigger = { 
+            
+		}
+
+		effect = { 
+            
+		}
+	}
+
+    
+	ASU_manchu_mission_63 = {
+		icon = default
+		required_missions = { }
+		position = 11
+
+		trigger = { 
+            
+		}
+
+		effect = { 
+            
+		}
+	}
+
+    
+	ASU_manchu_mission_64 = {
+		icon = default
+		required_missions = { }
+		position = 15
+
+		trigger = { 
+            
+		}
+
+		effect = { 
+            
+		}
+	}
+
+    
+	ASU_manchu_mission_65 = {
+		icon = default
+		required_missions = { ASU_manchu_mission_64 }
+		position = 16
+
+		trigger = { 
+            
+		}
+
+		effect = { 
+            
+		}
+	}
+
+    
+	ASU_manchu_mission_66 = {
+		icon = default
+		required_missions = { ASU_manchu_mission_52 ASU_manchu_mission_55 ASU_manchu_mission_65 ASU_manchu_mission_71 ASU_manchu_mission_74 }
+		position = 17
+
+		trigger = { 
+            
+		}
+
+		effect = { 
+            
+		}
+	}
+
+} #Ende Branch 8
+
+ASU_manchu_branch_9 = { 
+	slot = 9
+	generic = no
+	ai = no
+	potential = {
+		OR = {
+            tag = MJZ
+            tag = MCH
+            tag = QNG
+        }
+	}
+	has_country_shield = yes
+
+	ASU_manchu_mission_67 = {
+		icon = default
+		required_missions = { }
+		position = 6
+
+		trigger = { 
+            
+		}
+
+		effect = { 
+            
+		}
+	}
+
+    
+	ASU_manchu_mission_68 = {
+		icon = default
+		required_missions = { }
+		position = 11
+
+		trigger = { 
+            
+		}
+
+		effect = { 
+            
+		}
+	}
+
+    
+	ASU_manchu_mission_69 = {
+		icon = default
+		required_missions = { ASU_manchu_mission_63 ASU_manchu_mission_68 ASU_manchu_mission_72 }
+		position = 12
+
+		trigger = { 
+            
+		}
+
+		effect = { 
+            
+		}
+	}
+
+    
+	ASU_manchu_mission_70 = {
+		icon = default
+		required_missions = { }
+		position = 15
+
+		trigger = { 
+            
+		}
+
+		effect = { 
+            
+		}
+	}
+
+    
+	ASU_manchu_mission_71 = {
+		icon = default
+		required_missions = { ASU_manchu_mission_70 }
+		position = 16
+
+		trigger = { 
+            
+		}
+
+		effect = { 
+            
+		}
+	}
+
+} #Ende Branch 9
+
+ASU_manchu_branch_10 = { 
+	slot = 10
+	generic = no
+	ai = no
+	potential = {
+		OR = {
+            tag = MJZ
+            tag = MCH
+            tag = QNG
+        }
+	}
+	has_country_shield = yes
+
+	ASU_manchu_mission_72 = {
+		icon = default
+		required_missions = { }
+		position = 11
+
+		trigger = { 
+            
+		}
+
+		effect = { 
+            
+		}
+	}
+
+    
+	ASU_manchu_mission_73 = {
+		icon = default
+		required_missions = { }
+		position = 15
+
+		trigger = { 
+            
+		}
+
+		effect = { 
+            
+		}
+	}
+
+    
+	ASU_manchu_mission_74 = {
+		icon = default
+		required_missions = { ASU_manchu_mission_73 }
+		position = 16
+
+		trigger = { 
+            
+		}
+
+		effect = { 
+            
+		}
+	}
+
+} #Ende Branch 1
