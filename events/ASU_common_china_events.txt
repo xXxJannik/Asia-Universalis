@@ -1,7 +1,7 @@
 namespace = ASU_china_events
 
-#creation of a royal Dynasty
-country_event = {
+
+country_event = { #creation of a royal Dynasty
 	id = ASU_china_events.1
 	title = "ASU_china_events.1.t"
 	desc = "ASU_china_events.1.d"
@@ -17,8 +17,8 @@ country_event = {
 	}
 }
 
-#creation of a legendary Bloodline
-country_event = {
+
+country_event = { #creation of a legendary Bloodline
 	id = ASU_china_events.2
 	title = "ASU_china_events.2.t"
 	desc = "ASU_china_events.2.d"
@@ -35,9 +35,7 @@ country_event = {
 }
 
 
-
-# Emperor of China aid
-province_event = {
+province_event = { #Emperor of China aid
 	id = ASU_china_events.3
 	title = "ASU_china_events.3.t"
 	desc = "ASU_china_events.3.d"
@@ -84,7 +82,7 @@ province_event = {
 	}
 }
 
-country_event = {
+country_event = { #Reformed Asian
 	id = ASU_china_events.4
 	title = "ASU_china_events.4.t"
 	desc = "ASU_china_events.4.d"
@@ -100,6 +98,25 @@ country_event = {
 		add_mil_power = 100
 		change_technology_group = ASU_reformed_asian_tech
 		change_unit_type = ASU_reformed_asian_tech
+        ai_chance = {            # the AI does not take the event without
+			factor = 100
+		}
+	}
+}
+
+country_event = { #Army of a Nation
+	id = ASU_china_events.5
+	title = "ASU_china_events.5.t"
+	desc = "ASU_china_events.5.d"
+	picture = REFORM_eventPicture
+	is_triggered_only = yes
+    major = yes  #Notification for everyone
+	option = {
+		name = "ASU_china_events.5.a"
+		add_country_modifier = {
+			name = "ASU_army_of_a_nation"
+			duration = -1
+		}
         ai_chance = {            # the AI does not take the event without
 			factor = 100
 		}

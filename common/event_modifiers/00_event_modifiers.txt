@@ -12082,6 +12082,10 @@ ASU_reformed_army = {
 ####################################
 ####################################
 
+ASU_army_of_a_nation = {
+	supply_limit_modifier = 0.5
+}
+
 ASU_korea_defensive_mentality_cost = {
 	fort_maintenance_modifier = -0.1
 }
@@ -12105,4 +12109,39 @@ ASU_korean_reformation = {
 
 ASU_manchu_reformation = {
 	global_regiment_cost = -0.25
+}
+
+ASU_manchu_strive_to_survive = {
+	global_tax_income = 24
+	global_regiment_cost = -0.1
+}
+
+ASU_manchu_panax_ginseng = {
+	global_tax_income = 24
+}
+
+ASU_manchu_trial_of_the_dead = {
+	land_morale = 0.1
+}
+
+ASU_manchu_a_god_for_everyone = {
+	global_unrest = -1
+}
+
+ASU_manchu_the_northlands = {
+	colonists = 1
+	global_colonial_growth = 20
+}
+
+ASU_manchu_the_dragon_clan = {
+	amount_of_banners = 0.20
+}
+
+ASU_manchu_sons_of_the_steppes = {
+	cavalry_power = 0.2
+}
+
+ASU_manchu_economic_reform = {
+	build_cost = -0.1
+	development_cost = -0.05
 }

@@ -2,13 +2,6 @@
  ASU_commandant_delayed_tooltip:0 "Not yet"
  ASU_grand_captain_delayed_tooltip:0 "Not yet"
 
- #Manchu
- ASU_manchu_events.1.t:0 "Rise of a great Khan"
- ASU_manchu_events.1.d:0 "[Root.Monarch.GetName] has taken over the position of Khan. [Root.Monarch.GetSheHeCap] has proven to be a great and inspiring leader and will lead us to glory and prosperity!"
- ASU_manchu_events.1.a:0 "Long live the [Root.Monarch.GetTitle]!"
-
-
-
  #Japan
  ASU_japan_events.1.t:0 "A great Emperor"
  ASU_japan_events.1.d:0 "[Root.Monarch.GetName] inherited the Throne from [Root.Monarch.GetHerHis] predecessor.[Root.Monarch.GetSheHeCap] has shown signs of greatness since [Root.Monarch.GetHerHis] childhood."
@@ -30,6 +23,10 @@
  ASU_china_events.4.t:0 "The reformation of an Empire"
  ASU_china_events.4.d:0 "We have achieved the reformation of our Empire and thus increased our military capacities."
  ASU_china_events.4.a:0 "We did it!"
+
+ ASU_china_events.5.t:0 "Army of a Nation"
+ ASU_china_events.5.d:0 "We have succesfully transformed our army into a national and regular army. This will boost our military capacities."
+ ASU_china_events.5.a:0 "What a jewel"
 
  #Mobilisation
 
@@ -174,7 +171,49 @@
  ASU_korea_events.2.d:0 "The state of Korea has always tried to pursue economic strength by allying with the Son of Heaven. We should continue that tradition even with China in ruines."
  ASU_korea_events.2.a:0 "We live in a Society"
 
- 
+ #Manchu
+ ASU_manchu_events.1.t:0 "Rise of a great Khan"
+ ASU_manchu_events.1.d:0 "[Root.Monarch.GetName] has taken over the position of Khan. [Root.Monarch.GetSheHeCap] has proven to be a great and inspiring leader and will lead us to glory and prosperity!"
+ ASU_manchu_events.1.a:0 "Long live the [Root.Monarch.GetTitle]!"
 
- 
+ ASU_manchu_events.2.t:0 "A Strive to Survive"
+ ASU_manchu_events.2.d:0 "The latest changes in world climate and the demise of the Chinese Empire have lead to a despaired demand for farmable lands. Many have joined the army in hopes of rations and are willing to fight for it."
+ ASU_manchu_events.2.a:0 "We will feast"
+
+ ASU_manchu_events.3.t:0 "The Panax Ginseng Trade"
+ ASU_manchu_events.3.d:0 "Our latest expansion has enabled us to trade overseas. One of our most demanded goods is the 'Ginseng', also known as the Panax Ginseng. Although its effectivness has been questioned many times, it still sells great on the market."
+ ASU_manchu_events.3.a:0 "A mere globuli"
+
+ ASU_manchu_events.4.t:0 "The Trial of the Dead"
+ ASU_manchu_events.4.d:0 "It us upon the dead to deceide the fate of the new arrivals. He, who honored the call to arms, will be judged with greatness. "
+ ASU_manchu_events.4.a:0 "May our Anchestors have mercy"
+
+ ASU_manchu_events.5.t:0 "Reformation of the Steppes"
+ ASU_manchu_events.5.d:0 "The Tribes of our Steppes have been reformed into new and more efficent administration. Many of them have settled down on the roads we built."
+ ASU_manchu_events.5.a:0 "A historic moment!"
+
+ ASU_manchu_events.6.t:0 "A God for Everyone"
+ ASU_manchu_events.6.d:0 "It does not matter who your god is. Only you loyalty tho the Khan matters. If you honor your loyalty, the Khan will honor your god."
+ ASU_manchu_events.6.a:0 "Just dont be a buddhist"
+
+ ASU_manchu_events.7.t:0 "The Northlands"
+ ASU_manchu_events.7.d:0 "Siberia has been a region of hidden prosperity and wealth ever since. Now with recent changes in climate it is possible to settle this region, although it lacks sufficient infrastructure."
+ ASU_manchu_events.7.a:0 "An unlikely Gem"
+
+ ASU_manchu_events.8.t:0 "The Dragon Clan"
+ ASU_manchu_events.8.d:0 "The Dragon Clan consists of high skilled warriors dedicated to fight for their Khan. There are many folklores about their heroic victories. It is been told they slayed a dragon with their bare fists - giving them their name."
+ ASU_manchu_events.8.a:0 "Our most skilled Soldiers"
+
+ ASU_manchu_events.9.t:0 "Sons of the Steppes"
+ ASU_manchu_events.9.d:0 "We have subjugated the Mongols and their territory. It is us who are the Sons of the Steppes."
+ ASU_manchu_events.9.a:0 "How the tables have turned"
+
+ ASU_manchu_events.10.t:0 "Economic Reform"
+ ASU_manchu_events.10.d:0 "The Reform of [GetYear] states that every City must fullfill a certain amount of production and must enlist a given number of Soldiers. The $MONARCHTITLE$ has increased government spending on Infrastructure and Education. [Root.Monarch.GetSheHeCap] has also reduced tarrifs on goods needed for this project."
+ ASU_manchu_events.10.a:0 "This will greatly benefit us"
+
+ ASU_manchu_events.11.t:0 "Succesfull Reform"
+ ASU_manchu_events.11.d:0 "The Reform has been a great succes! Our army has grown greatly and our taxes have increased."
+ ASU_manchu_events.11.a:0 "A pleasure to hear"
+
 

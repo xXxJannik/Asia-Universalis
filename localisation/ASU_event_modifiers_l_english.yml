@@ -77,10 +77,24 @@
  ASU_reformed_navy:0 "Reformed Navy"
  ASU_reformed_army:0 "Reformed Army"
 
+ #For all Chinese
+ ASU_army_of_a_nation:0 "Army of a Nation"
+
  #Korea
  ASU_korea_defensive_mentality_cost:0 "Cheaper Material"
  ASU_korea_defensive_mentality_defence:0 "Expensive Material"
  ASU_korea_merchant_society:0 "Merchant Society"
  ASU_korean_golden_age:0 "Korea Golden Age"
  ASU_korean_reformation:0 "Successful Reformation"
+
+ #Manchu
+ ASU_manchu_reformation:0 "Manchurian Golden Age"
+ ASU_manchu_strive_to_survive:0 "Strive to Survive"
+ ASU_manchu_panax_ginseng:0 "The Panax Ginseng Trade"
+ ASU_manchu_trial_of_the_dead:0 "Trial of the Dead"
+ ASU_manchu_a_god_for_everyone:0 "A God for everyone"
+ ASU_manchu_the_northlands:0 "The Northlands"
+ ASU_manchu_the_dragon_clan:0 "The Dragon Clan"
+ ASU_manchu_sons_of_the_steppes:0 "Sons of the Steppes"
+ ASU_manchu_economic_reform:0 "Economic Reform"
  

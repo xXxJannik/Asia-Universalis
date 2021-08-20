@@ -104,7 +104,7 @@ ASU_manchu_branch_2 = {
 
 		effect = { 
             country_event = { #Panax Ginseng Event
-				id = 
+				id = ASU_manchu_events.3
 			}
 		}
 	}
@@ -477,7 +477,7 @@ ASU_manchu_branch_3 = {
 		effect = { 
             add_treasury = -2500
 			country_event = { #Economic reform Event
-				id = 
+				id = ASU_manchu_events.10
 			}
 		}
 	}
@@ -607,8 +607,8 @@ ASU_manchu_branch_3 = {
 		}
 
 		effect = { 
-            country_event = { #succesfull reform
-				id = 
+            country_event = { #Succesfull reform
+				id = ASU_manchu_events.11
 			}
 		}
 	}
@@ -766,7 +766,7 @@ ASU_manchu_branch_4 = {
 
 		effect = { 
             country_event = { #Army of a Nation
-				id = 
+				id = ASU_china_events.5
 			}
 		}
 	}
@@ -908,7 +908,7 @@ ASU_manchu_branch_5 = {
 
 		effect = { 
             country_event = { #Strive to survive Event
-				id = 
+				id = ASU_manchu_events.2
 			}
 		}
 	}
@@ -1295,7 +1295,7 @@ ASU_manchu_branch_6 = {
 
 		effect = { 
             country_event = { #Sons of the Steppes Event
-				id = 
+				id = ASU_manchu_events.9
 			}
 		}
 	}
@@ -1473,15 +1473,15 @@ ASU_manchu_branch_8 = {
 		position = 2
 
 		provinces_to_highlight = {
-			province_id = 4201
+			province_id = 4700
 			OR = {
 				NOT = { owned_by = ROOT is_core = ROOT }
 				NOT = { has_building = temple }
 			}
 		}
 		trigger = {
-			owns_core_province = 4201
-			4201 = {
+			owns_core_province = 4700
+			4700 = {
 				OR = {
 					has_building = temple
 					has_building = cathedral
@@ -1558,7 +1558,7 @@ ASU_manchu_branch_8 = {
 
 		effect = { 
             country_event = { #Reform the Steppes Event
-				id = 
+				id = ASU_manchu_events.5
 			}
 		}
 	}
@@ -1575,7 +1575,7 @@ ASU_manchu_branch_8 = {
 
 		effect = { 
             country_event = { #A God for everyone
-				id = 
+				id = ASU_manchu_events.6
 			}
 		}
 	}
@@ -1599,7 +1599,7 @@ ASU_manchu_branch_8 = {
 
 		effect = { 
             country_event = { #The Northlands Event
-				id = 
+				id = ASU_manchu_events.7
 			}
 		}
 	}
@@ -1743,7 +1743,7 @@ ASU_manchu_branch_9 = {
 
 		effect = { 
             country_event = { #Trial of the Dead Event
-				id = 
+				id = ASU_manchu_events.4
 			}
 		}
 	}
@@ -1775,7 +1775,7 @@ ASU_manchu_branch_9 = {
 
 		effect = { 
             country_event = { #The Dragon Clan Event
-				id = 
+				id = ASU_manchu_events.8
 			}
 		}
 	}

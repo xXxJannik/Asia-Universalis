@@ -1,7 +1,7 @@
 namespace = ASU_manchu_events
 
 
-country_event = {
+country_event = { #Rise of a Great Khan
 	id = ASU_manchu_events.1
 	title = "ASU_manchu_events.1.t"
 	desc = "ASU_manchu_events.1.d"
@@ -22,6 +22,311 @@ country_event = {
 			duration = -1
 		}
         add_prestige = 50
+        ai_chance = {            # the AI does not take the event without
+			factor = 100
+		}
+	}
+}
+
+country_event = { #A strive to survive
+	id = ASU_manchu_events.2
+	title = "ASU_manchu_events.2.t"
+	desc = "ASU_manchu_events.2.d"
+	picture = ANGRY_MOB_eventPicture
+	is_triggered_only = yes
+    trigger = {
+	}
+	option = {
+		name = "ASU_manchu_events.2.a"
+        add_country_modifier = {
+			name = "ASU_manchu_strive_to_survive"
+			duration = 3650
+		}
+		manchuria_region = {
+			limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_claim = ROOT }
+				}
+			add_claim = ROOT 
+		}
+        ai_chance = {            # the AI does not take the event without
+			factor = 100
+		}
+	}
+}
+
+country_event = { #Panax Ginseng 
+	id = ASU_manchu_events.3
+	title = "ASU_manchu_events.3.t"
+	desc = "ASU_manchu_events.3.d"
+	picture = ECONOMY_eventPicture
+	is_triggered_only = yes
+    trigger = {
+	}
+	option = {
+		name = "ASU_manchu_events.3.a"
+        add_country_modifier = {
+			name = "ASU_manchu_panax_ginseng"
+			duration = 36500
+		}
+        ai_chance = {            # the AI does not take the event without
+			factor = 100
+		}
+	}
+}
+
+country_event = { #Trial of the Dead
+	id = ASU_manchu_events.4
+	title = "ASU_manchu_events.4.t"
+	desc = "ASU_manchu_events.4.d"
+	picture = ECONOMY_eventPicture
+	is_triggered_only = yes
+    trigger = {
+	}
+	option = {
+		name = "ASU_manchu_events.4.a"
+        add_country_modifier = {
+			name = "ASU_manchu_trial_of_the_dead"
+			duration = 12045 #33 Years - about one generation
+		}
+		add_treasury = 2500
+        ai_chance = {            # the AI does not take the event without
+			factor = 100
+		}
+	}
+}
+
+country_event = { #Reform the Steppes Event
+	id = ASU_manchu_events.5
+	title = "ASU_manchu_events.5.t"
+	desc = "ASU_manchu_events.5.d"
+	picture = ECONOMY_eventPicture
+	is_triggered_only = yes
+    trigger = {
+	}
+	option = {
+		name = "ASU_manchu_events.5.a"
+		random_owned_province = {
+			limit = {
+				OR = {
+					has_building = workshop
+					has_manufactory_trigger = yes
+				}
+			}
+			add_base_taxation = 2
+			add_base_production = 2
+		}
+		random_owned_province = {
+			limit = {
+				OR = {
+					has_building = workshop
+					has_manufactory_trigger = yes
+				}
+			}
+			add_base_taxation = 2
+			add_base_production = 2
+		}
+		random_owned_province = {
+			limit = {
+				OR = {
+					has_building = workshop
+					has_manufactory_trigger = yes
+				}
+			}
+			add_base_taxation = 2
+			add_base_production = 2
+		}
+		random_owned_province = {
+			limit = {
+				OR = {
+					has_building = workshop
+					has_manufactory_trigger = yes
+				}
+			}
+			add_base_taxation = 2
+			add_base_production = 2
+		}
+		random_owned_province = {
+			limit = {
+				OR = {
+					has_building = workshop
+					has_manufactory_trigger = yes
+				}
+			}
+			add_base_taxation = 2
+			add_base_production = 2
+		}
+		random_owned_province = {
+			limit = {
+				OR = {
+					has_building = workshop
+					has_manufactory_trigger = yes
+				}
+			}
+			add_base_taxation = 2
+			add_base_production = 2
+		}
+		random_owned_province = {
+			limit = {
+				OR = {
+					has_building = workshop
+					has_manufactory_trigger = yes
+				}
+			}
+			add_base_taxation = 2
+			add_base_production = 2
+		}
+		random_owned_province = {
+			limit = {
+				OR = {
+					has_building = workshop
+					has_manufactory_trigger = yes
+				}
+			}
+			add_base_taxation = 2
+			add_base_production = 2
+		}
+		random_owned_province = {
+			limit = {
+				OR = {
+					has_building = workshop
+					has_manufactory_trigger = yes
+				}
+			}
+			add_base_taxation = 2
+			add_base_production = 2
+		}
+		random_owned_province = {
+			limit = {
+				OR = {
+					has_building = workshop
+					has_manufactory_trigger = yes
+				}
+			}
+			add_base_taxation = 2
+			add_base_production = 2
+		}
+		add_years_of_income = 2.5
+        ai_chance = {            # the AI does not take the event without
+			factor = 100
+		}
+	}
+}
+
+country_event = { #A God for Everyone
+	id = ASU_manchu_events.6
+	title = "ASU_manchu_events.6.t"
+	desc = "ASU_manchu_events.6.d"
+	picture = ECONOMY_eventPicture
+	is_triggered_only = yes
+    trigger = {
+	}
+	option = {
+		name = "ASU_manchu_events.6.a"
+        add_country_modifier = {
+			name = "ASU_manchu_a_god_for_everyone"
+			duration = 36500
+		}
+        ai_chance = {            # the AI does not take the event without
+			factor = 100
+		}
+	}
+}
+
+country_event = { #The Northlands
+	id = ASU_manchu_events.7
+	title = "ASU_manchu_events.7.t"
+	desc = "ASU_manchu_events.7.d"
+	picture = ECONOMY_eventPicture
+	is_triggered_only = yes
+    trigger = {
+	}
+	option = {
+		name = "ASU_manchu_events.7.a"
+        add_country_modifier = {
+			name = "ASU_manchu_the_northlands"
+			duration = 36500
+		}
+        ai_chance = {            # the AI does not take the event without
+			factor = 100
+		}
+	}
+}
+
+country_event = { #The Dragon Clan
+	id = ASU_manchu_events.8
+	title = "ASU_manchu_events.8.t"
+	desc = "ASU_manchu_events.8.d"
+	picture = ECONOMY_eventPicture
+	is_triggered_only = yes
+    trigger = {
+	}
+	option = {
+		name = "ASU_manchu_events.8.a"
+        add_country_modifier = {
+			name = "ASU_manchu_the_dragon_clan"
+			duration = -1
+		}
+        ai_chance = {            # the AI does not take the event without
+			factor = 100
+		}
+	}
+}
+
+country_event = { #Sons of the Steppes
+	id = ASU_manchu_events.9
+	title = "ASU_manchu_events.9.t"
+	desc = "ASU_manchu_events.9.d"
+	picture = ECONOMY_eventPicture
+	is_triggered_only = yes
+    trigger = {
+	}
+	option = {
+		name = "ASU_manchu_events.9.a"
+        add_country_modifier = {
+			name = "ASU_manchu_sons_of_the_steppes"
+			duration = -1
+		}
+        ai_chance = {            # the AI does not take the event without
+			factor = 100
+		}
+	}
+}
+
+country_event = { #Economic Reform
+	id = ASU_manchu_events.10
+	title = "ASU_manchu_events.10.t"
+	desc = "ASU_manchu_events.10.d"
+	picture = ECONOMY_eventPicture
+	is_triggered_only = yes
+    trigger = {
+	}
+	option = {
+		name = "ASU_manchu_events.10.a"
+        add_country_modifier = {
+			name = "ASU_manchu_economic_reform"
+			duration = 9125 #25 Years
+		}
+        ai_chance = {            # the AI does not take the event without
+			factor = 100
+		}
+	}
+}
+
+country_event = { #Succesfull Reform
+	id = ASU_manchu_events.11
+	title = "ASU_manchu_events.11.t"
+	desc = "ASU_manchu_events.11.d"
+	picture = ECONOMY_eventPicture
+	is_triggered_only = yes
+    trigger = {
+	}
+	option = {
+		name = "ASU_manchu_events.11.a"
+		add_years_of_income = 5
+		add_adm_power = 200
+		add_dip_power = 200
+		add_mil_power = 200
         ai_chance = {            # the AI does not take the event without
 			factor = 100
 		}
