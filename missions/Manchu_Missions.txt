@@ -16,12 +16,19 @@ ASU_manchu_branch_1 = {
 		required_missions = { }
 		position = 8
 
+		provinces_to_highlight = {
+			province_id = 4696
+		}
+
 		trigger = { 
-            
+            4696 = {
+				country_or_non_sovereign_subject_holds = ROOT
+				province_has_center_of_trade_of_level = 3
+			}
 		}
 
 		effect = { 
-            
+            add_treasury = 500
 		}
 	}
 
@@ -30,12 +37,21 @@ ASU_manchu_branch_1 = {
 		required_missions = { ASU_manchu_mission_1 ASU_manchu_mission_5 }
 		position = 9
 
+		provinces_to_highlight = {
+			province_id = 4233
+		}
+
 		trigger = { 
-            
+            4233 = {
+				trade_share = {
+					country = ROOT
+					share = 25
+				}
+			}
 		}
 
 		effect = { 
-            
+            add_years_of_income = 2.5
 		}
 	}
 
@@ -60,11 +76,11 @@ ASU_manchu_branch_2 = {
 		position = 2
 
 		trigger = { 
-            
+            num_of_light_ship = 10
 		}
 
 		effect = { 
-            
+            add_treasury = 100
 		}
 	}
 
@@ -73,12 +89,23 @@ ASU_manchu_branch_2 = {
 		required_missions = { ASU_manchu_mission_3 }
 		position = 3
 
+		provinces_to_highlight = {
+			province_id = 730
+		}
+
 		trigger = { 
-            
+            730 = {
+				trade_share = {
+					country = ROOT
+					share = 50
+				}
+			}
 		}
 
 		effect = { 
-            
+            country_event = { #Panax Ginseng Event
+				id = 
+			}
 		}
 	}
 
@@ -88,11 +115,11 @@ ASU_manchu_branch_2 = {
 		position = 8
 
 		trigger = { 
-            
+            num_of_light_ship = 30
 		}
 
 		effect = { 
-            
+            add_treasury = 300
 		}
 	}
 
@@ -101,12 +128,25 @@ ASU_manchu_branch_2 = {
 		required_missions = { ASU_manchu_mission_13 }
 		position = 10
 
+		provinces_to_highlight = {
+			province_id = 4963
+		}
+
 		trigger = { 
-            
+            4963 = {
+				country_or_non_sovereign_subject_holds = ROOT
+				OR = {
+					has_building = fort_15th
+					has_building = fort_16th
+					has_building = fort_17th
+					has_building = fort_18th
+				}
+			}
 		}
 
 		effect = { 
-            
+            add_treasury = 100
+			add_mil_power = 50
 		}
 	}
 
@@ -115,12 +155,20 @@ ASU_manchu_branch_2 = {
 		required_missions = { ASU_manchu_mission_16 }
 		position = 15
 
+		provinces_to_highlight = {
+			province_id = 4958
+		}
+
 		trigger = { 
-            
+            4958 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
 		}
 
 		effect = { 
-            
+            add_adm_power = 100
+			add_dip_power = 100
+			add_mil_power = 100
 		}
 	}
 
@@ -129,12 +177,25 @@ ASU_manchu_branch_2 = {
 		required_missions = { ASU_manchu_mission_19 }
 		position = 18
 
+		provinces_to_highlight = {
+			area = dalian_area
+		}
+
 		trigger = { 
-            
+            dalian_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+				OR = {
+					has_building = workshop
+					has_building = counting_house
+				}
+			}
 		}
 
 		effect = { 
-            
+            dalian_area = {
+				add_base_production = 2
+			}
 		}
 	}
 
@@ -142,13 +203,26 @@ ASU_manchu_branch_2 = {
 		icon = default
 		required_missions = { ASU_manchu_mission_8 }
 		position = 19
+		
+		provinces_to_highlight = {
+			area = andong_area
+		}
 
 		trigger = { 
-            
+            andong_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+				OR = {
+					has_building = workshop
+					has_building = counting_house
+				}
+			}
 		}
 
 		effect = { 
-            
+            andong_area = {
+				add_base_production = 2
+			}
 		}
 	}
 
@@ -156,13 +230,26 @@ ASU_manchu_branch_2 = {
 		icon = default
 		required_missions = { ASU_manchu_mission_9 }
 		position = 20
+				
+		provinces_to_highlight = {
+			area = jianzhou_area
+		}
 
 		trigger = { 
-            
+            jianzhou_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+				OR = {
+					has_building = workshop
+					has_building = counting_house
+				}
+			}
 		}
 
 		effect = { 
-            
+            jianzhou_area = {
+				add_base_production = 2
+			}
 		}
 	}
 
@@ -171,12 +258,25 @@ ASU_manchu_branch_2 = {
 		required_missions = { ASU_manchu_mission_10 }
 		position = 21
 
+		provinces_to_highlight = {
+			area = jianchang_area
+		}
+
 		trigger = { 
-            
+            jianchang_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+				OR = {
+					has_building = workshop
+					has_building = counting_house
+				}
+			}
 		}
 
 		effect = { 
-            
+            jianchang_area = {
+				add_base_production = 2
+			}
 		}
 	}
 
@@ -200,12 +300,25 @@ ASU_manchu_branch_3 = {
 		required_missions = { }
 		position = 5
 
+		provinces_to_highlight = {
+			province_id = 4701
+		}
+
 		trigger = { 
-            
+            4701 = {
+				country_or_non_sovereign_subject_holds = ROOT
+				OR = {
+					has_building = fort_15th
+					has_building = fort_16th
+					has_building = fort_17th
+					has_building = fort_18th
+				}
+			}
 		}
 
 		effect = { 
-            
+            add_treasury = 100
+			add_mil_power = 25
 		}
 	}
 
@@ -213,13 +326,33 @@ ASU_manchu_branch_3 = {
 		icon = default
 		required_missions = { ASU_manchu_mission_26 }
 		position = 8
+		
+		provinces_to_highlight = {
+			OR = {
+				area = jianchang_area
+				area = jingzhou_area
+			}
+		}
 
 		trigger = { 
-            
+            jianchang_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			jingzhou_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
 		}
 
 		effect = { 
-            
+            jizhou_area = {
+                limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_claim = ROOT }
+				}
+				add_claim = ROOT 
+            }
 		}
 	}
 
@@ -227,13 +360,25 @@ ASU_manchu_branch_3 = {
 		icon = default
 		required_missions = { ASU_manchu_mission_12 }
 		position = 9
+		
+		provinces_to_highlight = {
+			area = jizhou_area
+		}
 
 		trigger = { 
-            
+            jizhou_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
 		}
 
 		effect = { 
-            
+            beijing_area = {
+                limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_claim = ROOT }
+				}
+				add_claim = ROOT 
+            }
 		}
 	}
 
@@ -241,13 +386,26 @@ ASU_manchu_branch_3 = {
 		icon = default
 		required_missions = { ASU_manchu_mission_13 }
 		position = 10
+		
+		provinces_to_highlight = {
+			province_id = 4194
+		}
 
 		trigger = { 
-            
+            4194 = {
+				country_or_non_sovereign_subject_holds = ROOT
+				OR = {
+					has_building = fort_15th
+					has_building = fort_16th
+					has_building = fort_17th
+					has_building = fort_18th
+				}
+			}
 		}
 
 		effect = { 
-            
+			add_prestige = 50
+            add_mil_power = 50
 		}
 	}
 
@@ -255,13 +413,18 @@ ASU_manchu_branch_3 = {
 		icon = default
 		required_missions = { ASU_manchu_mission_14 }
 		position = 13
+		
+		provinces_to_highlight = {
+			province_id = 4958
+		}
 
 		trigger = { 
-            
+            controls = 4958
 		}
 
 		effect = { 
-            
+            add_prestige = 100
+			add_mil_power = 200
 		}
 	}
 
@@ -271,11 +434,15 @@ ASU_manchu_branch_3 = {
 		position = 14
 
 		trigger = { 
-            
+            tag = QNG
 		}
 
 		effect = { 
-            
+            add_prestige = 100
+			add_adm_power = 100
+			add_dip_power = 100
+			add_mil_power = 100
+			add_years_of_income = 2.5
 		}
 	}
 
@@ -285,11 +452,16 @@ ASU_manchu_branch_3 = {
 		position = 15
 
 		trigger = { 
-            
+            OR = {
+				full_idea_group = economic_ideas
+				full_idea_group = entwicklung0
+				full_idea_group = zentra0
+				full_idea_group = dezentra0
+			}
 		}
 
 		effect = { 
-            
+            add_years_of_income = 1
 		}
 	}
 
@@ -297,13 +469,16 @@ ASU_manchu_branch_3 = {
 		icon = default
 		required_missions = { ASU_manchu_mission_17 }
 		position = 16
-
+				
 		trigger = { 
-            
+            treasury = 2500
 		}
 
 		effect = { 
-            
+            add_treasury = -2500
+			country_event = { #Economic reform Event
+				id = 
+			}
 		}
 	}
 
@@ -311,13 +486,23 @@ ASU_manchu_branch_3 = {
 		icon = default
 		required_missions = { ASU_manchu_mission_18 }
 		position = 17
+				
+		provinces_to_highlight = {
+			area = shenyang_area
+		}
 
 		trigger = { 
-            
+            shenyang_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+				has_building = workshop
+			}
 		}
 
 		effect = { 
-            
+            shenyang_area = {
+				add_base_production = 2
+			}
 		}
 	}
 
@@ -325,13 +510,21 @@ ASU_manchu_branch_3 = {
 		icon = default
 		required_missions = { ASU_manchu_mission_18 }
 		position = 18
+				
+		provinces_to_highlight = {
+			area = dalian_area
+		}
 
 		trigger = { 
-            
+            dalian_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+				development = 20
+			}
 		}
 
 		effect = { 
-            
+            add_years_of_income = 0.2
 		}
 	}
 
@@ -339,13 +532,21 @@ ASU_manchu_branch_3 = {
 		icon = default
 		required_missions = { ASU_manchu_mission_20 }
 		position = 19
+				
+		provinces_to_highlight = {
+			area = andong_area
+		}
 
 		trigger = { 
-            
+            andong_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+				development = 20
+			}
 		}
 
 		effect = { 
-            
+            add_years_of_income = 0.2
 		}
 	}
 
@@ -353,13 +554,21 @@ ASU_manchu_branch_3 = {
 		icon = default
 		required_missions = { ASU_manchu_mission_21 }
 		position = 20
+				
+		provinces_to_highlight = {
+			area = jianzhou_area
+		}
 
 		trigger = { 
-            
+            jianzhou_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+				development = 20
+			}
 		}
 
 		effect = { 
-            
+            add_years_of_income = 0.2
 		}
 	}
 
@@ -367,13 +576,21 @@ ASU_manchu_branch_3 = {
 		icon = default
 		required_missions = { ASU_manchu_mission_22 }
 		position = 21
+				
+		provinces_to_highlight = {
+			area = jianchang_area
+		}
 
 		trigger = { 
-            
+            jianchang_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+				development = 20
+			}
 		}
 
 		effect = { 
-            
+            add_years_of_income = 0.2
 		}
 	}
 
@@ -384,11 +601,15 @@ ASU_manchu_branch_3 = {
 		position = 22
 
 		trigger = { 
-            
+            total_development = 2000
+			monthly_income = 200
+			land_forcelimit = 500
 		}
 
 		effect = { 
-            
+            country_event = { #succesfull reform
+				id = 
+			}
 		}
 	}
 
@@ -412,12 +633,18 @@ ASU_manchu_branch_4 = {
 		required_missions = { ASU_manchu_mission_36 }
 		position = 3
 
+		provinces_to_highlight = {
+			province_id = 2109
+		}
+
 		trigger = { 
-            
+            2109 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
 		}
 
 		effect = { 
-            
+            add_adm_power = 50
 		}
 	}
 
@@ -426,13 +653,19 @@ ASU_manchu_branch_4 = {
 		icon = default
 		required_missions = { ASU_manchu_mission_24 }
 		position = 4
+		
+		provinces_to_highlight = {
+			province_id = 4662
+		}
 
 		trigger = { 
-            
+            4662 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
 		}
 
 		effect = { 
-            
+            add_adm_power = 50
 		}
 	}
 
@@ -443,11 +676,14 @@ ASU_manchu_branch_4 = {
 		position = 7
 
 		trigger = { 
-            
+            NOT = {
+				exists = CLN
+			}
 		}
 
 		effect = { 
-            
+            add_adm_power = 50
+			add_yearly_manpower = 0.5
 		}
 	}
 
@@ -458,11 +694,14 @@ ASU_manchu_branch_4 = {
 		position = 8
 
 		trigger = { 
-            
+            NOT = {
+				exists = DLA
+			}
 		}
 
 		effect = { 
-            
+            add_adm_power = 50
+			add_yearly_manpower = 0.5
 		}
 	}
 
@@ -472,12 +711,19 @@ ASU_manchu_branch_4 = {
 		required_missions = { ASU_manchu_mission_27 }
 		position = 9
 
+		provinces_to_highlight = {
+			province_id = 4955
+		}
+
 		trigger = { 
-            
+            4955 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
 		}
 
 		effect = { 
-            
+            add_yearly_manpower = 1
+			add_years_of_income = 0.5
 		}
 	}
 
@@ -486,13 +732,25 @@ ASU_manchu_branch_4 = {
 		icon = default
 		required_missions = { ASU_manchu_mission_28 }
 		position = 10
+		
+		provinces_to_highlight = {
+			province_id = 4955
+		}
 
 		trigger = { 
-            
+            4955 = {
+				country_or_non_sovereign_subject_holds = ROOT
+				OR = {
+					has_building = fort_15th
+					has_building = fort_16th
+					has_building = fort_17th
+					has_building = fort_18th
+				}
+			}
 		}
 
 		effect = { 
-            
+            add_treasury = 100
 		}
 	}
 
@@ -503,11 +761,13 @@ ASU_manchu_branch_4 = {
 		position = 15
 
 		trigger = { 
-            
+            land_forcelimit = 1000
 		}
 
 		effect = { 
-            
+            country_event = { #Army of a Nation
+				id = 
+			}
 		}
 	}
 
@@ -517,12 +777,25 @@ ASU_manchu_branch_4 = {
 		required_missions = { ASU_manchu_mission_19 }
 		position = 18
 
+		provinces_to_highlight = {
+			area = dalian_area
+		}
+
 		trigger = { 
-            
+            dalian_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+				OR = {
+					has_building = barracks
+					has_building = training_fields
+				}
+			}
 		}
 
 		effect = { 
-            
+            dalian_area = {
+				add_base_manpower = 2
+			}
 		}
 	}
 
@@ -532,12 +805,25 @@ ASU_manchu_branch_4 = {
 		required_missions = { ASU_manchu_mission_31 }
 		position = 19
 
+		provinces_to_highlight = {
+			area = andong_area
+		}
+
 		trigger = { 
-            
+            andong_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+				OR = {
+					has_building = barracks
+					has_building = training_fields
+				}
+			}
 		}
 
 		effect = { 
-            
+            andong_area = {
+				add_base_manpower = 2
+			}
 		}
 	}
 
@@ -547,12 +833,25 @@ ASU_manchu_branch_4 = {
 		required_missions = { ASU_manchu_mission_32 }
 		position = 20
 
+		provinces_to_highlight = {
+			area = jianzhou_area
+		}
+
 		trigger = { 
-            
+            jianzhou_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+				OR = {
+					has_building = barracks
+					has_building = training_fields
+				}
+			}
 		}
 
 		effect = { 
-            
+            jianzhou_area = {
+				add_base_manpower = 2
+			}
 		}
 	}
 
@@ -561,12 +860,25 @@ ASU_manchu_branch_4 = {
 		required_missions = { ASU_manchu_mission_33 }
 		position = 21
 
+		provinces_to_highlight = {
+			area = jianchang_area
+		}
+
 		trigger = { 
-            
+            jianchang_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+				OR = {
+					has_building = barracks
+					has_building = training_fields
+				}
+			}
 		}
 
 		effect = { 
-            
+            jianchang_area = {
+				add_base_manpower = 2
+			}
 		}
 	}
 
@@ -591,11 +903,13 @@ ASU_manchu_branch_5 = {
 		position = 1
 
 		trigger = { 
-            
+            army_size = 20
 		}
 
 		effect = { 
-            
+            country_event = { #Strive to survive Event
+				id = 
+			}
 		}
 	}
 
@@ -605,12 +919,26 @@ ASU_manchu_branch_5 = {
 		required_missions = { ASU_manchu_mission_35 }
 		position = 2
 
+		provinces_to_highlight = {
+			OR = {
+				province_id = 730
+				province_id = 731
+			}
+		}
+
 		trigger = { 
-            
+            OR = {
+				730 = {
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				731 = {
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+			}
 		}
 
 		effect = { 
-            
+            add_yearly_manpower = 1
 		}
 	}
 
@@ -620,12 +948,18 @@ ASU_manchu_branch_5 = {
 		required_missions = { }
 		position = 4
 
+		provinces_to_highlight = {
+			province_id = 1050
+		}
+
 		trigger = { 
-            
+            1050 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
 		}
 
 		effect = { 
-            
+            add_yearly_manpower = 1
 		}
 	}
 
@@ -635,12 +969,21 @@ ASU_manchu_branch_5 = {
 		required_missions = { ASU_manchu_mission_25 ASU_manchu_mission_37 ASU_manchu_mission_44 }
 		position = 5
 
+		provinces_to_highlight = {
+			region = manchuria_region
+		}
+
 		trigger = { 
-            
+            manchuria_region = {
+				type = all
+				owned_by = ROOT
+			}
 		}
 
 		effect = { 
-            
+            add_prestige = 50
+			add_yearly_manpower = 2.5
+			add_years_of_income = 2.5
 		}
 	}
 
@@ -651,11 +994,16 @@ ASU_manchu_branch_5 = {
 		position = 6
 
 		trigger = { 
-            
+            OR = {
+				tag = MCH
+				tag = QNG
+			}
 		}
 
 		effect = { 
-            
+            add_adm_power = 100
+			add_dip_power = 100
+			add_mil_power = 100
 		}
 	}
 
@@ -665,12 +1013,19 @@ ASU_manchu_branch_5 = {
 		required_missions = { ASU_manchu_mission_39 }
 		position = 7
 
+		provinces_to_highlight = {
+			area = xingfuzhilu_area
+		}
+
 		trigger = { 
-            
+            xingfuzhilu_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
 		}
 
 		effect = { 
-            
+            add_adm_power = 50
 		}
 	}
 
@@ -678,13 +1033,20 @@ ASU_manchu_branch_5 = {
 		icon = default
 		required_missions = { ASU_manchu_mission_40 }
 		position = 8
+		
+		provinces_to_highlight = {
+			area = chifeng_area
+		}
 
 		trigger = { 
-            
+            chifeng_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
 		}
 
 		effect = { 
-            
+            add_adm_power = 50
 		}
 	}
 
@@ -693,13 +1055,20 @@ ASU_manchu_branch_5 = {
 		icon = default
 		required_missions = { ASU_manchu_mission_47 }
 		position = 10
+		
+		provinces_to_highlight = {
+			area = chicheng_area
+		}
 
 		trigger = { 
-            
+            chicheng_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
 		}
 
 		effect = { 
-            
+            add_adm_power = 50
 		}
 	}
 
@@ -708,13 +1077,20 @@ ASU_manchu_branch_5 = {
 		icon = default
 		required_missions = { ASU_manchu_mission_49 }
 		position = 12
+		
+		provinces_to_highlight = {
+			area = kalgan_area
+		}
 
 		trigger = { 
-            
+            kalgan_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
 		}
 
 		effect = { 
-            
+            add_adm_power = 50
 		}
 	}
 
@@ -738,12 +1114,19 @@ ASU_manchu_branch_6 = {
 		required_missions = { ASU_manchu_mission_36 }
 		position = 3
 
+		provinces_to_highlight = {
+			province_id = 4655
+		}
+
 		trigger = { 
-            
+            4655 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
 		}
 
 		effect = { 
-            
+            add_adm_power = 50
+			add_yearly_manpower = 1
 		}
 	}
 
@@ -753,12 +1136,19 @@ ASU_manchu_branch_6 = {
 		required_missions = { ASU_manchu_mission_43 }
 		position = 4
 
+		provinces_to_highlight = {
+			province_id = 2105
+		}
+
 		trigger = { 
-            
+            2105 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
 		}
 
 		effect = { 
-            
+            add_adm_power = 50
+			add_yearly_manpower = 1
 		}
 	}
 
@@ -768,12 +1158,21 @@ ASU_manchu_branch_6 = {
 		required_missions = { ASU_manchu_mission_39 }
 		position = 7
 
+		
+		provinces_to_highlight = {
+			area = khalkhgol_area
+		}
+
 		trigger = { 
-            
+            khalkhgol_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
 		}
 
 		effect = { 
-            
+			add_adm_power = 50
+            add_yearly_manpower = 1
 		}
 	}
 
@@ -782,13 +1181,21 @@ ASU_manchu_branch_6 = {
 		icon = default
 		required_missions = { ASU_manchu_mission_45 }
 		position = 8
+		
+		provinces_to_highlight = {
+			area = barag_area
+		}
 
 		trigger = { 
-            
+            barag_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
 		}
 
 		effect = { 
-            
+            add_adm_power = 50
+            add_yearly_manpower = 1
 		}
 	}
 
@@ -797,13 +1204,28 @@ ASU_manchu_branch_6 = {
 		icon = default
 		required_missions = { ASU_manchu_mission_46 ASU_manchu_mission_102 }
 		position = 9
+		
+		provinces_to_highlight = {
+			OR = {
+				area = naran_area
+				area = matad_area
+			}
+		}
 
 		trigger = { 
-            
+            naran_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			matad_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
 		}
 
 		effect = { 
-            
+            add_adm_power = 50
+            add_yearly_manpower = 1
 		}
 	}
 
@@ -812,13 +1234,21 @@ ASU_manchu_branch_6 = {
 		icon = default
 		required_missions = { ASU_manchu_mission_47 }
 		position = 10
+		
+		provinces_to_highlight = {
+			area = asgat_area
+		}
 
 		trigger = { 
-            
+			asgat_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
 		}
 
 		effect = { 
-            
+            add_adm_power = 50
+            add_yearly_manpower = 1
 		}
 	}
 
@@ -827,13 +1257,21 @@ ASU_manchu_branch_6 = {
 		icon = default
 		required_missions = { ASU_manchu_mission_48 ASU_manchu_mission_41 }
 		position = 11
+		
+		provinces_to_highlight = {
+			area = airag_area
+		}
 
 		trigger = { 
-            
+            airag_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
 		}
 
 		effect = { 
-            
+            add_adm_power = 50
+            add_yearly_manpower = 1
 		}
 	}
 
@@ -842,13 +1280,23 @@ ASU_manchu_branch_6 = {
 		icon = default
 		required_missions = { ASU_manchu_mission_42 ASU_manchu_mission_49 }
 		position = 13
+		
+		provinces_to_highlight = {
+			region = mongolia_region
+		}
 
 		trigger = { 
-            
+            num_of_owned_provinces_with = {
+				region = mongolia_region
+				value = 70
+				country_or_non_sovereign_subject_holds = ROOT
+			}
 		}
 
 		effect = { 
-            
+            country_event = { #Sons of the Steppes Event
+				id = 
+			}
 		}
 	}
 
@@ -859,11 +1307,22 @@ ASU_manchu_branch_6 = {
 		position = 15
 
 		trigger = { 
-            
+            NOT = { num_of_loans = 10 }
+			treasury = 2000
+            OR = {
+                num_of_owned_provinces_with = {
+				    value = 25
+				    has_building = courthouse
+			    }
+                num_of_owned_provinces_with = {
+				    value = 25
+				    has_building = town_hall
+			    }
+            }
 		}
 
 		effect = { 
-            
+            add_treasury = -2000
 		}
 	}
 
@@ -874,11 +1333,26 @@ ASU_manchu_branch_6 = {
 		position = 16
 
 		trigger = { 
-            
+            NOT = { num_of_loans = 10 }
+			treasury = 3000
+            OR = {
+                num_of_owned_provinces_with = {
+				    value = 75
+				    has_building = courthouse
+			    }
+                num_of_owned_provinces_with = {
+				    value = 75
+				    has_building = town_hall
+			    }
+            }
 		}
 
 		effect = { 
-            
+            add_treasury = -3000
+			add_country_modifier = {
+				name = "ASU_reformed_administration"
+				duration = -1
+			}
 		}
 	}
 
@@ -903,11 +1377,14 @@ ASU_manchu_branch_7 = {
 		position = 7
 
 		trigger = { 
-            
+            NOT = {
+				exists = KRC
+			}
 		}
 
 		effect = { 
-            
+            add_adm_power = 50
+			add_yearly_manpower = 0.5
 		}
 	}
 
@@ -918,11 +1395,26 @@ ASU_manchu_branch_7 = {
 		position = 15
 
 		trigger = { 
-            
+            NOT = { num_of_loans = 10 }
+			treasury = 2000
+            OR = {
+                num_of_owned_provinces_with = {
+				    value = 25
+				    has_building = marketplace
+			    }
+                num_of_owned_provinces_with = {
+				    value = 25
+				    has_building = trade_depot
+			    }
+                num_of_owned_provinces_with = {
+				    value = 25
+				    has_building = stock_exchange
+			    }
+            }
 		}
 
 		effect = { 
-            
+            add_treasury = -2000
 		}
 	}
 
@@ -933,11 +1425,30 @@ ASU_manchu_branch_7 = {
 		position = 16
 
 		trigger = { 
-            
+			NOT = { num_of_loans = 10 }
+			treasury = 3000
+            OR = {
+                num_of_owned_provinces_with = {
+				    value = 75
+				    has_building = marketplace
+			    }
+                num_of_owned_provinces_with = {
+				    value = 75
+				    has_building = trade_depot
+			    }
+                num_of_owned_provinces_with = {
+				    value = 75
+				    has_building = stock_exchange
+			    }
+            }
 		}
 
 		effect = { 
-            
+			add_treasury = -3000
+            add_country_modifier = {
+				name = "ASU_reformed_commercial"
+				duration = -1
+			}
 		}
 	}
 
@@ -961,12 +1472,27 @@ ASU_manchu_branch_8 = {
 		required_missions = { }
 		position = 2
 
-		trigger = { 
-            
+		provinces_to_highlight = {
+			province_id = 4201
+			OR = {
+				NOT = { owned_by = ROOT is_core = ROOT }
+				NOT = { has_building = temple }
+			}
 		}
-
-		effect = { 
-            
+		trigger = {
+			owns_core_province = 4201
+			4201 = {
+				OR = {
+					has_building = temple
+					has_building = cathedral
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "mch_sacred_mountain"
+				duration = 7300
+			}
 		}
 	}
 
@@ -976,12 +1502,18 @@ ASU_manchu_branch_8 = {
 		required_missions = { }
 		position = 3
 
+		provinces_to_highlight = {
+			province_id = 726
+		}
+
 		trigger = { 
-            
+            726 = {
+				owned_by = ROOT
+			}
 		}
 
 		effect = { 
-            
+            add_adm_power = 100
 		}
 	}
 
@@ -991,12 +1523,19 @@ ASU_manchu_branch_8 = {
 		required_missions = { ASU_manchu_mission_57 }
 		position = 4
 
+		provinces_to_highlight = {
+			province_id = 726
+		}
+
 		trigger = { 
-            
+            726 = {
+				owned_by = ROOT
+				has_building = workshop
+			}
 		}
 
 		effect = { 
-            
+            add_years_of_income = 2
 		}
 	}
 
@@ -1007,11 +1546,20 @@ ASU_manchu_branch_8 = {
 		position = 7
 
 		trigger = { 
-            
+            num_of_owned_provinces_with = {
+				value = 15
+				has_manufactory_trigger = yes
+			}
+			num_of_owned_provinces_with = {
+				value = 30
+				has_building = workshop
+			}
 		}
 
 		effect = { 
-            
+            country_event = { #Reform the Steppes Event
+				id = 
+			}
 		}
 	}
 
@@ -1022,11 +1570,13 @@ ASU_manchu_branch_8 = {
 		position = 8
 
 		trigger = { 
-            
+            full_idea_group = humanist_ideas
 		}
 
 		effect = { 
-            
+            country_event = { #A God for everyone
+				id = 
+			}
 		}
 	}
 
@@ -1036,12 +1586,21 @@ ASU_manchu_branch_8 = {
 		required_missions = { }
 		position = 9
 
+		provinces_to_highlight = {
+			province_id = 2102
+		}
+
 		trigger = { 
-            
+            2102 = {
+				owned_by = ROOT
+				development = 10
+			}
 		}
 
 		effect = { 
-            
+            country_event = { #The Northlands Event
+				id = 
+			}
 		}
 	}
 
@@ -1051,12 +1610,22 @@ ASU_manchu_branch_8 = {
 		required_missions = { ASU_manchu_mission_61 }
 		position = 10
 
+		provinces_to_highlight = {
+			region = east_siberia_region
+		}
+
 		trigger = { 
-            
+            num_of_owned_provinces_with = {
+				value = 20
+				owned_by = ROOT
+				region = east_siberia_region
+			}
 		}
 
 		effect = { 
-            
+            add_years_of_income = 1
+			add_adm_power = 50
+			add_dip_power = 50
 		}
 	}
 
@@ -1067,11 +1636,11 @@ ASU_manchu_branch_8 = {
 		position = 11
 
 		trigger = { 
-            
+            total_development = 1000
 		}
 
 		effect = { 
-            
+            add_years_of_income = 2.5
 		}
 	}
 
@@ -1082,11 +1651,16 @@ ASU_manchu_branch_8 = {
 		position = 15
 
 		trigger = { 
-            
+			NOT = { num_of_loans = 10 }
+			treasury = 2000
+            num_of_owned_provinces_with = {
+				value = 25
+				has_manufactory_trigger = yes
+			}
 		}
 
 		effect = { 
-            
+           add_treasury = -2000 
 		}
 	}
 
@@ -1097,11 +1671,20 @@ ASU_manchu_branch_8 = {
 		position = 16
 
 		trigger = { 
-            
+			NOT = { num_of_loans = 10 }
+			treasury = 3000
+            num_of_owned_provinces_with = {
+				value = 75
+				has_manufactory_trigger = yes
+			}
 		}
 
 		effect = { 
-            
+			add_treasury = -3000
+            add_country_modifier = {
+				name = "ASU_reformed_production"
+				duration = -1
+			}
 		}
 	}
 
@@ -1112,11 +1695,19 @@ ASU_manchu_branch_8 = {
 		position = 17
 
 		trigger = { 
-            
+			NOT = { num_of_loans = 10 }
+            treasury = 5000
 		}
 
 		effect = { 
-            
+            add_treasury = -5000
+			add_country_modifier = {
+				name = "ASU_manchu_reformation"
+				duration = 36500
+			}
+			country_event = {
+				id = ASU_china_events.4
+			}
 		}
 	}
 
@@ -1141,11 +1732,19 @@ ASU_manchu_branch_9 = {
 		position = 6
 
 		trigger = { 
-            
+            726 = {
+				development = 30
+				has_great_project = {
+					type = fuling_mausoleum
+					tier = 3
+				}
+			}
 		}
 
 		effect = { 
-            
+            country_event = { #Trial of the Dead Event
+				id = 
+			}
 		}
 	}
 
@@ -1156,11 +1755,11 @@ ASU_manchu_branch_9 = {
 		position = 11
 
 		trigger = { 
-            
+            land_forcelimit = 200
 		}
 
 		effect = { 
-            
+            add_mil_power = 100
 		}
 	}
 
@@ -1171,11 +1770,13 @@ ASU_manchu_branch_9 = {
 		position = 12
 
 		trigger = { 
-            
+            num_of_banners = 50
 		}
 
 		effect = { 
-            
+            country_event = { #The Dragon Clan Event
+				id = 
+			}
 		}
 	}
 
@@ -1186,11 +1787,22 @@ ASU_manchu_branch_9 = {
 		position = 15
 
 		trigger = { 
-            
+			NOT = { num_of_loans = 10 }
+			treasury = 2000
+            OR = {
+                num_of_owned_provinces_with = {
+                    value = 25
+                    has_building = barracks
+                }
+                num_of_owned_provinces_with = {
+                    value = 25
+                    has_building = training_fields
+                }
+            }
 		}
 
 		effect = { 
-            
+            add_treasury = -2000
 		}
 	}
 
@@ -1201,11 +1813,26 @@ ASU_manchu_branch_9 = {
 		position = 16
 
 		trigger = { 
-            
+			NOT = { num_of_loans = 10 }
+			treasury = 3000
+            OR = {
+                num_of_owned_provinces_with = {
+                    value = 75
+                    has_building = barracks
+                }
+                num_of_owned_provinces_with = {
+                    value = 75
+                    has_building = training_fields
+                }
+            }
 		}
 
 		effect = { 
-            
+			add_treasury = -3000
+            add_country_modifier = {
+				name = "ASU_reformed_conscription"
+				duration = -1
+			}
 		}
 	}
 
@@ -1230,11 +1857,14 @@ ASU_manchu_branch_10 = {
 		position = 11
 
 		trigger = { 
-            
+            OR = {
+				full_idea_group = offensive_ideas
+				full_idea_group = shock0
+			}
 		}
 
 		effect = { 
-            
+            add_mil_power = 250
 		}
 	}
 
@@ -1245,11 +1875,16 @@ ASU_manchu_branch_10 = {
 		position = 15
 
 		trigger = { 
-            
+			NOT = { num_of_loans = 10 }
+			treasury = 2000
+            num_of_owned_provinces_with = {
+                value = 25
+                has_building = soldier_households
+            }
 		}
 
 		effect = { 
-            
+			add_treasury = -2000 
 		}
 	}
 
@@ -1260,11 +1895,20 @@ ASU_manchu_branch_10 = {
 		position = 16
 
 		trigger = { 
-            
+            NOT = { num_of_loans = 10 }
+			treasury = 3000
+            num_of_owned_provinces_with = {
+                value = 75
+            	has_building = soldier_households
+            }
 		}
 
 		effect = { 
-            
+			add_treasury = -3000
+            add_country_modifier = {
+				name = "ASU_reformed_army"
+				duration = -1
+			}
 		}
 	}
 
