@@ -1,0 +1,2484 @@
+ASU_japan_branch_1 = { 
+	slot = 1
+	generic = no
+	ai = no
+	potential = {
+		OR = {
+			tag = ODA
+			tag = JAP
+		}
+	}
+	has_country_shield = yes
+
+	ASU_japan_mission_1 = {
+		icon = default
+		required_missions = { ASU_japan_mission_11 }
+		position = 3
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+	
+	ASU_japan_mission_2 = {
+		icon = default
+		required_missions = { ASU_japan_mission_16 }
+		position = 10
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_3 = {
+		icon = default
+		required_missions = { ASU_japan_mission_17 }
+		position = 11
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_4 = {
+		icon = default
+		required_missions = { ASU_japan_mission_3 }
+		position = 12
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+	
+	ASU_japan_mission_5 = {
+		icon = default
+		required_missions = { }
+		position = 15
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_6 = {
+		icon = default
+		required_missions = { }
+		position = 16
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_7 = {
+		icon = default
+		required_missions = { ASU_japan_mission_21 }
+		position = 18
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_8 = {
+		icon = default
+		required_missions = { }
+		position = 20
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_9 = {
+		icon = default
+		required_missions = { ASU_japan_mission_8 }
+		position = 21
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+} #Ende Branch 1
+
+ASU_japan_branch_2 = { 
+	slot = 2
+	generic = no
+	ai = no
+	potential = {
+		OR = {
+			tag = ODA
+			tag = JAP
+		}
+	}
+	has_country_shield = yes
+
+	ASU_japan_mission_10 = {
+		icon = default
+		required_missions = { }
+		position = 1
+		provinces_to_highlight = {
+			province_id = 1030
+		}
+
+		trigger = { 
+			1030 = {
+				OR = {
+					has_building = barracks
+					has_building = training_fields
+				}
+			}
+		}
+
+		effect = { 
+		}
+	}
+	
+	ASU_japan_mission_11 = {
+		icon = default
+		required_missions = { ASU_japan_mission_10 }
+		position = 2
+		provinces_to_highlight = {
+			province_id = 1030
+		}
+
+		trigger = { 
+			1030 = {
+				development = 30
+			}
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_12 = {
+		icon = default
+		required_missions = { }
+		position = 4
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_13 = {
+		icon = default
+		required_missions = { ASU_japan_mission_12 }
+		position = 5
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+	
+	ASU_japan_mission_14 = {
+		icon = default
+		required_missions = { ASU_japan_mission_13 }
+		position = 6
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_15 = {
+		icon = default
+		required_missions = { ASU_japan_mission_14 }
+		position = 8
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_16 = {
+		icon = default
+		required_missions = { ASU_japan_mission_15 }
+		position = 9
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_17 = {
+		icon = default
+		required_missions = { }
+		position = 10
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_18 = {
+		icon = default
+		required_missions = {ASU_japan_mission_17 ASU_japan_mission_30 }
+		position = 11
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_19 = {
+		icon = default
+		required_missions = { ASU_japan_mission_18 }
+		position = 12
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_20 = {
+		icon = default
+		required_missions = { ASU_japan_mission_33 }
+		position = 16
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_21 = {
+		icon = default
+		required_missions = { ASU_japan_mission_20 }
+		position = 17
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_22 = {
+		icon = default
+		required_missions = { ASU_japan_mission_35 }
+		position = 19
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_23 = {
+		icon = default
+		required_missions = { ASU_japan_mission_8 }
+		position = 21
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_24 = {
+		icon = default
+		required_missions = { ASU_japan_mission_9 ASU_japan_mission_23 }
+		position = 22
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+} #Ende Branch 2
+
+ASU_japan_branch_3 = { 
+	slot = 3
+	generic = no
+	ai = no
+	potential = {
+		OR = {
+			tag = ODA
+			tag = JAP
+		}
+	}
+	has_country_shield = yes
+
+	ASU_japan_mission_25 = {
+		icon = default
+		required_missions = { ASU_japan_mission_38 }
+		position = 3
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+	
+	ASU_japan_mission_26 = {
+		icon = default
+		required_missions = { ASU_japan_mission_25 }
+		position = 4
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_27 = {
+		icon = default
+		required_missions = { ASU_japan_mission_26 }
+		position = 6
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_28 = {
+		icon = default
+		required_missions = {ASU_japan_mission_27 }
+		position = 7
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+	
+	ASU_japan_mission_29 = {
+		icon = default
+		required_missions = { ASU_japan_mission_15 }
+		position = 9
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_30 = {
+		icon = default
+		required_missions = { ASU_japan_mission_29 }
+		position = 10
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_31 = {
+		icon = default
+		required_missions = { ASU_japan_mission_30 }
+		position = 11
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_32 = {
+		icon = default
+		required_missions = { ASU_japan_mission_31 }
+		position = 13
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_33 = {
+		icon = default
+		required_missions = { }
+		position = 15
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_34 = {
+		icon = default
+		required_missions = { ASU_japan_mission_20 ASU_japan_mission_44 }
+		position = 17
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_35 = {
+		icon = default
+		required_missions = { ASU_japan_mission_21 ASU_japan_mission_34 ASU_japan_mission_45}
+		position = 18
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_36 = {
+		icon = default
+		required_missions = { ASU_japan_mission_22 ASU_japan_mission_46 }
+		position = 20
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	
+
+} #Ende Branch 3
+
+ASU_japan_branch_4 = { 
+	slot = 4
+	generic = no
+	ai = no
+	potential = {
+		OR = {
+			tag = ODA
+			tag = JAP
+		}
+	}
+	has_country_shield = yes
+
+	ASU_japan_mission_37 = {
+		icon = default
+		required_missions = { }
+		position = 1
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+	
+	ASU_japan_mission_38 = {
+		icon = default
+		required_missions = { ASU_japan_mission_47}
+		position = 2
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_39 = {
+		icon = default
+		required_missions = { ASU_japan_mission_38 }
+		position = 3
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_40 = {
+		icon = default
+		required_missions = { ASU_japan_mission_49 }
+		position = 4
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+	
+	ASU_japan_mission_41 = {
+		icon = default
+		required_missions = { ASU_japan_mission_65 }
+		position = 7
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_42 = {
+		icon = default
+		required_missions = { ASU_japan_mission_66 }
+		position = 9
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_43 = {
+		icon = default
+		required_missions = { ASU_japan_mission_42 }
+		position = 10
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_44 = {
+		icon = default
+		required_missions = { ASU_japan_mission_33 }
+		position = 16
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_45 = {
+		icon = default
+		required_missions = { ASU_japan_mission_44 }
+		position = 17
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_46 = {
+		icon = default
+		required_missions = { ASU_japan_mission_35 }
+		position = 19
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	
+
+} #Ende Branch 4
+
+ASU_japan_branch_5 = { 
+	slot = 5
+	generic = no
+	ai = no
+	potential = {
+		OR = {
+			tag = ODA
+			tag = JAP
+		}
+	}
+	has_country_shield = yes
+
+	ASU_japan_mission_47 = {
+		icon = default
+		required_missions = { }
+		position = 1
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+	
+	ASU_japan_mission_48 = {
+		icon = default
+		required_missions = { ASU_japan_mission_47 }
+		position = 2
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_49 = {
+		icon = default
+		required_missions = { ASU_japan_mission_48 }
+		position = 3
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_50 = {
+		icon = default
+		required_missions = { ASU_japan_mission_49 }
+		position = 4
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+	
+	ASU_japan_mission_51 = {
+		icon = default
+		required_missions = { ASU_japan_mission_50 }
+		position = 5
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_52 = {
+		icon = default
+		required_missions = { ASU_japan_mission_65 }
+		position = 7
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_53 = {
+		icon = default
+		required_missions = { ASU_japan_mission_66 }
+		position = 9
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_54 = {
+		icon = default
+		required_missions = { }
+		position = 12
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_55 = {
+		icon = default
+		required_missions = { ASU_japan_mission_32 ASU_japan_mission_70 ASU_japan_mission_89 ASU_japan_mission_103 ASU_japan_mission_120}
+		position = 14
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_56 = {
+		icon = default
+		required_missions = { ASU_japan_mission_55 }
+		position = 16
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_57 = {
+		icon = default
+		required_missions = { ASU_japan_mission_56 }
+		position = 17
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_58 = {
+		icon = default
+		required_missions = { ASU_japan_mission_45 }
+		position = 18
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_59 = {
+		icon = default
+		required_missions = { }
+		position = 19
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_60 = {
+		icon = default
+		required_missions = { ASU_japan_mission_59 }
+		position = 20
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_61 = {
+		icon = default
+		required_missions = { ASU_japan_mission_60 }
+		position = 21
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_62 = {
+		icon = default
+		required_missions = { ASU_japan_mission_61 }
+		position = 22
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+} #Ende Branch 5
+
+ASU_japan_branch_6 = { 
+	slot = 6
+	generic = no
+	ai = no
+	potential = {
+		OR = {
+			tag = ODA
+			tag = JAP
+		}
+	}
+	has_country_shield = yes
+
+	ASU_japan_mission_63 = {
+		icon = default
+		required_missions = { ASU_japan_mission_47 }
+		position = 2
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+	
+	ASU_japan_mission_64 = {
+		icon = default
+		required_missions = { ASU_japan_mission_63 }
+		position = 3
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_65 = {
+		icon = default
+		required_missions = { ASU_japan_mission_51 ASU_japan_mission_84}
+		position = 6
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_66 = {
+		icon = default
+		required_missions = { ASU_japan_mission_65 }
+		position = 8
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+	
+	ASU_japan_mission_67 = {
+		icon = default
+		required_missions = { }
+		position = 9
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_68 = {
+		icon = default
+		required_missions = { ASU_japan_mission_67 }
+		position = 10
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_69 = {
+		icon = default
+		required_missions = { ASU_japan_mission_68 }
+		position = 11
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_70 = {
+		icon = default
+		required_missions = { ASU_japan_mission_88 }
+		position = 13
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_71 = {
+		icon = default
+		required_missions = { ASU_japan_mission_55 }
+		position = 15
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_72 = {
+		icon = default
+		required_missions = { ASU_japan_mission_71 }
+		position = 16
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_73 = {
+		icon = default
+		required_missions = { ASU_japan_mission_72 }
+		position = 17
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_74 = {
+		icon = default
+		required_missions = { }
+		position = 18
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_75 = {
+		icon = default
+		required_missions = { ASU_japan_mission_74 }
+		position = 19
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_76 = {
+		icon = default
+		required_missions = { ASU_japan_mission_75 }
+		position = 20
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_77 = {
+		icon = default
+		required_missions = { }
+		position = 21
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_78 = {
+		icon = default
+		required_missions = { ASU_japan_mission_77 }
+		position = 22
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_79 = {
+		icon = default
+		required_missions = { }
+		position = 23
+		provinces_to_highlight = {
+			
+		}
+		trigger = { 
+			NOT = { num_of_loans = 10 }
+			treasury = 2000
+            OR = {
+                num_of_owned_provinces_with = {
+				    value = 25
+				    has_building = courthouse
+			    }
+                num_of_owned_provinces_with = {
+				    value = 25
+				    has_building = town_hall
+			    }
+            }
+		}
+
+		effect = { 
+            add_treasury = -2000
+			add_country_modifier = {
+				name = "ASU_reformed_bureaucracy"
+				duration = -1
+			}
+		}
+	}
+
+	ASU_japan_mission_80 = {
+		icon = default
+		required_missions = { ASU_japan_mission_79 }
+		position = 24
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+			NOT = { num_of_loans = 10 }
+			treasury = 3000
+            OR = {
+                num_of_owned_provinces_with = {
+				    value = 75
+				    has_building = courthouse
+			    }
+                num_of_owned_provinces_with = {
+				    value = 75
+				    has_building = town_hall
+			    }
+            }
+		}
+
+		effect = { 
+            add_treasury = -3000
+			remove_country_modifier = "ASU_reformed_bureaucracy"
+			add_country_modifier = {
+				name = "ASU_reformed_administration"
+				duration = -1
+			}
+		}
+	}
+
+} #Ende Branch 6
+
+ASU_japan_branch_7 = { 
+	slot = 7
+	generic = no
+	ai = no
+	potential = {
+		OR = {
+			tag = ODA
+			tag = JAP
+		}
+	}
+	has_country_shield = yes
+
+	ASU_japan_mission_81 = {
+		icon = default
+		required_missions = { }
+		position = 1
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+	
+	ASU_japan_mission_82 = {
+		icon = default
+		required_missions = { ASU_japan_mission_63 }
+		position = 3
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_83 = {
+		icon = default
+		required_missions = { ASU_japan_mission_82 }
+		position = 4
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_84 = {
+		icon = default
+		required_missions = { ASU_japan_mission_83 }
+		position = 5
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+	
+	ASU_japan_mission_85 = {
+		icon = default
+		required_missions = { ASU_japan_mission_84 }
+		position = 6
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_86 = {
+		icon = default
+		required_missions = { ASU_japan_mission_85 }
+		position = 7
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_87 = {
+		icon = default
+		required_missions = { ASU_japan_mission_67 }
+		position = 10
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_88 = {
+		icon = default
+		required_missions = { ASU_japan_mission_69 ASU_japan_mission_87 }
+		position = 12
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_89 = {
+		icon = default
+		required_missions = { ASU_japan_mission_88 }
+		position = 13
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_90 = {
+		icon = default
+		required_missions = { ASU_japan_mission_72 }
+		position = 17
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_91 = {
+		icon = default
+		required_missions = { }
+		position = 18
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_92 = {
+		icon = default
+		required_missions = { ASU_japan_mission_91}
+		position = 19
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_93 = {
+		icon = default
+		required_missions = { ASU_japan_mission_92 }
+		position = 20
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_94 = {
+		icon = default
+		required_missions = { ASU_japan_mission_93}
+		position = 21
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_95 = {
+		icon = default
+		required_missions = { }
+		position = 23
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+			NOT = { num_of_loans = 10 }
+			treasury = 2000
+            OR = {
+                num_of_owned_provinces_with = {
+				    value = 25
+				    has_building = marketplace
+			    }
+                num_of_owned_provinces_with = {
+				    value = 25
+				    has_building = trade_depot
+			    }
+                num_of_owned_provinces_with = {
+				    value = 25
+				    has_building = stock_exchange
+			    }
+            }
+		}
+
+		effect = { 
+            add_treasury = -2000
+			add_country_modifier = {
+				name = "ASU_reformed_standards"
+				duration = -1
+			}
+		}
+	}
+
+	ASU_japan_mission_96 = {
+		icon = default
+		required_missions = { ASU_japan_mission_95 }
+		position = 24
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+			NOT = { num_of_loans = 10 }
+			treasury = 3000
+            OR = {
+                num_of_owned_provinces_with = {
+				    value = 75
+				    has_building = marketplace
+			    }
+                num_of_owned_provinces_with = {
+				    value = 75
+				    has_building = trade_depot
+			    }
+                num_of_owned_provinces_with = {
+				    value = 75
+				    has_building = stock_exchange
+			    }
+            }
+		}
+
+		effect = { 
+            add_treasury = -3000
+			remove_country_modifier = "ASU_reformed_standards"
+			add_country_modifier = {
+				name = "ASU_reformed_commercial"
+				duration = -1
+			}
+		}
+	}
+
+} #Ende Branch 7
+
+ASU_japan_branch_8 = { 
+	slot = 8
+	generic = no
+	ai = no
+	potential = {
+		OR = {
+			tag = ODA
+			tag = JAP
+		}
+	}
+	has_country_shield = yes
+
+	ASU_japan_mission_97 = {
+		icon = default
+		required_missions = { }
+		position = 1
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+	
+	ASU_japan_mission_98 = {
+		icon = default
+		required_missions = { ASU_japan_mission_97 }
+		position = 2
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_99 = {
+		icon = default
+		required_missions = { ASU_japan_mission_98 }
+		position = 4
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_100 = {
+		icon = default
+		required_missions = { ASU_japan_mission_132 }
+		position = 8
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+	
+	ASU_japan_mission_101 = {
+		icon = default
+		required_missions = { ASU_japan_mission_100 }
+		position = 9
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_102 = {
+		icon = default
+		required_missions = { ASU_japan_mission_119 }
+		position = 11
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_103 = {
+		icon = default
+		required_missions = { ASU_japan_mission_88 }
+		position = 13
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_104 = {
+		icon = default
+		required_missions = { ASU_japan_mission_71 }
+		position = 16
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_105 = {
+		icon = default
+		required_missions = { }
+		position = 18
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_106 = {
+		icon = default
+		required_missions = { ASU_japan_mission_105 }
+		position = 19
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_107 = {
+		icon = default
+		required_missions = { ASU_japan_mission_106 }
+		position = 20
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_108 = {
+		icon = default
+		required_missions = { ASU_japan_mission_107 }
+		position = 21
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_109 = {
+		icon = default
+		required_missions = { ASU_japan_mission_94 ASU_japan_mission_108 }
+		position = 22
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_110 = {
+		icon = default
+		required_missions = { }
+		position = 23
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+			NOT = { num_of_loans = 10 }
+			treasury = 2000
+            OR = {
+                num_of_owned_provinces_with = {
+                    value = 25
+                    has_building = barracks
+                }
+                num_of_owned_provinces_with = {
+                    value = 25
+                    has_building = training_fields
+                }
+            }
+		}
+
+		effect = { 
+            add_treasury = -2000
+			add_country_modifier = {
+				name = "ASU_new_conscription"
+				duration = -1
+			}
+		}
+	}
+
+	ASU_japan_mission_111 = {
+		icon = default
+		required_missions = { ASU_japan_mission_110 }
+		position = 24
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+			NOT = { num_of_loans = 10 }
+			treasury = 3000
+            OR = {
+                num_of_owned_provinces_with = {
+                    value = 75
+                    has_building = barracks
+                }
+                num_of_owned_provinces_with = {
+                    value = 75
+                    has_building = training_fields
+                }
+            }
+		}
+
+		effect = { 
+            add_treasury = -3000
+			remove_country_modifier = "ASU_new_conscription"
+			add_country_modifier = {
+				name = "ASU_reformed_conscription"
+				duration = -1
+			}
+		}
+	}
+
+	ASU_japan_mission_112 = {
+		icon = default
+		required_missions = { ASU_japan_mission_80 ASU_japan_mission_96 ASU_japan_mission_111 ASU_japan_mission_128 ASU_japan_mission_145}
+		position = 25
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+} #Ende Branch 8
+
+ASU_japan_branch_9 = { 
+	slot = 9
+	generic = no
+	ai = no
+	potential = {
+		OR = {
+			tag = ODA
+			tag = JAP
+		}
+	}
+	has_country_shield = yes
+
+	ASU_japan_mission_113 = {
+		icon = default
+		required_missions = { }
+		position = 1
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+	
+	ASU_japan_mission_114 = {
+		icon = default
+		required_missions = { ASU_japan_mission_113 }
+		position = 2
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_115 = {
+		icon = default
+		required_missions = { }
+		position = 3
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_116 = {
+		icon = default
+		required_missions = { ASU_japan_mission_99 ASU_japan_mission_115 ASU_japan_mission_131}
+		position = 5
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+	
+	ASU_japan_mission_117 = {
+		icon = default
+		required_missions = { ASU_japan_mission_132 }
+		position = 8
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_118 = {
+		icon = default
+		required_missions = { ASU_japan_mission_117}
+		position = 9
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_119 = {
+		icon = default
+		required_missions = { }
+		position = 10
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_120 = {
+		icon = default
+		required_missions = { ASU_japan_mission_119 }
+		position = 13
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_121 = {
+		icon = default
+		required_missions = { }
+		position = 15
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_122 = {
+		icon = default
+		required_missions = { ASU_japan_mission_121 }
+		position = 16
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_123 = {
+		icon = default
+		required_missions = { }
+		position = 18
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_124 = {
+		icon = default
+		required_missions = { ASU_japan_mission_123 }
+		position = 19
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_125 = {
+		icon = default
+		required_missions = { ASU_japan_mission_124 }
+		position = 20
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_126 = {
+		icon = default
+		required_missions = { ASU_japan_mission_125 }
+		position = 21
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_127 = {
+		icon = default
+		required_missions = { }
+		position = 23
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+			NOT = { num_of_loans = 10 }
+			treasury = 2000
+            num_of_owned_provinces_with = {
+				value = 25
+				has_building = soldier_households
+			}
+		}
+
+		effect = { 
+           add_treasury = -2000
+		   add_country_modifier = {
+			name = "ASU_introduce_regulars"
+			duration = -1
+			}
+		}
+	}
+
+	ASU_japan_mission_128 = {
+		icon = default
+		required_missions = { ASU_japan_mission_127 }
+		position = 24
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+			NOT = { num_of_loans = 10 }
+			treasury = 3000
+            num_of_owned_provinces_with = {
+				value = 75
+				has_building = soldier_households
+			}
+		}
+
+		effect = { 
+           add_treasury = -3000 
+		   remove_country_modifier = "ASU_introduce_regulars"
+		   add_country_modifier = {
+			name = "ASU_reformed_army"
+			duration = -1
+			}
+		}
+	}
+
+} #Ende Branch 9
+
+ASU_japan_branch_10 = { 
+	slot = 10
+	generic = no
+	ai = no
+	potential = {
+		OR = {
+			tag = ODA
+			tag = JAP
+		}
+	}
+	has_country_shield = yes
+
+	ASU_japan_mission_129 = {
+		icon = default
+		required_missions = { }
+		position = 1
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+	
+	ASU_japan_mission_130 = {
+		icon = default
+		required_missions = { ASU_japan_mission_129 }
+		position = 2
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_131 = {
+		icon = default
+		required_missions = { ASU_japan_mission_130 }
+		position = 4
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_132 = {
+		icon = default
+		required_missions = { }
+		position = 7
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+	
+	ASU_japan_mission_133 = {
+		icon = default
+		required_missions = { ASU_japan_mission_132 }
+		position = 8
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_134 = {
+		icon = default
+		required_missions = { ASU_japan_mission_133 }
+		position = 9
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_135 = {
+		icon = default
+		required_missions = { ASU_japan_mission_119 }
+		position = 11
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_136 = {
+		icon = default
+		required_missions = { }
+		position = 14
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_137 = {
+		icon = default
+		required_missions = { ASU_japan_mission_136 }
+		position = 15
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_138 = {
+		icon = default
+		required_missions = { ASU_japan_mission_137 }
+		position = 16
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_139 = {
+		icon = default
+		required_missions = { ASU_japan_mission_138 }
+		position = 17
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_140 = {
+		icon = default
+		required_missions = { }
+		position = 18
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_141= {
+		icon = default
+		required_missions = { ASU_japan_mission_140 }
+		position = 19
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_142 = {
+		icon = default
+		required_missions = { ASU_japan_mission_141 }
+		position = 20
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_143 = {
+		icon = default
+		required_missions = { ASU_japan_mission_142 }
+		position = 21
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+		}
+
+		effect = { 
+		}
+	}
+
+	ASU_japan_mission_144 = {
+		icon = default
+		required_missions = { }
+		position = 23
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+			NOT = { num_of_loans = 10 }
+			treasury = 2000
+            num_of_owned_provinces_with = {
+				value = 25
+				has_manufactory_trigger = yes
+			}
+		}
+
+		effect = { 
+           add_treasury = -2000 
+		   add_country_modifier = {
+			name = "ASU_reformed_production"
+			duration = -1
+		}
+		}
+	}
+
+	ASU_japan_mission_145 = {
+		icon = default
+		required_missions = { ASU_japan_mission_144 }
+		position = 24
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+			NOT = { num_of_loans = 10 }
+			treasury = 3000
+            num_of_owned_provinces_with = {
+				value = 75
+				has_manufactory_trigger = yes
+			}
+		}
+
+		effect = { 
+           add_treasury = -3000 
+		   remove_country_modifier = "ASU_reformed_production"
+		   add_country_modifier = {
+			name = "ASU_reformed_economy"
+			duration = -1
+			}
+		}
+	}
+
+} #Ende Branch 10

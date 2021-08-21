@@ -12054,8 +12054,16 @@ ASU_cavalry_leader_boost = {
 ####################################
 #These ones are for Reformed Asian
 ####################################
+ASU_reformed_bureaucracy = {
+	governing_capacity = 200
+}
+
 ASU_reformed_administration = {
 	governing_capacity = 500
+}
+
+ASU_reformed_standards = {
+	trade_efficiency = 0.02
 }
 
 ASU_reformed_commercial = {
@@ -12063,15 +12071,33 @@ ASU_reformed_commercial = {
 }
 
 ASU_reformed_production = {
+	production_efficiency = 0.02
+	#global_trade_goods_size_modifier = 0.02
+}
+
+ASU_reformed_economy = {
 	production_efficiency = 0.05
+	#global_trade_goods_size_modifier = 0.05
+}
+
+ASU_new_conscription = {
+	global_manpower_modifier = 0.04
 }
 
 ASU_reformed_conscription = {
 	global_manpower_modifier = 0.1
 }
 
+ASU_reformed_admirality = {
+	global_sailors_modifier = 0.04
+}
+
 ASU_reformed_navy = {
 	global_sailors_modifier = 0.1
+}
+
+ASU_introduce_regulars = {
+	manpower_recovery_speed = 0.02
 }
 
 ASU_reformed_army = {

@@ -76,6 +76,12 @@
  ASU_reformed_conscription:0 "Reformed Conscription"
  ASU_reformed_navy:0 "Reformed Navy"
  ASU_reformed_army:0 "Reformed Army"
+ ASU_reformed_bureaucracy:0 "Reformed Bureaucracy"
+ ASU_reformed_standards:0 " Reformed Standards"
+ ASU_reformed_economy:0 "Reformed Economy"
+ ASU_new_conscription:0 "New Conscriptions"
+ ASU_reformed_admirality:0 "Reformed Admirality"
+ ASU_introduce_regulars:0 "Introduced Regulars"
 
  #For all Chinese
  ASU_army_of_a_nation:0 "Army of a Nation"

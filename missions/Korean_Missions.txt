@@ -579,6 +579,10 @@ ASU_korea_branch_3 = {
 
 		effect = { 
             add_treasury = -2000
+			add_country_modifier = {
+				name = "ASU_reformed_bureaucracy"
+				duration = -1
+			}
 		}
 	}
 
@@ -604,6 +608,7 @@ ASU_korea_branch_3 = {
 
 		effect = { 
             add_treasury = -3000
+			remove_country_modifier = "ASU_reformed_bureaucracy"
 			add_country_modifier = {
 				name = "ASU_reformed_administration"
 				duration = -1
@@ -777,6 +782,10 @@ ASU_korea_branch_4 = {
 
 		effect = { 
             add_treasury = -2000
+			add_country_modifier = {
+				name = "ASU_reformed_standards"
+				duration = -1
+			}
 		}
 	}
 
@@ -806,6 +815,7 @@ ASU_korea_branch_4 = {
 
 		effect = { 
 			add_treasury = -3000
+			remove_country_modifier = "ASU_reformed_standards"
             add_country_modifier = {
 				name = "ASU_reformed_commercial"
 				duration = -1
@@ -1015,6 +1025,10 @@ ASU_korea_branch_5 = {
 
 		effect = { 
            add_treasury = -2000 
+		   add_country_modifier = {
+			name = "ASU_reformed_production"
+			duration = -1
+		}
 		}
 	}
 
@@ -1034,8 +1048,9 @@ ASU_korea_branch_5 = {
 
 		effect = { 
 			add_treasury = -3000
+			remove_country_modifier = "ASU_reformed_production"
             add_country_modifier = {
-				name = "ASU_reformed_production"
+				name = "ASU_reformed_economy"
 				duration = -1
 			}
 		}
@@ -1251,6 +1266,10 @@ ASU_korea_branch_6 = {
 
 		effect = { 
             add_treasury = -2000
+			add_country_modifier = {
+				name = "ASU_new_conscription"
+				duration = -1
+			}
 		}
 	}
 
@@ -1276,6 +1295,7 @@ ASU_korea_branch_6 = {
 
 		effect = { 
 			add_treasury = -3000
+			remove_country_modifier = "ASU_new_conscription"
             add_country_modifier = {
 				name = "ASU_reformed_conscription"
 				duration = -1
@@ -1533,6 +1553,10 @@ ASU_korea_branch_7 = {
 
 		effect = { 
             add_treasury = -2000
+			add_country_modifier = {
+				name = "ASU_reformed_admirality"
+				duration = -1
+			}
 		}
 	}
 
@@ -1558,6 +1582,7 @@ ASU_korea_branch_7 = {
 
 		effect = { 
 			add_treasury = -3000
+			remove_country_modifier = "ASU_reformed_admirality"
             add_country_modifier = {
 				name = "ASU_reformed_navy"
 				duration = -1
