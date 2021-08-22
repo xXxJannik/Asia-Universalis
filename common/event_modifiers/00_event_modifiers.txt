@@ -12171,3 +12171,26 @@ ASU_manchu_economic_reform = {
 	build_cost = -0.1
 	development_cost = -0.05
 }
+
+# JAPAN
+
+ASU_sengoku_jidai = {
+	land_forcelimit = 5
+	global_tax_income = 24
+}
+
+ASU_way_of_the_samurai = {
+	prestige = 1
+}
+
+ASU_japanese_century = {
+	discipline = 0.05
+}
+
+ASU_rise_of_the_eastern_empire = {
+	naval_moral = 0.1
+}
+
+ASU_japanese_bank = {
+	interest = -0.25
+}

@@ -607,10 +607,18 @@ ASU_japan_branch_4 = {
 		required_missions = { }
 		position = 1
 		provinces_to_highlight = {
-			
+			province_id = 1030
 		}
 
 		trigger = { 
+			1030 ={
+				OR = {
+					has_building = fort_15th
+					has_building = fort_16th
+					has_building = fort_17th
+					has_building = fort_18th
+				}
+			}
 		}
 
 		effect = { 
@@ -777,9 +785,14 @@ ASU_japan_branch_5 = {
 		}
 
 		trigger = { 
+			army_size_percentage = 1
 		}
 
 		effect = { 
+		 add_country_modifier = {
+			name = ASU_sengoku_jidai 
+			duration = 7300
+		 }
 		}
 	}
 	
@@ -1192,10 +1205,19 @@ ASU_japan_branch_6 = {
 		required_missions = { }
 		position = 18
 		provinces_to_highlight = {
-			
+			area = saigoku_area
 		}
 
 		trigger = { 
+			saigoku_area = {
+				type = all
+				OR = {
+					has_building = barracks
+					has_building = training_fields	
+				}
+				owned_by = ROOT
+				
+			}
 		}
 
 		effect = { 
@@ -1207,10 +1229,19 @@ ASU_japan_branch_6 = {
 		required_missions = { ASU_japan_mission_74 }
 		position = 19
 		provinces_to_highlight = {
-			
+			area = sanindo_area
 		}
 
 		trigger = { 
+			sanindo_area = {
+				type = all
+				OR = {
+					has_building = barracks
+					has_building = training_fields	
+				}
+				owned_by = ROOT
+				
+			}
 		}
 
 		effect = { 
@@ -1222,10 +1253,19 @@ ASU_japan_branch_6 = {
 		required_missions = { ASU_japan_mission_75 }
 		position = 20
 		provinces_to_highlight = {
-			
+			area = tottori_area
 		}
 
 		trigger = { 
+			tottori_area = {
+				type = all
+				OR = {
+					has_building = barracks
+					has_building = training_fields	
+				}
+				owned_by = ROOT
+				
+			}
 		}
 
 		effect = { 
@@ -1495,10 +1535,14 @@ ASU_japan_branch_7 = {
 		required_missions = { }
 		position = 18
 		provinces_to_highlight = {
-			
+			area = kyoto_area
 		}
 
 		trigger = { 
+			development_in_provinces = {
+				value = 100
+				area = kyoto_area
+			}
 		}
 
 		effect = { 
@@ -1510,10 +1554,18 @@ ASU_japan_branch_7 = {
 		required_missions = { ASU_japan_mission_91}
 		position = 19
 		provinces_to_highlight = {
-			
+			area = kyoto_area
 		}
 
 		trigger = { 
+			kyoto_area = {
+				type = all
+				OR = {
+					has_building = workshop
+					has_building = counting_house	
+				}
+				owned_by = ROOT
+			}
 		}
 
 		effect = { 
@@ -1525,10 +1577,15 @@ ASU_japan_branch_7 = {
 		required_missions = { ASU_japan_mission_92 }
 		position = 20
 		provinces_to_highlight = {
-			
+			area = kyoto_area
 		}
 
 		trigger = { 
+			kyoto_area = {
+				type = all
+				has_manufactory_trigger = yes
+				owned_by = ROOT
+			}
 		}
 
 		effect = { 
@@ -1540,10 +1597,18 @@ ASU_japan_branch_7 = {
 		required_missions = { ASU_japan_mission_93}
 		position = 21
 		provinces_to_highlight = {
-			
+			area = kyoto_area
 		}
 
 		trigger = { 
+			kyoto_area = {
+				type = all
+				OR = {
+					has_building = barracks
+					has_building = training_fields	
+				}
+				owned_by = ROOT
+			}
 		}
 
 		effect = { 
@@ -1762,10 +1827,14 @@ ASU_japan_branch_8 = {
 		required_missions = { }
 		position = 18
 		provinces_to_highlight = {
-			
+			area = tokyo_area
 		}
 
 		trigger = { 
+			development_in_provinces = {
+				value = 100
+				area = tokyo_area
+			}
 		}
 
 		effect = { 
@@ -1777,10 +1846,18 @@ ASU_japan_branch_8 = {
 		required_missions = { ASU_japan_mission_105 }
 		position = 19
 		provinces_to_highlight = {
-			
+			area = tokyo_area
 		}
 
 		trigger = { 
+			tokyo_area = {
+				type = all
+				OR = {
+					has_building = workshop
+					has_building = counting_house	
+				}
+				owned_by = ROOT
+			}
 		}
 
 		effect = { 
@@ -1792,10 +1869,15 @@ ASU_japan_branch_8 = {
 		required_missions = { ASU_japan_mission_106 }
 		position = 20
 		provinces_to_highlight = {
-			
+			area = tokyo_area
 		}
 
 		trigger = { 
+			tokyo_area = {
+				type = all
+				has_manufactory_trigger = yes
+				owned_by = ROOT
+			}
 		}
 
 		effect = { 
@@ -1807,10 +1889,18 @@ ASU_japan_branch_8 = {
 		required_missions = { ASU_japan_mission_107 }
 		position = 21
 		provinces_to_highlight = {
-			
+			area = tokyo_area
 		}
 
 		trigger = { 
+			tokyo_area = {
+				type = all
+				OR = {
+					has_building = barracks
+					has_building = training_fields	
+				}
+				owned_by = ROOT
+			}
 		}
 
 		effect = { 
@@ -1822,13 +1912,14 @@ ASU_japan_branch_8 = {
 		required_missions = { ASU_japan_mission_94 ASU_japan_mission_108 }
 		position = 22
 		provinces_to_highlight = {
-			
+			province_id = 5088
 		}
 
 		trigger = { 
 		}
 
 		effect = { 
+			set_capital = 5088
 		}
 	}
 
@@ -1965,6 +2056,7 @@ ASU_japan_branch_9 = {
 		}
 
 		trigger = { 
+			grown_by_states = 5
 		}
 
 		effect = { 
@@ -1972,17 +2064,24 @@ ASU_japan_branch_9 = {
 	}
 
 	ASU_japan_mission_116 = {
-		icon = default
+		icon = mission_rice_field
 		required_missions = { ASU_japan_mission_99 ASU_japan_mission_115 ASU_japan_mission_131}
 		position = 5
 		provinces_to_highlight = {
 			
 		}
 
-		trigger = { 
+		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = JAP_no_corruption
+				NOT = { corruption = 0.1 }
+			}
 		}
-
-		effect = { 
+		effect = {
+			add_country_modifier = {
+				name = JAP_cadastral_surveys
+				duration = 7300
+			}
 		}
 	}
 	
@@ -2081,10 +2180,18 @@ ASU_japan_branch_9 = {
 		required_missions = { }
 		position = 18
 		provinces_to_highlight = {
-			
+			area = shikoku_area
 		}
 
 		trigger = { 
+			shikoku_area = {
+				type = all
+				OR = {
+					has_building = barracks
+					has_building = training_fields	
+				}
+				owned_by = ROOT
+			}
 		}
 
 		effect = { 
@@ -2096,10 +2203,18 @@ ASU_japan_branch_9 = {
 		required_missions = { ASU_japan_mission_123 }
 		position = 19
 		provinces_to_highlight = {
-			
+			area = east_shikoku_area
 		}
 
-		trigger = { 
+		trigger = {
+			east_shikoku_area = {
+				type = all
+				OR = {
+					has_building = barracks
+					has_building = training_fields	
+				}
+				owned_by = ROOT
+			} 
 		}
 
 		effect = { 
@@ -2108,13 +2223,22 @@ ASU_japan_branch_9 = {
 
 	ASU_japan_mission_125 = {
 		icon = default
-		required_missions = { ASU_japan_mission_124 }
+		required_missions = {  }
 		position = 20
 		provinces_to_highlight = {
-			
+			area = fukushima_area
 		}
 
 		trigger = { 
+			fukushima_area = {
+				type = all
+				OR = {
+					has_building = barracks
+					has_building = training_fields	
+				}
+				owned_by = ROOT
+				
+			}
 		}
 
 		effect = { 
@@ -2126,10 +2250,19 @@ ASU_japan_branch_9 = {
 		required_missions = { ASU_japan_mission_125 }
 		position = 21
 		provinces_to_highlight = {
-			
+			area = eastern_kanto_area
 		}
 
 		trigger = { 
+			eastern_kanto_area = {
+				type = all
+				OR = {
+					has_building = barracks
+					has_building = training_fields	
+				}
+				owned_by = ROOT
+				
+			}
 		}
 
 		effect = { 
@@ -2234,17 +2367,89 @@ ASU_japan_branch_10 = {
 	}
 
 	ASU_japan_mission_131 = {
-		icon = default
 		required_missions = { ASU_japan_mission_130 }
 		position = 4
 		provinces_to_highlight = {
 			
 		}
 
-		trigger = { 
+		icon = mission_buddhist_monk_praying
+		
+		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = JAP_balance_the_four_divisions_tt
+				OR = {
+					AND = {
+						if = {
+							limit = {
+								has_estate = estate_burghers
+							}
+							estate_loyalty = {
+								estate = estate_burghers
+								loyalty = 60
+							}
+						}
+						if = {
+							limit = {
+								has_estate = estate_church
+							}
+							estate_loyalty = {
+								estate = estate_church
+								loyalty = 60
+							}
+						}
+					}
+					AND = {
+						if = {
+							limit = {
+								has_estate = estate_burghers
+							}
+							estate_loyalty = {
+								estate = estate_burghers
+								loyalty = 60
+							}
+						}
+						if = {
+							limit = {
+								has_estate = estate_nobles
+							}
+							estate_loyalty = {
+								estate = estate_nobles
+								loyalty = 60
+							}
+						}
+					}
+					AND = {
+						if = {
+							limit = {
+								has_estate = estate_church
+							}
+							estate_loyalty = {
+								estate = estate_church
+								loyalty = 60
+							}
+						}
+						if = {
+							limit = {
+								has_estate = estate_nobles
+							}
+							estate_loyalty = {
+								estate = estate_nobles
+								loyalty = 60
+							}
+						}
+					}
+				}
+			}
 		}
-
-		effect = { 
+		effect = {
+			if = {
+				limit = { NOT = { stability = 3 } }
+				add_stability = 1
+			}
+			else = {
+				add_adm_power = 100
+			}
 		}
 	}
 
@@ -2373,10 +2578,19 @@ ASU_japan_branch_10 = {
 		required_missions = { }
 		position = 18
 		provinces_to_highlight = {
-			
+			area = northern_kyushu
 		}
 
 		trigger = { 
+			northern_kyushu = {
+				type = all
+				OR = {
+					has_building = barracks
+					has_building = training_fields	
+				}
+				owned_by = ROOT
+				
+			}
 		}
 
 		effect = { 
@@ -2388,10 +2602,19 @@ ASU_japan_branch_10 = {
 		required_missions = { ASU_japan_mission_140 }
 		position = 19
 		provinces_to_highlight = {
-			
+			area = west_kyushu_area
 		}
 
 		trigger = { 
+			west_kyushu_area = {
+				type = all
+				OR = {
+					has_building = barracks
+					has_building = training_fields	
+				}
+				owned_by = ROOT
+				
+			}
 		}
 
 		effect = { 
@@ -2403,10 +2626,19 @@ ASU_japan_branch_10 = {
 		required_missions = { ASU_japan_mission_141 }
 		position = 20
 		provinces_to_highlight = {
-			
+			area = central_kyushu_area
 		}
 
 		trigger = { 
+			central_kyushu_area = {
+				type = all
+				OR = {
+					has_building = barracks
+					has_building = training_fields	
+				}
+				owned_by = ROOT
+				
+			}
 		}
 
 		effect = { 
@@ -2418,10 +2650,19 @@ ASU_japan_branch_10 = {
 		required_missions = { ASU_japan_mission_142 }
 		position = 21
 		provinces_to_highlight = {
-			
+			area = kyushu_area
 		}
 
 		trigger = { 
+			kyushu_area = {
+				type = all
+				OR = {
+					has_building = barracks
+					has_building = training_fields	
+				}
+				owned_by = ROOT
+				
+			}
 		}
 
 		effect = { 
