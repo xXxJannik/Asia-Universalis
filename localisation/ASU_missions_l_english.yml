@@ -1,4 +1,6 @@
 ﻿l_english:
+
+ #Korea
  ASU_korea_mission_1_title:0 "Intervene in China"
  ASU_korea_mission_2_title:0 "Seize Qingdao"
  ASU_korea_mission_3_title:0 "Fortify Wa Lagoubao"
@@ -296,10 +298,13 @@
  ASU_manchu_mission_70_desc:0 ""
  ASU_manchu_mission_71_desc:0 ""
  ASU_manchu_mission_72_desc:0 ""
+ ASU_manchu_mission_73_desc:0 ""
+ ASU_manchu_mission_74_desc:0 ""
  ASU_manchu_mission_100_desc:0 ""
  ASU_manchu_mission_101_desc:0 ""
  ASU_manchu_mission_102_desc:0 ""
 
+ #Japan
  ASU_japan_mission_1_title:0 ""
  ASU_japan_mission_2_title:0 ""
  ASU_japan_mission_3_title:0 ""

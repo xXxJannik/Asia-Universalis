@@ -1,0 +1,9 @@
+government = tribal
+add_government_reform = steppe_horde
+technology_group = chinese
+primary_culture = evenk
+religion = tengri_pagan_reformed
+capital = 4662
+government_rank = 1
+
+

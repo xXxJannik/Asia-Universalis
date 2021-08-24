@@ -12157,6 +12157,7 @@ ASU_manchu_a_god_for_everyone = {
 ASU_manchu_the_northlands = {
 	colonists = 1
 	global_colonial_growth = 20
+	auto_explore_adjacent_to_colony = yes
 }
 
 ASU_manchu_the_dragon_clan = {

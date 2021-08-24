@@ -892,7 +892,7 @@ ASU_korea_branch_5 = {
 		trigger = { 
             735 = {
                 country_or_non_sovereign_subject_holds = ROOT
-                development = 20
+                development = 30
             }
 		}
 
