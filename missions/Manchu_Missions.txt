@@ -330,7 +330,7 @@ ASU_manchu_branch_3 = {
 		provinces_to_highlight = {
 			OR = {
 				area = jianchang_area
-				area = jingzhou_area
+				area = jianzhou_area
 			}
 		}
 
@@ -339,7 +339,7 @@ ASU_manchu_branch_3 = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-			jingzhou_area = {
+			jianzhou_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
