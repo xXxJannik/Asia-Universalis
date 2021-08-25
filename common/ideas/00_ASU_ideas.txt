@@ -5347,7 +5347,7 @@ formation0 = {
 	category = MIL
 
 	bonus = {
-		leader_land_manuever = 1
+		cavalry_cost = -0.2
 	}
 		
 	
