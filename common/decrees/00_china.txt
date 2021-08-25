@@ -160,7 +160,7 @@ promote_cavalry_decree = {
 	cost = 20
 	duration = 3650
 	modifier = {
-		cav_to_inf_ratio = 0.1
+		cavalry_cost = -0.2
 		cavalry_power = 0.1
 	}
 	ai_will_do = {

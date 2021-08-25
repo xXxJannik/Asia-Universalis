@@ -161,7 +161,7 @@ CYI_ideas = {
 QNG_ideas = {
 	start = {
 		shock_damage = 0.2
-		fire_damage_received = -0.1
+		global_regiment_cost = -0.1
 	}
 	
 	bonus = {
@@ -197,7 +197,7 @@ QNG_ideas = {
 		global_autonomy = -0.05
 	}
 	the_ten_great_campaigns = {
-		land_morale = 0.2
+		land_morale = 0.1
 		prestige_from_land = 0.5
 	}
 }
@@ -209,7 +209,7 @@ KOR_ideas = {
 	}
 	
 	bonus = {
-		artillery_power = 0.1
+		backrow_artillery_damage = 0.1
 	}
 	
 	trigger = {
