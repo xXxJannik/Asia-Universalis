@@ -658,50 +658,17 @@ estate_tibet_mountains = {
 			tag = XTB
 		}
 	}
-	can_revoke = {
-	}
 	on_granted = {
-		custom_tooltip = ASU_estate_tibet_mountain_tooltip
-		hidden_effect = {
-			every_owned_province = {
-				limit = {
-					has_terrain = mountain
-				}
-				add_province_modifier = {
-					name = ASU_estate_tibet_mountain_modifier
-					duration = -1
-				}
-			}
-		}
 	}
-	on_revoked = {
-		custom_tooltip = ASU_estate_herding_rights_revoke_tooltip
-		hidden_effect = {
-			every_owned_province = {
-				limit = {
-					has_province_modifier = ASU_estate_tibet_mountain_modifier
-				}
-				remove_province_modifier = ASU_estate_tibet_mountain_modifier
-			}
-		}
-	}
-	on_invalid = {
-		custom_tooltip = ASU_estate_herding_rights_revoke_tooltip
-		hidden_effect = {
-			every_owned_province = {
-				limit = {
-					has_province_modifier = ASU_estate_tibet_mountain_modifier
-				}
-				remove_province_modifier = ASU_estate_tibet_mountain_modifier
-			}
-		}
+	can_revoke = {
 	}
 	penalties = {
 	}
 	benefits = {
+		development_cost = -0.1
 	}
 	ai_will_do = {
-		factor = 10
+		factor = 1000
 	}
 }
 
