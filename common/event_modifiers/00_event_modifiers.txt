@@ -12195,3 +12195,6 @@ ASU_rise_of_the_eastern_empire = {
 ASU_japanese_bank = {
 	interest = -0.25
 }
+ASU_bushido_code = {
+	discipline = 0.025
+}

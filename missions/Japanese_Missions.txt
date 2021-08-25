@@ -22,6 +22,10 @@ ASU_japan_branch_1 = {
 		}
 
 		effect = { 
+			country_event = {
+				id = ASU_japan_events.2
+				days = 1
+			}
 		}
 	}
 	
@@ -199,7 +203,7 @@ ASU_japan_branch_2 = {
 
 	ASU_japan_mission_12 = {
 		icon = default
-		required_missions = { }
+		required_missions = { ASU_japan_mission_25 }
 		position = 4
 		provinces_to_highlight = {
 			
@@ -244,7 +248,7 @@ ASU_japan_branch_2 = {
 
 	ASU_japan_mission_15 = {
 		icon = default
-		required_missions = { ASU_japan_mission_14 }
+		required_missions = { ASU_japan_mission_14 ASU_japan_mission_28 }
 		position = 8
 		provinces_to_highlight = {
 			
@@ -438,7 +442,7 @@ ASU_japan_branch_3 = {
 
 	ASU_japan_mission_27 = {
 		icon = default
-		required_missions = { ASU_japan_mission_26 }
+		required_missions = { ASU_japan_mission_13 ASU_japan_mission_26 }
 		position = 6
 		provinces_to_highlight = {
 			
@@ -1710,7 +1714,13 @@ ASU_japan_branch_8 = {
 			
 		}
 
-		trigger = { 
+		trigger = {
+			1030 = {
+				OR = {
+					has_building = workshop
+					has_building = counting_house
+				}
+			} 
 		}
 
 		effect = { 
@@ -1725,7 +1735,10 @@ ASU_japan_branch_8 = {
 			
 		}
 
-		trigger = { 
+		trigger = {
+			1030 = {
+				base_production = 10
+			} 
 		}
 
 		effect = { 
@@ -1741,6 +1754,7 @@ ASU_japan_branch_8 = {
 		}
 
 		trigger = { 
+			
 		}
 
 		effect = { 
@@ -2026,9 +2040,11 @@ ASU_japan_branch_9 = {
 		}
 
 		trigger = { 
+			has_country_modifier = "strengthened_bushido"
 		}
 
 		effect = { 
+			
 		}
 	}
 	
@@ -2041,6 +2057,7 @@ ASU_japan_branch_9 = {
 		}
 
 		trigger = { 
+			army_size = 30
 		}
 
 		effect = { 
@@ -2345,6 +2362,7 @@ ASU_japan_branch_10 = {
 		}
 
 		trigger = { 
+			war_with = ASK
 		}
 
 		effect = { 
@@ -2360,6 +2378,7 @@ ASU_japan_branch_10 = {
 		}
 
 		trigger = { 
+			controls = 1020
 		}
 
 		effect = { 

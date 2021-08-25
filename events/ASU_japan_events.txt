@@ -27,3 +27,20 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	id = ASU_japan_events.2
+	title = "ASU_japan_events.2.t"
+	desc = "ASU_japan_events.2.d"
+	picture = 
+	is_triggered_only = yes
+    trigger = {
+	}
+	option = {
+		name = "ASU_japan_events.2.a"
+		add_country_modifier = {
+				name = "ASU_bushido_code"
+				duration = 18250
+			}
+	}
+}
