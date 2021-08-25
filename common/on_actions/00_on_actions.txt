@@ -4179,6 +4179,27 @@ on_province_owner_change = {
 			duration = 7300
 		}
 	}
+
+	#ASU 
+
+	if = { #removes herding rights
+		limit = {
+			has_province_modifier = ASU_estate_herding_rights_modifier
+			FROM = { has_estate_privilege = estate_herding_rights }
+			NOT = { owner = { has_estate_privilege = estate_herding_rights } }
+		}
+		remove_province_modifier = ASU_estate_herding_rights_modifier
+	}
+	if = { #Adds herding rights
+		limit = {
+			NOT = { has_province_modifier = ASU_estate_herding_rights_modifier }
+			owner = { has_estate_privilege = estate_herding_rights } 
+		}
+		add_province_modifier = {
+			name = ASU_estate_herding_rights_modifier
+			duration = -1
+		}
+	}
 }
 
 # country

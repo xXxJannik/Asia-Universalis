@@ -69,49 +69,12 @@ estate_tribal_deal = {
 	influence = 0.1
 	loyalty = 0.05
 	is_valid = {
-		any_owned_province = {
-			has_province_modifier = ASU_estate_herding_rights_modifier
-		}
-	}
-	on_granted = {
-		custom_tooltip = ASU_estate_tribal_deal_tooltip
-		hidden_effect = {
-			every_owned_province = {
-				limit = {
-					has_province_modifier = ASU_estate_herding_rights_modifier
-				}
-				add_province_modifier = {
-					name = ASU_estate_tribal_deal_modifier
-					duration = -1
-				}
-			}
-		}
-	}
-	on_revoked = {
-		custom_tooltip = ASU_estate_tribal_deal_revoke_tooltip
-		hidden_effect = {
-			every_owned_province = {
-				limit = {
-					has_province_modifier = ASU_estate_tribal_deal_modifier
-				}
-				remove_province_modifier = ASU_estate_tribal_deal_modifier
-			}
-		}
-	}
-	on_invalid = {
-		custom_tooltip = ASU_estate_tribal_deal_revoke_tooltip
-		hidden_effect = {
-			every_owned_province = {
-				limit = {
-					has_province_modifier = ASU_estate_tribal_deal_modifier
-				}
-				remove_province_modifier = ASU_estate_tribal_deal_modifier
-			}
-		}
 	}
 	penalties = {
+		global_autonomy = 0.05
 	}
 	benefits = {
+		global_manpower_modifier = 0.1
 	}
 	ai_will_do = {
 		factor = 10
@@ -124,49 +87,14 @@ estate_tribal_production = {
 	influence = 0.1
 	loyalty = -0.05
 	is_valid = {
-		any_owned_province = {
-			has_province_modifier = ASU_estate_herding_rights_modifier
-		}
 	}
 	on_granted = {
-		custom_tooltip = ASU_estate_tribal_production_tooltip
-		hidden_effect = {
-			every_owned_province = {
-				limit = {
-					has_province_modifier = ASU_estate_herding_rights_modifier
-				}
-				add_province_modifier = {
-					name = ASU_estate_tribal_production_modifier
-					duration = -1
-				}
-			}
-		}
-	}
-	on_revoked = {
-		custom_tooltip = ASU_estate_tribal_production_revoke_tooltip
-		hidden_effect = {
-			every_owned_province = {
-				limit = {
-					has_province_modifier = ASU_estate_tribal_production_modifier
-				}
-				remove_province_modifier = ASU_estate_tribal_production_modifier
-			}
-		}
-	}
-	on_invalid = {
-		custom_tooltip = ASU_estate_tribal_production_revoke_tooltip
-		hidden_effect = {
-			every_owned_province = {
-				limit = {
-					has_province_modifier = ASU_estate_tribal_production_modifier
-				}
-				remove_province_modifier = ASU_estate_tribal_production_modifier
-			}
-		}
 	}
 	penalties = {
+		global_autonomy = 0.05
 	}
 	benefits = {
+		production_efficiency = 0.1
 	}
 	ai_will_do = {
 		factor = 10
@@ -180,7 +108,6 @@ estate_tribal_leader = {
 	loyalty = -0.05
 	land_share = 5
 	is_valid = {
-		has_dlc = "Mandate of Heaven"
 	}
 	penalties = {
 		global_tax_modifier = -0.1
