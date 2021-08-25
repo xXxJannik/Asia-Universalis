@@ -161,7 +161,7 @@ CYI_ideas = {
 QNG_ideas = {
 	start = {
 		shock_damage = 0.2
-		global_regiment_cost = -0.1
+		fire_damage_received = -0.1
 	}
 	
 	bonus = {
