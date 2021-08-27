@@ -1673,6 +1673,10 @@ strict_personality = {
 				factor = 1
 				MIL = 6
 			}
+			modifier = {
+				factor = 1
+				has_country_flag = ASU_warlord_tradtion_flag
+			}
 		}
 	}
 
@@ -1685,6 +1689,10 @@ strict_personality = {
 			modifier = {
 				factor = 1
 				heir_MIL = 6
+			}
+			modifier = {
+				factor = 1
+				has_country_flag = ASU_warlord_tradtion_flag
 			}
 		}
 	}

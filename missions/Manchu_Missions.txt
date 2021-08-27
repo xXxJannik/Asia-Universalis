@@ -1672,9 +1672,9 @@ ASU_manchu_branch_8 = {
 		effect = { 
            add_treasury = -2000 
 		   add_country_modifier = {
-			name = "ASU_reformed_production"
-			duration = -1
-		}
+				name = "ASU_reformed_production"
+				duration = -1
+			}
 		}
 	}
 

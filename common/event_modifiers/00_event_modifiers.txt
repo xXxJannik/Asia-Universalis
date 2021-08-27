@@ -12104,6 +12104,14 @@ ASU_reformed_army = {
 	manpower_recovery_speed = 0.05
 }
 
+ASU_nest_of_bees = {
+	artillery_cost = -0.2
+}
+
+ASU_eternal_war = {
+	army_tradition_from_battle = 0.25
+}
+
 ####################################
 ####################################
 ####################################
@@ -12171,6 +12179,26 @@ ASU_manchu_sons_of_the_steppes = {
 ASU_manchu_economic_reform = {
 	build_cost = -0.1
 	development_cost = -0.05
+}
+
+# Ming
+
+ASU_ming_reformation = {
+	siege_ability = 0.25
+	defensiveness = 0.25
+}
+
+ASU_ming_iron_supply = {
+	trade_goods_size = 0.5
+}
+
+ASU_ming_forbidden_city = {
+	local_defensiveness = 0.75
+	garrison_growth = 1
+}
+
+ASU_ming_control_over_bohai = {
+	province_trade_power_value = 25
 }
 
 # JAPAN

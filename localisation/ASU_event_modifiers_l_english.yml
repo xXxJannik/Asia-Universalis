@@ -10,6 +10,9 @@
  ASU_macau_modifier:0 "World Port of Macau"
  desc_ASU_macau_modifier:0 "The World Port of Macau is a hub for various merchants from across the world."
  ASU_estate_tibet_mountain_modifier:0 "Extreme condition living"
+
+ ASU_nest_of_bees:0 "Nest of Bees"
+ ASU_eternal_war:0 "The Eternal War"
  
  #Janissaries
  ASU_estate_janissaries_foreign_conscription:0 "Conscripted foreigners"
@@ -110,3 +113,9 @@
  ASU_japanese_century:0 "The Japanese Century"
  ASU_rise_of_the_eastern_empire:0 "Rise of the Eastern Empire"
  ASU_japanese_bank:0 "The Japanese Bank"
+
+ #Ming
+ ASU_ming_reformation:0 "The Ming Century"
+ ASU_ming_iron_supply:0 "Rich Iron Vein"
+ ASU_ming_forbidden_city:0 "The Forbidden City"
+ ASU_ming_control_over_bohai:0 "Bohai Checkpoint"

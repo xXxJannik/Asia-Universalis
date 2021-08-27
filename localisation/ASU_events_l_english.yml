@@ -28,6 +28,14 @@
  ASU_china_events.5.d:0 "We have succesfully transformed our army into a national and regular army. This will boost our military capacities."
  ASU_china_events.5.a:0 "What a jewel"
 
+ ASU_china_events.6.t:0 "Nest of Bees"
+ ASU_china_events.6.d:0 "The Nest of Bees shoots 32 arrows in one shot so it can kill many enemies at once. The Nest of Bees consisted of hexagonal tubes filled with dozens of rocket-tipped arrows (32). The tubes broaden towards the top to aid the dispersal of the arrows. It may not be the most accurate black powder weapon ever used but the fact that it is capable of firing off more than a dozen of arrows at the same time in all directions in front makes it an effective weapon"
+ ASU_china_events.6.a:0 "Light them up"
+
+ ASU_china_events.7.t:0 "The Eternal War"
+ ASU_china_events.7.d:0 "Infighting and Corruption has always plagued the Great Chinese Dynasties. It has full on escalated into a civil war, which will possibly never end with one Dynasty ruling over all."
+ ASU_china_events.7.a:0 "We shall rise!"
+
  #Mobilisation
 
  ASU_mob.1.t:0 "$COUNTRY$ mobilizes!"
@@ -215,5 +223,35 @@
  ASU_manchu_events.11.t:0 "Succesfull Reform"
  ASU_manchu_events.11.d:0 "The Reform has been a great succes! Our army has grown greatly and our taxes have increased."
  ASU_manchu_events.11.a:0 "A pleasure to hear"
+
+ #Ming
+ ASU_ming_events.1.t:0 "Regained Control of Shandong"
+ ASU_ming_events.1.d:0 "We have regained full control over the Shandon Region which is vital for our trade."
+ ASU_ming_events.1.a:0 "It belongs to us"
+
+ ASU_ming_events.2.t:0 "A new Capital?"
+ ASU_ming_events.2.d:0 "With the recent conquest of Weihai our advisors proposed the idea of moving our Capital to it, as Beijing is under constant threat of an barbaric invasion."
+ ASU_ming_events.2.a:0 "Weihai will do"
+ ASU_ming_events.2.b:0 "Beijing will stay"
+
+ ASU_ming_events.3.t:0 "Huang He Secured"
+ ASU_ming_events.3.d:0 "We managed to secure the Huang He Estuary. This allows us to put tarrifs on those who wish to travel in or out of China."
+ ASU_ming_events.3.a:0 "Another Victory for the Son of Heaven!"
+
+ ASU_ming_events.4.t:0 "Control over the Bohai Sea"
+ ASU_ming_events.4.d:0 "Our control over Dalian and Weihai allows us to grant or deny any ship access to the Bohai Sea which will prevent any pirates from harassing our ships."
+ ASU_ming_events.4.a:0 "Great!"
+
+ ASU_ming_events.5.t:0 "Iron Supply of China"
+ ASU_ming_events.5.d:0 "We found a large Vein of Iron in the Shanxi Mountains. This will help our Economy and Military greatly."
+ ASU_ming_events.5.a:0 "I prefer Gold"
+
+ ASU_ming_events.6.t:0 "The Phoenix Rises"
+ ASU_ming_events.6.d:0 "We managed to survive the great Chaos that plunged China into Civil War and regained lots of territory over the past decades. We will eventually rise back to full glory!"
+ ASU_ming_events.6.a:0 "Submit or die!"
+
+ ASU_ming_events.7.t:0 "The Forbidden City"
+ ASU_ming_events.7.d:0 "The Forbidden City was constructed from 1406 to 1420, and was the former Chinese imperial palace and winter residence of the Emperor of China from the Ming dynasty (since the Yongle Emperor) to the end of the Qing dynasty, between 1420 and 1924. The Forbidden City served as the home of Chinese emperors and their households and was the ceremonial and political center of the Chinese government for over 500 years."
+ ASU_ming_events.7.a:0 "Kneel before your Emperor!"
 
 

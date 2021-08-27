@@ -1,0 +1,174 @@
+namespace = ASU_ming_events
+
+country_event = { #Regained Control of Shandon
+	id = ASU_ming_events.1
+	title = "ASU_ming_events.1.t"
+	desc = "ASU_ming_events.1.d"
+	picture = REFORM_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "ASU_ming_events.1.a"
+        qingdao_area = {
+            add_base_taxation = 2
+            add_base_production = 2
+        }
+        weihai_area = {
+            add_base_taxation = 2
+            add_base_production = 2
+        }
+        ai_chance = {            # the AI does not take the event without
+			factor = 100
+		}
+	}
+}
+
+country_event = { #A new Capital
+	id = ASU_ming_events.2
+	title = "ASU_ming_events.2.t"
+	desc = "ASU_ming_events.2.d"
+	picture = REFORM_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "ASU_ming_events.2.a"
+        5016 = {
+            move_capital_effect = yes
+            change_trade_goods = gems
+        }
+        ai_chance = {            # the AI does not take the event without
+			factor = 100
+		}
+	}
+    option = {
+		name = "ASU_ming_events.2.b"
+        add_adm_power = 100
+	}
+}
+
+country_event = { #Huang He Secured
+	id = ASU_ming_events.3
+	title = "ASU_ming_events.3.t"
+	desc = "ASU_ming_events.3.d"
+	picture = REFORM_eventPicture
+	is_triggered_only = yes
+	option = {
+        name = "ASU_ming_events.3.a"
+        add_years_of_income = 1
+        5166 = {
+            center_of_trade = 2
+        }
+        ai_chance = {            # the AI does not take the event without
+			factor = 100
+		}
+	}
+}
+
+country_event = { #Control over Bohai
+	id = ASU_ming_events.4
+	title = "ASU_ming_events.4.t"
+	desc = "ASU_ming_events.4.d"
+	picture = REFORM_eventPicture
+	is_triggered_only = yes
+	option = {
+        name = "ASU_ming_events.4.a"
+        5016 = {
+            add_province_modifier = {
+                name = ASU_ming_control_over_bohai
+                duration = -1
+            }
+        }
+        ai_chance = {            # the AI does not take the event without
+			factor = 100
+		}
+	}
+}
+
+country_event = { #Iron Supply of China
+	id = ASU_ming_events.5
+	title = "ASU_ming_events.5.t"
+	desc = "ASU_ming_events.5.d"
+	picture = REFORM_eventPicture
+	is_triggered_only = yes
+	option = {
+        name = "ASU_ming_events.5.a"
+        5794 = {
+            add_province_modifier = {
+				name = ASU_ming_iron_supply
+				duration = -1
+			}
+        }
+		693 = {
+            add_province_modifier = {
+				name = ASU_ming_iron_supply
+				duration = -1
+			}
+        }
+		5790 = {
+            add_province_modifier = {
+				name = ASU_ming_iron_supply
+				duration = -1
+			}
+        }
+		694 = {
+            add_province_modifier = {
+				name = ASU_ming_iron_supply
+				duration = -1
+			}
+        }
+		5788 = {
+            add_province_modifier = {
+				name = ASU_ming_iron_supply
+				duration = -1
+			}
+        }
+		2178 = {
+            add_province_modifier = {
+				name = ASU_ming_iron_supply
+				duration = -1
+			}
+        }
+        ai_chance = {            # the AI does not take the event without
+			factor = 100
+		}
+	}
+}
+
+country_event = { #The Phoenix Rises
+	id = ASU_ming_events.6
+	title = "ASU_ming_events.6.t"
+	desc = "ASU_ming_events.6.d"
+	picture = REFORM_eventPicture
+	is_triggered_only = yes
+    major = yes
+	option = {
+        name = "ASU_ming_events.6.a"
+        add_prestige = 100
+        add_adm_power = 250
+        add_dip_power = 250
+        add_mil_power = 250
+        add_mandate_effect = yes
+        ai_chance = {            # the AI does not take the event without
+			factor = 100
+		}
+	}
+}
+
+country_event = { #The Forbidden City
+	id = ASU_ming_events.7
+	title = "ASU_ming_events.7.t"
+	desc = "ASU_ming_events.7.d"
+	picture = REFORM_eventPicture
+	is_triggered_only = yes
+	option = {
+        name = "ASU_ming_events.7.a"
+        add_prestige = 100
+        4958 = {
+            add_province_modifier = {
+				name = ASU_ming_forbidden_city
+				duration = -1
+			}
+        }
+        ai_chance = {            # the AI does not take the event without
+			factor = 100
+		}
+	}
+}

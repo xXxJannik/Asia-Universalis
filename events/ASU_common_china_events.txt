@@ -122,3 +122,40 @@ country_event = { #Army of a Nation
 		}
 	}
 }
+
+country_event = { #Nest of Bees
+	id = ASU_china_events.6
+	title = "ASU_china_events.6.t"
+	desc = "ASU_china_events.6.d"
+	picture = REFORM_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "ASU_china_events.6.a"
+		add_country_modifier = {
+			name = "ASU_nest_of_bees"
+			duration = -1
+		}
+        ai_chance = {            # the AI does not take the event without
+			factor = 100
+		}
+	}
+}
+
+country_event = { #The Eternal War
+	id = ASU_china_events.7
+	title = "ASU_china_events.7.t"
+	desc = "ASU_china_events.7.d"
+	picture = REFORM_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "ASU_china_events.7.a"
+		add_country_modifier = {
+			name = "ASU_eternal_war"
+			duration = -1
+		}
+		add_yearly_manpower = 2
+        ai_chance = {            # the AI does not take the event without
+			factor = 100
+		}
+	}
+}
