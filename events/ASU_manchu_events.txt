@@ -47,7 +47,7 @@ country_event = { #A strive to survive
 					NOT = { is_core = ROOT }
 					NOT = { is_claim = ROOT }
 				}
-			add_claim = ROOT 
+			add_permanent_claim = ROOT 
 		}
         ai_chance = {            # the AI does not take the event without
 			factor = 100
