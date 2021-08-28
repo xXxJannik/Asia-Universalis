@@ -358,7 +358,7 @@
  ASU_japan_mission_51_title:0 "Conquer Hokuriku"
  ASU_japan_mission_52_title:0 "Build a Fort in Kozuke"
  ASU_japan_mission_53_title:0 "Develop Fukushima"
- ASU_japan_mission_54_title:0 "Colonize the Kurils"
+ ASU_japan_mission_54_title:0 "The Kuril Colonization"
  ASU_japan_mission_55_title:0 "The Empire of Fuso"
  ASU_japan_mission_56_title:0 "A sizeable Income"
  ASU_japan_mission_57_title:0 "Have 100 Workshops"
@@ -450,6 +450,8 @@
  ASU_japan_mission_143_title:0 "Build Barracks in S. Kyushu"
  ASU_japan_mission_144_title:0 "Reformed Production"
  ASU_japan_mission_145_title:0 "Reformed Economy"
+ ASU_japan_mission_146_title:0 "Expand the Colonization"
+ ASU_japan_mission_147_title:0 "Finish the Colonization"
 
  ASU_japan_mission_1_desc:0 ""
  ASU_japan_mission_2_desc:0 ""
