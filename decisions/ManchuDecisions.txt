@@ -123,9 +123,7 @@ country_decisions = {
 				}
 			}
 			custom_tooltip = manchu_culture_tt
-			730 = {
-				move_capital_effect = yes
-			}
+			set_capital = 726
 			manchuria_region = {
 				limit = {
 					NOT = { is_core = ROOT }
