@@ -9,11 +9,11 @@ country_event = { #Regained Control of Shandon
 	option = {
 		name = "ASU_ming_events.1.a"
         qingdao_area = {
-            add_base_taxation = 2
+            add_base_tax  = 2
             add_base_production = 2
         }
         weihai_area = {
-            add_base_taxation = 2
+            add_base_tax  = 2
             add_base_production = 2
         }
         ai_chance = {            # the AI does not take the event without
@@ -31,9 +31,9 @@ country_event = { #A new Capital
 	option = {
 		name = "ASU_ming_events.2.a"
         5016 = {
-            move_capital_effect = yes
             change_trade_goods = gems
         }
+		set_capital = 5016
         ai_chance = {            # the AI does not take the event without
 			factor = 100
 		}
