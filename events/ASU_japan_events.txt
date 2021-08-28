@@ -34,8 +34,6 @@ country_event = {
 	desc = "ASU_japan_events.2.d"
 	picture = 
 	is_triggered_only = yes
-    trigger = {
-	}
 	option = {
 		name = "ASU_japan_events.2.a"
 		add_country_modifier = {
