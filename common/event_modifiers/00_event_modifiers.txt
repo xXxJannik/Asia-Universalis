@@ -12226,3 +12226,6 @@ ASU_japanese_bank = {
 ASU_bushido_code = {
 	discipline = 0.025
 }
+ASU_japan_capital = {
+	local_development_cost = -0.1
+}

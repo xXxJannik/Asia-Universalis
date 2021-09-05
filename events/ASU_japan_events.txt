@@ -32,13 +32,46 @@ country_event = {
 	id = ASU_japan_events.2
 	title = "ASU_japan_events.2.t"
 	desc = "ASU_japan_events.2.d"
-	picture = 
 	is_triggered_only = yes
 	option = {
 		name = "ASU_japan_events.2.a"
-		add_country_modifier = {
-				name = "ASU_bushido_code"
-				duration = 18250
+		set_capital = 1020
+		1020 = {
+			add_province_modifier = {
+				name = ASU_japan_capital
+				duration = -1
 			}
+		}
+        ai_chance = {            # the AI does not take the event without
+			factor = ^10
+		}
+	}
+	option = {
+		name = "ASU_japan_events.2.b"
+		set_capital = 1030
+		1030 = {
+			add_province_modifier = {
+				name = ASU_japan_capital
+				duration = -1
+			}
+		}
+        ai_chance = {            # the AI does not take the event without
+			factor = 10
+		}
+	}
+	option = {
+		name = "ASU_japan_events.2.c"
+		set_capital = 5088
+		5088 = {
+			add_province_modifier = {
+				name = ASU_japan_capital
+				duration = -1
+			}
+		}
+        ai_chance = {            # the AI does not take the event without
+			factor = 100
+		}
 	}
 }
+
+

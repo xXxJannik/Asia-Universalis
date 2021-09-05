@@ -7,6 +7,12 @@
  ASU_japan_events.1.d:0 "[Root.Monarch.GetName] inherited the Throne from [Root.Monarch.GetHerHis] predecessor.[Root.Monarch.GetSheHeCap] has shown signs of greatness since [Root.Monarch.GetHerHis] childhood."
  ASU_japan_events.1.a:0 "May [Root.Monarch.GetSheHe] live long!"
 
+ ASU_japan_events.2.t:0 "The new Imperial Capital"
+ ASU_japan_events.2.d:0 "Since we have unified the Japanese People under our Banner it is time to choose the final location of the Imperial Capital."
+ ASU_japan_events.2.a:0 "The Old Imperial Capital is the best choice."
+ ASU_japan_events.2.b:0 "We cannot abondon our Roots."
+ ASU_japan_events.2.c:0 "A new City in the East it shall be."
+
  #China - for everyone
  ASU_china_events.1.t:0 "A new Royal Dynasty"
  ASU_china_events.1.d:0 "[Root.Monarch.GetName] has started a new royal Dynasty. [Root.Monarch.GetSheHeCap] is the first person of [Root.Monarch.GetHerHis] that is worthy of claiming a royal bloodline!"

@@ -16,7 +16,7 @@ country_decisions = {
 		provinces_to_highlight = {
 			OR = {
 				province_id = 1020
-				province_id = 1028
+				province_id = 5088
 			}
 			NOT = { owned_by = ROOT }
 		}
@@ -28,7 +28,7 @@ country_decisions = {
 			is_at_war = no
 			num_of_cities = 25
 			owns = 1020
-			owns = 1028
+			owns = 5088
 		}
 		effect = {
 			remove_government_reform = shogunate
@@ -81,7 +81,7 @@ country_decisions = {
 			is_free_or_tributary_trigger = yes
 			is_emperor_of_china = no
 			owns = 1020
-			owns = 1028
+			owns = 5088
 			all_country = {
 				NOT = {
 					has_reform = daimyo
@@ -127,7 +127,7 @@ country_decisions = {
 		provinces_to_highlight = {
 			OR = {
 				province_id = 1020
-				province_id = 1028
+				province_id = 5088
 			}
 			NOT = { owned_by = ROOT }
 		}
@@ -136,7 +136,7 @@ country_decisions = {
 			is_free_or_tributary_trigger = yes
 			is_emperor_of_china = no
 			owns = 1020
-			owns = 1028
+			owns = 5088
 			all_country = {
 				OR = {
 					tag = ROOT
