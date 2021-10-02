@@ -58,6 +58,10 @@
  GREAT_YI_ADJ:0 "Great Yi"
  GREAT_YI_ADJ2:0 "Great Yi"
 
+ PARADIS_name:0 "Paradis"
+ PARADIS_name_ADJ:0 "Paradis"
+ PARADIS_name_ADJ2:0 "Paradis"
+
  declare_great_ming_title:0 "Start a legendary bloodline"
  declare_great_ming_desc:0 "We have risen beyond our expectations, we survived many threats and problems. We truly have legendary blood."
 

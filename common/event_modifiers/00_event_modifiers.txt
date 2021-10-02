@@ -12201,6 +12201,35 @@ ASU_ming_control_over_bohai = {
 	province_trade_power_value = 25
 }
 
+# Australia 
+
+ASU_australia_world_of_enemies = {
+	technology_cost = -0.1
+	idea_cost = -0.1
+}
+
+ASU_australia_paradis_devils = {
+	infantry_power = 0.2
+}
+
+ASU_australia_paradis_victorious = {
+	diplomatic_reputation = -3
+	land_morale = 0.2
+}
+
+ASU_australia_vulcan = {
+	local_development_cost = -0.5
+}
+
+ASU_australia_last_resort = {
+	land_morale = 0.25
+	infantry_shock = 0.5
+}
+
+ASU_australia_desert_paradis = {
+	trade_goods_size_modifier = 0.5
+}
+
 # JAPAN
 
 ASU_sengoku_jidai = {

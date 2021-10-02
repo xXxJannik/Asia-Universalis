@@ -1,0 +1,121 @@
+namespace = ASU_australia_events
+
+country_event = { #A World of Enemies
+	id = ASU_australia_events.1
+	title = "ASU_australia_events.1.t"
+	desc = "ASU_australia_events.1.d"
+	picture = REFORM_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "ASU_australia_events.1.a"
+        add_country_modifier = {
+			name = "ASU_australia_world_of_enemies"
+			duration = -1
+		}
+        ai_chance = {            # the AI does not take the event without
+			factor = 100
+		}
+	}
+}
+
+country_event = { #Paradis Devils
+	id = ASU_australia_events.2
+	title = "ASU_australia_events.2.t"
+	desc = "ASU_australia_events.2.d"
+	picture = REFORM_eventPicture
+	is_triggered_only = yes
+    major = yes  #Notification for everyone
+	option = {
+		name = "ASU_australia_events.2.a"
+        add_country_modifier = {
+			name = "ASU_australia_paradis_devils"
+			duration = -1
+		}
+        ai_chance = {            # the AI does not take the event without
+			factor = 100
+		}
+	}
+}
+
+country_event = { #Paradis Victorious
+	id = ASU_australia_events.3
+	title = "ASU_australia_events.3.t"
+	desc = "ASU_australia_events.3.d"
+	picture = REFORM_eventPicture
+	is_triggered_only = yes
+    major = yes  #Notification for everyone
+	option = {
+		name = "ASU_australia_events.3.a"
+        add_country_modifier = {
+			name = "ASU_australia_paradis_victorious"
+			duration = -1
+		}
+        override_country_name = PARADIS_name
+        ai_chance = {            # the AI does not take the event without
+			factor = 100
+		}
+	}
+}
+
+country_event = { #Vulcan Outbreak
+	id = ASU_australia_events.4
+	title = "ASU_australia_events.4.t"
+	desc = "ASU_australia_events.4.d"
+	picture = REFORM_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "ASU_australia_events.4.a"
+        add_years_of_income = -1
+        5863 = {
+			add_province_modifier = {
+				name = ASU_australia_vulcan
+				duration = -1
+			}
+		}
+        ai_chance = {            # the AI does not take the event without
+			factor = 100
+		}
+	}
+}
+
+country_event = { #Last Resort
+	id = ASU_australia_events.5
+	title = "ASU_australia_events.5.t"
+	desc = "ASU_australia_events.5.d"
+	picture = REFORM_eventPicture
+	is_triggered_only = yes
+    major = yes  #Notification for everyone
+	option = {
+		name = "ASU_australia_events.5.a"
+        add_country_modifier = {
+			name = "ASU_australia_last_resort"
+			duration = 4745 #13 Years
+		}
+        ai_chance = {            # the AI does not take the event without
+			factor = 100
+		}
+	}
+}
+
+country_event = { #Desert Paradis
+	id = ASU_australia_events.6
+	title = "ASU_australia_events.6.t"
+	desc = "ASU_australia_events.6.d"
+	picture = REFORM_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "ASU_australia_events.6.a"
+        5863 = {
+			add_province_modifier = {
+				name = ASU_australia_desert_paradis
+				duration = -1
+			}
+		}
+        5863 = {
+			change_trade_goods = gems
+		}
+        ai_chance = {            # the AI does not take the event without
+			factor = 100
+		}
+	}
+}

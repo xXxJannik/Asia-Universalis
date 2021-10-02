@@ -1,0 +1,884 @@
+ASU_australia_branch_1 = {
+    slot = 1
+    generic = no
+    ai = no
+    potential = {
+        tag = CAU
+    }
+    has_country_shield = yes
+
+    ASU_australia_mission_1 = {
+        icon = default
+		required_missions = {  }
+		position = 2
+
+		provinces_to_highlight = {
+			province_id = 2722
+		}
+
+		trigger = { 
+			2722 = { 
+                owned_by = ROOT
+            }
+		}
+
+		effect = { 
+			add_adm_power = 50
+		}
+    }
+    ASU_australia_mission_2 = {
+        icon = default
+		required_missions = { ASU_australia_mission_1 }
+		position = 3
+
+		provinces_to_highlight = {
+			area = vogelkop_area
+
+            NOT = { owned_by = ROOT }
+		}
+
+		trigger = { 
+			vogelkop_area = {
+                type = all
+                owned_by = ROOT
+            }
+		}
+
+		effect = { 
+			add_years_of_income = 0.2
+		}
+    }
+    ASU_australia_mission_3 = {
+        icon = default
+		required_missions = { ASU_australia_mission_2 }
+		position = 4
+
+		provinces_to_highlight = {
+			area = molluca_area
+            
+            NOT = { owned_by = ROOT }
+		}
+
+		trigger = { 
+			molluca_area = {
+                type = all
+                owned_by = ROOT
+            }
+		}
+
+		effect = { 
+			add_adm_power = 100
+		}
+    }
+    ASU_australia_mission_4 = {
+        icon = default
+		required_missions = { ASU_australia_mission_3 }
+		position = 5
+
+		provinces_to_highlight = {
+			OR = {
+                area = sulawesi_area
+                area = south_sulawesi_area
+                area = makassar_area
+            }
+
+            NOT = { owned_by = ROOT }
+		}
+
+		trigger = { 
+			sulawesi_area = {
+                type = all
+                owned_by = ROOT
+            }
+            south_sulawesi_area = {
+                type = all
+                owned_by = ROOT
+            }
+            makassar_area = {
+                type = all
+                owned_by = ROOT
+            }
+		}
+
+		effect = { 
+			add_adm_power = 50
+            add_dip_power = 50
+            add_mil_power = 50
+		}
+    }
+} #Ende Branch 1
+
+ASU_australia_branch_2 = {
+    slot = 2
+    generic = no
+    ai = no
+    potential = {
+        tag = CAU
+    }
+    has_country_shield = yes
+
+    ASU_australia_mission_5 = {
+        icon = default
+		required_missions = { ASU_australia_mission_1 }
+		position = 3
+
+		provinces_to_highlight = {
+			area = papua_area
+
+            NOT = { owned_by = ROOT }
+		}
+
+		trigger = { 
+			papua_area = {
+                type = all
+                owned_by = ROOT
+            }
+		}
+
+		effect = { 
+			add_adm_power = 50
+		}
+    }
+    ASU_australia_mission_6 = {
+        icon = default
+		required_missions = { ASU_australia_mission_2 }
+		position = 4
+
+		provinces_to_highlight = {
+			area = timor_area
+		}
+
+		trigger = { 
+			timor_area = {
+                type = all
+                owned_by = ROOT
+            }
+		}
+
+		effect = { 
+			add_adm_power = 50
+		}
+    }
+    ASU_australia_mission_7 = {
+        icon = default
+		required_missions = { ASU_australia_mission_4 }
+		position = 6
+
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+			land_forcelimit = 200
+            naval_forcelimit = 200
+		}
+
+		effect = { 
+			country_event = { #A World of Enemies
+                id = ASU_australia_events.1
+            }
+		}
+    }
+} #Ende Branch 2
+
+ASU_australia_branch_3 = {
+    slot = 3
+    generic = no
+    ai = no
+    potential = {
+        tag = CAU
+    }
+    has_country_shield = yes
+
+    ASU_australia_mission_8 = {
+        icon = default
+		required_missions = { ASU_australia_mission_11 }
+		position = 5
+
+		provinces_to_highlight = {
+			area = western_australia_area
+
+            NOT = { owned_by = ROOT }
+		}
+
+		trigger = { 
+			western_australia_area = {
+                type = all
+                owned_by = ROOT
+            }
+		}
+
+		effect = { 
+			add_adm_power = 50
+		}
+    }
+    ASU_australia_mission_9 = {
+        icon = default
+		required_missions = { ASU_australia_mission_8 }
+		position = 5
+
+		provinces_to_highlight = {
+			area = eucla_area
+
+            NOT = { owned_by = ROOT }
+		}
+
+		trigger = { 
+			eucla_area = {
+                type = all
+                owned_by = ROOT
+            }
+		}
+
+		effect = { 
+			add_adm_power = 50
+		}
+    }
+} #Ende Branch 3
+
+ASU_australia_branch_4 = {
+    slot = 4
+    generic = no
+    ai = no
+    potential = {
+        tag = CAU
+    }
+    has_country_shield = yes
+
+    ASU_australia_mission_10 = {
+        icon = default
+		required_missions = { ASU_australia_mission_15 }
+		position = 3
+
+		provinces_to_highlight = {
+			area = top_end_area
+
+            NOT = { owned_by = ROOT }
+		}
+
+		trigger = { 
+			top_end_area = {
+                type = all
+                owned_by = ROOT
+            }
+		}
+
+		effect = { 
+			add_adm_power = 50
+		}
+    }
+    ASU_australia_mission_11 = {
+        icon = default
+		required_missions = { ASU_australia_mission_10 }
+		position = 4
+
+		provinces_to_highlight = {
+			area = pilbara_area
+
+            NOT = { owned_by = ROOT }
+		}
+
+		trigger = { 
+			pilbara_area = {
+                type = all
+                owned_by = ROOT
+            }
+		}
+
+		effect = { 
+			add_adm_power = 50
+		}
+    }
+    ASU_australia_mission_12 = {
+        icon = default
+		required_missions = { ASU_australia_mission_18 }
+		position = 6
+
+		provinces_to_highlight = {
+			province_id = 5863
+		}
+
+		trigger = { 
+			5863 = {
+                owned_by = ROOT
+                development = 20
+            }
+		}
+
+		effect = { 
+			add_years_of_income = 0.5
+		}
+    }
+    ASU_australia_mission_13 = {
+        icon = default
+		required_missions = { ASU_australia_mission_12 }
+		position = 7
+
+		provinces_to_highlight = {
+			province_id = 5863
+		}
+
+		trigger = { 
+			5863 = {
+                owned_by = ROOT
+                development = 30
+            }
+		}
+
+		effect = { 
+			add_years_of_income = 1
+		}
+    }
+} #Ende Branch 4
+
+ASU_australia_branch_5 = {
+    slot = 5
+    generic = no
+    ai = no
+    potential = {
+        tag = CAU
+    }
+    has_country_shield = yes
+
+    ASU_australia_mission_14 = {
+        icon = default
+		required_missions = {  }
+		position = 1
+
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+			stability = 2
+		}
+
+		effect = { 
+			add_adm_power = 200
+            add_dip_power = 200
+            add_mil_power = 200
+		}
+    }
+    ASU_australia_mission_15 = {
+        icon = default
+		required_missions = { ASU_australia_mission_14 }
+		position = 2
+
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+			num_of_colonists = 2
+		}
+
+		effect = { 
+			add_adm_power = 250
+		}
+    }
+    ASU_australia_mission_16 = {
+        icon = default
+		required_missions = { ASU_australia_mission_15 }
+		position = 3
+
+		provinces_to_highlight = {
+			area = jundah_area
+
+            NOT = { owned_by = ROOT }
+		}
+
+		trigger = { 
+			jundah_area = {
+                type = all
+                owned_by = ROOT
+            }
+		}
+
+		effect = { 
+			add_adm_power = 50
+		}
+    }
+    ASU_australia_mission_17 = {
+        icon = default
+		required_missions = { ASU_australia_mission_16 }
+		position = 4
+
+		provinces_to_highlight = {
+			area = umaroona_area
+
+            NOT = { owned_by = ROOT }
+		}
+
+		trigger = { 
+			umaroona_area = {
+                type = all
+                owned_by = ROOT
+            }
+		}
+
+		effect = { 
+			add_adm_power = 50
+		}
+    }
+    ASU_australia_mission_18 = {
+        icon = default
+		required_missions = { ASU_australia_mission_17 }
+		position = 5
+
+		provinces_to_highlight = {
+			province_id = 5863
+		}
+
+		trigger = { 
+			5863 = {
+                owned_by = ROOT
+                development = 10
+            }
+		}
+
+		effect = { 
+			country_event = { #Desert Paradis Event
+                id = ASU_australia_events.6
+            }
+            hidden_effect = { #Vulkan Event
+                country_event = {
+                    id = ASU_australia_events.4
+                }
+            }
+		}
+    }
+    ASU_australia_mission_19 = {
+        icon = default
+		required_missions = { ASU_australia_mission_18 }
+		position = 6
+
+		provinces_to_highlight = {
+			province_id = 5863
+		}
+
+		trigger = { 
+			capital = 5863
+            5863 = {
+                owned_by = ROOT
+            }
+		}
+
+		effect = { 
+			add_adm_power = 100
+            add_dip_power = 100
+            add_mil_power = 100
+		}
+    }
+    ASU_australia_mission_20 = {
+        icon = default
+		required_missions = { ASU_australia_mission_19 }
+		position = 7
+
+		provinces_to_highlight = {
+			OR = {
+                province_id = 5871
+                province_id = 5861
+                province_id = 5863
+            }
+		}
+
+		trigger = { 
+			5871 = {
+                OR = {
+                    has_building = fort_15th
+                    has_building = fort_16th
+                    has_building = fort_17th
+                    has_building = fort_18th
+                }
+            }
+            5861 = {
+                OR = {
+                    has_building = fort_15th
+                    has_building = fort_16th
+                    has_building = fort_17th
+                    has_building = fort_18th
+                }
+            }
+            5863 = {
+                OR = {
+                    has_building = fort_15th
+                    has_building = fort_16th
+                    has_building = fort_17th
+                    has_building = fort_18th
+                }
+            }
+		}
+
+		effect = { 
+			add_years_of_income = 2
+            add_mil_power = 100
+		}
+    }
+} #Ende Branch 5
+
+ASU_australia_branch_6 = {
+    slot = 6
+    generic = no
+    ai = no
+    potential = {
+        tag = CAU
+    }
+    has_country_shield = yes
+
+    ASU_australia_mission_21 = {
+        icon = default
+		required_missions = { ASU_australia_mission_15 }
+		position = 3
+
+		provinces_to_highlight = {
+			area = north_queensland_area
+
+            NOT = { owned_by = ROOT }
+		}
+
+		trigger = { 
+			north_queensland_area = {
+                type = all
+                owned_by = ROOT
+            }
+		}
+
+		effect = { 
+			add_adm_power = 50
+		}
+    }
+    ASU_australia_mission_22 = {
+        icon = default
+		required_missions = { ASU_australia_mission_21 }
+		position = 4
+
+		provinces_to_highlight = {
+			area = south_queensland_area
+
+            NOT = { owned_by = ROOT }
+		}
+
+		trigger = { 
+			south_queensland_area = {
+                type = all
+                owned_by = ROOT
+            }
+		}
+
+		effect = { 
+			add_adm_power = 50
+		}
+    }
+    ASU_australia_mission_23 = {
+        icon = default
+		required_missions = { ASU_australia_mission_22 }
+		position = 5
+
+		provinces_to_highlight = {
+			area = eastern_australia_area
+
+            NOT = { owned_by = ROOT }
+		}
+
+		trigger = { 
+			eastern_australia_area = {
+                type = all
+                owned_by = ROOT
+            }
+		}
+
+		effect = { 
+			add_adm_power = 50
+		}
+    }
+    ASU_australia_mission_24 = {
+        icon = default
+		required_missions = { ASU_australia_mission_23 }
+		position = 6
+
+		provinces_to_highlight = {
+			OR = {
+                area = illawara_area
+                area = southern_australia_area
+                area = mungo_area
+                area = murray_river_area
+            }
+
+            NOT = { owned_by = ROOT }
+		}
+
+		trigger = { 
+			illawara_area = {
+                type = all
+                owned_by = ROOT
+            }
+            southern_australia_area = {
+                type = all
+                owned_by = ROOT
+            }
+            mungo_area = {
+                type = all
+                owned_by = ROOT
+            }
+            murray_river_area = {
+                type = all
+                owned_by = ROOT
+            }
+		}
+
+		effect = { 
+			add_adm_power = 200
+		}
+    }
+} #Ende Branch 6
+
+ASU_australia_branch_7 = {
+    slot = 7
+    generic = no
+    ai = no
+    potential = {
+        tag = CAU
+    }
+    has_country_shield = yes
+
+    ASU_australia_mission_25 = {
+        icon = default
+		required_missions = { ASU_australia_mission_23 }
+		position = 6
+
+		provinces_to_highlight = {
+			OR = {
+                province_id = 1246
+                province_id = 1109
+            }
+		}
+
+		trigger = { 
+			OR = {
+                1246 = {
+                    owned_by = ROOT
+                }
+                1109 = {
+                    owned_by = ROOT
+                }
+            }
+		}
+
+		effect = { 
+			te_waipounamu_area = {
+                add_permanent_claim = ROOT
+            }
+            te_ika_a_maui_waho_area = {
+                add_permanent_claim = ROOT
+            }
+            te_ika_a_maui_hauauru_area = {
+                add_permanent_claim = ROOT
+            }
+		}
+    }
+    ASU_australia_mission_26 = {
+        icon = default
+		required_missions = { ASU_australia_mission_25 }
+		position = 7
+
+		provinces_to_highlight = {
+			OR = {
+                area = te_waipounamu_area
+                area = te_ika_a_maui_waho_area
+                area = te_ika_a_maui_hauauru_area
+            }
+
+            NOT = { owned_by = ROOT }
+		}
+
+		trigger = { 
+			te_waipounamu_area = {
+                type = all
+                owned_by = ROOT
+            }
+            te_ika_a_maui_waho_area = {
+                type = all
+                owned_by = ROOT
+            }
+            te_ika_a_maui_hauauru_area = {
+                type = all
+                owned_by = ROOT
+            }
+		}
+
+		effect = { 
+			add_adm_power = 100
+            add_dip_power = 100
+            add_mil_power = 100
+		}
+    }
+} #Ende Branch 7
+
+ASU_australia_branch_8 = {
+    slot = 8
+    generic = no
+    ai = no
+    potential = {
+        tag = CAU
+    }
+    has_country_shield = yes
+
+    ASU_australia_mission_27 = {
+        icon = default
+		required_missions = {  }
+		position = 2
+
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+			OR = {
+                defensive_war_with = YUE
+                defensive_war_with = WUU
+                defensive_war_with = MNG
+                defensive_war_with = CSH
+                defensive_war_with = CYI
+            }
+		}
+
+		effect = { 
+			country_event = { #Paradis Devils
+                id = ASU_australia_events.2
+            }
+		}
+    }
+    ASU_australia_mission_28 = {
+        icon = default
+		required_missions = { ASU_australia_mission_27 }
+		position = 3
+
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+			OR = {
+                has_won_war_against = {
+                    who = YUE
+                    max_years_since = 2
+                }
+                has_won_war_against = {
+                    who = WUU
+                    max_years_since = 2
+                }
+                has_won_war_against = {
+                    who = MNG
+                    max_years_since = 2
+                }
+                has_won_war_against = {
+                    who = CSH
+                    max_years_since = 2
+                }
+                has_won_war_against = {
+                    who = CYI
+                    max_years_since = 2
+                }
+            }
+		}
+
+		effect = { 
+			country_event = { #Paradis Victorious
+                id = ASU_australia_events.3
+            }
+		}
+    }
+} #Ende Branch 8
+
+ASU_australia_branch_9 = {
+    slot = 9
+    generic = no
+    ai = no
+    potential = {
+        tag = CAU
+    }
+    has_country_shield = yes
+} #Ende Branch 9
+
+ASU_australia_branch_10 = {
+    slot = 10
+    generic = no
+    ai = no
+    potential = {
+        tag = CAU
+    }
+    has_country_shield = yes
+
+    ASU_australia_mission_29 = {
+        icon = default
+		required_missions = {  }
+		position = 2
+
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+			OR = {
+                defensive_war_with = YUE
+                defensive_war_with = WUU
+                defensive_war_with = MNG
+                defensive_war_with = CSH
+                defensive_war_with = CYI
+            }
+            capital = 5863
+            NOT = {
+                controls = 5863
+            }
+            5863 = {
+                NOT = {
+                    controlled_by = REB
+                }
+            }
+		}
+
+		effect = { 
+			country_event = { #Last Resort
+                id = ASU_australia_events.5
+            }
+		}
+    }
+    ASU_australia_mission_30 = {
+        icon = default
+		required_missions = { ASU_australia_mission_29 }
+		position = 3
+
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+            OR = {
+                has_won_war_against = {
+                    who = YUE
+                    max_years_since = 2
+                }
+                has_won_war_against = {
+                    who = WUU
+                    max_years_since = 2
+                }
+                has_won_war_against = {
+                    who = MNG
+                    max_years_since = 2
+                }
+                has_won_war_against = {
+                    who = CSH
+                    max_years_since = 2
+                }
+                has_won_war_against = {
+                    who = CYI
+                    max_years_since = 2
+                }
+            }
+		}
+
+		effect = { 
+			add_mil_power = 250
+		}
+    }
+} #Ende Branch 10
