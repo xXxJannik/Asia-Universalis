@@ -378,7 +378,7 @@ categories =  {
 		movement_cost = 1.5
 		defence = 2
 		local_defensiveness = 0.25
-		local_development_cost = 0.35
+		local_development_cost = 0.25
 		nation_designer_cost_multiplier = 0.75
 		supply_limit = 4
 		
