@@ -119,3 +119,21 @@ country_event = { #Desert Paradis
 		}
 	}
 }
+
+country_event = { #Harbors of Paradis
+	id = ASU_australia_events.7
+	title = "ASU_australia_events.7.t"
+	desc = "ASU_australia_events.7.d"
+	picture = REFORM_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "ASU_australia_events.7.a"
+        add_country_modifier = {
+			name = ASU_australia_harbors_of_paradis
+			duration = -1
+		}
+        ai_chance = {            # the AI does not take the event without
+			factor = 100
+		}
+	}
+}

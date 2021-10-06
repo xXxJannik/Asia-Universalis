@@ -12230,6 +12230,10 @@ ASU_australia_desert_paradis = {
 	trade_goods_size_modifier = 0.5
 }
 
+ASU_australia_harbors_of_paradis = {
+	global_ship_recruit_speed = -0.2
+}
+
 # JAPAN
 
 ASU_sengoku_jidai = {

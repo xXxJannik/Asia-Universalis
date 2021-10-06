@@ -798,6 +798,73 @@ ASU_australia_branch_9 = {
         tag = CAU
     }
     has_country_shield = yes
+
+    ASU_australia_mission_31 = {
+        icon = default
+		required_missions = {  }
+		position = 3
+
+		provinces_to_highlight = {
+			area = eucla_area
+		}
+
+		trigger = { 
+            eucla_area = {
+                type = all 
+                owned_by = ROOT
+                development = 20
+            }
+		}
+
+		effect = { 
+			add_years_of_income = 0.5
+		}
+    }
+    ASU_australia_mission_32 = {
+        icon = default
+		required_missions = { ASU_australia_mission_31 }
+		position = 4
+
+		provinces_to_highlight = {
+			area = western_australia_area
+		}
+
+		trigger = { 
+            western_australia_area = {
+                type = all 
+                owned_by = ROOT
+                development = 20
+            }
+		}
+
+		effect = { 
+			add_years_of_income = 0.5
+		}
+    }
+    ASU_australia_mission_33 = {
+        icon = default
+		required_missions = { ASU_australia_mission_32 }
+		position = 5
+
+		provinces_to_highlight = {
+			area = pilbara_area
+		}
+
+		trigger = { 
+            pilbara_area = {
+                type = all 
+                owned_by = ROOT
+                development = 20
+            }
+		}
+
+		effect = { 
+			add_years_of_income = 0.5
+            country_event = { #Harbors of Paradis
+                id = ASU_australia_events.7
+            }
+		}
+    }
 } #Ende Branch 9
 
 ASU_australia_branch_10 = {

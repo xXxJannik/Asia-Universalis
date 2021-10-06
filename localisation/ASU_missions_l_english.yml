@@ -758,6 +758,9 @@
  ASU_australia_mission_28_title:0 "Paradis Victorious"
  ASU_australia_mission_29_title:0 "War on Paradis"
  ASU_australia_mission_30_title:0 "Defeat the Chinese"
+ ASU_australia_mission_31_title:0 "Expand Eucla Harbors"
+ ASU_australia_mission_32_title:0 "Expand Perth Harbors"
+ ASU_australia_mission_33_title:0 "Expand Pilbara Harbors"
 
  ASU_australia_mission_1_desc:0 ""
  ASU_australia_mission_2_desc:0 ""
@@ -789,4 +792,7 @@
  ASU_australia_mission_28_desc:0 ""
  ASU_australia_mission_29_desc:0 ""
  ASU_australia_mission_30_desc:0 ""
+ ASU_australia_mission_31_desc:0 ""
+ ASU_australia_mission_32_desc:0 ""
+ ASU_australia_mission_33_desc:0 ""
 
