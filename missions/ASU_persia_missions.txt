@@ -1,0 +1,981 @@
+ASU_per_branch_1 = { 
+	slot = 1
+	generic = no
+	ai = no
+	potential = {
+		OR = {
+            tag = FRS
+            tag = PER
+        }
+	}
+	has_country_shield = yes
+
+	ASU_per_mission_1 = {
+		icon = default
+		required_missions = {  }
+		position = 1
+
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+			is_great_power = yes
+            total_development = 1000
+		}
+
+		effect = { 
+			country_event = { #Leader of the Muslim World
+                id = ASU_persia_events.1
+            }
+		}
+	}
+    ASU_per_mission_2 = {
+		icon = default
+		required_missions = {  }
+		position = 2
+
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+			OR = {
+                full_idea_group = islam0
+                full_idea_group = shia0
+            }
+		}
+
+		effect = { 
+			country_event = { #Pierce The Heavens
+                id = ASU_persia_events.2
+            }
+		}
+	}
+} #Ende Branch 1
+
+ASU_per_branch_2 = {
+    slot = 2
+	generic = no
+	ai = no
+	potential = {
+		OR = {
+            tag = FRS
+            tag = PER
+        }
+	}
+	has_country_shield = yes
+
+    ASU_per_mission_3 = {
+		icon = default
+		required_missions = { ASU_per_mission_2 }
+		position = 3
+
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+			num_of_owned_provinces_with = {
+                value = 20
+                religion = orthodox
+            }
+            janissary_percentage = 0.2
+		}
+
+		effect = { 
+			country_event = { #Divine Will
+                id = ASU_persia_events.3
+            }
+		}
+	}
+
+    ASU_per_mission_4 = {
+		icon = default
+		required_missions = { ASU_per_mission_7 }
+		position = 6
+
+		provinces_to_highlight = {
+			area = bahrain_area
+		}
+
+		trigger = { 
+			bahrain_area = {
+                type = all
+                owned_by = ROOT
+            }
+		}
+
+		effect = { 
+			add_years_of_income = 0.25
+		}
+	}
+    ASU_per_mission_5 = {
+		icon = default
+		required_missions = { ASU_per_mission_4 }
+		position = 7
+
+		provinces_to_highlight = {
+			OR = {
+                province_id = 395
+                province_id = 396
+            }
+		}
+
+		trigger = { 
+			395 = {
+                owned_by = ROOT
+                development = 10
+            }
+            396 = {
+                owned_by = ROOT
+                development = 10
+            }
+		}
+
+		effect = { 
+			add_treasury = 500
+		}
+	}
+} #Ende Branch 2
+
+ASU_per_branch_3 = {
+    slot = 3
+	generic = no
+	ai = no
+	potential = {
+		OR = {
+            tag = FRS
+            tag = PER
+        }
+	}
+	has_country_shield = yes
+
+    ASU_per_mission_6 = {
+		icon = default
+		required_missions = { ASU_per_mission_10 }
+		position = 4
+
+		provinces_to_highlight = {
+			province_id = 2999
+		}
+
+		trigger = { 
+			2999 = {
+                owned_by = ROOT
+            }
+		}
+
+		effect = { 
+			pirate_coast_area = {
+                add_permanent_claim = ROOT
+            }
+		}
+	}
+    ASU_per_mission_7 = {
+		icon = default
+		required_missions = { ASU_per_mission_6 }
+		position = 5
+
+		provinces_to_highlight = {
+			area = pirate_coast_area
+		}
+
+		trigger = { 
+			pirate_coast_area = {
+                type = all
+                owned_by = ROOT
+            }
+		}
+
+		effect = { 
+			mascat_area = {
+                add_permanent_claim = ROOT
+            }
+            oman_area = {
+                add_permanent_claim = ROOT
+            }
+		}
+	}
+    ASU_per_mission_8 = {
+		icon = default
+		required_missions = { ASU_per_mission_7 }
+		position = 6
+
+		provinces_to_highlight = {
+			OR = {
+                area = mascat_area
+                area = oman_area
+            }
+		}
+
+		trigger = { 
+			mascat_area = {
+                type = all
+                owned_by = ROOT
+            }
+            oman_area = {
+                type = all
+                owned_by = ROOT
+            }
+		}
+
+		effect = { 
+			dhofar_area = {
+                add_permanent_claim = ROOT
+            }
+            mahra_area = {
+                add_permanent_claim = ROOT
+            }
+            majarteen_area = {
+                add_permanent_claim = ROOT
+            }
+		}
+	}
+    ASU_per_mission_9 = {
+		icon = default
+		required_missions = { ASU_per_mission_8 }
+		position = 7
+
+		provinces_to_highlight = {
+			OR = {
+                area = dhofar_area
+                area = mahra_area
+                area = majarteen_area
+            }
+		}
+
+		trigger = { 
+			dhofar_area = {
+                type = all
+                owned_by = ROOT
+            }
+            mahra_area = {
+                type = all
+                owned_by = ROOT
+            }
+            majarteen_area = {
+                type = all
+                owned_by = ROOT
+            }
+		}
+
+		effect = { 
+			add_adm_power = 100
+            add_dip_power = 100
+            add_mil_power = 100
+		}
+	}
+} #Ende Branch 3
+
+ASU_per_branch_4 = {
+    slot = 4
+	generic = no
+	ai = no
+	potential = {
+		OR = {
+            tag = FRS
+            tag = PER
+        }
+	}
+	has_country_shield = yes
+
+    ASU_per_mission_10 = {
+		icon = default
+		required_missions = { ASU_per_mission_15 }
+		position = 3
+
+		provinces_to_highlight = {
+			area = mogostan_area
+		}
+
+		trigger = { 
+			mogostan_area = {
+                type = all
+                owned_by = ROOT
+            }
+		}
+
+		effect = { 
+			2999 = {
+                add_permanent_claim = ROOT
+            }
+            bam_area = {
+                add_permanent_claim = ROOT
+            }
+		}
+	}
+    ASU_per_mission_11 = {
+		icon = default
+		required_missions = { ASU_per_mission_10 }
+		position = 4
+
+		provinces_to_highlight = {
+			area = bam_area
+		}
+
+		trigger = { 
+			bam_area = {
+                type = all
+                owned_by = ROOT
+            }
+		}
+
+		effect = { 
+			makran_area = {
+                add_permanent_claim = ROOT
+            }
+		}
+	}
+    ASU_per_mission_12 = {
+		icon = default
+		required_missions = { ASU_per_mission_11 }
+		position = 5
+
+		provinces_to_highlight = {
+			area = makran_area
+		}
+
+		trigger = { 
+			makran_area = {
+                type = all
+                owned_by = ROOT
+            }
+		}
+
+		effect = { 
+			add_adm_power = 50
+		}
+	}
+    ASU_per_mission_13 = {
+		icon = default
+		required_missions = { ASU_per_mission_8 }
+		position = 7
+
+		provinces_to_highlight = {
+			province_id = 400
+		}
+
+		trigger = { 
+			400 = {
+                development = 10
+            }
+		}
+
+		effect = { 
+			add_treasury = 250
+		}
+	}
+} #Ende Branch 4
+
+ASU_per_branch_5 = {
+    slot = 5
+	generic = no
+	ai = no
+	potential = {
+		OR = {
+            tag = FRS
+            tag = PER
+        }
+	}
+	has_country_shield = yes
+
+    ASU_per_mission_14 = {
+		icon = default
+		required_missions = {  }
+		position = 1
+
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+			army_size = 10
+		}
+
+		effect = { 
+			country_event = { #Rize of a Pretender
+                id = ASU_persia_events.4
+            }
+		}
+	}
+    ASU_per_mission_15 = {
+		icon = default
+		required_missions = { ASU_per_mission_14 }
+		position = 2
+
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+			is_free_or_tributary_trigger = yes
+		}
+
+		effect = { 
+			country_event = { #Bound by Chains
+                id = ASU_persia_events.5
+            }
+            mogostan_area = {
+                add_permanent_claim = ROOT
+            }
+            saidabad_area = {
+                add_permanent_claim = ROOT
+            }
+            2217 = {
+                add_permanent_claim = ROOT
+            }
+            4342 = {
+                add_permanent_claim = ROOT
+            }
+		}
+	}
+    ASU_per_mission_16 = {
+		icon = default
+		required_missions = { ASU_per_mission_15 }
+		position = 3
+
+		provinces_to_highlight = {
+			OR = {
+                province_id = 2217
+                province_id = 4342
+            }
+		}
+
+		trigger = { 
+			2217 = {
+                owned_by = ROOT
+            }
+            4342 = {
+                owned_by = ROOT
+            }
+		}
+
+		effect = { 
+			add_yearly_manpower = 2
+		}
+	}
+    ASU_per_mission_17 = {
+		icon = default
+		required_missions = { ASU_per_mission_16 }
+		position = 4
+
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+			total_development = 250
+		}
+
+		effect = { 
+			add_adm_power = 50
+            add_dip_power = 50
+            add_mil_power = 50
+		}
+	}
+    ASU_per_mission_18 = {
+		icon = default
+		required_missions = { ASU_per_mission_17 }
+		position = 5
+
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+			full_idea_group = humanist_ideas
+		}
+
+		effect = { 
+			country_event = { #Refugees Arrive
+                id = ASU_persia_events.6
+            }
+		}
+	}
+} #Ende Branch 5
+
+ASU_per_branch_6 = {
+    slot = 6
+	generic = no
+	ai = no
+	potential = {
+		OR = {
+            tag = FRS
+            tag = PER
+        }
+	}
+	has_country_shield = yes
+
+    ASU_per_mission_19 = {
+		icon = default
+		required_missions = { ASU_per_mission_15 }
+		position = 3
+
+		provinces_to_highlight = {
+			area = saidabad_area
+		}
+
+		trigger = { 
+			saidabad_area = {
+                type = all
+                owned_by = ROOT
+            }
+		}
+
+		effect = { 
+			yazd_area = {
+                add_permanent_claim = ROOT
+            }
+            isfahan_area = {
+                add_permanent_claim = ROOT
+            }
+		}
+	}
+    ASU_per_mission_20 = {
+		icon = default
+		required_missions = { ASU_per_mission_19 }
+		position = 4
+
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+			NOT = {
+                exists = TIM
+            }
+		}
+
+		effect = { 
+			country_event = { #Fall of Timur
+                id = ASU_persia_events.7
+            }
+		}
+	}
+    ASU_per_mission_21 = {
+		icon = default
+		required_missions = { ASU_per_mission_20 }
+		position = 6
+
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+			total_development = TRS
+            total_development = KHO
+		}
+
+		effect = { 
+			country_event = { #Dominate Timur Family
+                id = ASU_persia_events.8
+            }
+		}
+	}
+} #Ende Branch 6
+
+ASU_per_branch_7 = {
+    slot = 7
+	generic = no
+	ai = no
+	potential = {
+		OR = {
+            tag = FRS
+            tag = PER
+        }
+	}
+	has_country_shield = yes
+
+    ASU_per_mission_22 = {
+		icon = default
+		required_missions = { ASU_per_mission_19 }
+		position = 4
+
+		provinces_to_highlight = {
+			area = isfahan_area 
+		}
+
+		trigger = { 
+			isfahan_area = {
+                type = all
+                owned_by = ROOT
+            }
+		}
+
+		effect = { 
+			tuchah_area = {
+                add_permanent_claim = ROOT
+            }
+            iraq_e_ajam_area = {
+                add_permanent_claim = ROOT
+            }
+		}
+	}
+    ASU_per_mission_23 = {
+		icon = default
+		required_missions = { ASU_per_mission_22 }
+		position = 5
+
+		provinces_to_highlight = {
+			area = iraq_e_ajam_area
+		}
+
+		trigger = { 
+			iraq_e_ajam_area = {
+                type = all
+                owned_by = ROOT
+            }
+		}
+
+		effect = { 
+			tabarestan_area = {
+                add_permanent_claim = ROOT
+            }
+		}
+	}
+    ASU_per_mission_24 = {
+		icon = default
+		required_missions = { ASU_per_mission_23 ASU_per_mission_26 }
+		position = 6
+
+		provinces_to_highlight = {
+			area = tabarestan_area 
+		}
+
+		trigger = { 
+			tabarestan_area = {
+                type = all
+                owned_by = ROOT
+            }
+		}
+
+		effect = { 
+			chejam_area = {
+                add_permanent_claim = ROOT
+            }
+            mashhad_area = {
+                add_permanent_claim = ROOT
+            }
+		}
+	}
+    ASU_per_mission_25 = {
+		icon = default
+		required_missions = { ASU_per_mission_24 }
+		position = 7
+
+		provinces_to_highlight = {
+			area = chejam_area
+		}
+
+		trigger = { 
+			chejam_area = {
+                type = all
+                owned_by = ROOT
+            }
+		}
+
+		effect = { 
+			add_adm_power = 100
+		}
+	}
+} #Ende Branch 7
+
+ASU_per_branch_8 = {
+    slot = 8
+	generic = no
+	ai = no
+	potential = {
+		OR = {
+            tag = FRS
+            tag = PER
+        }
+	}
+	has_country_shield = yes
+
+    ASU_per_mission_26 = {
+		icon = default
+		required_missions = { ASU_per_mission_22 }
+		position = 5
+
+		provinces_to_highlight = {
+			area = tuchah_area
+		}
+
+		trigger = { 
+			tuchah_area = {
+                type = all
+                owned_by = ROOT
+            }
+		}
+
+		effect = { 
+			add_yearly_manpower = 2
+		}
+	}
+    ASU_per_mission_27 = {
+		icon = default
+		required_missions = { ASU_per_mission_24 }
+		position = 7
+
+		provinces_to_highlight = {
+			area = mashhad_area
+		}
+
+		trigger = { 
+			mashhad_area = {
+                type = all
+                owned_by = ROOT
+            }
+		}
+
+		effect = { 
+			herat_area = {
+                add_permanent_claim = ROOT
+            }
+            birjand_area = {
+                add_permanent_claim = ROOT
+            }
+		}
+	}
+    ASU_per_mission_28 = {
+		icon = default
+		required_missions = { ASU_per_mission_27 }
+		position = 8
+
+		provinces_to_highlight = {
+			area = herat_area
+		}
+
+		trigger = { 
+			herat_area = {
+                type = all
+                owned_by = ROOT
+            }
+		}
+
+		effect = { 
+			sistan_area = {
+                add_permanent_claim = ROOT
+            }
+		}
+	}
+    ASU_per_mission_29 = {
+		icon = default
+		required_missions = { ASU_per_mission_28 }
+		position = 9
+
+		provinces_to_highlight = {
+			area = sistan_area
+		}
+
+		trigger = { 
+			sistan_area = {
+                type = all
+                owned_by = ROOT
+            }
+		}
+
+		effect = { 
+			bakhora_area = {
+                add_permanent_claim = ROOT
+            }
+            balkh_area = {
+                add_permanent_claim = ROOT
+            }
+            kabulistan_area = {
+                add_permanent_claim = ROOT
+            }
+            ghor_area = {
+                add_permanent_claim = ROOT
+            }
+		}
+	}
+    ASU_per_mission_30 = {
+		icon = default
+		required_missions = { ASU_per_mission_29 }
+		position = 10
+
+		provinces_to_highlight = {
+			OR = {
+                area = bakhora_area
+                area = balkh_area
+                area = kabulistan_area
+                area =ghor_area
+            }
+		}
+
+		trigger = { 
+			bakhora_area = {
+                type = all
+                owned_by = ROOT
+            }
+            balkh_area = {
+                type = all
+                owned_by = ROOT
+            }
+            kabulistan_area = {
+                type = all
+                owned_by = ROOT
+            }
+            ghor_area = {
+                type = all
+                owned_by = ROOT
+            }
+		}
+
+		effect = { 
+			add_prestige = 100
+            add_adm_power = 100
+            add_dip_power = 100
+            add_mil_power = 100
+		}
+	}
+} #Ende Branch 8
+
+ASU_per_branch_9 = {
+    slot = 9
+	generic = no
+	ai = no
+	potential = {
+		OR = {
+            tag = FRS
+            tag = PER
+        }
+	}
+	has_country_shield = yes
+
+    ASU_per_mission_31 = {
+		icon = default
+		required_missions = {  }
+		position = 3
+
+		provinces_to_highlight = {
+			province_id = 2218
+		}
+
+		trigger = { 
+			2218 = {
+                owned_by = ROOT
+                development = 30
+            }
+		}
+
+		effect = { 
+			add_adm_power = 50
+            add_dip_power = 50
+            add_mil_power = 50
+		}
+	}
+    ASU_per_mission_32 = {
+		icon = default
+		required_missions = { ASU_per_mission_31 }
+		position = 4
+
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+			full_idea_group = economic_ideas
+		}
+
+		effect = { 
+			add_adm_power = 250
+		}
+	}
+    ASU_per_mission_33 = {
+		icon = default
+		required_missions = { ASU_per_mission_32 }
+		position = 5
+
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+			total_development = 3000
+		}
+
+		effect = { 
+			add_adm_power = 200
+            add_dip_power = 200
+            add_mil_power = 200
+		}
+	}
+    ASU_per_mission_34 = {
+		icon = default
+		required_missions = { ASU_per_mission_27 }
+		position = 8
+
+		provinces_to_highlight = {
+			area = birjand_area
+		}
+
+		trigger = { 
+			birjand_area = {
+                type = all
+                owned_by = ROOT
+            }
+		}
+
+		effect = { 
+			kerman_area = {
+                add_permanent_claim = ROOT
+            }
+		}
+	}
+    ASU_per_mission_35 = {
+		icon = default
+		required_missions = { ASU_per_mission_34 }
+		position = 9
+
+		provinces_to_highlight = {
+			area = kerman_area
+		}
+
+		trigger = { 
+			kerman_area = {
+                type = all
+                owned_by = ROOT
+            }
+		}
+
+		effect = { 
+			add_adm_power = 100
+		}
+	}
+} #Ende Branch 9
+
+ASU_per_branch_10 = {
+    slot = 10
+	generic = no
+	ai = no
+	potential = {
+		OR = {
+            tag = FRS
+            tag = PER
+        }
+	}
+	has_country_shield = yes
+
+    ASU_per_mission_36 = {
+		icon = default
+		required_missions = {  }
+		position = 2
+
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+			land_forcelimit = 1000
+		}
+
+		effect = { 
+			country_event = { #A million Bayonets
+                id = ASU_persia_events.9
+            }
+		}
+	}
+} #Ende Branch 10

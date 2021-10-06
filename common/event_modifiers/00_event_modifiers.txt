@@ -12262,3 +12262,23 @@ ASU_bushido_code = {
 ASU_japan_capital = {
 	local_development_cost = -0.1
 }
+
+# PERSIA
+
+ASU_persia_leader_of_the_muslim_world = {
+	global_missionary_strength = 0.02
+	missionaries = 1
+}
+
+ASU_persia_refugees = {
+	trade_goods_size = 0.5
+}
+
+ASU_persia_dominate_timur_family = {
+	legitimacy = 1
+	prestige = 0.5
+}
+
+ASU_persia_a_million_bayonets = {
+	infantry_cost = -0.2
+}
