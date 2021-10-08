@@ -1,0 +1,285 @@
+namespace = ASU_zaz_events
+
+country_event = { #Wings of Glory
+	id = ASU_zaz_events.1
+	title = "ASU_zaz_events.1.t"
+	desc = "ASU_zaz_events.1.d"
+	picture = REFORM_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "ASU_zaz_events.1.a"
+        add_country_modifier = {
+            name = ASU_zaz_wings_of_glory
+            duration = -1
+        }
+        ai_chance = {            # the AI does not take the event without
+			factor = 100
+		}
+	}
+}
+
+country_event = { #Polish Minorities
+	id = ASU_zaz_events.2
+	title = "ASU_zaz_events.2.t"
+	desc = "ASU_zaz_events.2.d"
+	picture = REFORM_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "ASU_zaz_events.2.a"
+        nogai_area = {
+            add_province_modifier = {
+                name = ASU_zaz_polish_minorities
+                duration = -1
+            }
+        }
+        lower_yik_area = {
+            add_province_modifier = {
+                name = ASU_zaz_polish_minorities
+                duration = -1
+            }
+        }
+        ai_chance = {            # the AI does not take the event without
+			factor = 100
+		}
+	}
+}
+
+country_event = { #Muscovite Minorities
+	id = ASU_zaz_events.3
+	title = "ASU_zaz_events.3.t"
+	desc = "ASU_zaz_events.3.d"
+	picture = REFORM_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "ASU_zaz_events.3.a"
+        kama_area = {
+            add_province_modifier = {
+                name = ASU_zaz_muscovite_minorities
+                duration = -1
+            }
+        }
+        perm_area = {
+            add_province_modifier = {
+                name = ASU_zaz_muscovite_minorities
+                duration = -1
+            }
+        }
+        ai_chance = {            # the AI does not take the event without
+			factor = 100
+		}
+	}
+}
+
+country_event = { #Moldovian Minorities
+	id = ASU_zaz_events.4
+	title = "ASU_zaz_events.4.t"
+	desc = "ASU_zaz_events.4.d"
+	picture = REFORM_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "ASU_zaz_events.4.a"
+        north_transcaspia_area = {
+            add_province_modifier = {
+                name = ASU_zaz_moldovian_minorities
+                duration = -1
+            }
+        }
+        ai_chance = {            # the AI does not take the event without
+			factor = 100
+		}
+	}
+}
+
+country_event = { #Backbone of the Economy
+	id = ASU_zaz_events.5
+	title = "ASU_zaz_events.5.t"
+	desc = "ASU_zaz_events.5.d"
+	picture = REFORM_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "ASU_zaz_events.5.a"
+        2444 = {
+            add_province_modifier = {
+                name = ASU_zaz_backbone
+                duration = -1
+            }
+        }
+        ai_chance = {            # the AI does not take the event without
+			factor = 100
+		}
+	}
+}
+
+country_event = { #Steppe Iron
+	id = ASU_zaz_events.6
+	title = "ASU_zaz_events.6.t"
+	desc = "ASU_zaz_events.6.d"
+	picture = REFORM_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "ASU_zaz_events.6.a"
+        5981 = {
+            add_province_modifier = {
+                name = ASU_zaz_steppe_iron
+                duration = -1
+            }
+        }
+        2420 = {
+            add_province_modifier = {
+                name = ASU_zaz_steppe_iron
+                duration = -1
+            }
+        }
+        5982 = {
+            add_province_modifier = {
+                name = ASU_zaz_steppe_iron
+                duration = -1
+            }
+        }
+        474 = {
+            add_province_modifier = {
+                name = ASU_zaz_steppe_iron
+                duration = -1
+            }
+        }
+        1965 = {
+            add_province_modifier = {
+                name = ASU_zaz_steppe_iron
+                duration = -1
+            }
+        }
+        4267 = {
+            add_province_modifier = {
+                name = ASU_zaz_steppe_iron
+                duration = -1
+            }
+        }
+        ai_chance = {            # the AI does not take the event without
+			factor = 100
+		}
+	}
+}
+
+country_event = { #Steppe Copper
+	id = ASU_zaz_events.7
+	title = "ASU_zaz_events.7.t"
+	desc = "ASU_zaz_events.7.d"
+	picture = REFORM_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "ASU_zaz_events.7.a"
+        305 = {
+            add_province_modifier = {
+                name = ASU_zaz_steppe_copper
+                duration = -1
+            }
+        }
+        4266 = {
+            add_province_modifier = {
+                name = ASU_zaz_steppe_copper
+                duration = -1
+            }
+        }
+        1079 = {
+            add_province_modifier = {
+                name = ASU_zaz_steppe_copper
+                duration = -1
+            }
+        }
+        ai_chance = {            # the AI does not take the event without
+			factor = 100
+		}
+	}
+}
+
+country_event = { #Promise of Freedom
+	id = ASU_zaz_events.8
+	title = "ASU_zaz_events.8.t"
+	desc = "ASU_zaz_events.8.d"
+	picture = REFORM_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "ASU_zaz_events.8.a"
+        random_owned_province = {
+            add_base_taxation = 2
+            add_base_production = 2
+        }
+        random_owned_province = {
+            add_base_taxation = 2
+            add_base_production = 2
+        }
+        random_owned_province = {
+            add_base_taxation = 2
+            add_base_production = 2
+        }
+        random_owned_province = {
+            add_base_taxation = 2
+            add_base_production = 2
+        }
+        random_owned_province = {
+            add_base_taxation = 2
+            add_base_production = 2
+        }
+        random_owned_province = {
+            add_base_taxation = 2
+            add_base_production = 2
+        }
+        random_owned_province = {
+            add_base_taxation = 2
+            add_base_production = 2
+        }
+        random_owned_province = {
+            add_base_taxation = 2
+            add_base_production = 2
+        }
+        random_owned_province = {
+            add_base_taxation = 2
+            add_base_production = 2
+        }
+        random_owned_province = {
+            add_base_taxation = 2
+            add_base_production = 2
+        }
+        ai_chance = {            # the AI does not take the event without
+			factor = 100
+		}
+	}
+}
+
+country_event = { #Dominate the Steppes
+	id = ASU_zaz_events.9
+	title = "ASU_zaz_events.9.t"
+	desc = "ASU_zaz_events.9.d"
+	picture = REFORM_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "ASU_zaz_events.9.a"
+        add_adm_power = 100
+        add_dip_power = 100
+        add_mil_power = 100
+        kyzylkum_area = {
+            add_permanent_claim = ROOT
+        }
+        syr_darya_area = {
+            add_permanent_claim = ROOT
+        }
+         atakent_area = {
+            add_permanent_claim = ROOT
+        }
+        arys_area = {
+            add_permanent_claim = ROOT
+        }
+        jetysuu_area = {
+            add_permanent_claim = ROOT
+        }
+        saryschagan_area = {
+            add_permanent_claim = ROOT
+        }
+        balchasj_area = {
+            add_permanent_claim = ROOT
+        }
+        ai_chance = {            # the AI does not take the event without
+			factor = 100
+		}
+	}
+}

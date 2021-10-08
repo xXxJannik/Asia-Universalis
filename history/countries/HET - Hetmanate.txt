@@ -6,3 +6,4 @@ primary_culture = ruthenian
 capital = 2420
 
 add_accepted_culture = bashkir
+add_accepted_culture = nogaybak

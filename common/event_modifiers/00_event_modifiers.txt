@@ -12282,3 +12282,33 @@ ASU_persia_dominate_timur_family = {
 ASU_persia_a_million_bayonets = {
 	infantry_cost = -0.2
 }
+
+# ZAPOROZHIE 
+
+ASU_zaz_wings_of_glory = {
+	army_tradition_from_battle = 0.5
+}
+
+ASU_zaz_polish_minorities = {
+	trade_goods_size = 0.5
+}
+
+ASU_zaz_muscovite_minorities = {
+	trade_goods_size = 0.5
+}
+
+ASU_zaz_moldovian_minorities = {
+	trade_goods_size = 0.5
+}
+
+ASU_zaz_backbone = {
+	trade_goods_size_modifier = 0.25
+}
+
+ASU_zaz_steppe_iron = {
+	trade_goods_size_modifier = 0.33
+}
+
+ASU_zaz_steppe_copper = {
+	trade_goods_size_modifier = 0.33
+}

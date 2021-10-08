@@ -327,3 +327,40 @@
  ASU_persia_events.9.d:0 "The Persian Army is the greatest Army mankind has seen so far. Equipped with finest Artillery and Guns, it will crush any Enemy that dares to confront the might of the Persian Empire."
  ASU_persia_events.9.a:0 "Only a fool would stand in our way"
 
+ #Zaporozhie
+ ASU_zaz_events.1.t:0 "Wings of Glory"
+ ASU_zaz_events.1.d:0 "Then the winged hussars arrived \n Coming down they turned the tide \n Cannonballs are coming down from the sky \n Janissaries are you ready to die? \n We will seek our vengeance eye for an eye \n You'll be stopped upon the steps of our gate \n On this field you're only facing our hate \n But back home the sultan's sealing your fate!"
+ ASU_zaz_events.1.a:0 "We remember"
+
+ ASU_zaz_events.2.t:0 "Polish Minorities"
+ ASU_zaz_events.2.d:0 "A Polish Minority has gathered and fled to the outskirts of our country."
+ ASU_zaz_events.2.a:0 "Welcome"
+
+ ASU_zaz_events.3.t:0 "Muscovite Minorities"
+ ASU_zaz_events.3.d:0 "A Muscovite Minority has gathered and fled to the outskirts of our country."
+ ASU_zaz_events.3.a:0 "Welcome"
+
+ ASU_zaz_events.4.t:0 "Moldovian Minorities"
+ ASU_zaz_events.4.d:0 "A Moldovian Minority has gathered and fled to the outskirts of our country."
+ ASU_zaz_events.4.a:0 "Welcome"
+
+ ASU_zaz_events.5.t:0 "Backbone of the Economy"
+ ASU_zaz_events.5.d:0 "The Gold Mine of Bashgir is very profitable. We need to expand the shafts and shifts."
+ ASU_zaz_events.5.a:0 "Money Money Money"
+
+ ASU_zaz_events.6.t:0 "Steppe Iron"
+ ASU_zaz_events.6.d:0 "Our Iron is of finest Quality. It will help in weapon manufacturing and will increase the price of it."
+ ASU_zaz_events.6.a:0 "The Finest Iron"
+
+ ASU_zaz_events.7.t:0 "Steppe Copper"
+ ASU_zaz_events.7.d:0 "Our Copper is of finest Quality. It will help in weapon manufacturing and will increase the price of it."
+ ASU_zaz_events.7.a:0 "The Finest Copper"
+
+ ASU_zaz_events.8.t:0 "Promise of Freedom"
+ ASU_zaz_events.8.d:0 "The Cossacks are a group of predominantly East Slavic Orthodox Christian people, who became known as members of democratic, self-governing, semi-military communities originating in the steppes of Eastern Europe. This Privilege will be granted to everyone within our borders!"
+ ASU_zaz_events.8.a:0 "I am Free"
+
+ ASU_zaz_events.9.t:0 "Dominate the Steppes"
+ ASU_zaz_events.9.d:0 "A steppe may be semi-arid or covered with grass or with shrubs or with both, depending on the season and latitude. The term steppe climate denotes the climate encountered in regions too dry to support a forest but not dry enough to be a desert. Steppe soils are typically of the chernozem type."
+ ASU_zaz_events.9.a:0 "Our Precious Steppe"
+

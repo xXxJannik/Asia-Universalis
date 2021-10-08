@@ -6,6 +6,7 @@ primary_culture = ruthenian
 capital = 2420
 
 add_accepted_culture = bashkir
+add_accepted_culture = nogaybak
 historical_friend = JAZ
 historical_friend = DON
 

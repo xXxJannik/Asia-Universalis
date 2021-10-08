@@ -1,0 +1,808 @@
+ASU_zaz_branch_1 = {
+    slot = 1
+	generic = no
+	ai = no
+	potential = {
+		OR = {
+            tag = ZAZ
+            tag = HET
+        }
+	}
+    has_country_shield = yes
+
+    ASU_zaz_mission_1 = {
+        icon = default
+        required_missions = {  }
+		position = 1
+
+        provinces_to_highlight = {
+
+        }
+
+        trigger = {
+            has_global_modifier_value = {
+	            which = cavalry_power
+	            value = 0.5
+            }
+            num_of_cavalry = 300
+        }
+
+        effect = {
+            country_event = { #Wings of Glory
+                id = ASU_zaz_events.1
+            }
+        }
+    }
+
+} #Ende Branch 1
+
+ASU_zaz_branch_2 = {
+    slot = 2
+	generic = no
+	ai = no
+	potential = {
+		OR = {
+            tag = ZAZ
+            tag = HET
+        }
+	}
+    has_country_shield = yes
+
+    ASU_zaz_mission_2 = {
+        icon = default
+        required_missions = { ASU_zaz_mission_3 }
+		position = 4
+
+        provinces_to_highlight = {
+
+        }
+
+        trigger = {
+            full_idea_group = expansion_ideas
+        }
+
+        effect = {
+            add_adm_power = 250
+        }
+    }
+
+} #Ende Branch 2
+
+ASU_zaz_branch_3 = {
+    slot = 3
+	generic = no
+	ai = no
+	potential = {
+		OR = {
+            tag = ZAZ
+            tag = HET
+        }
+	}
+    has_country_shield = yes
+
+    ASU_zaz_mission_3 = {
+        icon = default
+        required_missions = { ASU_zaz_mission_5 }
+		position = 3
+
+        provinces_to_highlight = {
+            area = ishim_area
+        }
+
+        trigger = {
+            ishim_area = {
+                type = all
+                owned_by = ROOT
+            }
+        }
+
+        effect = {
+            ob_area = {
+                add_permanent_claim = ROOT
+            }
+            yrtesh_area = {
+                add_permanent_claim = ROOT
+            }
+            aqmola_area = {
+                add_permanent_claim = ROOT
+            }
+            kypshak_area = {
+                add_permanent_claim = ROOT
+            }
+        }
+    }
+    ASU_zaz_mission_4 = {
+        icon = default
+        required_missions = { ASU_zaz_mission_3 }
+		position = 4
+
+        provinces_to_highlight = {
+            OR = {
+                area = ob_area
+                area = yrtesh_area
+                area = aqmola_area
+                area = kypshak_area
+            }
+        }
+
+        trigger = {
+            ob_area = {
+                type = all
+                owned_by = ROOT
+            }
+            yrtesh_area = {
+                type = all
+                owned_by = ROOT
+            }
+            aqmola_area = {
+                type = all
+                owned_by = ROOT
+            }
+            kypshak_area = {
+                type = all
+                owned_by = ROOT
+            }
+        }
+
+        effect = {
+            add_adm_power = 100
+            add_dip_power = 100
+        }
+    }
+
+} #Ende Branch 3
+
+ASU_zaz_branch_4 = {
+    slot = 4
+	generic = no
+	ai = no
+	potential = {
+		OR = {
+            tag = ZAZ
+            tag = HET
+        }
+	}
+    has_country_shield = yes
+
+    ASU_zaz_mission_5 = {
+        icon = default
+        required_missions = { ASU_zaz_mission_8 }
+		position = 2
+
+        provinces_to_highlight = {
+            area = bashkiria_area
+        }
+
+        trigger = {
+            bashkiria_area = {
+                type = all
+                owned_by = ROOT
+            }
+        }
+
+        effect = {
+            ishim_area = {
+                add_permanent_claim = ROOT
+            }
+            volga_area = {
+                add_permanent_claim = ROOT
+            }
+            473 = {
+                add_permanent_claim = ROOT
+            }
+            1972 = {
+                add_permanent_claim = ROOT
+            }
+            4266 = {
+                add_permanent_claim = ROOT
+            }
+        }
+    }
+    ASU_zaz_mission_6 = {
+        icon = default
+        required_missions = { ASU_zaz_mission_5 }
+		position = 3
+
+        provinces_to_highlight = {
+            OR = {
+                area = volga_area
+                province_id = 473
+                province_id = 1972
+                province_id = 4266
+            }
+        }
+
+        trigger = {
+            volga_area = {
+                type = all
+                owned_by = ROOT
+            }
+            473 = {
+                owned_by = ROOT
+            }
+            1972 = {
+                owned_by = ROOT
+            }
+            4266 = {
+                owned_by = ROOT
+            }
+        }
+
+        effect = {
+            kama_area = {
+                add_permanent_claim = ROOT
+            }
+            perm_area = {
+                add_permanent_claim = ROOT
+            }
+        }
+    }
+    ASU_zaz_mission_7 = {
+        icon = default
+        required_missions = { ASU_zaz_mission_6 }
+		position = 4
+
+        provinces_to_highlight = {
+            OR = {
+                area = kama_area
+                area = perm_area
+            }
+        }
+
+        trigger = {
+            kama_area = {
+                type = all
+                owned_by = ROOT
+            }
+            perm_area = {
+                type = all
+                owned_by = ROOT
+            }
+        }
+
+        effect = {
+            country_event = { #Muscovite Minorities
+                id = ASU_zaz_events.3
+            }
+        }
+    }
+
+} #Ende Branch 4
+
+ASU_zaz_branch_5 = {
+    slot = 5
+	generic = no
+	ai = no
+	potential = {
+		OR = {
+            tag = ZAZ
+            tag = HET
+        }
+	}
+    has_country_shield = yes
+
+    ASU_zaz_mission_8 = {
+        icon = default
+        required_missions = {  }
+		position = 1
+
+        provinces_to_highlight = {
+
+        }
+
+        trigger = {
+            army_size = 12
+            stability = 1
+        }
+
+        effect = {
+            bashkiria_area = {
+                add_permanent_claim = ROOT
+            }
+            305 = {
+                add_permanent_claim = ROOT
+            }
+            nogai_area = {
+                add_permanent_claim = ROOT
+            }
+            lower_yik_area = {
+                add_permanent_claim = ROOT
+            }
+        }
+    }
+    ASU_zaz_mission_9 = {
+        icon = default
+        required_missions = { ASU_zaz_mission_9 }
+		position = 2
+
+        provinces_to_highlight = {
+            area = kazakhstan_area
+        }
+
+        trigger = {
+            kazakhstan_area = {
+                type = all
+                owned_by = ROOT
+            }
+        }
+
+        effect = {
+            koskol_area = {
+                add_permanent_claim = ROOT
+            }
+        }
+    }
+    ASU_zaz_mission_10 = {
+        icon = default
+        required_missions = { ASU_zaz_mission_9 }
+		position = 3
+
+        provinces_to_highlight = {
+            area = koskol_area
+        }
+
+        trigger = {
+            koskol_area = {
+                type = all
+                owned_by = ROOT
+            }
+        }
+
+        effect = {
+            add_adm_power = 50
+            add_dip_power = 50
+        }
+    }
+    ASU_zaz_mission_11 = {
+        icon = default
+        required_missions = { ASU_zaz_mission_10 }
+		position = 4
+
+        provinces_to_highlight = {
+
+        }
+
+        trigger = {
+            total_development = 500
+        }
+
+        effect = {
+            country_event = { #Dominate the Steppes Event
+                id = ASU_zaz_events.9
+            }
+        }
+    }
+    ASU_zaz_mission_12 = {
+        icon = default
+        required_missions = { ASU_zaz_mission_11 }
+		position = 5
+
+        provinces_to_highlight = {
+            OR = {
+                area = kyzylkum_area
+                area = syr_darya_area
+                area = atakent_area
+                area = arys_area
+                area = jetysuu_area
+                area = saryschagan_area
+                area = balchasj_area
+            }
+
+            NOT = {
+                owned_by = ROOT
+            }
+        }
+
+        trigger = {
+            kyzylkum_area = {
+                type = all
+                owned_by = ROOT
+            }
+            syr_darya_area = {
+                type = all
+                owned_by = ROOT
+            }
+            atakent_area = {
+                type = all
+                owned_by = ROOT
+            }
+            arys_area = {
+                type = all
+                owned_by = ROOT
+            }
+            jetysuu_area = {
+                type = all
+                owned_by = ROOT
+            }
+            saryschagan_area = {
+                type = all
+                owned_by = ROOT
+            }
+            balchasj_area = {
+                type = all
+                owned_by = ROOT
+            }
+        }
+
+        effect = {
+            custom_tooltip = ASU_zaz_hetmanate_formable
+            set_country_flag = ASU_zaz_master_of_the_steppes
+        }
+    }
+
+} #Ende Branch 5
+
+ASU_zaz_branch_6 = {
+    slot = 6
+	generic = no
+	ai = no
+	potential = {
+		OR = {
+            tag = ZAZ
+            tag = HET
+        }
+	}
+    has_country_shield = yes
+
+    ASU_zaz_mission_13 = {
+        icon = default
+        required_missions = { ASU_zaz_mission_8 }
+		position = 2
+
+        provinces_to_highlight = {
+            OR = {
+                area = nogai_area 
+                area = lower_yik_area
+            }
+        }
+
+        trigger = {
+            nogai_area = {
+                type = all
+                owned_by = ROOT
+            }
+            lower_yik_area = {
+                type = all
+                owned_by = ROOT
+            }
+        }
+
+        effect = {
+            country_event = { #Polish Minorities
+                id = ASU_zaz_events.2
+            }
+            bozoy_area = {
+                add_permanent_claim = ROOT
+            }
+        }
+    }
+    ASU_zaz_mission_14 = {
+        icon = default
+        required_missions = { ASU_zaz_mission_13 }
+		position = 3
+
+        provinces_to_highlight = {
+            area = bozoy_area
+        }
+
+        trigger = {
+            bozoy_area = {
+                type = all
+                owned_by = ROOT
+            }
+        }
+
+        effect = {
+            north_transcaspia_area = {
+                add_permanent_claim = ROOT
+            }
+            khiva_area = {
+                add_permanent_claim = ROOT
+            }
+        }
+    }
+    ASU_zaz_mission_15 = {
+        icon = default
+        required_missions = { ASU_zaz_mission_14 }
+		position = 4
+
+        provinces_to_highlight = {
+            area = khiva_area
+        }
+
+        trigger = {
+            khiva_area = {
+                type = all
+                owned_by = ROOT
+            }
+        }
+
+        effect = {
+            add_mil_power = 100
+        }
+    }
+    ASU_zaz_mission_16 = {
+        icon = default
+        required_missions = { ASU_zaz_mission_15 ASU_zaz_mission_17 }
+		position = 5
+
+        provinces_to_highlight = {
+
+        }
+
+        trigger = {
+            land_forcelimit = 1000
+        }
+
+        effect = {
+            add_prestige = 100
+        }
+    }
+
+} #Ende Branch 6
+
+ASU_zaz_branch_7 = {
+    slot = 7
+	generic = no
+	ai = no
+	potential = {
+		OR = {
+            tag = ZAZ
+            tag = HET
+        }
+	}
+    has_country_shield = yes
+
+    ASU_zaz_mission_17 = {
+        icon = default
+        required_missions = { ASU_zaz_mission_14 }
+		position = 4
+
+        provinces_to_highlight = {
+            area = north_transcaspia_area
+        }
+
+        trigger = {
+            north_transcaspia_area = {
+                type = all
+                owned_by = ROOT
+            }
+        }
+
+        effect = {
+            country_event = { #Moldovian Minorities
+                id = ASU_zaz_events.4
+            }
+        }
+    }
+
+} #Ende Branch 7
+
+ASU_zaz_branch_8 = {
+    slot = 8
+	generic = no
+	ai = no
+	potential = {
+		OR = {
+            tag = ZAZ
+            tag = HET
+        }
+	}
+    has_country_shield = yes
+
+    ASU_zaz_mission_18 = {
+        icon = default
+        required_missions = { ASU_zaz_mission_19 }
+		position = 2
+
+        provinces_to_highlight = {
+            OR = {
+                province_id = 5981
+                province_id = 2420
+                province_id = 5982
+                province_id = 474
+                province_id = 1965
+                province_id = 4267
+            }
+        }
+
+        trigger = {
+            5981 = {
+                OR = {
+                    has_building = workshop
+                    has_building = counting_house
+                }
+                development = 10
+                owned_by = ROOT
+            }
+            2420 = {
+                OR = {
+                    has_building = workshop
+                    has_building = counting_house
+                }
+                development = 10
+                owned_by = ROOT
+            }
+            5982 = {
+                OR = {
+                    has_building = workshop
+                    has_building = counting_house
+                }
+                development = 10
+                owned_by = ROOT
+            }
+            474 = {
+                OR = {
+                    has_building = workshop
+                    has_building = counting_house
+                }
+                development = 10
+                owned_by = ROOT
+            }
+            1965 = {
+                OR = {
+                    has_building = workshop
+                    has_building = counting_house
+                }
+                development = 10
+                owned_by = ROOT
+            }
+            4267 = {
+                OR = {
+                    has_building = workshop
+                    has_building = counting_house
+                }
+                development = 10
+                owned_by = ROOT
+            }
+        }
+
+        effect = {
+            country_event = { #Steppe Iron
+                id = ASU_zaz_events.6
+            }
+        }
+    }
+
+} #Ende Branch 8
+
+ASU_zaz_branch_9 = {
+    slot = 9
+	generic = no
+	ai = no
+	potential = {
+		OR = {
+            tag = ZAZ
+            tag = HET
+        }
+	}
+    has_country_shield = yes
+
+    ASU_zaz_mission_19 = {
+        icon = default
+        required_missions = {  }
+		position = 1
+
+        provinces_to_highlight = {
+
+        }
+
+        trigger = {
+            full_idea_group = economic_ideas
+        }
+
+        effect = {
+            add_adm_power = 100
+            add_dip_power = 100
+            add_mil_power = 100
+        }
+    }
+    ASU_zaz_mission_20 = {
+        icon = default
+        required_missions = { ASU_zaz_mission_19 }
+		position = 2
+
+        provinces_to_highlight = {
+            OR = {
+                province_id = 305
+                province_id = 4266
+                province_id = 1079
+            }
+        }
+
+        trigger = {
+            305 = {
+                OR = {
+                    has_building = workshop
+                    has_building = counting_house
+                }
+                development = 10
+                owned_by = ROOT
+            }
+            4266 = {
+                OR = {
+                    has_building = workshop
+                    has_building = counting_house
+                }
+                development = 10
+                owned_by = ROOT
+            }
+            1079 = {
+                OR = {
+                    has_building = workshop
+                    has_building = counting_house
+                }
+                development = 10
+                owned_by = ROOT
+            }
+        }
+
+        effect = {
+            country_event = { #Steppe Copper
+                id = ASU_zaz_events.7
+            }
+        }
+    }
+    ASU_zaz_mission_21 = {
+        icon = default
+        required_missions = { ASU_zaz_mission_18 ASU_zaz_mission_20 ASU_zaz_mission_22 }
+		position = 3
+
+        provinces_to_highlight = {
+
+        }
+
+        trigger = {
+            total_development = 1000
+        }
+
+        effect = {
+            country_event = { #Promise of Freedom
+                id = ASU_zaz_events.8
+            }
+        }
+    }
+
+} #Ende Branch 9
+
+ASU_zaz_branch_10 = {
+    slot = 10
+	generic = no
+	ai = no
+	potential = {
+		OR = {
+            tag = ZAZ
+            tag = HET
+        }
+	}
+    has_country_shield = yes
+
+    ASU_zaz_mission_22 = {
+        icon = default
+        required_missions = { ASU_zaz_mission_19 }
+		position = 2
+
+        provinces_to_highlight = {
+            province_id = 2444
+        }
+
+        trigger = {
+            2444 = {
+                owned_by = ROOT
+                OR = {
+                    has_building = fort_15th
+                    has_building = fort_16th
+                    has_building = fort_17th
+                    has_building = fort_18th
+                }
+            }
+        }
+
+        effect = {
+            country_event = { #Backbone of the Economy
+                id = ASU_zaz_events.5
+            }
+        }
+    }
+
+} #Ende Branch 1
