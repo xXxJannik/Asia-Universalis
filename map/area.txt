@@ -5008,7 +5008,7 @@ abasa_area = {
 }
 
 koo_area = {
-	6010 6012 6011
+	6010 6012 6011 6014
 }
 
 zungaria_area = { #5 #Hat loc
@@ -5033,11 +5033,10 @@ oyek_area = {
 }
 
 tannu_area = {
-	716 6024 6016
 }
 
 teeli_area = {
-	6016 6014 6022 1065
+	6016 6022 1065 716 6024
 }
 
 bulakesi_area = {

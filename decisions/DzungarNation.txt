@@ -16,17 +16,10 @@ country_decisions = {
 		}
 		provinces_to_highlight = {
 			OR = {
-					province_id = 6029
-					province_id = 2118		
-					province_id = 4684
-					province_id = 6040
-					province_id = 2119
-
-                    province_id = 6037
-					province_id = 2120		
-					province_id = 4208
-					province_id = 6038
-					province_id = 715
+					area = north_zungaria
+					area = zungaria_area
+					area = jiuquan_area
+					area = outer_mongolia_area
 			}
 			OR = {
 				NOT = { owned_by = ROOT }
@@ -37,6 +30,7 @@ country_decisions = {
 			is_at_war = no
 			is_free_or_tributary_trigger = yes
 			is_emperor_of_china = no
+			NOT = { exists = OIR }
 
             owns_core_province = 6029
             owns_core_province = 2118
@@ -49,6 +43,17 @@ country_decisions = {
             owns_core_province = 4208
             owns_core_province = 6038
             owns_core_province = 715
+
+			owns_core_province = 708
+			owns_core_province = 5850
+			owns_core_province = 707
+			owns_core_province = 2123
+
+			owns_core_province = 4220
+			owns_core_province = 4668
+			owns_core_province = 4998
+			owns_core_province = 2116
+			owns_core_province = 4999
 		}
 		effect = {
 			change_tag = ZUN
