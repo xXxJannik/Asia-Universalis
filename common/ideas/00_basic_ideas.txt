@@ -615,7 +615,7 @@ economic_ideas = {
 	}
 
 	bureaucracy = {
-		global_tax_modifier = 0.1
+		global_tax_modifier = 0.2
 	}
 	organised_construction = {
 		build_cost = -0.1

@@ -18,7 +18,7 @@ conduct_census_decree = {
 	cost = 20
 	duration = 3650
 	modifier = {
-		global_tax_modifier = 0.10
+		global_tax_modifier = 0.20
 		global_tax_income = 60
 	}
 	ai_will_do = {

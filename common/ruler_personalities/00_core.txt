@@ -1000,7 +1000,7 @@ midas_touched_personality = {
 	wants_gold = yes
 	custom_ai_explanation = "AI_RULER_PICK_IDEA_GROUPS"
 	
-	global_tax_modifier = 0.1 
+	global_tax_modifier = 0.2 
 	nation_designer_cost = 2
 } #Opens Exceptional Year, 1 better event
 
