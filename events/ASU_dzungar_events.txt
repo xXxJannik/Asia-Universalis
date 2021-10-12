@@ -1,0 +1,194 @@
+namespace = ASU_dzungar_events
+
+country_event = { #Cow Breeding
+	id = ASU_dzungar_events.1
+	title = "ASU_dzungar_events.1.t"
+	desc = "ASU_dzungar_events.1.d"
+	picture = REFORM_eventPicture
+	is_triggered_only = yes
+    major = yes
+	option = {
+		name = "ASU_dzungar_events.1.a"
+
+        change_price = {
+			trade_goods = livestock
+			key = ASU_COW_BREEDING
+			value = 0.2
+			duration = -1
+		}
+
+        ai_chance = {            # the AI does not take the event without
+			factor = 100
+		}
+	}
+}
+
+country_event = { #Winter Clothing
+	id = ASU_dzungar_events.2
+	title = "ASU_dzungar_events.2.t"
+	desc = "ASU_dzungar_events.2.d"
+	picture = REFORM_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "ASU_dzungar_events.2.a"
+
+        add_country_modifier = {
+			name = "ASU_dzungar_winter_clothing"
+			duration = -1
+		}
+
+        ai_chance = {            # the AI does not take the event without
+			factor = 100
+		}
+	}
+}
+
+country_event = { #Weapon Production
+	id = ASU_dzungar_events.3
+	title = "ASU_dzungar_events.3.t"
+	desc = "ASU_dzungar_events.3.d"
+	picture = REFORM_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "ASU_dzungar_events.3.a"
+
+        add_treasury = 1000
+
+        2120 = {
+			add_province_modifier = {
+				name = ASU_dzungar_weapon_production
+				duration = -1
+			}
+		}
+        4208 = {
+			add_province_modifier = {
+				name = ASU_dzungar_weapon_production
+				duration = -1
+			}
+		}
+        715 = {
+			add_province_modifier = {
+				name = ASU_dzungar_weapon_production
+				duration = -1
+			}
+		}
+
+        ai_chance = {            # the AI does not take the event without
+			factor = 100
+		}
+	}
+}
+
+country_event = { #Cloth Production
+	id = ASU_dzungar_events.4
+	title = "ASU_dzungar_events.4.t"
+	desc = "ASU_dzungar_events.4.d"
+	picture = REFORM_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "ASU_dzungar_events.4.a"
+
+        add_treasury = 1000
+
+        718 = {
+			add_province_modifier = {
+				name = ASU_dzungar_cloth_production
+				duration = -1
+			}
+		}
+        719 = {
+			add_province_modifier = {
+				name = ASU_dzungar_cloth_production
+				duration = -1
+			}
+		}
+        2190 = {
+			add_province_modifier = {
+				name = ASU_dzungar_cloth_production
+				duration = -1
+			}
+		}
+
+        ai_chance = {            # the AI does not take the event without
+			factor = 100
+		}
+	}
+}
+
+country_event = { #Fur Production
+	id = ASU_dzungar_events.5
+	title = "ASU_dzungar_events.5.t"
+	desc = "ASU_dzungar_events.5.d"
+	picture = REFORM_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "ASU_dzungar_events.5.a"
+
+        add_treasury = 1000
+
+        2116 = {
+			add_province_modifier = {
+				name = ASU_dzungar_fur_production
+				duration = -1
+			}
+		}
+        4220 = {
+			add_province_modifier = {
+				name = ASU_dzungar_fur_production
+				duration = -1
+			}
+		}
+        4668 = {
+			add_province_modifier = {
+				name = ASU_dzungar_fur_production
+				duration = -1
+			}
+		}
+        4679 = {
+			add_province_modifier = {
+				name = ASU_dzungar_fur_production
+				duration = -1
+			}
+		}
+        716 = {
+			add_province_modifier = {
+				name = ASU_dzungar_fur_production
+				duration = -1
+			}
+		}
+
+        ai_chance = {            # the AI does not take the event without
+			factor = 100
+		}
+	}
+}
+
+country_event = { #Salt Production
+	id = ASU_dzungar_events.6
+	title = "ASU_dzungar_events.6.t"
+	desc = "ASU_dzungar_events.6.d"
+	picture = REFORM_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "ASU_dzungar_events.6.a"
+
+        add_treasury = 1000
+
+        2118 = {
+			add_province_modifier = {
+				name = ASU_dzungar_salt_production
+				duration = -1
+			}
+		}
+        713 = {
+			add_province_modifier = {
+				name = ASU_dzungar_salt_production
+				duration = -1
+			}
+		}
+
+        ai_chance = {            # the AI does not take the event without
+			factor = 100
+		}
+	}
+}

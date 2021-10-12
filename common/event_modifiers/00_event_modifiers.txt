@@ -12312,3 +12312,25 @@ ASU_zaz_steppe_iron = {
 ASU_zaz_steppe_copper = {
 	trade_goods_size_modifier = 0.33
 }
+
+# DZUNGAR 
+
+ASU_dzungar_winter_clothing = {
+	land_attrition = -0.2
+}
+
+ASU_dzungar_weapon_production = {
+	trade_goods_size = 1
+}
+
+ASU_dzungar_cloth_production = {
+	trade_goods_size = 1
+}
+
+ASU_dzungar_fur_production = {
+	trade_goods_size = 1
+}
+
+ASU_dzungar_salt_production = {
+	trade_goods_size = 1
+}

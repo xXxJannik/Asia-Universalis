@@ -145,3 +145,10 @@
  ASU_zaz_backbone:0 "Huge Gold Mine"
  ASU_zaz_steppe_iron:0 "Steppe Iron"
  ASU_zaz_steppe_copper:0 "Steppe copper"
+
+ #Dzungar
+ ASU_dzungar_winter_clothing:0 "Winter Clothing"
+ ASU_dzungar_weapon_production:0 "High Quality Iron"
+ ASU_dzungar_cloth_production:0 "High Quality Clothings"
+ ASU_dzungar_fur_production:0 "High Quality Fur"
+ ASU_dzungar_salt_production:0 "Expanded Salt Production"

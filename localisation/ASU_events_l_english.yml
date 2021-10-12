@@ -364,3 +364,29 @@
  ASU_zaz_events.9.d:0 "A steppe may be semi-arid or covered with grass or with shrubs or with both, depending on the season and latitude. The term steppe climate denotes the climate encountered in regions too dry to support a forest but not dry enough to be a desert. Steppe soils are typically of the chernozem type."
  ASU_zaz_events.9.a:0 "Our Precious Steppe"
 
+ #Dzungar
+
+ ASU_dzungar_events.1.t:0 "Cow Breeding"
+ ASU_dzungar_events.1.d:0 "Farmers selectively breed different types of cows with highly desirable characteristics in order to produce the best meat and dairy. This means the farmers can make the most profit. Characteristics can be chosen for usefulness or appearance."
+ ASU_dzungar_events.1.a:0 "Great Animals"
+
+ ASU_dzungar_events.2.t:0 "Winter Clothing"
+ ASU_dzungar_events.2.d:0 "Steppes can be very cold during Nights or Winter. We must make preparations according to our plans."
+ ASU_dzungar_events.2.a:0 "Below Zero!"
+
+ ASU_dzungar_events.3.t:0 "Weapon Production"
+ ASU_dzungar_events.3.d:0 "Our most Common Weapons need Iron to be produced. Luckily we have found High Quality Iron."
+ ASU_dzungar_events.3.a:0 ""
+
+ ASU_dzungar_events.4.t:0 "Cloth Production"
+ ASU_dzungar_events.4.d:0 "Perfected by Generations, our Clothing Style is pretty and effective."
+ ASU_dzungar_events.4.a:0 "I like our Hats"
+
+ ASU_dzungar_events.5.t:0 "Fur Production"
+ ASU_dzungar_events.5.d:0 "Heavy Fur is very usefull for extreme Weather Conditions and Winter."
+ ASU_dzungar_events.5.a:0 "I prefer Heavy Coats"
+
+ ASU_dzungar_events.6.t:0 "Salt Production"
+ ASU_dzungar_events.6.d:0 "Salt was an integral part of medieval life, not only is some salt a necessary part of a human diet, but it's also essential for preserving food such as meat, seafood, and dairy products in the absence of refrigeration."
+ ASU_dzungar_events.6.a:0 "If only we had Spices too"
+
