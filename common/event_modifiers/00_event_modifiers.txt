@@ -11831,7 +11831,7 @@ ASU_eoc_population_support = {
 }
 
 ASU_shenyang_gems = {
-	trade_goods_size = 2
+	trade_goods_size = 4
 }
 
 ASU_estate_janissaries_foreign_conscription = {
@@ -12263,6 +12263,11 @@ ASU_japan_capital = {
 	local_development_cost = -0.1
 }
 
+ASU_japan_tropical_material = {
+	trade_goods_size = 3
+	trade_value_modifier = 0.25
+}
+
 # PERSIA
 
 ASU_persia_leader_of_the_muslim_world = {
@@ -12333,4 +12338,10 @@ ASU_dzungar_fur_production = {
 
 ASU_dzungar_salt_production = {
 	trade_goods_size = 1
+}
+
+# SIAM
+
+ASU_siam_asian_ivory = {
+	trade_goods_size = 2
 }

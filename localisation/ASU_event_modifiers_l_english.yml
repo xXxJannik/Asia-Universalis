@@ -115,6 +115,7 @@
  ASU_japanese_bank:0 "The Japanese Bank"
  ASU_bushido_code:0 "Bushido Code"
  ASU_japan_capital:0 "The Imperial Capital"
+ ASU_japan_tropical_material:0 "High Quality Material"
 
  #Ming
  ASU_ming_reformation:0 "The Ming Century"
@@ -152,3 +153,6 @@
  ASU_dzungar_cloth_production:0 "High Quality Clothings"
  ASU_dzungar_fur_production:0 "High Quality Fur"
  ASU_dzungar_salt_production:0 "Expanded Salt Production"
+
+ #Siam
+ ASU_siam_asian_ivory:0 "Asian Ivory"
