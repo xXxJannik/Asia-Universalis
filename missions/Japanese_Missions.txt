@@ -94,13 +94,40 @@ ASU_japan_branch_1 = {
 		required_missions = { }
 		position = 15
 		provinces_to_highlight = {
-			
+			or = {
+				province_id = 5043
+				province_id = 5044
+				province_id = 5045
+			}
 		}
 
 		trigger = { 
+			5043 = {
+				OR = {
+					has_building = fort_15th
+					has_building = fort_16th
+					has_building = fort_17th
+					has_building = fort_18th
+				}
+			}
+			5045 = {
+				OR = {
+					has_building = fort_15th
+					has_building = fort_16th
+					has_building = fort_17th
+					has_building = fort_18th
+				}
+			}
+			5044 = {
+				OR = {
+					has_building = coastal_defence
+					has_building = naval_battery
+				}
+			}
 		}
 
 		effect = { 
+			add_mil_power = 100
 		}
 	}
 
@@ -109,13 +136,47 @@ ASU_japan_branch_1 = {
 		required_missions = { }
 		position = 16
 		provinces_to_highlight = {
-			
+			or = {
+				province_id = 5136
+				province_id = 2155
+				province_id = 5135
+				province_id = 738
+			}
 		}
 
 		trigger = { 
+			5136 = {
+				OR = {
+					has_building = fort_15th
+					has_building = fort_16th
+					has_building = fort_17th
+					has_building = fort_18th
+				}
+			}
+			2155 = {
+				OR = {
+					has_building = fort_15th
+					has_building = fort_16th
+					has_building = fort_17th
+					has_building = fort_18th
+				}
+			}
+			5135 = {
+				OR = {
+					has_building = coastal_defence
+					has_building = naval_battery
+				}
+			}
+			738 = {
+				OR = {
+					has_building = coastal_defence
+					has_building = naval_battery
+				}
+			}
 		}
 
 		effect = { 
+			add_mil_power = 150
 		}
 	}
 
@@ -139,13 +200,24 @@ ASU_japan_branch_1 = {
 		required_missions = { }
 		position = 20
 		provinces_to_highlight = {
-			
+			area = northern_kyushu
 		}
 
 		trigger = { 
+			northern_kyushu = {
+				type = all
+				OR = {
+					has_building = shipyard
+					has_building = grand_shipyard	
+				}
+				owned_by = ROOT
+			}
 		}
 
 		effect = { 
+			northern_kyushu = {
+				 add_base_production = 2
+			}
 		}
 	}
 
@@ -154,13 +226,24 @@ ASU_japan_branch_1 = {
 		required_missions = { ASU_japan_mission_8 }
 		position = 21
 		provinces_to_highlight = {
-			
+			area = west_kyushu_area
 		}
 
 		trigger = { 
+			west_kyushu_area = {
+				type = all
+				OR = {
+					has_building = shipyard
+					has_building = grand_shipyard	
+				}
+				owned_by = ROOT
+			}
 		}
 
 		effect = { 
+			west_kyushu_area = {
+				 add_base_production = 2
+			}
 		}
 	}
 } #Ende Branch 1
@@ -220,8 +303,8 @@ ASU_japan_branch_2 = {
 				add_base_tax = 2
 				add_base_production = 2
 				add_base_manpower = 2
-				add_years_of_income = 2
 			}
+			add_years_of_income = 2
 		}
 	}
 
@@ -464,13 +547,24 @@ ASU_japan_branch_2 = {
 		required_missions = { ASU_japan_mission_8 }
 		position = 21
 		provinces_to_highlight = {
-			
+			area = central_kyushu_area
 		}
 
 		trigger = { 
+			central_kyushu_area = {
+				type = all
+				OR = {
+					has_building = shipyard
+					has_building = grand_shipyard	
+				}
+				owned_by = ROOT
+			}
 		}
 
 		effect = { 
+			central_kyushu_area = {
+				 add_base_production = 2
+			}
 		}
 	}
 
@@ -479,13 +573,24 @@ ASU_japan_branch_2 = {
 		required_missions = { ASU_japan_mission_9 ASU_japan_mission_23 }
 		position = 22
 		provinces_to_highlight = {
-			
+			area = kyushu_area
 		}
 
 		trigger = { 
+			kyushu_area = {
+				type = all
+				OR = {
+					has_building = shipyard
+					has_building = grand_shipyard	
+				}
+				owned_by = ROOT
+			}
 		}
 
 		effect = { 
+			kyushu_area = {
+				 add_base_production = 2
+			}
 		}
 	}
 
@@ -660,11 +765,22 @@ ASU_japan_branch_3 = {
 		required_missions = { ASU_japan_mission_31 }
 		position = 13
 		provinces_to_highlight = {
-			province_id = 5044
+			or = {
+				province_id = 5043
+				province_id = 5045
+			}
 		}
 
 		trigger = { 
-			5044 = {
+			5043 = {
+				OR = {
+					has_building = fort_15th
+					has_building = fort_16th
+					has_building = fort_17th
+					has_building = fort_18th
+				}
+			}
+			5045 = {
 				OR = {
 					has_building = fort_15th
 					has_building = fort_16th
@@ -675,7 +791,13 @@ ASU_japan_branch_3 = {
 		}
 
 		effect = { 
-			5044 = {
+			5043 = {
+				add_province_modifier = {
+					name = local_fortress
+					duration = -1
+				}
+			}
+			5045 = {
 				add_province_modifier = {
 					name = local_fortress
 					duration = -1
