@@ -1,0 +1,195 @@
+namespace = ASU_tibet_events
+
+country_event = { #Pierce the Heavens
+	id = ASU_tibet_events.1
+	title = "ASU_tibet_events.1.t"
+	desc = "ASU_tibet_events.1.d"
+	picture = REFORM_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "ASU_tibet_events.1.a"
+        add_country_modifier = {
+            name = ASU_tibet_pierce_the_heavens
+            duration = -1
+        }
+        ai_chance = {            # the AI does not take the event without
+			factor = 100
+		}
+	}
+}
+
+country_event = { #Divine State of Tibet
+	id = ASU_tibet_events.2
+	title = "ASU_tibet_events.2.t"
+	desc = "ASU_tibet_events.2.d"
+	picture = REFORM_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "ASU_tibet_events.2.a"
+        override_country_name = DIVINE_TIBET
+        set_government_rank = 3
+        add_country_modifier = {
+            name = ASU_tibet_divine_tibet
+            duration = -1
+        }
+       
+        ai_chance = {            # the AI does not take the event without
+			factor = 100
+		}
+	}
+}
+
+country_event = { #Tibetian Wool
+	id = ASU_tibet_events.3
+	title = "ASU_tibet_events.3.t"
+	desc = "ASU_tibet_events.3.d"
+	picture = REFORM_eventPicture
+	is_triggered_only = yes
+    major = yes # Notification for Everyone
+	option = {
+		name = "ASU_tibet_events.3.a"
+        change_price = {
+			trade_goods = wool
+			key = ASU_TIBET_WOOL
+			value = 0.2
+			duration = -1
+		}
+        ai_chance = {            # the AI does not take the event without
+			factor = 100
+		}
+	}
+}
+
+country_event = { #Pasighat Valley
+	id = ASU_tibet_events.4
+	title = "ASU_tibet_events.4.t"
+	desc = "ASU_tibet_events.4.d"
+	picture = REFORM_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "ASU_tibet_events.4.a"
+        5881 = {
+            add_province_modifier = {
+                name = ASU_tibet_pasighat_valley
+                duration = -1
+            }
+        }
+        add_years_of_owned_provinces_production_income = {
+			years = 10
+			trigger = {
+				trade_goods = cloth
+			}
+		}
+        ai_chance = {            # the AI does not take the event without
+			factor = 100
+		}
+	}
+}
+
+country_event = { #The Roof of the World
+	id = ASU_tibet_events.5
+	title = "ASU_tibet_events.5.t"
+	desc = "ASU_tibet_events.5.d"
+	picture = REFORM_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "ASU_tibet_events.5.a"
+        677 = {
+            add_province_modifier = {
+                name = ASU_tibet_roof_of_the_world
+                duration = -1
+            }
+        }
+        ai_chance = {            # the AI does not take the event without
+			factor = 100
+		}
+	}
+}
+
+country_event = { #Humanistic Religion
+	id = ASU_tibet_events.6
+	title = "ASU_tibet_events.6.t"
+	desc = "ASU_tibet_events.6.d"
+	picture = REFORM_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "ASU_tibet_events.6.a"
+        add_country_modifier = {
+            name = ASU_tibet_humanism
+            duration = -1
+        }
+        ai_chance = {            # the AI does not take the event without
+			factor = 100
+		}
+	}
+}
+
+country_event = { #Tibetian Fort
+	id = ASU_tibet_events.7
+	title = "ASU_tibet_events.7.t"
+	desc = "ASU_tibet_events.7.d"
+	picture = REFORM_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "ASU_tibet_events.7.a"
+        add_country_modifier = {
+            name = ASU_tibet_fort
+            duration = -1
+        }
+        ai_chance = {            # the AI does not take the event without
+			factor = 100
+		}
+	}
+}
+
+country_event = { #Tibetian Goldmine
+	id = ASU_tibet_events.8
+	title = "ASU_tibet_events.8.t"
+	desc = "ASU_tibet_events.8.d"
+	picture = REFORM_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "ASU_tibet_events.8.a"
+        2121 = {
+            add_province_modifier = {
+                name = ASU_tibet_kuqa_goldmine
+                duration = -1
+            }
+        }
+        add_years_of_owned_provinces_production_income = {
+			years = 10
+			trigger = {
+				trade_goods = gold
+			}
+		}
+        ai_chance = {            # the AI does not take the event without
+			factor = 100
+		}
+	}
+}
+
+country_event = { #Tibetian Gems
+	id = ASU_tibet_events.9
+	title = "ASU_tibet_events.9.t"
+	desc = "ASU_tibet_events.9.d"
+	picture = REFORM_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "ASU_tibet_events.9.a"
+        710 = {
+            add_province_modifier = {
+                name = ASU_tibet_hotan_gems
+                duration = -1
+            }
+        }
+        add_years_of_owned_provinces_production_income = {
+			years = 10
+			trigger = {
+				trade_goods = gems
+			}
+		}
+        ai_chance = {            # the AI does not take the event without
+			factor = 100
+		}
+	}
+}

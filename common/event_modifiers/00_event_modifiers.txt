@@ -12345,3 +12345,39 @@ ASU_dzungar_salt_production = {
 ASU_siam_asian_ivory = {
 	trade_goods_size = 2
 }
+
+# TIBET
+
+ASU_tibet_pierce_the_heavens = {
+	tax_income = 120
+	land_morale = 0.1
+}
+
+ASU_tibet_divine_tibet = {
+	tax_income = 120
+}
+
+ASU_tibet_pasighat_valley = {
+	trade_goods_size = 3
+}
+
+ASU_tibet_roof_of_the_world = {
+	trade_goods_size = 3
+}
+
+ASU_tibet_humanism = {
+	technology_cost = -0.05
+	idea_cost = -0.05
+}
+
+ASU_tibet_fort = {
+	fort_maintenance_modifier = -0.33
+}
+
+ASU_tibet_kuqa_goldmine = {
+	trade_goods_size = 1
+}
+
+ASU_tibet_hotan_gems = {
+	trade_goods_size = 2
+}

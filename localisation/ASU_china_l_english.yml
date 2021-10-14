@@ -62,6 +62,10 @@
  PARADIS_name_ADJ:0 "Paradis"
  PARADIS_name_ADJ2:0 "Paradis"
 
+ DIVINE_TIBET:0 "Divine Tibet"
+ DIVINE_TIBET_ADJ:0 "Divine"
+ DIVINE_TIBET_ADJ2:0 "Divine"
+
  declare_great_ming_title:0 "Start a legendary bloodline"
  declare_great_ming_desc:0 "We have risen beyond our expectations, we survived many threats and problems. We truly have legendary blood."
 

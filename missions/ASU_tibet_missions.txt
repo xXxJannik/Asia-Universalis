@@ -1,0 +1,888 @@
+ASU_tibet_branch_1 = {
+    slot = 1
+    generic = no
+    ai = no
+    potential = {
+        OR = {
+            tag = XTS
+            tag = XTB
+        }
+    }
+    has_country_shield = yes
+
+    ASU_tibet_mission_1 = {
+        icon = default
+        required_missions = {  }
+        position = 2
+
+        provinces_to_highlight = {
+
+        }
+
+        trigger = {
+            treasury = 1500
+        }
+
+        effect = {
+            add_treasury = -1500
+            5888 = { cede_province = ROOT }
+            5887 = { cede_province = ROOT }
+            5891 = { cede_province = ROOT }
+            5884 = { cede_province = ROOT }
+            5900 = { cede_province = ROOT }
+            5883 = { cede_province = ROOT }
+            5899 = { cede_province = ROOT }
+            5885 = { cede_province = ROOT }
+            5886 = { cede_province = ROOT }
+            5924 = { cede_province = ROOT }
+            5890 = { cede_province = ROOT }
+            5893 = { cede_province = ROOT }
+            5922 = { cede_province = ROOT }
+            5896 = { cede_province = ROOT }
+        }
+    }
+    ASU_tibet_mission_2 = {
+        icon = default
+        required_missions = {  }
+        position = 4
+
+        provinces_to_highlight = {
+
+        }
+
+        trigger = {
+            full_idea_group = humanist_ideas
+        }
+
+        effect = {
+            country_event = { #Humanistic Religion
+                id = ASU_tibet_events.6
+            }
+        }
+    }
+} #Ende Branch 1
+
+ASU_tibet_branch_2 = {
+    slot = 2
+    generic = no
+    ai = no
+    potential = {
+        OR = {
+            tag = XTS
+            tag = XTB
+        }
+    }
+    has_country_shield = yes
+
+    ASU_tibet_mission_3 = {
+        icon = default
+        required_missions = {  }
+        position = 2
+
+        provinces_to_highlight = {
+            OR = {
+                province_id = 4516
+                province_id = 4514
+                province_id = 4517
+                province_id = 2132
+                province_id = 5913
+                province_id = 2074
+            }
+        }
+
+        trigger = {
+            4516 = {
+                owned_by = ROOT
+                OR = {
+                    has_building = fort_15th
+                    has_building = fort_16th
+                    has_building = fort_17th
+                    has_building = fort_18th
+                }
+            }
+            4514 = {
+                owned_by = ROOT
+                OR = {
+                    has_building = fort_15th
+                    has_building = fort_16th
+                    has_building = fort_17th
+                    has_building = fort_18th
+                }
+            }
+            4517 = {
+                owned_by = ROOT
+                OR = {
+                    has_building = fort_15th
+                    has_building = fort_16th
+                    has_building = fort_17th
+                    has_building = fort_18th
+                }
+            }
+            2132 = {
+                owned_by = ROOT
+                OR = {
+                    has_building = fort_15th
+                    has_building = fort_16th
+                    has_building = fort_17th
+                    has_building = fort_18th
+                }
+            }
+            5913 = {
+                owned_by = ROOT
+                OR = {
+                    has_building = fort_15th
+                    has_building = fort_16th
+                    has_building = fort_17th
+                    has_building = fort_18th
+                }
+            }
+            2074 = {
+                owned_by = ROOT
+                OR = {
+                    has_building = fort_15th
+                    has_building = fort_16th
+                    has_building = fort_17th
+                    has_building = fort_18th
+                }
+            }
+        }
+
+        effect = {
+            add_mil_power = 200
+        }
+    }
+    ASU_tibet_mission_4 = {
+        icon = default
+        required_missions = { ASU_tibet_mission_3 }
+        position = 3
+
+        provinces_to_highlight = {
+            OR = {
+                province_id = 739
+                province_id = 2192
+                province_id = 711
+                province_id = 706
+                province_id = 4204
+                province_id = 2134
+            }
+        }
+
+        trigger = {
+            739 = {
+                owned_by = ROOT
+                OR = {
+                    has_building = fort_15th
+                    has_building = fort_16th
+                    has_building = fort_17th
+                    has_building = fort_18th
+                }
+            }
+            2192 = {
+                owned_by = ROOT
+                OR = {
+                    has_building = fort_15th
+                    has_building = fort_16th
+                    has_building = fort_17th
+                    has_building = fort_18th
+                }
+            }
+            711 = {
+                owned_by = ROOT
+                OR = {
+                    has_building = fort_15th
+                    has_building = fort_16th
+                    has_building = fort_17th
+                    has_building = fort_18th
+                }
+            }
+            706 = {
+                owned_by = ROOT
+                OR = {
+                    has_building = fort_15th
+                    has_building = fort_16th
+                    has_building = fort_17th
+                    has_building = fort_18th
+                }
+            }
+            4204 = {
+                owned_by = ROOT
+                OR = {
+                    has_building = fort_15th
+                    has_building = fort_16th
+                    has_building = fort_17th
+                    has_building = fort_18th
+                }
+            }
+            2134 = {
+                owned_by = ROOT
+                OR = {
+                    has_building = fort_15th
+                    has_building = fort_16th
+                    has_building = fort_17th
+                    has_building = fort_18th
+                }
+            }
+        }
+
+        effect = {
+            country_event = { #Tibetian Fort
+                id = ASU_tibet_events.7
+            }
+        }
+    }
+} #Ende Branch 2
+
+ASU_tibet_branch_3 = {
+    slot = 3
+    generic = no
+    ai = no
+    potential = {
+        OR = {
+            tag = XTS
+            tag = XTB
+        }
+    }
+    has_country_shield = yes
+
+    ASU_tibet_mission_5 = {
+        icon = default
+        required_missions = { ASU_tibet_mission_7 }
+        position = 3
+
+        provinces_to_highlight = {
+            province_id = 2074
+        }
+
+        trigger = {
+            2074 = {
+                owned_by = ROOT
+            }
+        }
+
+        effect = {
+            add_mil_power = 50
+        }
+    }
+    ASU_tibet_mission_6 = {
+        icon = default
+        required_missions = {  }
+        position = 5
+
+        provinces_to_highlight = {
+            province_id = 677
+        }
+
+        trigger = {
+            677 = {
+                development = 30
+				has_great_project = {
+					type = palace_potala
+					tier = 3
+				}
+			}
+        }
+
+        effect = {
+            country_event = { #Pierce the Heavens
+                id = ASU_tibet_events.1
+            }
+        }
+    }
+} #Ende Branch 3
+
+ASU_tibet_branch_4 = {
+    slot = 4
+    generic = no
+    ai = no
+    potential = {
+        OR = {
+            tag = XTS
+            tag = XTB
+        }
+    }
+    has_country_shield = yes
+
+    ASU_tibet_mission_7 = {
+        icon = default
+        required_missions = { ASU_tibet_mission_9 }
+        position = 2
+
+        provinces_to_highlight = {
+            OR = {
+                area = ngari_area
+                area = cuona_area
+            }
+        }
+
+        trigger = {
+            ngari_area = {
+                type = all
+                owned_by = ROOT
+            }
+            cuona_area = {
+                type = all
+                owned_by = ROOT
+            }
+        }
+
+        effect = {
+            2074 = {
+                add_permanent_claim = ROOT
+            }
+            shanshan_area = {
+                add_permanent_claim = ROOT
+            }
+            shiyou_area = {
+                add_permanent_claim = ROOT
+            }
+            bayingolin_area = {
+                add_permanent_claim = ROOT
+            }
+            tarim_basin_area = {
+                add_permanent_claim = ROOT
+            }
+            kashgaria_area = {
+                add_permanent_claim = ROOT
+            }
+        }
+    }
+    ASU_tibet_mission_8 = {
+        icon = default
+        required_missions = { ASU_tibet_mission_7 }
+        position = 3
+
+        provinces_to_highlight = {
+            OR = {
+                area = shanshan_area
+                area = shiyou_area
+                area = bayingolin_area
+                area = tarim_basin_area
+                area = kashgaria_area
+            }
+        }
+
+        trigger = {
+            shanshan_area = {
+                type = all
+                owned_by = ROOT
+            }
+            shiyou_area = {
+                type = all
+                owned_by = ROOT
+            }
+            bayingolin_area = {
+                type = all
+                owned_by = ROOT
+            }
+            tarim_basin_area = {
+                type = all
+                owned_by = ROOT
+            }
+            kashgaria_area = {
+                type = all
+                owned_by = ROOT
+            }
+        }
+
+        effect = {
+            add_adm_power = 50
+            add_dip_power = 50
+            add_mil_power = 50
+        }
+    }
+} #Ende Branch 4
+
+ASU_tibet_branch_5 = {
+    slot = 5
+    generic = no
+    ai = no
+    potential = {
+        OR = {
+            tag = XTS
+            tag = XTB
+        }
+    }
+    has_country_shield = yes
+
+    ASU_tibet_mission_9 = {
+        icon = default
+        required_missions = {  }
+        position = 1
+
+        provinces_to_highlight = {
+
+        }
+
+        trigger = {
+            army_size = 12
+        }
+
+        effect = {
+            ngari_area = {
+                add_permanent_claim = ROOT
+            }
+            cuona_area = {
+                add_permanent_claim = ROOT
+            }
+            4517 = {
+                add_permanent_claim = ROOT
+            }
+            bhutan_area = {
+                add_permanent_claim = ROOT
+            }
+            5882 = {
+                add_permanent_claim = ROOT
+            }
+            705 = {
+                add_permanent_claim = ROOT
+            }
+            kham_area = {
+                add_permanent_claim = ROOT
+            }
+            dabba_area = {
+                add_permanent_claim = ROOT
+            }
+        }
+    }
+    ASU_tibet_mission_10 = {
+        icon = default
+        required_missions = { ASU_tibet_mission_9 }
+        position = 2
+
+        provinces_to_highlight = {
+            OR = {
+                province_id = 4517
+                area = bhutan_area
+            }
+        }
+
+        trigger = {
+            4517 = {
+                owned_by = ROOT
+            }
+            bhutan_area = {
+                type = all
+                owned_by = ROOT
+            }
+        }
+
+        effect = {
+            add_yearly_manpower = 2.5
+            add_treasury = 250
+        }
+    }
+    ASU_tibet_mission_11 = {
+        icon = default
+        required_missions = { ASU_tibet_mission_10 }
+        position = 3
+
+        provinces_to_highlight = {
+            province_id = 565
+        }
+
+        trigger = {
+            565 = {
+                owned_by = ROOT
+                OR = {
+                    has_building = fort_15th
+                    has_building = fort_16th
+                    has_building = fort_17th
+                    has_building = fort_18th
+                }
+            }
+        }
+
+        effect = {
+            add_mil_power = 50
+        }
+    }
+    ASU_tibet_mission_12 = {
+        icon = default
+        required_missions = {  }
+        position = 5
+
+        provinces_to_highlight = {
+
+        }
+
+        trigger = {
+            total_development = 2000
+            tag = XTB
+        }
+
+        effect = {
+            country_event = { #Divine State of Tibet
+                id = ASU_tibet_events.2
+            }
+        }
+    }
+} #Ende Branch 5
+
+ASU_tibet_branch_6 = {
+    slot = 6
+    generic = no
+    ai = no
+    potential = {
+        OR = {
+            tag = XTS
+            tag = XTB
+        }
+    }
+    has_country_shield = yes
+
+    ASU_tibet_mission_13 = {
+        icon = default
+        required_missions = { ASU_tibet_mission_9 }
+        position = 2
+
+        provinces_to_highlight = {
+            OR = {
+                province_id = 5882
+                province_id = 705
+                area = kham_area
+                area = dabba_area
+            }
+        }
+
+        trigger = {
+            5882 = {
+                owned_by = ROOT
+            }
+            705 = {
+                owned_by = ROOT
+            }
+            kham_area = {
+                type = all
+                owned_by = ROOT
+            }
+            dabba_area = {
+                type = all
+                owned_by = ROOT
+            }
+        }
+
+        effect = {
+            jigaxiang_area = {
+                add_permanent_claim = ROOT
+            }
+            sedixang_area = {
+                add_permanent_claim = ROOT
+            }
+            haixi_area = {
+                add_permanent_claim = ROOT
+            }
+            dabusun_area = {
+                add_permanent_claim = ROOT
+            }
+            subei_area = {
+                add_permanent_claim = ROOT
+            }
+        }
+    }
+    ASU_tibet_mission_14 = {
+        icon = default
+        required_missions = { ASU_tibet_mission_13 }
+        position = 3
+
+        provinces_to_highlight = {
+            area = jigaxiang_area
+        }
+
+        trigger = {
+            jigaxiang_area = {
+                type = all
+                owned_by = ROOT
+            }
+        }
+
+        effect = {
+            add_mil_power = 50
+        }
+    }
+} #Ende Branch 6
+
+ASU_tibet_branch_7 = {
+    slot = 7
+    generic = no
+    ai = no
+    potential = {
+        OR = {
+            tag = XTS
+            tag = XTB
+        }
+    }
+    has_country_shield = yes
+
+    ASU_tibet_mission_15 = {
+        icon = default
+        required_missions = { ASU_tibet_mission_13 }
+        position = 3
+
+        provinces_to_highlight = {
+            OR = {
+                area = subei_area
+                area = haixi_area
+                area = dabusun_area
+            }
+        }
+
+        trigger = {
+            subei_area = {
+                type = all
+                owned_by = ROOT
+            }
+            haixi_area = {
+                type = all
+                owned_by = ROOT
+            }
+            dabusun_area = {
+                type = all
+                owned_by = ROOT
+            }
+        }
+
+        effect = {
+            add_yearly_manpower = 2.5
+            add_treasury = 250
+        }
+    }
+    ASU_tibet_mission_16 = {
+        icon = default
+        required_missions = {  }
+        position = 5
+
+        provinces_to_highlight = {
+            province_id = 2121
+        }
+
+        trigger = {
+            2121 = {
+                owned_by = ROOT
+                base_production = 8
+            }
+        }
+
+        effect = {
+            country_event = { #Tibetian Gold
+                id = ASU_tibet_events.8
+            }
+        }
+    }
+} #Ende Branch 7
+
+ASU_tibet_branch_8 = {
+    slot = 8
+    generic = no
+    ai = no
+    potential = {
+        OR = {
+            tag = XTS
+            tag = XTB
+        }
+    }
+    has_country_shield = yes
+
+    ASU_tibet_mission_17 = {
+        icon = default
+        required_missions = {  }
+        position = 2
+
+        provinces_to_highlight = {
+            province_id = 5881
+        }
+
+        trigger = {
+            5881 = {
+                owned_by = ROOT
+                development = 30
+            }
+        }
+
+        effect = {
+            country_event = { #Pasighat Valley
+                id = ASU_tibet_events.4
+            }
+        }
+    }
+    ASU_tibet_mission_18 = {
+        icon = default
+        required_missions = { ASU_tibet_mission_17 }
+        position = 3
+
+        provinces_to_highlight = {
+            province_id = 5881
+        }
+
+        trigger = {
+            5881 = {
+                owned_by = ROOT
+                development = 30
+                OR = {
+                    has_building = workshop
+                    has_building = counting_house
+                }
+                OR = {
+                    has_building = barracks
+                    has_building = training_fields
+                }
+                has_building = temple
+                has_manufactory_trigger = yes
+            }
+        }
+
+        effect = {
+            add_years_of_income = 2.5
+        }
+    }
+    ASU_tibet_mission_19 = {
+        icon = default
+        required_missions = {  }
+        position = 5
+
+        provinces_to_highlight = {
+            province_id = 710
+        }
+
+        trigger = {
+            710 = {
+                owned_by = ROOT
+                development = 20
+            }
+        }
+
+        effect = {
+            country_event = { #Tibetian Gems
+                id = ASU_tibet_events.9
+            }
+        }
+    }
+} #Ende Branch 8
+
+ASU_tibet_branch_9 = {
+    slot = 9
+    generic = no
+    ai = no
+    potential = {
+        OR = {
+            tag = XTS
+            tag = XTB
+        }
+    }
+    has_country_shield = yes
+
+    ASU_tibet_mission_20 = {
+        icon = default
+        required_missions = {  }
+        position = 2
+
+        provinces_to_highlight = {
+            province_id = 677
+        }
+
+        trigger = {
+            677 = {
+                owned_by = ROOT
+                development = 30
+            }
+        }
+
+        effect = {
+            country_event = { #The Roof of the World
+                id = ASU_tibet_events.5
+            }
+        }
+    }
+    ASU_tibet_mission_21 = {
+        icon = default
+        required_missions = { ASU_tibet_mission_20 }
+        position = 3
+
+        provinces_to_highlight = {
+            province_id = 677
+        }
+
+        trigger = {
+            677 = {
+                owned_by = ROOT
+                development = 30
+                OR = {
+                    has_building = workshop
+                    has_building = counting_house
+                }
+                OR = {
+                    has_building = barracks
+                    has_building = training_fields
+                }
+                has_building = temple
+                has_manufactory_trigger = yes
+                province_has_center_of_trade_of_level = 3
+            }
+        }
+
+        effect = {
+            add_years_of_income = 2.5
+        }
+    }
+    ASU_tibet_mission_22 = {
+        icon = default
+        required_missions = { ASU_tibet_mission_18 ASU_tibet_mission_21 ASU_tibet_mission_23}
+        position = 4
+
+        provinces_to_highlight = {
+
+        }
+
+        trigger = {
+            production_leader = {
+	            trade_goods = wool
+            }
+        }
+
+        effect = {
+            country_event = { #Tibetian Wool Production
+                id = ASU_tibet_events.3
+            }
+        }
+    }
+} #Ende Branch 9
+
+ASU_tibet_branch_10 = {
+    slot = 10
+    generic = no
+    ai = no
+    potential = {
+        OR = {
+            tag = XTS
+            tag = XTB
+        }
+    }
+    has_country_shield = yes
+
+    ASU_tibet_mission_23 = {
+        icon = default
+        required_missions = {  }
+        position = 3
+
+        provinces_to_highlight = {
+
+        }
+
+        trigger = {
+            num_of_owned_provinces_with = {
+                value = 20
+                trade_goods = wool
+                has_manufactory_trigger = yes
+                has_building = workshop
+            }
+        }
+
+        effect = {
+            add_years_of_owned_provinces_production_income = {
+				years = 10
+				trigger = {
+					trade_goods = wool
+				}
+			} 
+        }
+    }
+} #Ende Branch 10
