@@ -11,7 +11,7 @@ ASU_per_branch_1 = {
 	has_country_shield = yes
 
 	ASU_per_mission_1 = {
-		icon = default
+		icon = mission_into_arabia
 		required_missions = {  }
 		position = 1
 
@@ -31,7 +31,7 @@ ASU_per_branch_1 = {
 		}
 	}
     ASU_per_mission_2 = {
-		icon = default
+		icon = mission_subdue_rajputana
 		required_missions = {  }
 		position = 2
 
@@ -67,7 +67,7 @@ ASU_per_branch_2 = {
 	has_country_shield = yes
 
     ASU_per_mission_3 = {
-		icon = default
+		icon = mission_landsknecht_soldier
 		required_missions = { ASU_per_mission_2 }
 		position = 3
 
@@ -91,7 +91,7 @@ ASU_per_branch_2 = {
 	}
 
     ASU_per_mission_4 = {
-		icon = default
+		icon = mission_occupy_alexandria
 		required_missions = { ASU_per_mission_7 }
 		position = 6
 
@@ -111,7 +111,7 @@ ASU_per_branch_2 = {
 		}
 	}
     ASU_per_mission_5 = {
-		icon = default
+		icon = mission_high_income
 		required_missions = { ASU_per_mission_4 }
 		position = 7
 
@@ -152,7 +152,7 @@ ASU_per_branch_3 = {
 	has_country_shield = yes
 
     ASU_per_mission_6 = {
-		icon = default
+		icon = mission_raid_on_genoa
 		required_missions = { ASU_per_mission_10 }
 		position = 4
 
@@ -173,7 +173,7 @@ ASU_per_branch_3 = {
 		}
 	}
     ASU_per_mission_7 = {
-		icon = default
+		icon = mission_levantine_restoration
 		required_missions = { ASU_per_mission_6 }
 		position = 5
 
@@ -198,7 +198,7 @@ ASU_per_branch_3 = {
 		}
 	}
     ASU_per_mission_8 = {
-		icon = default
+		icon = mission_unite_home_region
 		required_missions = { ASU_per_mission_7 }
 		position = 6
 
@@ -233,7 +233,7 @@ ASU_per_branch_3 = {
 		}
 	}
     ASU_per_mission_9 = {
-		icon = default
+		icon = mission_into_africa
 		required_missions = { ASU_per_mission_8 }
 		position = 7
 
@@ -281,7 +281,7 @@ ASU_per_branch_4 = {
 	has_country_shield = yes
 
     ASU_per_mission_10 = {
-		icon = default
+		icon = mission_control_surat
 		required_missions = { ASU_per_mission_15 }
 		position = 3
 
@@ -306,7 +306,7 @@ ASU_per_branch_4 = {
 		}
 	}
     ASU_per_mission_11 = {
-		icon = default
+		icon = mission_conquer_50_development
 		required_missions = { ASU_per_mission_10 }
 		position = 4
 
@@ -328,7 +328,7 @@ ASU_per_branch_4 = {
 		}
 	}
     ASU_per_mission_12 = {
-		icon = default
+		icon = mission_persian_soldiers
 		required_missions = { ASU_per_mission_11 }
 		position = 5
 
@@ -348,7 +348,7 @@ ASU_per_branch_4 = {
 		}
 	}
     ASU_per_mission_13 = {
-		icon = default
+		icon = mission_war_chest
 		required_missions = { ASU_per_mission_8 }
 		position = 7
 
@@ -381,7 +381,7 @@ ASU_per_branch_5 = {
 	has_country_shield = yes
 
     ASU_per_mission_14 = {
-		icon = default
+		icon = mission_the_ganges_campaign
 		required_missions = {  }
 		position = 1
 
@@ -400,7 +400,7 @@ ASU_per_branch_5 = {
 		}
 	}
     ASU_per_mission_15 = {
-		icon = default
+		icon = mission_the_battle_for_raichur
 		required_missions = { ASU_per_mission_14 }
 		position = 2
 
@@ -431,7 +431,7 @@ ASU_per_branch_5 = {
 		}
 	}
     ASU_per_mission_16 = {
-		icon = default
+		icon = mission_eliminate_pretenders
 		required_missions = { ASU_per_mission_15 }
 		position = 3
 
@@ -456,7 +456,7 @@ ASU_per_branch_5 = {
 		}
 	}
     ASU_per_mission_17 = {
-		icon = default
+		icon = mission_empire
 		required_missions = { ASU_per_mission_16 }
 		position = 4
 
@@ -475,7 +475,7 @@ ASU_per_branch_5 = {
 		}
 	}
     ASU_per_mission_18 = {
-		icon = default
+		icon = mission_expel_the_moriscos
 		required_missions = { ASU_per_mission_17 }
 		position = 5
 
@@ -508,7 +508,7 @@ ASU_per_branch_6 = {
 	has_country_shield = yes
 
     ASU_per_mission_19 = {
-		icon = default
+		icon = mission_persian_soldiers
 		required_missions = { ASU_per_mission_15 }
 		position = 3
 
@@ -533,7 +533,7 @@ ASU_per_branch_6 = {
 		}
 	}
     ASU_per_mission_20 = {
-		icon = default
+		icon = mission_impaled_soldies
 		required_missions = { ASU_per_mission_19 }
 		position = 4
 
@@ -554,7 +554,7 @@ ASU_per_branch_6 = {
 		}
 	}
     ASU_per_mission_21 = {
-		icon = default
+		icon = mission_landsknecht_soldier
 		required_missions = { ASU_per_mission_20 }
 		position = 6
 
@@ -588,7 +588,7 @@ ASU_per_branch_7 = {
 	has_country_shield = yes
 
     ASU_per_mission_22 = {
-		icon = default
+		icon = mission_control_the_ganges_delta
 		required_missions = { ASU_per_mission_19 }
 		position = 4
 
@@ -613,7 +613,7 @@ ASU_per_branch_7 = {
 		}
 	}
     ASU_per_mission_23 = {
-		icon = default
+		icon = mission_unite_home_region
 		required_missions = { ASU_per_mission_22 }
 		position = 5
 
@@ -635,7 +635,7 @@ ASU_per_branch_7 = {
 		}
 	}
     ASU_per_mission_24 = {
-		icon = default
+		icon = mission_rb_monopolize_the_channel
 		required_missions = { ASU_per_mission_23 ASU_per_mission_26 }
 		position = 6
 
@@ -660,7 +660,7 @@ ASU_per_branch_7 = {
 		}
 	}
     ASU_per_mission_25 = {
-		icon = default
+		icon = mission_persian_soldiers
 		required_missions = { ASU_per_mission_24 }
 		position = 7
 
@@ -694,7 +694,7 @@ ASU_per_branch_8 = {
 	has_country_shield = yes
 
     ASU_per_mission_26 = {
-		icon = default
+		icon = mission_arabian_fort
 		required_missions = { ASU_per_mission_22 }
 		position = 5
 
@@ -714,7 +714,7 @@ ASU_per_branch_8 = {
 		}
 	}
     ASU_per_mission_27 = {
-		icon = default
+		icon = mission_conquer_50_development
 		required_missions = { ASU_per_mission_24 }
 		position = 7
 
@@ -739,7 +739,7 @@ ASU_per_branch_8 = {
 		}
 	}
     ASU_per_mission_28 = {
-		icon = default
+		icon = mission_unite_home_region
 		required_missions = { ASU_per_mission_27 }
 		position = 8
 
@@ -761,7 +761,7 @@ ASU_per_branch_8 = {
 		}
 	}
     ASU_per_mission_29 = {
-		icon = default
+		icon = mission_abu_saids_dream
 		required_missions = { ASU_per_mission_28 }
 		position = 9
 
@@ -792,7 +792,7 @@ ASU_per_branch_8 = {
 		}
 	}
     ASU_per_mission_30 = {
-		icon = default
+		icon = mission_afghan_frontier
 		required_missions = { ASU_per_mission_29 }
 		position = 10
 
@@ -846,7 +846,7 @@ ASU_per_branch_9 = {
 	has_country_shield = yes
 
     ASU_per_mission_31 = {
-		icon = default
+		icon = mission_colonial
 		required_missions = {  }
 		position = 3
 
@@ -868,7 +868,7 @@ ASU_per_branch_9 = {
 		}
 	}
     ASU_per_mission_32 = {
-		icon = default
+		icon = dominant_economy
 		required_missions = { ASU_per_mission_31 }
 		position = 4
 
@@ -885,7 +885,7 @@ ASU_per_branch_9 = {
 		}
 	}
     ASU_per_mission_33 = {
-		icon = default
+		icon = mission_subdue_the_afghans
 		required_missions = { ASU_per_mission_32 }
 		position = 5
 
@@ -904,7 +904,7 @@ ASU_per_branch_9 = {
 		}
 	}
     ASU_per_mission_34 = {
-		icon = default
+		icon = mission_order_in_the_domain
 		required_missions = { ASU_per_mission_27 }
 		position = 8
 
@@ -926,7 +926,7 @@ ASU_per_branch_9 = {
 		}
 	}
     ASU_per_mission_35 = {
-		icon = default
+		icon = mission_reclaim_lost_territory
 		required_missions = { ASU_per_mission_34 }
 		position = 9
 
@@ -960,7 +960,7 @@ ASU_per_branch_10 = {
 	has_country_shield = yes
 
     ASU_per_mission_36 = {
-		icon = default
+		icon = mission_across_the_vindhyas
 		required_missions = {  }
 		position = 2
 
