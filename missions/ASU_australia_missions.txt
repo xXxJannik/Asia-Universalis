@@ -8,7 +8,7 @@ ASU_australia_branch_1 = {
     has_country_shield = yes
 
     ASU_australia_mission_1 = {
-        icon = default
+        icon = mission_invade_island
 		required_missions = {  }
 		position = 2
 
@@ -27,7 +27,7 @@ ASU_australia_branch_1 = {
 		}
     }
     ASU_australia_mission_2 = {
-        icon = default
+        icon = mission_clear_the_delta
 		required_missions = { ASU_australia_mission_1 }
 		position = 3
 
@@ -49,7 +49,7 @@ ASU_australia_branch_1 = {
 		}
     }
     ASU_australia_mission_3 = {
-        icon = default
+        icon = mission_galleys_in_port
 		required_missions = { ASU_australia_mission_2 }
 		position = 4
 
@@ -71,7 +71,7 @@ ASU_australia_branch_1 = {
 		}
     }
     ASU_australia_mission_4 = {
-        icon = default
+        icon = mission_rb_colonise_spice_islands
 		required_missions = { ASU_australia_mission_3 }
 		position = 5
 
@@ -118,7 +118,7 @@ ASU_australia_branch_2 = {
     has_country_shield = yes
 
     ASU_australia_mission_5 = {
-        icon = default
+        icon = mission_che_the_cave_country
 		required_missions = { ASU_australia_mission_1 }
 		position = 3
 
@@ -140,7 +140,7 @@ ASU_australia_branch_2 = {
 		}
     }
     ASU_australia_mission_6 = {
-        icon = default
+        icon = mission_rb_colonise_spice_islands
 		required_missions = { ASU_australia_mission_2 }
 		position = 4
 
@@ -160,7 +160,7 @@ ASU_australia_branch_2 = {
 		}
     }
     ASU_australia_mission_7 = {
-        icon = default
+        icon = mission_recruit_streltsy
 		required_missions = { ASU_australia_mission_4 }
 		position = 6
 
@@ -191,7 +191,7 @@ ASU_australia_branch_3 = {
     has_country_shield = yes
 
     ASU_australia_mission_8 = {
-        icon = default
+        icon = mission_colonial
 		required_missions = { ASU_australia_mission_11 }
 		position = 5
 
@@ -213,7 +213,7 @@ ASU_australia_branch_3 = {
 		}
     }
     ASU_australia_mission_9 = {
-        icon = default
+        icon = mission_galleys_in_port
 		required_missions = { ASU_australia_mission_8 }
 		position = 5
 
@@ -246,7 +246,7 @@ ASU_australia_branch_4 = {
     has_country_shield = yes
 
     ASU_australia_mission_10 = {
-        icon = default
+        icon = mission_early_game_buildings
 		required_missions = { ASU_australia_mission_15 }
 		position = 3
 
@@ -268,7 +268,7 @@ ASU_australia_branch_4 = {
 		}
     }
     ASU_australia_mission_11 = {
-        icon = default
+        icon = mission_kowtow
 		required_missions = { ASU_australia_mission_10 }
 		position = 4
 
@@ -290,7 +290,7 @@ ASU_australia_branch_4 = {
 		}
     }
     ASU_australia_mission_12 = {
-        icon = default
+        icon = fixed_garrison_system
 		required_missions = { ASU_australia_mission_18 }
 		position = 6
 
@@ -310,7 +310,7 @@ ASU_australia_branch_4 = {
 		}
     }
     ASU_australia_mission_13 = {
-        icon = default
+        icon = mission_trade_with_cathay
 		required_missions = { ASU_australia_mission_12 }
 		position = 7
 
@@ -341,7 +341,7 @@ ASU_australia_branch_5 = {
     has_country_shield = yes
 
     ASU_australia_mission_14 = {
-        icon = default
+        icon = mission_establish_high_seas_navy
 		required_missions = {  }
 		position = 1
 
@@ -360,7 +360,7 @@ ASU_australia_branch_5 = {
 		}
     }
     ASU_australia_mission_15 = {
-        icon = default
+        icon = mission_rice_field
 		required_missions = { ASU_australia_mission_14 }
 		position = 2
 
@@ -377,7 +377,7 @@ ASU_australia_branch_5 = {
 		}
     }
     ASU_australia_mission_16 = {
-        icon = default
+        icon = mission_advance_to_the_dnieper
 		required_missions = { ASU_australia_mission_15 }
 		position = 3
 
@@ -399,7 +399,7 @@ ASU_australia_branch_5 = {
 		}
     }
     ASU_australia_mission_17 = {
-        icon = default
+        icon = mission_colonial
 		required_missions = { ASU_australia_mission_16 }
 		position = 4
 
@@ -421,7 +421,7 @@ ASU_australia_branch_5 = {
 		}
     }
     ASU_australia_mission_18 = {
-        icon = default
+        icon = mission_pue_irrigation_cannals
 		required_missions = { ASU_australia_mission_17 }
 		position = 5
 
@@ -448,7 +448,7 @@ ASU_australia_branch_5 = {
 		}
     }
     ASU_australia_mission_19 = {
-        icon = default
+        icon = mission_asian_city
 		required_missions = { ASU_australia_mission_18 }
 		position = 6
 
@@ -470,7 +470,7 @@ ASU_australia_branch_5 = {
 		}
     }
     ASU_australia_mission_20 = {
-        icon = default
+        icon = mission_great_wall
 		required_missions = { ASU_australia_mission_19 }
 		position = 7
 
@@ -526,7 +526,7 @@ ASU_australia_branch_6 = {
     has_country_shield = yes
 
     ASU_australia_mission_21 = {
-        icon = default
+        icon = mission_early_game_buildings
 		required_missions = { ASU_australia_mission_15 }
 		position = 3
 
@@ -548,7 +548,7 @@ ASU_australia_branch_6 = {
 		}
     }
     ASU_australia_mission_22 = {
-        icon = default
+        icon = mission_asian_city
 		required_missions = { ASU_australia_mission_21 }
 		position = 4
 
@@ -570,7 +570,7 @@ ASU_australia_branch_6 = {
 		}
     }
     ASU_australia_mission_23 = {
-        icon = default
+        icon = mission_colonial
 		required_missions = { ASU_australia_mission_22 }
 		position = 5
 
@@ -592,7 +592,7 @@ ASU_australia_branch_6 = {
 		}
     }
     ASU_australia_mission_24 = {
-        icon = default
+        icon = mission_scholar_officials
 		required_missions = { ASU_australia_mission_23 }
 		position = 6
 
@@ -642,7 +642,7 @@ ASU_australia_branch_7 = {
     has_country_shield = yes
 
     ASU_australia_mission_25 = {
-        icon = default
+        icon = mission_collect_yasak
 		required_missions = { ASU_australia_mission_23 }
 		position = 6
 
@@ -677,7 +677,7 @@ ASU_australia_branch_7 = {
 		}
     }
     ASU_australia_mission_26 = {
-        icon = default
+        icon = mission_develop_nevas_port
 		required_missions = { ASU_australia_mission_25 }
 		position = 7
 
@@ -724,7 +724,7 @@ ASU_australia_branch_8 = {
     has_country_shield = yes
 
     ASU_australia_mission_27 = {
-        icon = default
+        icon = mission_japanese_samurai
 		required_missions = {  }
 		position = 2
 
@@ -749,7 +749,7 @@ ASU_australia_branch_8 = {
 		}
     }
     ASU_australia_mission_28 = {
-        icon = default
+        icon = give_him_back_his_legions
 		required_missions = { ASU_australia_mission_27 }
 		position = 3
 
@@ -800,7 +800,7 @@ ASU_australia_branch_9 = {
     has_country_shield = yes
 
     ASU_australia_mission_31 = {
-        icon = default
+        icon = mission_colonial
 		required_missions = {  }
 		position = 3
 
@@ -821,7 +821,7 @@ ASU_australia_branch_9 = {
 		}
     }
     ASU_australia_mission_32 = {
-        icon = default
+        icon = mission_galleys_in_port
 		required_missions = { ASU_australia_mission_31 }
 		position = 4
 
@@ -842,7 +842,7 @@ ASU_australia_branch_9 = {
 		}
     }
     ASU_australia_mission_33 = {
-        icon = default
+        icon = mission_rb_grow_the_channel
 		required_missions = { ASU_australia_mission_32 }
 		position = 5
 
@@ -877,7 +877,7 @@ ASU_australia_branch_10 = {
     has_country_shield = yes
 
     ASU_australia_mission_29 = {
-        icon = default
+        icon = mission_crush_delhi
 		required_missions = {  }
 		position = 2
 
@@ -911,7 +911,7 @@ ASU_australia_branch_10 = {
 		}
     }
     ASU_australia_mission_30 = {
-        icon = default
+        icon = mission_defy_the_dragon
 		required_missions = { ASU_australia_mission_29 }
 		position = 3
 
