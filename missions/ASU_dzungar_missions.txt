@@ -11,7 +11,7 @@ ASU_dzungar_branch_1 = {
     has_country_shield = yes
 
     ASU_dzungar_mission_1 = {
-        icon = default
+        icon = mission_chinese_general_riding
 		required_missions = {  }
 		position = 1
 
@@ -29,7 +29,7 @@ ASU_dzungar_branch_1 = {
     }
 
     ASU_dzungar_mission_2 = {
-        icon = default
+        icon = mission_asian_trader
 		required_missions = { ASU_dzungar_mission_4 }
 		position = 4
 
@@ -67,7 +67,7 @@ ASU_dzungar_branch_2 = {
     has_country_shield = yes
 
     ASU_dzungar_mission_3 = {
-        icon = default
+        icon = dominant_economy
 		required_missions = {  }
 		position = 1
 
@@ -88,7 +88,7 @@ ASU_dzungar_branch_2 = {
     }
 
     ASU_dzungar_mission_4 = {
-        icon = default
+        icon = mission_african_gold
 		required_missions = {  }
 		position = 3
 
@@ -107,7 +107,7 @@ ASU_dzungar_branch_2 = {
     }
 
     ASU_dzungar_mission_5 = {
-        icon = default
+        icon = mission_friends_or_enemies
 		required_missions = { ASU_dzungar_mission_4 }
 		position = 4
 
@@ -119,6 +119,7 @@ ASU_dzungar_branch_2 = {
 			yustik_area = {
                 type = all
                 owned_by = ROOT
+                development = 20
             }
 		}
 
@@ -128,7 +129,7 @@ ASU_dzungar_branch_2 = {
     }
 
     ASU_dzungar_mission_6 = {
-        icon = default
+        icon = hispaniae
 		required_missions = { ASU_dzungar_mission_2 ASU_dzungar_mission_5 ASU_dzungar_mission_8 }
 		position = 5
 
@@ -166,7 +167,7 @@ ASU_dzungar_branch_3 = {
     has_country_shield = yes
 
     ASU_dzungar_mission_7 = {
-        icon = default
+        icon = mission_high_income
 		required_missions = {  }
 		position = 2
 
@@ -206,7 +207,7 @@ ASU_dzungar_branch_3 = {
     }
 
     ASU_dzungar_mission_8 = {
-        icon = default
+        icon = mission_alliances
 		required_missions = { ASU_dzungar_mission_4 }
 		position = 4
 
@@ -218,6 +219,7 @@ ASU_dzungar_branch_3 = {
 			koo_area = {
                 type = all
                 owned_by = ROOT
+                development = 20
             }
 		}
 
@@ -241,7 +243,7 @@ ASU_dzungar_branch_4 = {
     has_country_shield = yes
 
     ASU_dzungar_mission_9 = {
-        icon = default
+        icon = mission_crusade_for_varna
 		required_missions = { ASU_dzungar_mission_13 }
 		position = 3
 
@@ -262,7 +264,7 @@ ASU_dzungar_branch_4 = {
     }
 
     ASU_dzungar_mission_10 = {
-        icon = default
+        icon = consolidate_the_stadholders
 		required_missions = { ASU_dzungar_mission_9 }
 		position = 4
 
@@ -283,7 +285,7 @@ ASU_dzungar_branch_4 = {
     }
 
     ASU_dzungar_mission_11 = {
-        icon = default
+        icon = mission_cossack_cavalry
 		required_missions = { ASU_dzungar_mission_10 }
 		position = 5
 
@@ -318,7 +320,7 @@ ASU_dzungar_branch_5 = {
     has_country_shield = yes
 
     ASU_dzungar_mission_12 = {
-        icon = default
+        icon = mission_reclaim_lost_territory
 		required_missions = {  }
 		position = 1
 
@@ -337,7 +339,7 @@ ASU_dzungar_branch_5 = {
     }
 
     ASU_dzungar_mission_13 = {
-        icon = default
+        icon = mission_impaled_soldies
 		required_missions = { ASU_dzungar_mission_12 }
 		position = 2
 
@@ -360,7 +362,7 @@ ASU_dzungar_branch_5 = {
     }
 
     ASU_dzungar_mission_14 = {
-        icon = default
+        icon = mission_recruit_the_cossacks
 		required_missions = { ASU_dzungar_mission_13 }
 		position = 3
 
@@ -381,7 +383,7 @@ ASU_dzungar_branch_5 = {
     }
 
     ASU_dzungar_mission_15 = {
-        icon = default
+        icon = mission_protect_albania
 		required_missions = { ASU_dzungar_mission_14 }
 		position = 4
 
@@ -402,7 +404,7 @@ ASU_dzungar_branch_5 = {
     }
 
     ASU_dzungar_mission_16 = {
-        icon = default
+        icon = mission_bengal_campaign
 		required_missions = { ASU_dzungar_mission_15 }
 		position = 5
 
@@ -423,7 +425,7 @@ ASU_dzungar_branch_5 = {
     }
 
     ASU_dzungar_mission_17 = {
-        icon = default
+        icon = mission_non-western_cavalry_raid
 		required_missions = { ASU_dzungar_mission_16 }
 		position = 6
 
@@ -460,7 +462,7 @@ ASU_dzungar_branch_6 = {
     has_country_shield = yes
 
     ASU_dzungar_mission_18 = {
-        icon = default
+        icon = mission_break_the_tatar_yoke
 		required_missions = { ASU_dzungar_mission_13 }
 		position = 3
 
@@ -481,7 +483,7 @@ ASU_dzungar_branch_6 = {
     }
 
     ASU_dzungar_mission_19 = {
-        icon = default
+        icon = mission_into_africa
 		required_missions = { ASU_dzungar_mission_18 }
 		position = 4
 
@@ -516,7 +518,7 @@ ASU_dzungar_branch_7 = {
     has_country_shield = yes
 
     ASU_dzungar_mission_20 = {
-        icon = default
+        icon = mission_control_the_ganges_delta
 		required_missions = { ASU_dzungar_mission_18 }
 		position = 4
 
@@ -537,7 +539,7 @@ ASU_dzungar_branch_7 = {
     }
 
     ASU_dzungar_mission_21 = {
-        icon = default
+        icon = mission_unite_home_region
 		required_missions = { ASU_dzungar_mission_20 }
 		position = 5
 
@@ -572,7 +574,7 @@ ASU_dzungar_branch_8 = {
     has_country_shield = yes
 
     ASU_dzungar_mission_22 = {
-        icon = default
+        icon = mission_have_manufactories
 		required_missions = {  }
 		position = 1
 
@@ -636,7 +638,7 @@ ASU_dzungar_branch_9 = {
     has_country_shield = yes
 
     ASU_dzungar_mission_23 = {
-        icon = default
+        icon = mission_rb_settle_the_north
 		required_missions = {  }
 		position = 1
 
@@ -706,7 +708,7 @@ ASU_dzungar_branch_9 = {
     }
 
     ASU_dzungar_mission_24 = {
-        icon = default
+        icon = mission_amur_acquisition
 		required_missions = { ASU_dzungar_mission_22 ASU_dzungar_mission_23 ASU_dzungar_mission_25 }
 		position = 2
 
@@ -740,7 +742,7 @@ ASU_dzungar_branch_10 = {
     has_country_shield = yes
 
     ASU_dzungar_mission_25 = {
-        icon = default
+        icon = mission_state_manufactories
 		required_missions = {  }
 		position = 1
 
