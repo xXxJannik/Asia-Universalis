@@ -70,5 +70,19 @@ country_decisions = {
 		}
 	}
 
+	ASU_war_taxes_notification = {
+		major = yes
+		potential = {
+			ai = no
+			has_wartaxes = yes
+			NOT = { current_age = age_of_discovery }
+		}
+		allow = {
+			has_wartaxes = yes
+		}
+		effect = {
+		}
+	}
+
 
 } #Ende
