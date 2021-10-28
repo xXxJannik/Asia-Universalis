@@ -611,7 +611,7 @@ economic_ideas = {
 	category = ADM
 
 	bonus = {
-		development_cost = -0.10
+		development_cost = -0.05
 	}
 
 	bureaucracy = {

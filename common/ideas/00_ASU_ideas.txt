@@ -1653,7 +1653,7 @@ helle0 = {
 		diplomatic_upkeep = 2	
 	}
 	helle6 = {
-		development_cost = -0.1
+		development_cost = -0.05
 	}
 	helle7 = {
 		global_missionary_strength = 0.02
@@ -2682,7 +2682,7 @@ ibadi0 = {
 		same_culture_advisor_cost = -0.05
 	}
 	ibadi2 = {
-		development_cost = -0.1
+		development_cost = -0.05
 	}
 	ibadi3 = {
 		idea_cost = -0.1
