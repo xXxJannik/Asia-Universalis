@@ -6,6 +6,12 @@ technology_group = nomad_group
 capital = 2444	# Bashkortostan
 religious_school = hanafi_school
 
+historical_rival = KAZ
+historical_rival = CRI
+historical_rival = TRS
+historical_rival = SIB 
+historical_rival = SHY
+
 1444.1.31 = {
 	monarch = {
 		name = "Ishim"

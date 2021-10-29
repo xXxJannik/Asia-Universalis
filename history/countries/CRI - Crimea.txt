@@ -7,6 +7,10 @@ capital = 469	# Crimea
 religious_school = hanafi_school
 add_accepted_culture = nogaybak
 
+historical_rival = KAZ
+historical_rival = TRS
+historical_rival = BSH
+
 1441.1.1 = {
 	monarch = {
 		name = "Haji I"

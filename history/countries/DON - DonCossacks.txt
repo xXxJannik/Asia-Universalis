@@ -9,6 +9,8 @@ add_accepted_culture = nogaybak
 historical_friend = JAZ
 historical_friend = ZAZ
 
+historical_rival = KAZ
+historical_rival = TRS
 
 1444.1.31 = {
 	monarch = {
