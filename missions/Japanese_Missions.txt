@@ -42,10 +42,7 @@ ASU_japan_branch_1 = {
 		}
 
 		effect = { 
-			add_adm_power = 50
-			4651 = {
-				add_building = fort_15th
-			}
+			add_adm_power = 100
 		}
 	}
 
@@ -185,13 +182,104 @@ ASU_japan_branch_1 = {
 		required_missions = { ASU_japan_mission_21 }
 		position = 18
 		provinces_to_highlight = {
-			
+			OR = {
+				province_id = 5044
+				province_id = 5050
+				province_id = 5064
+				province_id = 1030
+				province_id = 5086
+				province_id = 5102
+				province_id = 5120
+				province_id = 5119
+				province_id = 5118
+				province_id = 5095
+				province_id = 1023
+				province_id = 4183
+			}
 		}
 
-		trigger = { 
+		trigger = {
+			custom_trigger_tooltip = { 
+				tooltip = Japan_Battery_T
+				5044 = {
+					OR = {
+						has_building = coastal_defence
+						has_building = naval_battery
+					}
+				}
+				5050 = {
+					OR = {
+						has_building = coastal_defence
+						has_building = naval_battery
+					}
+				}
+				5064 = {
+					OR = {
+						has_building = coastal_defence
+						has_building = naval_battery
+					}
+				}
+				1030 = {
+					OR = {
+						has_building = coastal_defence
+						has_building = naval_battery
+					}
+				}
+				5086 = {
+					OR = {
+						has_building = coastal_defence
+						has_building = naval_battery
+					}
+				}
+				5102 = {
+					OR = {
+						has_building = coastal_defence
+						has_building = naval_battery
+					}
+				}
+				5120 = {
+					OR = {
+						has_building = coastal_defence
+						has_building = naval_battery
+					}
+				}
+				5119 = {
+					OR = {
+						has_building = coastal_defence
+						has_building = naval_battery
+					}
+				}
+				5118 = {
+					OR = {
+						has_building = coastal_defence
+						has_building = naval_battery
+					}
+				}
+				5095 = {
+					OR = {
+						has_building = coastal_defence
+						has_building = naval_battery
+					}
+				}
+				1023 = {
+					OR = {
+						has_building = coastal_defence
+						has_building = naval_battery
+					}
+				}
+				4183 = {
+					OR = {
+						has_building = coastal_defence
+						has_building = naval_battery
+					}
+				}
+				
+			}
 		}
 
 		effect = { 
+			add_years_of_income = 0.25
+			add_yearly_sailors = 5
 		}
 	}
 
@@ -304,7 +392,7 @@ ASU_japan_branch_2 = {
 				add_base_production = 2
 				add_base_manpower = 2
 			}
-			add_years_of_income = 2
+			add_years_of_income = 1
 		}
 	}
 
@@ -506,9 +594,11 @@ ASU_japan_branch_2 = {
 		}
 
 		trigger = { 
+			sailors = 50000
 		}
 
 		effect = { 
+			add_dip_power = 150
 		}
 	}
 
@@ -521,9 +611,22 @@ ASU_japan_branch_2 = {
 		}
 
 		trigger = { 
+			num_of_owned_provinces_with = {
+				value = 100
+				or = {
+					has_building = shipyard
+					has_building = grand_shipyard
+				}
+			}
 		}
 
-		effect = { 
+		effect = {
+			add_years_of_income = 1 
+			add_dip_power = 100
+			add_country_modifier = {
+				name = expansion_of_the_shipbuilding_industry 
+				duration = 3650
+			}
 		}
 	}
 
@@ -536,9 +639,22 @@ ASU_japan_branch_2 = {
 		}
 
 		trigger = { 
+			OR = {
+				war_with = PGS
+				war_with = TDO
+				war_with = MNA
+				war_with = MAS
+				war_with = CEB
+				war_with = MGD
+				war_with = BTU
+			}
 		}
 
 		effect = { 
+			add_yearly_manpower = 0.5
+			add_yearly_sailors = 1
+			add_mil_power = 100
+			add_dip_power = 100
 		}
 	}
 
@@ -815,9 +931,13 @@ ASU_japan_branch_3 = {
 		}
 
 		trigger = { 
+			total_development = 1000
 		}
 
 		effect = { 
+			add_adm_power = 50
+			add_dip_power = 50
+			add_mil_power = 50
 		}
 	}
 
@@ -830,9 +950,11 @@ ASU_japan_branch_3 = {
 		}
 
 		trigger = { 
+			tag = JAP
 		}
 
 		effect = { 
+			custom_tooltip = Japan_Reform_T
 		}
 	}
 
@@ -845,6 +967,8 @@ ASU_japan_branch_3 = {
 		}
 
 		trigger = { 
+			land_forcelimit = 500
+			naval_forcelimit = 300
 		}
 
 		effect = { 
@@ -863,6 +987,10 @@ ASU_japan_branch_3 = {
 		}
 
 		effect = { 
+			add_country_modifier = {
+				name = ASU_rise_of_the_eastern_empire
+				duration = 18250
+			}
 		}
 	}
 
@@ -1066,9 +1194,11 @@ ASU_japan_branch_4 = {
 		}
 
 		trigger = { 
+			manpower = 500
 		}
 
 		effect = { 
+			add_mil_power = 150
 		}
 	}
 
@@ -1081,9 +1211,23 @@ ASU_japan_branch_4 = {
 		}
 
 		trigger = { 
+			num_of_owned_provinces_with = {
+				value = 100
+				or = {
+					has_building = barracks
+					has_building = training_fields
+				}
+			}
 		}
 
 		effect = { 
+			add_years_of_income = 1 
+			add_mil_power = 100
+			add_yearly_manpower = 2
+			add_country_modifier = {
+				name = the_great_army_reorganization 
+				duration = 3650
+			}
 		}
 	}
 
@@ -1096,9 +1240,14 @@ ASU_japan_branch_4 = {
 		}
 
 		trigger = { 
+			war_with = KOR
 		}
 
 		effect = { 
+			add_yearly_manpower = 0.5
+			add_yearly_sailors = 1
+			add_mil_power = 100
+			add_dip_power = 100
 		}
 	}
 
@@ -1316,6 +1465,8 @@ ASU_japan_branch_5 = {
 		}
 
 		trigger = { 
+			tag = JAP
+			owns = 1852
 			treasury = 400
 		}
 
@@ -1393,7 +1544,7 @@ ASU_japan_branch_5 = {
 			add_adm_power = 200
 			add_dip_power = 200
 			add_mil_power = 200
-			add_years_of_income = 4
+			add_years_of_income = 2
 			add_yearly_manpower = 4
 			add_yearly_sailors = 4
 		}
@@ -1440,7 +1591,7 @@ ASU_japan_branch_5 = {
 		}
 
 		effect = { 
-			add_years_of_income = 2
+			add_years_of_income = 1
 			add_adm_power = 50
 			add_dip_power = 50
 			add_mil_power = 50
@@ -1449,16 +1600,329 @@ ASU_japan_branch_5 = {
 
 	ASU_japan_mission_58 = {
 		icon = mission_build_up_to_force_limit
-		required_missions = { ASU_japan_mission_45 }
+		required_missions =  { ASU_japan_mission_45 }
 		position = 18
 		provinces_to_highlight = {
+			OR = {
+				province_id = 5043
+				province_id = 5045
+				province_id = 5049
+				province_id = 4181
+				province_id = 5052
+				province_id = 5059
+				province_id = 1818
+				province_id = 5056 
+				province_id = 1017
+				province_id = 4186
+				province_id = 5061
+				province_id = 5065
+				province_id = 5069
+				province_id = 1825
+				province_id = 1830
+				province_id = 1021 
+				province_id = 5078
+				province_id = 1030
+				province_id = 5077
+				province_id = 5085 
+				province_id = 5084
+				province_id = 1843
+				province_id = 5088
+				province_id = 5099
+				province_id = 5097
+				province_id = 5103
+				province_id = 5109
+				province_id = 5112
+				province_id = 4192
+				province_id = 5114
+				province_id = 5117
+				province_id = 5123
+				province_id = 5127
+				province_id = 5126
+			}
 			
 		}
-
-		trigger = { 
+		trigger = {
+			custom_trigger_tooltip = { 
+				tooltip = Japan_Fort_T
+				5043 = {
+					OR = {
+						has_building = fort_15th
+						has_building = fort_16th
+						has_building = fort_17th
+						has_building = fort_18th
+					}
+				}
+				5045 = {
+					OR = {
+						has_building = fort_15th
+						has_building = fort_16th
+						has_building = fort_17th
+						has_building = fort_18th
+					}
+				}
+				5049 = {
+					OR = {
+						has_building = fort_15th
+						has_building = fort_16th
+						has_building = fort_17th
+						has_building = fort_18th
+					}
+				}
+				4181 = {
+					OR = {
+						has_building = fort_15th
+						has_building = fort_16th
+						has_building = fort_17th
+						has_building = fort_18th
+					}
+				}
+				5052 = {
+					OR = {
+						has_building = fort_15th
+						has_building = fort_16th
+						has_building = fort_17th
+						has_building = fort_18th
+					}
+				}
+				5059 = {
+					OR = {
+						has_building = fort_15th
+						has_building = fort_16th
+						has_building = fort_17th
+						has_building = fort_18th
+					}
+				}
+				1818 = {
+					OR = {
+						has_building = fort_15th
+						has_building = fort_16th
+						has_building = fort_17th
+						has_building = fort_18th
+					}
+				}
+				5056 = {
+					OR = {
+						has_building = fort_15th
+						has_building = fort_16th
+						has_building = fort_17th
+						has_building = fort_18th
+					}
+				}
+				1017 = {
+					OR = {
+						has_building = fort_15th
+						has_building = fort_16th
+						has_building = fort_17th
+						has_building = fort_18th
+					}
+				}
+				4186 = {
+					OR = {
+						has_building = fort_15th
+						has_building = fort_16th
+						has_building = fort_17th
+						has_building = fort_18th
+					}
+				}
+				5061 = {
+					OR = {
+						has_building = fort_15th
+						has_building = fort_16th
+						has_building = fort_17th
+						has_building = fort_18th
+					}
+				}
+				5065 = {
+					OR = {
+						has_building = fort_15th
+						has_building = fort_16th
+						has_building = fort_17th
+						has_building = fort_18th
+					}
+				}
+				5069 = {
+					OR = {
+						has_building = fort_15th
+						has_building = fort_16th
+						has_building = fort_17th
+						has_building = fort_18th
+					}
+				}
+				1825 = {
+					OR = {
+						has_building = fort_15th
+						has_building = fort_16th
+						has_building = fort_17th
+						has_building = fort_18th
+					}
+				}
+				1830 = {
+					OR = {
+						has_building = fort_15th
+						has_building = fort_16th
+						has_building = fort_17th
+						has_building = fort_18th
+					}
+				}
+				1021 = {
+					OR = {
+						has_building = fort_15th
+						has_building = fort_16th
+						has_building = fort_17th
+						has_building = fort_18th
+					}
+				}
+				5078 = {
+					OR = {
+						has_building = fort_15th
+						has_building = fort_16th
+						has_building = fort_17th
+						has_building = fort_18th
+					}
+				}
+				1030 = {
+					OR = {
+						has_building = fort_15th
+						has_building = fort_16th
+						has_building = fort_17th
+						has_building = fort_18th
+					}
+				}
+				5077 = {
+					OR = {
+						has_building = fort_15th
+						has_building = fort_16th
+						has_building = fort_17th
+						has_building = fort_18th
+					}
+				}
+				5085 = {
+					OR = {
+						has_building = fort_15th
+						has_building = fort_16th
+						has_building = fort_17th
+						has_building = fort_18th
+					}
+				}
+				5084 = {
+					OR = {
+						has_building = fort_15th
+						has_building = fort_16th
+						has_building = fort_17th
+						has_building = fort_18th
+					}
+				}
+				1843 = {
+					OR = {
+						has_building = fort_15th
+						has_building = fort_16th
+						has_building = fort_17th
+						has_building = fort_18th
+					}
+				}
+				5088 = {
+					OR = {
+						has_building = fort_15th
+						has_building = fort_16th
+						has_building = fort_17th
+						has_building = fort_18th
+					}
+				}
+				5099 = {
+					OR = {
+						has_building = fort_15th
+						has_building = fort_16th
+						has_building = fort_17th
+						has_building = fort_18th
+					}
+				}
+				5097 = {
+					OR = {
+						has_building = fort_15th
+						has_building = fort_16th
+						has_building = fort_17th
+						has_building = fort_18th
+					}
+				}
+				5103 = {
+					OR = {
+						has_building = fort_15th
+						has_building = fort_16th
+						has_building = fort_17th
+						has_building = fort_18th
+					}
+				}
+				5109 = {
+					OR = {
+						has_building = fort_15th
+						has_building = fort_16th
+						has_building = fort_17th
+						has_building = fort_18th
+					}
+				}
+				5112 = {
+					OR = {
+						has_building = fort_15th
+						has_building = fort_16th
+						has_building = fort_17th
+						has_building = fort_18th
+					}
+				}
+				4192 = {
+					OR = {
+						has_building = fort_15th
+						has_building = fort_16th
+						has_building = fort_17th
+						has_building = fort_18th
+					}
+				}
+				5114 = {
+					OR = {
+						has_building = fort_15th
+						has_building = fort_16th
+						has_building = fort_17th
+						has_building = fort_18th
+					}
+				}
+				5117 = {
+					OR = {
+						has_building = fort_15th
+						has_building = fort_16th
+						has_building = fort_17th
+						has_building = fort_18th
+					}
+				}
+				5123 = {
+					OR = {
+						has_building = fort_15th
+						has_building = fort_16th
+						has_building = fort_17th
+						has_building = fort_18th
+					}
+				}
+				5127 = {
+					OR = {
+						has_building = fort_15th
+						has_building = fort_16th
+						has_building = fort_17th
+						has_building = fort_18th
+					}
+				}
+				5126 = {
+					OR = {
+						has_building = fort_15th
+						has_building = fort_16th
+						has_building = fort_17th
+						has_building = fort_18th
+					}
+				}
+				
+			}
 		}
 
 		effect = { 
+			add_years_of_income = 1
+			add_yearly_manpower = 4
 		}
 	}
 
@@ -1791,7 +2255,7 @@ ASU_japan_branch_6 = {
 		}
 
 		effect = { 
-			add_years_of_income = 2
+			add_years_of_income = 1
 			add_adm_power = 50
 			add_dip_power = 50
 			add_mil_power = 50
@@ -1814,7 +2278,7 @@ ASU_japan_branch_6 = {
 		}
 
 		effect = { 
-			add_years_of_income = 3
+			add_years_of_income = 2
 			add_adm_power = 50
 			add_dip_power = 50
 			add_mil_power = 50
@@ -1918,7 +2382,7 @@ ASU_japan_branch_6 = {
 		}
 
 		effect = {
-			add_years_of_income = 2
+			add_years_of_income = 1
 			add_dip_power = 200 
 		}
 	}
@@ -2235,7 +2699,7 @@ ASU_japan_branch_7 = {
 		}
 
 		effect = { 
-			add_years_of_income = 3
+			add_years_of_income = 2
 			add_adm_power = 100
 			add_dip_power = 100
 			add_mil_power = 100
@@ -2803,9 +3267,19 @@ ASU_japan_branch_8 = {
 		}
 
 		trigger = { 
+			NOT = { num_of_loans = 10 }
+            treasury = 5000
 		}
 
 		effect = { 
+            add_treasury = -5000
+			add_country_modifier = {
+				name = "ASU_japanese_century"
+				duration = 36500
+			}
+			country_event = {
+				id = ASU_china_events.4
+			}
 		}
 	}
 
@@ -3030,7 +3504,7 @@ ASU_japan_branch_9 = {
 			add_adm_power = 100
 			add_dip_power = 100
 			add_mil_power = 100
-			add_years_of_income = 2
+			add_years_of_income = 1
 			add_prestige = 20
 		}
 	}
@@ -3055,7 +3529,7 @@ ASU_japan_branch_9 = {
 			add_adm_power = 200
 			add_dip_power = 200
 			add_mil_power = 200
-			add_years_of_income = 4
+			add_years_of_income = 1.5
 			add_prestige = 40
 		}
 	}
@@ -3247,7 +3721,7 @@ ASU_japan_branch_10 = {
 
 		effect = { 
 			add_yearly_manpower = 5
-			add_years_of_income = 2
+			add_years_of_income = 1
 		}
 	}
 	
@@ -3442,7 +3916,7 @@ ASU_japan_branch_10 = {
 		}
 
 		effect = { 
-			add_years_of_income = 2.5
+			add_years_of_income = 1
 		}
 	}
 
@@ -3455,6 +3929,7 @@ ASU_japan_branch_10 = {
 		}
 
 		trigger = { 
+			in_golden_age = yes
 		}
 
 		effect = { 
@@ -3470,6 +3945,10 @@ ASU_japan_branch_10 = {
 		}
 
 		trigger = { 
+            num_of_owned_provinces_with = {
+                 value = 100
+                 has_building = university
+             }
 		}
 
 		effect = { 
@@ -3485,6 +3964,7 @@ ASU_japan_branch_10 = {
 		}
 
 		trigger = { 
+			total_development = 3000
 		}
 
 		effect = { 
@@ -3500,6 +3980,7 @@ ASU_japan_branch_10 = {
 		}
 
 		trigger = { 
+			total_development = 5000
 		}
 
 		effect = { 

@@ -12250,7 +12250,7 @@ ASU_japanese_century = {
 }
 
 ASU_rise_of_the_eastern_empire = {
-	naval_moral = 0.1
+	naval_morale = 0.1
 }
 
 ASU_japanese_bank = {
