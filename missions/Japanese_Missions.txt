@@ -3720,6 +3720,7 @@ ASU_japan_branch_10 = {
 		}
 
 		effect = { 
+			add_stability = 6
 			add_yearly_manpower = 5
 			add_years_of_income = 1
 		}
