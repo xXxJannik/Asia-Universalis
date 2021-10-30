@@ -4211,7 +4211,7 @@ on_province_owner_change = {
 			FROM = { has_estate_privilege = estate_janissaries_extended_privileges_2 }
 			NOT = { owner = { has_estate_privilege = estate_janissaries_extended_privileges_2 } }
 		}
-		remove_province_modifier = ASU_estate_herding_rights_modifier
+		remove_province_modifier = ASU_estate_janissaries_foreign_conscription
 	}
 	if = { #Adds conscripted foreigners
 		limit = {
