@@ -4182,6 +4182,8 @@ on_province_owner_change = {
 
 	#ASU 
 
+	#Herding rights
+
 	if = { #removes herding rights
 		limit = {
 			has_province_modifier = ASU_estate_herding_rights_modifier
@@ -4197,6 +4199,48 @@ on_province_owner_change = {
 		}
 		add_province_modifier = {
 			name = ASU_estate_herding_rights_modifier
+			duration = -1
+		}
+	}
+
+	#Conscripted foreigners
+
+	if = { #removes conscripted foreigners
+		limit = {
+			has_province_modifier = ASU_estate_janissaries_foreign_conscription
+			FROM = { has_estate_privilege = estate_janissaries_extended_privileges_2 }
+			NOT = { owner = { has_estate_privilege = estate_janissaries_extended_privileges_2 } }
+		}
+		remove_province_modifier = ASU_estate_herding_rights_modifier
+	}
+	if = { #Adds conscripted foreigners
+		limit = {
+			NOT = { has_province_modifier = ASU_estate_janissaries_foreign_conscription }
+			owner = { has_estate_privilege = estate_janissaries_extended_privileges_2 } 
+		}
+		add_province_modifier = {
+			name = ASU_estate_janissaries_foreign_conscription
+			duration = -1
+		}
+	}
+
+	#Janissary Investments
+
+	if = { #removes Janissary Investments
+		limit = {
+			has_province_modifier = ASU_estate_janissaries_invest_in_janissaries
+			FROM = { has_estate_privilege = estate_janissaries_extended_privileges_3 }
+			NOT = { owner = { has_estate_privilege = estate_janissaries_extended_privileges_3 } }
+		}
+		remove_province_modifier = ASU_estate_janissaries_invest_in_janissaries
+	}
+	if = { #Adds Janissary Investments
+		limit = {
+			NOT = { has_province_modifier = ASU_estate_janissaries_invest_in_janissaries }
+			owner = { has_estate_privilege = estate_janissaries_extended_privileges_3 } 
+		}
+		add_province_modifier = {
+			name = ASU_estate_janissaries_invest_in_janissaries
 			duration = -1
 		}
 	}
