@@ -61,7 +61,7 @@ ASU_japan_branch_1 = {
 		effect = { 
 			add_treasury = -200
 			1235 = {
-				create_colony = 200
+				add_siberian_construction = 200
 			}
 		}
 	}
@@ -81,7 +81,7 @@ ASU_japan_branch_1 = {
 		effect = { 
 			add_treasury = -200
 			1994 = {
-				create_colony = 200
+				add_siberian_construction = 200
 			}
 		}
 	}
@@ -1473,10 +1473,10 @@ ASU_japan_branch_5 = {
 		effect = { 
 			add_treasury = -400
 			5131 = {
-				create_colony = 200
+				add_siberian_construction = 200
 			}
 			5132 = {
-				create_colony = 200
+				add_siberian_construction = 200
 			}
 			
 		}
@@ -1500,10 +1500,10 @@ ASU_japan_branch_5 = {
 		effect = { 
 			add_treasury = -400
 			5133 = {
-				create_colony = 200
+				add_siberian_construction = 200
 			}
 			5134 = {
-				create_colony = 200
+				add_siberian_construction = 200
 			}
 		}
 	}
@@ -1523,7 +1523,7 @@ ASU_japan_branch_5 = {
 		effect = { 
 			add_treasury = -200
 			1032 = {
-				create_colony = 200
+				add_siberian_construction = 200
 			}
 		}
 	}
