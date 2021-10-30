@@ -312,7 +312,7 @@ ASU_zaz_branch_5 = {
     }
     ASU_zaz_mission_9 = {
         icon = mission_have_two_subjects
-        required_missions = { ASU_zaz_mission_9 }
+        required_missions = { ASU_zaz_mission_8 }
 		position = 2
 
         provinces_to_highlight = {
