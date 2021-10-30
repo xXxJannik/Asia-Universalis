@@ -1,0 +1,9 @@
+
+# Muscovite vassal - Great Perm
+vassal = {
+	first = MOS
+	second = PRM
+	start_date = 1444.11.11
+	end_date = 1503.4.1
+}
+
