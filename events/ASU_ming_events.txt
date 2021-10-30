@@ -41,6 +41,9 @@ country_event = { #A new Capital
     option = {
 		name = "ASU_ming_events.2.b"
         add_adm_power = 100
+		5016 = {
+            change_trade_goods = gems
+        }
 	}
 }
 
