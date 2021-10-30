@@ -286,11 +286,13 @@ reform_korea = {
 
 reform_japan = {
 	icon = "chinese_palace"
-	allow_normal_conversion = yes
+	allow_normal_conversion = no
 	potential = {
 		tag = JAP
+		mission_completed = ASU_japan_mission_34
 	}
 	lock_level_when_selected = yes
+	maintain_dynasty = yes
 	fixed_rank = 3
 	modifiers = {
 		infantry_power = 0.2

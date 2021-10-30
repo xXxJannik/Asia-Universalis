@@ -43,7 +43,7 @@ country_event = {
 			}
 		}
         ai_chance = {            # the AI does not take the event without
-			factor = ^10
+			factor = 10
 		}
 	}
 	option = {
