@@ -12189,7 +12189,7 @@ ASU_ming_reformation = {
 }
 
 ASU_ming_iron_supply = {
-	trade_goods_size = 0.5
+	trade_goods_size = 1
 }
 
 ASU_ming_forbidden_city = {
