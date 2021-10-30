@@ -412,7 +412,7 @@ ASU_ming_branch_3 = {
 
 		effect = { 
 			country_event = { #Regained Control of Weifang & Qingdao
-				id = 
+				id = ASU_ming_events.1
 			}
 		}
 	}
