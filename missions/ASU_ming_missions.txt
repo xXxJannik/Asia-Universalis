@@ -806,7 +806,6 @@ ASU_ming_branch_5 = {
 
 		trigger = { 
 			is_emperor_of_china = yes
-			empire_of_china_reform_passed = reform_land_tax_decision
 		}
 
 		effect = { 
