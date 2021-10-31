@@ -33,6 +33,7 @@ marketplace = {
 
 	modifier = {
 		province_trade_power_modifier = 0.5
+		trade_value_modifier = 0.10
 	}
 
 	ai_will_do = {
@@ -882,6 +883,7 @@ trade_depot = {
 
 	modifier = {
 		province_trade_power_modifier = 1
+		trade_value_modifier = 0.20
 	}
 
 	ai_will_do = {
@@ -1172,7 +1174,8 @@ stock_exchange = {
 	make_obsolete = trade_depot
 
 	modifier = {
-		province_trade_power_modifier = 1.25
+		province_trade_power_modifier = 1.5
+		trade_value_modifier = 0.3
 	}
 
 	ai_will_do = {
