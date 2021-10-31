@@ -876,7 +876,7 @@ estate_nobles_officer_corp = {
 	penalties = {
 	}
 	benefits = {
-		general_cost = -0.25
+		general_cost = -0.15
 		army_tradition_decay = -0.005
 	}
 	ai_will_do = {
@@ -2133,7 +2133,7 @@ estate_nomadic_tribes_guaranteed_leadgership_in_host = {
 	penalties = {
 	}
 	benefits = {
-		general_cost = -0.25
+		general_cost = -0.15
 		army_tradition_decay = -0.005
 	}
 	ai_will_do = {
