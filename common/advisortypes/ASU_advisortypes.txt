@@ -299,6 +299,10 @@ burgher_representative = {
 	
 	chance = {
 		factor = 1
+		modifier = {
+			factor = 0
+			owner = { NOT = { has_estate = estate_burghers } }
+		}
 	}
 
 	ai_will_do = {
