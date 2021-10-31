@@ -4196,6 +4196,7 @@ on_province_owner_change = {
 		limit = {
 			NOT = { has_province_modifier = ASU_estate_herding_rights_modifier }
 			owner = { has_estate_privilege = estate_herding_rights } 
+			has_terrain = steppe
 		}
 		add_province_modifier = {
 			name = ASU_estate_herding_rights_modifier
@@ -4217,6 +4218,7 @@ on_province_owner_change = {
 		limit = {
 			NOT = { has_province_modifier = ASU_estate_janissaries_foreign_conscription }
 			owner = { has_estate_privilege = estate_janissaries_extended_privileges_2 } 
+			NOT = { religion_group = muslim }
 		}
 		add_province_modifier = {
 			name = ASU_estate_janissaries_foreign_conscription
@@ -4238,6 +4240,7 @@ on_province_owner_change = {
 		limit = {
 			NOT = { has_province_modifier = ASU_estate_janissaries_invest_in_janissaries }
 			owner = { has_estate_privilege = estate_janissaries_extended_privileges_3 } 
+			NOT = { religion_group = muslim }
 		}
 		add_province_modifier = {
 			name = ASU_estate_janissaries_invest_in_janissaries

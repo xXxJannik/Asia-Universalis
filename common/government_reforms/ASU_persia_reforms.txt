@@ -57,7 +57,6 @@ ASU_persia_reform_5 = {
 	}
 	modifiers = {
 		yearly_corruption = 0.2
-		ASU_janissaries_influence_modifier = 0.2
 	}
 	ai = {
 		factor = 1
