@@ -9061,7 +9061,7 @@ urbanization_social_mobility = {
 }
 
 urbanization_middle_road = {
-	development_cost = -0.10
+	development_cost = -0.05
 }
 
 urbanization_in_order = {
