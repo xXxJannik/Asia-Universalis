@@ -512,6 +512,7 @@ age_of_reformation = {
 			}
 			modifier = {
 				imperial_mandate = 0.03
+				global_tax_modifier = 0.2
 			}
 		}
 		ab_shun = {
