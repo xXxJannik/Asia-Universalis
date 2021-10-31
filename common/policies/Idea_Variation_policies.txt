@@ -439,7 +439,7 @@ idea_variation_act_566 = {
 		}
 	}
 
-	development_cost = -0.05
+	fort_maintenance_modifier = -0.2
 	global_tax_modifier = 0.1
 
 	ai_will_do = {
@@ -4993,7 +4993,7 @@ idea_variation_act_23 = {
 		}	
 	}
 	
-	development_cost = -0.05
+	war_exhaustion = -0.03
 	diplomatic_reputation = 1
 	
 	ai_will_do = {
@@ -7363,7 +7363,7 @@ idea_variation_act_92 = {
 	}
 	
 	global_tax_modifier = 0.1
-	development_cost = -0.05
+	mercenary_cost = -0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -9358,7 +9358,8 @@ idea_variation_act_153 = {
 		}
 	}
 	
-	development_cost = -0.05
+	defensiveness = 0.25
+	global_regiment_recruit_speed = -0.5
 	
 	ai_will_do = {
 		factor = 1
@@ -9904,7 +9905,7 @@ idea_variation_act_169 = {
 		
 	}
 	
-	development_cost = -0.05
+	infantry_cost = -0.2
 	
 	ai_will_do = {
 		factor = 1
@@ -12226,7 +12227,7 @@ idea_variation_act_238 = {
 		
 	}
 	
-	development_cost = -0.05
+	global_colonial_growth = 30
 	dip_tech_cost_modifier = -0.1
 	
 	ai_will_do = {
@@ -12835,7 +12836,7 @@ idea_variation_act_259 = {
 		full_idea_group = staatsverwaltung0
 	}
 	
-	development_cost = -0.05
+	sailors_recovery_speed = 0.2
 	build_cost = -0.05
 	
 	ai_will_do = {
@@ -14228,8 +14229,8 @@ idea_variation_act_302 = {
 		
 	}
 	
-	development_cost = -0.05
-	fort_maintenance_modifier = -0.1
+	land_maintenance_modifier = -0.1
+	reinforce_speed = 0.2
 	
 	ai_will_do = {
 		factor = 1
@@ -15507,7 +15508,7 @@ idea_variation_act_340 = {
 	}
 	
 	fort_maintenance_modifier = -0.1
-	development_cost = -0.05		
+	build_cost = -0.1		
 	
 	ai_will_do = {
 		factor = 1
@@ -20895,7 +20896,8 @@ idea_variation_act_503 = {
 		}
 	}
 	
-	development_cost = -0.05
+	trade_efficiency = 0.1
+	caravan_power = 0.2
 	
 	ai_will_do = {
 		factor = 1
@@ -21250,7 +21252,7 @@ idea_variation_act_514 = {
 		}
 	}
 	
-	development_cost = -0.05
+	manpower_in_true_faith_provinces = 0.2
 	
 	ai_will_do = {
 		factor = 1
@@ -21604,7 +21606,7 @@ idea_variation_act_528 = {
 		}
 	}
 	
-	development_cost = -0.05
+	ae_impact = -0.2
 	
 	ai_will_do = {
 		factor = 1
@@ -21726,7 +21728,7 @@ idea_variation_act_532 = {
 		}
 	}
 	
-	development_cost = -0.05
+	global_ship_trade_power = 0.2
 	
 	ai_will_do = {
 		factor = 1
