@@ -3906,7 +3906,6 @@ sankin_kotai_palaces = {
 		country_modifiers = {
 			war_taxes_cost_modifier = -0.5
 			prestige_from_land = 1
-			general_cost = -0.1
 		}
 
 		#what effects happen when this tier is achieved
@@ -3938,7 +3937,7 @@ sankin_kotai_palaces = {
 		country_modifiers = {
 			war_taxes_cost_modifier = -1
 			prestige_from_land = 1
-			general_cost = -0.2
+			general_cost = -0.05
 		}
 
 		#what effects happen when this tier is achieved
