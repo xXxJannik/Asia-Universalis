@@ -78,6 +78,7 @@ technology = { #Workshop
 	
 	#Workshop
 	workshop = yes
+	farm_estate = yes
 	ramparts = yes
 }
 
@@ -122,7 +123,7 @@ technology = { #Textile Manufactory
 	year = 1544
 	
 	#Textile Manufactory
-	farm_estate = yes
+	
 	textile = yes  
 
 }
