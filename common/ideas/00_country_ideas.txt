@@ -6321,7 +6321,7 @@ KHM_ideas = {
 
 ZAZ_ideas = {
 	start = {
-		loot_amount = 1
+		global_autonomy = -0.1
 		manpower_recovery_speed = 0.2
 	}
 	
