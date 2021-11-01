@@ -39,6 +39,23 @@ ASU_tibet_branch_1 = {
             5893 = { cede_province = ROOT }
             5922 = { cede_province = ROOT }
             5896 = { cede_province = ROOT }
+
+            hidden_effect = {
+                5888 = { add_core = ROOT }
+                5887 = { add_core = ROOT }
+                5891 = { add_core = ROOT }
+                5884 = { add_core = ROOT }
+                5900 = { add_core = ROOT }
+                5883 = { add_core = ROOT }
+                5899 = { add_core = ROOT }
+                5885 = { add_core = ROOT }
+                5886 = { add_core = ROOT }
+                5924 = { add_core = ROOT }
+                5890 = { add_core = ROOT }
+                5893 = { add_core = ROOT }
+                5922 = { add_core = ROOT }
+                5896 = { add_core = ROOT }
+            }
         }
     }
     ASU_tibet_mission_2 = {
