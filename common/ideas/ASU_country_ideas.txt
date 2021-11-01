@@ -34,6 +34,7 @@ HET_ideas = {
 	}
 	ASU_het_NI7  = {                    
 		cavalry_fire = 0.5
+		cossacks_loyalty_modifier = 0.2
 	}
 }
 
