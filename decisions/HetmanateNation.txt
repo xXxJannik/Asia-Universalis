@@ -59,8 +59,8 @@ country_decisions = {
 				duration = 7300
 			}
 			if = {
-				limit = { NOT = { government_rank = 2 } }
-				set_government_rank = 2
+				limit = { NOT = { government_rank = 3 } }
+				set_government_rank = 3
 			}
 			if = {
 				limit = {
