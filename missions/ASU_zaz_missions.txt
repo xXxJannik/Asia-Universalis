@@ -54,15 +54,42 @@ ASU_zaz_branch_2 = {
 		position = 4
 
         provinces_to_highlight = {
-
+            OR = {
+                province_id = 2427
+                province_id = 2429
+            }
+            NOT = { owned_by = ROOT }
         }
 
         trigger = {
-            full_idea_group = expansion_ideas
+            2427 = {
+                owned_by = ROOT
+            }
+            2429 = {
+                owned_by = ROOT
+            }
         }
 
         effect = {
-            add_adm_power = 250
+            2445 = { cede_province = ROOT }
+            1069 = { cede_province = ROOT }
+            4691 = { cede_province = ROOT }
+            1780 = { cede_province = ROOT }
+            1080 = { cede_province = ROOT }
+            1078 = { cede_province = ROOT }
+            1073 = { cede_province = ROOT }
+            1072 = { cede_province = ROOT }
+
+            hidden_effect = {
+                2445 = { add_core = ROOT }
+                1069 = { add_core = ROOT }
+                4691 = { add_core = ROOT }
+                1780 = { add_core = ROOT }
+                1080 = { add_core = ROOT }
+                1078 = { add_core = ROOT }
+                1073 = { add_core = ROOT }
+                1072 = { add_core = ROOT }
+            }
         }
     }
 
