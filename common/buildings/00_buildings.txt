@@ -407,9 +407,7 @@ courthouse = {
 	cost = 200
 	time = 12
 	modifier = {
-		local_state_maintenance_modifier = -0.25
 		local_autonomy = -0.1
-		local_governing_cost = -0.25
 		allowed_num_of_buildings = 2
 	}
 
@@ -1210,9 +1208,7 @@ town_hall = {
 	make_obsolete = courthouse
 
 	modifier = {
-		local_state_maintenance_modifier = -0.5
 		local_autonomy = -0.2
-		local_governing_cost = -0.5
 		allowed_num_of_buildings = 2
 	}
 
@@ -1721,7 +1717,8 @@ ramparts = {
 	}
 	modifier = {
 		local_hostile_attrition = 1
-		local_defensiveness = 0.15
+		local_defensiveness = 0.25
+		garrison_growth = 0.25
 	}
 	onmap = no
 	show_separate = yes # Means as a manufactory it will be shown according to the old way
@@ -1829,7 +1826,7 @@ state_house = {
 	}
 
 	modifier = {
-		statewide_governing_cost = -0.2
+		statewide_governing_cost = -0.5
 		min_local_autonomy = -5
 	}
 	bonus_modifier = {
