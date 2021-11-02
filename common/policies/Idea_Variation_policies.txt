@@ -7740,7 +7740,7 @@ idea_variation_act_105 = {
 	}
 	
 	inflation_reduction = 0.05
-	interest = -0.5
+	interest = -0.25
 	
 	ai_will_do = {
 		factor = 1
@@ -8990,7 +8990,7 @@ idea_variation_act_144 = {
 	}
 	
 	global_tax_modifier = 0.2
-	interest = -0.5
+	interest = -0.25
 	
 	ai_will_do = {
 		factor = 1
@@ -11563,7 +11563,7 @@ idea_variation_act_214 = {
 		}
 	}
 	
-	interest = -0.5				
+	interest = -0.25			
 	
 	ai_will_do = {
 		factor = 1
@@ -11974,7 +11974,7 @@ idea_variation_act_229 = {
 		}
 	}
 	
-	interest = -0.5
+	interest = -0.25
 	yearly_corruption = -0.2
 	
 	ai_will_do = {
@@ -12496,7 +12496,7 @@ idea_variation_act_248 = {
 	}
 	
 	heir_chance = 2
-	interest = -0.5			
+	interest = -0.25		
 	
 	ai_will_do = {
 		factor = 1
@@ -15327,7 +15327,7 @@ idea_variation_act_334 = {
 		}
 	}
 	
-	interest = -0.5
+	interest = -0.25
 	
 	ai_will_do = {
 		factor = 1
@@ -17488,7 +17488,7 @@ idea_variation_act_397 = {
 		}
 	}
 	
-	interest = -0.5
+	interest = -0.25
 	inflation_reduction = 0.1
 	
 	ai_will_do = {
@@ -21213,7 +21213,7 @@ idea_variation_act_513 = {
 		}
 	}
 	
-	interest = -0.5
+	interest = -0.25
 	
 	ai_will_do = {
 		factor = 1

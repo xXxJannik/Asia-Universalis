@@ -624,7 +624,7 @@ economic_ideas = {
 		inflation_reduction = 0.1
 	}
 	debt_and_loans = {
-		interest = -0.5
+		interest = -0.25
 	}
 	centralization = {
 		global_autonomy = -0.05
@@ -1245,7 +1245,7 @@ administrative_ideas = {
 		merc_maintenance_modifier = -0.25
 	}
 	bookkeeping = {
-		interest = -0.5
+		interest = -0.25
 	}
 	organised_mercenary_recruitment = {
 		mercenary_manpower = 0.50
