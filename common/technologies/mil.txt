@@ -14,7 +14,7 @@ technology = {
 
 	infantry_fire		= 	0.25
 	infantry_shock 		= 	0.20	
-	cavalry_shock  		= 	0.5	
+	cavalry_shock  		= 	0.4	
 	land_morale 		= 	2.0
 }
 
@@ -75,7 +75,7 @@ technology = {
 	year = 1420
 	
 	infantry_shock		= 	0.2
-	cavalry_shock		= 	0.5
+	cavalry_shock		= 	0.4
 	
 	combat_width = 5
 }
@@ -108,7 +108,7 @@ technology = {
 	#Standardised Pikes
 	supply_limit 		= 	0.5
 	infantry_shock		= 	0.15
-	cavalry_shock		= 	0.5
+	cavalry_shock		= 	0.4
 
 	enable = western_men_at_arms	
 	enable = western_longbow	
@@ -194,7 +194,7 @@ technology = {
 	
 	#Pike and Shot
 	infantry_fire		= 	0.25
-	cavalry_shock		=	1.0
+	cavalry_shock		=	0.8
 
 	
 	regimental_camp = yes
@@ -264,7 +264,7 @@ technology = {
 	
 	#Matchlock Musket
 	infantry_shock		= 	0.20
-	cavalry_fire		= 	0.8
+	cavalry_fire		= 	0.5
 
 	
 	weapons = yes
@@ -394,7 +394,7 @@ technology = {
 	# Tech 17
 	year = 1622
 	
-	cavalry_shock		=	1.0
+	cavalry_shock		=	0.8
 	supply_limit		= 	0.5	
 	
 	enable = maharathan_cavalry		
@@ -487,7 +487,7 @@ technology = {
 	year = 1687
 	
 	#Cartridge	(1620)?)
-	cavalry_fire		=	0.8
+	cavalry_fire		=	0.5
 	artillery_shock 	=	0.1
 	artillery_fire		=	2.0
 	
@@ -508,7 +508,7 @@ technology = {
 	
 	#Light Cavalry
 	
-	cavalry_shock		=	1.0
+	cavalry_shock		=	0.8
 	military_tactics 	= 	0.25
 	maneuver_value 		= 	0.5
 

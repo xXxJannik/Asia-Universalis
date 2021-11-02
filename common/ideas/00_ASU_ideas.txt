@@ -494,7 +494,7 @@ tengri0 = {
 	tolerance_heathen = 2
 	}
 	tengri3 = {
-	cavalry_power = 0.10
+	cavalry_power = 0.05
 	cavalry_cost = -0.2
 	}
 
@@ -2584,7 +2584,7 @@ shia0 = {
 	}
 	
 	bonus = {
-		cavalry_power = 0.1
+		cavalry_power = 0.05
 	}	
 	
 	shia1 = {
@@ -3122,7 +3122,7 @@ monarchie0 = {
 	}
 	
 	monarchie4 = {
-		cavalry_power = 0.1
+		cavalry_power = 0.05
 	}
 	
 	monarchie5 = {
@@ -3404,7 +3404,7 @@ horde0 = {
 		claim_duration = 0.25
 	}
 	horde4 = {
-		cavalry_power = 0.10
+		cavalry_power = 0.05
 	}
 	horde5 = {
 		horde_unity = 1
@@ -4571,7 +4571,7 @@ stehendesheer0 = {
 		infantry_power = 0.1
 	}
 	stehendesheer2 = {
-		cavalry_power = 0.1
+		cavalry_power = 0.05
 	}
 	stehendesheer3 = {
 		artillery_power = 0.1
@@ -4838,7 +4838,7 @@ waffenqualitat0 = {
 		infantry_power = 0.1
 	}
 	waffenqualitat3 = {
-		cavalry_power = 0.1
+		cavalry_power = 0.05
 	}
 
 	waffenqualitat4 = {
@@ -5522,7 +5522,7 @@ shock0 = {
 		}
 	
 	bonus = {
-		cavalry_power = 0.1
+		shock_damage = 0.05
 	}
 		
 	
@@ -5542,7 +5542,7 @@ shock0 = {
 		shock_damage = 0.05
 	}
 	shock5 = {
-		cavalry_power = 0.1
+		cavalry_power = 0.05
 	}
 	shock7 = {
 		leader_land_shock = 1

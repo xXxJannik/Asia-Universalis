@@ -1,6 +1,6 @@
 HET_ideas = { 
 	start = {
-		cavalry_power = 0.25
+		cavalry_power = 0.20
 		movement_speed = 0.25
 	}
 	bonus = {
@@ -33,7 +33,7 @@ HET_ideas = {
         tolerance_heathen = 3
 	}
 	ASU_het_NI7  = {                    
-		cavalry_fire = 0.5
+		cavalry_fire = 0.2
 		cossacks_loyalty_modifier = 0.2
 	}
 }
@@ -71,7 +71,7 @@ YUE_ideas = {
 	}
 	ASU_yue_NI6 = {
 		infantry_power = 0.1
-		drill_gain_modifier = 0.5
+		drill_decay_modifier = -0.2
 	}
 	ASU_yue_NI7  = {                    
 		artillery_fire = 1
@@ -339,11 +339,11 @@ CAU_ideas = {
 ZUN_ideas = {
 	start = {
 		development_cost = -0.1
-		cavalry_power = 0.33
+		cavalry_power = 0.25
 	}
 	
 	bonus = {
-		discipline = 0.05
+		land_morale = 0.1
 	}
 	
 	trigger = {
@@ -373,7 +373,7 @@ ZUN_ideas = {
 		manpower_recovery_speed = 0.2
 	}
 	ASU_ZUN_NI6 = { #Legacy of the Horse Archer
-		cavalry_fire = 0.5
+		cavalry_fire = 0.2
 	}
 	ASU_ZUN_NI7 = { #Khan of Khans
 		monarch_military_power = 1

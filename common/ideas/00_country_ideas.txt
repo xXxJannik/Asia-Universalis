@@ -15409,7 +15409,7 @@ SIA_ideas = {
 	}
 	sia_advanced_elephant_warfare = {
 		cavalry_power = 0.15
-		cavalry_fire = 0.5
+		cavalry_fire = 0.2
 	}
 	sia_experienced_ambassadors = {
 		diplomatic_reputation = 2
