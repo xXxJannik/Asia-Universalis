@@ -5115,7 +5115,7 @@ staatsverwaltung0 = {
 		
 	}
 	staatsverwaltung2 = {
-		state_maintenance_modifier = -0.5
+		expand_administration_cost = -0.50
 	}
 	staatsverwaltung3 = {
 		caravan_power = 0.2
