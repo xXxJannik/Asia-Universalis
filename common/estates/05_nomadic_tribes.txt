@@ -76,6 +76,8 @@ estate_nomadic_tribes = {
 		estate_nomadic_tribes_tribal_host
 		estate_nomadic_tribes_primacy_to_the_bannermen
 		estate_tribes_mil_power #ASU 
+		estate_cossacks_prime_herding_rights #ASU
+		estate_cossacks_exploration_expedition #ASU
 	}
 
 	agendas = {
