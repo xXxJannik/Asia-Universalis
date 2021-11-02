@@ -13,7 +13,7 @@ country_event = { #Cow Breeding
         change_price = {
 			trade_goods = livestock
 			key = ASU_COW_BREEDING
-			value = 0.2
+			value = 0.25
 			duration = -1
 		}
 
