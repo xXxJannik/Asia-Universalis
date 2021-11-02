@@ -4579,6 +4579,7 @@ stehendesheer0 = {
 
 	stehendesheer5 = {
 		drill_gain_modifier = 0.5
+		free_leader_pool = 1
 	}
 	stehendesheer6 = {
 		prestige_from_land = 1
