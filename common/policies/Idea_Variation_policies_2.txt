@@ -5577,7 +5577,8 @@ basic_idea_variation_act_53 = {
 		}
 	}
 	
-	sea_repair = yes
+	heavy_ship_power = 0.05
+	galley_power = 0.05
 
 	ai_will_do = {
 		factor = 1
