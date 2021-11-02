@@ -1107,7 +1107,6 @@ total_blockaded = {
 }
 
 uncontested_cores = {
-	prestige = -0.1
 }
 
 
