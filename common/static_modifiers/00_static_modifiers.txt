@@ -1501,7 +1501,6 @@ high_harmony = {
 
 low_harmony = {
 	tolerance_own = -3
-	development_cost = 0.25
 	legitimacy = -1
 	meritocracy = -2
 }
