@@ -1724,7 +1724,7 @@ cossacks_modifier = {
 ########################################
 
 expand_administation_modifier = {
-	governing_capacity = 100
+	governing_capacity = 75
 }
 
 # At 100% over capacity, this modifier will be fully used
