@@ -782,6 +782,7 @@ bengal_region = {
 		assam_area
 		upper_mahanadi_area
 		tripura_area
+		arakan_area #ASU
 	}
 	monsoon = {
 		00.07.01
@@ -857,7 +858,6 @@ burma_region = {
 		lower_burma_area
 		shan_hill_area
 		karenni_area
-		arakan_area
 		central_burma_area
 		chindwin_area
 	}

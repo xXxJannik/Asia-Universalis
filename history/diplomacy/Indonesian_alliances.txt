@@ -1,1 +1,16 @@
 #Is nicht
+
+#Okay vllt doch
+vassal = {
+	first = AYU
+	second = SUK
+	start_date = 1438.1.1
+	end_date = 1530.1.1
+}
+
+vassal = {
+	first = AYU
+	second = LIG
+	start_date = 1400.1.1
+	end_date = 1570.1.1
+}
