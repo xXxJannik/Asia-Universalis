@@ -1332,7 +1332,7 @@ country_event = {
 	major = yes
 
 	trigger = {
-		is_year = 1750
+		is_year = 1700
 		capital_scope = { region = indo_china_region }
 		NOT = { has_global_flag = ivory_shortage_happened }
 	}
