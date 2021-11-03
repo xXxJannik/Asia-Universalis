@@ -414,11 +414,10 @@ renaissance = {
 			factor = 0.05
 			scale = yes
 			potential = {
-				continent = europe
+
 			}
 			custom_trigger_tooltip = {
 				tooltip = tooltip_development_10
-				continent = europe
 				development = 10
 			}
 		}
@@ -426,23 +425,22 @@ renaissance = {
 			factor = 0.05
 			scale = yes
 			potential = {
-				continent = europe
+				
 			}
 			custom_trigger_tooltip = {
 				tooltip = tooltip_development_20
 				development = 20
-				continent = europe
+				
 			}
 		}
 		modifier = {
 			factor = 0.1
 			scale = yes
 			potential = {
-				continent = europe
+				
 			}
 			custom_trigger_tooltip = {
 				tooltip = tooltip_development_5_post_1500
-				continent = europe
 				is_year = 1500
 				development = 5
 			}
@@ -501,6 +499,18 @@ renaissance = {
 				owner = {
 					has_institution = renaissance
 				}
+			}
+		}
+		#ASU changes
+		modifier = {
+			factor = 1
+			scale = no
+			potential = {
+			}
+			custom_trigger_tooltip = {
+				tooltip = ASU_renaissance_capital_country_over_100_dev
+				is_capital = yes
+				owner = { total_development = 100 }
 			}
 		}
 	}
@@ -762,6 +772,54 @@ new_world_i = {
 				is_owned_by_trade_company = no
 				owner = {
 					has_institution = new_world_i
+				}
+			}
+		}
+		#ASU changes
+		modifier = {
+			factor = 0.1
+			scale = yes
+			potential = {
+			}
+			custom_trigger_tooltip = {
+				tooltip = ASU_colonialism_coastal
+				has_port = yes
+			}
+		}
+		modifier = {
+			factor = 3
+			scale = no
+			potential = {
+			}
+			custom_trigger_tooltip = {
+				tooltip = ASU_colonialism_coastal_cot_lvl_3
+				has_port = yes
+				province_has_center_of_trade_of_level = 3
+			}
+		}
+		modifier = {
+			factor = 0.2
+			scale = yes
+			potential = {
+			}
+			custom_trigger_tooltip = {
+				tooltip = PR_colonialism_capital_no_coast_in_country
+				is_capital = yes
+				owner = {
+					NOT = { num_of_total_ports = 1 }
+				}
+			}
+		}
+		modifier = {
+			factor = 0.2
+			scale = yes
+			potential = {
+			}
+			custom_trigger_tooltip = {
+				tooltip = PR_colonialism_cot_lvl_3_no_coast_in_country
+				province_has_center_of_trade_of_level = 3
+				owner = {
+					NOT = { num_of_total_ports = 1 }
 				}
 			}
 		}
@@ -1111,6 +1169,30 @@ printing_press = {
 				owner = {
 					has_institution = printing_press
 				}
+			}
+		}
+		#ASU changes
+		modifier = {
+			factor = 0.15
+			scale = yes
+			potential = {
+					  
+			}
+			custom_trigger_tooltip = {
+				tooltip = ASU_printing_press_capital_20_dev
+				development = 20
+				is_capital = yes
+			}
+		}
+		modifier = {
+			factor = 6
+			scale = no
+			potential = {
+			}
+			custom_trigger_tooltip = {
+				tooltip = ASU_printing_press_paper
+				trade_goods = paper
+				NOT = { continent = europe }
 			}
 		}
 	}
