@@ -996,3 +996,73 @@ mnd_siam_5 = {
 		}
 	}
 }
+
+ASU_siam_branch_6 = {
+	slot = 6
+	generic = no
+	ai = no
+	potential = {
+		OR = {
+			tag = AYU
+			tag = SIA
+		}
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+} #End branch 6
+
+ASU_siam_branch_7 = {
+	slot = 6
+	generic = no
+	ai = no
+	potential = {
+		OR = {
+			tag = AYU
+			tag = SIA
+		}
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+} #End branch 7
+
+ASU_siam_branch_8 = {
+	slot = 8
+	generic = no
+	ai = no
+	potential = {
+		OR = {
+			tag = AYU
+			tag = SIA
+		}
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+} #End branch 8
+
+ASU_siam_branch_9 = {
+	slot = 9
+	generic = no
+	ai = no
+	potential = {
+		OR = {
+			tag = AYU
+			tag = SIA
+		}
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+} #End branch 9
+
+ASU_siam_branch_10 = {
+	slot = 10
+	generic = no
+	ai = no
+	potential = {
+		OR = {
+			tag = AYU
+			tag = SIA
+		}
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+} #End branch 10
