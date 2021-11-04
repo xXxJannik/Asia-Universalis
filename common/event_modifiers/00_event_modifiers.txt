@@ -12346,6 +12346,27 @@ ASU_siam_asian_ivory = {
 	trade_goods_size = 2
 }
 
+ASU_siam_growing_capital = {
+	trade_goods_size_modifier = 0.25
+	local_tax_modifier = 0.33
+	province_trade_power_modifier = 0.5
+}
+
+ASU_siam_dominate_trade = {
+	trade_efficiency = 0.05
+}
+
+ASU_siam_vassals = {
+	vassal_income = 1
+	vassal_forcelimit_bonus = 0.5
+	global_tax_income = 48
+}
+
+ASU_siam_invested_in_region = {
+	local_tax_modifier = 0.25
+	local_production_efficiency = 0.25
+}
+
 # TIBET
 
 ASU_tibet_pierce_the_heavens = {

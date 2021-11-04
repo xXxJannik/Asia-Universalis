@@ -1019,7 +1019,6 @@ mandala_reform = {
 		vassal_forcelimit_bonus = 1
 		governing_capacity_modifier = -0.33
 	}
-	free_concentrate_development = yes
 }
 
 nayankara_reform = {

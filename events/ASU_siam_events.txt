@@ -1,0 +1,28 @@
+namespace = ASU_siam_events
+
+country_event = { #Siamese Wood Export
+	id = ASU_siam_events.1
+	title = "ASU_siam_events.1.t"
+	desc = "ASU_siam_events.1.d"
+	picture = REFORM_eventPicture
+	is_triggered_only = yes
+    major = yes  #Notification for everyone
+	option = {
+		name = "ASU_siam_events.1.a"
+        change_price = {
+			trade_goods = tropical_wood
+			key = ASU_GOOD_WOOD
+			value = 0.5
+			duration = -1
+		}
+        add_years_of_owned_provinces_production_income = {
+			years = 1
+			trigger = {
+				trade_goods = tropical_wood
+			}
+		}
+        ai_chance = {            # the AI does not take the event without
+			factor = 100
+		}
+	}
+}

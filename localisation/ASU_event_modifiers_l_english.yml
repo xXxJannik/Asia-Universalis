@@ -156,6 +156,10 @@
 
  #Siam
  ASU_siam_asian_ivory:0 "Asian Ivory"
+ ASU_siam_growing_capital:0 "Growing Capital"
+ ASU_siam_dominate_trade:0 "Dominate Trade"
+ ASU_siam_vassals:0 "New Mandala Law"
+ ASU_siam_invested_in_region:0 "Investions in the Region"
 
  #Tibet
  ASU_tibet_pierce_the_heavens:0 "Pierce the Heavens"

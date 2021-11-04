@@ -973,7 +973,8 @@ mnd_siam_5 = {
 	}
 	mnd_siam_trade = {
 		icon = mission_market_place_with_asian_traders
-		required_missions = { mnd_siam_mlc }
+		required_missions = { mnd_siam_mlc ASU_siam_mission_3 }
+		position = 4
 		provinces_to_highlight = {
 			OR = {
 				AND = {
@@ -1009,10 +1010,72 @@ ASU_siam_branch_6 = {
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
+
+	ASU_siam_mission_1 = {
+		icon = mission_a_million_elephants
+		required_missions = {  }
+		provinces_to_highlight = {
+			
+		}
+		trigger = {
+			trading_part = {
+				trade_goods = ivory
+				value = 0.5
+			}
+		}
+		effect = {
+			add_years_of_owned_provinces_production_income = {
+				years = 1
+				trigger = {
+					trade_goods = ivory
+				}
+			}
+		}
+	}
+
+	ASU_siam_mission_2 = {
+		icon = mission_have_manufactories
+		required_missions = { ASU_siam_mission_1 }
+		provinces_to_highlight = {
+			owned_by = ROOT
+			trade_goods = tropical_wood
+			NOT = { base_production = 8 }
+		}
+		trigger = {
+			num_of_owned_provinces_with = {
+                value = 10
+                trade_goods = tropical_wood
+				base_production = 8
+            }
+		}
+		effect = {
+			country_event = { #Siamese Wood Export
+				id = ASU_siam_events.1
+			}
+		}
+	}
+
+	ASU_siam_mission_3 = {
+		icon = mission_establish_high_seas_navy
+		required_missions = {  }
+		provinces_to_highlight = {
+			
+		}
+		trigger = {
+			num_of_galley = 50
+			num_of_light_ship = 50
+		}
+		effect = {
+			add_country_modifier = {
+				name = "naval_enthusiasm_mission"
+				duration = 9125 #25 years
+			}
+		}
+	}
 } #End branch 6
 
 ASU_siam_branch_7 = {
-	slot = 6
+	slot = 7
 	generic = no
 	ai = no
 	potential = {
@@ -1023,6 +1086,95 @@ ASU_siam_branch_7 = {
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
+
+	ASU_siam_mission_4 = {
+		icon = mission_colonial
+		required_missions = {  }
+		provinces_to_highlight = {
+			province_id = 4831
+		}
+		trigger = {
+			4831 = {
+				owned_by = ROOT
+				development = 20
+				OR = {
+					has_building = barracks
+					has_building = training_fields
+				}
+				OR = {
+					has_building = temple
+					has_building = cathedral
+				}
+				OR = {
+					has_building = workshop
+					has_building = counting_house
+				}
+			}
+		}
+		effect = {
+			4831 = {
+				change_trade_goods = paper
+			}
+		}
+	}
+
+	ASU_siam_mission_5 = {
+		icon = mission_great_trading_houses
+		required_missions = { ASU_siam_mission_4 ASU_siam_mission_7 }
+		provinces_to_highlight = {
+			province_id = 600
+		}
+		trigger = {
+			600 = {
+				owned_by = ROOT
+				development = 30
+				OR = {
+					has_building = barracks
+					has_building = training_fields
+				}
+				OR = {
+					has_building = temple
+					has_building = cathedral
+				}
+				OR = {
+					has_building = workshop
+					has_building = counting_house
+				}
+			}
+		}
+		effect = {
+			600 = {
+				add_prosperity = 100
+				add_province_modifier = {
+					name = ASU_siam_growing_capital
+					duration = -1
+				}
+			}
+		}
+	}
+
+	ASU_siam_mission_6 = {
+		icon = mission_dominate_home_trade_node
+		required_missions = { ASU_siam_mission_5 ASU_siam_mission_2 ASU_siam_mission_14 }
+		provinces_to_highlight = {
+			province_id = 1365
+		}
+		trigger = {
+			1365 = { #Siam
+				trade_share = {
+					country = ROOT
+					share = 85
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = ASU_siam_dominate_trade
+				duration = -1
+			}
+		}
+	}
+
 } #End branch 7
 
 ASU_siam_branch_8 = {
@@ -1037,6 +1189,42 @@ ASU_siam_branch_8 = {
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
+
+	ASU_siam_mission_7 = {
+		icon = mission_rb_colonise_spice_islands
+		required_missions = {  }
+		provinces_to_highlight = {
+			province_id = 4832
+		}
+		trigger = {
+			4832 = {
+				owned_by = ROOT
+				development = 20
+			}
+		}
+		effect = {
+			4832 = {
+				change_trade_goods = dyes
+			}
+		}
+	}
+
+	ASU_siam_mission_14 = {
+		icon = mission_high_income
+		required_missions = {  }
+		provinces_to_highlight = {
+		}
+		trigger = {
+			num_of_owned_provinces_with = {
+				value = 3
+				province_has_center_of_trade_of_level = 3
+			}
+		}
+		effect = {
+			add_dip_power = 100
+		}
+	}
+
 } #End branch 8
 
 ASU_siam_branch_9 = {
@@ -1051,6 +1239,130 @@ ASU_siam_branch_9 = {
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
+
+	ASU_siam_mission_8 = {
+		icon = mission_a_great_mandala
+		required_missions = {  }
+		provinces_to_highlight = {
+			
+		}
+		trigger = {
+			full_idea_group = influence_ideas
+		}
+		effect = {
+			add_dip_power = 250
+		}
+	}
+
+	ASU_siam_mission_9 = {
+		icon = mission_kowtow
+		required_missions = { ASU_siam_mission_8 }
+		provinces_to_highlight = {
+			
+		}
+		trigger = {
+			vassal = 4
+		}
+		effect = {
+			add_country_modifier = {
+				name = ASU_siam_vassals
+				duration = 18250 #50 Years
+			}
+		}
+	}
+
+	ASU_siam_mission_10 = {
+		icon = mission_mnd_khm_avenge_angkor
+		required_missions = { ASU_siam_mission_9 }
+		provinces_to_highlight = {
+			OR = {
+				area = cambodia_area
+				area = mekong_area
+				area = angkor_area
+			}
+			NOT = { development = 10 }
+		}
+		trigger = {
+			cambodia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+				development = 10
+			}
+			mekong_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+				development = 10
+			}
+			angkor_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+				development = 10
+			}	
+		}
+		effect = {
+			cambodia_area = {
+				add_prosperity = 100
+				add_province_modifier = {
+					name = ASU_siam_invested_in_region
+					duration = 12045 #33 Years
+				}
+			}
+			mekong_area = {
+				add_prosperity = 100
+				add_province_modifier = {
+					name = ASU_siam_invested_in_region
+					duration = 12045 #33 Years
+				}
+			}
+			angkor_area = {
+				add_prosperity = 100
+				add_province_modifier = {
+					name = ASU_siam_invested_in_region
+					duration = 12045 #33 Years
+				}
+			}
+		}
+	}
+
+	ASU_siam_mission_11 = {
+		icon = mission_mnd_khm_city_of_temples
+		required_missions = { ASU_siam_mission_10 }
+		provinces_to_highlight = {
+			OR = {
+				area = champasak_area
+				area = vientiane_area
+			}
+			NOT = { development = 10 }
+		}
+		trigger = {
+			champasak_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+				development = 10
+			}
+			vientiane_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+				development = 10
+			}
+		}
+		effect = {
+			champasak_area = {
+				add_prosperity = 100
+				add_province_modifier = {
+					name = ASU_siam_invested_in_region
+					duration = 12045 #33 Years
+				}
+			}
+			vientiane_area = {
+				add_prosperity = 100
+				add_province_modifier = {
+					name = ASU_siam_invested_in_region
+					duration = 12045 #33 Years
+				}
+			}
+		}
+	}
 } #End branch 9
 
 ASU_siam_branch_10 = {
@@ -1065,4 +1377,56 @@ ASU_siam_branch_10 = {
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
+
+	ASU_siam_mission_12 = {
+		icon = mission_mnd_khm_restore_angkor
+		position = 3
+		required_missions = { ASU_siam_mission_9 }
+		provinces_to_highlight = {
+			area = sukhothai_area 
+			NOT = { development = 10 }
+		}
+		trigger = {
+			sukhothai_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+				development = 10
+			}
+		}
+		effect = {
+			sukhothai_area = {
+				add_prosperity = 100
+				add_province_modifier = {
+					name = ASU_siam_invested_in_region
+					duration = 12045 #33 Years
+				}
+			}
+		}
+	}
+
+	ASU_siam_mission_13 = {
+		icon = mission_mnd_dai_temples
+		required_missions = { ASU_siam_mission_12 }
+		position = 4
+		provinces_to_highlight = {
+			area = northern_thai_area 
+			NOT = { development = 10 }
+		}
+		trigger = {
+			northern_thai_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+				development = 10
+			}
+		}
+		effect = {
+			northern_thai_area = {
+				add_prosperity = 100
+				add_province_modifier = {
+					name = ASU_siam_invested_in_region
+					duration = 12045 #33 Years
+				}
+			}
+		}
+	}
 } #End branch 10
