@@ -1068,3 +1068,25 @@
  ASU_siam_mission_12_desc:0 ""
  ASU_siam_mission_13_desc:0 ""
  ASU_siam_mission_14_desc:0 ""
+
+ #Majapahit
+
+ ASU_majapahit_missions_1_title:0 "Dominate Malacca"
+ ASU_majapahit_missions_2_title:0 "Dominate Moluccas"
+ ASU_majapahit_missions_3_title:0 "Naval Superpower"
+ ASU_majapahit_missions_4_title:0 "Dominate Philippines"
+ ASU_majapahit_missions_5_title:0 "Invest in West Java"
+ ASU_majapahit_missions_6_title:0 "Invest in Banten"
+ ASU_majapahit_missions_7_title:0 "Invest in Central Java"
+ ASU_majapahit_missions_8_title:0 "Growing Capital"
+ ASU_majapahit_missions_9_title:0 "Invest in East Java"
+
+ ASU_majapahit_missions_1_desc:0 ""
+ ASU_majapahit_missions_2_desc:0 ""
+ ASU_majapahit_missions_3_desc:0 ""
+ ASU_majapahit_missions_4_desc:0 ""
+ ASU_majapahit_missions_5_desc:0 ""
+ ASU_majapahit_missions_6_desc:0 ""
+ ASU_majapahit_missions_7_desc:0 ""
+ ASU_majapahit_missions_8_desc:0 ""
+ ASU_majapahit_missions_9_desc:0 ""
