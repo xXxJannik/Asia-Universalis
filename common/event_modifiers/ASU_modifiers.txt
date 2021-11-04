@@ -1,0 +1,606 @@
+#ASU
+
+
+ASU_estate_herding_rights_modifier = {
+	local_development_cost = -0.05
+}
+
+ASU_estate_tribal_deal_modifier = {
+	local_manpower_modifier = 0.1
+	local_autonomy = 0.05
+}
+
+ASU_estate_tribal_production_modifier = {
+	trade_goods_size_modifier = 0.2
+	min_local_autonomy = 10
+}
+
+ASU_Korea_Strait = {
+	local_hostile_movement_speed = -0.5
+	local_friendly_movement_speed = -0.5
+}
+
+ASU_rise_of_a_great_khan = {
+	land_morale = 0.2
+}
+
+ASU_japan_a_new_emperor = {
+	land_morale = 0.2
+}
+
+ASU_eoc_population_support = {
+	imperial_mandate = 0.01
+}
+
+ASU_shenyang_gems = {
+	trade_goods_size = 4
+}
+
+ASU_estate_janissaries_foreign_conscription = {
+	local_manpower_modifier = 0.25
+}
+
+ASU_estate_janissaries_invest_in_janissaries = {
+	local_development_cost = -0.1
+}
+
+ASU_estate_janissaries_discipline = {
+	is_janissary_modifier = yes
+	discipline = 0.1
+}
+
+ASU_estate_janissaries_militarisation = {
+	is_janissary_modifier = yes
+	infantry_power = 0.1
+	infantry_fire = 0.1
+}
+
+ASU_estate_janissaries_militarisation_2 = {
+	is_janissary_modifier = yes
+	infantry_power = 0.1
+	infantry_shock = 0.1
+}
+
+ASU_chengdu_valley = {
+	trade_goods_size = 2
+}
+
+ASU_macau_modifier = {
+	province_trade_power_value = 25
+}
+
+ASU_estate_tibet_mountain_modifier = {
+	local_development_cost = -0.15
+}
+
+ASU_estate_janissaries_reinforce_speed = {
+	is_janissary_modifier = yes
+	reinforce_speed = 0.25
+}
+
+ASU_estate_janissaries_improved_fire = {
+	is_janissary_modifier = yes
+	fire_damage = 0.1
+	fire_damage_received = -0.1
+}
+
+ASU_estate_janissaries_improved_moral = {
+	is_janissary_modifier = yes
+	land_morale = 0.2
+}
+
+ASU_estate_rajputs_modifier_1 = {
+	special_unit_forcelimit = 0.33
+}
+ASU_estate_rajputs_modifier_2 = {
+	is_rajput_modifier = yes
+	infantry_power = 0.2
+}
+ASU_estate_rajputs_modifier_3 = {
+	is_rajput_modifier = yes
+	discipline = 0.1
+}
+ASU_estate_rajputs_modifier_4 = {
+	is_rajput_modifier = yes
+	reinforce_speed = 0.33
+}
+ASU_estate_rajputs_modifier_5 = {
+	is_rajput_modifier = yes
+	land_morale = 0.2
+}
+ASU_estate_rajputs_modifier_6 = {
+	is_rajput_modifier = yes
+	drill_gain_modifier = 0.5
+	drill_decay_modifier = -0.5
+}
+ASU_estate_rajputs_modifier_7 = {
+	is_rajput_modifier = yes
+	fire_damage = 0.1
+	fire_damage_received = -0.1
+}
+ASU_estate_rajputs_modifier_8 = {
+	is_rajput_modifier = yes
+	shock_damage = 0.1
+	shock_damage_received = -0.1
+}
+
+ASU_early_mob_modifier = {
+	land_forcelimit_modifier = 0.25
+	global_manpower_modifier = 0.25
+	manpower_recovery_speed = 0.1
+	drill_gain_modifier = 0.5
+	global_trade_goods_size_modifier = -0.2
+	production_efficiency = -0.2
+	global_tax_modifier = -0.2
+}
+
+ASU_early_mob_ended_modifier = {
+	global_tax_modifier = -0.1
+	global_trade_goods_size_modifier = -0.1
+	production_efficiency = -0.1
+}
+
+ASU_mob_modifier = {
+	land_forcelimit_modifier = 0.5
+	global_manpower_modifier = 0.5
+	manpower_recovery_speed = 0.25
+	drill_gain_modifier = 0.1
+	global_trade_goods_size_modifier = -0.3
+	production_efficiency = -0.3
+	global_tax_modifier = -0.3
+}
+
+ASU_mob_ended_modifier = {
+	global_trade_goods_size_modifier = -0.15
+	production_efficiency = -0.15
+	global_tax_modifier = -0.15
+}
+
+ASU_mob_transition_modifier = {
+	prestige = 1
+}
+
+ASU_mob_guild_support = {
+	interest = -0.25
+}
+
+ASU_mob_mercs_form = {
+	mercenary_cost = -0.25
+	prestige = -1
+}
+
+ASU_mob_lifetime_of_war = {
+	mercenary_manpower = -0.5
+}
+
+ASU_mob_people_demobilise = {
+	global_unrest = 2
+}
+
+ASU_estate_radicals_guards_moral = {
+	is_revolutionary_guard_modifier = yes
+	land_morale = 0.2
+}
+
+ASU_estate_radicals_guards_drill_loss = {
+	is_revolutionary_guard_modifier = yes
+	drill_decay_modifier = -0.5
+}
+
+ASU_estate_radicals_guards_discipline = {
+	is_revolutionary_guard_modifier = yes
+	discipline = 0.05
+	reinforce_cost_modifier = 1
+}
+
+ASU_researcher_boost = {
+	global_institution_spread = 0.5
+}
+
+ASU_reformist_boost = {
+	reform_progress_growth = 0.4
+}
+
+ASU_humanist_boost = {
+	monthly_splendor = 3
+}
+
+ASU_negotiator_boost = {
+	diplomatic_upkeep = 2
+}
+
+ASU_pioneer_boost = {
+	global_colonial_growth = 30
+}
+
+ASU_markeeter_boost = {
+	global_trade_power = 0.2
+}
+
+ASU_marine_leader_boost = {
+	sailors_recovery_speed = 0.2
+}
+
+ASU_drill_instructor_boost = {
+	drill_gain_modifier = 0.5
+}
+
+ASU_combat_engineer_boost = {
+	siege_ability = 0.25
+}
+
+ASU_mercenary_captain_boost = {
+	merc_maintenance_modifier = -0.25
+}
+
+ASU_defensiv_planner_boost = {
+	shock_damage_received = -0.1
+}
+
+ASU_logistician_boost = {
+	land_attrition = -0.2
+}
+
+ASU_recruiting_officer_boost = {
+	manpower_recovery_speed = 0.20
+}
+
+ASU_infantry_leader_boost = {
+	infantry_power = 0.1
+}
+
+ASU_cavalry_leader_boost = {
+	cavalry_power = 0.1
+}
+
+####################################
+#These ones are for Reformed Asian
+####################################
+ASU_reformed_bureaucracy = {
+	governing_capacity = 200
+}
+
+ASU_reformed_administration = {
+	governing_capacity = 500
+}
+
+ASU_reformed_standards = {
+	trade_efficiency = 0.02
+}
+
+ASU_reformed_commercial = {
+	trade_efficiency = 0.05
+}
+
+ASU_reformed_production = {
+	production_efficiency = 0.02
+	#global_trade_goods_size_modifier = 0.02
+}
+
+ASU_reformed_economy = {
+	production_efficiency = 0.05
+	#global_trade_goods_size_modifier = 0.05
+}
+
+ASU_new_conscription = {
+	global_manpower_modifier = 0.04
+}
+
+ASU_reformed_conscription = {
+	global_manpower_modifier = 0.1
+}
+
+ASU_reformed_admirality = {
+	global_sailors_modifier = 0.04
+}
+
+ASU_reformed_navy = {
+	global_sailors_modifier = 0.1
+}
+
+ASU_introduce_regulars = {
+	manpower_recovery_speed = 0.02
+}
+
+ASU_reformed_army = {
+	manpower_recovery_speed = 0.05
+}
+
+ASU_nest_of_bees = {
+	artillery_cost = -0.2
+}
+
+ASU_eternal_war = {
+	army_tradition_from_battle = 0.25
+}
+
+####################################
+####################################
+####################################
+
+ASU_army_of_a_nation = {
+	supply_limit_modifier = 0.5
+}
+
+ASU_korea_defensive_mentality_cost = {
+	fort_maintenance_modifier = -0.1
+}
+
+ASU_korea_defensive_mentality_defence = {
+	defensiveness = 0.2
+}
+
+ASU_korea_merchant_society = {
+	global_ship_trade_power = 0.2
+}
+
+ASU_korean_golden_age = {
+	all_power_cost = -0.01
+}
+
+ASU_korean_reformation = {
+	trade_efficiency = 0.1
+	naval_morale = 0.05
+}
+
+ASU_manchu_reformation = {
+	global_regiment_cost = -0.25
+}
+
+ASU_manchu_strive_to_survive = {
+	global_tax_income = 24
+	global_regiment_cost = -0.1
+}
+
+ASU_manchu_panax_ginseng = {
+	global_tax_income = 24
+}
+
+ASU_manchu_trial_of_the_dead = {
+	land_morale = 0.1
+}
+
+ASU_manchu_a_god_for_everyone = {
+	global_unrest = -1
+}
+
+ASU_manchu_the_northlands = {
+	colonists = 1
+	global_colonial_growth = 20
+	auto_explore_adjacent_to_colony = yes
+}
+
+ASU_manchu_the_dragon_clan = {
+	amount_of_banners = 0.20
+}
+
+ASU_manchu_sons_of_the_steppes = {
+	cavalry_power = 0.2
+}
+
+ASU_manchu_economic_reform = {
+	build_cost = -0.1
+	development_cost = -0.05
+}
+
+# Ming
+
+ASU_ming_reformation = {
+	siege_ability = 0.25
+	defensiveness = 0.25
+}
+
+ASU_ming_iron_supply = {
+	trade_goods_size = 1
+}
+
+ASU_ming_forbidden_city = {
+	local_defensiveness = 0.75
+	garrison_growth = 1
+}
+
+ASU_ming_control_over_bohai = {
+	province_trade_power_value = 25
+}
+
+# Australia 
+
+ASU_australia_world_of_enemies = {
+	technology_cost = -0.1
+	idea_cost = -0.1
+}
+
+ASU_australia_paradis_devils = {
+	infantry_power = 0.2
+}
+
+ASU_australia_paradis_victorious = {
+	diplomatic_reputation = -3
+	land_morale = 0.2
+}
+
+ASU_australia_vulcan = {
+	local_development_cost = -0.5
+}
+
+ASU_australia_last_resort = {
+	land_morale = 0.25
+	infantry_shock = 0.5
+}
+
+ASU_australia_desert_paradis = {
+	trade_goods_size_modifier = 0.5
+}
+
+ASU_australia_harbors_of_paradis = {
+	global_ship_recruit_speed = -0.2
+}
+
+# JAPAN
+
+ASU_sengoku_jidai = {
+	land_forcelimit = 5
+	global_tax_income = 24
+}
+
+ASU_way_of_the_samurai = {
+	prestige = 1
+}
+
+ASU_japanese_century = {
+	discipline = 0.05
+}
+
+ASU_rise_of_the_eastern_empire = {
+	naval_morale = 0.1
+}
+
+ASU_japanese_bank = {
+	interest = -0.25
+}
+ASU_bushido_code = {
+	discipline = 0.025
+}
+ASU_japan_capital = {
+	local_development_cost = -0.1
+}
+
+ASU_japan_tropical_material = {
+	trade_goods_size = 3
+	trade_value_modifier = 0.25
+}
+
+# PERSIA
+
+ASU_persia_leader_of_the_muslim_world = {
+	global_missionary_strength = 0.02
+	missionaries = 1
+}
+
+ASU_persia_refugees = {
+	trade_goods_size = 0.5
+}
+
+ASU_persia_dominate_timur_family = {
+	legitimacy = 1
+	prestige = 0.5
+}
+
+ASU_persia_a_million_bayonets = {
+	infantry_cost = -0.2
+}
+
+# ZAPOROZHIE 
+
+ASU_zaz_wings_of_glory = {
+	army_tradition_from_battle = 0.5
+}
+
+ASU_zaz_polish_minorities = {
+	trade_goods_size = 1
+}
+
+ASU_zaz_muscovite_minorities = {
+	trade_goods_size = 1
+}
+
+ASU_zaz_moldovian_minorities = {
+	trade_goods_size = 1
+}
+
+ASU_zaz_backbone = {
+	trade_goods_size_modifier = 0.25
+}
+
+ASU_zaz_steppe_iron = {
+	trade_goods_size_modifier = 0.33
+}
+
+ASU_zaz_steppe_copper = {
+	trade_goods_size_modifier = 0.33
+}
+
+# DZUNGAR 
+
+ASU_dzungar_winter_clothing = {
+	land_attrition = -0.2
+}
+
+ASU_dzungar_weapon_production = {
+	trade_goods_size = 1
+}
+
+ASU_dzungar_cloth_production = {
+	trade_goods_size = 1
+}
+
+ASU_dzungar_fur_production = {
+	trade_goods_size = 1
+}
+
+ASU_dzungar_salt_production = {
+	trade_goods_size = 1
+}
+
+# SIAM
+
+ASU_siam_asian_ivory = {
+	trade_goods_size = 2
+}
+
+ASU_siam_growing_capital = {
+	trade_goods_size_modifier = 0.25
+	local_tax_modifier = 0.33
+	province_trade_power_modifier = 0.5
+}
+
+ASU_siam_dominate_trade = {
+	trade_efficiency = 0.05
+}
+
+ASU_siam_vassals = {
+	vassal_income = 1
+	vassal_forcelimit_bonus = 0.5
+	global_tax_income = 48
+}
+
+ASU_siam_invested_in_region = {
+	local_tax_modifier = 0.25
+	local_production_efficiency = 0.25
+}
+
+# TIBET
+
+ASU_tibet_pierce_the_heavens = {
+	tax_income = 120
+	land_morale = 0.1
+}
+
+ASU_tibet_divine_tibet = {
+	tax_income = 120
+}
+
+ASU_tibet_pasighat_valley = {
+	trade_goods_size = 3
+}
+
+ASU_tibet_roof_of_the_world = {
+	trade_goods_size = 3
+}
+
+ASU_tibet_humanism = {
+	technology_cost = -0.05
+	idea_cost = -0.05
+}
+
+ASU_tibet_fort = {
+	fort_maintenance_modifier = -0.33
+}
+
+ASU_tibet_kuqa_goldmine = {
+	trade_goods_size = 1
+}
+
+ASU_tibet_hotan_gems = {
+	trade_goods_size = 2
+}

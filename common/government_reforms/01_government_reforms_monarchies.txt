@@ -1143,7 +1143,6 @@ siamese_absolutism = {
 		max_absolutism = 10
 		monarch_admin_power = 1
 	}
-	free_concentrate_development = yes
 }
 
 confucian_bureaucracy = {
