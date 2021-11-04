@@ -74,7 +74,7 @@ YUE_ideas = {
 		drill_decay_modifier = -0.2
 	}
 	ASU_yue_NI7  = {                    
-		artillery_fire = 1
+		artillery_fire = 0.5
 	}
 }
 
@@ -115,7 +115,7 @@ WUU_ideas = {
 		global_trade_goods_size_modifier = 0.2
 	}
 	ASU_WUU_NI7  = {                    
-		artillery_fire = 1
+		artillery_fire = 0.5
 	}
 }
 
