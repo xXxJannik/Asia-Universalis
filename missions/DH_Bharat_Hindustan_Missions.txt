@@ -1,5 +1,5 @@
-hin_slot_1 = {
-	slot = 1
+hin_slot_6 = {
+	slot = 6
 	generic = no
 	ai = yes
 	potential_on_load = {
@@ -90,8 +90,8 @@ hin_slot_1 = {
 	}
 }
 
-hin_slot_2 = {
-	slot = 2
+hin_slot_7 = {
+	slot = 7
 	generic = no
 	ai = yes
 	potential_on_load = {
@@ -281,8 +281,8 @@ hin_slot_2 = {
 	}
 }
 
-hin_slot_3 = {
-	slot = 3
+hin_slot_8 = {
+	slot = 8
 	generic = no
 	ai = yes
 	potential_on_load = {
@@ -358,8 +358,8 @@ hin_slot_3 = {
 	}
 }
 
-hin_slot_4 = {
-	slot = 4
+hin_slot_9 = {
+	slot = 9
 	generic = no
 	ai = yes
 	potential_on_load = {
@@ -424,8 +424,8 @@ hin_slot_4 = {
 	}
 }
 
-hin_slot_5 = {
-	slot = 5
+hin_slot_10 = {
+	slot = 10
 	generic = no
 	ai = yes
 	potential_on_load = {
