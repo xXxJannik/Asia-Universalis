@@ -1311,7 +1311,10 @@ ASU_shun_reformation_branch_3 = {
 			add_treasury = -5000
 			add_country_modifier = {
 				name = ASU_shun_century
-				duration = -1
+				duration = 36500
+			}
+			country_event = { #Reformed Asian
+				id = ASU_china_events.4
 			}
 		}
 	}
