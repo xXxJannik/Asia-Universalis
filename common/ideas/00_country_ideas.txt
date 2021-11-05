@@ -1792,7 +1792,7 @@ BYZ_ideas = {
 VIJ_ideas = {
 	start = {
 		advisor_pool = 1
-		infantry_power = 0.1
+		global_tax_modifier = 0.1
 	}
 	
 	bonus = {
@@ -1824,7 +1824,7 @@ VIJ_ideas = {
 		diplomats = 1
 	}
 	army_for_city_of_victory = {
-		discipline = 0.05
+		infantry_cost = -0.1
 	}
 }
 
@@ -13131,7 +13131,7 @@ DLH_ideas = {
 BHA_ideas = {
 	start = {
 		land_morale = 0.1
-		infantry_power = 0.1
+		infantry_cost = -0.1
 	}
 	bonus = {
 		years_of_nationalism = -5
@@ -13143,7 +13143,7 @@ BHA_ideas = {
 	free = yes
 
 	bha_modernized_war_elephants = {
-		cavalry_power = 0.15
+		cavalry_power = 0.10
 	}
 	bha_united_india = {
 		num_accepted_cultures = 2
@@ -13152,7 +13152,7 @@ BHA_ideas = {
 		technology_cost = -0.05
 	}
 	bha_indian_army = {
-		discipline = 0.05
+		global_manpower_modifier = 0.2
 	}
 	bha_ganga = {
 		tolerance_own = 2
