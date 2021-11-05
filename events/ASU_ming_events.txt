@@ -148,7 +148,12 @@ country_event = { #The Phoenix Rises
         add_adm_power = 250
         add_dip_power = 250
         add_mil_power = 250
-        add_mandate_effect = yes
+		if = {
+			limit = {
+				is_emperor_of_china = yes 
+			}
+			add_mandate_effect = yes
+		}
         ai_chance = {            # the AI does not take the event without
 			factor = 100
 		}

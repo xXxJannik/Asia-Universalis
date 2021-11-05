@@ -1,0 +1,1461 @@
+ASU_shun_branch_1 = {
+    slot = 1
+	generic = no
+	ai = no
+	potential = {
+		tag = CSH
+	}
+	has_country_shield = yes
+
+    ASU_shun_mission_1 = {
+        icon = mission_landsknecht_soldier
+		required_missions = {  }
+		position = 1
+
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+			land_forcelimit = 250
+		}
+
+		effect = { 
+			add_mil_power = 100
+		}
+    }
+
+    ASU_shun_mission_2 = {
+        icon = mission_asian_cannon
+		required_missions = {  }
+		position = 4
+
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+			num_of_artillery = 120
+		}
+
+		effect = { 
+			country_event = { #Nest of Bees Event
+				id = ASU_china_events.6
+			}
+		}
+    }
+
+} #End branch 1
+
+ASU_shun_branch_2 = {
+    slot = 2
+	generic = no
+	ai = no
+	potential = {
+		tag = CSH
+	}
+	has_country_shield = yes
+
+    ASU_shun_mission_3 = {
+        icon = mission_recruit_streltsy
+		required_missions = {  }
+		position = 1
+
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+			OR = {
+				war_with = MNG
+				war_with = YUE
+				war_with = WUU
+				war_with = CYI
+			}
+		}
+
+		effect = { 
+			country_event = { #The Eternal War Event
+				id = ASU_china_events.7
+			}
+		}
+    }
+
+    ASU_shun_mission_4 = {
+        icon = mission_manchu_warrior
+		required_missions = { ASU_shun_mission_1 ASU_shun_mission_3 ASU_shun_mission_7 }
+		position = 2
+
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+			total_development = 1000
+			total_development = MNG 
+			total_development = WUU
+			total_development = YUE
+			total_development = CYI
+		}
+
+		effect = { 
+			custom_tooltip = ASU_warlord_tradition_effect_tooltip
+			set_country_flag = ASU_warlord_tradtion_flag
+		}
+    }
+
+	ASU_shun_mission_5 = {
+        icon = mission_assemble_an_army
+		required_missions = {  }
+		position = 4
+
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+			land_forcelimit = 1000
+		}
+
+		effect = { 
+			country_event = { #Army of a Nation
+				id = ASU_china_events.5
+			}
+		}
+    }
+} #End branch 2
+
+ASU_shun_branch_3 = {
+    slot = 3
+	generic = no
+	ai = no
+	potential = {
+		tag = CSH
+	}
+	has_country_shield = yes
+
+    ASU_shun_mission_7 = {
+        icon = mission_war_chest
+		required_missions = {  }
+		position = 1
+
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+			monthly_income = 250
+		}
+
+		effect = { 
+			add_adm_power = 100
+			add_dip_power = 100
+			add_mil_power = 100
+		}
+    }
+    ASU_shun_mission_8 = {
+        icon = mission_empire
+		required_missions = {  }
+		position = 3
+
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+			in_golden_age = yes
+		}
+
+		effect = { 
+			add_years_of_income = 1
+			add_adm_power = 100
+			add_dip_power = 100
+			add_mil_power = 100
+		}
+    }
+    ASU_shun_mission_9 = {
+        icon = mission_scholar_officials
+		required_missions = { ASU_shun_mission_8 }
+		position = 4
+
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+			is_emperor_of_china = yes
+		}
+
+		effect = { 
+			add_mandate_effect = yes
+			add_prestige = 100
+		}
+    }
+    ASU_shun_mission_10 = {
+        icon = give_him_back_his_legions
+		required_missions = { ASU_shun_mission_9 }
+		position = 5
+
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+			total_development = 2000
+		}
+
+		effect = { 
+			country_event = { #The Rise of Shun
+				id = ASU_shun_events.2
+			}
+		}
+    }
+
+} #End branch 3
+
+ASU_shun_branch_4 = {
+    slot = 4
+	generic = no
+	ai = no
+	potential = {
+		tag = CSH
+	}
+	has_country_shield = yes
+
+    ASU_shun_mission_11 = {
+        icon = mission_landsknecht_soldier
+		required_missions = { ASU_shun_mission_12 }
+		position = 2
+
+		provinces_to_highlight = {
+			area = xining_area
+			NOT = { owned_by = ROOT }
+		}
+
+		trigger = { 
+			xining_area = {
+				type = all
+				owned_by = ROOT
+			}
+		}
+
+		effect = { 
+			add_adm_power = 50
+			jiuquan_area = {
+				add_permanent_claim = ROOT
+			}
+		}
+    }
+    
+} #End branch 4
+
+ASU_shun_branch_5 = {
+    slot = 5
+	generic = no
+	ai = no
+	potential = {
+		tag = CSH
+	}
+	has_country_shield = yes
+
+    ASU_shun_mission_12 = {
+        icon = mission_manchu_warrior
+		required_missions = {  }
+		position = 1
+
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+			army_size = 13
+		}
+
+		effect = { 
+			country_event = { #Struggle for Control
+				id = ASU_shun_events.1
+			}
+		}
+    }
+    ASU_shun_mission_13 = {
+        icon = mission_kowtow
+		required_missions = { ASU_shun_mission_12 }
+		position = 2
+
+		provinces_to_highlight = {
+			OR = {
+				area = litan_area
+				area = huan_area
+				area = qijiazhen_area
+			}
+			NOT = { owned_by = ROOT }
+		}
+
+		trigger = { 
+			litan_area = {
+				type = all
+				owned_by = ROOT
+			}
+			huan_area = {
+				type = all
+				owned_by = ROOT
+			}
+			qijiazhen_area = {
+				type = all
+				owned_by = ROOT
+			}
+		}
+
+		effect = { 
+			add_adm_power = 100
+			zhidan_area = {
+				add_permanent_claim = ROOT
+			}
+			yanzhizhen_area = {
+				add_permanent_claim = ROOT
+			}
+			hui_area = {
+				add_permanent_claim = ROOT
+			}
+			xian_area = {
+				add_permanent_claim = ROOT
+			}
+		}
+    }
+    ASU_shun_mission_14 = {
+        icon = mission_unite_home_region
+		required_missions = { ASU_shun_mission_13 }
+		position = 3
+
+		provinces_to_highlight = {
+			OR = {
+				area = zhidan_area
+				area = yanzhizhen_area
+				area = hui_area
+				area = xian_area
+			}
+			NOT = { owned_by = ROOT }
+		}
+
+		trigger = { 
+			zhidan_area = {
+				type = all
+				owned_by = ROOT
+			}
+			yanzhizhen_area = {
+				type = all
+				owned_by = ROOT
+			}
+			hui_area = {
+				type = all
+				owned_by = ROOT
+			}
+			xian_area = {
+				type = all
+				owned_by = ROOT
+			}
+		}
+
+		effect = { 
+			add_adm_power = 100
+			sedixang_area = {
+				add_permanent_claim = ROOT
+			}
+			mao_area = {
+				add_permanent_claim = ROOT
+			}
+			zitong_area = {
+				add_permanent_claim = ROOT
+			}
+			bazhong_area = {
+				add_permanent_claim = ROOT
+			}
+			ningshan_area = {
+				add_permanent_claim = ROOT
+			}
+		}
+    }
+    ASU_shun_mission_15 = {
+        icon = mission_great_wall
+		required_missions = { ASU_shun_mission_14 }
+		position = 4
+
+		provinces_to_highlight = {
+			OR = {
+				area = sedixang_area
+				area = mao_area
+				area = zitong_area
+				area = bazhong_area
+				area = ningshan_area
+			}
+			NOT = { owned_by = ROOT }
+		}
+
+		trigger = { 
+			sedixang_area = {
+				type = all
+				owned_by = ROOT
+			}
+			mao_area = {
+				type = all
+				owned_by = ROOT
+			}
+			zitong_area = {
+				type = all
+				owned_by = ROOT
+			}
+			bazhong_area = {
+				type = all
+				owned_by = ROOT
+			}
+			ningshan_area = {
+				type = all
+				owned_by = ROOT
+			}
+		}
+
+		effect = { 
+			add_adm_power = 100
+			add_dip_power = 100
+			add_mil_power = 100
+		}
+    }
+
+} #End branch 5
+
+ASU_shun_branch_6 = {
+    slot = 6
+	generic = no
+	ai = no
+	potential = {
+		tag = CSH
+	}
+	has_country_shield = yes
+
+    ASU_shun_mission_16 = {
+        icon = mission_landsknecht_soldier
+		required_missions = { ASU_shun_mission_12 }
+		position = 2
+
+		provinces_to_highlight = {
+			OR = {
+				area = yinchuan_area 
+				area = yicun_area
+				area = yanan_area
+			}
+			NOT = { owned_by = ROOT }
+		}
+
+		trigger = { 
+			yinchuan_area = {
+				type = all
+				owned_by = ROOT
+			}
+			yicun_area = {
+				type = all
+				owned_by = ROOT
+			}
+			yanan_area = {
+				type = all
+				owned_by = ROOT
+			}
+		}
+
+		effect = { 
+			add_adm_power = 100
+			ansai_area = {
+				add_permanent_claim = ROOT
+			}
+			zizhou_area = {
+				add_permanent_claim = ROOT
+			}
+		}
+    }
+    ASU_shun_mission_17 = {
+        icon = mission_japanese_fort
+		required_missions = { ASU_shun_mission_16 }
+		position = 3
+
+		provinces_to_highlight = {
+			OR = {
+				area = ansai_area 
+				area = zizhou_area
+			}
+			NOT = { owned_by = ROOT }
+		}
+
+		trigger = { 
+			ansai_area = {
+				type = all
+				owned_by = ROOT
+			}
+			zizhou_area = {
+				type = all
+				owned_by = ROOT
+			}
+		}
+
+		effect = { 
+			add_adm_power = 100
+			heyang_area = {
+				add_permanent_claim = ROOT
+			}
+			mazhen_area = {
+				add_permanent_claim = ROOT
+			}
+		}
+    }
+    ASU_shun_mission_18 = {
+        icon = fortify_malta
+		required_missions = { ASU_shun_mission_17 }
+		position = 4
+
+		provinces_to_highlight = {
+			OR = {
+				area = heyang_area 
+				area = mazhen_area
+			}
+			NOT = { owned_by = ROOT }
+		}
+
+		trigger = { 
+			heyang_area = {
+				type = all
+				owned_by = ROOT
+			}
+			mazhen_area = {
+				type = all
+				owned_by = ROOT
+			}
+		}
+
+		effect = { 
+			add_mil_power = 50
+			add_prestige = 50
+		}
+    }
+
+} #End branch 6
+
+ASU_shun_branch_7 = {
+    slot = 7
+	generic = no
+	ai = no
+	potential = {
+		tag = CSH
+	}
+	has_country_shield = yes
+
+    ASU_shun_mission_19 = {
+        icon = mission_great_wall
+		required_missions = {  }
+		position = 1
+
+		provinces_to_highlight = {
+			province_id = 2182
+		}
+
+		trigger = { 
+			2182 = {
+				owned_by = ROOT
+				province_has_center_of_trade_of_level = 3
+			}
+		}
+
+		effect = { 
+			add_treasury = 300
+		}
+    }
+    ASU_shun_mission_20 = {
+        icon = mission_reclaim_lost_territory
+		required_missions = {  }
+		position = 2
+
+		provinces_to_highlight = {
+			province_id = 707
+		}
+
+		trigger = { 
+			707 = {
+				owned_by = ROOT
+				province_has_center_of_trade_of_level = 3
+			}
+			707 = { #Yumen
+				trade_share = {
+					country = ROOT
+					share = 25
+				}
+			}
+		}
+
+		effect = { 
+			add_treasury = 300
+			add_mil_power = 50
+		}
+    }
+    ASU_shun_mission_21 = {
+        icon = mission_rice_field
+		required_missions = { ASU_shun_mission_26 }
+		position = 6
+
+		provinces_to_highlight = {
+			area = zhongwei_area
+			NOT = { development = 10 }
+		}
+
+		trigger = { 
+			zhongwei_area = {
+				type = all
+				owned_by = ROOT
+				development = 10
+			}
+		}
+
+		effect = { 
+			zhongwei_area = {
+				add_prosperity = 100
+				add_province_modifier = {
+					name = ASU_shun_invested_in
+					duration = 18250
+				}
+			}
+		}
+    }
+    ASU_shun_mission_22 = {
+        icon = mission_rice_field
+		required_missions = { ASU_shun_mission_21 }
+		position = 7
+
+		provinces_to_highlight = {
+			area = xining_area
+			NOT = { development = 10 }
+		}
+
+		trigger = { 
+			xining_area = {
+				type = all
+				owned_by = ROOT
+				development = 10
+			}
+		}
+
+		effect = { 
+			xining_area = {
+				add_prosperity = 100
+				add_province_modifier = {
+					name = ASU_shun_invested_in
+					duration = 18250
+				}
+			}
+		}
+    }
+
+} #End branch 7
+
+ASU_shun_branch_8 = {
+    slot = 8
+	generic = no
+	ai = no
+	potential = {
+		tag = CSH
+	}
+	has_country_shield = yes
+
+    ASU_shun_mission_23 = {
+        icon = mission_asian_trader
+		required_missions = {  }
+		position = 1
+
+		provinces_to_highlight = {
+			province_id = 698
+		}
+
+		trigger = { 
+			698 = {
+				owned_by = ROOT
+				province_has_center_of_trade_of_level = 3
+			}
+		}
+
+		effect = { 
+			698 = {
+				add_base_tax = 2
+				add_base_production = 2
+				add_base_manpower = 2
+			}
+		}
+    }
+    ASU_shun_mission_24 = {
+        icon = mission_dominate_home_trade_node
+		required_missions = { ASU_shun_mission_19 ASU_shun_mission_23 }
+		position = 2
+
+		provinces_to_highlight = {
+			province_id = 698
+		}
+
+		trigger = { 
+			698 = { #Ningxia
+				trade_share = {
+					country = ROOT
+					share = 25
+				}
+			}
+		}
+
+		effect = { 
+			add_treasury = 300
+			add_dip_power = 50
+		}
+    }
+    ASU_shun_mission_25 = {
+        icon = mission_rb_monopolize_the_channel
+		required_missions = { ASU_shun_mission_20 ASU_shun_mission_24 ASU_shun_mission_30 }
+		position = 3
+
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+			OR = {
+				full_idea_group = trade_ideas
+				full_idea_group = entwicklung0
+				full_idea_group = economic_ideas
+				full_idea_group = zentra0
+			}
+		}
+
+		effect = { 
+			add_country_modifier = {
+				name = ASU_shun_dominates_the_north
+				duration = -1
+			}
+		}
+    }
+    ASU_shun_mission_26 = {
+        icon = mission_early_game_buildings
+		required_missions = {  }
+		position = 5
+
+		provinces_to_highlight = {
+			province_id = 698
+		}
+
+		trigger = { 
+			698 = {
+				owned_by = ROOT
+				development = 20
+			}
+		}
+
+		effect = { 
+			add_adm_power = 50
+			add_dip_power = 50
+			add_mil_power = 50
+		}
+    }
+    ASU_shun_mission_27 = {
+        icon = mission_great_trading_houses
+		required_missions = { ASU_shun_mission_26 }
+		position = 6
+
+		provinces_to_highlight = {
+			province_id = 698
+		}
+
+		trigger = { 
+			698 = {
+				owned_by = ROOT
+				development = 30
+			}
+		}
+
+		effect = { 
+			698 = {
+				add_province_modifier = {
+					name = ASU_shun_capital_growth
+					duration = -1
+				}
+			}
+		}
+    }
+    ASU_shun_mission_28 = {
+        icon = mission_high_income
+		required_missions = { ASU_shun_mission_27 }
+		position = 7
+
+		provinces_to_highlight = {
+			OR = {
+				province_id = 2184
+				province_id = 5848
+				province_id = 5774
+				province_id = 698
+				province_id = 5840
+				province_id = 5825
+				province_id = 5812
+				province_id = 5760
+			}
+			AND = {
+				NOT = { development = 10 }
+				NOT = { has_building = workshop }
+			}
+			NOT = { has_building = counting_house }
+		}
+
+		trigger = { 
+			2184 = {
+				owned_by = ROOT
+				development = 10
+				OR = {
+					has_building = workshop
+					has_building = counting_house
+				}
+			}
+			5848 = {
+				owned_by = ROOT
+				development = 10
+				OR = {
+					has_building = workshop
+					has_building = counting_house
+				}
+			}
+			5774 = {
+				owned_by = ROOT
+				development = 10
+				OR = {
+					has_building = workshop
+					has_building = counting_house
+				}
+			}
+			698 = {
+				owned_by = ROOT
+				development = 10
+				OR = {
+					has_building = workshop
+					has_building = counting_house
+				}
+			}
+			5840 = {
+				owned_by = ROOT
+				development = 10
+				OR = {
+					has_building = workshop
+					has_building = counting_house
+				}
+			}
+			5825 = {
+				owned_by = ROOT
+				development = 10
+				OR = {
+					has_building = workshop
+					has_building = counting_house
+				}
+			}
+			5812 = {
+				owned_by = ROOT
+				development = 10
+				OR = {
+					has_building = workshop
+					has_building = counting_house
+				}
+			}
+			5760 = {
+				owned_by = ROOT
+				development = 10
+				OR = {
+					has_building = workshop
+					has_building = counting_house
+				}
+			}
+		}
+
+		effect = { 
+			2184 = {
+				add_province_modifier = {
+					name = ASU_shun_salt_expansion
+					duration = -1
+				}
+			}
+			5848 = {
+				add_province_modifier = {
+					name = ASU_shun_salt_expansion
+					duration = -1
+				}
+			}
+			5774 = {
+				add_province_modifier = {
+					name = ASU_shun_salt_expansion
+					duration = -1
+				}
+			}
+			698 = {
+				add_province_modifier = {
+					name = ASU_shun_salt_expansion
+					duration = -1
+				}
+			}
+			5840 = {
+				add_province_modifier = {
+					name = ASU_shun_salt_expansion
+					duration = -1
+				}
+			}
+			5825 = {
+				add_province_modifier = {
+					name = ASU_shun_salt_expansion
+					duration = -1
+				}
+			}
+			5812 = {
+				add_province_modifier = {
+					name = ASU_shun_salt_expansion
+					duration = -1
+				}
+			}
+			5760 = {
+				add_province_modifier = {
+					name = ASU_shun_salt_expansion
+					duration = -1
+				}
+			}
+		}
+    }
+
+} #End branch 8
+
+ASU_shun_branch_9 = {
+    slot = 9
+	generic = no
+	ai = no
+	potential = {
+		tag = CSH
+	}
+	has_country_shield = yes
+
+	ASU_shun_mission_29 = {
+        icon = mission_great_trading_houses
+		required_missions = {  }
+		position = 1
+
+		provinces_to_highlight = {
+			province_id = 5805
+		}
+
+		trigger = { 
+			5805 = {
+				owned_by = ROOT
+				province_has_center_of_trade_of_level = 3
+			}
+		}
+
+		effect = { 
+			add_treasury = 300
+			add_mil_power = 50
+		}
+    }
+	ASU_shun_mission_30 = {
+        icon = mission_high_income
+		required_missions = { ASU_shun_mission_29 ASU_shun_mission_33 }
+		position = 2
+
+		provinces_to_highlight = {
+			province_id = 5805
+		}
+
+		trigger = { 
+			5805 = { #Yanchuan
+				trade_share = {
+					country = ROOT
+					share = 50
+				}
+			}
+		}
+
+		effect = { 
+			add_treasury = 500
+		}
+    }
+	ASU_shun_mission_31 = {
+        icon = mission_rice_field
+		required_missions = { ASU_shun_mission_26 }
+		position = 6
+
+		provinces_to_highlight = {
+			area = ningxia_area
+			NOT = { development = 10 }
+		}
+
+		trigger = { 
+			ningxia_area = {
+				type = all
+				owned_by = ROOT
+				development = 10
+			}
+		}
+
+		effect = { 
+			ningxia_area = {
+				add_prosperity = 100
+				add_province_modifier = {
+					name = ASU_shun_invested_in
+					duration = 18250
+				}
+			}
+		}
+    }
+	ASU_shun_mission_32 = {
+        icon = mission_rice_field
+		required_missions = { ASU_shun_mission_31 }
+		position = 7
+
+		provinces_to_highlight = {
+			area = yicun_area
+			NOT = { development = 10 }
+		}
+
+		trigger = { 
+			yicun_area = {
+				type = all
+				owned_by = ROOT
+				development = 10
+			}
+		}
+
+		effect = { 
+			yicun_area = {
+				add_prosperity = 100
+				add_province_modifier = {
+					name = ASU_shun_invested_in
+					duration = 18250
+				}
+			}
+		}
+    }
+	
+} #End branch 9
+
+ASU_shun_branch_10 = {
+    slot = 10
+	generic = no
+	ai = no
+	potential = {
+		tag = CSH
+	}
+	has_country_shield = yes
+
+	ASU_shun_mission_33 = {
+        icon = mission_high_income
+		required_missions = {  }
+		position = 1
+
+		provinces_to_highlight = {
+			province_id = 5833
+		}
+
+		trigger = { 
+			5833 = {
+				owned_by = ROOT
+				province_has_center_of_trade_of_level = 3
+			}
+		}
+
+		effect = { 
+			add_mil_power = 50
+			add_treasury = 300
+		}
+    }
+
+} #End branch 10
+
+
+#Reformation of the Bureaucracy
+
+ASU_shun_reformation_branch_1 = {
+    slot = 1
+    generic = no
+	ai = no
+	potential = {
+		tag = CSH
+	}
+	has_country_shield = yes
+
+    ASU_shun_reformation_mission_1 = {
+		icon = mission_asian_trader
+		required_missions = { }
+		position = 6
+
+		provinces_to_highlight = {
+		}
+
+		trigger = { 
+			NOT = { num_of_loans = 10 }
+			treasury = 2000
+            OR = {
+                num_of_owned_provinces_with = {
+				    value = 25
+				    has_building = courthouse
+			    }
+                num_of_owned_provinces_with = {
+				    value = 25
+				    has_building = town_hall
+			    }
+            }
+		}
+
+		effect = {
+			add_treasury = -2000
+			add_country_modifier = {
+				name = "ASU_reformed_bureaucracy"
+				duration = -1
+			} 
+		}
+	}
+
+    ASU_shun_reformation_mission_2 = {
+		icon = mission_asian_trader
+		required_missions = { ASU_shun_reformation_mission_1 }
+		position = 7
+
+		provinces_to_highlight = {
+		}
+
+		trigger = { 
+			NOT = { num_of_loans = 10 }
+			treasury = 3000
+            OR = {
+                num_of_owned_provinces_with = {
+				    value = 75
+				    has_building = courthouse
+			    }
+                num_of_owned_provinces_with = {
+				    value = 75
+				    has_building = town_hall
+			    }
+            }
+		}
+
+		effect = { 
+			add_treasury = -3000
+			remove_country_modifier = "ASU_reformed_bureaucracy"
+			add_country_modifier = {
+				name = "ASU_reformed_administration"
+				duration = -1
+			}
+		}
+	} 
+}
+
+#Reformation of Trade
+
+ASU_shun_reformation_branch_2 = {
+    slot = 2
+    generic = no
+	ai = no
+	potential = {
+		tag = CSH
+	}
+	has_country_shield = yes
+
+    ASU_shun_reformation_mission_3 = {
+		icon = mission_dominate_home_trade_node
+		required_missions = { }
+		position = 6
+
+		provinces_to_highlight = {
+		}
+
+		trigger = { 
+			NOT = { num_of_loans = 10 }
+			treasury = 2000
+            OR = {
+                num_of_owned_provinces_with = {
+				    value = 25
+				    has_building = marketplace
+			    }
+                num_of_owned_provinces_with = {
+				    value = 25
+				    has_building = trade_depot
+			    }
+                num_of_owned_provinces_with = {
+				    value = 25
+				    has_building = stock_exchange
+			    }
+            }
+		}
+
+		effect = { 
+			add_treasury = -2000
+			add_country_modifier = {
+				name = "ASU_reformed_standards"
+				duration = -1
+			}
+		}
+	}
+
+    ASU_shun_reformation_mission_4 = {
+		icon = mission_dominate_home_trade_node
+		required_missions = { ASU_shun_reformation_mission_3 }
+		position = 7
+
+		provinces_to_highlight = {
+		}
+
+		trigger = { 
+			NOT = { num_of_loans = 10 }
+			treasury = 3000
+            OR = {
+                num_of_owned_provinces_with = {
+				    value = 75
+				    has_building = marketplace
+			    }
+                num_of_owned_provinces_with = {
+				    value = 75
+				    has_building = trade_depot
+			    }
+                num_of_owned_provinces_with = {
+				    value = 75
+				    has_building = stock_exchange
+			    }
+            }
+		}
+
+		effect = { 
+			add_treasury = -3000
+			remove_country_modifier = "ASU_reformed_standards"
+            add_country_modifier = {
+				name = "ASU_reformed_commercial"
+				duration = -1
+			}
+		}
+	}
+}
+
+#Reformation of Production
+
+ASU_shun_reformation_branch_3 = {
+    slot = 3
+    generic = no
+	ai = no
+	potential = {
+		tag = CSH
+	}
+	has_country_shield = yes
+
+    ASU_shun_reformation_mission_5 = {
+		icon = mission_have_manufactories
+		required_missions = { }
+		position = 6
+
+		provinces_to_highlight = {
+		}
+
+		trigger = { 
+			NOT = { num_of_loans = 10 }
+			treasury = 2000
+            num_of_owned_provinces_with = {
+				value = 25
+				has_manufactory_trigger = yes
+			}
+		}
+
+		effect = { 
+			add_treasury = -2000 
+		  	add_country_modifier = {
+				name = "ASU_reformed_production"
+				duration = -1
+			}
+		}
+	}
+
+    ASU_shun_reformation_mission_6 = {
+		icon = mission_have_manufactories
+		required_missions = { ASU_shun_reformation_mission_5 }
+		position = 7
+
+		provinces_to_highlight = {
+		}
+
+		trigger = { 
+			NOT = { num_of_loans = 10 }
+			treasury = 3000
+            num_of_owned_provinces_with = {
+				value = 75
+				has_manufactory_trigger = yes
+			}
+		}
+
+		effect = { 
+			add_treasury = -3000
+			remove_country_modifier = "ASU_reformed_production"
+            add_country_modifier = {
+				name = "ASU_reformed_economy"
+				duration = -1
+			}
+		}
+	}
+
+	ASU_shun_mission_34 = { #The Shun Century
+		icon = mission_empire
+		required_missions = { ASU_shun_reformation_mission_2 ASU_shun_reformation_mission_4 ASU_shun_reformation_mission_6 ASU_shun_reformation_mission_8 ASU_shun_reformation_mission_10}
+		position = 8
+
+		provinces_to_highlight = {
+		}
+
+		trigger = { 
+			treasury = 5000
+		}
+
+		effect = { 
+			add_treasury = -5000
+			add_country_modifier = {
+				name = ASU_shun_century
+				duration = -1
+			}
+		}
+	}
+}
+
+#Reformation of the Army
+
+ASU_shun_reformation_branch_4 = {
+    slot = 4
+    generic = no
+	ai = no
+	potential = {
+		tag = CSH
+	}
+	has_country_shield = yes
+
+    ASU_shun_reformation_mission_7 = {
+		icon = mission_rice_field
+		required_missions = { }
+		position = 6
+
+		provinces_to_highlight = {
+		}
+
+		trigger = { 
+			NOT = { num_of_loans = 10 }
+			treasury = 2000
+            OR = {
+                num_of_owned_provinces_with = {
+                    value = 25
+                    has_building = barracks
+                }
+                num_of_owned_provinces_with = {
+                    value = 25
+                    has_building = training_fields
+                }
+            }
+		}
+
+		effect = { 
+			add_treasury = -2000
+			add_country_modifier = {
+				name = "ASU_new_conscription"
+				duration = -1
+			}
+		}
+	}
+
+    ASU_shun_reformation_mission_8 = {
+		icon = mission_rice_field
+		required_missions = { ASU_shun_reformation_mission_7 }
+		position = 7
+
+		provinces_to_highlight = {
+		}
+
+		trigger = { 
+			NOT = { num_of_loans = 10 }
+			treasury = 3000
+            OR = {
+                num_of_owned_provinces_with = {
+                    value = 75
+                    has_building = barracks
+                }
+                num_of_owned_provinces_with = {
+                    value = 75
+                    has_building = training_fields
+                }
+            }
+		}
+
+		effect = { 
+			add_treasury = -3000
+			remove_country_modifier = "ASU_new_conscription"
+            add_country_modifier = {
+				name = "ASU_reformed_conscription"
+				duration = -1
+			}
+		}
+	}
+}
+
+#Introduce Regulars
+
+ASU_shun_reformation_branch_5 = {
+    slot = 5
+    generic = no
+	ai = no
+	potential = {
+		tag = CSH
+	}
+	has_country_shield = yes
+
+    ASU_shun_reformation_mission_9 = {
+		icon = mission_assemble_an_army
+		required_missions = { }
+		position = 6
+
+		provinces_to_highlight = {
+		}
+
+		trigger = { 
+			NOT = { num_of_loans = 10 }
+			treasury = 2000
+            num_of_owned_provinces_with = {
+                value = 25
+                has_building = soldier_households
+            }
+		}
+
+		effect = { 
+			add_treasury = -2000 
+			add_country_modifier = {
+				name = "ASU_introduce_regulars"
+				duration = -1
+			}
+		}
+	}
+
+    
+	ASU_shun_reformation_mission_10 = {
+		icon = mission_assemble_an_army
+		required_missions = { ASU_shun_reformation_mission_9 }
+		position = 7
+
+		provinces_to_highlight = {
+		}
+
+		trigger = { 
+			NOT = { num_of_loans = 10 }
+			treasury = 3000
+            num_of_owned_provinces_with = {
+                value = 75
+            	has_building = soldier_households
+            }
+		}
+
+		effect = { 
+			add_treasury = -3000
+			remove_country_modifier = "ASU_introduce_regulars"
+            add_country_modifier = {
+				name = "ASU_reformed_army"
+				duration = -1
+			}
+		}
+	}
+}

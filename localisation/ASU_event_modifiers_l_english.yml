@@ -175,3 +175,11 @@
  ASU_majapahit_naval_superpower:0 "Naval Superpower"
  ASU_majapahit_invested_in:0 "Investions in the Region"
  ASU_majapahit_growing_capital:0 "Growing Capital"
+
+ #Shun
+ ASU_shun_struggle_for_control:0 "Struggle for Control"
+ ASU_shun_century:0 "Shun Century"
+ ASU_shun_invested_in:0 "Investions in the Region"
+ ASU_shun_dominates_the_north:0 "Dominating the North"
+ ASU_shun_capital_growth:0 "Growing Capital"
+ ASU_shun_salt_expansion:0 "Salt Mines expanded"

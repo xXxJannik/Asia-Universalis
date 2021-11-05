@@ -624,3 +624,36 @@ ASU_majapahit_growing_capital = {
 	local_tax_modifier = 0.33
 	province_trade_power_modifier = 0.5
 }
+
+#Shun
+
+ASU_shun_struggle_for_control = {
+	global_tax_income = 48
+	infantry_cost = -0.1
+}
+
+ASU_shun_century = {
+	drill_decay_modifier = -0.2
+	drill_gain_modifier = 1
+	shock_damage_received = -0.1
+}
+
+ASU_shun_invested_in = {
+	local_production_efficiency = 0.25
+	local_tax_modifier = 0.25
+}
+
+ASU_shun_dominates_the_north = {
+	global_trade_power = 0.05
+	trade_efficiency = 0.05
+}
+
+ASU_shun_capital_growth = {
+	trade_goods_size_modifier = 0.25
+	local_tax_modifier = 0.33
+	province_trade_power_modifier = 0.5
+}
+
+ASU_shun_salt_expansion = {
+	trade_goods_size = 1
+}
