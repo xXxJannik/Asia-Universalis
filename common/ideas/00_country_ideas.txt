@@ -2764,45 +2764,6 @@ ORI_ideas = {
 }
 
 
-PUN_ideas = {
-	start = {
-		religious_unity = 0.25	#melting pot of religions
-		land_morale = 0.10
-	}
-
-	bonus = {
-		cavalry_power = 0.1
-	}
-	
-	trigger = {
-		tag = PUN
-	}
-	free = yes
-	
-	breadbasket_of_india = {					
-		global_trade_goods_size_modifier = 0.10
-	}
-	encourage_indo_persian_trade = {				
-		trade_efficiency = 0.1
-	}
-	punjabi_textile_industry = {			
-		production_efficiency = 0.15
-	}
-	foundation_of_the_khalsa = { 							
-		global_manpower_modifier = 0.2
-	}
-	gurmukhi_script = {
-		stability_cost_modifier = -0.1
-	}
-	strength_of_the_misls = {
-		cavalry_cost = -0.10
-	}
-	reforming_the_punjabi_army = {
-		discipline = 0.05
-	}
-}
-
-
 RAG_ideas = {
 	start = {
 		trade_efficiency = 0.1
@@ -13131,7 +13092,7 @@ DEC_ideas = {
 
 DLH_ideas = {
 	start = {
-		cavalry_power = 0.15
+		infantry_power = 0.15
 		diplomatic_reputation = 1
 	}
 	
