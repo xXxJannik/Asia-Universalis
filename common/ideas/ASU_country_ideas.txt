@@ -143,6 +143,7 @@ CYI_ideas = {
 	}
 	cyi_deep_in_mountains = {
 		hostile_attrition = 1.0
+		land_attrition = -0.2
 	}
 	cyi_chain_of_zimo_domains = {
 		reinforce_speed = 0.25
