@@ -2514,7 +2514,7 @@ kor_manchurian_korea = {
 }
 
 kor_turtle_fleets = {
-	naval_morale = 0.1
+	ship_durability = 0.05
 	global_ship_cost = -0.1
 }
 

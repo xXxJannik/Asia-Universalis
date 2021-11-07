@@ -172,7 +172,7 @@ naval_reformer = {
 	
 	# Bonus
 	
-	naval_morale = 0.1 
+	naval_morale = 0.05
 	
 	skill_scaled_modifier = { meritocracy = 0.25 }
 
