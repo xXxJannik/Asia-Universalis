@@ -657,3 +657,37 @@ ASU_shun_capital_growth = {
 ASU_shun_salt_expansion = {
 	trade_goods_size = 1
 }
+
+#Wuu
+
+ASU_wuu_invested_in = {
+	local_production_efficiency = 0.25
+	local_tax_modifier = 0.25
+}
+
+ASU_wuu_another_investment = {
+	trade_goods_size_modifier = 0.33
+	local_production_efficiency = 0.25
+	local_tax_modifier = 0.25
+}
+
+ASU_wuu_century = {
+	production_efficiency = 0.25
+	mercenary_manpower = 1
+}
+
+ASU_wuu_struggle_for_control = {
+	global_tax_income = 48
+	infantry_cost = -0.1
+}
+
+ASU_wuu_imperial_navy = {
+	siege_blockade_progress = 1
+	blockade_efficiency = 0.25
+	global_sailors_modifier = 0.1
+}
+
+ASU_wuu_control_of_taiwan = {
+	global_trade_power = 0.05
+	global_ship_trade_power = 0.1
+}

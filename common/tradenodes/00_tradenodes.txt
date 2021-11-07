@@ -873,7 +873,7 @@ jingzhou_node={
 xiamen_node={
 	location=5290
 	color={
-		64 92 199 
+		60 255 50 
 	}
 	outgoing={
 		name="canton"

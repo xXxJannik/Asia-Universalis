@@ -159,7 +159,7 @@
  ASU_siam_growing_capital:0 "Growing Capital"
  ASU_siam_dominate_trade:0 "Dominate Trade"
  ASU_siam_vassals:0 "New Mandala Law"
- ASU_siam_invested_in_region:0 "Investions in the Region"
+ ASU_siam_invested_in_region:0 "Investments in the Region"
 
  #Tibet
  ASU_tibet_pierce_the_heavens:0 "Pierce the Heavens"
@@ -173,13 +173,21 @@
 
  #Majapahit
  ASU_majapahit_naval_superpower:0 "Naval Superpower"
- ASU_majapahit_invested_in:0 "Investions in the Region"
+ ASU_majapahit_invested_in:0 "Investments in the Region"
  ASU_majapahit_growing_capital:0 "Growing Capital"
 
  #Shun
  ASU_shun_struggle_for_control:0 "Struggle for Control"
  ASU_shun_century:0 "Shun Century"
- ASU_shun_invested_in:0 "Investions in the Region"
+ ASU_shun_invested_in:0 "Investments in the Region"
  ASU_shun_dominates_the_north:0 "Dominating the North"
  ASU_shun_capital_growth:0 "Growing Capital"
  ASU_shun_salt_expansion:0 "Salt Mines expanded"
+
+ #Wuu
+ ASU_wuu_invested_in:0 "Investments in the Region"
+ ASU_wuu_another_investment:0 "Heavy investments in the Region"
+ ASU_wuu_century:0 "The Wuu Century"
+ ASU_wuu_struggle_for_control:0 "Struggle for Control"
+ ASU_wuu_imperial_navy:0 "Imperial Navy of Wuu"
+ ASU_wuu_control_of_taiwan:0 "Control over Taiwan"

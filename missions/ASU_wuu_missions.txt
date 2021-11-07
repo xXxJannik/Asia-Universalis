@@ -1,0 +1,1868 @@
+ASU_wuu_branch_1 = {
+    slot = 1
+    generic = no
+	ai = no
+	potential = {
+		tag = WUU
+	}
+	has_country_shield = yes
+
+    ASU_wuu_mission_1 = {
+        icon = mission_recruit_streltsy
+		required_missions = {  }
+		position = 1
+
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+			OR = {
+				war_with = MNG
+				war_with = YUE
+				war_with = CSH
+				war_with = CYI
+			}
+		}
+
+		effect = { 
+			country_event = { #The Eternal War Event
+				id = ASU_china_events.7
+			}
+		}
+    }
+
+    ASU_wuu_mission_2 = {
+        icon = mission_asian_cannon
+		required_missions = {  }
+		position = 3
+
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+			num_of_artillery = 120
+		}
+
+		effect = { 
+			country_event = { #Nest of Bees Event
+				id = ASU_china_events.6
+			}
+		}
+    }
+
+    ASU_wuu_mission_3 = {
+        icon = mission_rice_field
+		required_missions = {  }
+		position = 5
+
+		provinces_to_highlight = {
+			area = nanjing_area
+            NOT = { development = 10 }
+		}
+
+		trigger = { 
+			nanjing_area = {
+                type = all
+                owned_by = ROOT
+                development = 10
+            }
+		}
+
+		effect = { 
+			nanjing_area = {
+                add_province_modifier = {
+                    name = ASU_wuu_invested_in
+                    duration = 18250
+                }
+            }
+		}
+    }
+} #End Branch 1
+
+ASU_wuu_branch_2 = {
+    slot = 2
+    generic = no
+	ai = no
+	potential = {
+		tag = WUU
+	}
+	has_country_shield = yes
+
+    ASU_wuu_mission_4 = {
+        icon = mission_landsknecht_soldier
+		required_missions = {  }
+		position = 1
+
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+			land_forcelimit = 250
+		}
+
+		effect = { 
+			add_mil_power = 100
+		}
+    }
+
+    ASU_wuu_mission_5 = {
+        icon = mission_manchu_warrior
+		required_missions = { ASU_wuu_mission_1 ASU_wuu_mission_4 ASU_wuu_mission_9 }
+		position = 2
+
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+			total_development = 1000
+			total_development = MNG 
+			total_development = WUU
+			total_development = YUE
+			total_development = CYI
+		}
+
+		effect = { 
+			custom_tooltip = ASU_warlord_tradition_effect_tooltip
+			set_country_flag = ASU_warlord_tradtion_flag
+		}
+    }
+
+    ASU_wuu_mission_6 = {
+        icon = mission_assemble_an_army
+		required_missions = {  }
+		position = 3
+
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+			land_forcelimit = 1000
+		}
+
+		effect = { 
+			country_event = { #Army of a Nation
+				id = ASU_china_events.5
+			}
+		}
+    }
+
+    ASU_wuu_mission_7 = {
+        icon = mission_rice_field
+		required_missions = {  }
+		position = 5
+
+		provinces_to_highlight = {
+			area = nantong_area
+            NOT = { development = 10 }
+		}
+
+		trigger = { 
+			nantong_area = {
+                type = all
+                owned_by = ROOT
+                development = 10
+            }
+		}
+
+		effect = { 
+			nantong_area = {
+                add_province_modifier = {
+                    name = ASU_wuu_invested_in
+                    duration = 18250
+                }
+            }
+		}
+    }
+
+    ASU_wuu_mission_8 = {
+        icon = mission_early_game_buildings
+		required_missions = { ASU_wuu_mission_3 ASU_wuu_mission_7 }
+		position = 6
+
+		provinces_to_highlight = {
+			OR = {
+                area = nantong_area
+                area = nanjing_area
+            }
+            AND = {
+                OR = {
+                    NOT = { has_building = workshop }
+                    NOT = { has_building = counting_house }
+                }
+                OR = {
+                    NOT = { has_building = temple }
+                    NOT = { has_building = cathedral }
+                }
+                OR = {
+                    NOT = { has_building = barracks }
+                    NOT = { has_building = training_fields }
+                }
+            }
+		}
+
+		trigger = { 
+			nantong_area = {
+                type = all
+                owned_by = ROOT
+                OR = {
+                    has_building = workshop
+                    has_building = counting_house
+                }
+                OR = {
+                    has_building = temple
+                    has_building = cathedral
+                }
+                OR = {
+                    has_building = barracks
+                    has_building = training_fields
+                }
+            }
+            nanjing_area = {
+                type = all
+                owned_by = ROOT
+                OR = {
+                    has_building = workshop
+                    has_building = counting_house
+                }
+                OR = {
+                    has_building = temple
+                    has_building = cathedral
+                }
+                OR = {
+                    has_building = barracks
+                    has_building = training_fields
+                }
+            }
+		}
+
+		effect = { 
+			nantong_area = {
+                add_province_modifier = {
+                    name = ASU_wuu_another_investment
+                    duration = 18250
+                }
+            }
+            nanjing_area = {
+                add_province_modifier = {
+                    name = ASU_wuu_another_investment
+                    duration = 18250
+                }
+            }
+		}
+    }
+} #End Branch 2
+
+ASU_wuu_branch_3 = {
+    slot = 3
+    generic = no
+	ai = no
+	potential = {
+		tag = WUU
+	}
+	has_country_shield = yes
+
+    ASU_wuu_mission_9 = {
+        icon = mission_war_chest
+		required_missions = {  }
+		position = 1
+
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+			monthly_income = 250
+		}
+
+		effect = { 
+			add_adm_power = 100
+			add_dip_power = 100
+			add_mil_power = 100
+		}
+    }
+
+    ASU_wuu_mission_10 = {
+        icon = mission_empire
+		required_missions = {  }
+		position = 2
+
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+			in_golden_age = yes
+		}
+
+		effect = { 
+			add_years_of_income = 1
+			add_adm_power = 100
+			add_dip_power = 100
+			add_mil_power = 100
+		}
+    }
+
+    ASU_wuu_mission_11 = {
+        icon = mission_scholar_officials
+		required_missions = { ASU_wuu_mission_10 }
+		position = 3
+
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+			is_emperor_of_china = yes
+		}
+
+		effect = { 
+			add_mandate_effect = yes
+			add_prestige = 100
+		}
+    }
+
+    ASU_wuu_mission_12 = {
+        icon = give_him_back_his_legions
+		required_missions = { ASU_wuu_mission_11 }
+		position = 4
+
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+			total_development = 2000
+		}
+
+		effect = { 
+			country_event = { #The Rise of Wuu
+				id = ASU_wuu_events.3
+			}
+		}
+    }
+
+    ASU_wuu_mission_13 = {
+        icon = mission_rice_field
+		required_missions = {  }
+		position = 5
+
+		provinces_to_highlight = {
+			area = jiaxing_area
+            NOT = { development = 10 }
+		}
+
+		trigger = { 
+			jiaxing_area = {
+                type = all
+                owned_by = ROOT
+                development = 10
+            }
+		}
+
+		effect = { 
+			jiaxing_area = {
+                add_province_modifier = {
+                    name = ASU_wuu_invested_in
+                    duration = 18250
+                }
+            }
+		}
+    }
+
+    ASU_wuu_mission_14 = {
+        icon = mission_early_game_buildings
+		required_missions = { ASU_wuu_mission_13 ASU_wuu_mission_18 }
+		position = 6
+
+		provinces_to_highlight = {
+			OR = {
+                area = jiaxing_area
+                area = shanghai_area
+            }
+            AND = {
+                OR = {
+                    NOT = { has_building = workshop }
+                    NOT = { has_building = counting_house }
+                }
+                OR = {
+                    NOT = { has_building = temple }
+                    NOT = { has_building = cathedral }
+                }
+                OR = {
+                    NOT = { has_building = barracks }
+                    NOT = { has_building = training_fields }
+                }
+            }
+		}
+
+		trigger = { 
+			jiaxing_area = {
+                type = all
+                owned_by = ROOT
+                OR = {
+                    has_building = workshop
+                    has_building = counting_house
+                }
+                OR = {
+                    has_building = temple
+                    has_building = cathedral
+                }
+                OR = {
+                    has_building = barracks
+                    has_building = training_fields
+                }
+            }
+            shanghai_area = {
+                type = all
+                owned_by = ROOT
+                OR = {
+                    has_building = workshop
+                    has_building = counting_house
+                }
+                OR = {
+                    has_building = temple
+                    has_building = cathedral
+                }
+                OR = {
+                    has_building = barracks
+                    has_building = training_fields
+                }
+            }
+		}
+
+		effect = { 
+			jiaxing_area = {
+                add_province_modifier = {
+                    name = ASU_wuu_another_investment
+                    duration = 18250
+                }
+            }
+            shanghai_area = {
+                add_province_modifier = {
+                    name = ASU_wuu_another_investment
+                    duration = 18250
+                }
+            }
+		}
+    }
+} #End Branch 3
+
+ASU_wuu_branch_4 = {
+    slot = 4
+    generic = no
+	ai = no
+	potential = {
+		tag = WUU
+	}
+	has_country_shield = yes
+
+    ASU_wuu_mission_15 = {
+        icon = mission_galleys_in_port
+		required_missions = { ASU_wuu_mission_19 }
+		position = 2
+
+		provinces_to_highlight = {
+			area = nantong_area
+            NOT = { owned_by = ROOT }
+		}
+
+		trigger = { 
+			nantong_area = {
+                type = all
+                owned_by = ROOT
+            }
+		}
+
+		effect = { 
+			add_adm_power = 50
+            xinghua_area = {
+                add_permanent_claim = ROOT
+            }
+            yangzhou_area = {
+                add_permanent_claim = ROOT
+            }
+            binhai_area = {
+                add_permanent_claim = ROOT
+            }
+		}
+    }
+
+    ASU_wuu_mission_16 = {
+        icon = fortify_malta
+		required_missions = { ASU_wuu_mission_15 }
+		position = 3
+
+		provinces_to_highlight = {
+			OR = {
+                area = xinghua_area
+                area = yangzhou_area
+                area = binhai_area
+            }
+            NOT = { owned_by = ROOT }
+		}
+
+		trigger = { 
+			xinghua_area = {
+                type = all
+                owned_by = ROOT
+            }
+            yangzhou_area = {
+                type = all
+                owned_by = ROOT
+            }
+            binhai_area = {
+                type = all
+                owned_by = ROOT
+            }
+		}
+
+		effect = { 
+			changfeng_area = {
+                add_permanent_claim = ROOT
+            }
+            sihong_area = {
+                add_permanent_claim = ROOT
+            }
+            chenlou_area = {
+                add_permanent_claim = ROOT
+            }
+            lixin_area = {
+                add_permanent_claim = ROOT
+            }
+            yucheng_area = {
+                add_permanent_claim = ROOT
+            }
+            taihe_area = {
+                add_permanent_claim = ROOT
+            }
+		}
+    }
+
+    ASU_wuu_mission_17 = {
+        icon = mission_high_income
+		required_missions = { ASU_wuu_mission_16 }
+		position = 4
+
+		provinces_to_highlight = {
+			OR = {
+                area = changfeng_area
+                area = sihong_area
+                area = chenlou_area
+                area = lixin_area
+                area = yucheng_area
+                area = taihe_area
+            }
+            NOT = { owned_by = ROOT }
+		}
+
+		trigger = { 
+			changfeng_area = {
+                type = all
+                owned_by = ROOT
+            }
+            sihong_area = {
+                type = all
+                owned_by = ROOT
+            }
+            chenlou_area = {
+                type = all
+                owned_by = ROOT
+            }
+            lixin_area = {
+                type = all
+                owned_by = ROOT
+            }
+            yucheng_area = {
+                type = all
+                owned_by = ROOT
+            }
+            taihe_area = {
+                type = all
+                owned_by = ROOT
+            }
+		}
+
+		effect = { 
+			add_adm_power = 100
+            add_mil_power = 50
+		}
+    }
+
+    ASU_wuu_mission_18 = {
+        icon = mission_rice_field
+		required_missions = {  }
+		position = 5
+
+		provinces_to_highlight = {
+			area = shanghai_area
+            NOT = { development = 10 }
+		}
+
+		trigger = { 
+			shanghai_area = {
+                type = all
+                owned_by = ROOT
+                development = 10
+            }
+		}
+
+		effect = { 
+			shanghai_area = {
+                add_province_modifier = {
+                    name = ASU_wuu_invested_in
+                    duration = 18250
+                }
+            }
+		}
+    }
+} #End Branch 4
+
+ASU_wuu_branch_5 = {
+    slot = 5
+    generic = no
+	ai = no
+	potential = {
+		tag = WUU
+	}
+	has_country_shield = yes
+
+    ASU_wuu_mission_19 = {
+        icon = mission_manchu_warrior
+		required_missions = {  }
+		position = 1
+
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+			army_size = 13
+		}
+
+		effect = { 
+			country_event = { #Struggle for Control
+                id = ASU_wuu_events.1
+            }
+		}
+    }
+
+    ASU_wuu_mission_20 = {
+        icon = mission_conquer_50_development
+		required_missions = { ASU_wuu_mission_19 }
+		position = 2
+
+		provinces_to_highlight = {
+			area = nanjing_area
+            NOT = { owned_by = ROOT }
+		}
+
+		trigger = { 
+			nanjing_area = {
+                type = all
+                owned_by = ROOT
+            }
+		}
+
+		effect = { 
+			add_adm_power = 50
+            wuyuan_area = {
+                add_permanent_claim = ROOT
+            }
+            wuhu_area = {
+                add_permanent_claim = ROOT
+            }
+            hefei_area = {
+                add_permanent_claim = ROOT
+            }
+            gushi_area = {
+                add_permanent_claim = ROOT
+            }
+            dongzhi_area = {
+                add_permanent_claim = ROOT
+            }
+            hukou_area = {
+                add_permanent_claim = ROOT
+            }
+            macheng_area = {
+                add_permanent_claim = ROOT
+            }
+            shangsheng_area = {
+                add_permanent_claim = ROOT
+            }
+            nanchang_area = {
+                add_permanent_claim = ROOT
+            }
+            dexing_area = {
+                add_permanent_claim = ROOT
+            }
+		}
+    }
+
+    ASU_wuu_mission_21 = {
+        icon = mission_japanese_fort
+		required_missions = { ASU_wuu_mission_20 }
+		position = 3
+
+		provinces_to_highlight = {
+			OR = {
+                area = wuyuan_area
+                area = wuhu_area
+                area = hefei_area
+                area = gushi_area
+                area = dongzhi_area
+                area = hukou_area
+                area = macheng_area
+                area = shangsheng_area
+                area = nanchang_area
+                area = dexing_area
+            }
+            NOT = { owned_by = ROOT }
+		}
+
+		trigger = { 
+			wuyuan_area = {
+                type = all
+                owned_by = ROOT
+            }
+            wuhu_area = {
+                type = all
+                owned_by = ROOT
+            }
+            hefei_area = {
+                type = all
+                owned_by = ROOT
+            }
+            gushi_area = {
+                type = all
+                owned_by = ROOT
+            }
+            dongzhi_area = {
+                type = all
+                owned_by = ROOT
+            }
+            hukou_area = {
+                type = all
+                owned_by = ROOT
+            }
+            macheng_area = {
+                type = all
+                owned_by = ROOT
+            }
+            shangsheng_area = {
+                type = all
+                owned_by = ROOT
+            }
+            nanchang_area = {
+                type = all
+                owned_by = ROOT
+            }
+            dexing_area = {
+                type = all
+                owned_by = ROOT
+            }
+		}
+
+		effect = { 
+			jian_area = {
+                add_permanent_claim = ROOT
+            }
+            pingxiang_area = {
+                add_permanent_claim = ROOT
+            }
+            pingjiang_area = {
+                add_permanent_claim = ROOT
+            }
+            tongcheng_area = {
+                add_permanent_claim = ROOT
+            }
+            xianning_area = {
+                add_permanent_claim = ROOT
+            }
+            wuhan_area = {
+                add_permanent_claim = ROOT
+            }
+            shenqiu_area = {
+                add_permanent_claim = ROOT
+            }
+            wuning_area = {
+                add_permanent_claim = ROOT
+            }
+		}
+    }
+
+    ASU_wuu_mission_22 = {
+        icon = mission_unite_home_region
+		required_missions = { ASU_wuu_mission_21 }
+		position = 4
+
+		provinces_to_highlight = {
+			OR = {
+                area = jian_area
+                area = pingxiang_area
+                area = pingjiang_area
+                area = tongcheng_area
+                area = xianning_area
+                area = wuhan_area
+                area = shenqiu_area
+                area = wuning_area
+            }
+            NOT = { owned_by = ROOT }
+		}
+
+		trigger = { 
+			jian_area = {
+                type = all
+                owned_by = ROOT
+            }
+            pingxiang_area = {
+                type = all
+                owned_by = ROOT
+            }
+            pingjiang_area = {
+                type = all
+                owned_by = ROOT
+            }
+            tongcheng_area = {
+                type = all
+                owned_by = ROOT
+            }
+            xianning_area = {
+                type = all
+                owned_by = ROOT
+            }
+            wuhan_area = {
+                type = all
+                owned_by = ROOT
+            }
+            shenqiu_area = {
+                type = all
+                owned_by = ROOT
+            }
+            wuning_area = {
+                type = all
+                owned_by = ROOT
+            }
+		}
+
+		effect = { 
+			xinyang_area = {
+                add_permanent_claim = ROOT
+            }
+            xiantao_area = {
+                add_permanent_claim = ROOT
+            }
+            jiangling_area = {
+                add_permanent_claim = ROOT
+            }
+            jingzhou_area = {
+                add_permanent_claim = ROOT
+            }
+            xianyang_area = {
+                add_permanent_claim = ROOT
+            }
+            ye_area = {
+                add_permanent_claim = ROOT
+            }
+		}
+    }
+
+    ASU_wuu_mission_23 = {
+        icon = mission_great_wall
+		required_missions = { ASU_wuu_mission_22 }
+		position = 5
+
+		provinces_to_highlight = {
+			OR = {
+                area = xinyang_area
+                area = xiantao_area
+                area = jiangling_area
+                area = jingzhou_area
+                area = xianyang_area
+                area = ye_area
+            }
+            NOT = { owned_by = ROOT }
+		}
+
+		trigger = { 
+			xinyang_area = {
+                type = all
+                owned_by = ROOT
+            }
+            xiantao_area = {
+                type = all
+                owned_by = ROOT
+            }
+            jiangling_area = {
+                type = all
+                owned_by = ROOT
+            }
+            jingzhou_area = {
+                type = all
+                owned_by = ROOT
+            }
+            xianyang_area = {
+                type = all
+                owned_by = ROOT
+            }
+            ye_area = {
+                type = all
+                owned_by = ROOT
+            }
+		}
+
+		effect = { 
+			add_adm_power = 100
+            add_dip_power = 100
+            add_mil_power = 100
+		}
+    }
+} #End Branch 5
+
+ASU_wuu_branch_6 = {
+    slot = 6
+    generic = no
+	ai = no
+	potential = {
+		tag = WUU
+	}
+	has_country_shield = yes
+
+    ASU_wuu_mission_24 = {
+        icon = mission_kowtow
+		required_missions = { ASU_wuu_mission_19 }
+		position = 2
+
+		provinces_to_highlight = {
+			area = jiaxing_area
+            NOT = { owned_by = ROOT }
+		}
+
+		trigger = { 
+			jiaxing_area = {
+                type = all
+                owned_by = ROOT
+            }
+		}
+
+		effect = { 
+            add_adm_power = 50
+			shangyu_area = {
+                add_permanent_claim = ROOT
+            }
+            yinzhou_area = {
+                add_permanent_claim = ROOT
+            }
+            tonglu_area = {
+                add_permanent_claim = ROOT
+            }
+            pucheng_area = {
+                add_permanent_claim = ROOT
+            }
+            poyang_area = {
+                add_permanent_claim = ROOT
+            }
+            wuyi_area = {
+                add_permanent_claim = ROOT
+            }
+            ninghai_area = {
+                add_permanent_claim = ROOT
+            }
+            xinchang_area = {
+                add_permanent_claim = ROOT
+            }
+            wenzhou_area = {
+                add_permanent_claim = ROOT
+            }
+            yunhe_area = {
+                add_permanent_claim = ROOT
+            }
+		}
+    }
+
+    ASU_wuu_mission_25 = {
+        icon = mission_recruit_streltsy
+		required_missions = { ASU_wuu_mission_24 }
+		position = 3
+
+		provinces_to_highlight = {
+			OR = {
+                area = shangyu_area
+                area = yinzhou_area
+                area = tonglu_area
+                area = pucheng_area
+                area = poyang_area
+                area = wuyi_area
+                area = ninghai_area
+                area = xinchang_area
+                area = wenzhou_area
+                area = yunhe_area
+            }
+            NOT = { owned_by = ROOT }
+		}
+
+		trigger = { 
+			shangyu_area = {
+                type = all
+                owned_by = ROOT
+            }
+            yinzhou_area = {
+                type = all
+                owned_by = ROOT
+            }
+            tonglu_area = {
+                type = all
+                owned_by = ROOT
+            }
+            pucheng_area = {
+                type = all
+                owned_by = ROOT
+            }
+            poyang_area = {
+                type = all
+                owned_by = ROOT
+            }
+            wuyi_area = {
+                type = all
+                owned_by = ROOT
+            }
+            ninghai_area = {
+                type = all
+                owned_by = ROOT
+            }
+            xinchang_area = {
+                type = all
+                owned_by = ROOT
+            }
+            wenzhou_area = {
+                type = all
+                owned_by = ROOT
+            }
+            yunhe_area = {
+                type = all
+                owned_by = ROOT
+            }
+		}
+
+		effect = { 
+			ningde_area = {
+                add_permanent_claim = ROOT
+            }
+            nanfeng_area = {
+                add_permanent_claim = ROOT
+            }
+            zixi_area = {
+                add_permanent_claim = ROOT
+            }
+            sha_area = {
+                add_permanent_claim = ROOT
+            }
+            quanzhou_area = {
+                add_permanent_claim = ROOT
+            }
+            ningdu_area = {
+                add_permanent_claim = ROOT
+            }
+            guangchang_area = {
+                add_permanent_claim = ROOT
+            }
+            yudu_area = {
+                add_permanent_claim = ROOT
+            }
+		}
+    }
+
+    ASU_wuu_mission_26 = {
+        icon = mission_reclaim_lost_territory
+		required_missions = { ASU_wuu_mission_25 }
+		position = 4
+
+		provinces_to_highlight = {
+			OR = {
+                area = ningde_area
+                area = nanfeng_area
+                area = zixi_area
+                area = sha_area
+                area = quanzhou_area
+                area = ningdu_area
+                area = guangchang_area
+                area = yudu_area
+            }
+            NOT = { owned_by = ROOT }
+		}
+
+		trigger = { 
+			ningde_area = {
+                type = all
+                owned_by = ROOT
+            }
+            nanfeng_area = {
+                type = all
+                owned_by = ROOT
+            }
+            zixi_area = {
+                type = all
+                owned_by = ROOT
+            }
+            sha_area = {
+                type = all
+                owned_by = ROOT
+            }
+            quanzhou_area = {
+                type = all
+                owned_by = ROOT
+            }
+            ningdu_area = {
+                type = all
+                owned_by = ROOT
+            }
+            guangchang_area = {
+                type = all
+                owned_by = ROOT
+            }
+            yudu_area = {
+                type = all
+                owned_by = ROOT
+            }
+		}
+
+		effect = { 
+            add_adm_power = 50
+            add_dip_power = 50
+            add_mil_power = 50
+			taiwan_area = {
+                add_permanent_claim = ROOT
+            }
+            north_taiwan_area = {
+                add_permanent_claim = ROOT
+            }
+		}
+    }
+
+    ASU_wuu_mission_27 = {
+        icon = mission_invade_island
+		required_missions = { ASU_wuu_mission_26 }
+		position = 5
+
+		provinces_to_highlight = {
+			OR = {
+                area = taiwan_area
+                area = north_taiwan_area
+            }
+            NOT = { owned_by = ROOT }
+		}
+
+		trigger = { 
+			taiwan_area = {
+                type = all
+                owned_by = ROOT
+            }
+            north_taiwan_area = {
+                type = all
+                owned_by = ROOT
+            }
+		}
+
+		effect = { 
+			add_country_modifier = {
+                name = ASU_wuu_control_of_taiwan
+                duration = -1
+            }
+		}
+    }
+} #End Branch 6
+
+ASU_wuu_branch_7 = {
+    slot = 7
+    generic = no
+	ai = no
+	potential = {
+		tag = WUU
+	}
+	has_country_shield = yes
+
+    ASU_wuu_mission_28 = {
+        icon = mission_rb_monopolize_the_channel
+		required_missions = {  }
+		position = 1
+
+		provinces_to_highlight = {
+			province_id = 5510
+		}
+
+		trigger = { 
+			5510 = { #Jingzhou
+				trade_share = {
+					country = ROOT
+					share = 50
+				}
+			}
+		}
+
+		effect = { 
+			add_dip_power = 50
+            add_treasury = 300
+		}
+    }
+
+    ASU_wuu_mission_29 = {
+        icon = mission_trade_with_japan
+		required_missions = {  }
+		position = 2
+
+		provinces_to_highlight = {
+			province_id = 1376
+		}
+
+		trigger = { 
+			1376 = { #Nippon
+				trade_share = {
+					country = ROOT
+					share = 20
+				}
+			}
+		}
+
+		effect = { 
+			add_prestige = 50
+            add_yearly_sailors = 2.5
+		}
+    }
+} #End Branch 7
+
+ASU_wuu_branch_8 = {
+    slot = 8
+    generic = no
+	ai = no
+	potential = {
+		tag = WUU
+	}
+	has_country_shield = yes
+
+    ASU_wuu_mission_30 = {
+        icon = mission_galleys_in_port
+		required_missions = {  }
+		position = 1
+
+		provinces_to_highlight = {
+			province_id = 5201
+		}
+
+		trigger = { 
+			5201 = { #Hangzhou
+				trade_share = {
+					country = ROOT
+					share = 80
+				}
+			}
+		}
+
+		effect = { 
+			add_adm_power = 50
+            add_treasury = 300
+		}
+    }
+
+    ASU_wuu_mission_31 = {
+        icon = mission_establish_high_seas_navy
+		required_missions = { ASU_wuu_mission_28 ASU_wuu_mission_30 ASU_wuu_mission_33}
+		position = 2
+
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+			naval_forcelimit = 250
+		}
+
+		effect = { 
+			add_country_modifier = {
+				name = "naval_enthusiasm_mission"
+				duration = 9125 #25 years
+			}
+		}
+    }
+
+    ASU_wuu_mission_32 = {
+        icon = mission_sea_battles
+		required_missions = { ASU_wuu_mission_29 ASU_wuu_mission_31 ASU_wuu_mission_34 }
+		position = 3
+
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+			naval_forcelimit = 500
+            monthly_income = 300
+		}
+
+		effect = { 
+			country_event = { # Imperial Navy of Wuu
+                id = ASU_wuu_events.2
+            }
+		}
+    }
+} #End Branch 8
+
+ASU_wuu_branch_9 = {
+    slot = 9
+    generic = no
+	ai = no
+	potential = {
+		tag = WUU
+	}
+	has_country_shield = yes
+
+    ASU_wuu_mission_33 = {
+        icon = mission_rb_monopolize_the_channel
+		required_missions = {  }
+		position = 1
+
+		provinces_to_highlight = {
+			province_id = 5290
+		}
+
+		trigger = { 
+			5290 = { #Xiamen
+				trade_share = {
+					country = ROOT
+					share = 50
+				}
+			}
+		}
+
+		effect = { 
+			add_mil_power = 50
+            add_treasury = 300
+		}
+    }
+
+    ASU_wuu_mission_34 = {
+        icon = mission_launch_a_flagship
+		required_missions = {  }
+		position = 2
+
+		provinces_to_highlight = {
+			
+		}
+
+		trigger = { 
+			OR = {
+                full_idea_group = maritime_ideas
+                full_idea_group = gross0
+                full_idea_group = galle0
+                full_idea_group = handel0
+                full_idea_group = flottenbasis0
+            }
+		}
+
+		effect = { 
+			add_dip_power = 250
+		}
+    }
+} #End Branch 9
+
+ASU_wuu_branch_10 = {
+    slot = 10
+    generic = no
+	ai = no
+	potential = {
+		tag = WUU
+	}
+	has_country_shield = yes
+
+    ASU_wuu_mission_35 = {
+        icon = mission_asian_trader
+		required_missions = {  }
+		position = 2
+
+		provinces_to_highlight = {
+			province_id = 5195
+		}
+
+		trigger = { 
+			5195 = {
+                owned_by = ROOT
+                province_has_center_of_trade_of_level = 3
+            }
+		}
+
+		effect = { 
+			5195 = {
+                add_base_tax = 3
+                add_base_production = 3
+                add_base_manpower = 3
+            }
+		}
+    }
+
+    ASU_wuu_mission_36 = {
+        icon = mission_dominate_home_trade_node
+		required_missions = { ASU_wuu_mission_35 }
+		position = 3
+
+		provinces_to_highlight = {
+			OR = {
+                province_id = 5195
+                province_id = 5190
+                province_id = 5201
+                province_id = 684
+                province_id = 2149
+            }
+            NOT = { province_has_center_of_trade_of_level = 3 }
+		}
+
+		trigger = { 
+			5195 = {
+                owned_by = ROOT
+                province_has_center_of_trade_of_level = 3
+            }
+            5190 = {
+                owned_by = ROOT
+                province_has_center_of_trade_of_level = 3
+            }
+            5201 = {
+                owned_by = ROOT
+                province_has_center_of_trade_of_level = 3
+            }
+            684 = {
+                owned_by = ROOT
+                province_has_center_of_trade_of_level = 3
+            }
+            2149 = {
+                owned_by = ROOT
+                province_has_center_of_trade_of_level = 3
+            }
+		}
+
+		effect = { 
+			5195 = {
+                add_base_tax = 1
+                add_base_production = 1
+                add_base_manpower = 1
+            }
+            5190 = {
+                add_base_tax = 2
+                add_base_production = 2
+                add_base_manpower = 2
+            }
+            5201 = {
+                add_base_tax = 2
+                add_base_production = 2
+                add_base_manpower = 2
+            }
+            684 = {
+                add_base_tax = 2
+                add_base_production = 2
+                add_base_manpower = 2
+            }
+            2149 = {
+                add_base_tax = 2
+                add_base_production = 2
+                add_base_manpower = 2
+            }
+		}
+    }
+} #End Branch 10
+
+
+
+#Reformation of the Bureaucracy
+
+ASU_wuu_reformation_branch_1 = {
+    slot = 6
+    generic = no
+	ai = no
+	potential = {
+		tag = WUU
+	}
+	has_country_shield = yes
+
+    ASU_wuu_reformation_mission_1 = {
+		icon = mission_asian_trader
+		required_missions = { }
+		position = 6
+
+		provinces_to_highlight = {
+		}
+
+		trigger = { 
+			NOT = { num_of_loans = 10 }
+			treasury = 2000
+            OR = {
+                num_of_owned_provinces_with = {
+				    value = 25
+				    has_building = courthouse
+			    }
+                num_of_owned_provinces_with = {
+				    value = 25
+				    has_building = town_hall
+			    }
+            }
+		}
+
+		effect = {
+			add_treasury = -2000
+			add_country_modifier = {
+				name = "ASU_reformed_bureaucracy"
+				duration = -1
+			} 
+		}
+	}
+
+    ASU_wuu_reformation_mission_2 = {
+		icon = mission_asian_trader
+		required_missions = { ASU_wuu_reformation_mission_1 }
+		position = 7
+
+		provinces_to_highlight = {
+		}
+
+		trigger = { 
+			NOT = { num_of_loans = 10 }
+			treasury = 3000
+            OR = {
+                num_of_owned_provinces_with = {
+				    value = 75
+				    has_building = courthouse
+			    }
+                num_of_owned_provinces_with = {
+				    value = 75
+				    has_building = town_hall
+			    }
+            }
+		}
+
+		effect = { 
+			add_treasury = -3000
+			remove_country_modifier = "ASU_reformed_bureaucracy"
+			add_country_modifier = {
+				name = "ASU_reformed_administration"
+				duration = -1
+			}
+		}
+	} 
+}
+
+#Reformation of Trade
+
+ASU_wuu_reformation_branch_2 = {
+    slot = 7
+    generic = no
+	ai = no
+	potential = {
+		tag = WUU
+	}
+	has_country_shield = yes
+
+    ASU_wuu_reformation_mission_3 = {
+		icon = mission_dominate_home_trade_node
+		required_missions = { }
+		position = 6
+
+		provinces_to_highlight = {
+		}
+
+		trigger = { 
+			NOT = { num_of_loans = 10 }
+			treasury = 2000
+            OR = {
+                num_of_owned_provinces_with = {
+				    value = 25
+				    has_building = marketplace
+			    }
+                num_of_owned_provinces_with = {
+				    value = 25
+				    has_building = trade_depot
+			    }
+                num_of_owned_provinces_with = {
+				    value = 25
+				    has_building = stock_exchange
+			    }
+            }
+		}
+
+		effect = { 
+			add_treasury = -2000
+			add_country_modifier = {
+				name = "ASU_reformed_standards"
+				duration = -1
+			}
+		}
+	}
+
+    ASU_wuu_reformation_mission_4 = {
+		icon = mission_dominate_home_trade_node
+		required_missions = { ASU_wuu_reformation_mission_3 }
+		position = 7
+
+		provinces_to_highlight = {
+		}
+
+		trigger = { 
+			NOT = { num_of_loans = 10 }
+			treasury = 3000
+            OR = {
+                num_of_owned_provinces_with = {
+				    value = 75
+				    has_building = marketplace
+			    }
+                num_of_owned_provinces_with = {
+				    value = 75
+				    has_building = trade_depot
+			    }
+                num_of_owned_provinces_with = {
+				    value = 75
+				    has_building = stock_exchange
+			    }
+            }
+		}
+
+		effect = { 
+			add_treasury = -3000
+			remove_country_modifier = "ASU_reformed_standards"
+            add_country_modifier = {
+				name = "ASU_reformed_commercial"
+				duration = -1
+			}
+		}
+	}
+}
+
+#Reformation of Production
+
+ASU_wuu_reformation_branch_3 = {
+    slot = 8
+    generic = no
+	ai = no
+	potential = {
+		tag = WUU
+	}
+	has_country_shield = yes
+
+    ASU_wuu_reformation_mission_5 = {
+		icon = mission_have_manufactories
+		required_missions = { }
+		position = 6
+
+		provinces_to_highlight = {
+		}
+
+		trigger = { 
+			NOT = { num_of_loans = 10 }
+			treasury = 2000
+            num_of_owned_provinces_with = {
+				value = 25
+				has_manufactory_trigger = yes
+			}
+		}
+
+		effect = { 
+			add_treasury = -2000 
+		  	add_country_modifier = {
+				name = "ASU_reformed_production"
+				duration = -1
+			}
+		}
+	}
+
+    ASU_wuu_reformation_mission_6 = {
+		icon = mission_have_manufactories
+		required_missions = { ASU_wuu_reformation_mission_5 }
+		position = 7
+
+		provinces_to_highlight = {
+		}
+
+		trigger = { 
+			NOT = { num_of_loans = 10 }
+			treasury = 3000
+            num_of_owned_provinces_with = {
+				value = 75
+				has_manufactory_trigger = yes
+			}
+		}
+
+		effect = { 
+			add_treasury = -3000
+			remove_country_modifier = "ASU_reformed_production"
+            add_country_modifier = {
+				name = "ASU_reformed_economy"
+				duration = -1
+			}
+		}
+	}
+
+	ASU_wuu_mission_100 = { #The wuu Century
+		icon = mission_empire
+		required_missions = { ASU_wuu_reformation_mission_2 ASU_wuu_reformation_mission_4 ASU_wuu_reformation_mission_6 ASU_wuu_reformation_mission_8 ASU_wuu_reformation_mission_10}
+		position = 8
+
+		provinces_to_highlight = {
+		}
+
+		trigger = { 
+			treasury = 5000
+		}
+
+		effect = { 
+			add_treasury = -5000
+			add_country_modifier = {
+				name = ASU_wuu_century
+				duration = 36500
+			}
+			country_event = { #Reformed Asian
+				id = ASU_china_events.4
+			}
+		}
+	}
+}
+
+#Reformation of the Army
+
+ASU_wuu_reformation_branch_4 = {
+    slot = 9
+    generic = no
+	ai = no
+	potential = {
+		tag = WUU
+	}
+	has_country_shield = yes
+
+    ASU_wuu_reformation_mission_7 = {
+		icon = mission_rice_field
+		required_missions = { }
+		position = 6
+
+		provinces_to_highlight = {
+		}
+
+		trigger = { 
+			NOT = { num_of_loans = 10 }
+			treasury = 2000
+            OR = {
+                num_of_owned_provinces_with = {
+                    value = 25
+                    has_building = barracks
+                }
+                num_of_owned_provinces_with = {
+                    value = 25
+                    has_building = training_fields
+                }
+            }
+		}
+
+		effect = { 
+			add_treasury = -2000
+			add_country_modifier = {
+				name = "ASU_new_conscription"
+				duration = -1
+			}
+		}
+	}
+
+    ASU_wuu_reformation_mission_8 = {
+		icon = mission_rice_field
+		required_missions = { ASU_wuu_reformation_mission_7 }
+		position = 7
+
+		provinces_to_highlight = {
+		}
+
+		trigger = { 
+			NOT = { num_of_loans = 10 }
+			treasury = 3000
+            OR = {
+                num_of_owned_provinces_with = {
+                    value = 75
+                    has_building = barracks
+                }
+                num_of_owned_provinces_with = {
+                    value = 75
+                    has_building = training_fields
+                }
+            }
+		}
+
+		effect = { 
+			add_treasury = -3000
+			remove_country_modifier = "ASU_new_conscription"
+            add_country_modifier = {
+				name = "ASU_reformed_conscription"
+				duration = -1
+			}
+		}
+	}
+}
+
+#Introduce Regulars
+
+ASU_wuu_reformation_branch_5 = {
+    slot = 10
+    generic = no
+	ai = no
+	potential = {
+		tag = WUU
+	}
+	has_country_shield = yes
+
+    ASU_wuu_reformation_mission_9 = {
+		icon = mission_assemble_an_army
+		required_missions = { }
+		position = 6
+
+		provinces_to_highlight = {
+		}
+
+		trigger = { 
+			NOT = { num_of_loans = 10 }
+			treasury = 2000
+            num_of_owned_provinces_with = {
+                value = 25
+                has_building = soldier_households
+            }
+		}
+
+		effect = { 
+			add_treasury = -2000 
+			add_country_modifier = {
+				name = "ASU_introduce_regulars"
+				duration = -1
+			}
+		}
+	}
+
+    
+	ASU_wuu_reformation_mission_10 = {
+		icon = mission_assemble_an_army
+		required_missions = { ASU_wuu_reformation_mission_9 }
+		position = 7
+
+		provinces_to_highlight = {
+		}
+
+		trigger = { 
+			NOT = { num_of_loans = 10 }
+			treasury = 3000
+            num_of_owned_provinces_with = {
+                value = 75
+            	has_building = soldier_households
+            }
+		}
+
+		effect = { 
+			add_treasury = -3000
+			remove_country_modifier = "ASU_introduce_regulars"
+            add_country_modifier = {
+				name = "ASU_reformed_army"
+				duration = -1
+			}
+		}
+	}
+}

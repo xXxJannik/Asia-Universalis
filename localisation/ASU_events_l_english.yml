@@ -26,7 +26,7 @@
  ASU_china_events.3.d:0 "The population is outraged by the attack. They believe our Monarch is the only worthy person to claim the Mandate of Heaven."
  ASU_china_events.3.a:0 "Hand them weapons!"
  
- ASU_china_events.4.t:0 "The reformation of an Empire"
+ ASU_china_events.4.t:0 "The Reformation of an Empire"
  ASU_china_events.4.d:0 "We have achieved the reformation of our Empire and thus increased our military capacities."
  ASU_china_events.4.a:0 "We did it!"
 
@@ -442,3 +442,17 @@
  ASU_shun_events.2.t:0 "The Rise of Shun"
  ASU_shun_events.2.d:0 "The Shun Dynasty has risen to be a major power in China and is a rightful Son of Heaven."
  ASU_shun_events.2.a:0 "Kneel before your Emperor!"
+
+
+ #Wuu
+ ASU_wuu_events.1.t:0 "Struggle for Control"
+ ASU_wuu_events.1.d:0 "The Dynasty of Wuu has taken the opportunity to seize land for themselves during the outbreak of the Great Chaos. As this chaos settles down and borders are drawn the Struggle for Control begins."
+ ASU_wuu_events.1.a:0 "We will rise!"
+
+ ASU_wuu_events.2.t:0 "The Imperial Navy of Wuu"
+ ASU_wuu_events.2.d:0 "Ever since the downfall of the Ming Dynasty China has not seen a great Navy. The Wuu Dynasty has managed to rebuild the great fleet of China."
+ ASU_wuu_events.2.a:0 "We achieved greatness!"
+
+ ASU_wuu_events.3.t:0 "The Rise of Wuu"
+ ASU_wuu_events.3.d:0 "The Wuu Dynasty has risen to be a major power in China and is a rightful Son of Heaven."
+ ASU_wuu_events.3.a:0 "Kneel before your Emperor!"
