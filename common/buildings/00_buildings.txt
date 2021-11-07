@@ -404,7 +404,7 @@ coastal_defence = {
 # Tier 2, 16th Century Buildings
 ################################################
 courthouse = {
-	cost = 200
+	cost = 300
 	time = 12
 	modifier = {
 		local_autonomy = -0.1
@@ -1202,14 +1202,14 @@ counting_house = {
 
 
 town_hall = {
-	cost = 400
+	cost = 600
 	time = 12
 
 	make_obsolete = courthouse
 
 	modifier = {
 		local_autonomy = -0.2
-		allowed_num_of_buildings = 2
+		allowed_num_of_buildings = 3
 	}
 
 	ai_will_do = {
