@@ -288,7 +288,7 @@ country_event = {
 			}
 			define_heir = {
 				age = 35
-				hidden = yes
+				hidden = no
 				culture = event_target:noble_province
 			}
 		}
@@ -302,7 +302,7 @@ country_event = {
 			}
 			define_heir = {
 				age = 35
-				hidden = yes
+				hidden = no
 				female = yes
 				culture = event_target:noble_province
 			}
@@ -317,14 +317,14 @@ country_event = {
 			}
 			define_heir = {
 				age = 35
-				hidden = yes
+				hidden = no
 				female = yes
 			}
 		}	 
 		else = {
 			define_heir = {
 				age = 35
-				hidden = yes
+				hidden = no
 			}
 		}
 		add_devotion = -5
@@ -412,7 +412,7 @@ country_event = {
 						dynasty = PREV 
 						age = 35
 						culture = PREV
-						hidden = yes
+						hidden = no
 					} 
 				}
 				else = {
@@ -421,7 +421,7 @@ country_event = {
 						age = 35
 						culture = PREV
 						female = yes
-						hidden = yes
+						hidden = no
 					} 
 				}
 			}
@@ -486,7 +486,7 @@ country_event = {
 			}
 			define_heir = {
 				age = 35
-				hidden = yes
+				hidden = no
 				culture = event_target:burgher_province
 			}
 		}
@@ -500,7 +500,7 @@ country_event = {
 			}
 			define_heir = {
 				age = 35
-				hidden = yes
+				hidden = no
 				female = yes
 				culture = event_target:burgher_province
 			}
@@ -515,13 +515,13 @@ country_event = {
 			define_heir = {
 				age = 35
 				female = yes
-				hidden = yes
+				hidden = no
 			}
 		}
 		else = {
 			define_heir = {
 				age = 35
-				hidden = yes
+				hidden = no
 			}
 		}
 		add_years_of_income = 0.35
@@ -584,7 +584,7 @@ country_event = {
 			}
 			define_heir = {
 				age = 35
-				hidden = yes
+				hidden = no
 				culture = event_target:church_province
 			}
 		}
@@ -598,7 +598,7 @@ country_event = {
 			}
 			define_heir = {
 				age = 35
-				hidden = yes
+				hidden = no
 				female = yes
 				culture = event_target:church_province
 			}
@@ -613,13 +613,13 @@ country_event = {
 			define_heir = {
 				age = 35
 				female = yes
-				hidden = yes
+				hidden = no
 			}
 		}
 		else = {
 			define_heir = {
 				age = 35
-				hidden = yes
+				hidden = no
 			}
 		}
 		add_devotion = 5
@@ -695,7 +695,7 @@ country_event = {
 			}
 			define_heir = {
 				age = 35
-				hidden = yes
+				hidden = no
 				culture = event_target:church_province
 			}
 		}
@@ -709,7 +709,7 @@ country_event = {
 			}
 			define_heir = {
 				age = 35
-				hidden = yes
+				hidden = no
 				female = yes
 				culture = event_target:church_province
 			}
@@ -724,13 +724,13 @@ country_event = {
 			define_heir = {
 				age = 35
 				female = yes
-				hidden = yes
+				hidden = no
 			}
 		}
 		else = {
 			define_heir = {
 				age = 35
-				hidden = yes
+				hidden = no
 			}
 		}
 		add_devotion = 10
@@ -785,7 +785,7 @@ country_event = {
 			define_heir = {
 				age = 35
 				culture = event_target:papal_protoge_country
-				hidden = yes
+				hidden = no
 			}
 		}
 		else_if = {
@@ -800,7 +800,7 @@ country_event = {
 				age = 35
 				culture = event_target:papal_protoge_country
 				female = yes
-				hidden = yes
+				hidden = no
 			}
 		}
 		else_if = {
@@ -813,13 +813,13 @@ country_event = {
 			define_heir = {
 				age = 35
 				female = yes
-				hidden = yes
+				hidden = no
 			}
 		}
 		else = {
 			define_heir = {
 				age = 35
-				hidden = yes
+				hidden = no
 			}
 		}
 		add_papal_influence = 10
@@ -861,13 +861,13 @@ country_event = {
 			define_heir = {
 				age = 35
 				female = yes
-				hidden = yes
+				hidden = no
 			}
 		}
 		else = {
 			define_heir = {
 				age = 35
-				hidden = yes
+				hidden = no
 			}
 		}
 		add_devotion = 10
@@ -913,13 +913,13 @@ country_event = {
 			define_heir = {
 				age = 35
 				female = yes
-				hidden = yes
+				hidden = no
 			}
 		}
 		else = {
 			define_heir = {
 				age = 35
-				hidden = yes
+				hidden = no
 			}
 		}
 		if = { 
@@ -949,7 +949,7 @@ country_event = {
 			define_heir = {
 				age = 35
 				female = yes
-				hidden = yes
+				hidden = no
 				dynasty = event_target:probably_bavaria
 				culture = event_target:probably_bavaria
 				religion = event_target:probably_bavaria
@@ -958,7 +958,7 @@ country_event = {
 		else = {
 			define_heir = {
 				age = 35
-				hidden = yes
+				hidden = no
 				dynasty = event_target:probably_bavaria
 				culture = event_target:probably_bavaria
 				religion = event_target:probably_bavaria
