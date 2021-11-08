@@ -691,3 +691,48 @@ ASU_wuu_control_of_taiwan = {
 	global_trade_power = 0.05
 	global_ship_trade_power = 0.1
 }
+
+#Yue 
+
+ASU_yue_invested_in = {
+	local_production_efficiency = 0.25
+	local_tax_modifier = 0.25
+}
+
+ASU_yue_another_investment = {
+	trade_goods_size_modifier = 0.33
+	local_production_efficiency = 0.25
+	local_tax_modifier = 0.25
+}
+
+ASU_yue_capital_growth = {
+	trade_goods_size_modifier = 0.25
+	local_tax_modifier = 0.33
+	province_trade_power_modifier = 0.5
+}
+
+ASU_yue_control_of_taiwan = {
+	global_trade_power = 0.05
+	global_ship_trade_power = 0.1
+}
+
+ASU_yue_controls_philippines = {
+	sailors_recovery_speed = 0.1
+	global_ship_cost = -0.1
+}
+
+ASU_yue_century = {
+	trade_efficiency = 0.2
+	mercenary_manpower = 1
+}
+
+ASU_yue_struggle_for_control = {
+	global_tax_income = 48
+	infantry_cost = -0.1
+}
+
+ASU_yue_imperial_navy = {
+	siege_blockade_progress = 1
+	blockade_efficiency = 0.25
+	global_sailors_modifier = 0.1
+}

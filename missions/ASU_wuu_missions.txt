@@ -120,7 +120,7 @@ ASU_wuu_branch_2 = {
 		trigger = { 
 			total_development = 1000
 			total_development = MNG 
-			total_development = WUU
+			total_development = CSH
 			total_development = YUE
 			total_development = CYI
 		}

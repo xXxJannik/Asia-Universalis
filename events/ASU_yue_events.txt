@@ -1,0 +1,64 @@
+namespace = ASU_yue_events
+
+country_event = { #Struggle for Control
+	id = ASU_yue_events.1
+	title = "ASU_yue_events.1.t"
+	desc = "ASU_yue_events.1.d"
+	picture = ANGRY_MOB_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "ASU_yue_events.1.a"
+        add_mil_power = 100
+        add_country_modifier = {
+            name = ASU_yue_struggle_for_control
+            duration = 9125
+        }
+        ai_chance = {            # the AI does not take the event without
+			factor = 100
+		}
+	}
+}
+
+country_event = { #The Rise of Yue
+	id = ASU_yue_events.2
+	title = "ASU_yue_events.2.t"
+	desc = "ASU_yue_events.2.d"
+	picture = REFORM_eventPicture
+	is_triggered_only = yes
+    major = yes # Notification for everyone
+	option = {
+		name = "ASU_yue_events.2.a"
+        add_prestige = 100
+        add_adm_power = 250
+        add_dip_power = 250
+        add_mil_power = 250
+		if = {
+			limit = {
+				is_emperor_of_china = yes 
+			}
+			add_mandate_effect = yes
+		}
+        ai_chance = {            # the AI does not take the event without
+			factor = 100
+		}
+	}
+}
+
+country_event = { #Imperial Navy of Yue
+	id = ASU_yue_events.3
+	title = "ASU_yue_events.3.t"
+	desc = "ASU_yue_events.3.d"
+	picture = REFORM_eventPicture
+	is_triggered_only = yes
+    major = yes # Notification for everyone
+	option = {
+		name = "ASU_yue_events.3.a"
+        add_country_modifier = {
+            name = ASU_yue_imperial_navy
+            duration = -1
+        }
+        ai_chance = {            # the AI does not take the event without
+			factor = 100
+		}
+	}
+}
