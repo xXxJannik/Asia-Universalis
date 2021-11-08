@@ -1,0 +1,99 @@
+ASU_yue_branch_1 = {
+    slot = 1
+    generic = no
+	ai = no
+	potential = {
+		tag = YUE
+	}
+	has_country_shield = yes
+} #End branch 
+
+ASU_yue_branch_2 = {
+    slot = 2
+    generic = no
+	ai = no
+	potential = {
+		tag = YUE
+	}
+	has_country_shield = yes
+} #End branch 2
+
+ASU_yue_branch_3 = {
+    slot = 3
+    generic = no
+	ai = no
+	potential = {
+		tag = YUE
+	}
+	has_country_shield = yes
+} #End branch 3
+
+ASU_yue_branch_4 = {
+    slot = 4
+    generic = no
+	ai = no
+	potential = {
+		tag = YUE
+	}
+	has_country_shield = yes
+} #End branch 4
+
+ASU_yue_branch_5 = {
+    slot = 5
+    generic = no
+	ai = no
+	potential = {
+		tag = YUE
+	}
+	has_country_shield = yes
+} #End branch 5
+
+ASU_yue_branch_6 = {
+    slot = 6
+    generic = no
+	ai = no
+	potential = {
+		tag = YUE
+	}
+	has_country_shield = yes
+} #End branch 6
+
+ASU_yue_branch_7 = {
+    slot = 7
+    generic = no
+	ai = no
+	potential = {
+		tag = YUE
+	}
+	has_country_shield = yes
+} #End branch 7
+
+ASU_yue_branch_8 = {
+    slot = 8
+    generic = no
+	ai = no
+	potential = {
+		tag = YUE
+	}
+	has_country_shield = yes
+} #End branch 8
+
+ASU_yue_branch_9 = {
+    slot = 9
+    generic = no
+	ai = no
+	potential = {
+		tag = YUE
+	}
+	has_country_shield = yes
+} #End branch 9
+
+ASU_yue_branch_10 = {
+    slot = 10
+    generic = no
+	ai = no
+	potential = {
+		tag = YUE
+	}
+	has_country_shield = yes
+} #End branch 10
