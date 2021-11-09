@@ -208,7 +208,7 @@ ASU_yi_branch_3 = {
 
 		effect = { 
 			country_event = { #The Rise of Yi
-				id = 
+				id = ASU_yi_events.2
 			}
 		}
     }
@@ -224,56 +224,205 @@ ASU_yi_branch_4 = {
 	has_country_shield = yes
 
     ASU_yi_mission_10 = {
-        icon = default
+        icon = mission_unite_home_region
 		required_missions = { ASU_yi_mission_13 }
 		position = 2
 
 		provinces_to_highlight = {
-			
+			OR = {
+				area = deshizhen_area
+				area = dacun_area
+			}
+			NOT = { owned_by = ROOT }
 		}
 
 		trigger = { 
-			
+			deshizhen_area = {
+				type = all
+				owned_by = ROOT
+			}
+			dacun_area = {
+				type = all
+				owned_by = ROOT
+			}
 		}
 
 		effect = { 
-			
+			jigaxiang_area = {
+				add_permanent_claim = ROOT
+			}
+			bokexiang_area = {
+				add_permanent_claim = ROOT
+			}
+			dali_area = {
+				add_permanent_claim = ROOT
+			}
+			lanping_area = {
+				add_permanent_claim = ROOT
+			}
+			baoshan_area = {
+				add_permanent_claim = ROOT
+			}
 		}
     }
 
     ASU_yi_mission_11 = {
-        icon = default
+        icon = mission_rb_unite_the_clans
 		required_missions = { ASU_yi_mission_10 }
 		position = 3
 
 		provinces_to_highlight = {
-			
+			OR = {
+				area = jigaxiang_area
+				area = bokexiang_area
+				area = dali_area
+				area = lanping_area
+				area = baoshan_area
+			}
+			NOT = { owned_by = ROOT }
 		}
 
 		trigger = { 
-			
+			jigaxiang_area = {
+				type = all
+				owned_by = ROOT
+			}
+			bokexiang_area = {
+				type = all
+				owned_by = ROOT
+			}
+			dali_area = {
+				type = all
+				owned_by = ROOT
+			}
+			lanping_area = {
+				type = all
+				owned_by = ROOT
+			}
+			baoshan_area = {
+				type = all
+				owned_by = ROOT
+			}
 		}
 
 		effect = { 
-			
+			hebian_area = {
+				add_permanent_claim = ROOT
+			}
+			xinping_area = {
+				add_permanent_claim = ROOT
+			}
+			mangma_area = {
+				add_permanent_claim = ROOT
+			}
+			yiwu_area = {
+				add_permanent_claim = ROOT
+			}
+			kunming_area = {
+				add_permanent_claim = ROOT
+			}
+			shangzai_area = {
+				add_permanent_claim = ROOT
+			}
+			wenshan_area = {
+				add_permanent_claim = ROOT
+			}
+			nayong_area = {
+				add_permanent_claim = ROOT
+			}
+			funning_area = {
+				add_permanent_claim = ROOT
+			}
+			yongping_area = {
+				add_permanent_claim = ROOT
+			}
+			leye_area = {
+				add_permanent_claim = ROOT
+			}
+			qiannan_area = {
+				add_permanent_claim = ROOT
+			}
 		}
     }
 
     ASU_yi_mission_12 = {
-        icon = default
+        icon = mission_kowtow
 		required_missions = { ASU_yi_mission_11 }
 		position = 4
 
 		provinces_to_highlight = {
-			
+			OR = {
+				area = hebian_area
+				area = xinping_area
+				area = mangma_area
+				area = yiwu_area
+				area = kunming_area
+				area = shangzai_area
+				area = wenshan_area
+				area = nayong_area
+				area = funning_area
+				area = yongping_area
+				area = leye_area
+				area = qiannan_area
+			}
+			NOT = { owned_by = ROOT }
 		}
 
 		trigger = { 
-			
+			hebian_area = {
+				type = all
+				owned_by = ROOT
+			}
+			xinping_area = {
+				type = all
+				owned_by = ROOT
+			}
+			mangma_area = {
+				type = all
+				owned_by = ROOT
+			}
+			yiwu_area = {
+				type = all
+				owned_by = ROOT
+			}
+			kunming_area = {
+				type = all
+				owned_by = ROOT
+			}
+			shangzai_area = {
+				type = all
+				owned_by = ROOT
+			}
+			wenshan_area = {
+				type = all
+				owned_by = ROOT
+			}
+			nayong_area = {
+				type = all
+				owned_by = ROOT
+			}
+			funning_area = {
+				type = all
+				owned_by = ROOT
+			}
+			yongping_area = {
+				type = all
+				owned_by = ROOT
+			}
+			leye_area = {
+				type = all
+				owned_by = ROOT
+			}
+			qiannan_area = {
+				type = all
+				owned_by = ROOT
+			}
 		}
 
 		effect = { 
-			
+			add_adm_power = 100
+			add_dip_power = 100
+			add_mil_power = 100
 		}
     }
 } #End Branch 4
@@ -302,62 +451,171 @@ ASU_yi_branch_5 = {
 
 		effect = { 
 			country_event = { #Struggle for Control
-				id = 
+				id = ASU_yi_events.1
 			}
 		}
     }
 
     ASU_yi_mission_14 = {
-        icon = default
+        icon = mission_unite_home_region
 		required_missions = { ASU_yi_mission_13 }
 		position = 2
 
 		provinces_to_highlight = {
-			
+			OR = {
+				area = neijiang_area
+				area = zigong_area
+			}
+			NOT = { owned_by = ROOT }
 		}
 
 		trigger = { 
-			
+			neijiang_area = {
+				type = all
+				owned_by = ROOT
+			}
+			zigong_area = {
+				type = all
+				owned_by = ROOT
+			}
 		}
 
 		effect = { 
-			
+			zuogou_area = {
+				add_permanent_claim = ROOT
+			}
+			beibei_area = {
+				add_permanent_claim = ROOT
+			}
+			sunwan_area = {
+				add_permanent_claim = ROOT
+			}
+			shizhu_area = {
+				add_permanent_claim = ROOT
+			}
+			dazu_area = {
+				add_permanent_claim = ROOT
+			}
+			chengdu_area = {
+				add_permanent_claim = ROOT
+			}
+			hongya_area = {
+				add_permanent_claim = ROOT
+			}
 		}
     }
 
     ASU_yi_mission_15 = {
-        icon = default
+        icon = mission_asian_city
 		required_missions = { ASU_yi_mission_14 }
 		position = 3
 
 		provinces_to_highlight = {
-			
+			OR = {
+				area = zuogou_area
+				area = beibei_area
+				area = sunwan_area
+				area = shizhu_area
+				area = dazu_area
+				area = chengdu_area
+				area = hongya_area
+			}
+			NOT = { owned_by = ROOT }
 		}
 
 		trigger = { 
-			
+			zuogou_area = {
+				type = all
+				owned_by = ROOT
+			}
+			beibei_area = {
+				type = all
+				owned_by = ROOT
+			}
+			sunwan_area = {
+				type = all
+				owned_by = ROOT
+			}
+			shizhu_area = {
+				type = all
+				owned_by = ROOT
+			}
+			dazu_area = {
+				type = all
+				owned_by = ROOT
+			}
+			chengdu_area = {
+				type = all
+				owned_by = ROOT
+			}
+			hongya_area = {
+				type = all
+				owned_by = ROOT
+			}
 		}
 
 		effect = { 
-			
+			mao_area = {
+				add_permanent_claim = ROOT
+			}
+			zitong_area = {
+				add_permanent_claim = ROOT
+			}
+			nanchon_area = {
+				add_permanent_claim = ROOT
+			}
+			nanjiang_area = {
+				add_permanent_claim = ROOT
+			}
+			bazhong_area = {
+				add_permanent_claim = ROOT
+			}
 		}
     }
 
     ASU_yi_mission_16 = {
-        icon = default
+        icon = mission_great_wall
 		required_missions = { ASU_yi_mission_15 }
 		position = 4
 
 		provinces_to_highlight = {
-			
+			OR = {
+				area = mao_area
+				area = zitong_area
+				area = nanchon_area
+				area = nanjiang_area
+				area = bazhong_area
+			}
+			NOT = { owned_by = ROOT }
 		}
 
 		trigger = { 
-			
+			mao_area = {
+				type = all
+				owned_by = ROOT
+			}
+			zitong_area = {
+				type = all
+				owned_by = ROOT
+			}
+			nanchon_area = {
+				type = all
+				owned_by = ROOT
+			}
+			nanjiang_area = {
+				type = all
+				owned_by = ROOT
+			}
+			bazhong_area = {
+				type = all
+				owned_by = ROOT
+			}
 		}
 
 		effect = { 
-			
+			add_adm_power = 100
+			add_dip_power = 100
+			add_mil_power = 100
 		}
     }
 } #End Branch 5
@@ -372,56 +630,173 @@ ASU_yi_branch_6 = {
 	has_country_shield = yes
 
     ASU_yi_mission_17 = {
-        icon = default
+        icon = mission_unite_home_region
 		required_missions = { ASU_yi_mission_13 }
 		position = 2
 
 		provinces_to_highlight = {
-			
+			OR = {
+				area = bijie_area
+				area = bozhou_area
+			}
+			NOT = { owned_by = ROOT }
 		}
 
 		trigger = { 
-			
+			bijie_area = {
+				type = all
+				owned_by = ROOT 
+			}
+			bozhou_area = {
+				type = all
+				owned_by = ROOT 
+			}
 		}
 
 		effect = { 
-			
+			dafang_area = {
+				add_permanent_claim = ROOT
+			}
+			zunyi_area = {
+				add_permanent_claim = ROOT
+			}
+			dayuxiang_area = {
+				add_permanent_claim = ROOT
+			}
+			tongren_area = {
+				add_permanent_claim = ROOT
+			}
+			qijang_area = {
+				add_permanent_claim = ROOT
+			}
 		}
     }
 
     ASU_yi_mission_18 = {
-        icon = default
+        icon = fortify_malta
 		required_missions = { ASU_yi_mission_17 }
 		position = 3
 
 		provinces_to_highlight = {
-			
+			OR = {
+				area = dafang_area
+				area = zunyi_area
+				area = dayuxiang_area
+				area = tongren_area
+				area = qijang_area
+			}
+			NOT = { owned_by = ROOT }
 		}
 
 		trigger = { 
-			
+			dafang_area = {
+				type = all
+				owned_by = ROOT 
+			}
+			zunyi_area = {
+				type = all
+				owned_by = ROOT 
+			}
+			dayuxiang_area = {
+				type = all
+				owned_by = ROOT 
+			}
+			tongren_area = {
+				type = all
+				owned_by = ROOT 
+			}
+			qijang_area = {
+				type = all
+				owned_by = ROOT 
+			}
 		}
 
 		effect = { 
-			
+			fuling_area = {
+				add_permanent_claim = ROOT 
+			}
+			yanhe_area = {
+				add_permanent_claim = ROOT 
+			}
+			laifeng_area = {
+				add_permanent_claim = ROOT 
+			}
+			tianzhu_area = {
+				add_permanent_claim = ROOT 
+			}
+			enshi_area = {
+				add_permanent_claim = ROOT 
+			}
+			changde_area = {
+				add_permanent_claim = ROOT 
+			}
+			hefang_area = {
+				add_permanent_claim = ROOT 
+			}
+			hangwa_area = {
+				add_permanent_claim = ROOT 
+			}
 		}
     }
 
     ASU_yi_mission_19 = {
-        icon = default
+        icon = mission_landsknecht_soldier
 		required_missions = { ASU_yi_mission_18 }
 		position = 4
 
 		provinces_to_highlight = {
-			
+			OR = {
+				area = fuling_area
+				area = yanhe_area
+				area = laifeng_area
+				area = tianzhu_area
+				area = enshi_area
+				area = changde_area
+				area = hefang_area
+				area = hangwa_area
+			}
+			NOT = { owned_by = ROOT }
 		}
 
 		trigger = { 
-			
+			fuling_area = {
+				type = all
+				owned_by = ROOT 
+			}
+			yanhe_area = {
+				type = all
+				owned_by = ROOT 
+			}
+			laifeng_area = {
+				type = all
+				owned_by = ROOT 
+			}
+			tianzhu_area = {
+				type = all
+				owned_by = ROOT 
+			}
+			enshi_area = {
+				type = all
+				owned_by = ROOT 
+			}
+			changde_area = {
+				type = all
+				owned_by = ROOT 
+			}
+			hefang_area = {
+				type = all
+				owned_by = ROOT 
+			}
+			hangwa_area = {
+				type = all
+				owned_by = ROOT 
+			}
 		}
 
 		effect = { 
-			
+			add_adm_power = 100
+			add_dip_power = 100
+			add_mil_power = 100
 		}
     }
 } #End Branch 6

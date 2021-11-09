@@ -1,0 +1,63 @@
+namespace = ASU_yi_events
+
+country_event = { #Struggle for Control
+	id = ASU_yi_events.1
+	title = "ASU_yi_events.1.t"
+	desc = "ASU_wuu_events.1.d"
+	picture = ANGRY_MOB_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "ASU_yi_events.1.a"
+        deshizhen_area = {
+            add_permanent_claim = ROOT
+        }
+		dacun_area = {
+            add_permanent_claim = ROOT
+        }
+		bijie_area = {
+            add_permanent_claim = ROOT
+        }
+		bozhou_area = {
+            add_permanent_claim = ROOT
+        }
+		neijiang_area = {
+            add_permanent_claim = ROOT
+        }
+        zigong_area = {
+            add_permanent_claim = ROOT
+        }
+        add_mil_power = 100
+        add_country_modifier = {
+            name = ASU_wuu_struggle_for_control
+            duration = 9125
+        }
+        ai_chance = {            # the AI does not take the event without
+			factor = 100
+		}
+	}
+}
+
+country_event = { #Rise of Yi
+	id = ASU_yi_events.2
+	title = "ASU_yi_events.2.t"
+	desc = "ASU_wuu_events.2.d"
+	picture = ANGRY_MOB_eventPicture
+	is_triggered_only = yes
+    major = yes # Notification for everyone
+	option = {
+		name = "ASU_yi_events.2.a"
+        add_prestige = 100
+        add_adm_power = 250
+        add_dip_power = 250
+        add_mil_power = 250
+		if = {
+			limit = {
+				is_emperor_of_china = yes 
+			}
+			add_mandate_effect = yes
+		}
+        ai_chance = {            # the AI does not take the event without
+			factor = 100
+		}
+	}
+}

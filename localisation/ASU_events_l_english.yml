@@ -469,3 +469,12 @@
  ASU_yue_events.3.t:0 "Imperial Navy of Yue"
  ASU_yue_events.3.d:0 "Ever since the downfall of the Ming Dynasty China has not seen a great Navy. The Wu Dynasty has managed to rebuild the great fleet of China."
  ASU_yue_events.3.a:0 "We achieved greatness!"
+
+ #Yi
+ ASU_yi_events.1.t:0 "Struggle for Control"
+ ASU_yi_events.1.d:0 "The Dynasty of Yi has taken the opportunity to seize land for themselves during the outbreak of the Great Chaos. As this chaos settles down and borders are drawn the Struggle for Control begins."
+ ASU_yi_events.1.a:0 "We will rise!"
+
+ ASU_yi_events.2.t:0 "The Rise of Yi"
+ ASU_yi_events.2.d:0 "The Yi Dynasty has risen to be a major power in China and is a rightful Son of Heaven."
+ ASU_yi_events.2.a:0 "Kneel before your Emperor!"
