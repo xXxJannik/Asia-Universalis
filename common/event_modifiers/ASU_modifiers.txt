@@ -736,3 +736,32 @@ ASU_yue_imperial_navy = {
 	blockade_efficiency = 0.25
 	global_sailors_modifier = 0.1
 }
+
+#Yi 
+ASU_yi_glas_production = {
+	trade_goods_size = 1
+}
+
+ASU_yi_copper_production = {
+	trade_goods_size = 1
+}
+
+ASU_yi_gate_to_the_west = {
+	trade_steering = 0.2
+	global_trade_power = 0.1	
+}
+
+ASU_yi_investment = {
+	local_production_efficiency = 0.25
+	local_tax_modifier = 0.25
+}
+
+ASU_yi_century = {
+	global_trade_goods_size_modifier = 0.33
+	infantry_fire = 0.2
+}
+
+ASU_yi_struggle_for_control = {
+	global_tax_income = 48
+	infantry_cost = -0.1
+}
