@@ -224,56 +224,157 @@ ASU_yue_branch_4 = {
 	has_country_shield = yes
 
 	ASU_yue_mission_10 = {
-        icon = default
+        icon = mission_unite_home_region
 		required_missions = { ASU_yue_mission_13 }
 		position = 2
 
 		provinces_to_highlight = {
-			
+			OR = {
+				area = yangjiang_area
+				area = guangning_area
+			}
+			NOT = { owned_by = ROOT }
 		}
 
 		trigger = { 
-			
+			yangjiang_area = {
+				type = all
+				owned_by = ROOT
+			}
+			guangning_area = {
+				type = all
+				owned_by = ROOT
+			}
 		}
 
 		effect = { 
-			
+			huaiji_area = {
+				add_permanent_claim = ROOT
+			}
+			zhaoping_area = {
+				add_permanent_claim = ROOT
+			}
+			maoming_area = {
+				add_permanent_claim = ROOT
+			}
+			zhanjian_area = {
+				add_permanent_claim = ROOT
+			}
+			east_hainan_area = {
+				add_permanent_claim = ROOT
+			}
+			west_hainan_area = {
+				add_permanent_claim = ROOT
+			}
 		}
     }
 
 	ASU_yue_mission_11 = {
-        icon = default
+        icon = mission_conquer_50_development
 		required_missions = { ASU_yue_mission_10 }
 		position = 3
 
 		provinces_to_highlight = {
-			
+			OR = {
+				area = huaiji_area
+				area = zhaoping_area
+				area = maoming_area
+				area = zhanjian_area
+				area = east_hainan_area
+				area = west_hainan_area
+			}
+			NOT = { owned_by = ROOT }
 		}
 
 		trigger = { 
-			
+			huaiji_area = {
+				type = all
+				owned_by = ROOT
+			}
+			zhaoping_area = {
+				type = all
+				owned_by = ROOT
+			}
+			maoming_area = {
+				type = all
+				owned_by = ROOT
+			}
+			zhanjian_area = {
+				type = all
+				owned_by = ROOT
+			}
+			east_hainan_area = {
+				type = all
+				owned_by = ROOT
+			}
+			west_hainan_area = {
+				type = all
+				owned_by = ROOT
+			}
 		}
 
 		effect = { 
-			
+			qinzhou_area = {
+				add_permanent_claim = ROOT
+			}
+			nanning_area = {
+				add_permanent_claim = ROOT
+			}
+			binyang_area = {
+				add_permanent_claim = ROOT
+			}
+			wuming_area = {
+				add_permanent_claim = ROOT
+			}
+			fangchenggang_area = {
+				add_permanent_claim = ROOT
+			}
 		}
     }
 
 	ASU_yue_mission_12 = {
-        icon = default
+        icon = mission_great_wall
 		required_missions = { ASU_yue_mission_11 }
 		position = 4
 
 		provinces_to_highlight = {
-			
+			OR = {
+				area = qinzhou_area
+				area = nanning_area
+				area = binyang_area
+				area = wuming_area
+				area = fangchenggang_area
+			}
+			NOT = { owned_by = ROOT }
 		}
 
 		trigger = { 
-			
+			qinzhou_area = {
+				type = all
+				owned_by = ROOT
+			}
+			nanning_area = {
+				type = all
+				owned_by = ROOT
+			}
+			binyang_area = {
+				type = all
+				owned_by = ROOT
+			}
+			wuming_area = {
+				type = all
+				owned_by = ROOT
+			}
+			fangchenggang_area = {
+				type = all
+				owned_by = ROOT
+			}
 		}
 
 		effect = { 
-			
+			add_adm_power = 100
+			add_dip_power = 100
+			add_mil_power = 100
 		}
     }
 } #End branch 4
@@ -308,56 +409,216 @@ ASU_yue_branch_5 = {
     }
 
 	ASU_yue_mission_14 = {
-        icon = default
+        icon = mission_unite_home_region
 		required_missions = { ASU_yue_mission_13 }
 		position = 2
 
 		provinces_to_highlight = {
-			
+			OR = {
+				area = dabuznen_area
+				area = qiaobei_area
+			}
+			NOT = { owned_by = ROOT }
 		}
 
 		trigger = { 
-			
+			dabuznen_area = {
+				type = all
+				owned_by = ROOT
+			}
+			qiaobei_area = {
+				type = all
+				owned_by = ROOT
+			}
 		}
 
 		effect = { 
-			
+			xiewu_area = {
+				add_permanent_claim = ROOT
+			}
+			tangdi_area = {
+				add_permanent_claim = ROOT
+			}
+			madong_area = {
+				add_permanent_claim = ROOT
+			}
+			datun_area = {
+				add_permanent_claim = ROOT
+			}
+			liannan_area = {
+				add_permanent_claim = ROOT
+			}
+			malucun_area = {
+				add_permanent_claim = ROOT
+			}
+			xunlang_area = {
+				add_permanent_claim = ROOT
+			}
+			shangjia_area = {
+				add_permanent_claim = ROOT
+			}
+			yizhang_area = {
+				add_permanent_claim = ROOT
+			}
+			liannan_area = {
+				add_permanent_claim = ROOT
+			}
+			zhongfang_area = {
+				add_permanent_claim = ROOT
+			}
+			tianzhu_area = {
+				add_permanent_claim = ROOT
+			}
 		}
     }
 
 	ASU_yue_mission_15 = {
-        icon = default
+        icon = mission_japanese_samurai
 		required_missions = { ASU_yue_mission_14 }
 		position = 3
 
 		provinces_to_highlight = {
-			
+			OR = {
+				area = xiewu_area
+				area = tangdi_area
+				area = madong_area
+				area = datun_area
+				area = malucun_area
+				area = xunlang_area
+				area = shangjia_area
+				area = yizhang_area
+				area = liannan_area
+				area = zhongfang_area
+				area = tianzhu_area
+			}
+			NOT = { owned_by = ROOT }
 		}
 
 		trigger = { 
-			
+			xiewu_area = {
+				type = all
+				owned_by = ROOT
+			}
+			tangdi_area = {
+				type = all
+				owned_by = ROOT
+			}
+			madong_area = {
+				type = all
+				owned_by = ROOT
+			}
+			datun_area = {
+				type = all
+				owned_by = ROOT
+			}
+			liannan_area = {
+				type = all
+				owned_by = ROOT
+			}
+			malucun_area = {
+				type = all
+				owned_by = ROOT
+			}
+			xunlang_area = {
+				type = all
+				owned_by = ROOT
+			}
+			shangjia_area = {
+				type = all
+				owned_by = ROOT
+			}
+			yizhang_area = {
+				type = all
+				owned_by = ROOT
+			}
+			zhongfang_area = {
+				type = all
+				owned_by = ROOT
+			}
+			tianzhu_area = {
+				type = all
+				owned_by = ROOT
+			}
 		}
 
 		effect = { 
-			
+			changde_area = {
+				add_permanent_claim = ROOT
+			}
+			shaoyang_area = {
+				add_permanent_claim = ROOT
+			}
+			changsha_area = {
+				add_permanent_claim = ROOT
+			}
+			ningyuan_area = {
+				add_permanent_claim = ROOT
+			}
+			zixing_area = {
+				add_permanent_claim = ROOT
+			}
+			zhuzhou_area = {
+				add_permanent_claim = ROOT
+			}
+			shixing_area = {
+				add_permanent_claim = ROOT
+			}
 		}
     }
 
 	ASU_yue_mission_16 = {
-        icon = default
+        icon = mission_landsknecht_soldier
 		required_missions = { ASU_yue_mission_15 }
 		position = 4
 
 		provinces_to_highlight = {
-			
+			OR = {
+				area = changde_area
+				area = shaoyang_area
+				area = changsha_area
+				area = ningyuan_area
+				area = zixing_area
+				area = zhuzhou_area
+				area = shixing_area
+			}
+			NOT = { owned_by = ROOT }
 		}
 
 		trigger = { 
-			
+			changde_area = {
+				type = all
+				owned_by = ROOT
+			}
+			shaoyang_area = {
+				type = all
+				owned_by = ROOT
+			}
+			changsha_area = {
+				type = all
+				owned_by = ROOT
+			}
+			ningyuan_area = {
+				type = all
+				owned_by = ROOT
+			}
+			zixing_area = {
+				type = all
+				owned_by = ROOT
+			}
+			zhuzhou_area = {
+				type = all
+				owned_by = ROOT
+			}
+			shixing_area = {
+				type = all
+				owned_by = ROOT
+			}
 		}
 
 		effect = { 
-			
+			add_adm_power = 100
+			add_dip_power = 100
+			add_mil_power = 100
 		}
     }
 } #End branch 5
@@ -372,56 +633,157 @@ ASU_yue_branch_6 = {
 	has_country_shield = yes
 
 	ASU_yue_mission_17 = {
-        icon = default
+        icon = mission_unite_home_region
 		required_missions = { ASU_yue_mission_13 }
 		position = 2
 
 		provinces_to_highlight = {
-			
+			OR = {
+				area = shanwei_area 
+				area = heyuan_area
+			}
+			NOT = { owned_by = ROOT }
 		}
 
 		trigger = { 
-			
+			shanwei_area = {
+				type = all
+				owned_by = ROOT
+			}
+			heyuan_area = {
+				type = all
+				owned_by = ROOT
+			}
 		}
 
 		effect = { 
-			
+			shantou_area = {
+				add_permanent_claim = ROOT
+			}
+			yunxiag_area = {
+				add_permanent_claim = ROOT
+			}
+			meizhou_area = {
+				add_permanent_claim = ROOT
+			}
+			pingyuan_area = {
+				add_permanent_claim = ROOT
+			}
+			anyuan_area = {
+				add_permanent_claim = ROOT
+			}
 		}
     }
 
 	ASU_yue_mission_18 = {
-        icon = default
+        icon = mission_impaled_soldies
 		required_missions = { ASU_yue_mission_17 }
 		position = 3
 
 		provinces_to_highlight = {
-			
+			OR = {
+				area = shantou_area
+				area = yunxiag_area
+				area = meizhou_area
+				area = pingyuan_area
+				area = anyuan_area
+			}
+			NOT = { owned_by = ROOT }
 		}
 
 		trigger = { 
-			
+			shantou_area = {
+				type = all
+				owned_by = ROOT
+			}
+			yunxiag_area = {
+				type = all
+				owned_by = ROOT
+			}
+			meizhou_area = {
+				type = all
+				owned_by = ROOT
+			}
+			pingyuan_area = {
+				type = all
+				owned_by = ROOT
+			}
+			anyuan_area = {
+				type = all
+				owned_by = ROOT
+			}
 		}
 
 		effect = { 
-			
+			xiamen_area = {
+				add_permanent_claim = ROOT
+			}
+			shipai_area = {
+				add_permanent_claim = ROOT
+			}
+			longyan_area = {
+				add_permanent_claim = ROOT
+			}
+			shanghang_area = {
+				add_permanent_claim = ROOT
+			}
+			nankang_area = {
+				add_permanent_claim = ROOT
+			}
+			yudu_area = {
+				add_permanent_claim = ROOT
+			}
 		}
     }
 
 	ASU_yue_mission_19 = {
-        icon = default
+        icon = mission_rb_unite_the_clans
 		required_missions = { ASU_yue_mission_18 }
 		position = 4
 
 		provinces_to_highlight = {
-			
+			OR = {
+				area = xiamen_area
+				area = shipai_area
+				area = longyan_area
+				area = shanghang_area
+				area = nankang_area
+				area = yudu_area
+			}
+			NOT = { owned_by = ROOT }
 		}
 
 		trigger = { 
-			
+			xiamen_area = {
+				type = all
+				owned_by = ROOT
+			}
+			shipai_area = {
+				type = all
+				owned_by = ROOT
+			}
+			longyan_area = {
+				type = all
+				owned_by = ROOT
+			}
+			shanghang_area = {
+				type = all
+				owned_by = ROOT
+			}
+			nankang_area = {
+				type = all
+				owned_by = ROOT
+			}
+			yudu_area = {
+				type = all
+				owned_by = ROOT
+			}
 		}
 
 		effect = { 
-			
+			add_adm_power = 100
+			add_dip_power = 100
+			add_mil_power = 100
 		}
     }
 

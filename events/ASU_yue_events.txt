@@ -13,6 +13,24 @@ country_event = { #Struggle for Control
             name = ASU_yue_struggle_for_control
             duration = 9125
         }
+		yangjiang_area = {
+			add_permanent_claim = ROOT
+		}
+		guangning_area = {
+			add_permanent_claim = ROOT
+		}
+		shanwei_area = {
+			add_permanent_claim = ROOT
+		}
+		dabuznen_area = {
+			add_permanent_claim = ROOT
+		}
+		qiaobei_area = {
+			add_permanent_claim = ROOT
+		}
+		heyuan_area = {
+			add_permanent_claim = ROOT
+		}
         ai_chance = {            # the AI does not take the event without
 			factor = 100
 		}
