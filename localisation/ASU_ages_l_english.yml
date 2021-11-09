@@ -127,7 +127,7 @@
  obj_diplo_slots_desc:0 "Have atleast seven Diplomatic Relation Slots."
 
  obj_revolution:0 "The Revolution"
- obj_revolution_desc:0 "Either become the Revolution or crush it."^
+ obj_revolution_desc:0 "Either become the Revolution or crush it."
 
  #Abilities
 
