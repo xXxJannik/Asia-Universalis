@@ -3,4 +3,4 @@ add_government_reform = h_reform_warlord_1
 primary_culture = cantonese
 religion = confucianism
 technology_group = chinese
-capital = 
+capital = 5575
