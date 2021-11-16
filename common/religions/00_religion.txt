@@ -1338,6 +1338,7 @@ muslim = {
 
 			shock_damage_received = -0.1
 		}
+	}
 		
 	sunni = {
 		color = { 0 153 0 }
@@ -1401,6 +1402,7 @@ muslim = {
 	harmonized_modifier = harmonized_muslim
 	
 	crusade_name = JIHAD
+	
 }
 
 eastern = {
