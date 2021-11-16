@@ -598,25 +598,25 @@ regionally_elected_commanders = {
 }
 
 conditional = {
-		allow = { has_dlc = "Res Publica" }
-		heir = no
-		election_on_death = yes
-		duration = 4
-		has_term_election = yes
-		states_general_mechanic = {
-			militarists = {
-				manpower_recovery_speed = 0.2
-				warscore_cost_vs_other_religion = -0.15
-				army_tradition_from_battle = 0.5
-			}
-
-			theocrats = {
-				tolerance_own = 2
-				global_missionary_strength = 0.02
-				devotion = 0.5
-			}
+	allow = { has_dlc = "Res Publica" }
+	heir = no
+	election_on_death = yes
+	duration = 4
+	has_term_election = yes
+	states_general_mechanic = {
+		militarists = {
+			manpower_recovery_speed = 0.2
+			warscore_cost_vs_other_religion = -0.15
+			army_tradition_from_battle = 0.5
 		}
+
+		theocrats = {
+			tolerance_own = 2
+			global_missionary_strength = 0.02
+			devotion = 0.5
+			}
 	}
+}
 
 commander_king_reform = {
 	icon = "commander_king_reform"

@@ -705,8 +705,9 @@ tribe_becomes_horde_reform = {
 		OR = {
 			NOT = {	has_reform = steppe_horde }
 			has_reform = tribe_becomes_horde_reform
-		NOT = { has_reform = great_mongol_state_reform }
-		NOT = { has_government_attribute_short_desc = locked_government_type }
+			NOT = { has_reform = great_mongol_state_reform }
+			NOT = { has_government_attribute_short_desc = locked_government_type },
+		}
 	}
 	ai = {
 		factor = 0
