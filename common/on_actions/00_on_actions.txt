@@ -3753,6 +3753,7 @@ on_five_year_pulse_4 = {
 			}
 		}
 		clr_country_flag = advisor_events_mil
+	}
 	#Clearing of Jewish events flags
 	if = {
 		limit = {
