@@ -140,7 +140,7 @@ country_event = { #Refugees Arrive
 		name = "ASU_persia_events.6.a"
         2219 = {
             add_base_production = 2
-            add_base_taxation = 2
+            add_base_tax = 2
             add_province_modifier = {
                 name = ASU_persia_refugees
                 duration = -1
@@ -148,7 +148,7 @@ country_event = { #Refugees Arrive
         }
         4332 = {
             add_base_production = 2
-            add_base_taxation = 2
+            add_base_tax = 2
             add_province_modifier = {
                 name = ASU_persia_refugees
                 duration = -1
@@ -156,7 +156,7 @@ country_event = { #Refugees Arrive
         }
         430 = {
             add_base_production = 2
-            add_base_taxation = 2
+            add_base_tax = 2
             add_province_modifier = {
                 name = ASU_persia_refugees
                 duration = -1
@@ -164,7 +164,7 @@ country_event = { #Refugees Arrive
         }
         4329 = {
             add_base_production = 2
-            add_base_taxation = 2
+            add_base_tax = 2
             add_province_modifier = {
                 name = ASU_persia_refugees
                 duration = -1
@@ -172,7 +172,7 @@ country_event = { #Refugees Arrive
         }
         2218 = {
             add_base_production = 2
-            add_base_taxation = 2
+            add_base_tax = 2
             add_province_modifier = {
                 name = ASU_persia_refugees
                 duration = -1
