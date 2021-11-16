@@ -72,6 +72,13 @@ NDefines.NMilitary.WARSCORE_MAX_FROM_BATTLES = 50
 NDefines.NMilitary.SUPPLY_DEPOT_MIL_COST = 5
 NDefines.NMilitary.STACKWIPE_MANPOWER_RETURN_FRACTION = 0.1
 
+NDefines.NMilitary.ASSAULT_WIDTH_LIMIT = 5						-- how many times the garrison size that can effectively assault at the same time.
+NDefines.NMilitary.ASSAULT_ATTACKER_LOSS = 1.0 					-- MDEF_ASSAULT_ATTACKER_LOSS = 10,
+NDefines.NMilitary.ASSAULT_DEFENDER_LOSS = 0.05 					-- _MDEF_ASSAULT_DEFENDER_LOSS = 10,
+NDefines.NMilitary.ASSAULT_DICE_MODIFIER = 5 						-- _MDEF_ASSAULT_DICE_MODIFIER_
+NDefines.NMilitary.SIEGE_FORCE_NEEDED_MULTIPLIER = 3				-- x times garrison to be able to siege.
+NDefines.NMilitary.GARRISON_SIZE = 1000 							-- GARRISON_SIZE
+
 NDefines.NEconomy.TRADE_WIND_STRENGTH = 0
 NDefines.NEconomy.TRADE_NON_CAPITAL_OFFICE = 0
 NDefines.NEconomy.TRADE_PROPAGATE_DIVIDER = 15
