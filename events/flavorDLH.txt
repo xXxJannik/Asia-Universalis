@@ -215,6 +215,21 @@ country_event = {
 		SRH = { country_event = { id = flavor_dlh.6 } }
 		add_prestige = 10
 	}
+	option = {
+		name = "flavor_dlh.5.b" #We have lost control over Sirhind and the Punjab.
+		ai_chance = {
+			factor = 0
+		}
+		custom_tooltip = flavor_dlh.5.b.tt
+		SRH = { country_event = { id = flavor_dlh.7 } }
+		add_opinion = {
+			 who = SRH
+			 modifier = opinion_lodi_released 
+		}
+		tooltip = {
+			free_vassal = SRH
+		}
+	}
 }
 
 # The Rise of Bahlul Lodi

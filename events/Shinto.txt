@@ -3215,43 +3215,51 @@ country_event = {
 		}
 	}
 
-	option = {
-	name = "shinto_events.58.e" # Become Buddhist, but stay a Daimyo
-	ai_chance = {
-		factor = 20
-		modifier = {
-			factor = 0.5
-			NOT = { tag = JAP }
-			NOT = { tag = TKD }
-			any_known_country = {
-				capital_scope = { region = japan_region }
-				religion = mahayana
+		option = {
+		name = "shinto_events.58.e" # Become Buddhist, but stay a Daimyo
+		ai_chance = {
+			factor = 20
+			modifier = {
+				factor = 0.5
+				NOT = { tag = JAP }
+				NOT = { tag = TKD }
+				any_known_country = {
+					capital_scope = { region = japan_region }
+					religion = mahayana
+				}
 			}
 		}
-	}
-	change_religion = mahayana
-	capital_scope = {
+  
+						   
+				  
 		change_religion = mahayana
+		capital_scope = {
+			change_religion = mahayana
 			spawn_rebels = {
-			type = ikko_ikki_rebels
+				type = ikko_ikki_rebels
 				size = 2
 			}
-		random_neighbor_province = {
-			limit = {
-				owned_by = ROOT
-			}
-			spawn_rebels = {
-				type = shinto_rebels
-				size = 1
+			random_neighbor_province = {
+				limit = {
+					owned_by = ROOT
+				}
+				spawn_rebels = {
+					type = shinto_rebels
+					size = 1
+				}
 			}
 		}
+		add_country_modifier = {
+			name = "shinto_converted_to_mahayana"
+			duration = 3650
+		}
 	}
-	add_country_modifier = {
-		name = "shinto_converted_to_mahayana"
-		duration = 3650
-	}
-	}
-	
+						 
+									   
+				 
+  
+  
+ 
 }
 
 #Convert to Confuciansim
