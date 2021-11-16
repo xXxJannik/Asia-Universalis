@@ -1785,6 +1785,7 @@ estate_cossacks_exploration_expedition = {
 			}
 			remove_province_modifier = estate_cossacks_exploration_expedition_mod
 		}
+	}
 	penalties = {
 	}
 	ai_will_do = {
@@ -5009,6 +5010,7 @@ estate_rajput_monopoly_of_metals = {
 				}
 			}
 		custom_tooltip = estate_rajput_monopoly_of_metals_effect_tooltip
+		}
 	}
 	on_granted_province = {
 		if = {
