@@ -201,43 +201,43 @@ country_event = { #Promise of Freedom
 	option = {
 		name = "ASU_zaz_events.8.a"
         random_owned_province = {
-            add_base_taxation = 2
+            add_base_tax = 2
             add_base_production = 2
         }
         random_owned_province = {
-            add_base_taxation = 2
+            add_base_tax = 2
             add_base_production = 2
         }
         random_owned_province = {
-            add_base_taxation = 2
+            add_base_tax = 2
             add_base_production = 2
         }
         random_owned_province = {
-            add_base_taxation = 2
+            add_base_tax = 2
             add_base_production = 2
         }
         random_owned_province = {
-            add_base_taxation = 2
+            add_base_tax = 2
             add_base_production = 2
         }
         random_owned_province = {
-            add_base_taxation = 2
+            add_base_tax = 2
             add_base_production = 2
         }
         random_owned_province = {
-            add_base_taxation = 2
+            add_base_tax = 2
             add_base_production = 2
         }
         random_owned_province = {
-            add_base_taxation = 2
+            add_base_tax = 2
             add_base_production = 2
         }
         random_owned_province = {
-            add_base_taxation = 2
+            add_base_tax = 2
             add_base_production = 2
         }
         random_owned_province = {
-            add_base_taxation = 2
+            add_base_tax = 2
             add_base_production = 2
         }
         ai_chance = {            # the AI does not take the event without
