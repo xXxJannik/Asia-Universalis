@@ -76,8 +76,8 @@ NDefines.NMilitary.ASSAULT_WIDTH_LIMIT = 5						-- how many times the garrison s
 NDefines.NMilitary.ASSAULT_ATTACKER_LOSS = 1.0 					-- MDEF_ASSAULT_ATTACKER_LOSS = 10,
 NDefines.NMilitary.ASSAULT_DEFENDER_LOSS = 0.05 					-- _MDEF_ASSAULT_DEFENDER_LOSS = 10,
 NDefines.NMilitary.ASSAULT_DICE_MODIFIER = 5 						-- _MDEF_ASSAULT_DICE_MODIFIER_
-NDefines.NMilitary.SIEGE_FORCE_NEEDED_MULTIPLIER = 3				-- x times garrison to be able to siege.
-NDefines.NMilitary.GARRISON_SIZE = 1000 							-- GARRISON_SIZE
+NDefines.NMilitary.SIEGE_FORCE_NEEDED_MULTIPLIER = 1				-- x times garrison to be able to siege.
+NDefines.NMilitary.GARRISON_SIZE = 3000 							-- GARRISON_SIZE
 
 NDefines.NEconomy.TRADE_WIND_STRENGTH = 0
 NDefines.NEconomy.TRADE_NON_CAPITAL_OFFICE = 0
