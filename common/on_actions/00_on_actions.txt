@@ -3226,41 +3226,41 @@ on_five_year_pulse = {
 		100 = innovativeness_events.1
 
 		# Aristocracy 		13  (8g 5b)
-		100 = ideagroups.100
-		100 = ideagroups.101
-		100 = ideagroups.102
-		100 = ideagroups.103
-		100 = ideagroups.104
-		100 = ideagroups.105
-		100 = ideagroups.106
-		100 = ideagroups.107
-		100 = ideagroups.108
-		100 = ideagroups.109
-		100 = ideagroups.110
-		100 = ideagroups.111
-		100 = ideagroups.112
+		# 100 = ideagroups.100
+		# 100 = ideagroups.101
+		# 100 = ideagroups.102
+		# 100 = ideagroups.103
+		# 100 = ideagroups.104
+		# 100 = ideagroups.105
+		# 100 = ideagroups.106
+		# 100 = ideagroups.107
+		# 100 = ideagroups.108
+		# 100 = ideagroups.109
+		# 100 = ideagroups.110
+		# 100 = ideagroups.111
+		# 100 = ideagroups.112
 
 
 		# Plutocracy 		19 (12g 7b)
-		100 = ideagroups.200
-		100 = ideagroups.201
-		100 = ideagroups.202
-		100 = ideagroups.203
-		100 = ideagroups.204
-		100 = ideagroups.205
-		100 = ideagroups.206
-		100 = ideagroups.207
-		100 = ideagroups.208
-		100 = ideagroups.209
-		100 = ideagroups.210
-		100 = ideagroups.211
-		100 = ideagroups.212
-		100 = ideagroups.213
-		100 = ideagroups.214
-		100 = ideagroups.215
-		100 = ideagroups.216
-		100 = ideagroups.217
-		100 = ideagroups.218
+		# 100 = ideagroups.200
+		# 100 = ideagroups.201
+		# 100 = ideagroups.202
+		# 100 = ideagroups.203
+		# 100 = ideagroups.204
+		# 100 = ideagroups.205
+		# 100 = ideagroups.206
+		# 100 = ideagroups.207
+		# 100 = ideagroups.208
+		# 100 = ideagroups.209
+		# 100 = ideagroups.210
+		# 100 = ideagroups.211
+		# 100 = ideagroups.212
+		# 100 = ideagroups.213
+		# 100 = ideagroups.214
+		# 100 = ideagroups.215
+		# 100 = ideagroups.216
+		# 100 = ideagroups.217
+		# 100 = ideagroups.218
 
 		# Innovativenes		11 (7g 4b)
 		100 = ideagroups.300
@@ -3309,15 +3309,15 @@ on_five_year_pulse = {
 
 
 		# Diplomatic		9 (6g 3b)
-		100 = ideagroups.600
-		100 = ideagroups.601
-		100 = ideagroups.602
-		100 = ideagroups.603
-		100 = ideagroups.604
-		100 = ideagroups.605
-		100 = ideagroups.606
-		100 = ideagroups.607
-		100 = ideagroups.608
+		#100 = ideagroups.600
+		#100 = ideagroups.601
+		#100 = ideagroups.602
+		#100 = ideagroups.603
+		#100 = ideagroups.604
+		#100 = ideagroups.605
+		#100 = ideagroups.606
+		#100 = ideagroups.607
+		#100 = ideagroups.608
 
 
 		# Offensive 		14 (9g 5b)
@@ -3473,17 +3473,17 @@ on_five_year_pulse = {
 		100 = ideagroups.1610
 
 		# Naval		11 (7g 4b)
-		100 = ideagroups.1700
-		100 = ideagroups.1701
-		100 = ideagroups.1702
-		100 = ideagroups.1703
-		100 = ideagroups.1704
-		100 = ideagroups.1705
-		100 = ideagroups.1706
-		100 = ideagroups.1707
-		100 = ideagroups.1708
-		100 = ideagroups.1709
-		100 = ideagroups.1710
+		#100 = ideagroups.1700
+		#100 = ideagroups.1701
+		#100 = ideagroups.1702
+		#100 = ideagroups.1703
+		#100 = ideagroups.1704
+		#100 = ideagroups.1705
+		#100 = ideagroups.1706
+		#100 = ideagroups.1707
+		#100 = ideagroups.1708
+		#100 = ideagroups.1709
+		#100 = ideagroups.1710
 
 		# Influence		11 (7g 4b)
 		100 = ideagroups.1800
@@ -3512,41 +3512,41 @@ on_five_year_pulse = {
 		100 = ideagroups.1910
 
 		# Horde Ideas		10 (8g 2b)
-		100 = ideagroups.1922
-		100 = ideagroups.1923
-		100 = ideagroups.1924
-		100 = ideagroups.1925
-		100 = ideagroups.1926
-		100 = ideagroups.1927
-		100 = ideagroups.1928
-		100 = ideagroups.1929
-		100 = ideagroups.1930
-		100 = ideagroups.1931
+		#100 = ideagroups.1922
+		#100 = ideagroups.1923
+		#100 = ideagroups.1924
+		#100 = ideagroups.1925
+		#100 = ideagroups.1926
+		#100 = ideagroups.1927
+		#100 = ideagroups.1928
+		#100 = ideagroups.1929
+		#100 = ideagroups.1930
+		#100 = ideagroups.1931
 		
 		#Theocracy Ideas		11 (9g 2b)
-		100 = ideagroups.1911
-		100 = ideagroups.1912
-		100 = ideagroups.1913
-		100 = ideagroups.1914
-		100 = ideagroups.1915
-		100 = ideagroups.1916
-		100 = ideagroups.1917
-		100 = ideagroups.1918
-		100 = ideagroups.1919
-		100 = ideagroups.1920
-		100 = ideagroups.1921
+		#100 = ideagroups.1911
+		#100 = ideagroups.1912
+		#100 = ideagroups.1913
+		#100 = ideagroups.1914
+		#100 = ideagroups.1915
+		#100 = ideagroups.1916
+		#100 = ideagroups.1917
+		#100 = ideagroups.1918
+		#100 = ideagroups.1919
+		#100 = ideagroups.1920
+		#100 = ideagroups.1921
 
 		# Indigenous		10 (6g 4b)
-		100 = ideagroups.1932
-		100 = ideagroups.1933
-		100 = ideagroups.1934
-		100 = ideagroups.1935
-		100 = ideagroups.1936
-		100 = ideagroups.1937
-		100 = ideagroups.1938
-		100 = ideagroups.1939
-		100 = ideagroups.1940
-		100 = ideagroups.1941
+		#100 = ideagroups.1932
+		#100 = ideagroups.1933
+		#100 = ideagroups.1934
+		#100 = ideagroups.1935
+		#100 = ideagroups.1936
+		#100 = ideagroups.1937
+		#100 = ideagroups.1938
+		#100 = ideagroups.1939
+		#100 = ideagroups.1940
+		#100 = ideagroups.1941
 		
 		1000 = 0
 	}
