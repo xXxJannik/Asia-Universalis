@@ -8399,7 +8399,10 @@ RZW_ideas = {
 	}
   
 	trigger = {
-		tag = RZW
+		OR = {
+			tag = RZI
+			tag = RZW
+		}
 	}
 	free = yes
   
@@ -12960,81 +12963,6 @@ DEC_ideas = {
 	}
 	dec_encourage_industries = {
 		global_trade_goods_size_modifier = 0.1
-	}
-}
-
-DLH_ideas = {
-	start = {
-		infantry_power = 0.15
-		diplomatic_reputation = 1
-	}
-	
-	bonus = {
-		num_accepted_cultures = 1
-	}
-	
-	trigger = {
-		tag = DLH
-	}
-	free = yes
-	
-	dlh_afghan_nobility = {
-		army_tradition = 0.5
-	}
-	dlh_suppress_rebellion = {
-		global_unrest = -1
-	}
-	dlh_expansionism = {
-		core_creation = -0.1
-	}
-	dlh_textile_innovation = {
-		production_efficiency = 0.1
-	}
-	dlh_reconquest = {
-		governing_capacity_modifier = 0.1
-	}
-	dlh_grand_trunk = {
-		global_own_trade_power = 0.1
-	}
-	dlh_throne_of_india = {
-		legitimacy = 1
-	}
-}
-
-BHA_ideas = {
-	start = {
-		land_morale = 0.1
-		infantry_cost = -0.1
-	}
-	bonus = {
-		years_of_nationalism = -5
-	}
-	
-	trigger = {
-		tag = BHA
-	}
-	free = yes
-
-	bha_modernized_war_elephants = {
-		cavalry_power = 0.10
-	}
-	bha_united_india = {
-		num_accepted_cultures = 2
-	}
-	bha_sanskrit_golden_age = {
-		technology_cost = -0.05
-	}
-	bha_indian_army = {
-		global_manpower_modifier = 0.2
-	}
-	bha_ganga = {
-		tolerance_own = 2
-	}
-	bha_brahmin_administration = {
-		administrative_efficiency = 0.05
-	}
-	bha_rocketry = {
-		artillery_power = 0.1
 	}
 }
 
