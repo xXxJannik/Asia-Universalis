@@ -78,7 +78,7 @@ NDefines.NMilitary.ASSAULT_DEFENDER_LOSS = 0.05 					-- _MDEF_ASSAULT_DEFENDER_L
 NDefines.NMilitary.ASSAULT_DICE_MODIFIER = 5 						-- _MDEF_ASSAULT_DICE_MODIFIER_
 NDefines.NMilitary.SIEGE_FORCE_NEEDED_MULTIPLIER = 1				-- x times garrison to be able to siege.
 NDefines.NMilitary.GARRISON_SIZE = 3000 							-- GARRISON_SIZE
-NDefines.NMilitary.FORTRESS_COST = 0.5							-- base fort cost
+NDefines.NMilitary.FORTRESS_COST = 0.167							-- base fort cost
 
 NDefines.NEconomy.TRADE_WIND_STRENGTH = 0
 NDefines.NEconomy.TRADE_NON_CAPITAL_OFFICE = 0
