@@ -656,6 +656,7 @@ peasants_republic = {
 		enables_aristocratic_idea_group = no
 	}
 	duration = 4
+}	
 
 
 kongsi_federation = {
