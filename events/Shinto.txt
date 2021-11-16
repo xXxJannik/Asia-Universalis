@@ -3215,7 +3215,7 @@ country_event = {
 		}
 	}
 
-		option = {
+	option = {
 		name = "shinto_events.58.e" # Become Buddhist, but stay a Daimyo
 		ai_chance = {
 			factor = 20
