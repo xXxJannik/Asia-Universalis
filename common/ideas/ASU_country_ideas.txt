@@ -504,3 +504,86 @@ CSH_ideas = {
 		legitimacy = 0.5
 	}
 }
+
+#Ming
+CHI_ideas = {
+	start = {
+		shock_damage_received = -0.1
+		infantry_power = 0.1
+	}
+	
+	bonus = {
+		land_forcelimit_modifier = 0.5
+	}
+	
+	trigger = {
+		tag = MNG
+	}
+	free = yes		#will be added at load.
+	
+	ASU_mng_NI1 = {
+		defensiveness = 0.20
+		garrison_size = 0.20
+	}
+	ASU_mng_NI2 = {
+		discipline = 0.05
+	}
+	ASU_mng_NI3 = {
+		global_trade_goods_size_modifier = 0.1
+	}
+	ASU_mng_NI4 = {
+		global_manpower_modifier = 0.5
+	}
+	ASU_mng_NI5 = {
+		land_morale = 0.1
+		imperial_mandate = 0.03
+	}
+	ASU_mng_NI6 = {
+		artillery_power = 0.1
+		technology_cost = -0.05
+	}
+	ASU_mng_NI7 = {
+		amount_of_banners = 0.25
+	}
+}
+
+
+PER_ideas = {
+	start = {
+		land_morale = 0.1
+		infantry_power = 0.1
+	}
+	
+	bonus = {
+		shock_damage_received = -0.2
+	}
+	
+	trigger = {
+		tag = PER
+	}
+	free = yes
+
+	ASU_per_NI_1 = {
+		global_manpower_modifier = 0.25
+	}
+	persian_rug_production = {
+		global_trade_goods_size_modifier = 0.1
+	}
+	the_ghulams = {
+		discipline = 0.05
+	}
+	ASU_per_NI_4 = {
+		development_cost = -0.1
+		technology_cost = -0.1
+	}
+	encouraged_art = {
+		prestige = 1
+		production_efficiency = 0.1
+	}
+	promotion_of_irrigation = {
+		land_forcelimit_modifier = 0.25
+	}
+	ASU_per_NI_7 = {
+		reinforce_speed = 0.25
+	}
+}
