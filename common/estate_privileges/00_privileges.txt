@@ -997,7 +997,7 @@ estate_nobles_advisors = {
 	influence = 0.1
 	loyalty = 0.05
 	penalties = {
-		stability_cost_modifier = 0.1
+		
 	}
 	benefits = {
 		mil_advisor_cost = -0.10
@@ -1153,7 +1153,7 @@ estate_church_independent_inquisition = {
 	influence = 0.1
 	loyalty = 0.05
 	penalties = {
-		stability_cost_modifier = 0.1
+		
 	}
 	benefits = {
 		adm_advisor_cost = -0.10
@@ -1610,7 +1610,7 @@ estate_burghers_commercial_board_of_advice = {
 	influence = 0.1
 	loyalty = 0.05
 	penalties = {
-		stability_cost_modifier = 0.1
+		
 	}
 	benefits = {
 		dip_advisor_cost = -0.10
@@ -2385,7 +2385,7 @@ estate_brahmins_brahmin_leadership = {
 	}
 	loyalty = 0.05
 	penalties = {
-		stability_cost_modifier = 0.1
+		
 	}
 	benefits = {
 		adm_advisor_cost = -0.10
@@ -2740,7 +2740,7 @@ estate_maratha_advisor = {
 	}
 	loyalty = 0.05
 	penalties = {
-		stability_cost_modifier = 0.1
+		
 	}
 	benefits = {
 		mil_advisor_cost = -0.10
@@ -3051,7 +3051,7 @@ estate_rajput_advisor = {
 	}
 	loyalty = 0.05
 	penalties = {
-		stability_cost_modifier = 0.1
+		
 	}
 	benefits = {
 		mil_advisor_cost = -0.10
@@ -3211,7 +3211,6 @@ estate_vaisyas_advisor = {
 	influence = 0.1
 	loyalty = 0.05
 	penalties = {
-		stability_cost_modifier = 0.1
 	}
 	benefits = {
 		dip_advisor_cost = -0.10
