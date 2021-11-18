@@ -3098,7 +3098,7 @@ monarchie0 = {
 	category = ADM
 
 	bonus = {
-		cav_to_inf_ratio = 0.10
+		global_tax_modifier = 0.2
 	}
 		
 	trigger = {
@@ -5359,8 +5359,7 @@ formation0 = {
 		shock_damage = 0.1
 	}
 	formation3 = {
-		cavalry_flanking = 0.5
-		cav_to_inf_ratio = 0.2
+		cavalry_flanking = 1
 	}
 
 	formation4 = {
@@ -5536,7 +5535,7 @@ shock0 = {
 		cavalry_cost = -0.2
 	}
 	shock6 = {
-		cav_to_inf_ratio = 0.20
+		movement_speed = 0.1
 	}
 	shock4 = {
 		shock_damage = 0.05
