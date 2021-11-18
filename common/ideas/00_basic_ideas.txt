@@ -1133,7 +1133,6 @@ expansion_ideas = {
 	
 	expan6 = {
 		governing_capacity_modifier = 0.2
-		trade_company_governing_cost = -0.2
 	}
 	
 	expan7 = {
@@ -1241,14 +1240,12 @@ administrative_ideas = {
 		governing_capacity_modifier = 0.25
 	}
 
-	organised_mercenary_payment = {
-		mercenary_cost = -0.25
-	}
 	adaptability = {
 		core_creation = -0.25
 	}
 	benefits_for_mercenaries = {
 		merc_maintenance_modifier = -0.25
+		mercenary_cost = -0.25
 	}
 	bookkeeping = {
 		interest = -0.25
@@ -1261,6 +1258,10 @@ administrative_ideas = {
 	}
 	civil_servants = {
 		adm_tech_cost_modifier = -0.1
+	}
+	organised_mercenary_payment = {
+		free_adm_policy = 1
+		free_dip_policy = 1
 	}
 
 	ai_will_do = {
