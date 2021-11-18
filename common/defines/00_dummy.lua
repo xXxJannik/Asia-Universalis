@@ -52,6 +52,7 @@ NDefines.NCountry.PS_REMOVE_ACCEPTED_CULTURE = 0
 NDefines.NCountry.SPLENDOR_ABILITY_COST = 1000
 NDefines.NCountry.EXPAND_INFRASTRUCTURE_DEV_LIMIT = 5
 NDefines.NCountry.SCRIPTED_ADVISOR_DISCOUNT = 0.75
+NDefines.NCountry.IDEA_TO_TECH = -0.01			-- percentage on tech reduction per idea.
 
 NDefines.NMilitary.CAVALRY_COST = 50.0
 NDefines.NMilitary.ARTILLERY_COST = 50.0
@@ -76,7 +77,7 @@ NDefines.NMilitary.ASSAULT_WIDTH_LIMIT = 5						-- how many times the garrison s
 NDefines.NMilitary.ASSAULT_ATTACKER_LOSS = 1.0 					-- MDEF_ASSAULT_ATTACKER_LOSS = 10,
 NDefines.NMilitary.ASSAULT_DEFENDER_LOSS = 0.05 					-- _MDEF_ASSAULT_DEFENDER_LOSS = 10,
 NDefines.NMilitary.ASSAULT_DICE_MODIFIER = 5 						-- _MDEF_ASSAULT_DICE_MODIFIER_
-NDefines.NMilitary.SIEGE_FORCE_NEEDED_MULTIPLIER = 1				-- x times garrison to be able to siege.
+NDefines.NMilitary.SIEGE_FORCE_NEEDED_MULTIPLIER = 0.334				-- x times garrison to be able to siege.
 NDefines.NMilitary.GARRISON_SIZE = 3000 							-- GARRISON_SIZE
 NDefines.NMilitary.FORTRESS_COST = 0.167							-- base fort cost
 
