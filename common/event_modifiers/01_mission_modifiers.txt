@@ -4520,7 +4520,6 @@ lxa_tolerance_own = {
 
 lxa_elephants = {
 	cavalry_cost = -0.2
-	cav_to_inf_ratio = 0.2
 }
 
 lxa_missionaries = {
