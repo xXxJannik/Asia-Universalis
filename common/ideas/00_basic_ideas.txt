@@ -479,6 +479,7 @@ defensive_ideas = {
 
 	bonus = {
 		hostile_attrition = 1
+		garrison_size = 0.25
 	}
 
 	battlefield_commisions = {
