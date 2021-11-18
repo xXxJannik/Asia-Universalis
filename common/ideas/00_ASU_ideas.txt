@@ -3718,11 +3718,11 @@ kolonialimperium0 = {
 	}
 	
 	kolonialimperium1 = {
-		trade_company_governing_cost = -0.25
+		governing_capacity_modifier = 0.15
 	}
 	
 	kolonialimperium4 = {
-		global_tariffs = 0.25
+		trade_efficiency = 0.1
 	}
 	
 	kolonialimperium3 = {
@@ -4105,7 +4105,7 @@ flottenbasis0 = {
 		sailor_maintenance_modifer = -0.1
 	}
 	flottenbasis3 = {
-		naval_forcelimit_modifier = 0.10
+		naval_forcelimit_modifier = 0.25
 	}
 	
 	flottenbasis1 = {
