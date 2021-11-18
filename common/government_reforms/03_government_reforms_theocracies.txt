@@ -913,7 +913,7 @@ all_under_tengri_reform = {
 	}
 	modifiers = {
 		cavalry_power = 0.15
-		cav_to_inf_ratio = 0.25
+		cavalry_cost = -0.2
 	}
 	ai = {
 		factor = 3

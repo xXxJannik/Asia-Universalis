@@ -38,7 +38,6 @@ steppe_horde = {
 		loot_amount = 0.50
 		global_institution_spread = -0.15
 		reinforce_cost_modifier = -0.5
-		cav_to_inf_ratio = 0.1
 		movement_speed = 0.2
 		years_of_nationalism = -5
 	}
@@ -69,7 +68,6 @@ great_mongol_state_reform = {
 		land_forcelimit_modifier = 0.2
 		loot_amount = 0.50
 		reinforce_cost_modifier = -0.5
-		cav_to_inf_ratio = 0.1
 		movement_speed = 0.2
 		years_of_nationalism = -5
 	}
