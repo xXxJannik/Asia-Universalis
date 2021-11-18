@@ -6649,7 +6649,7 @@ bara_katra = {
 		}
 		country_modifiers = {
 			trade_steering = 0.2
-			global_ship_trade_power = 0.3
+			global_ship_trade_power = 0.10
 			merchants = 1
 			burghers_loyalty_modifier = 0.1
 		}
