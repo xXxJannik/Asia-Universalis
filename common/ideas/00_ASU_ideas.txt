@@ -4498,9 +4498,10 @@ generalstab0 = {
 	}
 	generalstab6 = {
 		yearly_army_professionalism = 0.02
+		drill_gain_modifier = 0.5
 	}
 	generalstab7 = {
-		free_leader_pool = 1
+		free_leader_pool = 3
 	}
 	
 	ai_will_do = {
@@ -4659,7 +4660,7 @@ soldnerheer0 = {
 		}
 	
 	soldnerheer1 = {
-		loot_amount = 0.5
+		loot_amount = 1
 	}
 	soldnerheer2 = {
 		mercenary_cost = -0.5
@@ -5435,10 +5436,10 @@ militarismus0 = {
 		
 	
 	militarismus1 = {
-		land_forcelimit_modifier = 0.1
+		land_forcelimit_modifier = 0.2
 	}
 	militarismus2 = {
-		free_leader_pool = 1
+		free_leader_pool = 2
 	}
 	militarismus3 = {
 		land_morale = 0.1
