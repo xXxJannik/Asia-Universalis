@@ -79,6 +79,9 @@ capital = 2108
 	}
 }
 
+1444.10.10 = { add_manpower = 10 }
+1444.10.10 = { add_treasury = 300 }
+
 1444.10.29 = {
 	add_opinion = {
 		who = KOR

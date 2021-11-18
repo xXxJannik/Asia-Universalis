@@ -343,6 +343,8 @@ ASU_korean_reformation = {
 	naval_morale = 0.05
 }
 
+#Manchu 
+
 ASU_manchu_reformation = {
 	global_regiment_cost = -0.25
 }
@@ -381,6 +383,10 @@ ASU_manchu_sons_of_the_steppes = {
 ASU_manchu_economic_reform = {
 	build_cost = -0.1
 	development_cost = -0.05
+}
+
+ASU_manchurian_iron = {
+	trade_goods_size = 5
 }
 
 # Ming
