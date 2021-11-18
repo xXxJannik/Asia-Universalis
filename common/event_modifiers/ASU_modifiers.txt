@@ -350,8 +350,9 @@ ASU_manchu_reformation = {
 }
 
 ASU_manchu_strive_to_survive = {
-	global_tax_income = 24
+	global_tax_income = 48
 	global_regiment_cost = -0.1
+	land_forcelimit = 5
 }
 
 ASU_manchu_panax_ginseng = {
