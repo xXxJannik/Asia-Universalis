@@ -292,7 +292,7 @@ dynasty0 = {
 	category = DIP
 	bonus = {
 		reduced_stab_impacts = yes
-		female_advisor_chance = 0.25
+		monarch_diplomatic_power = 1
 	}
 
 	
