@@ -1715,6 +1715,7 @@ estate_burghers_indebted_to_burghers = {
 	}
 	benefits = {
 	}
+	cooldown_years = 15
 	ai_will_do = {
 		factor = 0
 	}
