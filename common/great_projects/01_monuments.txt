@@ -7989,8 +7989,7 @@ mehrangarh_fort = {
 			local_manpower_modifier = 0.15
 		}
 		country_modifiers = {
-			prestige = 0.5
-			advisor_cost = -0.1
+			prestige = 0.75
 		}
 		on_upgraded = {
 		}
@@ -8011,7 +8010,7 @@ mehrangarh_fort = {
 		}
 		country_modifiers = {
 			prestige = 1
-			advisor_cost = -0.2
+			advisor_cost = -0.05
 			special_unit_forcelimit = 0.1
 		}
 		on_upgraded = {
