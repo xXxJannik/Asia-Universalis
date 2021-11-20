@@ -267,6 +267,7 @@ reform_korea = {
 	modifiers = {
 		fort_maintenance_modifier = -0.2
 		defensiveness = 0.25
+		garrison_size = 0.25
 	}
 	
 	ai = {
