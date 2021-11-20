@@ -4649,7 +4649,7 @@ soldnerheer0 = {
 	category = MIL
 
 	bonus = {
-		merc_maintenance_modifier = -0.25
+		war_exhaustion_cost = -0.25
 	}
 		
 		trigger = {
@@ -4681,7 +4681,7 @@ soldnerheer0 = {
 		land_morale = 0.15
 	}
 	soldnerheer7 = {
-		mercenary_manpower = 2.0
+		mercenary_manpower = 1
 	}
 	
 	ai_will_do = {
