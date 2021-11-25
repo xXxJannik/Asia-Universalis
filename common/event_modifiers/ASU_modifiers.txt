@@ -443,6 +443,10 @@ ASU_australia_harbors_of_paradis = {
 	global_ship_recruit_speed = -0.2
 }
 
+ASU_australia_gold_start = {
+	local_gold_depletion_chance_modifier = -1
+}
+
 # JAPAN
 
 ASU_sengoku_jidai = {

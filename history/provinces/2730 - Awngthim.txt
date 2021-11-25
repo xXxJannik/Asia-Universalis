@@ -13,7 +13,10 @@ base_tax = 4
 base_production = 6
 base_manpower = 4
 
-
+add_province_modifier = {
+    name = ASU_australia_gold_start
+    duration = 10950
+}
 
  # Abel Tasman
 discovered_by = MKS
