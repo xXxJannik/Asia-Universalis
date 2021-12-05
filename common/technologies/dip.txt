@@ -25,6 +25,9 @@ technology = { #Early Ships
 technology = { #Merchants & Trade
 	# Tech 1
 	year = 1390
+	expects_institution = {
+		
+	}
 	
 	merchants = yes
 	trade_range				=	100
@@ -34,7 +37,9 @@ technology = { #Merchants & Trade
 technology = { #The Barque
 	# Tech 2
 	year = 1420
-	
+	expects_institution = {
+		
+	}
 	
 	enable = barque
 	trade_range				=	100
@@ -50,6 +55,9 @@ technology = { #The Barque
 technology = { #The Early Carrack
 	# Tech 3
 	year = 1440
+	expects_institution = {
+		
+	}
 
 	naval_morale			=	0.1
 	naval_maintenance		= 	0.1
@@ -66,6 +74,9 @@ technology = { #The Early Carrack
 technology = { #Marketplace
 	# Tech 4
 	year = 1453
+	expects_institution = {
+		
+	}
 		
 	trade_range	= 10
 	marketplace = yes 
@@ -76,6 +87,9 @@ technology = { #Marketplace
 technology = { #Basic Financial Instruments
 	# Tech 5
 	year = 1466
+	expects_institution = {
+		
+	}
 	
 	naval_maintenance		=	0.1	
 	trade_efficiency 		= 	0.02
@@ -87,6 +101,9 @@ technology = { #Basic Financial Instruments
 technology = { #Shipyards
 	# Tech 6
 	year = 1479
+	expects_institution = {
+		
+	}
 	
 	dock = yes	
 	may_steal_maps = yes
@@ -96,6 +113,9 @@ technology = { #Shipyards
 technology = { #Naval Ambitions
 	# Tech 7
 	year = 1492
+	expects_institution = {
+		
+	}
 	
 	naval_morale			= 0.3
 	range					= 115
@@ -106,6 +126,10 @@ technology = { #Naval Ambitions
 technology  = { #Docks
 	# Tech 8
 	year = 1505
+	expects_institution = {
+		
+	}
+
 	
 	num_accepted_cultures = 1
 	shipyard = yes
@@ -118,6 +142,9 @@ technology  = { #Docks
 technology = { #Carracks & Caravel
 	# Tech 9
 	year = 1518
+	expects_institution = {
+		
+	}
 	
 	naval_maintenance		= 	0.1
 	range					=	50
@@ -131,6 +158,9 @@ technology = { #Carracks & Caravel
 technology = { #The Flute
 	# Tech 10
 	year = 1531
+	expects_institution = {
+		
+	}
 	
 	trade_efficiency		= 	0.02
 	trade_range				=	20
@@ -142,6 +172,9 @@ technology = { #The Flute
 technology = { #Wharf
 	# Tech 11
 	year = 1544
+	expects_institution = {
+		
+	}
 	
 	range					= 	100
 
@@ -152,6 +185,10 @@ technology = { #Wharf
 technology = { #Man of War
 	# Tech 12
 	year = 1557
+	expects_institution = {
+		
+	}
+
 	naval_morale			=	0.4
 	may_slander_merchants = yes
 
@@ -163,6 +200,9 @@ technology = { #Man of War
 technology = { #Chartered Companies
 	# Tech 13
 	year = 1570
+	expects_institution = {
+		
+	}
 	
 	trade_efficiency 		= 	0.02
 	enable = brig
@@ -172,6 +212,9 @@ technology = { #Chartered Companies
 technology = { #The Galleass
 	# Tech 14
 	year = 1583
+	expects_institution = {
+		
+	}
 	
 	tradecompany = yes
 	num_accepted_cultures = 1
@@ -183,6 +226,9 @@ technology = { #The Galleass
 technology = { #The Galleon
 	# Tech 15
 	year = 1596
+	expects_institution = {
+		
+	}
 	
 	naval_maintenance		= 	0.1
 	range					=	50
@@ -197,6 +243,9 @@ technology = { #The Galleon
 technology = { #Development of Maritime Law
 	# Tech 16
 	year = 1609
+	expects_institution = {
+		
+	}
 	
 	trade_efficiency 		= 	0.02
 	trade_range				=	20
@@ -206,6 +255,9 @@ technology = { #Development of Maritime Law
 technology = { #Merchantman
 	# Tech 17
 	year = 1622
+	expects_institution = {
+		
+	}
 	
 	trade_range				=	20
 	range					=	50
@@ -220,6 +272,9 @@ technology = { #Merchantman
 technology = { #Line of Battle
 	# Tech 18
 	year = 1635
+	expects_institution = {
+		
+	}
 	
 	enable = galiot
 	naval_morale			=	0.5
@@ -233,6 +288,9 @@ technology = { #Line of Battle
 technology = { #The War Galleon
 	# Tech 19
 	year = 1648
+	expects_institution = {
+		
+	}
 	
 	naval_maintenance		= 	0.1	
 	range					=	50
@@ -247,6 +305,9 @@ technology = { #The War Galleon
 technology = { #Naval Professionalization
 	# Tech 20
 	year = 1661
+	expects_institution = {
+		
+	}
 
 	trade_efficiency 		= 	0.02
 	trade_range				=	20
@@ -257,7 +318,9 @@ technology = { #Naval Professionalization
 technology = { #The Chebeck
 	# Tech 21
 	year = 1674
-	
+	expects_institution = {
+		
+	}
 
 	enable = chebeck
 	may_sabotage_reputation = yes
@@ -267,6 +330,9 @@ technology = { #The Chebeck
 technology = { #Limes
 	# Tech 22
 	year = 1687
+	expects_institution = {
+		
+	}
 	
 	naval_morale			=	0.5
 	naval_maintenance		= 	0.1
@@ -283,6 +349,9 @@ technology = { #Limes
 technology = { #Heavy Frigates
 	# Tech 23
 	year = 1700
+	expects_institution = {
+		
+	}
 	
 	global_colonial_growth  = 	25	
 	range					=	150
@@ -295,7 +364,9 @@ technology = { #Heavy Frigates
 technology = { #The Archipelago Frigate
 	# Tech 24
 	year = 1715
-	
+	expects_institution = {
+		
+	}
 	
 	grand_shipyard = yes 
 
@@ -311,6 +382,9 @@ technology = { #The Archipelago Frigate
 technology = { #The Threedeckers
 	# Tech 25
 	year = 1730
+	expects_institution = {
+		
+	}
 	
 	naval_morale			=	0.5
 	naval_maintenance		= 	0.1
@@ -321,6 +395,9 @@ technology = { #The Threedeckers
 technology = { #The Eastindiaman
 	# Tech 26
 	year = 1745
+	expects_institution = {
+		
+	}
 	
 	range					=	200
 	global_colonial_growth  = 	25
@@ -333,6 +410,9 @@ technology = { #The Eastindiaman
 technology = { #Public Punishments
 	# Tech 27
 	year = 1760
+	expects_institution = {
+	
+	}
 	
 	naval_morale			=	0.5
 	naval_maintenance		= 	0.1
@@ -343,6 +423,9 @@ technology = { #Public Punishments
 technology = { #Joint Stock Companies
 	# Tech 28
 	year = 1775
+	expects_institution = {
+		
+	}
 	
 	trade_efficiency 		= 	0.02
 	trade_range				=	20
@@ -351,6 +434,9 @@ technology = { #Joint Stock Companies
 technology = { #Midshipmen Cadets
 	# Tech 29
 	year = 1790
+	expects_institution = {
+		
+	}
 	
 	naval_morale			=	0.5
 	naval_maintenance		= 	0.1
@@ -359,6 +445,9 @@ technology = { #Midshipmen Cadets
 technology = { #Insurance Companies
 	# Tech 30
 	year = 1805
+	expects_institution = {
+		
+	}
 	
 	trade_efficiency 		= 	0.02
 	trade_range				=	20
@@ -368,6 +457,9 @@ technology = { #Insurance Companies
 technology = { #Superior Ship Design
 	# Tech 31
 	year = 1820
+	expects_institution = {
+		
+	}
 	
 	naval_morale			=	0.5
 	naval_maintenance		= 	0.1	
@@ -377,6 +469,9 @@ technology = { #Superior Ship Design
 technology = { #The Gold Standard
 	# Tech 32
 	year = 1835
+	expects_institution = {
+		
+	}
 	
 	trade_efficiency 		= 	0.02
 	trade_range				=	20
@@ -386,18 +481,26 @@ technology = { #The Gold Standard
 technology = { #Steamer ships
 	# Tech 33
 	year = 1840
-	
+	expects_institution = {
+		
+	}
 	enable = ASU_steamship
 }
 
 technology = { #Improved Bankingsystem
 	# Tech 34
 	year = 1845
+	expects_institution = {
+		
+	}
 	trade_efficiency 		= 	0.05
 }
 
 technology = { #Liberty and freedom
 	# Tech 35
 	year = 1850
+	expects_institution = {
+		
+	}
 	num_accepted_cultures = 2
 }

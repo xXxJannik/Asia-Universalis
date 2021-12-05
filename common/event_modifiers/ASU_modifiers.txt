@@ -343,13 +343,16 @@ ASU_korean_reformation = {
 	naval_morale = 0.05
 }
 
+#Manchu 
+
 ASU_manchu_reformation = {
 	global_regiment_cost = -0.25
 }
 
 ASU_manchu_strive_to_survive = {
-	global_tax_income = 24
+	global_tax_income = 48
 	global_regiment_cost = -0.1
+	land_forcelimit = 5
 }
 
 ASU_manchu_panax_ginseng = {
@@ -367,7 +370,7 @@ ASU_manchu_a_god_for_everyone = {
 ASU_manchu_the_northlands = {
 	colonists = 1
 	global_colonial_growth = 20
-	auto_explore_adjacent_to_colony = yes
+	#auto_explore_adjacent_to_colony = yes
 }
 
 ASU_manchu_the_dragon_clan = {
@@ -381,6 +384,10 @@ ASU_manchu_sons_of_the_steppes = {
 ASU_manchu_economic_reform = {
 	build_cost = -0.1
 	development_cost = -0.05
+}
+
+ASU_manchurian_iron = {
+	trade_goods_size = 5
 }
 
 # Ming
@@ -434,6 +441,10 @@ ASU_australia_desert_paradis = {
 
 ASU_australia_harbors_of_paradis = {
 	global_ship_recruit_speed = -0.2
+}
+
+ASU_australia_gold_start = {
+	local_gold_depletion_chance_modifier = -1
 }
 
 # JAPAN

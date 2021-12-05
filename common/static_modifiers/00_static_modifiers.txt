@@ -104,7 +104,8 @@ city = {
 	allowed_num_of_buildings = 2
 	local_sailors_modifier = 0.25
 	garrison_growth = 0.05
-	allowed_num_of_manufactories = 1							 
+	allowed_num_of_manufactories = 1			
+	local_development_cost = -0.1				 
 }
 
 port = {
@@ -171,6 +172,7 @@ mild_winter = {
 normal_winter = {
 	local_hostile_attrition = 2
 	supply_limit_modifier = -0.2
+	migration_cost = 0.1				 
 
 	picture = "winter_normal"
 }
@@ -178,6 +180,7 @@ normal_winter = {
 severe_winter = {
 	local_hostile_attrition = 3
 	supply_limit_modifier = -0.3
+	migration_cost = 0.2				 
 
 	picture = "winter_severe"
 }
@@ -248,6 +251,7 @@ development = {
 	local_sailors = 60			# special case, affected by autonomy & set to 0 by code if not port
 	province_trade_power_value = 0.2
 	local_amount_of_banners = 0.066
+	local_amount_of_cawa = 0.125						 
 }
 
 development_scaled = {
@@ -304,6 +308,15 @@ core = {
 
 non_core = {
 	local_missionary_strength = -0.02
+}
+
+colonial_core = {
+	local_tax_modifier = 0.75				#90% more in a core
+	local_manpower_modifier = 0.75			#75% more in a core
+	local_sailors_modifier = 0.75
+	local_missionary_strength = -0.02
+	min_local_autonomy = 50
+	local_governing_cost = -0.75
 }
 
 territory_core = {
@@ -450,7 +463,7 @@ local_autonomy_trade_company = {
 
 recent_uprising = {
 	local_unrest = -100
-	picture = "recent_uprising"						
+	picture = "recent_uprising"
 }
 
 
@@ -522,10 +535,12 @@ base_values = {
 	num_accepted_cultures = 2
 	monthly_splendor = 1
 	artillery_bonus_vs_fort = 5
-	cav_to_inf_ratio = 0.5
+	cav_to_inf_ratio = 1
 	merc_maintenance_modifier = 0.5
-	monthly_heir_claim_increase = 0.417
-		
+	monthly_heir_claim_increase = 0.208
+	tolerance_of_heretics_capacity = 3
+	tolerance_of_heathens_capacity = 3
+
 }
 
 # AI 'cheats' that compensate for flaws in its long-term decision making, removing these may severely cripple the AI
@@ -644,7 +659,6 @@ bankruptcy = {
 	sailors_recovery_speed = -1.0
 	advisor_cost = 0.5
 	monthly_fervor_increase = -1
-	global_colonial_growth = -200
 	global_autonomy = 0.05
 	global_institution_spread = -0.50
 	monthly_militarized_society = -0.5
@@ -652,6 +666,7 @@ bankruptcy = {
 	technology_cost = 0.5
 	idea_cost = 0.5
 	imperial_mandate = -0.1
+	great_project_upgrade_cost = 0.5							 
 }
 
 
@@ -878,7 +893,7 @@ legitimacy = {
 horde_unity = {
 	global_unrest = -4
 	discipline = 0.10
-	nomadic_tribes_loyalty_modifier = 0.05
+	#nomadic_tribes_loyalty_modifier = 0.05	#New Change
 }
 
 
@@ -990,6 +1005,7 @@ luck = {
 	republican_tradition = 0.5
 	legitimacy = 1
 	ae_impact = -0.25
+	governing_capacity_modifier = 0.25							   
 
 }
 
@@ -1683,6 +1699,12 @@ janissary_regiment = {
 	drill_gain_modifier = 1.0
 }
 
+cawa_regiment = {
+	shock_damage_received = -0.15
+	land_attrition = -0.25
+	reinforce_cost_modifier = 0.25
+	reinforce_speed = -0.25
+}
 revolutionary_guard_regiment = {
 	fire_damage_received = -0.1
 	shock_damage_received = -0.1
@@ -1719,7 +1741,7 @@ cossacks_modifier = {
 ########################################
 
 expand_administation_modifier = {
-	governing_capacity = 75
+	governing_capacity = 50
 }
 
 # At 100% over capacity, this modifier will be fully used
@@ -1730,7 +1752,7 @@ over_governing_capacity_modifier = {
 	core_creation = 0.2
 	advisor_cost = 1.0
 	monthly_militarized_society = -1.0
-	
+	tribal_development_growth = -1
 }
 
 

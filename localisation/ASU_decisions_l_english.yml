@@ -19,6 +19,8 @@
  ASU_ORS_form_dzungar_desc:0 "The Khanate of Dzungar is an inner Asian Khanate of Oirat Mongol origin."
  ASU_war_taxes_notification_title:0 "WAR TAXES ARE ON!"
  ASU_war_taxes_notification_desc:0 "You are using War Taxes. You might want to turn them off."
+ ASU_invite_dalai_lama_title:0 "Invite the Dalai Lama"
+ ASU_invite_dalai_lama_desc:0 "We are ready to invite the Dalai Lama."
 
  #Mobilisation
  ASU_early_mob_title:0 "Mobilise our Country!"

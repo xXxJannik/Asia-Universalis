@@ -4,9 +4,9 @@
  chinese_ambush_desc: "The war goal is to win more battles than the enemy."
  
  # War names
-  chinese_ambush_war_name: "$FIRST$ surprise attack on $SECOND_NAME$"
+  chinese_ambush_war_name: "$FIRST$ Surprise Attack on $SECOND_NAME$"
 
  # cb types
-  cb_ambush: "Surprise attack"
+  cb_ambush: "Surprise Attack"
   cb_ambush_desc: "We catched them off guard!"
  # Peace treaties

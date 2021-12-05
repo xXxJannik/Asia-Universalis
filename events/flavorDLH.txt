@@ -215,6 +215,7 @@ country_event = {
 		SRH = { country_event = { id = flavor_dlh.6 } }
 		add_prestige = 10
 	}
+	#Intentionally removed the second option so that Sirhind must declare war
 }
 
 # The Rise of Bahlul Lodi

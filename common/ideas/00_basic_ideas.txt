@@ -151,6 +151,11 @@ religious_ideas = {
 		devotion = 0.5
 		monthly_fervor_increase = 0.25
 		church_power_modifier = 0.1
+		monthly_piety = 0.001
+		yearly_karma_decay = 0.1
+		yearly_doom_reduction = 1
+		yearly_authority = 0.15
+		yearly_patriarch_authority = 0.005
 	}
 	religious_tradition = {
 		prestige = 1
@@ -287,7 +292,7 @@ dynasty0 = {
 	category = DIP
 	bonus = {
 		reduced_stab_impacts = yes
-		female_advisor_chance = 0.25
+		monarch_diplomatic_power = 1
 	}
 
 	
@@ -474,6 +479,7 @@ defensive_ideas = {
 
 	bonus = {
 		hostile_attrition = 1
+		garrison_size = 0.25
 	}
 
 	battlefield_commisions = {
@@ -1128,7 +1134,6 @@ expansion_ideas = {
 	
 	expan6 = {
 		governing_capacity_modifier = 0.2
-		trade_company_governing_cost = -0.2
 	}
 	
 	expan7 = {
@@ -1236,14 +1241,12 @@ administrative_ideas = {
 		governing_capacity_modifier = 0.25
 	}
 
-	organised_mercenary_payment = {
-		mercenary_cost = -0.25
-	}
 	adaptability = {
 		core_creation = -0.25
 	}
 	benefits_for_mercenaries = {
 		merc_maintenance_modifier = -0.25
+		mercenary_cost = -0.25
 	}
 	bookkeeping = {
 		interest = -0.25
@@ -1256,6 +1259,10 @@ administrative_ideas = {
 	}
 	civil_servants = {
 		adm_tech_cost_modifier = -0.1
+	}
+	organised_mercenary_payment = {
+		free_adm_policy = 1
+		free_dip_policy = 1
 	}
 
 	ai_will_do = {
@@ -1304,6 +1311,7 @@ humanist_ideas = {
 
 	tolerance_idea_2 = {
 		religious_unity = 0.25
+		harmonization_speed = 0.25
 	}
 	local_traditions = {
 		global_unrest = -2

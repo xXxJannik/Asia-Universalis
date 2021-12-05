@@ -645,6 +645,7 @@ ASU_manchu_branch_4 = {
 
 		effect = { 
             add_adm_power = 50
+			add_yearly_manpower = 1
 		}
 	}
 
@@ -666,6 +667,7 @@ ASU_manchu_branch_4 = {
 
 		effect = { 
             add_adm_power = 50
+			add_yearly_manpower = 1
 		}
 	}
 
@@ -959,6 +961,7 @@ ASU_manchu_branch_5 = {
 		}
 
 		effect = { 
+			add_adm_power = 50
             add_yearly_manpower = 1
 		}
 	}

@@ -49,7 +49,7 @@ country_event = {
 		
 		remove_government_reform = elective_monarchy
 		#set_legacy_government = administrative_monarchy
-		remove_heir = yes
+		remove_heir = {}
 		add_absolutism = 10
 
 		hidden_effect = {
@@ -102,7 +102,9 @@ country_event = {
 	}
 }
 
-country_event = {
+#Intentionally removed ESR - estate statutory rights
+
+country_event = {		 
 	id = estate_privileges_and_agendas_events.3
 	title = estate_privileges_and_agendas_events.3.name
 	desc = estate_privileges_and_agendas_events.3.desc

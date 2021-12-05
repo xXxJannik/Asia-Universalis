@@ -656,6 +656,7 @@ peasants_republic = {
 		enables_aristocratic_idea_group = no
 	}
 	duration = 4
+}	
 
 
 kongsi_federation = {
@@ -1204,6 +1205,13 @@ cossacks_reform = {
 	government_abilities = {
 		cossacks_mechanic
 	}
+	
+	conditional = {
+		allow = { has_dlc = "Origins" }
+		custom_attributes = {
+			has_itinerant_capital = yes
+		}
+	}
 	valid_for_new_country = yes
 
 	nation_designer_trigger = {
@@ -1221,7 +1229,6 @@ cossacks_reform = {
 
 	modifiers = {
 		cavalry_cost = -0.2
-		cav_to_inf_ratio = 0.1
 		governing_capacity = 50
 		max_absolutism = -40
 	}

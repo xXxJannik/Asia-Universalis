@@ -10,3 +10,11 @@
  ASU_merc_australia:0 "Australian Company"
  ASU_merc_new_zealand:0 "New Zealand Company"
  ASU_merc_palast_guard:0 "Palast Guard"
+ cannon_mercs:0 "Cannon Company"
+
+ ASU_merc_idea_mercs_1:0 "Infantry Mercenary Reserve I"
+ ASU_merc_idea_mercs_2:0 "Infantry Mercenary Reserve II"
+ ASU_merc_idea_mercs_3:0 "Infantry Mercenary Reserve III"
+ ASU_merc_idea_mercs_4:0 "Infantry Mercenary Reserve IV"
+ ASU_merc_idea_mercs_5:0 "Infantry Mercenary Reserve V"
+ ASU_merc_idea_mercs_6:0 "Cavalry Mercenary Reserve I"

@@ -19,8 +19,8 @@ estate_ASU_royalists_have_generals = {
 estate_ASU_royalists_have_admirals = {
     can_select = {
         NOT = { num_of_admirals = 3 }
+        num_of_ports = 30
     }
-    num_of_ports = 30
     selection_weight = {
         factor = 1
     }

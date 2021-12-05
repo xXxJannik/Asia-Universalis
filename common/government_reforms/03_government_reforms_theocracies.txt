@@ -7,6 +7,7 @@ theocracy_mechanic = {
 	different_religion_group_acceptance = -50
 	religion = yes
 	heir = yes
+	can_customise_heir = no
 	basic_reform = yes # = invisible/does not take up a slot
 	valid_for_nation_designer = no
 
@@ -623,6 +624,8 @@ monastic_elections_reform = {
 		allow = { has_dlc = "Res Publica" }
 		heir = no
 		election_on_death = yes
+		duration = 4
+		has_term_election = yes
 		states_general_mechanic = {
 			militarists = {
 				manpower_recovery_speed = 0.2
@@ -910,7 +913,7 @@ all_under_tengri_reform = {
 	}
 	modifiers = {
 		cavalry_power = 0.15
-		cav_to_inf_ratio = 0.25
+		cavalry_cost = -0.2
 	}
 	ai = {
 		factor = 3
