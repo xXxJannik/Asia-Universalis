@@ -548,14 +548,14 @@ ASU_japan_branch_2 = {
 
 		trigger = { 
 			OR = {
-				owns = 2154
-				owns = 5139
-				owns = 2155
-				owns = 5138
-				owns = 5137
-				owns = 5136
-				owns = 738
-				owns = 5135
+				controls = 2154
+				controls = 5139
+				controls = 2155
+				controls = 5138
+				controls = 5137
+				controls = 5136
+				controls = 738
+				controls = 5135
 			}
 		}
 
@@ -635,18 +635,15 @@ ASU_japan_branch_2 = {
 		required_missions = { ASU_japan_mission_35 }
 		position = 19
 		provinces_to_highlight = {
-			
+			area = luzon_area
 		}
 
 		trigger = { 
-			OR = {
-				war_with = PGS
-				war_with = TDO
-				war_with = MNA
-				war_with = MAS
-				war_with = CEB
-				war_with = MGD
-				war_with = BTU
+			or = {
+				controls = 657
+				controls = 658
+				controls = 4348
+				controls = 2698
 			}
 		}
 
