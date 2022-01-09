@@ -278,7 +278,7 @@ ASU_japan_branch_1 = {
 		}
 
 		effect = { 
-			add_years_of_income = 1
+			add_years_of_income = 0.4
 			add_yearly_sailors = 5
 		}
 	}
@@ -304,7 +304,7 @@ ASU_japan_branch_1 = {
 
 		effect = { 
 			northern_kyushu = {
-				 add_base_production = 2
+				 add_base_production = 1
 			}
 		}
 	}
@@ -330,7 +330,7 @@ ASU_japan_branch_1 = {
 
 		effect = { 
 			west_kyushu_area = {
-				 add_base_production = 2
+				 add_base_production = 1
 			}
 		}
 	}
@@ -367,7 +367,7 @@ ASU_japan_branch_2 = {
 
 		effect = { 
 			1030 = {
-				add_base_manpower = 2
+				add_base_manpower = 1
 			}
 		}
 	}
@@ -388,11 +388,11 @@ ASU_japan_branch_2 = {
 
 		effect = { 
 			1030 = {
-				add_base_tax = 2
-				add_base_production = 2
-				add_base_manpower = 2
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
 			}
-			add_years_of_income = 1
+			add_years_of_income = 0.4
 		}
 	}
 
@@ -621,7 +621,7 @@ ASU_japan_branch_2 = {
 		}
 
 		effect = {
-			add_years_of_income = 1 
+			add_years_of_income = 0.4 
 			add_dip_power = 100
 			add_country_modifier = {
 				name = expansion_of_the_shipbuilding_industry 
@@ -676,7 +676,7 @@ ASU_japan_branch_2 = {
 
 		effect = { 
 			central_kyushu_area = {
-				 add_base_production = 2
+				 add_base_production = 1
 			}
 		}
 	}
@@ -702,7 +702,7 @@ ASU_japan_branch_2 = {
 
 		effect = { 
 			kyushu_area = {
-				 add_base_production = 2
+				 add_base_production = 1
 			}
 		}
 	}
@@ -1121,9 +1121,9 @@ ASU_japan_branch_4 = {
 
 		effect = { 
 			5093 = {
-				add_base_production = 2
+				add_base_production = 1
 			}
-			add_years_of_income = 0.5
+			add_years_of_income = 0.3
 		}
 	}
 
@@ -1221,7 +1221,7 @@ ASU_japan_branch_4 = {
 		}
 
 		effect = { 
-			add_years_of_income = 1 
+			add_years_of_income = 0.4 
 			add_mil_power = 100
 			add_yearly_manpower = 2
 			add_country_modifier = {
@@ -1446,9 +1446,9 @@ ASU_japan_branch_5 = {
 
 		effect = { 
 			5103 = {
-				add_base_tax = 2
-				add_base_production = 2
-				add_base_manpower = 2
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
 			}
 		}
 	}
@@ -1544,7 +1544,7 @@ ASU_japan_branch_5 = {
 			add_adm_power = 200
 			add_dip_power = 200
 			add_mil_power = 200
-			add_years_of_income = 2
+			add_years_of_income = 0.6
 			add_yearly_manpower = 2
 			add_yearly_sailors = 4
 		}
@@ -1591,7 +1591,7 @@ ASU_japan_branch_5 = {
 		}
 
 		effect = { 
-			add_years_of_income = 1
+			add_years_of_income = 0.4
 			add_adm_power = 50
 			add_dip_power = 50
 			add_mil_power = 50
@@ -1921,7 +1921,7 @@ ASU_japan_branch_5 = {
 		}
 
 		effect = { 
-			add_years_of_income = 1
+			add_years_of_income = 0.4
 			add_yearly_manpower = 1
 		}
 	}
@@ -1943,9 +1943,9 @@ ASU_japan_branch_5 = {
 
 		effect = { 
 			eastern_chubu_area = {
-				add_base_tax = 2
-				add_base_production = 2
-				add_base_manpower = 2
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
 			}
 		}
 	}
@@ -1971,7 +1971,7 @@ ASU_japan_branch_5 = {
 
 		effect = { 
 			eastern_chubu_area = {
-				add_base_production = 2
+				add_base_production = 1
 			}
 		}
 	}
@@ -1994,7 +1994,7 @@ ASU_japan_branch_5 = {
 
 		effect = { 
 			eastern_chubu_area = {
-				add_base_production = 2
+				add_base_production = 1
 			}
 		}
 	}
@@ -2020,7 +2020,7 @@ ASU_japan_branch_5 = {
 
 		effect = { 
 			eastern_chubu_area = {
-				add_base_manpower = 2
+				add_base_manpower = 1
 			}
 		}
 	}
@@ -2081,7 +2081,7 @@ ASU_japan_branch_6 = {
 
 		effect = { 
 			4360 = {
-				add_base_manpower = 2
+				add_base_manpower = 1
 			}
 		}
 	}
@@ -2255,7 +2255,7 @@ ASU_japan_branch_6 = {
 		}
 
 		effect = { 
-			add_years_of_income = 1
+			add_years_of_income = 0.4
 			add_adm_power = 50
 			add_dip_power = 50
 			add_mil_power = 50
@@ -2278,7 +2278,7 @@ ASU_japan_branch_6 = {
 		}
 
 		effect = { 
-			add_years_of_income = 2
+			add_years_of_income = 0.6
 			add_adm_power = 50
 			add_dip_power = 50
 			add_mil_power = 50
@@ -2307,7 +2307,7 @@ ASU_japan_branch_6 = {
 
 		effect = { 
 			saigoku_area = {
-				add_base_manpower = 2
+				add_base_manpower = 1
 			}
 		}
 	}
@@ -2334,7 +2334,7 @@ ASU_japan_branch_6 = {
 
 		effect = { 
 			sanindo_area = {
-				add_base_manpower = 2
+				add_base_manpower = 1
 			}
 		}
 	}
@@ -2361,7 +2361,7 @@ ASU_japan_branch_6 = {
 
 		effect = { 
 			tottori_area = {
-				add_base_manpower = 2
+				add_base_manpower = 1
 			}
 		}
 	}
@@ -2382,7 +2382,7 @@ ASU_japan_branch_6 = {
 		}
 
 		effect = {
-			add_years_of_income = 1
+			add_years_of_income = 0.4
 			add_dip_power = 200 
 		}
 	}
@@ -2631,7 +2631,7 @@ ASU_japan_branch_7 = {
 		}
 
 		effect = { 
-			add_years_of_income = 1
+			add_years_of_income = 0.4
 			add_yearly_sailors = 5
 		}
 	}
@@ -2699,7 +2699,7 @@ ASU_japan_branch_7 = {
 		}
 
 		effect = { 
-			add_years_of_income = 2
+			add_years_of_income = 0.6
 			add_adm_power = 100
 			add_dip_power = 100
 			add_mil_power = 100
@@ -2751,7 +2751,7 @@ ASU_japan_branch_7 = {
 
 		effect = { 
 			kyoto_area = {
-				add_base_production = 2
+				add_base_production = 1
 			}
 		}
 	}
@@ -2774,7 +2774,7 @@ ASU_japan_branch_7 = {
 
 		effect = { 
 			kyoto_area = {
-				add_base_production = 2
+				add_base_production = 1
 			}
 		}
 	}
@@ -2800,7 +2800,7 @@ ASU_japan_branch_7 = {
 
 		effect = { 
 			kyoto_area = {
-				add_base_manpower = 2
+				add_base_manpower = 1
 			}
 		}
 	}
@@ -2911,7 +2911,7 @@ ASU_japan_branch_8 = {
 
 		effect = { 
 			1030 = {
-				add_base_manpower = 2
+				add_base_manpower = 1
 			}
 		}
 	}
@@ -2932,7 +2932,7 @@ ASU_japan_branch_8 = {
 
 		effect = { 
 			1030 = {
-				add_base_production = 2
+				add_base_production = 1
 			}
 		}
 	}
@@ -2974,7 +2974,7 @@ ASU_japan_branch_8 = {
 
 		effect = { 
 			5088 = {
-				add_base_production = 2
+				add_base_production = 1
 			}
 		}
 	}
@@ -3000,10 +3000,10 @@ ASU_japan_branch_8 = {
 		effect = { 
 			add_dip_power = 100
 			5088 = {
-				add_base_manpower = 2
-				add_base_production = 2
+				add_base_manpower = 1
+				add_base_production = 1
 			}
-			add_years_of_income = 0.5
+			add_years_of_income = 0.4
 		}
 	}
 
@@ -3023,9 +3023,9 @@ ASU_japan_branch_8 = {
 
 		effect = { 
 			1020 = {
-				add_base_tax = 2
-				add_base_production = 2
-				add_base_manpower = 2
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
 			}
 		}
 	}
@@ -3114,7 +3114,7 @@ ASU_japan_branch_8 = {
 
 		effect = { 
 			tokyo_area = {
-				add_base_production = 2
+				add_base_production = 1
 			}
 		}
 	}
@@ -3137,7 +3137,7 @@ ASU_japan_branch_8 = {
 
 		effect = {
 			tokyo_area = {
-				add_base_production = 2
+				add_base_production = 1
 			} 
 		}
 	}
@@ -3163,7 +3163,7 @@ ASU_japan_branch_8 = {
 
 		effect = { 
 			tokyo_area = {
-				add_base_manpower = 2
+				add_base_manpower = 1
 			}
 		}
 	}
@@ -3399,7 +3399,7 @@ ASU_japan_branch_9 = {
 
 		effect = { 
 			5088 = {
-				add_base_manpower = 2
+				add_base_manpower = 1
 			}
 		}
 	}
@@ -3504,7 +3504,7 @@ ASU_japan_branch_9 = {
 			add_adm_power = 100
 			add_dip_power = 100
 			add_mil_power = 100
-			add_years_of_income = 1
+			add_years_of_income = 0.6
 			add_prestige = 20
 		}
 	}
@@ -3529,7 +3529,7 @@ ASU_japan_branch_9 = {
 			add_adm_power = 200
 			add_dip_power = 200
 			add_mil_power = 200
-			add_years_of_income = 1
+			add_years_of_income = 0.4
 			add_prestige = 40
 		}
 	}
@@ -3555,7 +3555,7 @@ ASU_japan_branch_9 = {
 
 		effect = { 
 			shikoku_area = {
-				add_base_manpower = 2
+				add_base_manpower = 1
 			}
 		}
 	}
@@ -3581,7 +3581,7 @@ ASU_japan_branch_9 = {
 
 		effect = { 
 			east_shikoku_area = {
-				add_base_manpower = 2
+				add_base_manpower = 1
 			}
 		}
 	}
@@ -3608,7 +3608,7 @@ ASU_japan_branch_9 = {
 
 		effect = { 
 			fukushima_area = {
-				add_base_manpower = 2
+				add_base_manpower = 1
 			}
 		}
 	}
@@ -3635,7 +3635,7 @@ ASU_japan_branch_9 = {
 
 		effect = { 
 			eastern_kanto_area = {
-				add_base_manpower = 2
+				add_base_manpower = 1
 			}
 		}
 	}
@@ -3722,7 +3722,7 @@ ASU_japan_branch_10 = {
 		effect = { 
 			add_stability = 6
 			add_yearly_manpower = 4
-			add_years_of_income = 1
+			add_years_of_income = 0.4
 		}
 	}
 	
@@ -3850,9 +3850,9 @@ ASU_japan_branch_10 = {
 
 		effect = { 
 			5088 = {
-				add_base_tax = 2
-				add_base_production = 2
-				add_base_manpower = 2
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
 			}
 		}
 	}
@@ -3876,7 +3876,7 @@ ASU_japan_branch_10 = {
 
 		effect = { 
 			5088 = {
-				add_base_production = 2
+				add_base_production = 1
 			}
 		}
 	}
@@ -3897,7 +3897,7 @@ ASU_japan_branch_10 = {
 
 		effect = { 
 			5088 = {
-				add_base_manpower = 2
+				add_base_manpower = 1
 			}
 		}
 	}
@@ -3917,7 +3917,7 @@ ASU_japan_branch_10 = {
 		}
 
 		effect = { 
-			add_years_of_income = 0.5
+			add_years_of_income = 0.4
 		}
 	}
 
@@ -3956,7 +3956,7 @@ ASU_japan_branch_10 = {
 		}
 
 		effect = { 
-			add_years_of_income = 1
+			add_years_of_income = 0.4
 			add_adm_power = 100
 			add_dip_power = 100
 			add_mil_power = 100
@@ -3976,7 +3976,7 @@ ASU_japan_branch_10 = {
 		}
 
 		effect = { 
-			add_years_of_income = 3
+			add_years_of_income = 1
 			add_adm_power = 200
 			add_dip_power = 200
 			add_mil_power = 200
@@ -3996,7 +3996,7 @@ ASU_japan_branch_10 = {
 		}
 
 		effect = { 
-			add_years_of_income = 4
+			add_years_of_income = 1.2
 			add_adm_power = 300
 			add_dip_power = 300
 			add_mil_power = 300
@@ -4025,7 +4025,7 @@ ASU_japan_branch_10 = {
 
 		effect = { 
 			northern_kyushu = {
-				add_base_manpower = 2
+				add_base_manpower = 1
 			}
 		}
 	}
@@ -4052,7 +4052,7 @@ ASU_japan_branch_10 = {
 
 		effect = { 
 			west_kyushu_area = {
-				add_base_manpower = 2
+				add_base_manpower = 1
 			}
 		}
 	}
@@ -4079,7 +4079,7 @@ ASU_japan_branch_10 = {
 
 		effect = { 
 			central_kyushu_area = {
-				add_base_manpower = 2
+				add_base_manpower = 1
 			}
 		}
 	}
@@ -4106,7 +4106,7 @@ ASU_japan_branch_10 = {
 
 		effect = { 
 			kyushu_area = {
-				add_base_manpower = 2
+				add_base_manpower = 1
 			}
 		}
 	}
