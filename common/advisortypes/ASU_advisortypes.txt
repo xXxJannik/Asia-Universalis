@@ -60,7 +60,7 @@ reformist = {
 	skill_scaled_modifier = { meritocracy = 0.25 }
 
 	chance = {
-		factor = 0 #Doesnt work in 1.31.6
+		factor = 1
 	}
 	
 	ai_will_do = {
