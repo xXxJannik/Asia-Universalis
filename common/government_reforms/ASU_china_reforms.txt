@@ -31,7 +31,6 @@ h_reform_warlord_1 = {
 		amount_of_banners = -1
 		land_forcelimit = 3
 		land_maintenance_modifier = -0.2
-		ae_impact = 0.2
 	}
 	
 	ai = {
@@ -83,7 +82,6 @@ h_reform_warlord_2 = {
 		amount_of_banners = -0.75
 		land_forcelimit = 5
 		land_maintenance_modifier = -0.1
-		ae_impact = 0.2
 	}
 	
 	ai = {
@@ -134,7 +132,6 @@ h_reform_warlord_3 = {
 	modifiers = {
 		amount_of_banners = -0.5
 		land_forcelimit = 10
-		ae_impact = 0.2
 	}
 	
 	ai = {
