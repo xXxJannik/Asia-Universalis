@@ -233,7 +233,7 @@ KOR_ideas = {
 	}
 	geobukseon = {
 		ship_durability = 0.1
-		naval_forcelimit_modifier = 0.5
+		naval_forcelimit_modifier = 0.25
 	}
 	hopae_system = {
 		global_manpower_modifier = 0.25
