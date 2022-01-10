@@ -364,7 +364,7 @@ ASU_korea_branch_2 = {
 		}
 
 		effect = { 
-            add_years_of_income = 5
+            add_years_of_income = 1
 		}
 	}
 
@@ -726,7 +726,7 @@ ASU_korea_branch_4 = {
 		}
 
 		effect = { 
-            add_years_of_income = 2.5
+            add_years_of_income = 1
 		}
 	}
 

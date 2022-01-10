@@ -748,7 +748,7 @@ ASU_tibet_branch_8 = {
         }
 
         effect = {
-            add_years_of_income = 2.5
+            add_years_of_income = 1
         }
     }
     ASU_tibet_mission_19 = {
@@ -837,7 +837,7 @@ ASU_tibet_branch_9 = {
         }
 
         effect = {
-            add_years_of_income = 2.5
+            add_years_of_income = 1
         }
     }
     ASU_tibet_mission_22 = {

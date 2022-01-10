@@ -306,7 +306,7 @@ ASU_australia_branch_4 = {
 		}
 
 		effect = { 
-			add_years_of_income = 0.5
+			add_years_of_income = 0.25
 		}
     }
     ASU_australia_mission_13 = {
@@ -326,7 +326,7 @@ ASU_australia_branch_4 = {
 		}
 
 		effect = { 
-			add_years_of_income = 1
+			add_years_of_income = 0.5
 		}
     }
 } #Ende Branch 4
@@ -510,7 +510,7 @@ ASU_australia_branch_5 = {
 		}
 
 		effect = { 
-			add_years_of_income = 2
+			add_years_of_income = 0.5
             add_mil_power = 100
 		}
     }
@@ -817,7 +817,7 @@ ASU_australia_branch_9 = {
 		}
 
 		effect = { 
-			add_years_of_income = 0.5
+			add_years_of_income = 0.1
 		}
     }
     ASU_australia_mission_32 = {
@@ -838,7 +838,7 @@ ASU_australia_branch_9 = {
 		}
 
 		effect = { 
-			add_years_of_income = 0.5
+			add_years_of_income = 0.3
 		}
     }
     ASU_australia_mission_33 = {
