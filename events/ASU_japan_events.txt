@@ -10,6 +10,8 @@ country_event = {
     major = yes  #Notification for everyone
     trigger = {
 		tag = JAP
+		ADM = 5
+		DIP = 5
         MIL = 6
         NOT = {
             has_ruler_modifier = ASU_japan_a_new_emperor
@@ -21,7 +23,6 @@ country_event = {
 			name = "ASU_japan_a_new_emperor"
 			duration = -1
 		}
-        add_prestige = 50
         ai_chance = {            # the AI does not take the event without
 			factor = 100
 		}

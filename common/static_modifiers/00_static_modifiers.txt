@@ -970,10 +970,8 @@ recovery_motivation = {
 }
 
 militarized_society = {
-	global_manpower_modifier = 0.25
-	manpower_recovery_speed = 0.20
-	land_forcelimit_modifier = 0.5
-	land_maintenance_modifier = -0.20
+	global_regiment_recruit_speed = -0.25
+	land_maintenance_modifier = -0.1
 }
 
 

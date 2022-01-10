@@ -58,7 +58,7 @@ wooden_wall =
 	}
 
 	country_modifier = {
-		galley_power = 0.1
+		galley_power = 0.05
 		own_coast_naval_combat_bonus = 1.0
 	}
 

@@ -296,7 +296,7 @@ reform_japan = {
 	maintain_dynasty = yes
 	fixed_rank = 3
 	modifiers = {
-		infantry_power = 0.2
+		infantry_power = 0.1
 	}
 	
 	ai = {

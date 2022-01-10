@@ -24,7 +24,7 @@ ASU_japan_branch_1 = {
 		effect = { 
 			add_country_modifier = {
 				name = ASU_bushido_code
-				duration = 18250
+				duration = 9125
 			}
 		}
 	}
@@ -42,7 +42,7 @@ ASU_japan_branch_1 = {
 		}
 
 		effect = { 
-			add_adm_power = 100
+			add_mil_power = 25
 		}
 	}
 
@@ -55,11 +55,11 @@ ASU_japan_branch_1 = {
 		}
 
 		trigger = { 
-			treasury = 200
+			treasury = 300
 		}
 
 		effect = { 
-			add_treasury = -200
+			add_treasury = -300
 			1235 = {
 				add_siberian_construction = 200
 			}
@@ -75,11 +75,11 @@ ASU_japan_branch_1 = {
 		}
 
 		trigger = { 
-			treasury = 200
+			treasury = 300
 		}
 
 		effect = { 
-			add_treasury = -200
+			add_treasury = -300
 			1994 = {
 				add_siberian_construction = 200
 			}
@@ -124,7 +124,7 @@ ASU_japan_branch_1 = {
 		}
 
 		effect = { 
-			add_mil_power = 100
+			add_treasury = 300
 		}
 	}
 
@@ -173,7 +173,7 @@ ASU_japan_branch_1 = {
 		}
 
 		effect = { 
-			add_mil_power = 150
+			add_mil_power = 50
 		}
 	}
 
@@ -278,8 +278,8 @@ ASU_japan_branch_1 = {
 		}
 
 		effect = { 
-			add_years_of_income = 0.4
-			add_yearly_sailors = 5
+			add_treasury = 500
+			add_yearly_sailors = 1
 		}
 	}
 
@@ -387,12 +387,7 @@ ASU_japan_branch_2 = {
 		}
 
 		effect = { 
-			1030 = {
-				add_base_tax = 1
-				add_base_production = 1
-				add_base_manpower = 1
-			}
-			add_years_of_income = 0.4
+			add_treasury = 500
 		}
 	}
 
@@ -581,7 +576,7 @@ ASU_japan_branch_2 = {
 		}
 
 		effect = { 
-			add_mil_power = 100
+			add_mil_power = 50
 		}
 	}
 
@@ -598,7 +593,7 @@ ASU_japan_branch_2 = {
 		}
 
 		effect = { 
-			add_dip_power = 150
+			add_dip_power = 50
 		}
 	}
 
@@ -621,8 +616,6 @@ ASU_japan_branch_2 = {
 		}
 
 		effect = {
-			add_years_of_income = 0.4 
-			add_dip_power = 100
 			add_country_modifier = {
 				name = expansion_of_the_shipbuilding_industry 
 				duration = 3650
@@ -649,9 +642,7 @@ ASU_japan_branch_2 = {
 
 		effect = { 
 			add_yearly_manpower = 0.5
-			add_yearly_sailors = 1
-			add_mil_power = 100
-			add_dip_power = 100
+			add_yearly_sailors = 0.5
 		}
 	}
 
@@ -969,9 +960,9 @@ ASU_japan_branch_3 = {
 		}
 
 		effect = { 
-			add_adm_power = 150
-			add_dip_power = 150
-			add_mil_power = 150
+			add_adm_power = 50
+			add_dip_power = 50
+			add_mil_power = 50
 		}
 	}
 
@@ -1120,10 +1111,12 @@ ASU_japan_branch_4 = {
 		}
 
 		effect = { 
-			5093 = {
-				add_base_production = 1
+			add_years_of_owned_provinces_production_income = {
+				years = 2.5
+				trigger = {
+					trade_goods = gold
+				}
 			}
-			add_years_of_income = 0.3
 		}
 	}
 
@@ -1198,7 +1191,7 @@ ASU_japan_branch_4 = {
 		}
 
 		effect = { 
-			add_mil_power = 150
+			add_mil_power = 50
 		}
 	}
 
@@ -1221,9 +1214,7 @@ ASU_japan_branch_4 = {
 		}
 
 		effect = { 
-			add_years_of_income = 0.4 
-			add_mil_power = 100
-			add_yearly_manpower = 2
+			add_yearly_manpower = 1
 			add_country_modifier = {
 				name = the_great_army_reorganization 
 				duration = 3650
@@ -1246,8 +1237,6 @@ ASU_japan_branch_4 = {
 		effect = { 
 			add_yearly_manpower = 0.5
 			add_yearly_sailors = 1
-			add_mil_power = 100
-			add_dip_power = 100
 		}
 	}
 
@@ -1445,11 +1434,7 @@ ASU_japan_branch_5 = {
 		}
 
 		effect = { 
-			5103 = {
-				add_base_tax = 1
-				add_base_production = 1
-				add_base_manpower = 1
-			}
+			add_treasury = 250
 		}
 	}
 
@@ -1467,11 +1452,11 @@ ASU_japan_branch_5 = {
 		trigger = { 
 			tag = JAP
 			owns = 1852
-			treasury = 400
+			treasury = 600
 		}
 
 		effect = { 
-			add_treasury = -400
+			add_treasury = -600
 			5131 = {
 				add_siberian_construction = 200
 			}
@@ -1494,11 +1479,11 @@ ASU_japan_branch_5 = {
 		}
 
 		trigger = { 
-			treasury = 400
+			treasury = 600
 		}
 
 		effect = { 
-			add_treasury = -400
+			add_treasury = -600
 			5133 = {
 				add_siberian_construction = 200
 			}
@@ -1517,11 +1502,11 @@ ASU_japan_branch_5 = {
 		}
 
 		trigger = { 
-			treasury = 200
+			treasury = 300
 		}
 
 		effect = { 
-			add_treasury = -200
+			add_treasury = -300
 			1032 = {
 				add_siberian_construction = 200
 			}
@@ -1541,12 +1526,10 @@ ASU_japan_branch_5 = {
 		}
 
 		effect = { 
-			add_adm_power = 200
-			add_dip_power = 200
-			add_mil_power = 200
-			add_years_of_income = 0.6
-			add_yearly_manpower = 2
-			add_yearly_sailors = 4
+			add_adm_power = 100
+			add_dip_power = 100
+			add_mil_power = 100
+			add_treasury = 1000
 		}
 	}
 
@@ -1591,10 +1574,7 @@ ASU_japan_branch_5 = {
 		}
 
 		effect = { 
-			add_years_of_income = 0.4
-			add_adm_power = 50
-			add_dip_power = 50
-			add_mil_power = 50
+			add_years_of_income = 0.33
 		}
 	}
 
@@ -1921,7 +1901,6 @@ ASU_japan_branch_5 = {
 		}
 
 		effect = { 
-			add_years_of_income = 0.4
 			add_yearly_manpower = 1
 		}
 	}
@@ -1942,11 +1921,7 @@ ASU_japan_branch_5 = {
 		}
 
 		effect = { 
-			eastern_chubu_area = {
-				add_base_tax = 1
-				add_base_production = 1
-				add_base_manpower = 1
-			}
+			add_treasury = 500
 		}
 	}
 
@@ -2228,8 +2203,8 @@ ASU_japan_branch_6 = {
 		}
 
 		effect = { 
-			add_prestige = 100
-			add_legitimacy = 100
+			add_prestige = 50
+			add_legitimacy = 50
 			
 		}
 	}
@@ -2255,10 +2230,7 @@ ASU_japan_branch_6 = {
 		}
 
 		effect = { 
-			add_years_of_income = 0.4
-			add_adm_power = 50
-			add_dip_power = 50
-			add_mil_power = 50
+			add_years_of_income = 0.2
 		}
 	}
 
@@ -2278,10 +2250,7 @@ ASU_japan_branch_6 = {
 		}
 
 		effect = { 
-			add_years_of_income = 0.6
-			add_adm_power = 50
-			add_dip_power = 50
-			add_mil_power = 50
+			add_years_of_income = 0.5
 		}
 	}
 
@@ -2382,8 +2351,7 @@ ASU_japan_branch_6 = {
 		}
 
 		effect = {
-			add_years_of_income = 0.4
-			add_dip_power = 200 
+			add_treasury = 2000
 		}
 	}
 
@@ -2400,7 +2368,6 @@ ASU_japan_branch_6 = {
 		}
 
 		effect = { 
-			add_dip_power = 200 
 			add_country_modifier = {
 				name = more_merchants
 				duration = -1
@@ -2495,7 +2462,7 @@ ASU_japan_branch_7 = {
 		}
 	
 		trigger = {
-			 share_of_starting_income = 2.0
+			share_of_starting_income = 2.0
 		}
 		effect = {
 			add_country_modifier = {
@@ -2631,8 +2598,7 @@ ASU_japan_branch_7 = {
 		}
 
 		effect = { 
-			add_years_of_income = 0.4
-			add_yearly_sailors = 5
+			add_yearly_sailors = 1
 		}
 	}
 
@@ -2699,10 +2665,7 @@ ASU_japan_branch_7 = {
 		}
 
 		effect = { 
-			add_years_of_income = 0.6
-			add_adm_power = 100
-			add_dip_power = 100
-			add_mil_power = 100
+			add_treasury = 2500
 		}
 	}
 
@@ -2722,11 +2685,7 @@ ASU_japan_branch_7 = {
 		}
 
 		effect = { 
-			kyoto_area = {
-				add_base_tax = 1
-				add_base_production = 1
-				add_base_manpower = 1
-			}
+			add_treasury = 500
 		}
 	}
 
@@ -2911,7 +2870,7 @@ ASU_japan_branch_8 = {
 
 		effect = { 
 			1030 = {
-				add_base_manpower = 1
+				add_base_production = 1
 			}
 		}
 	}
@@ -2931,9 +2890,7 @@ ASU_japan_branch_8 = {
 		}
 
 		effect = { 
-			1030 = {
-				add_base_production = 1
-			}
+			add_treasury = 200
 		}
 	}
 
@@ -2998,12 +2955,8 @@ ASU_japan_branch_8 = {
 		}
 
 		effect = { 
-			add_dip_power = 100
-			5088 = {
-				add_base_manpower = 1
-				add_base_production = 1
-			}
-			add_years_of_income = 0.4
+			add_dip_power = 50
+			add_yearly_sailors = 0.5
 		}
 	}
 
@@ -3022,11 +2975,8 @@ ASU_japan_branch_8 = {
 		}
 
 		effect = { 
-			1020 = {
-				add_base_tax = 1
-				add_base_production = 1
-				add_base_manpower = 1
-			}
+			add_prestige = 25
+			add_treasury = 250
 		}
 	}
 
@@ -3059,6 +3009,7 @@ ASU_japan_branch_8 = {
 
 		trigger = { 
 			treasury = 10000
+			num_of_loans = 0
 		}
 
 		effect = { 
@@ -3085,11 +3036,7 @@ ASU_japan_branch_8 = {
 		}
 
 		effect = { 
-			tokyo_area = {
-				add_base_tax = 1
-				add_base_production = 1
-				add_base_manpower = 1
-			}
+			add_treasury = 500
 		}
 	}
 
@@ -3307,13 +3254,11 @@ ASU_japan_branch_9 = {
 
 		trigger = { 
 			has_country_modifier = "ASU_bushido_code"
+			army_size_percentage = 1
 		}
 
 		effect = { 
-			add_adm_power = 50
-			add_dip_power = 50
-			add_mil_power = 50
-			add_prestige = 20
+			add_prestige = 50
 		}
 	}
 	
@@ -3332,7 +3277,7 @@ ASU_japan_branch_9 = {
 		effect = { 
 			add_country_modifier = {
 				name = ASU_way_of_the_samurai
-				duration = 109500
+				duration = 36500
 			}
 		}
 	}
@@ -3354,7 +3299,6 @@ ASU_japan_branch_9 = {
 				name = "expansionist_country"
 				duration = 18250 
 			}
-			add_adm_power = 50
 		}
 	}
 
@@ -3446,12 +3390,7 @@ ASU_japan_branch_9 = {
 		}
 
 		effect = { 
-			add_adm_power = 50
-			1020 = {
-				add_base_tax = 1
-				add_base_production = 1
-				add_base_manpower = 1
-			}
+			add_mil_power = 50
 		}
 	}
 
@@ -3501,11 +3440,7 @@ ASU_japan_branch_9 = {
 		}
 
 		effect = { 
-			add_adm_power = 100
-			add_dip_power = 100
-			add_mil_power = 100
-			add_years_of_income = 0.6
-			add_prestige = 20
+			add_treasury = 500
 		}
 	}
 
@@ -3526,11 +3461,10 @@ ASU_japan_branch_9 = {
 		}
 
 		effect = { 
-			add_adm_power = 200
-			add_dip_power = 200
-			add_mil_power = 200
-			add_years_of_income = 0.4
-			add_prestige = 40
+			add_adm_power = 50
+			add_dip_power = 50
+			add_mil_power = 50
+			add_prestige = 50
 		}
 	}
 
@@ -3720,9 +3654,8 @@ ASU_japan_branch_10 = {
 		}
 
 		effect = { 
-			add_stability = 6
-			add_yearly_manpower = 4
-			add_years_of_income = 0.4
+			add_stability = 3
+			add_treasury = 250
 		}
 	}
 	
@@ -3742,8 +3675,7 @@ ASU_japan_branch_10 = {
 			1020 = {
 				add_core = ROOT
 			}
-			add_army_tradition = 20
-			add_prestige = 20
+			add_prestige = 25
 		}
 	}
 
@@ -3849,11 +3781,7 @@ ASU_japan_branch_10 = {
 		}
 
 		effect = { 
-			5088 = {
-				add_base_tax = 1
-				add_base_production = 1
-				add_base_manpower = 1
-			}
+			add_treasury = 250
 		}
 	}
 	
@@ -3897,7 +3825,7 @@ ASU_japan_branch_10 = {
 
 		effect = { 
 			5088 = {
-				add_base_manpower = 1
+				add_base_production = 1
 			}
 		}
 	}
@@ -3917,7 +3845,7 @@ ASU_japan_branch_10 = {
 		}
 
 		effect = { 
-			add_years_of_income = 0.4
+			add_dip_power = 50
 		}
 	}
 
@@ -3956,10 +3884,9 @@ ASU_japan_branch_10 = {
 		}
 
 		effect = { 
-			add_years_of_income = 0.4
-			add_adm_power = 100
-			add_dip_power = 100
-			add_mil_power = 100
+			add_adm_power = 50
+			add_dip_power = 50
+			add_mil_power = 50
 		}
 	}
 
@@ -3976,10 +3903,7 @@ ASU_japan_branch_10 = {
 		}
 
 		effect = { 
-			add_years_of_income = 1
-			add_adm_power = 200
-			add_dip_power = 200
-			add_mil_power = 200
+			add_treasury = 3000
 		}
 	}
 
@@ -3996,10 +3920,7 @@ ASU_japan_branch_10 = {
 		}
 
 		effect = { 
-			add_years_of_income = 1.2
-			add_adm_power = 300
-			add_dip_power = 300
-			add_mil_power = 300
+			add_treasury = 5000
 		}
 	}
 

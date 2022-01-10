@@ -255,7 +255,7 @@ JAP_ideas = {
 	}
 	
 	bonus = {
-		artillery_power = 0.2
+		artillery_power = 0.1
 	}
 	
 	trigger = {
