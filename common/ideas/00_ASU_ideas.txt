@@ -746,6 +746,12 @@ confuci0 = {
 			factor = 10
 			is_emperor = yes 
 		}
+		modifier = { #ASU 
+		factor = 400
+			overlord = {
+				has_idea_group = influence_ideas
+			}
+		}
 		
 	}
 }
@@ -3951,6 +3957,12 @@ assimilation0 = {
 			factor = 2
 			government_rank = 2  # Kingdom
 		}
+		modifier = { #ASU 
+		factor = 400
+			overlord = {
+				has_idea_group = influence_ideas
+			}
+		}
 		
 	}
 }
@@ -4457,6 +4469,12 @@ imperialismus0 = {
 			factor = 4.5
 			any_neighbor_country = {
 				is_rival = yes
+			}
+		}
+		modifier = { #ASU 
+		factor = 500
+			overlord = {
+				has_idea_group = influence_ideas
 			}
 		}
 	}
@@ -4998,6 +5016,12 @@ festung0 = {
 			factor = 2
 			government_rank = 2  # Kingdom
 		}
+		modifier = { #ASU 
+		factor = 400
+			overlord = {
+				has_idea_group = influence_ideas
+			}
+		}
 	}
 }
 
@@ -5253,6 +5277,12 @@ zentra0 = {
 			factor = 2
 			government = republic
 		}
+		modifier = { #ASU 
+		factor = 300
+			overlord = {
+				has_idea_group = influence_ideas
+			}
+		}
 	}
 }
 
@@ -5501,6 +5531,12 @@ militarismus0 = {
 		modifier = {
 			factor = 2
 			government_rank = 2  # Kingdom
+		}
+		modifier = { #ASU 
+		factor = 500
+			overlord = {
+				has_idea_group = influence_ideas
+			}
 		}
 	}
 }

@@ -548,6 +548,12 @@ defensive_ideas = {
 			factor = 2
 			government_rank = 2  # Kingdom
 		}
+		modifier = { #ASU 
+		factor = 300
+			overlord = {
+				has_idea_group = influence_ideas
+			}
+		}
 	}
 }
 
@@ -604,6 +610,12 @@ trade_ideas = {
 		modifier = {
 			factor = 6
 			trade_income_percentage = 0.33
+		}
+		modifier = { #ASU 
+		factor = 300
+			overlord = {
+				has_idea_group = influence_ideas
+			}
 		}
 
 
@@ -1384,6 +1396,12 @@ humanist_ideas = {
 		modifier = {
 			factor = 2.0
 			has_idea_group = administrative_ideas
+		}
+		modifier = { #ASU 
+		factor = 500
+			overlord = {
+				has_idea_group = influence_ideas
+			}
 		}
 		
 	}
