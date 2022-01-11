@@ -5,7 +5,8 @@ fleet_in_being =
 	}
 	
 	country_modifier = {
-		naval_maintenance_modifier = -0.15
+		heavy_ship_power = 0.15
+		naval_maintenance_modifier = -0.1
 	}
 	
 	button_gfx = 1
