@@ -173,6 +173,10 @@ temple = {
 			base_tax = 4
 			is_state = yes
 		}
+		modifier = {
+			factor = 0
+			NOT = { base_tax = 4 }
+		}
 	}
 }
 
