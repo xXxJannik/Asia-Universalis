@@ -98,7 +98,7 @@ WUU_ideas = {
 		merc_maintenance_modifier = -0.2
 	}
 	ASU_WUU_NI2 = {     
-		mercenary_discipline = 0.05
+		mercenary_discipline = 0.10
 		mercenary_cost = -0.2
 	}
 	ASU_WUU_NI3 = {

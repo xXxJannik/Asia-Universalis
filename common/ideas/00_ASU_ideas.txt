@@ -3325,7 +3325,7 @@ diktatur0 = {
 	category = ADM
 
 	bonus = {
-		mercenary_discipline = 0.025
+		mercenary_discipline = 0.05
 	}
 	
 	trigger = {
@@ -4679,6 +4679,7 @@ soldnerheer0 = {
 	
 	soldnerheer1 = {
 		loot_amount = 1
+		mercenary_discipline = 0.1
 	}
 	soldnerheer2 = {
 		mercenary_cost = -0.5
