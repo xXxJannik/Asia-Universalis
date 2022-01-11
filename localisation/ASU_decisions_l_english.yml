@@ -21,6 +21,8 @@
  ASU_war_taxes_notification_desc:0 "You are using War Taxes. You might want to turn them off."
  ASU_invite_dalai_lama_title:0 "Invite the Dalai Lama"
  ASU_invite_dalai_lama_desc:0 "We are ready to invite the Dalai Lama."
+ ASU_ming_dev_from_buildings_failsafe_title:0 "Reform the Kingdom"
+ ASU_ming_dev_from_buildings_failsafe_desc:0 "The various Pretender Kingdoms have had a successful reform of their Administration. We should follow their lead and introduce similar reforms."
 
  #Mobilisation
  ASU_early_mob_title:0 "Mobilise our Country!"
