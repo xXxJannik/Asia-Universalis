@@ -1,9 +1,16 @@
 #ASU changes
-#Korean subject
+#Korean subjects
 
 vassal = {
 	first = KOR
 	second = WEI
+	start_date = 1444.1.1
+	end_date = 1821.1.1
+}
+
+vassal = {
+	first = KOR
+	second = SOO
 	start_date = 1444.1.1
 	end_date = 1821.1.1
 }
