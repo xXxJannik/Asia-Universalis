@@ -7540,37 +7540,7 @@ estate_church_one_faith_one_culture = {
 	}
 	cooldown_years = 15
 	ai_will_do = {
-		factor = 10
-		modifier = {
-			factor = 0
-			NOT = { dominant_religion = ROOT }
-		}
-		modifier = {
-			factor = 0
-			NOT = { dominant_culture = ROOT }
-		}
-		modifier = {
-			factor = 0
-			NOT = { religion = confucianism }
-		}
-		modifier = {
-			factor = 0
-			NOT = { religion = confucianism }
-		}
-		modifier = {
-			factor = 100
-			NOT = { average_autonomy = 15 }
-			dominant_religion = ROOT
-			dominant_culture = ROOT
-		}
-		modifier = {
-			factor = 10
-			tag = PAP
-		}
-		modifier = {
-			factor = 0.1
-			is_absolutism_active = yes
-		}
+		factor = 0
 	}
 }
 
