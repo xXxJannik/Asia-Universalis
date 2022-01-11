@@ -62,6 +62,7 @@ YUE_ideas = {
 	}
 	ASU_yue_NI3 = {
 		trade_efficiency = 0.2
+		global_prov_trade_power_modifier = 0.25
 	}
 	ASU_yue_NI4 = {
 		global_manpower_modifier = 0.5
