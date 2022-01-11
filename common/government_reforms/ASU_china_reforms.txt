@@ -416,11 +416,16 @@ reform_dzungar = {
 		land_forcelimit_modifier = 0.2
 		loot_amount = 0.50
 		reinforce_cost_modifier = -0.5
-		cav_to_inf_ratio = 0.1
 		movement_speed = 0.2
 		years_of_nationalism = -5
 		colonists = 1
 		horde_unity = 2
+	}
+	conditional = {
+		allow = { has_dlc = "Cradle of Civilization" }
+		government_abilities = {
+			tribal_federation_mechanic
+		}
 	}
 	
 	ai = {

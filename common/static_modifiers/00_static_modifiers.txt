@@ -866,7 +866,6 @@ num_of_provinces = {
 
 # Multiplied by Development
 country_development = {
-	yearly_tribal_allegiance = -0.005
 }
 
 # Multiplied by Tribal Allegiance / 100
@@ -1594,7 +1593,9 @@ lenient_taxation_modifier = {
 }
 
 train_horsemanship_modifier = {
-	cavalry_power = 0.15
+	cavalry_power = 0.1
+	movement_speed = 0.1
+	loot_amount = 1
 }
 
 promote_culture_in_government_modifier = {
