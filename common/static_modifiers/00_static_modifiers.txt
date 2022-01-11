@@ -1288,7 +1288,6 @@ subject_nation = {
 }
 
 vassal_nation = {
-	development_cost = 0.5
 }
 
 primitive_nation = {
