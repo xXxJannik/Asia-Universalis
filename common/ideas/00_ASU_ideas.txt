@@ -4501,7 +4501,7 @@ generalstab0 = {
 		drill_gain_modifier = 0.5
 	}
 	generalstab7 = {
-		free_leader_pool = 3
+		free_leader_pool = 5
 	}
 	
 	ai_will_do = {
