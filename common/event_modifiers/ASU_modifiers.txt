@@ -818,4 +818,13 @@ ASU_grand_captain_cooldown = {
 	
 }
 
+PR_manpower_edict_province = {
+	local_manpower_modifier = 0.25
+	local_state_maintenance_modifier = 2
+}
+
+PR_manpower_edict_cooldown = {
+	
+}
+
 

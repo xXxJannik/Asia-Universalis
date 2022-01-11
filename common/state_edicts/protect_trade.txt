@@ -1,4 +1,4 @@
-edict_centralization_effort = {
+edict_protect_trade = {
 	potential = {
 		always = yes		#we support "potential" if modders want to have lots and just show some.
 	}
@@ -14,11 +14,10 @@ edict_centralization_effort = {
 	}
 	
 	modifier = {
-		local_autonomy = -0.03
-		local_monthly_devastation = -0.1
+		province_trade_power_modifier = 0.50
 	}
 	
-	color = {  220 178 155 }
+	color = {  113 11 43 }
 	
 	
 	ai_will_do = {
@@ -26,15 +25,19 @@ edict_centralization_effort = {
 		modifier = {
 			factor = 0
 			all_province_in_state = {
-				NOT = {
-					local_autonomy_above_min = 10
-				}
+				NOT = { province_trade_power = 25 }
 			}
 		}
 		modifier = {
-			factor = 3
+			factor = 4
+			any_province_in_state = {
+				province_trade_power = 60
+			}
+		}
+		modifier = {
+			factor = 4
 			all_province_in_state = {
-				local_autonomy_above_min = 10
+				province_trade_power = 25
 			}
 		}
 	}
