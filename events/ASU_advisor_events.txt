@@ -873,39 +873,53 @@ country_event = {
 	
 	trigger = {
 		defensive_planner = 3
-		NOT = { has_country_flag = ASU_defensive_planner_flag }
+		NOT = { has_country_modifier = ASU_defensive_planner_delayed }
+		NOT = { has_country_modifier = ASU_defensiv_planner_boost_cooldown }
 	}
 	
 	mean_time_to_happen = {
-		months = 300
+		months = 60
+	}
+
+	option = { #Perhaps another time...
+		name = "ASU_advisor_events.100.a"
+		ai_chance = {
+			factor = 5000
+		}
+		 add_country_modifier = {
+			name = "ASU_defensive_planner_delayed"
+			duration = 7300
+		}
 	}
 	
 	option = {
 		name = "ASU_advisor_events.1.a"	# His efforts will be admired throughout the nation
-		ai_chance = {
-			factor = 50
-		}
 		add_meritocracy_effect = yes
 		add_stability_or_adm_power = yes
         add_country_modifier = {
 			name = "ASU_defensiv_planner_boost"
 			duration = 2190
 		}
-		set_country_flag = ASU_defensive_planner_flag
+		add_country_modifier = { 
+			name = ASU_defensiv_planner_boost_cooldown
+			duration = 36500
+			hidden = yes
+		}
 	}
 		
 	option = {
 		name = "ASU_advisor_events.1.b"	# His reputation will reach further than our borders
-		ai_chance = {
-			factor = 50
-		}
 		add_meritocracy_effect = yes
 		add_prestige = 50
         add_country_modifier = {
 			name = "ASU_defensiv_planner_boost"
 			duration = 2190
 		}
-		set_country_flag = ASU_defensive_planner_flag
+		add_country_modifier = { 
+			name = ASU_defensiv_planner_boost_cooldown
+			duration = 36500
+			hidden = yes
+		}
 	}
 }
 
@@ -1045,39 +1059,53 @@ country_event = {
 	
 	trigger = {
 		infantry_leader = 3
-		NOT = { has_country_flag = ASU_infantry_leader_flag }
+		NOT = { has_country_modifier = ASU_infantry_leader_delayed }
+		NOT = { has_country_modifier = ASU_infantry_leader_cooldown }
 	}
 	
 	mean_time_to_happen = {
-		months = 300
+		months = 60
+	}
+
+	option = { #Perhaps another time...
+		name = "ASU_advisor_events.100.a"
+		ai_chance = {
+			factor = 5000
+		}
+		 add_country_modifier = {
+			name = "ASU_infantry_leader_delayed"
+			duration = 7300
+		}
 	}
 	
 	option = {
 		name = "ASU_advisor_events.1.a"	# His efforts will be admired throughout the nation
-		ai_chance = {
-			factor = 50
-		}
 		add_meritocracy_effect = yes
 		add_stability_or_adm_power = yes
         add_country_modifier = {
 			name = "ASU_infantry_leader_boost"
 			duration = 2190
 		}
-		set_country_flag = ASU_infantry_leader_flag
+		add_country_modifier = { 
+			name = ASU_infantry_leader_cooldown
+			duration = 36500
+			hidden = yes
+		}
 	}
 		
 	option = {
 		name = "ASU_advisor_events.1.b"	# His reputation will reach further than our borders
-		ai_chance = {
-			factor = 50
-		}
 		add_meritocracy_effect = yes
 		add_prestige = 50
         add_country_modifier = {
 			name = "ASU_infantry_leader_boost"
 			duration = 2190
 		}
-		set_country_flag = ASU_infantry_leader_flag
+		add_country_modifier = { 
+			name = ASU_infantry_leader_cooldown
+			duration = 36500
+			hidden = yes
+		}
 	}
 }
 
@@ -1090,38 +1118,52 @@ country_event = {
 	
 	trigger = {
 		cavalry_leader = 3
-		NOT = { has_country_flag = ASU_cavalry_leader_flag }
+		NOT = { has_country_modifier = ASU_cavalry_leader_delayed }
+		NOT = { has_country_modifier = ASU_cavalry_leader_cooldown }
 	}
 	
 	mean_time_to_happen = {
-		months = 300
+		months = 60
+	}
+
+	option = { #Perhaps another time...
+		name = "ASU_advisor_events.100.a"
+		ai_chance = {
+			factor = 5000
+		}
+		 add_country_modifier = {
+			name = "ASU_cavalry_leader_delayed"
+			duration = 7300
+		}
 	}
 	
 	option = {
 		name = "ASU_advisor_events.1.a"	# His efforts will be admired throughout the nation
-		ai_chance = {
-			factor = 50
-		}
 		add_meritocracy_effect = yes
 		add_stability_or_adm_power = yes
         add_country_modifier = {
 			name = "ASU_cavalry_leader_boost"
 			duration = 2190
 		}
-		set_country_flag = ASU_cavalry_leader_flag
+		add_country_modifier = { 
+			name = ASU_cavalry_leader_cooldown
+			duration = 36500
+			hidden = yes
+		}
 	}
 		
 	option = {
 		name = "ASU_advisor_events.1.b"	# His reputation will reach further than our borders
-		ai_chance = {
-			factor = 50
-		}
 		add_meritocracy_effect = yes
 		add_prestige = 50
         add_country_modifier = {
 			name = "ASU_cavalry_leader_boost"
 			duration = 2190
 		}
-		set_country_flag = ASU_cavalry_leader_flag
+		add_country_modifier = { 
+			name = ASU_cavalry_leader_cooldown
+			duration = 36500
+			hidden = yes
+		}
 	}
 }

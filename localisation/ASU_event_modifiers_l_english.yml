@@ -66,11 +66,21 @@
  ASU_drill_instructor_boost:0 "Inspiring Drill Instructor"
  ASU_combat_engineer_boost:0 "Inspiring Combat Engineer"
  ASU_mercenary_captain_boost:0 "Inspiring Mercenary Captain"
- ASU_defensiv_planner_boost:0 "Inspiring Defensiv Planner"
  ASU_logistician_boost:0 "Inspiring Logistician"
  ASU_recruiting_officer_boost:0 "Inspiring Recruiting Officer"
+
+ ASU_defensiv_planner_boost:0 "Inspiring Defensiv Planner"
+ ASU_defensive_planner_delayed:0 "Defensiv Planner delayed"
+
  ASU_infantry_leader_boost:0 "Inspiring Infantry Leader"
+ ASU_infantry_leader_delayed:0 "Infantry Leader delayed"
+
  ASU_cavalry_leader_boost:0 "Inspiring Cavalry Leader"
+ ASU_cavalry_leader_delayed:0 "Cavalry Leader delayed"
+
+ ASU_commandant_delayed:0 "Commandant delayed"
+
+ ASU_grand_captain_delayed:0 "Grand Captain delayed"
 
  #Reformed Asian
  ASU_reformed_administration:0 "Reformed Administration"

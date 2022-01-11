@@ -776,3 +776,46 @@ ASU_yi_struggle_for_control = {
 	global_tax_income = 48
 	infantry_cost = -0.1
 }
+
+#misc
+ASU_cavalry_leader_delayed = {
+	cavalry_power = 0.001
+}
+
+ASU_cavalry_leader_cooldown = {
+
+}
+
+ASU_infantry_leader_delayed = {
+	infantry_power = 0.001
+}
+
+ASU_infantry_leader_cooldown = {
+
+}
+
+ASU_defensive_planner_delayed = {
+	shock_damage_received = -0.001
+}
+
+ASU_defensiv_planner_boost_cooldown = {
+
+}
+#
+ASU_commandant_delayed = {
+	discipline = 0.001
+}
+
+ASU_commandant_cooldown = {
+
+}
+
+ASU_grand_captain_delayed = {
+	land_morale = 0.001
+}
+
+ASU_grand_captain_cooldown = {
+	
+}
+
+

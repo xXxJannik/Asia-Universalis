@@ -19,13 +19,26 @@ country_decisions = {
 				tooltip = ASU_military_reform_decision
 				NOT = { has_country_flag = military_reform }
 			}
-			custom_trigger_tooltip = {
+
+			custom_trigger_tooltip = { #Discipline
 				tooltip = ASU_commandant_decision
-				NOT = { has_country_flag = commandant }
+				NOT = { has_country_modifier = ASU_commandant_cooldown }
 			}
-			custom_trigger_tooltip = {
+			custom_trigger_tooltip = { #Morale 
 				tooltip = ASU_grand_captain_decision
-				NOT = { has_country_flag = grand_captain }
+				NOT = { has_country_modifier = ASU_grand_captain_cooldown }
+			}
+			custom_trigger_tooltip = { #ICA 
+				tooltip = ASU_infantry_leader_cooldown_tooltip
+				NOT = { has_country_modifier = ASU_infantry_leader_cooldown }
+			}
+			custom_trigger_tooltip = { #CCA 
+				tooltip = ASU_cavalry_leader_cooldown_tooltip
+				NOT = { has_country_modifier = ASU_cavalry_leader_cooldown }
+			}
+			custom_trigger_tooltip = { #Shock Damage
+				tooltip = ASU_defensive_planner_cooldown_tooltip
+				NOT = { has_country_modifier = ASU_defensiv_planner_boost_cooldown }
 			}
 			always = no
 		}
@@ -37,6 +50,7 @@ country_decisions = {
     ASU_fire_commander_event = {
 		major = yes
 		potential = {
+			always = no
 			ai = no
 		    NOT = { has_country_flag = commandant }
 			commandant = 3
@@ -55,6 +69,7 @@ country_decisions = {
     ASU_fire_grand_captain_event = {
 		major = yes
 		potential = {
+			always = no
 			ai = no
 		    NOT = { has_country_flag = grand_captain }
 			grand_captain = 3

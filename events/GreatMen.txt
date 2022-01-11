@@ -981,56 +981,56 @@ country_event = {
 	title = "EVTNAME4114"
 	desc = "EVTDESC4114"
 	picture = ADVISOR_eventPicture	
-	is_triggered_only = yes
+
 	trigger = {
 		grand_captain = 3
-		NOT = { has_country_flag = grand_captain }
+		NOT = { has_country_modifier = ASU_grand_captain_delayed }
+		NOT = { has_country_modifier = ASU_grand_captain_cooldown }
 	}
+
+	mean_time_to_happen = {
+		months = 60
+	}
+
+	option = { #Perhaps another time
+        name = gc_advisor_events.4.a 
+        ai_chance = {
+			factor = 5000
+		}
+        add_country_modifier = {
+			name = "ASU_grand_captain_delayed"
+			duration = 7300
+		}
+    }
 
 	option = {
 		name = "EVTOPTA4114"	# His efforts will be admired throughout the nation
-		ai_chance = {
-			factor = 50
-			modifier = {
-				factor = 0
-				stability = 2
-			}
-		}
 		add_meritocracy_effect = yes
 		add_stability_or_adm_power = yes
 		add_country_modifier = {
 			name = "grand_captain_boost"
 			duration = 2190
 		}		
-		set_country_flag = grand_captain
+		add_country_modifier = { 
+			name = ASU_grand_captain_cooldown
+			duration = 36500
+			hidden = yes
+		}
 	}
 
+	
 	option = {
 		name = "EVTOPTB4114"	# His reputation will reach further than our borders
-		ai_chance = {
-			factor = 50
-			modifier = {
-				factor = 0
-				NOT = { stability = 1 }
-			}
-		}
 		add_meritocracy_effect = yes
 		add_prestige = 50
 		add_country_modifier = {
 			name = "grand_captain_boost"
 			duration = 2190
 		}
-		set_country_flag = grand_captain
-	}
-
-	option = {
-		name = "ASU_grand_captain_delayed_tooltip"	# I dont want this advisor now
-		ai_chance = {
-			factor = 1
-			modifier = {
-				factor = 100
-				is_at_war = no
-			}
+		add_country_modifier = { 
+			name = ASU_grand_captain_cooldown
+			duration = 36500
+			hidden = yes
 		}
 	}
 }
@@ -1113,56 +1113,55 @@ country_event = {
 	title = "EVTNAME4116"
 	desc = "EVTDESC4116"
 	picture = ADVISOR_eventPicture
-	is_triggered_only = yes
+
 	trigger = {
 		commandant = 3
-		NOT = { has_country_flag = commandant }
+		NOT = { has_country_modifier = ASU_commandant_delayed }
+		NOT = { has_country_modifier = ASU_commandant_cooldown }
+	}
+
+	mean_time_to_happen = {
+		months = 60
+	}
+
+	option = { #Perhaps another time...
+		name = "ASU_advisor_events.100.a" 
+		ai_chance = {
+			factor = 5000
+		}
+		add_country_modifier = {
+			name = "ASU_commandant_delayed"
+			duration = 7300
+		}
 	}
 
 	option = {
 		name = "EVTOPTA4116"	# His efforts will be admired throughout the nation
-		ai_chance = {
-			factor = 50
-			modifier = {
-				factor = 0
-				stability = 2
-			}
-		}
 		add_meritocracy_effect = yes
 		add_stability_or_adm_power = yes
 		add_country_modifier = {
 			name = "commandant_boost"
 			duration = 2190
 		}		
-		set_country_flag = commandant
+		add_country_modifier = { 
+			name = ASU_commandant_cooldown
+			duration = 36500
+			hidden = yes
+		}
 	}
 
 	option = {
 		name = "EVTOPTB4116"	# His reputation will reach further than our borders
-		ai_chance = {
-			factor = 50
-			modifier = {
-				factor = 0
-				NOT = { stability = 1 }
-			}
-		}
 		add_meritocracy_effect = yes
 		add_prestige = 50
 		add_country_modifier = {
 			name = "commandant_boost"
 			duration = 2190
 		}
-		set_country_flag = commandant
-	}
-
-	option = {
-		name = "ASU_commandant_delayed_tooltip"	# I dont want this advisor now
-		ai_chance = {
-			factor = 1
-			modifier = {
-				factor = 100
-				is_at_war = no
-			}
+		add_country_modifier = { 
+			name = ASU_commandant_cooldown
+			duration = 36500
+			hidden = yes
 		}
 	}
 }
