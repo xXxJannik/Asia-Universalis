@@ -5015,10 +5015,10 @@ kriegsproduktion0 = {
 		
 	
 	kriegsproduktion1 = {
-		infantry_cost = -0.2
+		global_regiment_cost = -0.15
 	}
 	kriegsproduktion2 = {
-		cavalry_cost = -0.2
+		movement_speed = 0.2
 	}
 	kriegsproduktion3 = {
 		interest = -0.25
@@ -5034,7 +5034,7 @@ kriegsproduktion0 = {
 		shock_damage = 0.05
 	}
 	kriegsproduktion6 = {
-		artillery_cost = -0.2
+		backrow_artillery_damage = 0.1
 	}
 	kriegsproduktion7 = {
 		naval_forcelimit_modifier = 0.10
