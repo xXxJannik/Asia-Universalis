@@ -481,22 +481,6 @@ courthouse = {
 		local_autonomy = -0.1
 		allowed_num_of_buildings = 2
 	}
-	on_built = {
-		add_development_from_building = {
-			building = courthouse
-			type = tax
-			value = 1
-		}
-	}
-	on_destroyed = {
-		remove_development_from_building = {
-			building = courthouse
-			type = tax
-			value = 1
-		}
-	}
-	on_obsolete = {
-	}
 
 	ai_will_do = {
 		factor = 1
@@ -967,23 +951,6 @@ university = {
 	modifier = {
 		local_development_cost = -0.10
 		allowed_num_of_buildings = 1
-	}
-
-	on_built = {
-		add_development_from_building = {
-			building = university
-			type = tax
-			value = 2
-		}
-	}
-	on_destroyed = {
-		remove_development_from_building = {
-			building = university
-			type = tax
-			value = 2
-		}
-	}
-	on_obsolete = {
 	}
 
 	ai_will_do = {
@@ -1465,25 +1432,6 @@ town_hall = {
 	modifier = {
 		local_autonomy = -0.2
 		allowed_num_of_buildings = 3
-	}
-
-	on_built = {
-		add_development_from_upgrading_or_building = {
-			building = town_hall
-			obsolete_building = courthouse
-			type = tax
-			value = 2
-			upgrade_value = 1
-		}
-	}
-	on_destroyed = {
-		remove_development_from_building = {
-			building = town_hall
-			type = tax
-			value = 2
-		}
-	}
-	on_obsolete = {
 	}
 
 	ai_will_do = {
@@ -2185,14 +2133,14 @@ soldier_households = {
 	on_built = {
 		add_development_from_building = {
 			building = manufactory
-			type = production
+			type = manpower
 			value = 2
 		}
 	}
 	on_destroyed = {
 		remove_development_from_building = {
 			building = manufactory
-			type = production
+			type = manpower
 			value = 2
 		}
 	}
