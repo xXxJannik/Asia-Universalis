@@ -5454,7 +5454,7 @@ militarismus0 = {
 		garrison_size = 0.25	
 	}
 	militarismus6 = {
-		monthly_militarized_society = 0.05
+		reserves_organisation = 0.20
 		land_attrition = -0.1
 	}
 	militarismus7 = {
