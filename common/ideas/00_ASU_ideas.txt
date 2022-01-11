@@ -768,7 +768,7 @@ budda0 = {
 	}
 
 	bonus = {
-		development_cost = -0.05
+		tolerance_own = 1
 	}
 		
 	
@@ -965,7 +965,7 @@ shinto0 = {
 		infantry_power = 0.05
 	}
 	shinto2 = {
-		development_cost = -0.05
+		global_tax_modifier = 0.2
 	}
 	
 	shinto3 = {
@@ -2682,7 +2682,7 @@ ibadi0 = {
 		same_culture_advisor_cost = -0.05
 	}
 	ibadi2 = {
-		development_cost = -0.05
+		global_tax_modifier = 0.33
 	}
 	ibadi3 = {
 		idea_cost = -0.1
