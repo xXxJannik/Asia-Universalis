@@ -12,8 +12,8 @@
  ASU_military_reform_decision:0 "Military Reforms (200 §W£mil£ and 20% §W£morale£)"
  ASU_commandant_decision:0 "Inspirational Leader (5% §W£discipline£)"
  ASU_grand_captain_decision:0 "Grand Captain (10% §W£morale£)"
- GC_infantry_leader_cooldown_tooltip:0 "Infantry Leader"
- GC_cavalry_leader_cooldown_tooltip:0 "Cavalry Leader"
+ ASU_infantry_leader_cooldown_tooltip:0 "Infantry Leader"
+ ASU_cavalry_leader_cooldown_tooltip:0 "Cavalry Leader"
  ASU_defensive_planner_cooldown_tooltip:0 "Defensive Planner"
 
  #Misc
