@@ -1,0 +1,26 @@
+spriteTypes = {
+
+
+#############################################
+	
+####### COMBAT TERRAIN PICTURES #########
+	spriteType = {
+		name = "GFX_combat_terrain_ASU_great_city"
+		texturefile = "gfx/interface/ASU_great_city.dds"
+	}
+	spriteType = {
+		name = "GFX_colony_terrain_ASU_great_city"
+		texturefile = "gfx/interface/colony_terrain_ASU_great_city.dds"
+	}
+
+    #Imperial City
+    spriteType = {
+		name = "GFX_combat_terrain_ASU_imperial_city"
+		texturefile = "gfx/interface/ASU_imperial_city.dds"
+	}
+	spriteType = {
+		name = "GFX_colony_terrain_ASU_imperial_city"
+		texturefile = "gfx/interface/colony_terrain_ASU_imperial_city.dds"
+	}
+
+}
