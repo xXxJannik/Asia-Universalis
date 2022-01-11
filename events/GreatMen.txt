@@ -993,7 +993,7 @@ country_event = {
 	}
 
 	option = { #Perhaps another time
-        name = gc_advisor_events.4.a 
+        name = ASU_advisor_events.100.a
         ai_chance = {
 			factor = 5000
 		}
