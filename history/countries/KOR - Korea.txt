@@ -58,9 +58,9 @@ capital = 735	# Hanseong
 	monarch = {
 		name = "Sejong Do" #Sejong Daewang
 		dynasty = "Yi"
-		adm = 6
-		dip = 5
-		mil = 5
+		adm = 4
+		dip = 4
+		mil = 4
 		birth_date = 1397.5.7
 		death_date = 1450.5.18
 	}
