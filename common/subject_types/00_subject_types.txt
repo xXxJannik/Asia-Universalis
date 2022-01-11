@@ -214,7 +214,7 @@ vassal = {
 	sacrifice_heir = yes
 	divert_trade = yes
 	seize_territory = yes
-	
+	siphon_income = yes #ASU
 
 	# Modifiers:
 	modifier_subject = {
