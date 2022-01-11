@@ -161,7 +161,7 @@ estate_banners_allow_banners = {
 		amount_of_banners = 0.20
 	}
 	ai_will_do = {
-		factor = 10
+		factor = 0
 	}
 }
 
@@ -181,7 +181,7 @@ estate_banners_allow_banners_2 = {
 		amount_of_banners = 0.50
 	}
 	ai_will_do = {
-		factor = 10
+		factor = 0
 	}
 }
 
@@ -201,7 +201,7 @@ estate_banners_allow_banners_3 = {
 		amount_of_banners = 1
 	}
 	ai_will_do = {
-		factor = 10
+		factor = 0
 	}
 }
 
@@ -221,7 +221,7 @@ estate_banners_control_over_army = {
 		free_leader_pool = 1
 	}
 	ai_will_do = {
-		factor = 10
+		factor = 1000
 	}
 }
 
@@ -241,7 +241,7 @@ estate_banners_infantry_tactics = {
 		cavalry_power = 0.1
 	}
 	ai_will_do = {
-		factor = 10
+		factor = 1000
 	}
 }
 
@@ -558,7 +558,7 @@ estate_tribes_mil_power = {
 		country_military_power = 1
 	}
 	ai_will_do = {
-		factor = 1000
+		factor = 1500
 	}
 }
 
@@ -832,7 +832,7 @@ estate_ASU_radicals_privileges_1 = {
 		ASU_royalists_loyalty_modifier = -0.05
 	}
 	ai_will_do = {
-		factor = 10
+		factor = 0
 	}
 }
 
@@ -942,7 +942,7 @@ estate_ASU_royalists_privileges_1 = {
 		ASU_moderates_loyalty_modifier = -0.05
 	}
 	ai_will_do = {
-		factor = 10
+		factor = 0
 	}
 }
 
@@ -959,7 +959,7 @@ estate_ASU_royalists_privileges_2 = {
 		ASU_moderates_loyalty_modifier = -0.05
 	}
 	ai_will_do = {
-		factor = 10
+		factor = 0
 	}
 }
 
@@ -976,7 +976,7 @@ estate_ASU_royalists_privileges_3 = {
 		ASU_moderates_loyalty_modifier = -0.05
 	}
 	ai_will_do = {
-		factor = 10
+		factor = 0
 	}
 }
 
@@ -993,7 +993,7 @@ estate_ASU_royalists_privileges_4 = {
 		ASU_moderates_loyalty_modifier = -0.05
 	}
 	ai_will_do = {
-		factor = 10
+		factor = 0
 	}
 }
 
@@ -1014,7 +1014,7 @@ estate_ASU_peasants_privileges_1 = {
 		ASU_royalists_loyalty_modifier = -0.05
 	}
 	ai_will_do = {
-		factor = 10
+		factor = 1000
 	}
 }
 
@@ -1033,7 +1033,7 @@ estate_ASU_peasants_privileges_2 = {
 		ASU_royalists_loyalty_modifier = -0.05
 	}
 	ai_will_do = {
-		factor = 10
+		factor = 0
 	}
 }
 
@@ -1051,7 +1051,7 @@ estate_ASU_peasants_privileges_3 = {
 		ASU_royalists_loyalty_modifier = -0.05
 	}
 	ai_will_do = {
-		factor = 10
+		factor = 0
 	}
 }
 
@@ -1070,7 +1070,7 @@ estate_ASU_peasants_privileges_4 = {
 		ASU_royalists_loyalty_modifier = -0.05
 	}
 	ai_will_do = {
-		factor = 10
+		factor = 0
 	}
 }
 
@@ -1093,7 +1093,7 @@ esate_ASU_moderates_privileges_1 = {
 		ASU_royalists_loyalty_modifier = -0.05
 	}
 	ai_will_do = {
-		factor = 10
+		factor = 1000
 	}
 }
 
@@ -1111,7 +1111,7 @@ esate_ASU_moderates_privileges_2 = {
 		ASU_royalists_loyalty_modifier = -0.05
 	}
 	ai_will_do = {
-		factor = 10
+		factor = 0
 	}
 }
 
@@ -1129,7 +1129,7 @@ esate_ASU_moderates_privileges_3 = {
 		ASU_royalists_loyalty_modifier = -0.05
 	}
 	ai_will_do = {
-		factor = 10
+		factor = 0
 	}
 }
 
@@ -1148,6 +1148,6 @@ esate_ASU_moderates_privileges_4 = {
 		ASU_royalists_loyalty_modifier = -0.05
 	}
 	ai_will_do = {
-		factor = 10
+		factor = 0
 	}
 }
