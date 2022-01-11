@@ -341,7 +341,8 @@ commandant = {
 	monarch_power = MIL
 	
 	# Bonus
-	discipline = 0.02
+	discipline = 0.03
+	war_exhaustion = -0.02
 	
 	skill_scaled_modifier = { meritocracy = 0.25 }
 
