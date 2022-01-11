@@ -53,6 +53,10 @@ NDefines.NCountry.SPLENDOR_ABILITY_COST = 1000
 NDefines.NCountry.EXPAND_INFRASTRUCTURE_DEV_LIMIT = 5
 NDefines.NCountry.SCRIPTED_ADVISOR_DISCOUNT = 0.75
 NDefines.NCountry.IDEA_TO_TECH = -0.01			-- percentage on tech reduction per idea.
+NDefines.NCountry.PARLIAMENT_DEBATE_DURATION = 5
+NDefines.NCountry.NUM_PARLIAMENT_ISSUES = 10
+NDefines.NCountry.PARLIAMENT_BACKING_PERCENTAGE = 50
+
 
 NDefines.NMilitary.CAVALRY_COST = 50.0
 NDefines.NMilitary.ARTILLERY_COST = 50.0
