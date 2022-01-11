@@ -55,7 +55,7 @@ country_event = { #Huang He Secured
 	is_triggered_only = yes
 	option = {
         name = "ASU_ming_events.3.a"
-        add_years_of_income = 1
+        add_years_of_income = 0.5
         5166 = {
             center_of_trade = 2
         }

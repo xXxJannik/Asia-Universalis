@@ -206,7 +206,7 @@ country_event = { #Reform the Steppes Event
 			add_base_tax = 2
 			add_base_production = 2
 		}
-		add_years_of_income = 2.5
+		add_treasury = 1000
         ai_chance = {            # the AI does not take the event without
 			factor = 100
 		}
@@ -323,7 +323,7 @@ country_event = { #Succesfull Reform
 	}
 	option = {
 		name = "ASU_manchu_events.11.a"
-		add_years_of_income = 5
+		add_years_of_income = 1
 		add_adm_power = 200
 		add_dip_power = 200
 		add_mil_power = 200

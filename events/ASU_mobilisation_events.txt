@@ -80,7 +80,7 @@ country_event = {
 	}
 	option = {
 		name = "ASU_mob.4.a"
-        add_years_of_income = -1
+        add_years_of_income = -0.25
 	}
 }
 
@@ -124,7 +124,7 @@ country_event = {
 	}
 	option = {
 		name = "ASU_mob.6.a"
-        add_years_of_income = 1
+        add_years_of_income = 0.25
 	}
 }
 
@@ -250,6 +250,6 @@ country_event = {
 	}
 	option = {
 		name = "ASU_mob.11.a"
-        add_years_of_income = -2
+        add_years_of_income = -0.5
 	}
 }
