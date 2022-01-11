@@ -2344,13 +2344,15 @@ pagan = {
 	}
 	
 	tengri_pagan_reformed = {
+		allow_female_defenders_of_the_faith = yes
+		declare_war_in_regency = yes
 		icon = 27
 		color = { 25 76 217 }
 		country = {
 			global_regiment_cost = -0.1
 			mil_tech_cost_modifier = -0.1
 		}
-		can_have_secondary_religion = yes
+		can_have_secondary_religion = yes 
 		heretic = { OLD_TENGRI }
 	}
 	
