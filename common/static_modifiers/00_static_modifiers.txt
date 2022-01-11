@@ -403,7 +403,6 @@ devastation = {
 }
 
 prosperity = {
-	trade_goods_size_modifier = 0.25
 	local_autonomy = -0.05
 }
 
