@@ -2926,7 +2926,7 @@ entwicklung0 = {
 		
 	
 	entwicklung1 = {
-		development_cost = -0.05
+		build_time = -0.25
 	}
 	entwicklung2 = {
 		production_efficiency = 0.05
@@ -5202,7 +5202,7 @@ zentra0 = {
 		global_trade_goods_size_modifier = 0.1
 	}
 	zentra3 = {
-		development_cost = -0.05
+		global_trade_power = 0.05
 	}
 
 	zentra4 = {
@@ -5272,7 +5272,7 @@ dezentra0 = {
 			
 		}
 	bonus = {
-		development_cost = -0.05
+		fort_maintenance_modifier = -0.2
 	}
 		
 	
