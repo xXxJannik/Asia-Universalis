@@ -56,6 +56,7 @@ NDefines.NCountry.IDEA_TO_TECH = -0.01			-- percentage on tech reduction per ide
 NDefines.NCountry.PARLIAMENT_DEBATE_DURATION = 5
 NDefines.NCountry.NUM_PARLIAMENT_ISSUES = 10
 NDefines.NCountry.PARLIAMENT_BACKING_PERCENTAGE = 50
+NDefines.NCountry.PS_BUY_GENERAL = 25
 
 
 NDefines.NMilitary.CAVALRY_COST = 50.0
