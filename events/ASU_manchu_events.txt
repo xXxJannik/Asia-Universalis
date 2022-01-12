@@ -245,7 +245,7 @@ country_event = { #The Northlands
 		name = "ASU_manchu_events.7.a"
         add_country_modifier = {
 			name = "ASU_manchu_the_northlands"
-			duration = 36500
+			duration = 73.000
 		}
         ai_chance = {            # the AI does not take the event without
 			factor = 100
