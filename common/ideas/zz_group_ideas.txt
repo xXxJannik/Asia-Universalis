@@ -1769,14 +1769,14 @@ chinese_ideas = {
 	}
 	firearm_training = {
 		infantry_power = 0.1
-		land_forcelimit = 20
+		land_forcelimit_modifier = 0.2
 	}
 	son_of_heaven = {
 		legitimacy = 1
 		imperial_mandate = 0.05
 	}
 	middle_kingdom = {
-		global_manpower = 30
+		global_manpower = 20
 	}
 }
 

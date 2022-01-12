@@ -377,7 +377,7 @@ influence_ideas = {
 		monthly_splendor = 3
 	}
 	marcher_lords = {
-		vassal_forcelimit_bonus = 1
+		improve_relation_modifier = 0.25
 	}
 
 	ai_will_do = {

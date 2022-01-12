@@ -250,3 +250,40 @@ invite_to_trade_league = {
 		}
 	}
 }
+
+
+ask_for_march = {
+	condition = {
+		tooltip = h_tooltip_ask_march
+		potential = {
+		}
+		allow = {
+			always = no
+		}
+	}
+}
+
+designate_march = {
+	condition = {
+		tooltip = ASU_tooltip_many_marches_influence
+		potential = {
+			
+		}
+		allow = {
+			NOT = {
+				ROOT = {
+					march = 8
+				}
+			}
+		}
+	}
+	condition = {
+		tooltip = ASU_take_influence_ideas_for_marches_tooltip
+		potential = {
+			ROOT = { NOT = {has_idea = marcher_lords } }
+		}
+		allow = {
+			always = no
+		}
+	}
+}
