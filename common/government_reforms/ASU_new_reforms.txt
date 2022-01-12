@@ -1,0 +1,16 @@
+ASU_vassal_reform = {
+	icon = "default"
+	allow_normal_conversion = yes
+	modifiers = {
+		army_tradition_decay = -0.005
+		free_leader_pool = 1
+		leader_cost = -0.1
+	}
+	ai = {
+		factor = 1
+        modifier = {
+			factor = 500
+			has_idea_group = influence_ideas 
+		}
+	}
+}
