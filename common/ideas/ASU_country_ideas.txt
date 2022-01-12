@@ -44,7 +44,7 @@ YUE_ideas = {
 		advisor_cost = -0.1
 	}
 	bonus = {
-		land_forcelimit_modifier = 0.5
+		ship_durability = 0.1
 	}
 	trigger = {
 		OR = {
@@ -57,7 +57,7 @@ YUE_ideas = {
 		idea_cost = -0.1
 	}
 	ASU_yue_NI2 = {     
-		global_sailors_modifier = 0.2
+		global_sailors_modifier = 0.5
 		galley_power = 0.1           
 	}
 	ASU_yue_NI3 = {
@@ -68,11 +68,12 @@ YUE_ideas = {
 		global_manpower_modifier = 0.5
 	}
 	ASU_yue_NI5 = {                             
-		naval_forcelimit_modifier = 0.25
+		naval_forcelimit_modifier = 0.5
+		heavy_ship_power = 0.1
 	}
 	ASU_yue_NI6 = {
 		infantry_power = 0.1
-		drill_decay_modifier = -0.2
+		land_forcelimit_modifier = 0.5
 	}
 	ASU_yue_NI7  = {                    
 		artillery_fire = 0.5
@@ -85,7 +86,7 @@ WUU_ideas = {
 		trade_efficiency = 0.1
 	}
 	bonus = {
-		land_forcelimit_modifier = 0.5
+		galley_power = 0.1
 	}
 	trigger = {
 		OR = {
@@ -102,15 +103,16 @@ WUU_ideas = {
 		mercenary_cost = -0.2
 	}
 	ASU_WUU_NI3 = {
-		global_sailors_modifier = 0.2
-		ship_durability = 0.05
+		global_sailors_modifier = 0.5
+		ship_durability = 0.1
 	}
 	ASU_WUU_NI4 = {
-		merchants = 1
-		naval_forcelimit_modifier = 0.25
+		naval_forcelimit_modifier = 0.5
+		heavy_ship_power = 0.1
 	}
 	ASU_WUU_NI5 = {                             
 		global_manpower_modifier = 0.5
+		land_forcelimit_modifier = 0.5
 	}
 	ASU_WUU_NI6 = {
 		global_trade_goods_size_modifier = 0.2
@@ -234,7 +236,6 @@ KOR_ideas = {
 	}
 	geobukseon = {
 		ship_durability = 0.1
-		naval_forcelimit_modifier = 0.25
 	}
 	hopae_system = {
 		global_manpower_modifier = 0.25
@@ -278,7 +279,6 @@ JAP_ideas = {
 	}
 	jap_maritime_legacy = {
 		ship_durability = 0.1
-		naval_forcelimit_modifier = 0.25
 	}
 	jap_land_of_the_rising_sun = {
 		prestige = 1
