@@ -65,3 +65,38 @@
  ASU_persia_reform_4_desc:0 "Professionals have standards, that levies can not beat."
  ASU_persia_reform_5:0 "Political militarisation"
  ASU_persia_reform_5_desc:0 "The Janissaries have always tried to gain more power and wealth. If we allow them to pursue it, we might benefit from their military expertise."
+
+ #New Reforms in ASU 1.1
+
+ ASU_vassal_reform:0 "Conscript from Vassals"
+ ASU_vassal_reform_desc:0 "This will save our men from the horrors of war."
+
+ ASU_merc_reform:0 "Regulated Mercenary Contracts"
+ ASU_merc_reform_desc:0 "Mercenaries will fight for whoever pays them."
+
+ ASU_naval_reform:0 "Encourage Trade"
+ ASU_naval_reform_desc:0 "Trade is running through my veins."
+
+ ASU_tech_reform:0 "Universal Education"
+ ASU_tech_reform_desc:0 "We will open public Schools that are mostly state sponsored. It is an investment into the future of our nation."
+
+ ASU_estate_loyalty_reform:0 "Constitutionalism"
+ ASU_estate_loyalty_reform_desc:0 "A Constitution will greatly benefit the stability of our Nation."
+
+ ASU_reform_progress_reform:0 "Reform Laws"
+ ASU_reform_progress_reform_desc:0 "We will introduce new Laws that will lead us to a brighter future."
+ 
+ ASU_absolutism_t6_reform:0 "Absolute Rule"
+ ASU_absolutism_t6_reform_desc:0 "Chosen by Heaven, ruling on God's behalf."
+
+ ASU_morale_reform:0 "Noble Regiments"
+ ASU_morale_reform_desc:0 "The state is me. And my armies..."
+
+ ASU_vassal_bureaucracy_reform:0 "Feudal Vassals"
+ ASU_vassal_bureaucracy_reform_desc:0 "Our Vassals will govern the provinces we are unable to effectively govern ourselves."
+
+ ASU_judicative_reform:0 "Judicative House"
+ ASU_judicative_reform_desc:0 "By separating the judicative body into more than one house we can better balance the need for change to conserve and preserve the traditions of old."
+
+ ASU_executive_reform:0 "Executive House"
+ ASU_executive_reform_desc:0 "By separating the executive body into more than one house we can better balance the need for change to conserve and preserve the traditions of old."

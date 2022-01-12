@@ -1238,6 +1238,7 @@ enforce_privileges_reform = {
 	}
 	modifiers = {
 		global_manpower_modifier = 0.2
+		church_influence_modifier = -0.1
 	}
 	ai = {
 		factor = 1
@@ -1532,6 +1533,7 @@ examination_system_reform = {
 	icon = "asian_scripture"
 	allow_normal_conversion = yes
 	potential = {
+		always = no
 		OR = {
 			religion = confucianism
 			primary_culture = vietnamese
@@ -1586,7 +1588,8 @@ clergy_in_administration_reform = {
 	}
 	modifiers = {
 		free_adm_policy = 1
-		
+		missionaries = 1
+
 		brahmins_hindu_influence_modifier = 0.1
 		brahmins_hindu_loyalty_modifier = 0.05
 
@@ -1639,6 +1642,7 @@ of_noble_bearing_reform = {
 	}
 	modifiers = {
 		leader_cost = -0.1
+		free_leader_pool = 2
 		nobles_influence_modifier = 0.1
 		maratha_exclusive_influence_modifier = 0.1
 		rajput_exclusive_influence_modifier = 0.1
@@ -1683,7 +1687,8 @@ meritocratic_focus_reform = {
 		}
 	}
 	modifiers = {
-		advisor_cost = -0.1
+		trade_efficiency = 0.05
+		merchants = 1
 		maratha_muslim_influence_modifier = 0.1
 		rajput_muslim_influence_modifier = 0.1
 		burghers_influence_modifier = 0.1
@@ -1770,7 +1775,7 @@ royal_decree_reform = {
 		is_revolutionary = no
 	}
 	modifiers = {
-		max_absolutism = 5
+		max_absolutism = 25
 	}
 	ai = {
 		factor = 1
@@ -1781,7 +1786,9 @@ aristocratic_court_reform = {
 	icon = "soldiers_2"
 	allow_normal_conversion = yes
 	modifiers = {
-		army_tradition_decay = -0.003
+		army_tradition_decay = -0.005
+		free_leader_pool = 1
+		leader_cost = -0.1
 	}
 	ai = {
 		factor = 1
@@ -1954,14 +1961,14 @@ consulate_reform = {
 #separation_of_power
 
 political_absolutism_reform = {
-	icon = "judge"
+	icon = "english_monarchy"
 	allow_normal_conversion = yes
 	potential = {
 		is_revolutionary = no
 	}
 	modifiers = {
-		max_absolutism = 5
-		yearly_absolutism = 0.5
+		max_absolutism = 25
+		yearly_absolutism = 1
 	}
 	ai = {
 		factor = 1.5

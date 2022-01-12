@@ -1,10 +1,9 @@
-ASU_vassal_reform = {
-	icon = "default"
+ASU_vassal_reform = { #Tier 2
+	icon = "strength_of_the_khalsa"
 	allow_normal_conversion = yes
 	modifiers = {
-		army_tradition_decay = -0.005
-		free_leader_pool = 1
-		leader_cost = -0.1
+		vassal_income = 0.25
+        vassal_forcelimit_bonus = 0.25
 	}
 	ai = {
 		factor = 1
@@ -13,4 +12,170 @@ ASU_vassal_reform = {
 			has_idea_group = influence_ideas 
 		}
 	}
+}
+
+ASU_merc_reform = { #Tier 2
+	icon = "black_army_reform"
+	allow_normal_conversion = yes
+	modifiers = {
+		merc_maintenance_modifier = -0.25
+        mercenary_manpower = 0.25
+	}
+	ai = {
+		factor = 1
+        modifier = {
+			factor = 500
+			has_idea_group = soldnerheer0 
+		}
+	}
+}
+
+ASU_naval_reform = { #Tier 2
+	icon = "compass"
+	allow_normal_conversion = yes
+	modifiers = {
+		global_sailors_modifier = 0.2
+        global_ship_cost = -0.1
+        merchants = 1
+	}
+	ai = {
+		factor = 1
+        modifier = {
+			factor = 500
+			has_idea_group = soldnerheer0 
+		}
+	}
+}
+
+ASU_vassal_bureaucracy_reform = { #Tier 3
+	icon = "mandala_system"
+	allow_normal_conversion = yes
+	modifiers = {
+		diplomatic_upkeep = 2
+        reduced_liberty_desire = 25
+	}
+	ai = {
+		factor = 1
+        modifier = {
+			factor = 500
+			has_idea_group = influence_ideas 
+		}
+	}
+}
+
+ASU_tech_reform = { #Tier 4
+	icon = "asian_scripture"
+	allow_normal_conversion = yes
+	modifiers = {
+		technology_cost = -0.05
+        idea_cost = -0.05
+	}
+	ai = {
+		factor = 1
+        modifier = {
+			factor = 500
+			has_idea_group = innovativeness_ideas 
+		}
+	}
+}
+
+ASU_estate_loyalty_reform = { #Tier 6
+	icon = "parliament_hall"
+	allow_normal_conversion = yes
+	modifiers = {
+		yearly_corruption = -0.2
+		burghers_loyalty_modifier = 0.1
+		church_loyalty_modifier = 0.1
+		nobles_loyalty_modifier = 0.1
+		rajput_loyalty_modifier = 0.1
+		cossacks_loyalty_modifier = 0.1
+		nomadic_tribes_loyalty_modifier = 0.1
+		dhimmi_loyalty_modifier = 0.1
+		jains_loyalty_modifier = 0.1
+		qizilbash_loyalty_modifier = 0.1
+		ghilman_loyalty_modifier = 0.1
+		janissary_loyalty_modifier = 0.1
+		mamluks_loyalty_modifier = 0.1
+		brahmins_hindu_loyalty_modifier = 0.1
+		brahmins_muslim_loyalty_modifier = 0.1
+		brahmins_other_loyalty_modifier = 0.1
+		maratha_loyalty_modifier = 0.1
+		vaisyas_loyalty_modifier = 0.1
+
+        #ASU
+        ASU_tribes_loyalty_modifier = 0.1
+        ASU_banners_loyalty_modifier = 0.1
+        ASU_janissaries_loyalty_modifier = 0.1
+        ASU_rajputs_loyalty_modifier = 0.1
+	}
+	ai = {
+		factor = 1
+	}
+}
+
+ASU_reform_progress_reform = { #Tier 6
+	icon = "ballot_box"
+	allow_normal_conversion = yes
+	modifiers = {
+		reform_progress_growth = 0.2
+	}
+	ai = {
+		factor = 1
+        modifier = {
+            factor = 100
+            total_development = 1000
+        }
+	}
+}
+
+ASU_absolutism_t6_reform = { #Tier 6
+	icon = "king_2"
+	allow_normal_conversion = yes
+	modifiers = {
+		max_absolutism = 25
+        yearly_absolutism = 0.5
+	}
+	ai = {
+		factor = 2
+        modifier = {
+            factor = 100
+            OR = {
+                current_age = age_of_absolutism
+                current_age = age_of_revolutions
+            }
+        }
+	}
+}
+
+ASU_morale_reform = { #Tier 7
+    icon = "soldiers_6"
+    allow_normal_conversion = yes
+    modifiers = {
+        land_morale = 0.1
+    }
+    ai = {
+        factor = 1000
+    }
+}
+
+ASU_judicative_reform = { #Tier 7
+    icon = "united_cantons_reform"
+    allow_normal_conversion = yes
+    modifiers = {
+        possible_dip_policy = 1
+    }
+    ai = {
+        factor = 1000
+    }
+}
+
+ASU_executive_reform = { #Tier 7
+    icon = "warrior_monks_reform"
+    allow_normal_conversion = yes
+    modifiers = {
+        possible_mil_policy = 1
+    }
+    ai = {
+        factor = 1000
+    }
 }

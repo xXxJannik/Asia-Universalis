@@ -62,6 +62,9 @@ monarchy = {
 				imperial_nobility_reform
 				uparaja_reform
 				ASU_persia_reform_2
+				ASU_vassal_reform
+				ASU_merc_reform
+				ASU_naval_reform
 			}
 		}
 		bureaucracy = { #tier 3
@@ -77,6 +80,7 @@ monarchy = {
 				examination_system_reform
 				corvee_reform
 				ASU_persia_reform_3
+				ASU_vassal_bureaucracy_reform
 			}
 		}
 		growth_of_administration = { #tier 4
@@ -93,11 +97,11 @@ monarchy = {
 				imperial_principle_reform
 				sakdina_system_reform
 				ASU_persia_reform_4
+				ASU_tech_reform
 			}
 		}
 		deliberative_assembly = { #tier 5
 			reforms = {
-				parliamentary_reform
 				royal_decree_reform
 				aristocratic_court_reform
 				general_estates_reform
@@ -116,12 +120,19 @@ monarchy = {
 				regional_representation_reform
 				consulate_reform
 				military_electorate_reform
+				parliamentary_reform
+				ASU_estate_loyalty_reform
+				ASU_reform_progress_reform
+				ASU_absolutism_t6_reform
 			}
 		}
 		separation_of_power = { #tier 7 
-			reforms = {
+			reforms = { #moved custom reforms infront
 				political_absolutism_reform
 				legislative_houses_reform
+				ASU_judicative_reform
+				ASU_executive_reform
+				ASU_morale_reform
 				become_a_republic_reform
 				install_theocratic_government_reform
 				emperor_of_the_revolution_reform
