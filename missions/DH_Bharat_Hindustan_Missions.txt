@@ -66,28 +66,6 @@ hin_slot_6 = {
 			}
 		}
 	}
-	hin_persia = {
-		icon = mission_conquer_persia
-		required_missions = { hin_khorasan }
-		provinces_to_highlight = {
-			region = persia_region
-			NOT = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-		}
-		trigger = {
-			persia_region = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT	
-			}
-		}
-		effect = {
-			add_country_modifier = {
-				name = "akk_persia"
-				duration = 7300
-			}
-		}
-	}
 }
 
 hin_slot_7 = {
