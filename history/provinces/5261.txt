@@ -11,3 +11,7 @@ base_manpower = 1
 is_city = yes
 discovered_by = chinese
 discovered_by = nomad_group
+
+latent_trade_goods = {
+	coal
+}

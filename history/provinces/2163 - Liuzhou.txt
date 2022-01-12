@@ -13,6 +13,9 @@ base_production = 5
 base_manpower = 4
 is_city = yes
 
+latent_trade_goods = {
+	coal
+}
 
 
 discovered_by = chinese
