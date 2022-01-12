@@ -4491,7 +4491,7 @@ generalstab0 = {
 	category = MIL
 
 	bonus = {
-		general_cost = -0.10
+		drill_decay_modifier = -0.25
 	}
 		
 	

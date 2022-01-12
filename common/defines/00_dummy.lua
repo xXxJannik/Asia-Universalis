@@ -64,10 +64,6 @@ NDefines.NMilitary.ARTILLERY_COST = 50.0
 NDefines.NMilitary.NOMAD_PLAINS_SHOCK_BONUS = 0.10
 NDefines.NMilitary.NOMAD_NON_PLAINS_SHOCK_PENALTY = -0.10
 NDefines.NMilitary.MERCENARY_COMPANY_MAX_REGIMENTS = 40
-NDefines.NMilitary.BANNER_DISCIPLINE_BONUS = 0.05
-NDefines.NMilitary.BANNER_MANPOWER_USAGE = 1
-NDefines.NMilitary.BANNER_REINFORCE_SPEED = 0
-NDefines.NMilitary.BANNER_MAINTENANCE_COST = 1.5
 NDefines.NMilitary.SLACKEN_AP_DROP = 0.25
 NDefines.NMilitary.WARGOAL_MAX_BONUS = 35
 NDefines.NMilitary.MERCENARY_COMPANY_ARMY_TRADITION = 25
@@ -78,6 +74,13 @@ NDefines.NMilitary.WARSCORE_MAX_FROM_BATTLES = 40
 NDefines.NMilitary.SUPPLY_DEPOT_MIL_COST = 5
 NDefines.NMilitary.STACKWIPE_MANPOWER_RETURN_FRACTION = 0.1
 
+NDefines.NMilitary.BANNER_DISCIPLINE_BONUS = 0.05
+NDefines.NMilitary.BANNER_MANPOWER_USAGE = 1
+NDefines.NMilitary.BANNER_REINFORCE_SPEED = 0
+NDefines.NMilitary.BANNER_MAINTENANCE_COST = 1.5
+NDefines.NMilitary.BANNER_STARTING_STRENGTH = 0.5
+NDefines.NMilitary.BANNER_USES_CONSTRUCTION = 1
+
 NDefines.NMilitary.ASSAULT_WIDTH_LIMIT = 5						-- how many times the garrison size that can effectively assault at the same time.
 NDefines.NMilitary.ASSAULT_ATTACKER_LOSS = 1.0 					-- MDEF_ASSAULT_ATTACKER_LOSS = 10,
 NDefines.NMilitary.ASSAULT_DEFENDER_LOSS = 0.05 					-- _MDEF_ASSAULT_DEFENDER_LOSS = 10,
@@ -85,6 +88,9 @@ NDefines.NMilitary.ASSAULT_DICE_MODIFIER = 5 						-- _MDEF_ASSAULT_DICE_MODIFIE
 NDefines.NMilitary.SIEGE_FORCE_NEEDED_MULTIPLIER = 0.334				-- x times garrison to be able to siege.
 NDefines.NMilitary.GARRISON_SIZE = 3000 							-- GARRISON_SIZE
 NDefines.NMilitary.FORTRESS_COST = 0.167							-- base fort cost
+
+NDefines.NMilitary.ARMY_DRILL_YEARLY_DECAY = -1.2
+NDefines.NMilitary.ARMY_DRILL_YEARLY_GAIN = 6.0
 
 NDefines.NEconomy.TRADE_WIND_STRENGTH = 0
 NDefines.NEconomy.TRADE_NON_CAPITAL_OFFICE = 0
