@@ -223,6 +223,7 @@
  ASU_manchu_events.9.t:0 "Sons of the Steppes"
  ASU_manchu_events.9.d:0 "We have subjugated the Mongols and their territory. It is us who are the Sons of the Steppes."
  ASU_manchu_events.9.a:0 "How the tables have turned"
+ ASU_manchu_events.9.b:0 "I prefer to walk"
 
  ASU_manchu_events.10.t:0 "Economic Reform"
  ASU_manchu_events.10.d:0 "The Reform of [GetYear] states that every City must fullfill a certain amount of production and must enlist a given number of Soldiers. The $MONARCHTITLE$ has increased government spending on Infrastructure and Education. [Root.Monarch.GetSheHeCap] has also reduced tarrifs on goods needed for this project."

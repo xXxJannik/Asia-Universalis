@@ -288,7 +288,25 @@ country_event = { #Sons of the Steppes
 			duration = -1
 		}
         ai_chance = {            # the AI does not take the event without
-			factor = 100
+			factor = 1
+			modifier = {
+				factor = 500
+				has_idea_group = shock0
+			}
+		}
+	}
+	option = {
+		name = "ASU_manchu_events.9.b"
+        add_country_modifier = {
+			name = "ASU_manchu_sons_of_the_steppes_ica"
+			duration = -1
+		}
+        ai_chance = {            # the AI does not take the event without
+			factor = 1
+		}
+		modifier = {
+			factor = 500
+			NOT = { has_idea_group = shock0 }
 		}
 	}
 }

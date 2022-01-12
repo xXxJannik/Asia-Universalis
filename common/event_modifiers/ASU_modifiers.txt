@@ -390,6 +390,10 @@ ASU_manchurian_iron = {
 	trade_goods_size = 5
 }
 
+ASU_manchu_sons_of_the_steppes_ica = {
+	infantry_power = 0.2
+}
+
 # Ming
 
 ASU_ming_reformation = {
