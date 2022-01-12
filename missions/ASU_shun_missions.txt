@@ -616,7 +616,7 @@ ASU_shun_branch_7 = {
 				add_prosperity = 100
 				add_province_modifier = {
 					name = ASU_shun_invested_in
-					duration = 18250
+					duration = -1
 				}
 			}
 		}
@@ -644,7 +644,7 @@ ASU_shun_branch_7 = {
 				add_prosperity = 100
 				add_province_modifier = {
 					name = ASU_shun_invested_in
-					duration = 18250
+					duration = -1
 				}
 			}
 		}
@@ -999,7 +999,7 @@ ASU_shun_branch_9 = {
 				add_prosperity = 100
 				add_province_modifier = {
 					name = ASU_shun_invested_in
-					duration = 18250
+					duration = -1
 				}
 			}
 		}
@@ -1027,7 +1027,7 @@ ASU_shun_branch_9 = {
 				add_prosperity = 100
 				add_province_modifier = {
 					name = ASU_shun_invested_in
-					duration = 18250
+					duration = -1
 				}
 			}
 		}

@@ -6,11 +6,11 @@ add_core = YBM
 culture = xibei
 religion = confucianism
 capital = "Liangzhou"
-trade_goods = livestock
+trade_goods = gold
 hre = no
-base_tax = 1 
-base_production = 1
-base_manpower = 1
+base_tax = 3
+base_production = 6
+base_manpower = 3
 is_city = yes
 
 center_of_trade = 1
