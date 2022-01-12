@@ -89,7 +89,7 @@ NDefines.NMilitary.SIEGE_FORCE_NEEDED_MULTIPLIER = 0.334				-- x times garrison 
 NDefines.NMilitary.GARRISON_SIZE = 3000 							-- GARRISON_SIZE
 NDefines.NMilitary.FORTRESS_COST = 0.167							-- base fort cost
 
-NDefines.NMilitary.ARMY_DRILL_YEARLY_DECAY = -1.2
+NDefines.NMilitary.ARMY_DRILL_YEARLY_DECAY = -2.4
 NDefines.NMilitary.ARMY_DRILL_YEARLY_GAIN = 6.0
 
 NDefines.NEconomy.TRADE_WIND_STRENGTH = 0
