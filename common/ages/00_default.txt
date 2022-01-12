@@ -726,7 +726,7 @@ age_of_absolutism = {
 				tag = JAP
 			}
 			modifier = {
-				development_cost = -0.1
+				development_cost = -0.05
 			}
 		}
 		ab_yi = {
@@ -742,7 +742,7 @@ age_of_absolutism = {
 				tag = YUE
 			}
 			modifier = {
-				ship_power_propagation = 0.2
+				ship_power_propagation = 0.5
 			}
 		}
 		ab_hordes = {
@@ -989,7 +989,7 @@ age_of_revolutions = {
 				tag = WUU
 			}
 			modifier = {
-				trade_efficiency = 0.1
+				trade_efficiency = 0.25
 			}
 		}
 		ab_siam = {
