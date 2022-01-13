@@ -756,6 +756,7 @@ age_of_absolutism = {
 			}
 			modifier = {
 				cavalry_cost = -0.2
+				movement_speed = 0.2
 			}
 		}
 
