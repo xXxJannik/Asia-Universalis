@@ -509,7 +509,7 @@ dock = {
 }
 
 regimental_camp = {
-	cost = 200
+	cost = 100
 	time = 12
 	modifier = {
 		land_forcelimit = 1
@@ -717,7 +717,7 @@ naval_battery = {
 cathedral = {
 	make_obsolete = temple
 
-	cost = 250
+	cost = 200
 	time = 12
 	modifier = {
 		local_missionary_strength = 0.015
@@ -824,7 +824,7 @@ university = {
 }
 
 trade_depot = {
-	cost = 225
+	cost = 300
 	time = 12
 
 	make_obsolete = marketplace
@@ -863,7 +863,7 @@ trade_depot = {
 }
 
 grand_shipyard = {
-	cost = 250
+	cost = 300
 	time = 12
 
 	make_obsolete = shipyard
@@ -1119,7 +1119,7 @@ fort_17th = {
 # Tier 4, 18th Century Buildings
 ################################################
 stock_exchange = {
-	cost = 350
+	cost = 500
 	time = 12
 
 	make_obsolete = trade_depot
@@ -1244,7 +1244,7 @@ town_hall = {
 }
 
 drydock = {
-	cost = 250
+	cost = 200
 	time = 12
 
 	make_obsolete = dock
@@ -1840,12 +1840,12 @@ impressment_offices = {
 	modifier = {
 		local_sailors = 250
 		ship_recruit_speed = -0.1
-		local_ship_cost = -0.05
+		naval_forcelimit = 5
 	}
 	bonus_modifier = {
 		local_sailors = 250
 		ship_recruit_speed = -0.1
-		local_ship_cost = -0.05
+		naval_forcelimit = 5
 	}
 	onmap = no
 	show_separate = yes # Means as a manufactory it will be shown according to the old way
@@ -1948,7 +1948,7 @@ state_house = {
 ### More Buildings ###
 ######################
 stock_exchange_2 = {
-	cost = 475
+	cost = 800
 	time = 12
 
 	make_obsolete = stock_exchange
@@ -2038,7 +2038,7 @@ counting_house_2 = {
 }
 
 drydock_2 = {
-	cost = 400
+	cost = 300
 	time = 12
 
 	make_obsolete = drydock
@@ -2098,7 +2098,7 @@ drydock_2 = {
 }
 
 grand_shipyard_2 = {
-	cost = 400
+	cost = 500
 	time = 12
 
 	make_obsolete = shipyard
@@ -2147,11 +2147,11 @@ grand_shipyard_2 = {
 cathedral_2 = {
 	make_obsolete = cathedral
 
-	cost = 400
+	cost = 300
 	time = 12
 	modifier = {
 		local_missionary_strength = 0.03
-		local_tax_modifier = 0.8
+		local_tax_modifier = 1
 	}
 	on_built = {
 		if = {
