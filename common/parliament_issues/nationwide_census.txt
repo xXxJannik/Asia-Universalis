@@ -54,7 +54,7 @@ nationwide_census = {
 	}
 	
 	modifier = {
-		global_manpower_modifier = 0.05
+		global_manpower_modifier = 0.2
 	}
 
 	ai_will_do = {

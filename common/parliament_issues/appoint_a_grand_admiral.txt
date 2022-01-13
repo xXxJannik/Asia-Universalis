@@ -8,7 +8,7 @@ appoint_a_grand_admiral = {
 	
 	effect = {
 		create_admiral = {
-			tradition = 40
+			tradition = 60
 		}
 	}
 
