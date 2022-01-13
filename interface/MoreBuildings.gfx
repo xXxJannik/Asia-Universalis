@@ -1,0 +1,44 @@
+spriteTypes = {
+	spriteType = {
+        name = "GFX_training_fields_2"
+        texturefile = "gfx//interface//buildings//latin_armory.tga"
+        loadType = "INGAME"
+	}
+
+    spriteType = {
+        name = "GFX_conscription_center_2"
+        texturefile = "gfx//interface//buildings//latin_arsenal.tga"
+        loadType = "INGAME"
+    }
+
+    spriteType = {
+        name = "GFX_drydock_2"
+        texturefile = "gfx//interface//buildings//latin_embassy.tga"
+        loadType = "INGAME"
+    }
+
+    spriteType = {
+        name = "GFX_grand_shipyard_2"
+        texturefile = "gfx//interface//buildings//trade_company//admiralty.dds"
+        loadType = "INGAME"
+    }
+
+    spriteType = {
+        name = "GFX_stock_exchange_2"
+        texturefile = "gfx//interface//buildings//trade_company//officers_mess.dds"
+        loadType = "INGAME"
+    }
+
+    spriteType = {
+        name = "GFX_counting_house_2"
+        texturefile = "gfx//interface//buildings//Latin_treasury.dds"
+        loadType = "INGAME"
+    }
+
+    spriteType = {
+        name = "GFX_cathedral_2"
+        texturefile = "gfx//interface//buildings//Latin_customs_house.dds"
+        loadType = "INGAME"
+    }
+
+}

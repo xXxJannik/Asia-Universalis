@@ -32,7 +32,7 @@ marketplace = {
 	time = 12
 
 	modifier = {
-		province_trade_power_modifier = 0.5
+		province_trade_power_modifier = 0.375
 		trade_value_modifier = 0.10
 	}
 	on_built = {
@@ -717,11 +717,11 @@ naval_battery = {
 cathedral = {
 	make_obsolete = temple
 
-	cost = 300
+	cost = 250
 	time = 12
 	modifier = {
-		local_missionary_strength = 0.03
-		local_tax_modifier = 1
+		local_missionary_strength = 0.015
+		local_tax_modifier = 0.75
 	}
 	on_built = {
 		if = {
@@ -824,13 +824,13 @@ university = {
 }
 
 trade_depot = {
-	cost = 300
+	cost = 225
 	time = 12
 
 	make_obsolete = marketplace
 
 	modifier = {
-		province_trade_power_modifier = 1
+		province_trade_power_modifier = 0.75
 		trade_value_modifier = 0.20
 	}
 
@@ -863,7 +863,7 @@ trade_depot = {
 }
 
 grand_shipyard = {
-	cost = 300
+	cost = 250
 	time = 12
 
 	make_obsolete = shipyard
@@ -872,9 +872,9 @@ grand_shipyard = {
 		has_port = yes
 	}
 	modifier = {
-		naval_forcelimit = 4
-		ship_recruit_speed = -0.50
-		local_ship_repair = 0.50
+		naval_forcelimit = 3
+		ship_recruit_speed = -0.375
+		local_ship_repair = 0.375
 	}
 
 	on_built = {
@@ -908,7 +908,7 @@ training_fields = {
 	make_obsolete = barracks
 
 	modifier = {
-		local_manpower_modifier = 1
+		local_manpower_modifier = 0.75
 	}
 	
 	on_built = {
@@ -1119,13 +1119,13 @@ fort_17th = {
 # Tier 4, 18th Century Buildings
 ################################################
 stock_exchange = {
-	cost = 400
+	cost = 350
 	time = 12
 
 	make_obsolete = trade_depot
 
 	modifier = {
-		province_trade_power_modifier = 1.5
+		province_trade_power_modifier = 1.125
 		trade_value_modifier = 0.3
 	}
 
@@ -1182,12 +1182,12 @@ stock_exchange = {
 }
 
 counting_house = {
-	cost = 400
+	cost = 350
 	time = 12
 
 	make_obsolete = workshop
 	modifier = {
-		local_production_efficiency = 1
+		local_production_efficiency = 0.75
 	}
 
 	on_built = {
@@ -1244,7 +1244,7 @@ town_hall = {
 }
 
 drydock = {
-	cost = 300
+	cost = 250
 	time = 12
 
 	make_obsolete = dock
@@ -1254,7 +1254,7 @@ drydock = {
 	}
 
 	modifier = {
-		local_sailors_modifier = 1.0
+		local_sailors_modifier = 0.75
 	}
 	
 	on_built = {
@@ -1304,14 +1304,14 @@ drydock = {
 }
 
 conscription_center = {
-	cost = 400
+	cost = 300
 	time = 12
 
 
 	make_obsolete = regimental_camp
 
 	modifier = {
-		land_forcelimit = 2
+		land_forcelimit = 1.5
 	}
 	on_built = {
 		add_development_from_upgrading_or_building = {
@@ -1944,3 +1944,383 @@ state_house = {
 	}
 }
 
+######################
+### More Buildings ###
+######################
+stock_exchange_2 = {
+	cost = 475
+	time = 12
+
+	make_obsolete = stock_exchange
+
+	modifier = {
+		province_trade_power_modifier = 1.5
+		trade_value_modifier = 0.4
+	}
+
+	on_built = {
+		if = {
+			limit = {
+				has_province_flag = built_dev_trade_depot
+			}
+			add_development_from_building = {
+				building = stock_exchange_2
+				type = production
+				value = 1
+			}
+		}
+		else_if = {
+			limit = {
+				has_province_flag = build_dev_marketplace
+			}
+			add_development_from_building = {
+				building = stock_exchange_2
+				type = production
+				value = 2
+			}
+		}
+		else = {
+			add_development_from_building = {
+				building = stock_exchange_2
+				type = production
+				value = 3
+			}
+		}
+	}
+	on_destroyed = {
+		remove_development_from_building = {
+			building = stock_exchange_2
+			type = production
+			value = 3
+		}
+	}
+	on_obsolete = {
+	}
+
+	ai_will_do = {
+		factor = 1.5 # Because hard-coded AI only considers what it will gain, not what its enemies will lose.
+	}
+}
+
+counting_house_2 = {
+	cost = 600
+	time = 12
+
+	make_obsolete = counting_house
+	modifier = {
+		local_production_efficiency = 1
+	}
+
+	on_built = {
+		add_development_from_upgrading_or_building = {
+			building = counting_house_2
+			obsolete_building = counting_house
+			type = production
+			value = 2
+			upgrade_value = 1
+		}
+	}
+	on_destroyed = {
+		remove_development_from_building = {
+			building = counting_house
+			type = production
+			value = 2
+		}
+	}
+	on_obsolete = {
+	}
+
+	allow_in_gold_provinces = no
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+drydock_2 = {
+	cost = 400
+	time = 12
+
+	make_obsolete = drydock
+
+	build_trigger = {
+		has_port = yes
+	}
+
+	modifier = {
+		local_sailors_modifier = 1.0
+	}
+	
+	on_built = {
+		if = {
+			limit = {
+				FROM = {
+					has_reform = corvee_reform
+				}
+			}
+			FROM = {
+				add_sailors = 200
+			}
+		}
+		add_development_from_upgrading_or_building = {
+			building = drydock_2
+			obsolete_building = drydock
+			type = production
+			value = 2
+			upgrade_value = 1
+		}
+	}
+	
+	on_destroyed = {
+		if = {
+			limit = {
+				FROM = {
+					has_reform = corvee_reform
+				}
+			}
+			FROM = {
+				add_sailors = -200
+			}
+		}
+		remove_development_from_building = {
+			building = drydock_2
+			type = production
+			value = 2
+		}
+	}
+	on_obsolete = {
+	}
+
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+grand_shipyard_2 = {
+	cost = 400
+	time = 12
+
+	make_obsolete = shipyard
+
+	build_trigger = {
+		has_port = yes
+	}
+	modifier = {
+		naval_forcelimit = 4
+		ship_recruit_speed = -0.5
+		local_ship_repair = 0.5
+	}
+
+	on_built = {
+		add_development_from_upgrading_or_building = {
+			building = grand_shipyard
+			obsolete_building = shipyard
+			type = production
+			value = 2
+			upgrade_value = 1
+		}
+	}
+	on_destroyed = {
+		remove_development_from_building = {
+			building = grand_shipyard
+			type = production
+			value = 2
+		}
+	}
+	on_obsolete = {
+	}
+
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 1.5 # bit more likely if close to the force limit
+			FROM = { navy_size_percentage = 0.95 }
+		}
+		modifier = {
+			factor = 1.1
+			local_autonomy = 50
+		}
+	}
+}
+
+cathedral_2 = {
+	make_obsolete = cathedral
+
+	cost = 400
+	time = 12
+	modifier = {
+		local_missionary_strength = 0.03
+		local_tax_modifier = 0.8
+	}
+	on_built = {
+		if = {
+			limit = {
+				FROM = {
+					OR = {
+						religion = buddhism
+						religion = mahayana
+						religion = vajrayana
+					}
+					has_estate_privilege = estate_church_karma_temples
+				}
+			}
+			FROM = {
+				add_karma = 3
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					religion = catholic
+					has_estate_privilege = estate_church_influence_temples
+				}
+			}
+			FROM = {
+				add_papal_influence = 3
+			}
+		}
+		add_development_from_upgrading_or_building = {
+			building = cathedral_2
+			obsolete_building = cathedral
+			type = tax
+			value = 2
+			upgrade_value = 1
+		}
+	}
+	on_destroyed = {
+		if = {
+			limit = {
+				FROM = {
+					OR = {
+						religion = buddhism
+						religion = mahayana
+						religion = vajrayana
+					}
+					has_estate_privilege = estate_church_karma_temples
+				}
+			}
+			FROM = {
+				add_karma = -3
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					religion = catholic
+					has_estate_privilege = estate_church_influence_temples
+				}
+			}
+			FROM = {
+				add_papal_influence = -3
+			}
+		}
+		remove_development_from_building = {
+			building = cathedral_2
+			type = tax
+			value = 3
+		}
+	}
+	on_obsolete = {
+	}
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+training_fields_2 = {
+	cost = 500
+	time = 12
+
+	make_obsolete = training_fields
+
+	modifier = {
+		local_manpower_modifier = 1
+	}
+	
+	on_built = {
+		if = {
+			limit = {
+				FROM = {
+					has_reform = corvee_reform
+				}
+			}
+			FROM = {
+				add_manpower = 1
+			}
+		}
+		add_development_from_upgrading_or_building = {
+			building = training_fields_2
+			obsolete_building = training_fields
+			type = manpower
+			value = 2
+			upgrade_value = 1
+		}
+	}
+	on_destroyed = {
+		if = {
+			limit = {
+				FROM = {
+					has_reform = corvee_reform
+				}
+			}
+			FROM = {
+				add_manpower = -1
+			}
+		}
+	}
+	on_obsolete = {
+		remove_development_from_building = {
+			building = training_fields_2
+			type = manpower
+			value = 2
+		}
+	}
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+conscription_center_2 = {
+	cost = 500
+	time = 12
+
+
+	make_obsolete = conscription_center
+
+	modifier = {
+		land_forcelimit = 2
+	}
+	on_built = {
+		add_development_from_upgrading_or_building = {
+			building = conscription_center_2
+			obsolete_building = conscription_center
+			type = manpower
+			value = 2
+			upgrade_value = 1
+		}
+	}
+	on_destroyed = {
+		remove_development_from_building = {
+			building = conscription_center_2
+			type = manpower
+			value = 2
+		}
+	}
+	on_obsolete = {
+	}
+
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 1.5 # more likely if we have an army close to the force limit
+			FROM = { army_size_percentage = 0.95 }
+		}
+		modifier = {
+			factor = 1.1
+			local_autonomy = 50
+		}
+	}
+}

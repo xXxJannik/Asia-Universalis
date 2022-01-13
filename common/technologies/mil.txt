@@ -342,7 +342,7 @@ technology = {
 	expects_institution = {
 
 	}
-	
+	training_fields = yes
 	#Trunnions
 	artillery_shock 	= 	0.1
 	artillery_fire 		= 	0.4
@@ -398,7 +398,7 @@ technology = {
 	expects_institution = {
 
 	}
-	
+	conscription_center = yes
 	#Maurician Infantry
 	land_morale 		=	1.0
 	military_tactics	=	0.25
@@ -431,7 +431,7 @@ technology = {
 	artillery_fire 		= 	1.0	
 
 
-	training_fields = yes
+	
 	
 	combat_width = 1
 	
@@ -459,7 +459,7 @@ technology = {
 	expects_institution = {
 
 	}
-	
+	training_fields_2 = yes	
 	#Carbine
 	maneuver_value 		= 	0.25
 
@@ -559,7 +559,7 @@ technology = {
 	
 	combat_width = 2
 	
-	conscription_center = yes
+	conscription_center_2 = yes
 
 	
 	enable = polish_winged_hussar	

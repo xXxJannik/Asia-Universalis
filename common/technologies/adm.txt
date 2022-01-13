@@ -167,7 +167,7 @@ technology = { #Early Modern Administration
 	expects_institution = {
 		
 	}		   
-	
+	cathedral = yes
 	administrative_monarchy	= yes 
 	administrative_republic	= yes
 	governing_capacity = 200
@@ -203,7 +203,7 @@ technology = { #Military Administration
 	expects_institution = {
 		
 	}
-	
+	counting_house = yes
 	may_force_march = yes
 	soldier_households = yes
 }
@@ -254,7 +254,8 @@ technology = { #Cathedral
 	}
 	
 	#Cathedral
-	cathedral = yes
+	cathedral_2 = yes
+
 }
 
 technology = { #Absolute Rulership
@@ -312,7 +313,7 @@ technology = { #Bonds and Tontines
 		
 	}
 	
-	counting_house = yes  
+	counting_house_2 = yes  
 	governing_capacity = 400
 	allowed_idea_groups = 13
 }

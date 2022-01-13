@@ -177,7 +177,7 @@ technology = { #Wharf
 	}
 	
 	range					= 	100
-
+	trade_depot = yes
 	wharf = yes
 
 }
@@ -203,7 +203,7 @@ technology = { #Chartered Companies
 	expects_institution = {
 		
 	}
-	
+	drydock = yes 
 	trade_efficiency 		= 	0.02
 	enable = brig
 
@@ -246,7 +246,7 @@ technology = { #Development of Maritime Law
 	expects_institution = {
 		
 	}
-	
+	grand_shipyard = yes 
 	trade_efficiency 		= 	0.02
 	trade_range				=	20
 
@@ -263,7 +263,7 @@ technology = { #Merchantman
 	range					=	50
 	
 	
-	trade_depot = yes 
+	stock_exchange = yes 
 
 
 	enable = merchantman
@@ -295,7 +295,7 @@ technology = { #The War Galleon
 	naval_maintenance		= 	0.1	
 	range					=	50
 	
-	drydock = yes 
+	drydock_2 = yes  
 	
 	
 	enable = wargalleon
@@ -338,7 +338,7 @@ technology = { #Limes
 	naval_maintenance		= 	0.1
 	
 
-	stock_exchange = yes
+	stock_exchange_2 = yes
 
 	reduced_naval_attrition = yes
 	enable = twodecker
@@ -368,7 +368,7 @@ technology = { #The Archipelago Frigate
 		
 	}
 	
-	grand_shipyard = yes 
+	grand_shipyard_2 = yes 
 
 	
 	trade_efficiency 		= 	0.02
