@@ -13,6 +13,8 @@ country_decisions = {
 		}
 		effect = {
             add_government_reform = h_reform_warlord_2
+			enable_development_on_buildings_built = yes	
+			set_country_flag = ASU_chinese_has_dev_from_buildings_flag
 		}
 	}
 
@@ -50,8 +52,6 @@ country_decisions = {
             country_event = {
 				id = ASU_china_events.1
 			}
-			enable_development_on_buildings_built = yes	
-			set_country_flag = ASU_chinese_has_dev_from_buildings_flag
 		}
 	}
 	emperor_of_china_failsafe = {
@@ -105,10 +105,18 @@ country_decisions = {
 		potential = {
 			NOT = { has_country_flag = ASU_chinese_has_dev_from_buildings_flag }
 			tag = MNG
-			has_reform = h_reform_warlord_4
+			OR = {
+				has_reform = h_reform_warlord_2
+				has_reform = h_reform_warlord_3
+				has_reform = h_reform_warlord_4
+			}
 		}
 		allow = {
-			has_reform = h_reform_warlord_4
+			OR = {
+				has_reform = h_reform_warlord_2
+				has_reform = h_reform_warlord_3
+				has_reform = h_reform_warlord_4
+			}
 		}
 		effect = {
 			enable_development_on_buildings_built = yes	
