@@ -32,7 +32,7 @@ marketplace = {
 	time = 12
 
 	modifier = {
-		province_trade_power_modifier = 0.375
+		province_trade_power_modifier = 0.5
 		trade_value_modifier = 0.10
 	}
 	on_built = {
@@ -750,12 +750,22 @@ cathedral = {
 				add_papal_influence = 3
 			}
 		}
-		add_development_from_upgrading_or_building = {
-			building = cathedral
-			obsolete_building = church
-			type = tax
-			value = 2
-			upgrade_value = 1
+		if = {
+			limit = {
+				has_province_flag = built_dev_temple
+			}
+			add_development_from_building = {
+				building = cathedral
+				type = tax
+				value = 1
+			}
+		}
+		else = {
+			add_development_from_building = {
+				building = cathedral
+				type = tax
+				value = 2
+			}
 		}
 	}
 	on_destroyed = {
@@ -788,7 +798,7 @@ cathedral = {
 		remove_development_from_building = {
 			building = cathedral
 			type = tax
-			value = 3
+			value = 2
 		}
 	}
 	on_obsolete = {
@@ -835,12 +845,22 @@ trade_depot = {
 	}
 
 	on_built = {
-		add_development_from_upgrading_or_building = {
-			building = trade_depot
-			obsolete_building = marketplace
-			type = production
-			value = 2
-			upgrade_value = 1
+		if = {
+			limit = {
+				has_province_flag = built_dev_marketplace
+			}
+			add_development_from_building = {
+				building = trade_depot
+				type = production
+				value = 1
+			}
+		}
+		else = {
+			add_development_from_building = {
+				building = trade_depot
+				type = production
+				value = 2
+			}
 		}
 	}
 	on_destroyed = {
@@ -941,13 +961,13 @@ training_fields = {
 				add_manpower = -1
 			}
 		}
-	}
-	on_obsolete = {
 		remove_development_from_building = {
 			building = training_field
 			type = manpower
 			value = 2
 		}
+	}
+	on_obsolete = {
 	}
 
 	ai_will_do = {
@@ -1125,7 +1145,7 @@ stock_exchange = {
 	make_obsolete = trade_depot
 
 	modifier = {
-		province_trade_power_modifier = 1.125
+		province_trade_power_modifier = 1.0
 		trade_value_modifier = 0.3
 	}
 
@@ -1142,7 +1162,7 @@ stock_exchange = {
 		}
 		else_if = {
 			limit = {
-				has_province_flag = build_dev_marketplace
+				has_province_flag = built_dev_marketplace
 			}
 			add_development_from_building = {
 				building = stock_exchange
@@ -1961,17 +1981,17 @@ stock_exchange_2 = {
 	on_built = {
 		if = {
 			limit = {
-				has_province_flag = built_dev_trade_depot
+				has_province_flag = built_dev_marketplace
 			}
 			add_development_from_building = {
 				building = stock_exchange_2
 				type = production
-				value = 1
+				value = 3
 			}
 		}
 		else_if = {
 			limit = {
-				has_province_flag = build_dev_marketplace
+				has_province_flag = built_dev_trade_depot
 			}
 			add_development_from_building = {
 				building = stock_exchange_2
@@ -1979,11 +1999,22 @@ stock_exchange_2 = {
 				value = 2
 			}
 		}
+		
+		else_if = {
+			limit = {
+				has_province_flag = built_dev_stock_exchange
+			}
+			add_development_from_building = {
+				building = stock_exchange_2
+				type = production
+				value = 1
+			}
+		}
 		else = {
 			add_development_from_building = {
 				building = stock_exchange_2
 				type = production
-				value = 3
+				value = 4
 			}
 		}
 	}
@@ -1991,14 +2022,26 @@ stock_exchange_2 = {
 		remove_development_from_building = {
 			building = stock_exchange_2
 			type = production
-			value = 3
+			value = 4
 		}
 	}
 	on_obsolete = {
 	}
 
 	ai_will_do = {
-		factor = 1.5 # Because hard-coded AI only considers what it will gain, not what its enemies will lose.
+		factor = 1
+		modifier = {
+			factor = 50
+			has_building = trade_depot
+		}
+		modifier = {
+			factor = 50
+			has_building = marketplace
+		}
+		modifier = {
+			factor = 50
+			has_building = stock_exchange
+		}
 	}
 }
 
@@ -2012,19 +2055,39 @@ counting_house_2 = {
 	}
 
 	on_built = {
-		add_development_from_upgrading_or_building = {
-			building = counting_house_2
-			obsolete_building = counting_house
-			type = production
-			value = 2
-			upgrade_value = 1
+		if = {
+			limit = {
+				has_province_flag = built_dev_workshop
+			}
+			add_development_from_building = {
+				building = counting_house_2
+				type = production
+				value = 2
+			}
+		}
+		else_if = {
+			limit = {
+				has_province_flag = built_dev_counting_house
+			}
+			add_development_from_building = {
+				building = counting_house_2
+				type = production
+				value = 1
+			}
+		}
+		else = {
+			add_development_from_building = {
+				building = counting_house_2
+				type = production
+				value = 3
+			}
 		}
 	}
 	on_destroyed = {
 		remove_development_from_building = {
-			building = counting_house
+			building = counting_house_2
 			type = production
-			value = 2
+			value = 3
 		}
 	}
 	on_obsolete = {
@@ -2033,7 +2096,7 @@ counting_house_2 = {
 	allow_in_gold_provinces = no
 
 	ai_will_do = {
-		factor = 1
+		factor = 350
 	}
 }
 
@@ -2093,7 +2156,7 @@ drydock_2 = {
 
 
 	ai_will_do = {
-		factor = 1
+		factor = 0
 	}
 }
 
@@ -2101,7 +2164,7 @@ grand_shipyard_2 = {
 	cost = 500
 	time = 12
 
-	make_obsolete = shipyard
+	make_obsolete = grand_shipyard
 
 	build_trigger = {
 		has_port = yes
@@ -2113,34 +2176,46 @@ grand_shipyard_2 = {
 	}
 
 	on_built = {
-		add_development_from_upgrading_or_building = {
-			building = grand_shipyard
-			obsolete_building = shipyard
-			type = production
-			value = 2
-			upgrade_value = 1
+		if = {
+			limit = {
+				has_province_flag = built_dev_shipyard
+			}
+			add_development_from_building = {
+				building = grand_shipyard_2
+				type = production
+				value = 2
+			}
+		}
+		else_if = {
+			limit = {
+				has_province_flag = built_dev_grand_shipyard
+			}
+			add_development_from_building = {
+				building = grand_shipyard_2
+				type = production
+				value = 1
+			}
+		}
+		else = {
+			add_development_from_building = {
+				building = grand_shipyard_2
+				type = production
+				value = 3
+			}
 		}
 	}
 	on_destroyed = {
 		remove_development_from_building = {
-			building = grand_shipyard
+			building = grand_shipyard_2
 			type = production
-			value = 2
+			value = 3
 		}
 	}
 	on_obsolete = {
 	}
 
 	ai_will_do = {
-		factor = 1
-		modifier = {
-			factor = 1.5 # bit more likely if close to the force limit
-			FROM = { navy_size_percentage = 0.95 }
-		}
-		modifier = {
-			factor = 1.1
-			local_autonomy = 50
-		}
+		factor = 0
 	}
 }
 
@@ -2180,12 +2255,32 @@ cathedral_2 = {
 				add_papal_influence = 3
 			}
 		}
-		add_development_from_upgrading_or_building = {
-			building = cathedral_2
-			obsolete_building = cathedral
-			type = tax
-			value = 2
-			upgrade_value = 1
+		if = {
+			limit = {
+				has_province_flag = built_dev_temple
+			}
+			add_development_from_building = {
+				building = cathedral_2
+				type = tax
+				value = 2
+			}
+		}
+		else_if = {
+			limit = {
+				has_province_flag = built_dev_cathedral
+			}
+			add_development_from_building = {
+				building = cathedral_2
+				type = tax
+				value = 1
+			}
+		}
+		else = {
+			add_development_from_building = {
+				building = cathedral_2
+				type = tax
+				value = 3
+			}
 		}
 	}
 	on_destroyed = {
@@ -2226,6 +2321,10 @@ cathedral_2 = {
 
 	ai_will_do = {
 		factor = 1
+		modifier = {
+			factor = 250
+			has_building = cathedral
+		}
 	}
 }
 
@@ -2250,12 +2349,34 @@ training_fields_2 = {
 				add_manpower = 1
 			}
 		}
-		add_development_from_upgrading_or_building = {
-			building = training_fields_2
-			obsolete_building = training_fields
-			type = manpower
-			value = 2
-			upgrade_value = 1
+
+
+		if = {
+			limit = {
+				has_province_flag = built_dev_barracks
+			}
+			add_development_from_building = {
+				building = training_fields_2
+				type = manpower
+				value = 2
+			}
+		}
+		else_if = {
+			limit = {
+				has_province_flag = built_dev_training_field
+			}
+			add_development_from_building = {
+				building = training_fields_2
+				type = manpower
+				value = 1
+			}
+		}
+		else = {
+			add_development_from_building = {
+				building = training_fields_2
+				type = manpower
+				value = 3
+			}
 		}
 	}
 	on_destroyed = {
@@ -2269,17 +2390,17 @@ training_fields_2 = {
 				add_manpower = -1
 			}
 		}
-	}
-	on_obsolete = {
 		remove_development_from_building = {
 			building = training_fields_2
 			type = manpower
-			value = 2
+			value = 3
 		}
+	}
+	on_obsolete = {
 	}
 
 	ai_will_do = {
-		factor = 1
+		factor = 250
 	}
 }
 
@@ -2294,33 +2415,49 @@ conscription_center_2 = {
 		land_forcelimit = 2
 	}
 	on_built = {
-		add_development_from_upgrading_or_building = {
-			building = conscription_center_2
-			obsolete_building = conscription_center
-			type = manpower
-			value = 2
-			upgrade_value = 1
+		if = {
+			limit = {
+				has_province_flag = built_dev_regimental_camp
+			}
+			add_development_from_building = {
+				building = conscription_center_2
+				type = manpower
+				value = 2
+			}
+		}
+		else_if = {
+			limit = {
+				has_province_flag = built_dev_conscription_center
+			}
+			add_development_from_building = {
+				building = conscription_center_2
+				type = manpower
+				value = 1
+			}
+		}
+		else = {
+			add_development_from_building = {
+				building = conscription_center_2
+				type = manpower
+				value = 3
+			}
 		}
 	}
 	on_destroyed = {
 		remove_development_from_building = {
 			building = conscription_center_2
 			type = manpower
-			value = 2
+			value = 3
 		}
 	}
 	on_obsolete = {
 	}
 
 	ai_will_do = {
-		factor = 1
+		factor = 250
 		modifier = {
-			factor = 1.5 # more likely if we have an army close to the force limit
-			FROM = { army_size_percentage = 0.95 }
-		}
-		modifier = {
-			factor = 1.1
-			local_autonomy = 50
+			factor = 2
+			has_building = conscription_center
 		}
 	}
 }
