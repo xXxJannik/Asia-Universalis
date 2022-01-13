@@ -1143,6 +1143,14 @@ siamese_absolutism = {
 	modifiers = {
 		max_absolutism = 10
 		monarch_admin_power = 1
+		monarch_diplomatic_power = 1
+		monarch_military_power = 1
+	}
+	conditional = {
+		allow = {
+			has_dlc = "Origins"
+		}
+		allow_cawa = yes
 	}
 }
 

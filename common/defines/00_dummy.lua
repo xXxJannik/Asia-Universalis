@@ -68,7 +68,6 @@ NDefines.NMilitary.SLACKEN_AP_DROP = 0.25
 NDefines.NMilitary.WARGOAL_MAX_BONUS = 35
 NDefines.NMilitary.MERCENARY_COMPANY_ARMY_TRADITION = 25
 NDefines.NMilitary.COSSACKS_SHOCK_DAMAGE_BONUS = 0.2
-NDefines.NMilitary.CREATE_JANISSARIES_MIL_COST = 6
 NDefines.NMilitary.MIN_MONTHLY_MANPOWER = 0.2
 NDefines.NMilitary.WARSCORE_MAX_FROM_BATTLES = 40
 NDefines.NMilitary.SUPPLY_DEPOT_MIL_COST = 5
@@ -80,6 +79,12 @@ NDefines.NMilitary.BANNER_REINFORCE_SPEED = 0
 NDefines.NMilitary.BANNER_MAINTENANCE_COST = 1.5
 NDefines.NMilitary.BANNER_STARTING_STRENGTH = 0.5
 NDefines.NMilitary.BANNER_USES_CONSTRUCTION = 1
+
+NDefines.NMilitary.CAWA_STARTING_STRENGTH = 1
+NDefines.NMilitary.CREATE_CAWA_MIL_COST = 5
+NDefines.NMilitary.CAWA_USES_CONSTRUCTION = 1
+
+NDefines.NMilitary.CREATE_JANISSARIES_MIL_COST = 5
 
 NDefines.NMilitary.ASSAULT_WIDTH_LIMIT = 5						-- how many times the garrison size that can effectively assault at the same time.
 NDefines.NMilitary.ASSAULT_ATTACKER_LOSS = 1.0 					-- MDEF_ASSAULT_ATTACKER_LOSS = 10,
