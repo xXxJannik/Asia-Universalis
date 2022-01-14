@@ -30,12 +30,24 @@ estate_ASU_royal_guards_privilege_2 = {
 	loyalty = 0
 	land_share = 0
 
-	benefits = {
+
+	on_granted = {
 		add_country_modifier = { 
 			name = "ASU_royal_guards_modifier_1"
 			duration = -1
 			}
 		}
+	}
+	can_revoke = {
+		has_country_modifier = ASU_royal_guards_modifier_1
+	}
+	on_revoked = {
+        remove_country_modifier = ASU_royal_guards_modifier_1
+    }
+	on_invalid = {
+		remove_country_modifier = ASU_royal_guards_modifier_1
+	}
+	benefits = {	
 	}
 	penalties = {
 	}
@@ -51,12 +63,24 @@ estate_ASU_royal_guards_privilege_3 = {
 	loyalty = 0
 	land_share = 0
 
-	benefits = {
+	on_granted = {
 		add_country_modifier = { 
 			name = "ASU_royal_guards_modifier_2"
 			duration = -1
 			}
 		}
+	}
+	can_revoke = {
+		has_country_modifier = ASU_royal_guards_modifier_2
+	}
+	on_revoked = {
+        remove_country_modifier = ASU_royal_guards_modifier_2
+    }
+	on_invalid = {
+		remove_country_modifier = ASU_royal_guards_modifier_2
+	}
+
+	benefits = {
 	}
 	penalties = {
 	}
@@ -72,12 +96,24 @@ estate_ASU_royal_guards_privilege_4 = {
 	loyalty = 0
 	land_share = 0
 
-	benefits = {
+	on_granted = {
 		add_country_modifier = { 
 			name = "ASU_royal_guards_modifier_3"
 			duration = -1
 			}
 		}
+	}
+	can_revoke = {
+		has_country_modifier = ASU_royal_guards_modifier_3
+	}
+	on_revoked = {
+        remove_country_modifier = ASU_royal_guards_modifier_3
+    }
+	on_invalid = {
+		remove_country_modifier = ASU_royal_guards_modifier_3
+	}
+
+	benefits = {
 	}
 	penalties = {
 	}
@@ -93,12 +129,24 @@ estate_ASU_royal_guards_privilege_5 = {
 	loyalty = 0.05
 	land_share = 5
 
-	benefits = {
+	on_granted = {
 		add_country_modifier = { 
 			name = "ASU_royal_guards_modifier_4"
 			duration = -1
 			}
 		}
+	}
+	can_revoke = {
+		has_country_modifier = ASU_royal_guards_modifier_4
+	}
+	on_revoked = {
+        remove_country_modifier = ASU_royal_guards_modifier_4
+    }
+	on_invalid = {
+		remove_country_modifier = ASU_royal_guards_modifier_4
+	}
+
+	benefits = {
 	}
 	penalties = {
 	}
@@ -114,12 +162,24 @@ estate_ASU_royal_guards_privilege_6 = {
 	loyalty = -0.05
 	land_share = 0
 
-	benefits = {
+	on_granted = {
 		add_country_modifier = { 
 			name = "ASU_royal_guards_modifier_5"
 			duration = -1
 			}
 		}
+	}
+	can_revoke = {
+		has_country_modifier = ASU_royal_guards_modifier_5
+	}
+	on_revoked = {
+        remove_country_modifier = ASU_royal_guards_modifier_5
+    }
+	on_invalid = {
+		remove_country_modifier = ASU_royal_guards_modifier_5
+	}
+
+	benefits = {
 	}
 	penalties = {
 	}
@@ -135,12 +195,24 @@ estate_ASU_royal_guards_privilege_7 = {
 	loyalty = 0
 	land_share = 0
 
-	benefits = {
+	on_granted = {
 		add_country_modifier = { 
 			name = "ASU_royal_guards_modifier_6"
 			duration = -1
 			}
 		}
+	}
+	can_revoke = {
+		has_country_modifier = ASU_royal_guards_modifier_6
+	}
+	on_revoked = {
+        remove_country_modifier = ASU_royal_guards_modifier_6
+    }
+	on_invalid = {
+		remove_country_modifier = ASU_royal_guards_modifier_6
+	}
+
+	benefits = {
 	}
 	penalties = {
 	}
@@ -156,12 +228,24 @@ estate_ASU_royal_guards_privilege_8 = {
 	loyalty = -0.1
 	land_share = 0
 
-	benefits = {
+	on_granted = {
 		add_country_modifier = { 
 			name = "ASU_royal_guards_modifier_7"
 			duration = -1
 			}
 		}
+	}
+	can_revoke = {
+		has_country_modifier = ASU_royal_guards_modifier_7
+	}
+	on_revoked = {
+        remove_country_modifier = ASU_royal_guards_modifier_7
+    }
+	on_invalid = {
+		remove_country_modifier = ASU_royal_guards_modifier_7
+	}
+
+	benefits = {
 	}
 	penalties = {
 	}
