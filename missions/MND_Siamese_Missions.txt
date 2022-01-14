@@ -1412,3 +1412,388 @@ ASU_siam_branch_10 = {
 		}
 	}
 } #End branch 10
+
+#Reformation of the Bureaucracy
+
+ASU_siam_reformation_branch_1 = {
+    slot = 6
+    generic = no
+	ai = no
+	potential = {
+		OR = {
+			tag = AYU
+			tag = SIA
+		}
+	}
+	has_country_shield = yes
+
+    ASU_siam_reformation_mission_1 = {
+		icon = mission_asian_trader
+		required_missions = { }
+		position = 5
+
+		provinces_to_highlight = {
+		}
+
+		trigger = { 
+			NOT = { num_of_loans = 10 }
+			treasury = 2000
+            OR = {
+                num_of_owned_provinces_with = {
+				    value = 25
+				    has_building = courthouse
+			    }
+                num_of_owned_provinces_with = {
+				    value = 25
+				    has_building = town_hall
+			    }
+            }
+		}
+
+		effect = {
+			add_treasury = -2000
+			add_country_modifier = {
+				name = "ASU_reformed_bureaucracy"
+				duration = -1
+			} 
+		}
+	}
+
+    ASU_siam_reformation_mission_2 = {
+		icon = mission_asian_trader
+		required_missions = { ASU_siam_reformation_mission_1 }
+		position = 6
+
+		provinces_to_highlight = {
+		}
+
+		trigger = { 
+			NOT = { num_of_loans = 10 }
+			treasury = 3000
+            OR = {
+                num_of_owned_provinces_with = {
+				    value = 75
+				    has_building = courthouse
+			    }
+                num_of_owned_provinces_with = {
+				    value = 75
+				    has_building = town_hall
+			    }
+            }
+		}
+
+		effect = { 
+			add_treasury = -3000
+			remove_country_modifier = "ASU_reformed_bureaucracy"
+			add_country_modifier = {
+				name = "ASU_reformed_administration"
+				duration = -1
+			}
+		}
+	} 
+}
+
+#Reformation of Trade
+
+ASU_siam_reformation_branch_2 = {
+    slot = 7
+    generic = no
+	ai = no
+	potential = {
+		OR = {
+			tag = AYU
+			tag = SIA
+		}
+	}
+	has_country_shield = yes
+
+    ASU_siam_reformation_mission_3 = {
+		icon = mission_dominate_home_trade_node
+		required_missions = { }
+		position = 5
+
+		provinces_to_highlight = {
+		}
+
+		trigger = { 
+			NOT = { num_of_loans = 10 }
+			treasury = 2000
+            OR = {
+                num_of_owned_provinces_with = {
+				    value = 25
+				    has_trade_building_trigger = yes
+			    }
+            }
+		}
+
+		effect = { 
+			add_treasury = -2000
+			add_country_modifier = {
+				name = "ASU_reformed_standards"
+				duration = -1
+			}
+		}
+	}
+
+    ASU_siam_reformation_mission_4 = {
+		icon = mission_dominate_home_trade_node
+		required_missions = { ASU_siam_reformation_mission_3 }
+		position = 6
+
+		provinces_to_highlight = {
+		}
+
+		trigger = { 
+			NOT = { num_of_loans = 10 }
+			treasury = 3000
+            OR = {
+                num_of_owned_provinces_with = {
+				    value = 75
+				    has_trade_building_trigger = yes
+			    }
+            }
+		}
+
+		effect = { 
+			add_treasury = -3000
+			remove_country_modifier = "ASU_reformed_standards"
+            add_country_modifier = {
+				name = "ASU_reformed_commercial"
+				duration = -1
+			}
+		}
+	}
+}
+
+#Reformation of Production
+
+ASU_siam_reformation_branch_3 = {
+    slot = 8
+    generic = no
+	ai = no
+	potential = {
+		OR = {
+			tag = AYU
+			tag = SIA
+		}
+	}
+	has_country_shield = yes
+
+    ASU_siam_reformation_mission_5 = {
+		icon = mission_have_manufactories
+		required_missions = { }
+		position = 5
+
+		provinces_to_highlight = {
+		}
+
+		trigger = { 
+			NOT = { num_of_loans = 10 }
+			treasury = 2000
+            num_of_owned_provinces_with = {
+				value = 25
+				has_manufactory_trigger = yes
+			}
+		}
+
+		effect = { 
+			add_treasury = -2000 
+		  	add_country_modifier = {
+				name = "ASU_reformed_production"
+				duration = -1
+			}
+		}
+	}
+
+    ASU_siam_reformation_mission_6 = {
+		icon = mission_have_manufactories
+		required_missions = { ASU_siam_reformation_mission_5 }
+		position = 6
+
+		provinces_to_highlight = {
+		}
+
+		trigger = { 
+			NOT = { num_of_loans = 10 }
+			treasury = 3000
+            num_of_owned_provinces_with = {
+				value = 75
+				has_manufactory_trigger = yes
+			}
+		}
+
+		effect = { 
+			add_treasury = -3000
+			remove_country_modifier = "ASU_reformed_production"
+            add_country_modifier = {
+				name = "ASU_reformed_economy"
+				duration = -1
+			}
+		}
+	}
+
+	ASU_siam_reformation_mission_100 = { #The siam Century
+		icon = mission_empire
+		required_missions = { ASU_siam_reformation_mission_2 ASU_siam_reformation_mission_4 ASU_siam_reformation_mission_6 ASU_siam_reformation_mission_8 ASU_siam_reformation_mission_10}
+		position = 7
+
+		provinces_to_highlight = {
+		}
+
+		trigger = { 
+			treasury = 5000
+		}
+
+		effect = { 
+			add_treasury = -5000
+			add_country_modifier = {
+				name = ASU_siam_century
+				duration = 36500
+			}
+			country_event = { #Reformed Asian
+				id = ASU_china_events.4
+			}
+		}
+	}
+}
+
+#Reformation of the Army
+
+ASU_siam_reformation_branch_4 = {
+    slot = 9
+    generic = no
+	ai = no
+	potential = {
+		OR = {
+			tag = AYU
+			tag = SIA
+		}
+	}
+	has_country_shield = yes
+
+    ASU_siam_reformation_mission_7 = {
+		icon = mission_rice_field
+		required_missions = { }
+		position = 5
+
+		provinces_to_highlight = {
+		}
+
+		trigger = { 
+			NOT = { num_of_loans = 10 }
+			treasury = 2000
+            OR = {
+                num_of_owned_provinces_with = {
+                    value = 25
+                    has_manpower_building_trigger = yes
+                }
+            }
+		}
+
+		effect = { 
+			add_treasury = -2000
+			add_country_modifier = {
+				name = "ASU_new_conscription"
+				duration = -1
+			}
+		}
+	}
+
+    ASU_siam_reformation_mission_8 = {
+		icon = mission_rice_field
+		required_missions = { ASU_siam_reformation_mission_7 }
+		position = 6
+
+		provinces_to_highlight = {
+		}
+
+		trigger = { 
+			NOT = { num_of_loans = 10 }
+			treasury = 3000
+            OR = {
+                num_of_owned_provinces_with = {
+                    value = 75
+                    has_manpower_building_trigger = yes
+                }
+            }
+		}
+
+		effect = { 
+			add_treasury = -3000
+			remove_country_modifier = "ASU_new_conscription"
+            add_country_modifier = {
+				name = "ASU_reformed_conscription"
+				duration = -1
+			}
+		}
+	}
+}
+
+#Introduce Regulars
+
+ASU_siam_reformation_branch_5 = {
+    slot = 10
+    generic = no
+	ai = no
+	potential = {
+		OR = {
+			tag = AYU
+			tag = SIA
+		}
+	}
+	has_country_shield = yes
+
+    ASU_siam_reformation_mission_9 = {
+		icon = mission_assemble_an_army
+		required_missions = { }
+		position = 5
+
+		provinces_to_highlight = {
+		}
+
+		trigger = { 
+			NOT = { num_of_loans = 10 }
+			treasury = 2000
+            num_of_owned_provinces_with = {
+                value = 25
+                has_building = soldier_households
+            }
+		}
+
+		effect = { 
+			add_treasury = -2000 
+			add_country_modifier = {
+				name = "ASU_introduce_regulars"
+				duration = -1
+			}
+		}
+	}
+
+    
+	ASU_siam_reformation_mission_10 = {
+		icon = mission_assemble_an_army
+		required_missions = { ASU_siam_reformation_mission_9 }
+		position = 6
+
+		provinces_to_highlight = {
+		}
+
+		trigger = { 
+			NOT = { num_of_loans = 10 }
+			treasury = 3000
+            num_of_owned_provinces_with = {
+                value = 75
+            	has_building = soldier_households
+            }
+		}
+
+		effect = { 
+			add_treasury = -3000
+			remove_country_modifier = "ASU_introduce_regulars"
+            add_country_modifier = {
+				name = "ASU_reformed_army"
+				duration = -1
+			}
+		}
+	}
+}

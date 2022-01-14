@@ -584,6 +584,11 @@ ASU_siam_invested_in_region = {
 	local_production_efficiency = 0.25
 }
 
+ASU_siam_century = {
+	fire_damage_received = -0.1
+	shock_damage_received = -0.1
+}
+
 # TIBET
 
 ASU_tibet_pierce_the_heavens = {

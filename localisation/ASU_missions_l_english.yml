@@ -1069,6 +1069,30 @@
  ASU_siam_mission_13_desc:0 ""
  ASU_siam_mission_14_desc:0 ""
 
+ ASU_siam_reformation_mission_1_title:0 "Reformed Bureaucracy"
+ ASU_siam_reformation_mission_2_title:0 "Reformed Administration"
+ ASU_siam_reformation_mission_3_title:0 "Reformed Standards"
+ ASU_siam_reformation_mission_4_title:0 "Reformed Commercials"
+ ASU_siam_reformation_mission_5_title:0 "Reformed Production"
+ ASU_siam_reformation_mission_6_title:0 "Reformed Economy"
+ ASU_siam_reformation_mission_7_title:0 "New Conscription"
+ ASU_siam_reformation_mission_8_title:0 "Reformed Conscription"
+ ASU_siam_reformation_mission_9_title:0 "Introduce Regulars"
+ ASU_siam_reformation_mission_10_title:0 "A Regular Army"
+ ASU_siam_reformation_mission_100_title:0 "The Siamese Century"
+
+ ASU_siam_reformation_mission_1_desc:0 ""
+ ASU_siam_reformation_mission_2_desc:0 ""
+ ASU_siam_reformation_mission_3_desc:0 ""
+ ASU_siam_reformation_mission_4_desc:0 ""
+ ASU_siam_reformation_mission_5_desc:0 ""
+ ASU_siam_reformation_mission_6_desc:0 ""
+ ASU_siam_reformation_mission_7_desc:0 ""
+ ASU_siam_reformation_mission_8_desc:0 ""
+ ASU_siam_reformation_mission_9_desc:0 ""
+ ASU_siam_reformation_mission_10_desc:0 ""
+ ASU_siam_reformation_mission_100_desc:0 ""
+
  #Majapahit
 
  ASU_majapahit_missions_1_title:0 "Dominate Malacca"
