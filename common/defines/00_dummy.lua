@@ -15,6 +15,13 @@ NDefines.NDiplomacy.MONTHS_BEFORE_TOTAL_OCCUPATION = 12
 NDefines.NDiplomacy.ANNUL_TREATIES_YEARS = 20
 NDefines.NDiplomacy.DEFENDER_OF_FAITH_TRUST_LOSS = 0
 
+NDefines.NDiplomacy.TRIBUTE_BASE_CASH = 0.1						-- Tributary State: Part of yearly income given in tribute #They pay vassal fee
+NDefines.NDiplomacy.TRIBUTE_BASE_ADM = 0.06					-- Tributary State: Part Adm tribute, mulitplied by total development
+NDefines.NDiplomacy.TRIBUTE_BASE_DIP = 0.06						-- Tributary State: Part Dip tribute, mulitplied by total development
+NDefines.NDiplomacy.TRIBUTE_BASE_MIL = 0.06						-- Tributary State: Base Mil tribute, mulitplied by total development
+NDefines.NDiplomacy.TRIBUTE_MAX_MONARCH_POWER = 12.0				-- Tributary State: Max Adm/Dip/Mil per Tributary
+NDefines.NDiplomacy.TRIBUTE_BASE_MANPOWER = 0.33					-- Tributary State: Part of yearly manpower given in tribute
+
 NDefines.NCountry.MONARCH_MIN_SKILL = 1
 NDefines.NCountry.MIN_DEVELOPMENT_FOR_GOV_RANK_3 = 3000
 NDefines.NCountry.MAX_IDEA_GROUPS_FROM_SAME_CATEGORY = 0.35

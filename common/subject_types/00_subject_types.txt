@@ -654,6 +654,9 @@ tributary_state = {
 	overlord_can_fabricate_for = no
 	does_overlord_size_count_for_warscore_cost = no
 	can_concentrate_development = no
+
+	#ASU 1.1
+	pays_overlord = 1.0
 	
 	liberty_desire_development_ratio = 0.175
 	trust_on_start = 0
