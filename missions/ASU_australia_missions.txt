@@ -743,26 +743,12 @@ ASU_australia_branch_8 = {
 		}
 
 		trigger = { 
-			OR = {
-                has_won_war_against = {
-                    who = YUE
-                    max_years_since = 2
+            OR = {
+                any_owned_province = {
+                    region = north_china_region
                 }
-                has_won_war_against = {
-                    who = WUU
-                    max_years_since = 2
-                }
-                has_won_war_against = {
-                    who = MNG
-                    max_years_since = 2
-                }
-                has_won_war_against = {
-                    who = CSH
-                    max_years_since = 2
-                }
-                has_won_war_against = {
-                    who = CYI
-                    max_years_since = 2
+                any_owned_province = {
+                    region = south_china_region
                 }
             }
 		}
@@ -906,25 +892,11 @@ ASU_australia_branch_10 = {
 
 		trigger = { 
             OR = {
-                has_won_war_against = {
-                    who = YUE
-                    max_years_since = 2
+                any_owned_province = {
+                    region = north_china_region
                 }
-                has_won_war_against = {
-                    who = WUU
-                    max_years_since = 2
-                }
-                has_won_war_against = {
-                    who = MNG
-                    max_years_since = 2
-                }
-                has_won_war_against = {
-                    who = CSH
-                    max_years_since = 2
-                }
-                has_won_war_against = {
-                    who = CYI
-                    max_years_since = 2
+                any_owned_province = {
+                    region = south_china_region
                 }
             }
 		}
