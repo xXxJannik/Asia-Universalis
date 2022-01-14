@@ -1702,9 +1702,7 @@ janissary_regiment = {
 cawa_regiment = {
 	infantry_fire = 0.1
 	infantry_shock = 0.1
-	drill_gain_modifier = 1
-	drill_decay_modifier = -0.25
-	reinforce_cost_modifier = 1.5
+	reinforce_cost_modifier = 1
 }
 revolutionary_guard_regiment = {
 	fire_damage_received = -0.1
