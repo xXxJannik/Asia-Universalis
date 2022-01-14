@@ -38,7 +38,7 @@ estate_moderates_build_workshop_in_y = {
 	can_select = {
 		adm_tech = 24
 		any_owned_province = {
-            NOT = { has_building = counting_house }
+            NOT = { has_production_building_trigger = yes }
 			is_state_core = root
 			num_free_building_slots = 1		
 		}
@@ -53,7 +53,7 @@ estate_moderates_build_workshop_in_y = {
 		}
 		random_owned_province = {
 			limit = {
-				NOT = { has_building = counting_house }
+				NOT = { has_production_building_trigger = yes }
 				is_state_core = root
 				num_free_building_slots = 1
 			}
@@ -62,7 +62,7 @@ estate_moderates_build_workshop_in_y = {
 		event_target:agenda_province = {
 			if = {
 				limit = {
-					NOT = { has_building = counting_house }
+					NOT = { has_production_building_trigger = yes }
 				}
 				ROOT = {
 					set_variable = {
@@ -90,7 +90,7 @@ estate_moderates_build_workshop_in_y = {
 				}
 			}
 			event_target:agenda_province = {
-				has_building = counting_house
+				has_production_building_trigger = yes
 			}
 		}
     }

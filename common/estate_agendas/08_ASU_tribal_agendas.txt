@@ -177,8 +177,7 @@ estate_tribal_build_temple_in_y = {
 	can_select = {
 		adm_tech = 4
 		any_owned_province = {
-			NOT = { has_building = cathedral }
-			NOT = { has_building = temple }
+			NOT = { has_tax_building_trigger = yes }
 			is_state_core = root
 			num_free_building_slots = 1		
 			has_terrain = steppe
@@ -194,8 +193,7 @@ estate_tribal_build_temple_in_y = {
 		}
 		random_owned_province = {
 			limit = {
-				NOT = { has_building = cathedral }
-				NOT = { has_building = temple }
+				NOT = { has_tax_building_trigger = yes }
 				is_state_core = root
 				num_free_building_slots = 1
 				has_terrain = steppe
@@ -205,7 +203,7 @@ estate_tribal_build_temple_in_y = {
 		event_target:agenda_province = {
 			if = {
 				limit = {
-					NOT = { has_building = temple }
+					NOT = { has_tax_building_trigger = yes }
 				}
 				ROOT = {
 					set_variable = {
@@ -233,7 +231,7 @@ estate_tribal_build_temple_in_y = {
 				}
 			}
 			event_target:agenda_province = {
-				has_building = temple
+				has_tax_building_trigger = yes
 			}
 		}
     }
