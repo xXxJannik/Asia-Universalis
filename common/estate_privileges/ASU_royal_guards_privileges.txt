@@ -37,7 +37,7 @@ estate_ASU_royal_guards_privilege_2 = {
 			duration = -1
 			}
 		}
-	}
+	
 	can_revoke = {
 		has_country_modifier = ASU_royal_guards_modifier_1
 	}
@@ -69,7 +69,7 @@ estate_ASU_royal_guards_privilege_3 = {
 			duration = -1
 			}
 		}
-	}
+	
 	can_revoke = {
 		has_country_modifier = ASU_royal_guards_modifier_2
 	}
@@ -102,7 +102,7 @@ estate_ASU_royal_guards_privilege_4 = {
 			duration = -1
 			}
 		}
-	}
+	
 	can_revoke = {
 		has_country_modifier = ASU_royal_guards_modifier_3
 	}
@@ -135,7 +135,7 @@ estate_ASU_royal_guards_privilege_5 = {
 			duration = -1
 			}
 		}
-	}
+	
 	can_revoke = {
 		has_country_modifier = ASU_royal_guards_modifier_4
 	}
@@ -168,7 +168,7 @@ estate_ASU_royal_guards_privilege_6 = {
 			duration = -1
 			}
 		}
-	}
+	
 	can_revoke = {
 		has_country_modifier = ASU_royal_guards_modifier_5
 	}
@@ -201,7 +201,7 @@ estate_ASU_royal_guards_privilege_7 = {
 			duration = -1
 			}
 		}
-	}
+	
 	can_revoke = {
 		has_country_modifier = ASU_royal_guards_modifier_6
 	}
@@ -234,7 +234,7 @@ estate_ASU_royal_guards_privilege_8 = {
 			duration = -1
 			}
 		}
-	}
+	
 	can_revoke = {
 		has_country_modifier = ASU_royal_guards_modifier_7
 	}
