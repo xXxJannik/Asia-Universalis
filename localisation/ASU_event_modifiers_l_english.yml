@@ -174,6 +174,14 @@
  ASU_siam_vassals:0 "New Mandala Law"
  ASU_siam_invested_in_region:0 "Investments in the Region"
 
+ ASU_royal_guards_modifier_1:0 "Specialise in Shock Tactics"
+ ASU_royal_guards_modifier_2:0 "Specialise in Fire Tactics"
+ ASU_royal_guards_modifier_3:0 "Demand Discipline"
+ ASU_royal_guards_modifier_4:0 "Share War Spoils"
+ ASU_royal_guards_modifier_5:0 "Recruit Peasents"
+ ASU_royal_guards_modifier_6:0 "Daily Drills"
+ ASU_royal_guards_modifier_7:0 "Lower Maintenance"
+
  #Tibet
  ASU_tibet_pierce_the_heavens:0 "Pierce the Heavens"
  ASU_tibet_divine_tibet:0 "Divine Tibet"

@@ -25,6 +25,12 @@
  ASU_rajputs_loyalty_modifier:0 "Rajput Soldiers loyalty"
  ASU_rajputs_influence_modifier:0 "Rajput Soldiers influence"
 
+ estate_ASU_royal_guards:0 "Royal Guards"
+ estate_ASU_royal_guards_desc:0 "The Royal Guards are the Empires best Soldiers. Their loyalty belongs to the Monarch and only the Monarch."
+ estate_ASU_royal_guards_ownership:0 "Landshare"
+ ASU_royal_guards_loyalty_modifier:0 "Royal Guards loyalty"
+ ASU_royal_guards_influence_modifier:0 "Royal Guards influence"
+
 
  #Rev estates
  estate_ASU_radicals:0 "Radicals"
@@ -222,3 +228,28 @@
 
  esate_ASU_moderates_privileges_4:0 "New Administration"
  esate_ASU_moderates_privileges_4_desc:0 "Introduce a new administration that will increase our taxes."
+
+ #Royal Guards
+ estate_ASU_royal_guards_privilege_1:0 "Promise Land"
+ estate_ASU_royal_guards_privilege_1_desc:0 "If we promise them land, more nobles will join the Royal Guards."
+
+ estate_ASU_royal_guards_privilege_2:0 "Specialise in Shock Tactics"
+ estate_ASU_royal_guards_privilege_2_desc:0 "Our Royal Guards will focus on Shock tactics."
+
+ estate_ASU_royal_guards_privilege_3:0 "Specialise in Fire Tactics"
+ estate_ASU_royal_guards_privilege_3_desc:0 "Our Royal Guards will focus on Fire tactics."
+
+ estate_ASU_royal_guards_privilege_4:0 "Demand Discipline"
+ estate_ASU_royal_guards_privilege_4_desc:0 "Only speak when spoken to, do what is commanded."
+
+ estate_ASU_royal_guards_privilege_5:0 "Promise of War Spoils"
+ estate_ASU_royal_guards_privilege_5_desc:0 "We will promise them a fair share of war spoils."
+
+ estate_ASU_royal_guards_privilege_6:0 "Conscript Peasants"
+ estate_ASU_royal_guards_privilege_6_desc:0 "This will lower the cost of maintaining our Royal Guards and increase avaible reinforcements, but will make the Nobles inside the Guards Units unhappy."
+
+ estate_ASU_royal_guards_privilege_7:0 "Daily Drills"
+ estate_ASU_royal_guards_privilege_7_desc:0 "Our Royal Guards will perform daily drills to prepare for any scenario."
+
+ estate_ASU_royal_guards_privilege_8:0 "Cheaper Maintenance"
+ estate_ASU_royal_guards_privilege_8_desc:0 "We will cut their benefits and salary."

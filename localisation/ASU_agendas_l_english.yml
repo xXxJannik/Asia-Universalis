@@ -84,3 +84,16 @@
 
  estate_moderates_develop_x:0 "develop Province"
  estate_moderates_develop_x_desc:0 "They demand investments in infrastructure!"
+
+ #Royal Guards agendas
+ estate_ASU_royal_guards_have_legitimacy:0 "legitimise Ruler"
+ estate_ASU_royal_guards_have_legitimacy_desc:0 "Our Royal Guards demand a legitimised Ruler."
+
+ estate_ASU_royal_guards_have_pp:0 "project our Power"
+ estate_ASU_royal_guards_have_pp_desc:0 "Our Royal Guards want to demonstrate our Power."
+
+ estate_ASU_royal_guards_have_prestige:0 "have Prestige"
+ estate_ASU_royal_guards_have_prestige_desc:0 "They want our Ruler to be prestigious."
+
+ estate_ASU_royal_guards_have_at:0 "have Army Tradition"
+ estate_ASU_royal_guards_have_at_desc:0 "The Royal Guards want a strong Army."

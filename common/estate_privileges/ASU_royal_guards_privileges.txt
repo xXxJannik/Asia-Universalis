@@ -1,0 +1,171 @@
+
+####################################################
+####### Royal Guards ###############################
+####################################################
+
+estate_ASU_royal_guards_privilege_1 = {
+	icon = privilege_demand_more_troops
+	max_absolutism = -5
+	influence = 0.05
+	loyalty = 0.05
+	land_share = 5
+
+	modifier_by_land_ownership = {
+		amount_of_cawa = 1
+	}
+	benefits = {
+	}
+	penalties = {
+		prestige = -2
+	}
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+estate_ASU_royal_guards_privilege_2 = {
+	icon = privilege_spawn_rajput_regiments
+	max_absolutism = -5
+	influence = 0.05
+	loyalty = 0
+	land_share = 0
+
+	benefits = {
+		add_country_modifier = { 
+			name = ASU_royal_guards_modifier_1
+			duration = -1
+			}
+		}
+	}
+	penalties = {
+	}
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+estate_ASU_royal_guards_privilege_3 = {
+	icon = privilege_promote_purbias
+	max_absolutism = -5
+	influence = 0.05
+	loyalty = 0
+	land_share = 0
+
+	benefits = {
+		add_country_modifier = { 
+			name = ASU_royal_guards_modifier_2
+			duration = -1
+			}
+		}
+	}
+	penalties = {
+	}
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+estate_ASU_royal_guards_privilege_4 = {
+	icon = privilege_supply_arms
+	max_absolutism = -5
+	influence = 0.05
+	loyalty = 0
+	land_share = 0
+
+	benefits = {
+		add_country_modifier = { 
+			name = ASU_royal_guards_modifier_3
+			duration = -1
+			}
+		}
+	}
+	penalties = {
+	}
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+estate_ASU_royal_guards_privilege_5 = {
+	icon = privilege_make_generous_donation
+	max_absolutism = -5
+	influence = 0.05
+	loyalty = 0.05
+	land_share = 5
+
+	benefits = {
+		add_country_modifier = { 
+			name = ASU_royal_guards_modifier_4
+			duration = -1
+			}
+		}
+	}
+	penalties = {
+	}
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+estate_ASU_royal_guards_privilege_6 = {
+	icon = privilege_recruit_rajput_general
+	max_absolutism = -5
+	influence = -0.05
+	loyalty = -0.05
+	land_share = 0
+
+	benefits = {
+		add_country_modifier = { 
+			name = ASU_royal_guards_modifier_5
+			duration = -1
+			}
+		}
+	}
+	penalties = {
+	}
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+estate_ASU_royal_guards_privilege_7 = {
+	icon = privilege_exempt_officers_from_jaziya
+	max_absolutism = -5
+	influence = 0.05
+	loyalty = 0
+	land_share = 0
+
+	benefits = {
+		add_country_modifier = { 
+			name = ASU_royal_guards_modifier_6
+			duration = -1
+			}
+		}
+	}
+	penalties = {
+	}
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+estate_ASU_royal_guards_privilege_8 = {
+	icon = privilege_give_money
+	max_absolutism = -5
+	influence = 0
+	loyalty = -0.1
+	land_share = 0
+
+	benefits = {
+		add_country_modifier = { 
+			name = ASU_royal_guards_modifier_7
+			duration = -1
+			}
+		}
+	}
+	penalties = {
+	}
+	ai_will_do = {
+		factor = 0
+	}
+}

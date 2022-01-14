@@ -1,0 +1,81 @@
+estate_ASU_royal_guards_have_legitimacy = {
+    can_select = {
+        NOT = { legitimacy = 60 }
+    }
+    selection_weight = {
+        factor = 1
+    }
+    task_requirements = {
+        legitimacy = 100
+    }
+    task_completed_effect = {
+        add_prestige = 25
+    }
+    failing_effect = {
+        add_prestige = -25
+    }
+}
+
+estate_ASU_royal_guards_have_pp = {
+    can_select = {
+        NOT = { power_projection = 30 }
+    }
+    selection_weight = {
+        factor = 1
+    }
+    task_requirements = {
+        power_projection = 80
+    }
+    task_completed_effect = {
+        add_mil_power = 50
+    }
+    failing_effect = {
+        add_power_projection = {
+			amount = -25
+		}
+    }
+}
+
+estate_ASU_royal_guards_have_prestige = {
+    can_select = {
+        NOT = { prestige = 60 }
+    }
+    selection_weight = {
+        factor = 1
+    }
+    task_requirements = {
+        prestige = 75
+    }
+    task_completed_effect = {
+        add_power_projection = {
+			amount = 25
+		}
+    }
+    failing_effect = {
+        add_power_projection = {
+			amount = -25
+		}
+    }
+}
+
+estate_ASU_royal_guards_have_at = {
+    can_select = {
+        NOT = { army_tradition = 60 }
+    }
+    selection_weight = {
+        factor = 1
+    }
+    task_requirements = {
+        army_tradition = 80
+    }
+    task_completed_effect = {
+        add_power_projection = {
+			amount = 25
+		}
+    }
+    failing_effect = {
+        add_power_projection = {
+			amount = -25
+		}
+    }
+}

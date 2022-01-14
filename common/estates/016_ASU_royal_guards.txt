@@ -1,0 +1,63 @@
+estate_ASU_royal_guards = {
+	icon = 13
+
+	# If true, country will get estate
+	trigger = {
+		has_reform = siamese_absolutism #Siam
+		NOT = { has_reform = pirate_republic_reform }
+		NOT = { has_government_attribute = is_merchant_republic }
+        NOT = { has_reform = veche_republic }
+		NOT = { has_reform = trading_city }
+		NOT = { has_reform = siberian_tribe }
+		NOT = { government = native }
+        NOT = { is_revolutionary_republic_trigger = yes }
+        NOT = { tag = USA }
+        NOT = { has_reform = revolutionary_empire_reform }
+        is_colonial_nation = no
+        is_nomad = no
+	}
+
+	# These scale with loyalty & power
+	country_modifier_happy = {
+		army_tradition_from_battle = 0.5
+        prestige_from_land = 1
+	}
+	country_modifier_neutral = {
+		prestige_from_land = 1
+	}	
+	country_modifier_angry = {
+		global_unrest = 4
+		monarch_lifespan = -0.90
+	}
+	land_ownership_modifier = {
+		ASU_royal_guards_loyalty_modifier = 0.2
+	}
+
+	province_independence_weight = {
+	}
+
+	# Influence modifiers
+	base_influence = 25
+
+	influence_from_dev_modifier = 0.4
+
+	privileges = {
+		estate_ASU_royal_guards_privilege_1
+        estate_ASU_royal_guards_privilege_2
+        estate_ASU_royal_guards_privilege_3
+        estate_ASU_royal_guards_privilege_4
+        estate_ASU_royal_guards_privilege_5
+        estate_ASU_royal_guards_privilege_6
+        estate_ASU_royal_guards_privilege_7
+        estate_ASU_royal_guards_privilege_8
+	}
+
+	agendas = {
+		estate_ASU_royal_guards_have_legitimacy
+        estate_ASU_royal_guards_have_pp
+        estate_ASU_royal_guards_have_prestige
+        estate_ASU_royal_guards_have_at
+	}
+
+	color = { 24 65 56 }
+}

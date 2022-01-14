@@ -720,6 +720,7 @@ authority = {
 
 regency_council = {
 	stability_cost_modifier = 0.25
+	ASU_royal_guards_influence_modifier = 0.25
 }
 
 trade_efficiency = {
@@ -760,6 +761,9 @@ army_tradition = {
 	ASU_janissaries_loyalty_modifier = 0.05
 	ASU_radicals_loyalty_modifier = 0.05
 	ASU_royalists_loyalty_modifier = 0.05
+
+	#ASU 1.1
+	ASU_royal_guards_loyalty_modifier = 0.05
 }
 
 navy_tradition = {
@@ -881,6 +885,9 @@ legitimacy = {
 	monthly_militarized_society = 0.05
 	max_absolutism = 20
 	nobles_loyalty_modifier = 0.1
+
+	#ASU 1.1
+	ASU_royal_guards_loyalty_modifier = 0.05
 }
 
 #Multiplied by current Horde Unity - 50
@@ -944,6 +951,9 @@ corruption = {
 	ASU_royalists_loyalty_modifier = 0.05
 	ASU_peasants_loyalty_modifier = 0.05
 	ASU_moderates_loyalty_modifier = 0.05
+
+	#ASU 1.1
+	ASU_royal_guards_loyalty_modifier = 0.05
 
 	monthly_heir_claim_increase = 0.025								
 }
@@ -1047,6 +1057,9 @@ prestige = {
 	ASU_royalists_loyalty_modifier = 0.05
 	ASU_peasants_loyalty_modifier = 0.05
 	ASU_moderates_loyalty_modifier = 0.05
+
+	#ASU 1.1
+	ASU_royal_guards_loyalty_modifier = 0.05
 }
 
 no_debate_in_parliament = {
@@ -1208,6 +1221,9 @@ power_projection = {
 	devotion = 0.5
 	horde_unity = 0.5
 	republican_tradition = 0.2
+
+	#ASU 1.1
+	ASU_royal_guards_loyalty_modifier = 0.05
 }
 
 power_projection_25 = {

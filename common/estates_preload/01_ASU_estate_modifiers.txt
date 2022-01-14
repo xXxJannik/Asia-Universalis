@@ -141,3 +141,20 @@ estate_ASU_moderates = {
 		}
 	}
 }
+
+estate_ASU_royal_guards = {
+	modifier_definition = {
+		type = loyalty
+		key = ASU_royal_guards_loyalty_modifier
+		trigger = {
+			has_estate = estate_ASU_royal_guards
+		}
+	}
+	modifier_definition = {
+		type = influence
+		key = ASU_royal_guards_influence_modifier
+		trigger = {
+			has_estate = estate_ASU_royal_guards
+		}
+	}
+}

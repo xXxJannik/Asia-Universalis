@@ -831,4 +831,41 @@ PR_manpower_edict_cooldown = {
 	
 }
 
+#Royal Guards
+ASU_royal_guards_modifier_1 = {
+	is_cawa_modifier = yes
+	shock_damage = 0.2
 
+}
+
+ASU_royal_guards_modifier_2 = {
+	is_cawa_modifier = yes
+	fire_damage = 0.2
+}
+
+ASU_royal_guards_modifier_3 = {
+	is_cawa_modifier = yes
+	discipline = 0.1
+}
+
+ASU_royal_guards_modifier_4 = {
+	is_cawa_modifier = yes
+	land_morale = 0.2
+	reinforce_cost_modifier = 0.5
+}
+
+ASU_royal_guards_modifier_5 = {
+	cawa_cost_modifier = -0.40
+}
+
+ASU_royal_guards_modifier_6 = {
+	is_cawa_modifier = yes
+	drill_gain_modifier = 1
+	drill_decay_modifier = 0.5
+	reinforce_cost_modifier = 0.5
+}
+
+ASU_royal_guards_modifier_7 = {
+	is_cawa_modifier = yes
+	reinforce_cost_modifier = -1
+}

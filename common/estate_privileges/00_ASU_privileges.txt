@@ -1151,3 +1151,4 @@ esate_ASU_moderates_privileges_4 = {
 		factor = 0
 	}
 }
+
