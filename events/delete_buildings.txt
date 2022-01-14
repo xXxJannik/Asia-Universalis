@@ -18,15 +18,15 @@ country_event = {
 	}
 	
 	option = {
+		name = destroybuild_events.1.z	
+	}
+	option = {
 		name = destroybuild_events.1.a
 		country_event = { 
 			id = destroybuild_events.2
 		}
 	}
-	option = {
-		name = destroybuild_events.1.z
-		
-	}
+	
 }
 country_event = {
 	id = destroybuild_events.2
@@ -45,6 +45,9 @@ country_event = {
 	}
 	
 	option = {
+		name = destroybuild_events.2.z
+	}
+	option = {
 		name = destroybuild_events.2.a
 		country_event = { 
 			id = destroybuild_events.3
@@ -62,10 +65,7 @@ country_event = {
 			id = destroybuild_events.5
 		}
 	}
-	option = {
-		name = destroybuild_events.2.z
-		
-	}
+	
 }
 country_event = {
 	id = destroybuild_events.3
@@ -84,6 +84,9 @@ country_event = {
 	}
 	
 	option = {
+		name = destroybuild_events.3.z	
+	}
+	option = {
 		name = destroybuild_events.3.a
 		every_owned_province = {
 			remove_building = temple
@@ -91,10 +94,7 @@ country_event = {
 			remove_building = cathedral_2
 		}
 	}
-	option = {
-		name = destroybuild_events.3.z
-		
-	}
+	
 }
 
 country_event = {
@@ -114,6 +114,9 @@ country_event = {
 	}
 	
 	option = {
+		name = destroybuild_events.4.z
+	}
+	option = {
 		name = destroybuild_events.4.a
 		every_owned_province = {
 			remove_building = dock
@@ -121,10 +124,7 @@ country_event = {
 			remove_building = drydock_2
 		}
 	}
-	option = {
-		name = destroybuild_events.4.z
-		
-	}
+	
 }
 
 country_event = {
@@ -144,15 +144,14 @@ country_event = {
 	}
 	
 	option = {
+		name = destroybuild_events.5.z
+	}
+	option = {
 		name = destroybuild_events.5.a
 		every_owned_province = {
 			remove_building = shipyard
 			remove_building = grand_shipyard
 			remove_building = grand_shipyard_2
 		}
-	}
-	option = {
-		name = destroybuild_events.5.z
-		
 	}
 }
