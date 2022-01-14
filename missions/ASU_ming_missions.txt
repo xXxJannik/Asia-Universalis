@@ -183,12 +183,7 @@ ASU_ming_branch_2 = {
 		trigger = { 
 			5016 = {
 				owned_by = ROOT
-				OR = {
-					has_building = fort_15th
-					has_building = fort_16th
-					has_building = fort_17th
-					has_building = fort_18th
-				}
+				has_fort_building_trigger = yes
 				OR = {
 					has_building = coastal_defence
 					has_building = naval_battery
@@ -236,10 +231,7 @@ ASU_ming_branch_2 = {
 		trigger = { 
 			5794 = {
 				owned_by = ROOT
-				OR = {
-					has_building = workshop
-					has_building = counting_house
-				}
+				has_production_building_trigger = yes
 			}
 		}
 
@@ -268,45 +260,27 @@ ASU_ming_branch_2 = {
 		trigger = { 
 			5794 = {
 				owned_by = ROOT
-				OR = {
-					has_building = workshop
-					has_building = counting_house
-				}
+				has_production_building_trigger = yes
 			}
 			693 = {
 				owned_by = ROOT
-				OR = {
-					has_building = workshop
-					has_building = counting_house
-				}
+				has_production_building_trigger = yes
 			}
 			5790 = {
 				owned_by = ROOT
-				OR = {
-					has_building = workshop
-					has_building = counting_house
-				}
+				has_production_building_trigger = yes
 			}
 			694 = {
 				owned_by = ROOT
-				OR = {
-					has_building = workshop
-					has_building = counting_house
-				}
+				has_production_building_trigger = yes
 			}
 			5788 = {
 				owned_by = ROOT
-				OR = {
-					has_building = workshop
-					has_building = counting_house
-				}
+				has_production_building_trigger = yes
 			}
 			2178 = {
 				owned_by = ROOT
-				OR = {
-					has_building = workshop
-					has_building = counting_house
-				}
+				has_production_building_trigger = yes
 			}
 		}
 
@@ -901,11 +875,7 @@ ASU_ming_branch_6 = {
 		trigger = { 
 			5166 = {
 				owned_by = ROOT
-				OR = {
-					has_building = marketplace
-					has_building = trade_depot
-					has_building = stock_exchange
-				}
+				has_trade_building_trigger = yes
 			}
 		}
 
@@ -1047,12 +1017,7 @@ ASU_ming_branch_7 = {
 		trigger = { 
 			5166 = {
 				owned_by = ROOT
-				OR = {
-					has_building = fort_15th
-					has_building = fort_16th
-					has_building = fort_17th
-					has_building = fort_18th
-				}
+				has_fort_building_trigger = yes
 				OR = {
 					has_building = coastal_defence
 					has_building = naval_battery
@@ -1130,15 +1095,7 @@ ASU_ming_branch_7 = {
             OR = {
                 num_of_owned_provinces_with = {
 				    value = 25
-				    has_building = marketplace
-			    }
-                num_of_owned_provinces_with = {
-				    value = 25
-				    has_building = trade_depot
-			    }
-                num_of_owned_provinces_with = {
-				    value = 25
-				    has_building = stock_exchange
+				    has_trade_building_trigger = yes
 			    }
             }
 		}
@@ -1167,15 +1124,7 @@ ASU_ming_branch_7 = {
             OR = {
                 num_of_owned_provinces_with = {
 				    value = 75
-				    has_building = marketplace
-			    }
-                num_of_owned_provinces_with = {
-				    value = 75
-				    has_building = trade_depot
-			    }
-                num_of_owned_provinces_with = {
-				    value = 75
-				    has_building = stock_exchange
+				    has_trade_building_trigger = yes
 			    }
             }
 		}
@@ -1480,11 +1429,7 @@ ASU_ming_branch_9 = {
             OR = {
                 num_of_owned_provinces_with = {
                     value = 25
-                    has_building = barracks
-                }
-                num_of_owned_provinces_with = {
-                    value = 25
-                    has_building = training_fields
+					has_manpower_building_trigger = yes
                 }
             }
 		}
@@ -1513,11 +1458,7 @@ ASU_ming_branch_9 = {
             OR = {
                 num_of_owned_provinces_with = {
                     value = 75
-                    has_building = barracks
-                }
-                num_of_owned_provinces_with = {
-                    value = 75
-                    has_building = training_fields
+                    has_manpower_building_trigger = yes
                 }
             }
 		}

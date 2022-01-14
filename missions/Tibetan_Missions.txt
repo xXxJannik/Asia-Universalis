@@ -520,10 +520,7 @@ tib_slot_4 = {
 			}
 			num_of_owned_provinces_with = {
 				value = 5
-				OR = {
-					has_building = temple
-					has_building = cathedral
-				}
+				has_tax_building_trigger = yes
 			}
 			if = {
 				limit = {

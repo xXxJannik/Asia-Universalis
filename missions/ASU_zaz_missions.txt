@@ -635,50 +635,32 @@ ASU_zaz_branch_8 = {
 
         trigger = {
             5981 = {
-                OR = {
-                    has_building = workshop
-                    has_building = counting_house
-                }
+                has_production_building_trigger = yes
                 development = 10
                 owned_by = ROOT
             }
             2420 = {
-                OR = {
-                    has_building = workshop
-                    has_building = counting_house
-                }
+                has_production_building_trigger = yes
                 development = 10
                 owned_by = ROOT
             }
             5982 = {
-                OR = {
-                    has_building = workshop
-                    has_building = counting_house
-                }
+                has_production_building_trigger = yes
                 development = 10
                 owned_by = ROOT
             }
             474 = {
-                OR = {
-                    has_building = workshop
-                    has_building = counting_house
-                }
+                has_production_building_trigger = yes
                 development = 10
                 owned_by = ROOT
             }
             1965 = {
-                OR = {
-                    has_building = workshop
-                    has_building = counting_house
-                }
+                has_production_building_trigger = yes
                 development = 10
                 owned_by = ROOT
             }
             4267 = {
-                OR = {
-                    has_building = workshop
-                    has_building = counting_house
-                }
+                has_production_building_trigger = yes
                 development = 10
                 owned_by = ROOT
             }
@@ -739,26 +721,17 @@ ASU_zaz_branch_9 = {
 
         trigger = {
             305 = {
-                OR = {
-                    has_building = workshop
-                    has_building = counting_house
-                }
+                has_production_building_trigger = yes
                 development = 10
                 owned_by = ROOT
             }
             4266 = {
-                OR = {
-                    has_building = workshop
-                    has_building = counting_house
-                }
+                has_production_building_trigger = yes
                 development = 10
                 owned_by = ROOT
             }
             1079 = {
-                OR = {
-                    has_building = workshop
-                    has_building = counting_house
-                }
+                has_production_building_trigger = yes
                 development = 10
                 owned_by = ROOT
             }
@@ -816,12 +789,7 @@ ASU_zaz_branch_10 = {
         trigger = {
             2444 = {
                 owned_by = ROOT
-                OR = {
-                    has_building = fort_15th
-                    has_building = fort_16th
-                    has_building = fort_17th
-                    has_building = fort_18th
-                }
+                has_fort_building_trigger = yes
             }
         }
 

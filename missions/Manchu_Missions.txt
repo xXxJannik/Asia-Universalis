@@ -135,12 +135,7 @@ ASU_manchu_branch_2 = {
 		trigger = { 
             4963 = {
 				country_or_non_sovereign_subject_holds = ROOT
-				OR = {
-					has_building = fort_15th
-					has_building = fort_16th
-					has_building = fort_17th
-					has_building = fort_18th
-				}
+				has_fort_building_trigger = yes
 			}
 		}
 
@@ -185,10 +180,7 @@ ASU_manchu_branch_2 = {
             dalian_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
-				OR = {
-					has_building = workshop
-					has_building = counting_house
-				}
+				has_production_building_trigger = yes
 			}
 		}
 
@@ -212,10 +204,7 @@ ASU_manchu_branch_2 = {
             andong_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
-				OR = {
-					has_building = workshop
-					has_building = counting_house
-				}
+				has_production_building_trigger = yes
 			}
 		}
 
@@ -239,10 +228,7 @@ ASU_manchu_branch_2 = {
             jianzhou_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
-				OR = {
-					has_building = workshop
-					has_building = counting_house
-				}
+				has_production_building_trigger = yes
 			}
 		}
 
@@ -266,10 +252,7 @@ ASU_manchu_branch_2 = {
             jianchang_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
-				OR = {
-					has_building = workshop
-					has_building = counting_house
-				}
+				has_production_building_trigger = yes
 			}
 		}
 
@@ -307,12 +290,7 @@ ASU_manchu_branch_3 = {
 		trigger = { 
             4701 = {
 				country_or_non_sovereign_subject_holds = ROOT
-				OR = {
-					has_building = fort_15th
-					has_building = fort_16th
-					has_building = fort_17th
-					has_building = fort_18th
-				}
+				has_fort_building_trigger = yes
 			}
 		}
 
@@ -394,12 +372,7 @@ ASU_manchu_branch_3 = {
 		trigger = { 
             4194 = {
 				country_or_non_sovereign_subject_holds = ROOT
-				OR = {
-					has_building = fort_15th
-					has_building = fort_16th
-					has_building = fort_17th
-					has_building = fort_18th
-				}
+				has_fort_building_trigger = yes
 			}
 		}
 
@@ -495,7 +468,7 @@ ASU_manchu_branch_3 = {
             shenyang_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
-				has_building = workshop
+				has_production_building_trigger = yes
 			}
 		}
 
@@ -742,12 +715,7 @@ ASU_manchu_branch_4 = {
 		trigger = { 
             4955 = {
 				country_or_non_sovereign_subject_holds = ROOT
-				OR = {
-					has_building = fort_15th
-					has_building = fort_16th
-					has_building = fort_17th
-					has_building = fort_18th
-				}
+				has_fort_building_trigger = yes
 			}
 		}
 
@@ -787,10 +755,7 @@ ASU_manchu_branch_4 = {
             dalian_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
-				OR = {
-					has_building = barracks
-					has_building = training_fields
-				}
+				has_manpower_building_trigger = yes
 			}
 		}
 
@@ -815,10 +780,7 @@ ASU_manchu_branch_4 = {
             andong_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
-				OR = {
-					has_building = barracks
-					has_building = training_fields
-				}
+				has_manpower_building_trigger = yes
 			}
 		}
 
@@ -843,10 +805,7 @@ ASU_manchu_branch_4 = {
             jianzhou_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
-				OR = {
-					has_building = barracks
-					has_building = training_fields
-				}
+				has_manpower_building_trigger = yes
 			}
 		}
 
@@ -870,10 +829,7 @@ ASU_manchu_branch_4 = {
             jianchang_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
-				OR = {
-					has_building = barracks
-					has_building = training_fields
-				}
+				has_manpower_building_trigger = yes
 			}
 		}
 
@@ -1408,15 +1364,7 @@ ASU_manchu_branch_7 = {
             OR = {
                 num_of_owned_provinces_with = {
 				    value = 25
-				    has_building = marketplace
-			    }
-                num_of_owned_provinces_with = {
-				    value = 25
-				    has_building = trade_depot
-			    }
-                num_of_owned_provinces_with = {
-				    value = 25
-				    has_building = stock_exchange
+				    has_trade_building_trigger = yes
 			    }
             }
 		}
@@ -1442,15 +1390,7 @@ ASU_manchu_branch_7 = {
             OR = {
                 num_of_owned_provinces_with = {
 				    value = 75
-				    has_building = marketplace
-			    }
-                num_of_owned_provinces_with = {
-				    value = 75
-				    has_building = trade_depot
-			    }
-                num_of_owned_provinces_with = {
-				    value = 75
-				    has_building = stock_exchange
+				    has_trade_building_trigger = yes
 			    }
             }
 		}
@@ -1489,16 +1429,13 @@ ASU_manchu_branch_8 = {
 			province_id = 4700
 			OR = {
 				NOT = { owned_by = ROOT is_core = ROOT }
-				NOT = { has_building = temple }
+				NOT = { has_tax_building_trigger = yes }
 			}
 		}
 		trigger = {
 			owns_core_province = 4700
 			4700 = {
-				OR = {
-					has_building = temple
-					has_building = cathedral
-				}
+				has_tax_building_trigger = yes
 			}
 		}
 		effect = {
@@ -1543,7 +1480,7 @@ ASU_manchu_branch_8 = {
 		trigger = { 
             726 = {
 				owned_by = ROOT
-				has_building = workshop
+				has_production_building_trigger = yes
 			}
 		}
 
@@ -1570,7 +1507,7 @@ ASU_manchu_branch_8 = {
 			}
 			num_of_owned_provinces_with = {
 				value = 30
-				has_building = workshop
+				has_production_building_trigger = yes
 			}
 		}
 
@@ -1815,11 +1752,7 @@ ASU_manchu_branch_9 = {
             OR = {
                 num_of_owned_provinces_with = {
                     value = 25
-                    has_building = barracks
-                }
-                num_of_owned_provinces_with = {
-                    value = 25
-                    has_building = training_fields
+                    has_manpower_building_trigger = yes
                 }
             }
 		}
@@ -1845,11 +1778,7 @@ ASU_manchu_branch_9 = {
             OR = {
                 num_of_owned_provinces_with = {
                     value = 75
-                    has_building = barracks
-                }
-                num_of_owned_provinces_with = {
-                    value = 75
-                    has_building = training_fields
+                    has_manpower_building_trigger = yes
                 }
             }
 		}

@@ -100,20 +100,10 @@ ASU_japan_branch_1 = {
 
 		trigger = { 
 			5043 = {
-				OR = {
-					has_building = fort_15th
-					has_building = fort_16th
-					has_building = fort_17th
-					has_building = fort_18th
-				}
+				has_fort_building_trigger = yes
 			}
 			5045 = {
-				OR = {
-					has_building = fort_15th
-					has_building = fort_16th
-					has_building = fort_17th
-					has_building = fort_18th
-				}
+				has_fort_building_trigger = yes
 			}
 			5044 = {
 				OR = {
@@ -143,20 +133,10 @@ ASU_japan_branch_1 = {
 
 		trigger = { 
 			5136 = {
-				OR = {
-					has_building = fort_15th
-					has_building = fort_16th
-					has_building = fort_17th
-					has_building = fort_18th
-				}
+				has_fort_building_trigger = yes
 			}
 			2155 = {
-				OR = {
-					has_building = fort_15th
-					has_building = fort_16th
-					has_building = fort_17th
-					has_building = fort_18th
-				}
+				has_fort_building_trigger = yes
 			}
 			5135 = {
 				OR = {
@@ -294,10 +274,7 @@ ASU_japan_branch_1 = {
 		trigger = { 
 			northern_kyushu = {
 				type = all
-				OR = {
-					has_building = shipyard
-					has_building = grand_shipyard	
-				}
+				has_shipyard_building_trigger = yes
 				owned_by = ROOT
 			}
 		}
@@ -320,10 +297,7 @@ ASU_japan_branch_1 = {
 		trigger = { 
 			west_kyushu_area = {
 				type = all
-				OR = {
-					has_building = shipyard
-					has_building = grand_shipyard	
-				}
+				has_shipyard_building_trigger = yes
 				owned_by = ROOT
 			}
 		}
@@ -358,10 +332,7 @@ ASU_japan_branch_2 = {
 
 		trigger = { 
 			1030 = {
-				OR = {
-					has_building = barracks
-					has_building = training_fields
-				}
+				has_manpower_building_trigger = yes
 			}
 		}
 
@@ -608,10 +579,7 @@ ASU_japan_branch_2 = {
 		trigger = { 
 			num_of_owned_provinces_with = {
 				value = 100
-				or = {
-					has_building = shipyard
-					has_building = grand_shipyard
-				}
+				has_shipyard_building_trigger = yes
 			}
 		}
 
@@ -657,10 +625,7 @@ ASU_japan_branch_2 = {
 		trigger = { 
 			central_kyushu_area = {
 				type = all
-				OR = {
-					has_building = shipyard
-					has_building = grand_shipyard	
-				}
+				has_shipyard_building_trigger = yes
 				owned_by = ROOT
 			}
 		}
@@ -683,10 +648,7 @@ ASU_japan_branch_2 = {
 		trigger = { 
 			kyushu_area = {
 				type = all
-				OR = {
-					has_building = shipyard
-					has_building = grand_shipyard	
-				}
+				has_shipyard_building_trigger = yes
 				owned_by = ROOT
 			}
 		}
@@ -877,20 +839,10 @@ ASU_japan_branch_3 = {
 
 		trigger = { 
 			5043 = {
-				OR = {
-					has_building = fort_15th
-					has_building = fort_16th
-					has_building = fort_17th
-					has_building = fort_18th
-				}
+				has_fort_building_trigger = yes
 			}
 			5045 = {
-				OR = {
-					has_building = fort_15th
-					has_building = fort_16th
-					has_building = fort_17th
-					has_building = fort_18th
-				}
+				has_fort_building_trigger = yes
 			}
 		}
 
@@ -1009,12 +961,7 @@ ASU_japan_branch_4 = {
 
 		trigger = { 
 			1030 ={
-				OR = {
-					has_building = fort_15th
-					has_building = fort_16th
-					has_building = fort_17th
-					has_building = fort_18th
-				}
+				has_fort_building_trigger = yes
 			}
 		}
 
@@ -1130,12 +1077,7 @@ ASU_japan_branch_4 = {
 
 		trigger = { 
 			5103 ={
-				OR = {
-					has_building = fort_15th
-					has_building = fort_16th
-					has_building = fort_17th
-					has_building = fort_18th
-				}
+				has_fort_building_trigger = yes
 			}
 		}
 
@@ -1159,12 +1101,7 @@ ASU_japan_branch_4 = {
 
 		trigger = { 
 			5114 ={
-				OR = {
-					has_building = fort_15th
-					has_building = fort_16th
-					has_building = fort_17th
-					has_building = fort_18th
-				}
+				has_fort_building_trigger = yes
 			}
 		}
 
@@ -1206,10 +1143,7 @@ ASU_japan_branch_4 = {
 		trigger = { 
 			num_of_owned_provinces_with = {
 				value = 100
-				or = {
-					has_building = barracks
-					has_building = training_fields
-				}
+				has_manpower_building_trigger = yes
 			}
 		}
 
@@ -1400,12 +1334,7 @@ ASU_japan_branch_5 = {
 
 		trigger = { 
 			1843 ={
-				OR = {
-					has_building = fort_15th
-					has_building = fort_16th
-					has_building = fort_17th
-					has_building = fort_18th
-				}
+				has_fort_building_trigger = yes
 			}
 		}
 
@@ -1564,11 +1493,7 @@ ASU_japan_branch_5 = {
 			OR = {
                 num_of_owned_provinces_with = {
                     value = 100
-                    has_building = workshop
-                }
-                num_of_owned_provinces_with = {
-                    value = 100
-                    has_building = counting_house
+                    has_production_building_trigger = yes
                 }
             }
 		}
@@ -1625,276 +1550,106 @@ ASU_japan_branch_5 = {
 			custom_trigger_tooltip = { 
 				tooltip = Japan_Fort_T
 				5043 = {
-					OR = {
-						has_building = fort_15th
-						has_building = fort_16th
-						has_building = fort_17th
-						has_building = fort_18th
-					}
+					has_fort_building_trigger = yes
 				}
 				5045 = {
-					OR = {
-						has_building = fort_15th
-						has_building = fort_16th
-						has_building = fort_17th
-						has_building = fort_18th
-					}
+					has_fort_building_trigger = yes
 				}
 				5049 = {
-					OR = {
-						has_building = fort_15th
-						has_building = fort_16th
-						has_building = fort_17th
-						has_building = fort_18th
-					}
+					has_fort_building_trigger = yes
 				}
 				4181 = {
-					OR = {
-						has_building = fort_15th
-						has_building = fort_16th
-						has_building = fort_17th
-						has_building = fort_18th
-					}
+					has_fort_building_trigger = yes
 				}
 				5052 = {
-					OR = {
-						has_building = fort_15th
-						has_building = fort_16th
-						has_building = fort_17th
-						has_building = fort_18th
-					}
+					has_fort_building_trigger = yes
 				}
 				5059 = {
-					OR = {
-						has_building = fort_15th
-						has_building = fort_16th
-						has_building = fort_17th
-						has_building = fort_18th
-					}
+					has_fort_building_trigger = yes
 				}
 				1818 = {
-					OR = {
-						has_building = fort_15th
-						has_building = fort_16th
-						has_building = fort_17th
-						has_building = fort_18th
-					}
+					has_fort_building_trigger = yes
 				}
 				5056 = {
-					OR = {
-						has_building = fort_15th
-						has_building = fort_16th
-						has_building = fort_17th
-						has_building = fort_18th
-					}
+					has_fort_building_trigger = yes
 				}
 				1017 = {
-					OR = {
-						has_building = fort_15th
-						has_building = fort_16th
-						has_building = fort_17th
-						has_building = fort_18th
-					}
+					has_fort_building_trigger = yes
 				}
 				4186 = {
-					OR = {
-						has_building = fort_15th
-						has_building = fort_16th
-						has_building = fort_17th
-						has_building = fort_18th
-					}
+					has_fort_building_trigger = yes
 				}
 				5061 = {
-					OR = {
-						has_building = fort_15th
-						has_building = fort_16th
-						has_building = fort_17th
-						has_building = fort_18th
-					}
+					has_fort_building_trigger = yes
 				}
 				5065 = {
-					OR = {
-						has_building = fort_15th
-						has_building = fort_16th
-						has_building = fort_17th
-						has_building = fort_18th
-					}
+					has_fort_building_trigger = yes
 				}
 				5069 = {
-					OR = {
-						has_building = fort_15th
-						has_building = fort_16th
-						has_building = fort_17th
-						has_building = fort_18th
-					}
+					has_fort_building_trigger = yes
 				}
 				1825 = {
-					OR = {
-						has_building = fort_15th
-						has_building = fort_16th
-						has_building = fort_17th
-						has_building = fort_18th
-					}
+					has_fort_building_trigger = yes
 				}
 				1830 = {
-					OR = {
-						has_building = fort_15th
-						has_building = fort_16th
-						has_building = fort_17th
-						has_building = fort_18th
-					}
+					has_fort_building_trigger = yes
 				}
 				1021 = {
-					OR = {
-						has_building = fort_15th
-						has_building = fort_16th
-						has_building = fort_17th
-						has_building = fort_18th
-					}
+					has_fort_building_trigger = yes
 				}
 				5078 = {
-					OR = {
-						has_building = fort_15th
-						has_building = fort_16th
-						has_building = fort_17th
-						has_building = fort_18th
-					}
+					has_fort_building_trigger = yes
 				}
 				1030 = {
-					OR = {
-						has_building = fort_15th
-						has_building = fort_16th
-						has_building = fort_17th
-						has_building = fort_18th
-					}
+					has_fort_building_trigger = yes
 				}
 				5077 = {
-					OR = {
-						has_building = fort_15th
-						has_building = fort_16th
-						has_building = fort_17th
-						has_building = fort_18th
-					}
+					has_fort_building_trigger = yes
 				}
 				5085 = {
-					OR = {
-						has_building = fort_15th
-						has_building = fort_16th
-						has_building = fort_17th
-						has_building = fort_18th
-					}
+					has_fort_building_trigger = yes
 				}
 				5084 = {
-					OR = {
-						has_building = fort_15th
-						has_building = fort_16th
-						has_building = fort_17th
-						has_building = fort_18th
-					}
+					has_fort_building_trigger = yes
 				}
 				1843 = {
-					OR = {
-						has_building = fort_15th
-						has_building = fort_16th
-						has_building = fort_17th
-						has_building = fort_18th
-					}
+					has_fort_building_trigger = yes
 				}
 				5088 = {
-					OR = {
-						has_building = fort_15th
-						has_building = fort_16th
-						has_building = fort_17th
-						has_building = fort_18th
-					}
+					has_fort_building_trigger = yes
 				}
 				5099 = {
-					OR = {
-						has_building = fort_15th
-						has_building = fort_16th
-						has_building = fort_17th
-						has_building = fort_18th
-					}
+					has_fort_building_trigger = yes
 				}
 				5097 = {
-					OR = {
-						has_building = fort_15th
-						has_building = fort_16th
-						has_building = fort_17th
-						has_building = fort_18th
-					}
+					has_fort_building_trigger = yes
 				}
 				5103 = {
-					OR = {
-						has_building = fort_15th
-						has_building = fort_16th
-						has_building = fort_17th
-						has_building = fort_18th
-					}
+					has_fort_building_trigger = yes
 				}
 				5109 = {
-					OR = {
-						has_building = fort_15th
-						has_building = fort_16th
-						has_building = fort_17th
-						has_building = fort_18th
-					}
+					has_fort_building_trigger = yes
 				}
 				5112 = {
-					OR = {
-						has_building = fort_15th
-						has_building = fort_16th
-						has_building = fort_17th
-						has_building = fort_18th
-					}
+					has_fort_building_trigger = yes
 				}
 				4192 = {
-					OR = {
-						has_building = fort_15th
-						has_building = fort_16th
-						has_building = fort_17th
-						has_building = fort_18th
-					}
+					has_fort_building_trigger = yes
 				}
 				5114 = {
-					OR = {
-						has_building = fort_15th
-						has_building = fort_16th
-						has_building = fort_17th
-						has_building = fort_18th
-					}
+					has_fort_building_trigger = yes
 				}
 				5117 = {
-					OR = {
-						has_building = fort_15th
-						has_building = fort_16th
-						has_building = fort_17th
-						has_building = fort_18th
-					}
+					has_fort_building_trigger = yes
 				}
 				5123 = {
-					OR = {
-						has_building = fort_15th
-						has_building = fort_16th
-						has_building = fort_17th
-						has_building = fort_18th
-					}
+					has_fort_building_trigger = yes
 				}
 				5127 = {
-					OR = {
-						has_building = fort_15th
-						has_building = fort_16th
-						has_building = fort_17th
-						has_building = fort_18th
-					}
+					has_fort_building_trigger = yes
 				}
 				5126 = {
-					OR = {
-						has_building = fort_15th
-						has_building = fort_16th
-						has_building = fort_17th
-						has_building = fort_18th
-					}
+					has_fort_building_trigger = yes
 				}
 				
 			}
@@ -1937,10 +1692,7 @@ ASU_japan_branch_5 = {
 			eastern_chubu_area = {
 				type = all
 				owned_by = ROOT
-				OR = {
-					has_building = workshop
-					has_building = counting_house
-				}
+				has_production_building_trigger = yes
 			}
 		}
 
@@ -1986,10 +1738,7 @@ ASU_japan_branch_5 = {
 			eastern_chubu_area = {
 				type = all
 				owned_by = ROOT
-				OR = {
-					has_building = barracks
-					has_building = training_fields
-				}
+				has_manpower_building_trigger = yes
 			}
 		}
 
@@ -2047,10 +1796,7 @@ ASU_japan_branch_6 = {
 
 		trigger = { 
 			4360 = {
-				OR = {
-					has_building = barracks
-					has_building = training_fields
-				}
+				has_manpower_building_trigger = yes
 			}
 		}
 
@@ -2265,10 +2011,7 @@ ASU_japan_branch_6 = {
 		trigger = { 
 			saigoku_area = {
 				type = all
-				OR = {
-					has_building = barracks
-					has_building = training_fields	
-				}
+				has_manpower_building_trigger = yes
 				owned_by = ROOT
 				
 			}
@@ -2292,10 +2035,7 @@ ASU_japan_branch_6 = {
 		trigger = { 
 			sanindo_area = {
 				type = all
-				OR = {
-					has_building = barracks
-					has_building = training_fields	
-				}
+				has_manpower_building_trigger = yes
 				owned_by = ROOT
 				
 			}
@@ -2319,10 +2059,7 @@ ASU_japan_branch_6 = {
 		trigger = { 
 			tottori_area = {
 				type = all
-				OR = {
-					has_building = barracks
-					has_building = training_fields	
-				}
+				has_manpower_building_trigger = yes
 				owned_by = ROOT
 				
 			}
@@ -2386,13 +2123,12 @@ ASU_japan_branch_6 = {
 			NOT = { num_of_loans = 10 }
 			treasury = 2000
             OR = {
-                num_of_owned_provinces_with = {
+				num_of_owned_provinces_with = {
 				    value = 25
-				    has_building = courthouse
-			    }
-                num_of_owned_provinces_with = {
-				    value = 25
-				    has_building = town_hall
+						or ={
+							has_building = courthouse
+							has_building = town_hall
+						}
 			    }
             }
 		}
@@ -2420,11 +2156,10 @@ ASU_japan_branch_6 = {
             OR = {
                 num_of_owned_provinces_with = {
 				    value = 75
-				    has_building = courthouse
-			    }
-                num_of_owned_provinces_with = {
-				    value = 75
-				    has_building = town_hall
+						or ={
+							has_building = courthouse
+							has_building = town_hall
+						}
 			    }
             }
 		}
@@ -2700,10 +2435,7 @@ ASU_japan_branch_7 = {
 		trigger = { 
 			kyoto_area = {
 				type = all
-				OR = {
-					has_building = workshop
-					has_building = counting_house	
-				}
+				has_production_building_trigger = yes
 				owned_by = ROOT
 			}
 		}
@@ -2749,10 +2481,7 @@ ASU_japan_branch_7 = {
 		trigger = { 
 			kyoto_area = {
 				type = all
-				OR = {
-					has_building = barracks
-					has_building = training_fields	
-				}
+				has_manpower_building_trigger = yes
 				owned_by = ROOT
 			}
 		}
@@ -2778,15 +2507,7 @@ ASU_japan_branch_7 = {
             OR = {
                 num_of_owned_provinces_with = {
 				    value = 25
-				    has_building = marketplace
-			    }
-                num_of_owned_provinces_with = {
-				    value = 25
-				    has_building = trade_depot
-			    }
-                num_of_owned_provinces_with = {
-				    value = 25
-				    has_building = stock_exchange
+				    has_trade_building_trigger = yes
 			    }
             }
 		}
@@ -2814,15 +2535,7 @@ ASU_japan_branch_7 = {
             OR = {
                 num_of_owned_provinces_with = {
 				    value = 75
-				    has_building = marketplace
-			    }
-                num_of_owned_provinces_with = {
-				    value = 75
-				    has_building = trade_depot
-			    }
-                num_of_owned_provinces_with = {
-				    value = 75
-				    has_building = stock_exchange
+				    has_trade_building_trigger = yes
 			    }
             }
 		}
@@ -2861,10 +2574,7 @@ ASU_japan_branch_8 = {
 
 		trigger = {
 			1030 = {
-				OR = {
-					has_building = workshop
-					has_building = counting_house
-				}
+				has_production_building_trigger = yes
 			} 
 		}
 
@@ -2922,10 +2632,7 @@ ASU_japan_branch_8 = {
 
 		trigger = { 
 			5088 = {
-				OR = {
-					has_building = shipyard
-					has_building = grand_shipyard
-				}
+				has_shipyard_building_trigger = yes
 			}
 		}
 
@@ -3051,10 +2758,7 @@ ASU_japan_branch_8 = {
 		trigger = { 
 			tokyo_area = {
 				type = all
-				OR = {
-					has_building = workshop
-					has_building = counting_house	
-				}
+				has_production_building_trigger = yes
 				owned_by = ROOT
 			}
 		}
@@ -3100,10 +2804,7 @@ ASU_japan_branch_8 = {
 		trigger = { 
 			tokyo_area = {
 				type = all
-				OR = {
-					has_building = barracks
-					has_building = training_fields	
-				}
+				has_manpower_building_trigger = yes
 				owned_by = ROOT
 			}
 		}
@@ -3154,11 +2855,7 @@ ASU_japan_branch_8 = {
             OR = {
                 num_of_owned_provinces_with = {
                     value = 25
-                    has_building = barracks
-                }
-                num_of_owned_provinces_with = {
-                    value = 25
-                    has_building = training_fields
+					has_manpower_building_trigger = yes
                 }
             }
 		}
@@ -3186,11 +2883,7 @@ ASU_japan_branch_8 = {
             OR = {
                 num_of_owned_provinces_with = {
                     value = 75
-                    has_building = barracks
-                }
-                num_of_owned_provinces_with = {
-                    value = 75
-                    has_building = training_fields
+                    has_manpower_building_trigger = yes
                 }
             }
 		}
@@ -3334,10 +3027,7 @@ ASU_japan_branch_9 = {
 
 		trigger = { 
 			5088 = {
-				OR = {
-					has_building = barracks
-					has_building = training_fields
-				}
+				has_manpower_building_trigger = yes
 			}
 		}
 
@@ -3358,12 +3048,7 @@ ASU_japan_branch_9 = {
 
 		trigger = { 
 			5088 = {
-				OR = {
-					has_building = fort_15th
-					has_building = fort_16th
-					has_building = fort_17th
-					has_building = fort_18th
-				}
+				has_fort_building_trigger = yes
 			}
 		}
 
@@ -3404,12 +3089,7 @@ ASU_japan_branch_9 = {
 
 		trigger = { 
 			1020 = {
-				OR = {
-					has_building = fort_15th
-					has_building = fort_16th
-					has_building = fort_17th
-					has_building = fort_18th
-				}
+				has_fort_building_trigger = yes
 			}
 		}
 
@@ -3479,10 +3159,7 @@ ASU_japan_branch_9 = {
 		trigger = { 
 			shikoku_area = {
 				type = all
-				OR = {
-					has_building = barracks
-					has_building = training_fields	
-				}
+				has_manpower_building_trigger = yes
 				owned_by = ROOT
 			}
 		}
@@ -3505,10 +3182,7 @@ ASU_japan_branch_9 = {
 		trigger = {
 			east_shikoku_area = {
 				type = all
-				OR = {
-					has_building = barracks
-					has_building = training_fields	
-				}
+				has_manpower_building_trigger = yes
 				owned_by = ROOT
 			} 
 		}
@@ -3531,10 +3205,7 @@ ASU_japan_branch_9 = {
 		trigger = { 
 			fukushima_area = {
 				type = all
-				OR = {
-					has_building = barracks
-					has_building = training_fields	
-				}
+				has_manpower_building_trigger = yes
 				owned_by = ROOT
 				
 			}
@@ -3558,10 +3229,7 @@ ASU_japan_branch_9 = {
 		trigger = { 
 			eastern_kanto_area = {
 				type = all
-				OR = {
-					has_building = barracks
-					has_building = training_fields	
-				}
+				has_manpower_building_trigger = yes
 				owned_by = ROOT
 				
 			}
@@ -3795,10 +3463,7 @@ ASU_japan_branch_10 = {
 
 		trigger = { 
 			5088 = {
-				OR = {
-					has_building = workshop
-					has_building = counting_house
-				}
+				has_production_building_trigger = yes
 			}
 		}
 
@@ -3935,10 +3600,7 @@ ASU_japan_branch_10 = {
 		trigger = { 
 			northern_kyushu = {
 				type = all
-				OR = {
-					has_building = barracks
-					has_building = training_fields	
-				}
+				has_manpower_building_trigger = yes
 				owned_by = ROOT
 				
 			}
@@ -3962,10 +3624,7 @@ ASU_japan_branch_10 = {
 		trigger = { 
 			west_kyushu_area = {
 				type = all
-				OR = {
-					has_building = barracks
-					has_building = training_fields	
-				}
+				has_manpower_building_trigger = yes
 				owned_by = ROOT
 				
 			}
@@ -3989,10 +3648,7 @@ ASU_japan_branch_10 = {
 		trigger = { 
 			central_kyushu_area = {
 				type = all
-				OR = {
-					has_building = barracks
-					has_building = training_fields	
-				}
+				has_manpower_building_trigger = yes
 				owned_by = ROOT
 				
 			}
@@ -4016,10 +3672,7 @@ ASU_japan_branch_10 = {
 		trigger = { 
 			kyushu_area = {
 				type = all
-				OR = {
-					has_building = barracks
-					has_building = training_fields	
-				}
+				has_manpower_building_trigger = yes
 				owned_by = ROOT
 				
 			}

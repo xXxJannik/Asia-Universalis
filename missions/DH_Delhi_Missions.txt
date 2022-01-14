@@ -26,15 +26,8 @@ dlh_slot_1 = {
 		trigger = {
 			owns_core_province = 524
 			524 = {
-				OR = {
-					has_building = temple
-					has_building = cathedral
-				}
-				OR = {
-					has_building = marketplace
-					has_building = trade_depot
-					has_building = stock_exchange
-				}
+				has_tax_building_trigger = yes
+				has_trade_building_trigger = yes
 				development = 25
 			}
 		}

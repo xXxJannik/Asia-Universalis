@@ -190,18 +190,9 @@ ASU_wuu_branch_2 = {
                 area = nanjing_area
             }
             AND = {
-                OR = {
-                    NOT = { has_building = workshop }
-                    NOT = { has_building = counting_house }
-                }
-                OR = {
-                    NOT = { has_building = temple }
-                    NOT = { has_building = cathedral }
-                }
-                OR = {
-                    NOT = { has_building = barracks }
-                    NOT = { has_building = training_fields }
-                }
+                has_production_building_trigger = yes
+                has_tax_building_trigger = yes
+                has_manpower_building_trigger = yes
             }
 		}
 
@@ -209,34 +200,16 @@ ASU_wuu_branch_2 = {
 			nantong_area = {
                 type = all
                 owned_by = ROOT
-                OR = {
-                    has_building = workshop
-                    has_building = counting_house
-                }
-                OR = {
-                    has_building = temple
-                    has_building = cathedral
-                }
-                OR = {
-                    has_building = barracks
-                    has_building = training_fields
-                }
+                has_production_building_trigger = yes
+                has_tax_building_trigger = yes
+                has_manpower_building_trigger = yes
             }
             nanjing_area = {
                 type = all
                 owned_by = ROOT
-                OR = {
-                    has_building = workshop
-                    has_building = counting_house
-                }
-                OR = {
-                    has_building = temple
-                    has_building = cathedral
-                }
-                OR = {
-                    has_building = barracks
-                    has_building = training_fields
-                }
+                has_production_building_trigger = yes
+                has_tax_building_trigger = yes
+                has_manpower_building_trigger = yes
             }
 		}
 
@@ -385,18 +358,9 @@ ASU_wuu_branch_3 = {
                 area = shanghai_area
             }
             AND = {
-                OR = {
-                    NOT = { has_building = workshop }
-                    NOT = { has_building = counting_house }
-                }
-                OR = {
-                    NOT = { has_building = temple }
-                    NOT = { has_building = cathedral }
-                }
-                OR = {
-                    NOT = { has_building = barracks }
-                    NOT = { has_building = training_fields }
-                }
+                has_production_building_trigger = yes
+                has_tax_building_trigger = yes
+                has_manpower_building_trigger = yes
             }
 		}
 
@@ -404,34 +368,16 @@ ASU_wuu_branch_3 = {
 			jiaxing_area = {
                 type = all
                 owned_by = ROOT
-                OR = {
-                    has_building = workshop
-                    has_building = counting_house
-                }
-                OR = {
-                    has_building = temple
-                    has_building = cathedral
-                }
-                OR = {
-                    has_building = barracks
-                    has_building = training_fields
-                }
+                has_production_building_trigger = yes
+                has_tax_building_trigger = yes
+                has_manpower_building_trigger = yes
             }
             shanghai_area = {
                 type = all
                 owned_by = ROOT
-                OR = {
-                    has_building = workshop
-                    has_building = counting_house
-                }
-                OR = {
-                    has_building = temple
-                    has_building = cathedral
-                }
-                OR = {
-                    has_building = barracks
-                    has_building = training_fields
-                }
+                has_production_building_trigger = yes
+                has_tax_building_trigger = yes
+                has_manpower_building_trigger = yes
             }
 		}
 
@@ -1575,15 +1521,7 @@ ASU_wuu_reformation_branch_2 = {
             OR = {
                 num_of_owned_provinces_with = {
 				    value = 25
-				    has_building = marketplace
-			    }
-                num_of_owned_provinces_with = {
-				    value = 25
-				    has_building = trade_depot
-			    }
-                num_of_owned_provinces_with = {
-				    value = 25
-				    has_building = stock_exchange
+				    has_tax_building_trigger = yes
 			    }
             }
 		}
@@ -1611,15 +1549,7 @@ ASU_wuu_reformation_branch_2 = {
             OR = {
                 num_of_owned_provinces_with = {
 				    value = 75
-				    has_building = marketplace
-			    }
-                num_of_owned_provinces_with = {
-				    value = 75
-				    has_building = trade_depot
-			    }
-                num_of_owned_provinces_with = {
-				    value = 75
-				    has_building = stock_exchange
+				    has_tax_building_trigger = yes
 			    }
             }
 		}
@@ -1749,11 +1679,7 @@ ASU_wuu_reformation_branch_4 = {
             OR = {
                 num_of_owned_provinces_with = {
                     value = 25
-                    has_building = barracks
-                }
-                num_of_owned_provinces_with = {
-                    value = 25
-                    has_building = training_fields
+                    has_manpower_building_trigger = yes
                 }
             }
 		}
@@ -1781,11 +1707,7 @@ ASU_wuu_reformation_branch_4 = {
             OR = {
                 num_of_owned_provinces_with = {
                     value = 75
-                    has_building = barracks
-                }
-                num_of_owned_provinces_with = {
-                    value = 75
-                    has_building = training_fields
+                    has_manpower_building_trigger = yes
                 }
             }
 		}

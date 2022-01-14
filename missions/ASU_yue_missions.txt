@@ -907,18 +907,9 @@ ASU_yue_branch_7 = {
 		provinces_to_highlight = {
 			area = guangzhou_area
 			AND = {
-                OR = {
-                    NOT = { has_building = workshop }
-                    NOT = { has_building = counting_house }
-                }
-                OR = {
-                    NOT = { has_building = temple }
-                    NOT = { has_building = cathedral }
-                }
-                OR = {
-                    NOT = { has_building = barracks }
-                    NOT = { has_building = training_fields }
-                }
+                has_production_building_trigger = yes
+                has_tax_building_trigger = yes
+                has_manpower_building_trigger = yes
             }
 		}
 
@@ -926,18 +917,9 @@ ASU_yue_branch_7 = {
 			guangzhou_area = {
 				type = all
 				owned_by = ROOT
-				OR = {
-                    has_building = workshop
-                    has_building = counting_house
-                }
-                OR = {
-                    has_building = temple
-                    has_building = cathedral
-                }
-                OR = {
-                    has_building = barracks
-                    has_building = training_fields
-                }
+				has_production_building_trigger = yes
+                has_tax_building_trigger = yes
+                has_manpower_building_trigger = yes
 			}
 		}
 
@@ -1080,18 +1062,9 @@ ASU_yue_branch_8 = {
 				area = shanwei_area
 			}
 			AND = {
-                OR = {
-                    NOT = { has_building = workshop }
-                    NOT = { has_building = counting_house }
-                }
-                OR = {
-                    NOT = { has_building = temple }
-                    NOT = { has_building = cathedral }
-                }
-                OR = {
-                    NOT = { has_building = barracks }
-                    NOT = { has_building = training_fields }
-                }
+                has_production_building_trigger = yes
+                has_tax_building_trigger = yes
+                has_manpower_building_trigger = yes
             }
 		}
 
@@ -1099,34 +1072,16 @@ ASU_yue_branch_8 = {
 			yangjiang_area = {
 				type = all
                 owned_by = ROOT
-                OR = {
-                    has_building = workshop
-                    has_building = counting_house
-                }
-                OR = {
-                    has_building = temple
-                    has_building = cathedral
-                }
-                OR = {
-                    has_building = barracks
-                    has_building = training_fields
-                }
+                has_production_building_trigger = yes
+                has_tax_building_trigger = yes
+                has_manpower_building_trigger = yes
 			}
 			shanwei_area = {
 				type = all
                 owned_by = ROOT
-                OR = {
-                    has_building = workshop
-                    has_building = counting_house
-                }
-                OR = {
-                    has_building = temple
-                    has_building = cathedral
-                }
-                OR = {
-                    has_building = barracks
-                    has_building = training_fields
-                }
+                has_production_building_trigger = yes
+                has_tax_building_trigger = yes
+                has_manpower_building_trigger = yes
 			}
 		}
 
@@ -1350,15 +1305,9 @@ ASU_yue_branch_10 = {
 			668 = {
 				owned_by = ROOT
 				province_has_center_of_trade_of_level = 3
-				OR = {
-					has_building = marketplace
-					has_building = trade_depot
-					has_building = stock_exchange
-				}
-				OR = {
-					has_building = workshop
-					has_building = counting_house
-				}
+				has_production_building_trigger = yes
+                has_trade_building_trigger = yes
+                
 			}
 		}
 
@@ -1556,15 +1505,7 @@ ASU_yue_reformation_branch_2 = {
             OR = {
                 num_of_owned_provinces_with = {
 				    value = 25
-				    has_building = marketplace
-			    }
-                num_of_owned_provinces_with = {
-				    value = 25
-				    has_building = trade_depot
-			    }
-                num_of_owned_provinces_with = {
-				    value = 25
-				    has_building = stock_exchange
+				    has_trade_building_trigger = yes
 			    }
             }
 		}
@@ -1592,15 +1533,7 @@ ASU_yue_reformation_branch_2 = {
             OR = {
                 num_of_owned_provinces_with = {
 				    value = 75
-				    has_building = marketplace
-			    }
-                num_of_owned_provinces_with = {
-				    value = 75
-				    has_building = trade_depot
-			    }
-                num_of_owned_provinces_with = {
-				    value = 75
-				    has_building = stock_exchange
+				    has_trade_building_trigger = yes
 			    }
             }
 		}
@@ -1730,11 +1663,7 @@ ASU_yue_reformation_branch_4 = {
             OR = {
                 num_of_owned_provinces_with = {
                     value = 25
-                    has_building = barracks
-                }
-                num_of_owned_provinces_with = {
-                    value = 25
-                    has_building = training_fields
+                    has_manpower_building_trigger = yes
                 }
             }
 		}
@@ -1762,11 +1691,7 @@ ASU_yue_reformation_branch_4 = {
             OR = {
                 num_of_owned_provinces_with = {
                     value = 75
-                    has_building = barracks
-                }
-                num_of_owned_provinces_with = {
-                    value = 75
-                    has_building = training_fields
+                    has_manpower_building_trigger = yes
                 }
             }
 		}
