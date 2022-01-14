@@ -1,6 +1,6 @@
 ﻿l_english:
  delbuild_title:0 "§R§ Delete Buildings"
- delbuild_desc:0 "§R§ This Decision opens an menu to choose to delete all Buildings of one category."
+ delbuild_desc:0 "§R§ This Decision opens a menu to choose to delete all Buildings of one category."
  
 
  destroybuild_events.1.t:0 "§R§ Building delete menu"
