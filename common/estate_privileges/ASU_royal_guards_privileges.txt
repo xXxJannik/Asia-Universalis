@@ -32,7 +32,7 @@ estate_ASU_royal_guards_privilege_2 = {
 
 	benefits = {
 		add_country_modifier = { 
-			name = ASU_royal_guards_modifier_1
+			name = "ASU_royal_guards_modifier_1"
 			duration = -1
 			}
 		}
@@ -53,7 +53,7 @@ estate_ASU_royal_guards_privilege_3 = {
 
 	benefits = {
 		add_country_modifier = { 
-			name = ASU_royal_guards_modifier_2
+			name = "ASU_royal_guards_modifier_2"
 			duration = -1
 			}
 		}
@@ -74,7 +74,7 @@ estate_ASU_royal_guards_privilege_4 = {
 
 	benefits = {
 		add_country_modifier = { 
-			name = ASU_royal_guards_modifier_3
+			name = "ASU_royal_guards_modifier_3"
 			duration = -1
 			}
 		}
@@ -95,7 +95,7 @@ estate_ASU_royal_guards_privilege_5 = {
 
 	benefits = {
 		add_country_modifier = { 
-			name = ASU_royal_guards_modifier_4
+			name = "ASU_royal_guards_modifier_4"
 			duration = -1
 			}
 		}
@@ -116,7 +116,7 @@ estate_ASU_royal_guards_privilege_6 = {
 
 	benefits = {
 		add_country_modifier = { 
-			name = ASU_royal_guards_modifier_5
+			name = "ASU_royal_guards_modifier_5"
 			duration = -1
 			}
 		}
@@ -137,7 +137,7 @@ estate_ASU_royal_guards_privilege_7 = {
 
 	benefits = {
 		add_country_modifier = { 
-			name = ASU_royal_guards_modifier_6
+			name = "ASU_royal_guards_modifier_6"
 			duration = -1
 			}
 		}
@@ -158,7 +158,7 @@ estate_ASU_royal_guards_privilege_8 = {
 
 	benefits = {
 		add_country_modifier = { 
-			name = ASU_royal_guards_modifier_7
+			name = "ASU_royal_guards_modifier_7"
 			duration = -1
 			}
 		}
