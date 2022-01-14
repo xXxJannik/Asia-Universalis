@@ -484,28 +484,13 @@ ASU_australia_branch_5 = {
 
 		trigger = { 
 			5871 = {
-                OR = {
-                    has_building = fort_15th
-                    has_building = fort_16th
-                    has_building = fort_17th
-                    has_building = fort_18th
-                }
+                has_fort_building_trigger = yes
             }
             5861 = {
-                OR = {
-                    has_building = fort_15th
-                    has_building = fort_16th
-                    has_building = fort_17th
-                    has_building = fort_18th
-                }
+                has_fort_building_trigger = yes
             }
             5863 = {
-                OR = {
-                    has_building = fort_15th
-                    has_building = fort_16th
-                    has_building = fort_17th
-                    has_building = fort_18th
-                }
+                has_fort_building_trigger = yes
             }
 		}
 

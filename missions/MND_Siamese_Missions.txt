@@ -1097,18 +1097,9 @@ ASU_siam_branch_7 = {
 			4831 = {
 				owned_by = ROOT
 				development = 20
-				OR = {
-					has_building = barracks
-					has_building = training_fields
-				}
-				OR = {
-					has_building = temple
-					has_building = cathedral
-				}
-				OR = {
-					has_building = workshop
-					has_building = counting_house
-				}
+				has_tax_building_trigger = yes
+				has_production_building_trigger = yes
+				has_manpower_building_trigger = yes
 			}
 		}
 		effect = {
@@ -1128,18 +1119,9 @@ ASU_siam_branch_7 = {
 			600 = {
 				owned_by = ROOT
 				development = 30
-				OR = {
-					has_building = barracks
-					has_building = training_fields
-				}
-				OR = {
-					has_building = temple
-					has_building = cathedral
-				}
-				OR = {
-					has_building = workshop
-					has_building = counting_house
-				}
+				has_tax_building_trigger = yes
+				has_production_building_trigger = yes
+				has_manpower_building_trigger = yes
 			}
 		}
 		effect = {

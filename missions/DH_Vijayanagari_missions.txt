@@ -597,8 +597,7 @@ vij_religious_missions = {
 			num_of_owned_provinces_with = {
 				value = 8
 				OR = {
-					has_building = temple
-					has_building = cathedral
+					has_tax_building_trigger = yes
 				}
 				NOT = {
 					culture = ROOT

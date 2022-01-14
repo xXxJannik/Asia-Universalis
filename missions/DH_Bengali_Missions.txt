@@ -933,11 +933,8 @@ bng_slot_5 = {
 			}
 			NOT = {
 				OR = {
-					has_building = temple
-					has_building = cathedral
-					has_building = marketplace
-					has_building = trade_depot
-					has_building = stock_exchange
+					has_tax_building_trigger = yes
+						has_trade_building_trigger = yes
 				}
 			}
 		}
@@ -947,11 +944,8 @@ bng_slot_5 = {
 				custom_trigger_tooltip = {
 					tooltip = clear_delta_tooltip
 					OR = {
-						has_building = temple
-						has_building = cathedral
-						has_building = marketplace
-						has_building = trade_depot
-						has_building = stock_exchange
+						has_tax_building_trigger = yes
+						has_trade_building_trigger = yes
 					}
 				}
 			}
@@ -960,11 +954,8 @@ bng_slot_5 = {
 				custom_trigger_tooltip = {
 					tooltip = clear_delta_tooltip
 					OR = {
-						has_building = temple
-						has_building = cathedral
-						has_building = marketplace
-						has_building = trade_depot
-						has_building = stock_exchange
+						has_tax_building_trigger = yes
+						has_trade_building_trigger = yes
 					}
 				}
 			}
@@ -973,11 +964,8 @@ bng_slot_5 = {
 				custom_trigger_tooltip = {
 					tooltip = clear_delta_tooltip
 					OR = {
-						has_building = temple
-						has_building = cathedral
-						has_building = marketplace
-						has_building = trade_depot
-						has_building = stock_exchange
+						has_tax_building_trigger = yes
+						has_trade_building_trigger = yes
 					}
 				}
 			}
@@ -986,11 +974,8 @@ bng_slot_5 = {
 				custom_trigger_tooltip = {
 					tooltip = clear_delta_tooltip
 					OR = {
-						has_building = temple
-						has_building = cathedral
-						has_building = marketplace
-						has_building = trade_depot
-						has_building = stock_exchange
+						has_tax_building_trigger = yes
+						has_trade_building_trigger = yes
 					}
 				}
 			}
@@ -999,11 +984,8 @@ bng_slot_5 = {
 				custom_trigger_tooltip = {
 					tooltip = clear_delta_tooltip
 					OR = {
-						has_building = temple
-						has_building = cathedral
-						has_building = marketplace
-						has_building = trade_depot
-						has_building = stock_exchange
+						has_tax_building_trigger = yes
+						has_trade_building_trigger = yes
 					}
 				}
 			}
@@ -1012,11 +994,8 @@ bng_slot_5 = {
 				custom_trigger_tooltip = {
 					tooltip = clear_delta_tooltip
 					OR = {
-						has_building = temple
-						has_building = cathedral
-						has_building = marketplace
-						has_building = trade_depot
-						has_building = stock_exchange
+						has_tax_building_trigger = yes
+						has_trade_building_trigger = yes
 					}
 				}
 			}
@@ -1025,11 +1004,8 @@ bng_slot_5 = {
 				custom_trigger_tooltip = {
 					tooltip = clear_delta_tooltip
 					OR = {
-						has_building = temple
-						has_building = cathedral
-						has_building = marketplace
-						has_building = trade_depot
-						has_building = stock_exchange
+						has_tax_building_trigger = yes
+						has_trade_building_trigger = yes
 					}
 				}
 			}

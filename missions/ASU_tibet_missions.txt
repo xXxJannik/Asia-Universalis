@@ -110,57 +110,27 @@ ASU_tibet_branch_2 = {
         trigger = {
             4516 = {
                 owned_by = ROOT
-                OR = {
-                    has_building = fort_15th
-                    has_building = fort_16th
-                    has_building = fort_17th
-                    has_building = fort_18th
-                }
+                has_fort_building_trigger = yes
             }
             4514 = {
                 owned_by = ROOT
-                OR = {
-                    has_building = fort_15th
-                    has_building = fort_16th
-                    has_building = fort_17th
-                    has_building = fort_18th
-                }
+                has_fort_building_trigger = yes
             }
             4517 = {
                 owned_by = ROOT
-                OR = {
-                    has_building = fort_15th
-                    has_building = fort_16th
-                    has_building = fort_17th
-                    has_building = fort_18th
-                }
+                has_fort_building_trigger = yes
             }
             2132 = {
                 owned_by = ROOT
-                OR = {
-                    has_building = fort_15th
-                    has_building = fort_16th
-                    has_building = fort_17th
-                    has_building = fort_18th
-                }
+                has_fort_building_trigger = yes
             }
             5913 = {
                 owned_by = ROOT
-                OR = {
-                    has_building = fort_15th
-                    has_building = fort_16th
-                    has_building = fort_17th
-                    has_building = fort_18th
-                }
+                has_fort_building_trigger = yes
             }
             2074 = {
                 owned_by = ROOT
-                OR = {
-                    has_building = fort_15th
-                    has_building = fort_16th
-                    has_building = fort_17th
-                    has_building = fort_18th
-                }
+                has_fort_building_trigger = yes
             }
         }
 
@@ -187,57 +157,27 @@ ASU_tibet_branch_2 = {
         trigger = {
             739 = {
                 owned_by = ROOT
-                OR = {
-                    has_building = fort_15th
-                    has_building = fort_16th
-                    has_building = fort_17th
-                    has_building = fort_18th
-                }
+                has_fort_building_trigger = yes
             }
             2192 = {
                 owned_by = ROOT
-                OR = {
-                    has_building = fort_15th
-                    has_building = fort_16th
-                    has_building = fort_17th
-                    has_building = fort_18th
-                }
+                has_fort_building_trigger = yes
             }
             711 = {
                 owned_by = ROOT
-                OR = {
-                    has_building = fort_15th
-                    has_building = fort_16th
-                    has_building = fort_17th
-                    has_building = fort_18th
-                }
+                has_fort_building_trigger = yes
             }
             706 = {
                 owned_by = ROOT
-                OR = {
-                    has_building = fort_15th
-                    has_building = fort_16th
-                    has_building = fort_17th
-                    has_building = fort_18th
-                }
+                has_fort_building_trigger = yes
             }
             4204 = {
                 owned_by = ROOT
-                OR = {
-                    has_building = fort_15th
-                    has_building = fort_16th
-                    has_building = fort_17th
-                    has_building = fort_18th
-                }
+                has_fort_building_trigger = yes
             }
             2134 = {
                 owned_by = ROOT
-                OR = {
-                    has_building = fort_15th
-                    has_building = fort_16th
-                    has_building = fort_17th
-                    has_building = fort_18th
-                }
+                has_fort_building_trigger = yes
             }
         }
 
@@ -500,12 +440,7 @@ ASU_tibet_branch_5 = {
         trigger = {
             565 = {
                 owned_by = ROOT
-                OR = {
-                    has_building = fort_15th
-                    has_building = fort_16th
-                    has_building = fort_17th
-                    has_building = fort_18th
-                }
+                has_fort_building_trigger = yes
             }
         }
 
@@ -734,15 +669,9 @@ ASU_tibet_branch_8 = {
             5881 = {
                 owned_by = ROOT
                 development = 30
-                OR = {
-                    has_building = workshop
-                    has_building = counting_house
-                }
-                OR = {
-                    has_building = barracks
-                    has_building = training_fields
-                }
-                has_building = temple
+                has_production_building_trigger = yes
+                has_manpower_building_trigger = yes
+                has_tax_building_trigger = yes
                 has_manufactory_trigger = yes
             }
         }
@@ -822,15 +751,9 @@ ASU_tibet_branch_9 = {
             677 = {
                 owned_by = ROOT
                 development = 30
-                OR = {
-                    has_building = workshop
-                    has_building = counting_house
-                }
-                OR = {
-                    has_building = barracks
-                    has_building = training_fields
-                }
-                has_building = temple
+                has_production_building_trigger = yes
+                has_manpower_building_trigger = yes
+                has_tax_building_trigger = yes
                 has_manufactory_trigger = yes
                 province_has_center_of_trade_of_level = 3
             }
@@ -889,7 +812,7 @@ ASU_tibet_branch_10 = {
                 value = 20
                 trade_goods = wool
                 has_manufactory_trigger = yes
-                has_building = workshop
+                has_production_building_trigger = yes
             }
         }
 

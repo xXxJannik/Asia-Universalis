@@ -182,19 +182,13 @@ ASU_dzungar_branch_3 = {
 			2118 = {
                 owned_by = ROOT
                 base_production = 8
-                OR = {
-                    has_building = workshop
-                    has_building = counting_house
-                }
+                has_production_building_trigger = yes
                 has_manufactory_trigger = yes
             }
             713 = {
                 owned_by = ROOT
                 base_production = 8
-                OR = {
-                    has_building = workshop
-                    has_building = counting_house
-                }
+                has_production_building_trigger = yes
                 has_manufactory_trigger = yes
             }
 		}
@@ -589,28 +583,19 @@ ASU_dzungar_branch_8 = {
 		trigger = { 
 			718 = {
                 owned_by = ROOT
-                OR = {
-                    has_building = workshop
-                    has_building = counting_house
-                }
+                has_production_building_trigger = yes
                 base_production = 8
                 has_manufactory_trigger = yes
             }
             719 = {
                 owned_by = ROOT
-                OR = {
-                    has_building = workshop
-                    has_building = counting_house
-                }
+                has_production_building_trigger = yes
                 base_production = 8
                 has_manufactory_trigger = yes
             }
             2190 = {
                 owned_by = ROOT
-                OR = {
-                    has_building = workshop
-                    has_building = counting_house
-                }
+                has_production_building_trigger = yes
                 base_production = 8
                 has_manufactory_trigger = yes
             }
@@ -655,46 +640,31 @@ ASU_dzungar_branch_9 = {
 		trigger = { 
 			2116 = {
                 owned_by = ROOT
-                OR = {
-                    has_building = workshop
-                    has_building = counting_house
-                }
+                has_production_building_trigger = yes
                 base_production = 8
                 has_manufactory_trigger = yes
             }
             4220 = {
                 owned_by = ROOT
-                OR = {
-                    has_building = workshop
-                    has_building = counting_house
-                }
+                has_production_building_trigger = yes
                 base_production = 8
                 has_manufactory_trigger = yes
             }
             4668 = {
                 owned_by = ROOT
-                OR = {
-                    has_building = workshop
-                    has_building = counting_house
-                }
+                has_production_building_trigger = yes
                 base_production = 8
                 has_manufactory_trigger = yes
             }
             4679 = {
                 owned_by = ROOT
-                OR = {
-                    has_building = workshop
-                    has_building = counting_house
-                }
+                has_production_building_trigger = yes
                 base_production = 8
                 has_manufactory_trigger = yes
             }
             716 = {
                 owned_by = ROOT
-                OR = {
-                    has_building = workshop
-                    has_building = counting_house
-                }
+                has_production_building_trigger = yes
                 base_production = 8
                 has_manufactory_trigger = yes
             }
@@ -757,28 +727,19 @@ ASU_dzungar_branch_10 = {
 		trigger = { 
 			2120 = {
                 owned_by = ROOT
-                OR = {
-                    has_building = workshop
-                    has_building = counting_house
-                }
+                has_production_building_trigger = yes
                 base_production = 8
                 has_manufactory_trigger = yes
             }
             4208 = {
                 owned_by = ROOT
-                OR = {
-                    has_building = workshop
-                    has_building = counting_house
-                }
+                has_production_building_trigger = yes
                 base_production = 8
                 has_manufactory_trigger = yes
             }
             715 = {
                 owned_by = ROOT
-                OR = {
-                    has_building = workshop
-                    has_building = counting_house
-                }
+                has_production_building_trigger = yes
                 base_production = 8
                 has_manufactory_trigger = yes
             }

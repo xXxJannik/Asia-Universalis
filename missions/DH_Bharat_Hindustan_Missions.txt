@@ -224,7 +224,7 @@ hin_slot_7 = {
 			num_of_owned_provinces_with = {
 				value = 8
 				region = bengal_region
-				has_building = grand_shipyard
+				has_shipyard_building_trigger = yes
 			}
 			calc_true_if = {
 				desc = hin_industrial_tt

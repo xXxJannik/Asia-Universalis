@@ -1080,10 +1080,8 @@ ASU_yi_branch_9 = {
 			}
 			AND = {
 				NOT = { development = 10 }
-				OR = {
-					NOT = { has_building = workshop }
-					NOT = { has_building = counting_house }
-				}
+				NOT = { has_production_building_trigger = yes }
+				
 			}
 		}
 
@@ -1091,50 +1089,32 @@ ASU_yi_branch_9 = {
 			5711 = {
 				owned_by = ROOT
 				development = 10
-				OR = {
-					has_building = workshop
-					has_building = counting_house
-				}
+				has_production_building_trigger = yes
 			}
 			5675 = {
 				owned_by = ROOT
 				development = 10
-				OR = {
-					has_building = workshop
-					has_building = counting_house
-				}
+				has_production_building_trigger = yes
 			}
 			675 = {
 				owned_by = ROOT
 				development = 10
-				OR = {
-					has_building = workshop
-					has_building = counting_house
-				}
+				has_production_building_trigger = yes
 			}
 			5659 = {
 				owned_by = ROOT
 				development = 10
-				OR = {
-					has_building = workshop
-					has_building = counting_house
-				}
+				has_production_building_trigger = yes
 			}
 			5661 = {
 				owned_by = ROOT
 				development = 10
-				OR = {
-					has_building = workshop
-					has_building = counting_house
-				}
+				has_production_building_trigger = yes
 			}
 			5668 = {
 				owned_by = ROOT
 				development = 10
-				OR = {
-					has_building = workshop
-					has_building = counting_house
-				}
+				has_production_building_trigger = yes
 			}
 		}
 
@@ -1232,10 +1212,7 @@ ASU_yi_branch_10 = {
 			}
 			AND = {
 				NOT = { development = 10 }
-				OR = {
-					NOT = { has_building = workshop }
-					NOT = { has_building = counting_house }
-				}
+				NOT = { has_production_building_trigger = yes }
 			}
 		}
 
@@ -1243,74 +1220,47 @@ ASU_yi_branch_10 = {
 			5683 = {
 				owned_by = ROOT
 				development = 10
-				OR = {
-					has_building = workshop
-					has_building = counting_house
-				}
+				has_production_building_trigger = yes
 			}
 			5642 = {
 				owned_by = ROOT
 				development = 10
-				OR = {
-					has_building = workshop
-					has_building = counting_house
-				}
+				has_production_building_trigger = yes
 			}
 			5635 = {
 				owned_by = ROOT
 				development = 10
-				OR = {
-					has_building = workshop
-					has_building = counting_house
-				}
+				has_production_building_trigger = yes
 			}
 			5627 = {
 				owned_by = ROOT
 				development = 10
-				OR = {
-					has_building = workshop
-					has_building = counting_house
-				}
+				has_production_building_trigger = yes
 			}
 			5678 = {
 				owned_by = ROOT
 				development = 10
-				OR = {
-					has_building = workshop
-					has_building = counting_house
-				}
+				has_production_building_trigger = yes
 			}
 			5573 = {
 				owned_by = ROOT
 				development = 10
-				OR = {
-					has_building = workshop
-					has_building = counting_house
-				}
+				has_production_building_trigger = yes
 			}
 			5725 = {
 				owned_by = ROOT
 				development = 10
-				OR = {
-					has_building = workshop
-					has_building = counting_house
-				}
+				has_production_building_trigger = yes
 			}
 			5546 = {
 				owned_by = ROOT
 				development = 10
-				OR = {
-					has_building = workshop
-					has_building = counting_house
-				}
+				has_production_building_trigger = yes
 			}
 			5548 = {
 				owned_by = ROOT
 				development = 10
-				OR = {
-					has_building = workshop
-					has_building = counting_house
-				}
+				has_production_building_trigger = yes
 			}
 		}
 
@@ -1476,15 +1426,7 @@ ASU_yi_reformation_branch_2 = {
             OR = {
                 num_of_owned_provinces_with = {
 				    value = 25
-				    has_building = marketplace
-			    }
-                num_of_owned_provinces_with = {
-				    value = 25
-				    has_building = trade_depot
-			    }
-                num_of_owned_provinces_with = {
-				    value = 25
-				    has_building = stock_exchange
+				    has_trade_building_trigger = yes
 			    }
             }
 		}
@@ -1512,15 +1454,7 @@ ASU_yi_reformation_branch_2 = {
             OR = {
                 num_of_owned_provinces_with = {
 				    value = 75
-				    has_building = marketplace
-			    }
-                num_of_owned_provinces_with = {
-				    value = 75
-				    has_building = trade_depot
-			    }
-                num_of_owned_provinces_with = {
-				    value = 75
-				    has_building = stock_exchange
+				    has_trade_building_trigger = yes
 			    }
             }
 		}
@@ -1650,11 +1584,7 @@ ASU_yi_reformation_branch_4 = {
             OR = {
                 num_of_owned_provinces_with = {
                     value = 25
-                    has_building = barracks
-                }
-                num_of_owned_provinces_with = {
-                    value = 25
-                    has_building = training_fields
+                    has_manpower_building_trigger = yes
                 }
             }
 		}
@@ -1682,11 +1612,7 @@ ASU_yi_reformation_branch_4 = {
             OR = {
                 num_of_owned_provinces_with = {
                     value = 75
-                    has_building = barracks
-                }
-                num_of_owned_provinces_with = {
-                    value = 75
-                    has_building = training_fields
+                    has_manpower_building_trigger = yes
                 }
             }
 		}

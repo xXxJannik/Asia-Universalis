@@ -807,66 +807,42 @@ ASU_shun_branch_8 = {
 			2184 = {
 				owned_by = ROOT
 				development = 10
-				OR = {
-					has_building = workshop
-					has_building = counting_house
-				}
+				has_production_building_trigger = yes
 			}
 			5848 = {
 				owned_by = ROOT
 				development = 10
-				OR = {
-					has_building = workshop
-					has_building = counting_house
-				}
+				has_production_building_trigger = yes
 			}
 			5774 = {
 				owned_by = ROOT
 				development = 10
-				OR = {
-					has_building = workshop
-					has_building = counting_house
-				}
+				has_production_building_trigger = yes
 			}
 			698 = {
 				owned_by = ROOT
 				development = 10
-				OR = {
-					has_building = workshop
-					has_building = counting_house
-				}
+				has_production_building_trigger = yes
 			}
 			5840 = {
 				owned_by = ROOT
 				development = 10
-				OR = {
-					has_building = workshop
-					has_building = counting_house
-				}
+				has_production_building_trigger = yes
 			}
 			5825 = {
 				owned_by = ROOT
 				development = 10
-				OR = {
-					has_building = workshop
-					has_building = counting_house
-				}
+				has_production_building_trigger = yes
 			}
 			5812 = {
 				owned_by = ROOT
 				development = 10
-				OR = {
-					has_building = workshop
-					has_building = counting_house
-				}
+				has_production_building_trigger = yes
 			}
 			5760 = {
 				owned_by = ROOT
 				development = 10
-				OR = {
-					has_building = workshop
-					has_building = counting_house
-				}
+				has_production_building_trigger = yes
 			}
 		}
 
@@ -1171,15 +1147,7 @@ ASU_shun_reformation_branch_2 = {
             OR = {
                 num_of_owned_provinces_with = {
 				    value = 25
-				    has_building = marketplace
-			    }
-                num_of_owned_provinces_with = {
-				    value = 25
-				    has_building = trade_depot
-			    }
-                num_of_owned_provinces_with = {
-				    value = 25
-				    has_building = stock_exchange
+				    has_trade_building_trigger = yes
 			    }
             }
 		}
@@ -1207,15 +1175,7 @@ ASU_shun_reformation_branch_2 = {
             OR = {
                 num_of_owned_provinces_with = {
 				    value = 75
-				    has_building = marketplace
-			    }
-                num_of_owned_provinces_with = {
-				    value = 75
-				    has_building = trade_depot
-			    }
-                num_of_owned_provinces_with = {
-				    value = 75
-				    has_building = stock_exchange
+				    has_trade_building_trigger = yes
 			    }
             }
 		}
@@ -1345,11 +1305,7 @@ ASU_shun_reformation_branch_4 = {
             OR = {
                 num_of_owned_provinces_with = {
                     value = 25
-                    has_building = barracks
-                }
-                num_of_owned_provinces_with = {
-                    value = 25
-                    has_building = training_fields
+                    has_manpower_building_trigger = yes
                 }
             }
 		}
@@ -1377,11 +1333,7 @@ ASU_shun_reformation_branch_4 = {
             OR = {
                 num_of_owned_provinces_with = {
                     value = 75
-                    has_building = barracks
-                }
-                num_of_owned_provinces_with = {
-                    value = 75
-                    has_building = training_fields
+                    has_manpower_building_trigger = yes
                 }
             }
 		}
