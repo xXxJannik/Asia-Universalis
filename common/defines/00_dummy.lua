@@ -103,7 +103,7 @@ NDefines.NMilitary.FORTRESS_COST = 0.167							-- base fort cost
 
 NDefines.NMilitary.ARMY_DRILL_YEARLY_DECAY = -2.4
 NDefines.NMilitary.ARMY_DRILL_YEARLY_GAIN = 6.0
-NDefines.NMilitary.COMBAT_DICE_SIDE = 6
+NDefines.NMilitary.COMBAT_DICE_SIDE = 7
 NDefines.NMilitary.STRAIT_CROSSING_PENALTY = -1
 
 NDefines.NEconomy.TRADE_WIND_STRENGTH = 0
