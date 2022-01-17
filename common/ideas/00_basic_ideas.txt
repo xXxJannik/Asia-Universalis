@@ -636,7 +636,7 @@ economic_ideas = {
 		global_tax_modifier = 0.2
 	}
 	organised_construction = {
-		build_cost = -0.1
+		build_cost = -0.05
 	}
 	national_bank = {
 		inflation_reduction = 0.1

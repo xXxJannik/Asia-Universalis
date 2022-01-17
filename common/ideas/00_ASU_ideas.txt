@@ -1251,7 +1251,7 @@ romuva0 = {
 		
 	
 	romuva1 = {
-		build_cost = -0.1 #lauko sargei
+		build_cost = -0.05 #lauko sargei
 	}
 	romuva2 = {
 		global_missionary_strength = 0.02 # geschichten
@@ -1731,7 +1731,7 @@ mane0 = {
 	}
 	
 	bonus = {
-		build_cost = -0.1
+		build_cost = -0.05
 	}
 		
 	
@@ -2949,7 +2949,7 @@ entwicklung0 = {
 		global_autonomy = -0.05
 	}
 	entwicklung6 = {
-		build_cost = -0.1
+		build_cost = -0.05
 	}
 	entwicklung7 = {
 		inflation_reduction = 0.05
@@ -3741,7 +3741,7 @@ kolonialimperium0 = {
 	}
 
 	kolonialimperium5 = {
-		build_cost = -0.1
+		build_cost = -0.05
 	}
 	
 	kolonialimperium7 = {
@@ -4297,7 +4297,7 @@ konigreich0 = {
 		land_forcelimit = 20
 	}
 	konigreich3 = {
-		build_cost = -0.1
+		build_cost = -0.05
 	}
 
 	konigreich4 = {
@@ -5308,7 +5308,7 @@ dezentra0 = {
 		
 	
 	dezentra1 = {
-		build_cost = -0.1
+		build_cost = -0.05
 	}
 	dezentra2 = {
 		yearly_corruption = -0.1
