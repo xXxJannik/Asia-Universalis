@@ -35,15 +35,7 @@ mass_load_cannons = {
 
 trade_route_map = {
     trigger = {
-        OR = {
-            NOT = {
-                OR = {
-                    tag = POR
-                    tag = BRZ
-                }
-            }
-            normal_or_historical_nations = no
-        }
+        always = no
     }
 	modifier = {
         trade_power_in_fleet_modifier = 1
@@ -200,11 +192,7 @@ portuguese_bombardier = {
 
 portuguese_trade_route_map = {
     trigger = {
-		OR = {
-			tag = POR
-			tag = BRZ
-		}
-        normal_or_historical_nations = yes
+		always = no
     }
 	modifier = {
         trade_power_in_fleet_modifier = 2
