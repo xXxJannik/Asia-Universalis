@@ -28,6 +28,9 @@ country_event = { #creation of a legendary Bloodline
 	option = {
 		name = "ASU_china_events.2.a"
         add_prestige = 100
+		change_adm = 1
+		change_dip = 1
+		change_mil = 1
         ai_chance = {            # the AI does not take the event without
 			factor = 100
 		}
