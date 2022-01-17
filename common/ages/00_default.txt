@@ -527,7 +527,7 @@ age_of_reformation = {
 }
 
 age_of_absolutism = {
-	start = 1620
+	start = 1630
 	
 	can_start = {
 		is_institution_enabled = global_trade
@@ -764,7 +764,7 @@ age_of_absolutism = {
 }
 
 age_of_revolutions = {
-	start = 1750
+	start = 1730
 	
 	can_start = {
 		is_year = 1750
