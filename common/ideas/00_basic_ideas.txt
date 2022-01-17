@@ -245,7 +245,7 @@ spy_ideas = {
 	
 	spion5 = {
 		diplomats = 1	
-		trade_efficiency = 0.1
+		trade_efficiency = 0.05
 	}
 
 	
@@ -575,7 +575,7 @@ trade_ideas = {
 		trade_range_modifier = 0.25
 	}
 	national_trade_policy = {
-		trade_efficiency = 0.1
+		trade_efficiency = 0.05
 	}
 	overseas_merchants = {
 		merchants = 1
@@ -651,7 +651,7 @@ economic_ideas = {
 		land_maintenance_modifier = -0.05
 	}
 	smithian_economics = {
-		production_efficiency = 0.1
+		production_efficiency = 0.05
  	}
 
 	ai_will_do = {

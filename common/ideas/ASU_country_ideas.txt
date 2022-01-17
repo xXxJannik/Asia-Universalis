@@ -17,7 +17,7 @@ HET_ideas = {
         power_projection_from_insults = 1
 	}
 	ASU_het_NI2 = {                
-		global_trade_goods_size_modifier = 0.2
+		global_trade_goods_size_modifier = 0.20
 	}
 	ASU_het_NI3 = {
 		global_manpower_modifier = 0.5
