@@ -1307,7 +1307,7 @@ idea_variation_act_588 = {
 		}
 	}
 
-	build_cost = -0.1
+	build_cost = -0.05
 
 
 	ai_will_do = {
@@ -1474,7 +1474,7 @@ idea_variation_act_591 = {
 		}
 	}
 	
-	build_cost = -0.1
+	build_cost = -0.05
 
 	ai_will_do = {
 		factor = 1
@@ -4923,7 +4923,7 @@ idea_variation_act_21 = {
 		}
 	}
 	
-	build_cost = -0.1
+	build_cost = -0.05
 	
 	ai_will_do = {
 		factor = 1
@@ -8833,7 +8833,7 @@ idea_variation_act_138 = {
 	}
 	
 
-	build_cost = -0.1
+	build_cost = -0.05
 	
 	ai_will_do = {
 		factor = 1
@@ -15502,7 +15502,7 @@ idea_variation_act_340 = {
 	}
 	
 	fort_maintenance_modifier = -0.1
-	build_cost = -0.1		
+	build_cost = -0.05		
 	
 	ai_will_do = {
 		factor = 1
@@ -18396,7 +18396,7 @@ idea_variation_act_425 = {
 		}
 	}
 	
-	build_cost = -0.1
+	build_cost = -0.05
 	
 	ai_will_do = {
 		factor = 1
@@ -20842,7 +20842,7 @@ idea_variation_act_502 = {
 		}
 	}
 	
-	build_cost = -0.1
+	build_cost = -0.05
 	
 	ai_will_do = {
 		factor = 1
@@ -21303,7 +21303,7 @@ idea_variation_act_516 = {
 		}
 	}
 	
-	build_cost = -0.1
+	build_cost = -0.05
 	
 	ai_will_do = {
 		factor = 1
@@ -21629,7 +21629,7 @@ idea_variation_act_529 = {
 		}
 	}
 	
-	build_cost = -0.1
+	build_cost = -0.05
 	
 	ai_will_do = {
 		factor = 1
@@ -22160,7 +22160,7 @@ idea_variation_act_551 = {
 		}
 	}
 	
-	build_cost = -0.1
+	build_cost = -0.05
 	
 	ai_will_do = {
 		factor = 1
