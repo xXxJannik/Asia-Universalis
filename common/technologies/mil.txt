@@ -81,7 +81,7 @@ technology = {
 	}
 	
 	infantry_shock		= 	0.2
-	cavalry_shock		= 	0.4
+	cavalry_shock		= 	0.2
 	
 	combat_width = 5
 }
@@ -123,7 +123,7 @@ technology = {
 	#Standardised Pikes
 	supply_limit 		= 	0.5
 	infantry_shock		= 	0.15
-	cavalry_shock		= 	0.4
+	cavalry_shock		= 	0.2
 
 	enable = western_men_at_arms	
 	enable = western_longbow	
@@ -445,7 +445,7 @@ technology = {
 
 	}
 	
-	cavalry_shock		=	0.8
+	cavalry_shock		=	0.7
 	supply_limit		= 	0.5	
 	
 	enable = maharathan_cavalry		
@@ -577,7 +577,7 @@ technology = {
 	
 	#Light Cavalry
 	
-	cavalry_shock		=	0.8
+	cavalry_shock		=	0.7
 	military_tactics 	= 	0.25
 	maneuver_value 		= 	0.5
 
