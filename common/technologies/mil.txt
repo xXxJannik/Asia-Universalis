@@ -81,7 +81,7 @@ technology = {
 	}
 	
 	infantry_shock		= 	0.2
-	cavalry_shock		= 	0.2
+	cavalry_shock		= 	0.25
 	
 	combat_width = 5
 }
@@ -122,8 +122,8 @@ technology = {
 	
 	#Standardised Pikes
 	supply_limit 		= 	0.5
-	infantry_shock		= 	0.15
-	cavalry_shock		= 	0.2
+	infantry_shock		= 	0.2
+	cavalry_shock		= 	0.25
 
 	enable = western_men_at_arms	
 	enable = western_longbow	
@@ -203,7 +203,7 @@ technology = {
 	
 	#The limber
 	artillery_fire 		= 	1
-	artillery_shock 	=	0.05
+	artillery_shock 	=	0.1
 	military_tactics 	= 	0.25
 	enable = large_cast_bronze_mortar 
 	enable = houfnice
@@ -218,7 +218,7 @@ technology = {
 	
 	#Pike and Shot
 	infantry_fire		= 	0.25
-	cavalry_shock		=	0.8
+	cavalry_shock		=	0.7
 
 	
 	regimental_camp = yes
