@@ -2,7 +2,7 @@
 type = light_ship
 
 hull_size = 8
-base_cannons = 10
+base_cannons = 5
 blockade = 10
 sail_speed = 10
 
