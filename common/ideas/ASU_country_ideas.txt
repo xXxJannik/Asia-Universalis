@@ -69,7 +69,6 @@ YUE_ideas = {
 	}
 	ASU_yue_NI5 = {                             
 		naval_forcelimit_modifier = 0.5
-		global_ship_recruit_speed = -0.2
 	}
 	ASU_yue_NI6 = {
 		infantry_power = 0.1
@@ -108,7 +107,6 @@ WUU_ideas = {
 	}
 	ASU_WUU_NI4 = {
 		naval_forcelimit_modifier = 0.5
-		global_ship_recruit_speed = -0.2
 	}
 	ASU_WUU_NI5 = {                             
 		global_manpower_modifier = 0.5
