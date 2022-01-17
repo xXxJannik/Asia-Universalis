@@ -57,8 +57,8 @@ country_event = {
 	}
 	option = {
 		name = "ASU_mob.3.a"
-        add_yearly_manpower = 2
-		add_war_exhaustion = 5
+        add_yearly_manpower = 0.5
+		add_war_exhaustion = 2
 	}
 }
 
@@ -80,7 +80,7 @@ country_event = {
 	}
 	option = {
 		name = "ASU_mob.4.a"
-        add_years_of_income = -0.25
+        add_years_of_income = -0.15
 	}
 }
 
@@ -102,7 +102,7 @@ country_event = {
 	}
 	option = {
 		name = "ASU_mob.5.a"
-        add_war_exhaustion = 2
+        add_war_exhaustion = 1
 	}
 }
 
@@ -124,7 +124,7 @@ country_event = {
 	}
 	option = {
 		name = "ASU_mob.6.a"
-        add_years_of_income = 0.25
+        add_years_of_income = 0.2
 	}
 }
 
@@ -250,6 +250,6 @@ country_event = {
 	}
 	option = {
 		name = "ASU_mob.11.a"
-        add_years_of_income = -0.5
+        add_years_of_income = -0.1
 	}
 }
