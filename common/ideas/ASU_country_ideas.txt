@@ -58,7 +58,7 @@ YUE_ideas = {
 	}
 	ASU_yue_NI2 = {     
 		global_sailors_modifier = 0.5
-		galley_power = 0.1           
+		global_ship_recruit_speed = -0.2          
 	}
 	ASU_yue_NI3 = {
 		trade_efficiency = 0.2
@@ -69,7 +69,7 @@ YUE_ideas = {
 	}
 	ASU_yue_NI5 = {                             
 		naval_forcelimit_modifier = 0.5
-		heavy_ship_power = 0.1
+		global_ship_recruit_speed = -0.2
 	}
 	ASU_yue_NI6 = {
 		infantry_power = 0.1
@@ -86,7 +86,7 @@ WUU_ideas = {
 		trade_efficiency = 0.1
 	}
 	bonus = {
-		galley_power = 0.1
+		global_ship_recruit_speed = -0.2
 	}
 	trigger = {
 		OR = {
@@ -108,7 +108,7 @@ WUU_ideas = {
 	}
 	ASU_WUU_NI4 = {
 		naval_forcelimit_modifier = 0.5
-		heavy_ship_power = 0.1
+		global_ship_recruit_speed = -0.2
 	}
 	ASU_WUU_NI5 = {                             
 		global_manpower_modifier = 0.5
@@ -333,7 +333,7 @@ CAU_ideas = {
 		global_trade_goods_size_modifier = 0.1
 	}
 	ASU_cau_NI7 = {
-		galley_power = 0.25
+		global_ship_recruit_speed = -0.2
 	}
 }
 

@@ -1640,8 +1640,8 @@ helle0 = {
 		
 	
 	helle1 = {
-		heavy_ship_power = 0.1 # poseidon
-		galley_power = 0.1
+		heavy_ship_power = 0.05 # poseidon
+		galley_power = 0.05
 	}
 	helle2 = {
 		infantry_power = 0.075
@@ -3470,7 +3470,7 @@ gross0 = {
 		heavy_ship_cost = -0.2
 	}
 	gross2 = {
-		heavy_ship_power = 0.2
+		heavy_ship_power = 0.05
 	}
 	gross3 = {
 		global_ship_recruit_speed = -0.1
@@ -3567,7 +3567,7 @@ galle0 = {
 		galley_cost = -0.1
 	}
 	galle3 = {
-		galley_power = 0.1
+		galley_power = 0.05
 	}
 
 	galle7 = {
@@ -4133,8 +4133,8 @@ flottenbasis0 = {
 		
 	}
 	flottenbasis6 = {
-		heavy_ship_power = 0.1
-		galley_power = 0.1
+		heavy_ship_power = 0.05
+		galley_power = 0.05
 	}
 	flottenbasis7 = {
 		global_ship_repair = 0.2

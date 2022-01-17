@@ -1914,7 +1914,7 @@ idea_variation_act_600 = {
 		full_idea_group = maritime_ideas
 	}
 
-	heavy_ship_power = 0.20
+	heavy_ship_power = 0.05
 
 
 	ai_will_do = {
@@ -2066,7 +2066,7 @@ idea_variation_act_605 = {
 		full_idea_group = quantity_ideas
 	}
 	
-	galley_power = 0.10
+	galley_power = 0.05
 
 	ai_will_do = {
 		factor = 1
@@ -2362,8 +2362,7 @@ idea_variation_act_614 = {
 		full_idea_group = republik0
 	}
 	
-	light_ship_cost = -0.2
-	light_ship_power = 0.2
+	light_ship_cost = -0.33
 
 	ai_will_do = {
 		factor = 1
@@ -3991,7 +3990,7 @@ idea_variation_act_654 = {
 		
 	}	
 	
-	light_ship_power = 0.20
+	trade_efficiency = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -5641,7 +5640,7 @@ idea_variation_act_44 = {
 	}
 	
 	privateer_efficiency = 0.20
-	galley_power = 0.10
+	galley_power = 0.05
 	
 	ai_will_do = {
 		factor = 1
@@ -6347,10 +6346,8 @@ idea_variation_act_64 = {
 		
 	}
 	
-	heavy_ship_power = 0.1
-	galley_power = 0.1
-	light_ship_power = 0.1
-	transport_power = 0.1
+	heavy_ship_power = 0.05
+	galley_power = 0.05
 	
 	ai_will_do = {
 		factor = 1
@@ -12857,8 +12854,8 @@ idea_variation_act_260 = {
 		full_idea_group = generalstab0
 	}
 	
-	heavy_ship_power = 0.1
-	galley_power = 0.1
+	heavy_ship_power = 0.05
+	galley_power = 0.05
 	
 	ai_will_do = {
 		factor = 1
@@ -12958,10 +12955,8 @@ idea_variation_act_265 = {
 		full_idea_group = waffenqualitat0
 	}
 	
-	heavy_ship_power = 0.1
-	galley_power = 0.1
-	light_ship_power = 0.1
-	transport_power = 0.1
+	heavy_ship_power = 0.05
+	galley_power = 0.05
 	
 	ai_will_do = {
 		factor = 1
@@ -13278,7 +13273,6 @@ idea_variation_act_274 = {
 	}
 	
 	trade_efficiency = 0.1
-	light_ship_power = 0.2
 	
 	ai_will_do = {
 		factor = 1
@@ -16346,7 +16340,7 @@ idea_variation_act_364 = {
 		full_idea_group = offensive_ideas
 	}
 	
-	heavy_ship_power = 0.20				# Marine
+	heavy_ship_power = 0.05				# Marine
 	
 	ai_will_do = {
 		factor = 1
@@ -16626,7 +16620,7 @@ idea_variation_act_370 = {
 		full_idea_group = diktatur0
 	}
 	
-	galley_power = 0.20				# Marine
+	galley_power = 0.05				# Marine
 	
 	ai_will_do = {
 		factor = 1
@@ -16655,7 +16649,7 @@ idea_variation_act_371 = {
 		full_idea_group = festung0
 	}
 	
-	heavy_ship_power = 0.20				# Marine
+	heavy_ship_power = 0.05			# Marine
 	
 	ai_will_do = {
 		factor = 1
@@ -16685,7 +16679,7 @@ idea_variation_act_372 = {
 		full_idea_group = festung0
 	}
 	
-	galley_power = 0.1				# Marine
+	galley_power = 0.05				# Marine
 	capture_ship_chance = 0.1
 	
 	ai_will_do = {
@@ -17360,7 +17354,7 @@ idea_variation_act_392 = {
 		full_idea_group = gross0
 	}
 	
-	heavy_ship_power = 0.20				# Marine
+	heavy_ship_power = 0.05				# Marine
 	
 	ai_will_do = {
 		factor = 1
@@ -17382,7 +17376,7 @@ idea_variation_act_393 = {
 		full_idea_group = galle0
 	}
 	
-	galley_power = 0.20				# Marine
+	galley_power = 0.05				# Marine
 	
 	ai_will_do = {
 		factor = 1
@@ -17404,8 +17398,6 @@ idea_variation_act_394 = {
 		full_idea_group = handel0
 	}
 	
-	light_ship_power = 0.2				# Marine
-	transport_power = 0.2
 	privateer_efficiency = 0.5
 	
 	ai_will_do = {
@@ -18276,10 +18268,8 @@ idea_variation_act_420 = {
 		full_idea_group = maritime_ideas
 	}
 	
-	galley_power = 0.1
-	heavy_ship_power = 0.1
-	light_ship_power = 0.1
-	transport_power = 0.1
+	heavy_ship_power = 0.05
+	galley_power = 0.05
 	
 	ai_will_do = {
 		factor = 1
@@ -18324,7 +18314,7 @@ idea_variation_act_422 = {
 		full_idea_group = galle0
 	}
 	
-	galley_power = 0.2
+	galley_power = 0.05
 	
 	ai_will_do = {
 		factor = 1
@@ -18346,7 +18336,7 @@ idea_variation_act_423 = {
 		full_idea_group = handel0
 	}
 	
-	heavy_ship_power = 0.2
+	heavy_ship_power = 0.05
 	
 	ai_will_do = {
 		factor = 1
@@ -19079,10 +19069,8 @@ idea_variation_act_447 = {
 		full_idea_group = maritime_ideas
 	}
 	
-	heavy_ship_power = 0.1
-	galley_power = 0.1				# Marine
-	light_ship_power = 0.1
-	transport_power = 0.1
+	heavy_ship_power = 0.05
+	galley_power = 0.05				# Marine
 	
 	ai_will_do = {
 		factor = 1
@@ -19281,7 +19269,7 @@ idea_variation_act_455 = {
 		full_idea_group = gross0 
 	}
 	
-	heavy_ship_power = 0.2						# Marine
+	heavy_ship_power = 0.05						# Marine
 	
 	ai_will_do = {
 		factor = 1
@@ -19303,8 +19291,7 @@ idea_variation_act_456 = {
 		full_idea_group = handel0
 	}
 	
-	light_ship_power = 0.2						# Marine
-	transport_power = 0.2
+	merchants = 1
 	
 	ai_will_do = {
 		factor = 1
@@ -19326,7 +19313,7 @@ idea_variation_act_457 = {
 		full_idea_group = galle0
 	}
 	
-	galley_power = 0.2				# Marine
+	galley_power = 0.05				# Marine
 	
 	ai_will_do = {
 		factor = 1
@@ -20202,10 +20189,8 @@ idea_variation_act_477 = {
 		full_idea_group = maritime_ideas
 	}
 	
-	heavy_ship_power = 0.1
-	galley_power = 0.1				# Marine
-	light_ship_power = 0.1
-	transport_power = 0.1
+	heavy_ship_power = 0.05
+	galley_power = 0.05				# Marine
 	
 	ai_will_do = {
 		factor = 1
@@ -20382,7 +20367,7 @@ idea_variation_act_485 = {
 		full_idea_group = gross0 
 	}
 	
-	heavy_ship_power = 0.2				# Marine
+	heavy_ship_power = 0.05				# Marine
 	
 	ai_will_do = {
 		factor = 1
@@ -20404,7 +20389,7 @@ idea_variation_act_486 = {
 		full_idea_group = handel0
 	}
 
-	light_ship_power = 0.3				# Marine
+	global_ship_repair = 0.2
 	
 	ai_will_do = {
 		factor = 1
@@ -20426,7 +20411,7 @@ idea_variation_act_487 = {
 		full_idea_group = galle0
 	}
 	
-	galley_power = 0.2				# Marine
+	galley_power = 0.05				# Marine
 	
 	ai_will_do = {
 		factor = 1
@@ -21861,10 +21846,8 @@ idea_variation_act_538 = {
 		full_idea_group = handel0
 	}
 	
-	heavy_ship_power = 0.1
-	galley_power = 0.1				# Marine
-	light_ship_power = 0.1
-	transport_power = 0.1
+	heavy_ship_power = 0.05
+	galley_power = 0.05				# Marine
 	
 	ai_will_do = {
 		factor = 1
