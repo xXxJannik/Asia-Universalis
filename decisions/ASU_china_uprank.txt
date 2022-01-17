@@ -15,6 +15,10 @@ country_decisions = {
             add_government_reform = h_reform_warlord_2
 			enable_development_on_buildings_built = yes	
 			set_country_flag = ASU_chinese_has_dev_from_buildings_flag
+			add_country_modifier = {
+                name = "ASU_chinese_dev_from_buildings_penalty_modifier"
+                duration = -1
+            }
 		}
 	}
 
@@ -121,6 +125,33 @@ country_decisions = {
 		effect = {
 			enable_development_on_buildings_built = yes	
 			set_country_flag = ASU_chinese_has_dev_from_buildings_flag
+			add_country_modifier = {
+                name = "ASU_chinese_dev_from_buildings_penalty_modifier"
+                duration = -1
+            }
+		}
+	}
+
+	ASU_chinese_ai_dev_from_buildings = {
+		major = yes
+		potential = {
+			ai = yes
+			ASU_is_chinese_ai_trigger = yes
+			NOT = { has_country_flag = ASU_ai_took_chinese_ai_dev_from_buildings }
+		}
+		allow = {
+			NOT = { has_country_flag = ASU_ai_took_chinese_ai_dev_from_buildings }
+		}
+		effect = {
+			enable_development_on_buildings_built = yes
+			set_country_flag = ASU_ai_took_chinese_ai_dev_from_buildings
+			add_country_modifier = {
+                name = "ASU_chinese_dev_from_buildings_penalty_modifier"
+                duration = -1
+            }
+		}
+		ai_will_do = {
+			factor = 100000
 		}
 	}
 }

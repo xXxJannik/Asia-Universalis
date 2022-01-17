@@ -13,6 +13,8 @@
 
  ASU_nest_of_bees:0 "Nest of Bees"
  ASU_eternal_war:0 "The Eternal War"
+
+ ASU_chinese_dev_from_buildings_penalty_modifier:0 "Impressive Architecture"
  
  #Janissaries
  ASU_estate_janissaries_foreign_conscription:0 "Conscripted foreigners"

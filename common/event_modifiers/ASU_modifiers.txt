@@ -874,3 +874,7 @@ ASU_royal_guards_modifier_7 = {
 	reinforce_cost_modifier = -1
 	is_cawa_modifier = yes
 }
+
+ASU_chinese_dev_from_buildings_penalty_modifier = {
+	build_cost = 0.2
+}
