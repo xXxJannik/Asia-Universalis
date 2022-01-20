@@ -250,7 +250,7 @@ age_of_discovery = {
 				tag = KOR
 			}
 			modifier = {
-				build_cost = -0.2
+				build_cost = -0.1
 			}
 		}
 
