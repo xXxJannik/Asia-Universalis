@@ -481,7 +481,6 @@ ASU_japan_capital = {
 }
 
 ASU_japan_tropical_material = {
-	trade_goods_size = 3
 	trade_value_modifier = 0.25
 }
 
