@@ -1,0 +1,61 @@
+ASU_korean_crisis_disaster = {
+    potential = {
+        tag = KOR
+        NOT = { has_country_flag = ASU_korean_crisis_over_flag }
+    }
+    can_start = {
+        has_any_disaster = no
+        NOT = { has_ruler = "Sejong Do" }
+    }
+    can_stop = {
+        has_any_disaster = yes
+    }
+    progress = {
+        modifier = {
+            factor = 10
+            tag = KOR
+        }
+    }
+    can_end = {
+        is_at_war = no
+        OR = {
+            custom_trigger_tooltip = {
+			    tooltip = ASU_korean_crisis_can_end_tooltip
+			    has_country_flag = ASU_korean_crisis_over_flag
+		    }
+            custom_trigger_tooltip = {
+                tooltip = ASU_korean_crisis_can_end_tooltip_2
+                had_country_flag = { 
+                    flag = ASU_in_korean_crisis_flag 
+                    days = 7300
+                }
+            }
+        }
+    }
+    modifier = {
+        global_unrest = 5
+        burghers_loyalty_modifier = -0.2
+		church_loyalty_modifier = -0.2
+		nobles_loyalty_modifier = -0.2
+    }
+
+    on_start = ASU_korean_disaster_event.1
+    on_end = ASU_korean_disaster_event.2 #Question of Rule solved
+
+    on_monthly = {
+        events = {
+            ASU_korean_disaster_event.6 #Purge of the Nobility
+            ASU_korean_disaster_event.7 #Nobility submits
+            ASU_korean_disaster_event.8 #Purge of the Clergy
+            ASU_korean_disaster_event.9 #Clergy submits
+            ASU_korean_disaster_event.10 #Purge of the Merchants
+            ASU_korean_disaster_event.11 #Merchants submit
+        }
+        random_events = {
+            850 = 0
+            50 = ASU_korean_disaster_event.3 #Local Nobility revolts 
+            50 = ASU_korean_disaster_event.4 #Local Peasents revolt 
+            50 = ASU_korean_disaster_event.5 #Local Clergy Revolts
+        }
+    }
+}

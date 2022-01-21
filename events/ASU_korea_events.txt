@@ -8,7 +8,10 @@ country_event = {
 	picture = ECONOMY_eventPicture
 	is_triggered_only = yes
     trigger = {
-		tag = KOR
+		OR = {
+			tag = KOR
+			tag = JOS
+		}
 	}
 	option = {
 		name = "ASU_korea_events.1.a"
@@ -33,7 +36,10 @@ country_event = {
 	picture = ECONOMY_eventPicture
 	is_triggered_only = yes
     trigger = {
-		tag = KOR
+		OR = {
+			tag = KOR
+			tag = JOS
+		}
 	}
 	option = {
 		name = "ASU_korea_events.2.a"

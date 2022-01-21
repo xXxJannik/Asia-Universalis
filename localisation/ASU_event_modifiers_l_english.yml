@@ -107,6 +107,9 @@
  ASU_korea_merchant_society:0 "Merchant Society"
  ASU_korean_golden_age:0 "Korea Golden Age"
  ASU_korean_reformation:0 "Successful Reformation"
+ ASU_korean_disaster_nobility_purged_modifier:0 "Nobility purged"
+ ASU_korean_disaster_clergy_purged_modifier:0 "Clergy purged"
+ ASU_korean_disaster_merchants_purged_modifier:0 "Merchants purged"
 
  #Manchu
  ASU_manchu_reformation:0 "The Manchurian Century"

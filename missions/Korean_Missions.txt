@@ -3,7 +3,10 @@ ASU_korea_branch_1 = {
 	generic = no
 	ai = no
 	potential = {
-		tag = KOR
+		OR = {
+			tag = KOR
+			tag = JOS
+		}
 	}
 	has_country_shield = yes
 
@@ -154,7 +157,10 @@ ASU_korea_branch_2 = {
 	generic = no
 	ai = no
 	potential = {
-		tag = KOR
+		OR = {
+			tag = KOR
+			tag = JOS
+		}
 	}
 	has_country_shield = yes
 
@@ -350,7 +356,10 @@ ASU_korea_branch_3 = {
 	generic = no
 	ai = no
 	potential = {
-		tag = KOR
+		OR = {
+			tag = KOR
+			tag = JOS
+		}
 	}
 	has_country_shield = yes
 
@@ -578,7 +587,10 @@ ASU_korea_branch_4 = {
 	generic = no
 	ai = no
 	potential = {
-		tag = KOR
+		OR = {
+			tag = KOR
+			tag = JOS
+		}
 	}
 	has_country_shield = yes
 
@@ -759,7 +771,10 @@ ASU_korea_branch_5 = {
 	generic = no
 	ai = no
 	potential = {
-		tag = KOR
+		OR = {
+			tag = KOR
+			tag = JOS
+		}
 	}
 	has_country_shield = yes
 
@@ -1009,7 +1024,10 @@ ASU_korea_branch_6 = {
 	generic = no
 	ai = no
 	potential = {
-		tag = KOR
+		OR = {
+			tag = KOR
+			tag = JOS
+		}
 	}
 	has_country_shield = yes
 
@@ -1222,7 +1240,10 @@ ASU_korea_branch_7 = {
 	generic = no
 	ai = no
 	potential = {
-		tag = KOR
+		OR = {
+			tag = KOR
+			tag = JOS
+		}
 	}
 	has_country_shield = yes
 
@@ -1496,7 +1517,10 @@ ASU_korea_branch_8 = {
 	generic = no
 	ai = no
 	potential = {
-		tag = KOR
+		OR = {
+			tag = KOR
+			tag = JOS
+		}
 	}
 	has_country_shield = yes
 
@@ -1638,7 +1662,10 @@ ASU_korea_branch_9 = {
 	generic = no
 	ai = no
 	potential = {
-		tag = KOR
+		OR = {
+			tag = KOR
+			tag = JOS
+		}
 	}
 	has_country_shield = yes
 
@@ -1825,7 +1852,10 @@ ASU_korea_branch_10 = {
 	generic = no
 	ai = no
 	potential = {
-		tag = KOR
+		OR = {
+			tag = KOR
+			tag = JOS
+		}
 	}
 	has_country_shield = yes
 

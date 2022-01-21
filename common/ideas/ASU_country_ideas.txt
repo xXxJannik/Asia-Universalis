@@ -704,3 +704,42 @@ BHA_ideas = {
 		artillery_power = 0.1
 	}
 }
+
+JOS_ideas = {
+	start = {
+		global_unrest = -2
+		global_regiment_cost = -0.05
+	}
+	
+	bonus = {
+		land_forcelimit_modifier = 0.25
+	}
+	
+	trigger = {
+		tag = JOS
+	}
+	free = yes
+	
+	ASU_JOS_NI_1 = {
+		land_morale = 0.1
+	}
+	ASU_JOS_NI_2 = {
+		global_manpower_modifier = 0.25
+	}
+	ASU_JOS_NI_3 = {
+		global_prov_trade_power_modifier = 0.25
+		mercantilism_cost = -0.5
+	}
+	ASU_JOS_NI_4 = {
+		manpower_recovery_speed = 0.15
+	}
+	ASU_JOS_NI_5 = {
+		mil_advisor_cost = -0.2
+	}
+	ASU_JOS_NI_6 = {
+		fire_damage = 0.2
+	}
+	ASU_JOS_NI_7 = {
+		backrow_artillery_damage = 0.2
+	}
+}

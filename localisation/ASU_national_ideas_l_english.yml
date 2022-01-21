@@ -138,3 +138,29 @@
  ASU_ZUN_NI6_desc:0 "The Mongols were famous for their Horse Archers. Their effectivness has been proven in numerous battles where the Mongols were outnumbered by way greater forces and yet proceeded to win."
  ASU_ZUN_NI7:0 "Khan of Khans"
  ASU_ZUN_NI7_desc:0 "The greatest of them all."
+
+ #Joseon
+ JOS_ideas:0 "Joseon Ideas"
+ JOS_ideas_start:0 "Joseon Ideas"
+ JOS_ideas_bonus:0 "Joseon Ambition"
+
+ ASU_JOS_NI_1:0 "Legacy of Admiral Yi"
+ ASU_JOS_NI_1_desc:0 "Admiral Yi is probably Korea's most famous and best Commander to this day. His legacy is one of greatness and invincibility as he won against all odds."
+
+ ASU_JOS_NI_2:0 "Hopae System"
+ ASU_JOS_NI_2_desc:0 "The Hopae System is an identity tag system that requires all Koreans to carry a tag with their name, place of birth, status and place of residence. This will make it easier to know who people are and where they are."
+
+ ASU_JOS_NI_3:0 "Crown Merchants"
+ ASU_JOS_NI_3_desc:0 "The Crown has direct control over the Trade. Essentially a mercantilistic system established by the crown."
+
+ ASU_JOS_NI_4:0 "Mandatory Conscription"
+ ASU_JOS_NI_4_desc:0 "Every man above the age of 16 must serve a mandatory time in the army. This will ensure a constant flow of new recruits for the Army."
+
+ ASU_JOS_NI_5:0 "Militaristic Government"
+ ASU_JOS_NI_5_desc:0 "The Crown stays in power with the help of the army."
+
+ ASU_JOS_NI_6:0 "Fire drill"
+ ASU_JOS_NI_6_desc:0 "Our Army is specialized in quick reloading and firing techniques."
+
+ ASU_JOS_NI_7:0 "Cannon Supremacy"
+ ASU_JOS_NI_7_desc:0 "We will never start a battle without our great Artillery."

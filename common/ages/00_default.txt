@@ -247,7 +247,10 @@ age_of_discovery = {
 		#Special abilities
 		ab_korea = {
 			allow = {
-				tag = KOR
+				OR = {
+					tag = KOR 
+					tag = JOS
+				}
 			}
 			modifier = {
 				build_cost = -0.1

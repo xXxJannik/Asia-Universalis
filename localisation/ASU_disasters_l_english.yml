@@ -1,0 +1,55 @@
+﻿l_english:
+
+ ASU_korean_crisis_disaster:0 "Question of Rule"
+ desc_ASU_korean_crisis_disaster:0 "The Estates have always struggled for power and question our right to rule."
+ ASU_korean_crisis_can_end_tooltip:0 "The Estates have been purged."
+ ASU_korean_crisis_can_end_tooltip_2:0 "The Purge has been ongoing for 20 years."
+ 
+ ASU_korean_disaster_event.1.t:0 "Question of Rule"
+ ASU_korean_disaster_event.1.d:0 "The Estates have always struggled for power and question our right to rule. Their increasing power is worrying and they must be purged."
+ ASU_korean_disaster_event.1.a:0 "Let the purge commence"
+
+ ASU_korean_disaster_event.2.t:0 "Question of Rule solved"
+ ASU_korean_disaster_event.2.d:0 "The Estates have been purged, but the Unrest is yet to disappear. The Clergy and the Merchants favour a Republic, while the Nobility supports the Monarchy."
+ ASU_korean_disaster_event.2.a:0 "Assasinate the Monarchs and establish the Korean Republic"
+ ASU_korean_disaster_event.2.b:0 "The Monarchy reigns supreme"
+
+ ASU_korean_disaster_event.3.t:0 "Local Nobility Revolts"
+ ASU_korean_disaster_event.3.d:0 "When you take everything from a man, then that man ends up fighting with nothing to lose."
+ ASU_korean_disaster_event.3.a:0 "Strike them down"
+  
+ ASU_korean_disaster_event.4.t:0 "Local Peasents Revolt"
+ ASU_korean_disaster_event.4.d:0 "You only have power over people as long as you don't take everything away from them. But when you've robbed a man of everything, he's no longer in your power — he's free again."
+ ASU_korean_disaster_event.4.a:0 "Strike them down"
+  
+ ASU_korean_disaster_event.5.t:0 "Local Clergy Revolts"
+ ASU_korean_disaster_event.5.d:0 "When you take everything from a man, then that man ends up fighting with nothing to lose."
+ ASU_korean_disaster_event.5.a:0 "Strike them down"
+  
+ ASU_korean_disaster_event.6.t:0 "Purge of the Nobility"
+ ASU_korean_disaster_event.6.d:0 "The decadency of the Nobility results in their incapability of doing anything. We must replace them."
+ ASU_korean_disaster_event.6.a:0 "Seize their property"
+  
+ ASU_korean_disaster_event.7.t:0 "Nobility Submits"
+ ASU_korean_disaster_event.7.d:0 "Most nobles have submitted to the Crown. They will seize most of their property and prove their loyalty."
+ ASU_korean_disaster_event.7.a:0 "Atlast"
+  
+ ASU_korean_disaster_event.8.t:0 "Purge of the Clergy"
+ ASU_korean_disaster_event.8.d:0 "The Clergy has become more and more corrupt over the past centuries. They aim to make profit over teaching the right way."
+ ASU_korean_disaster_event.8.a:0 "Send them back to work"
+  
+ ASU_korean_disaster_event.9.t:0 "Clergy Submits"
+ ASU_korean_disaster_event.9.d:0 "The Clergy has agreed upon returning most of their property and wealth. Most priests have been replaced."
+ ASU_korean_disaster_event.9.a:0 "Atlast"
+  
+ ASU_korean_disaster_event.10.t:0 "Purge of the Merchants"
+ ASU_korean_disaster_event.10.d:0 "The Merchants are both vital and dangerous. We need their money but we dont need their influence. We will have to prevent them from bribing their way up."
+ ASU_korean_disaster_event.10.a:0 "Seize their wealth!"
+  
+ ASU_korean_disaster_event.11.t:0 "Merchants Submit"
+ ASU_korean_disaster_event.11.d:0 "The Merchants submit and will pay a monthly fee and in return will get a license."
+ ASU_korean_disaster_event.11.a:0 "Atlast"
+  
+ ASU_korean_disaster_event.12.t:0 "The Purge is over"
+ ASU_korean_disaster_event.12.d:0 "The Esates have been cut down in their influence. Although they have sworn absolute loyalty, they still can not be trusted."
+ ASU_korean_disaster_event.12.a:0 "Sharpen the Axe"

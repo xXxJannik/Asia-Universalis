@@ -257,7 +257,10 @@ reform_korea = {
 	icon = "chinese_palace"
 	allow_normal_conversion = yes
 	potential = {
-		tag = KOR
+		OR = {
+			tag = KOR 
+			tag = JOS
+		}
 	}
 	lock_level_when_selected = yes
 	fixed_rank = 2

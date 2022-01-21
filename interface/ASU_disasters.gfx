@@ -1,0 +1,8 @@
+spriteTypes = {
+    spriteType = {
+        name = "GFX_disaster_ASU_korean_crisis_disaster"
+        texturefile = "gfx//interface//disasters//ASU_korean_crisis_disaster.dds"
+        noOfFrames = 3
+        loadType = "INGAME"
+    }
+}

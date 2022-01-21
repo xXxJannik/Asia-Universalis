@@ -1,0 +1,379 @@
+namespace = ASU_korean_disaster_event
+
+country_event = { #The Disaster starts
+	id = ASU_korean_disaster_event.1
+	title = "ASU_korean_disaster_event.1.t"
+	desc = "ASU_korean_disaster_event.1.d"
+	picture = ANGRY_MOB_eventPicture
+	is_triggered_only = yes
+    trigger = {
+		tag = KOR
+	}
+	option = {
+		name = "ASU_korean_disaster_event.1.a"
+        add_stability = -2
+        ai_chance = {
+			factor = 100
+		}
+        set_country_flag = ASU_in_korean_crisis_flag
+	}
+}
+
+country_event = { #Question of Rule solved - end of disaster
+	id = ASU_korean_disaster_event.2
+	title = "ASU_korean_disaster_event.2.t"
+	desc = "ASU_korean_disaster_event.2.d"
+	picture = REFORM_eventPicture
+	is_triggered_only = yes
+    trigger = {
+	}
+	option = { #Assasinate the current ruler and establish the Korean republic
+		name = "ASU_korean_disaster_event.2.a"
+        clr_country_flag = ASU_korean_crisis_nobility_purged
+        clr_country_flag = ASU_korean_crisis_clergy_purged
+        clr_country_flag = ASU_korean_crisis_merchants_purged
+        clr_country_flag = ASU_in_korean_crisis_flag
+        clr_country_flag = ASU_korean_crisis_nobility_submitted
+        clr_country_flag = ASU_korean_crisis_clergy_submitted
+        clr_country_flag = ASU_korean_crisis_merchants_submitted
+        if = {
+		    limit = { NOT = { government = republic } }
+		    change_government_to_republic = yes
+	    }
+        add_government_reform = oligarchy_reform
+        hidden_effect = {
+            kill_ruler = yes
+            add_republican_tradition = 10
+        }
+
+        remove_country_modifier = ASU_korean_disaster_nobility_purged_modifier
+        remove_country_modifier = ASU_korean_disaster_clergy_purged_modifier
+        remove_country_modifier = ASU_korean_disaster_merchants_purged_modifier
+	}
+    option = { #The Monarchy reigns supreme
+		name = "ASU_korean_disaster_event.2.b"
+        ai_chance = {
+			factor = 100
+		}
+        clr_country_flag = ASU_korean_crisis_nobility_purged
+        clr_country_flag = ASU_korean_crisis_clergy_purged
+        clr_country_flag = ASU_korean_crisis_merchants_purged
+        clr_country_flag = ASU_in_korean_crisis_flag
+        clr_country_flag = ASU_korean_crisis_nobility_submitted
+        clr_country_flag = ASU_korean_crisis_clergy_submitted
+        clr_country_flag = ASU_korean_crisis_merchants_submitted
+
+        remove_country_modifier = ASU_korean_disaster_nobility_purged_modifier
+        remove_country_modifier = ASU_korean_disaster_clergy_purged_modifier
+        remove_country_modifier = ASU_korean_disaster_merchants_purged_modifier
+
+        change_tag = JOS
+        country_event = {
+			id = ideagroups.1
+		}
+	}
+}
+
+country_event = { #Local Nobility revolts
+	id = ASU_korean_disaster_event.3
+	title = "ASU_korean_disaster_event.3.t"
+	desc = "ASU_korean_disaster_event.3.d"
+	picture = ANGRY_MOB_eventPicture
+	is_triggered_only = yes
+    trigger = {
+		tag = KOR
+	}
+	option = {
+		name = "ASU_korean_disaster_event.3.a"
+        random_owned_province = {
+            spawn_rebels = {
+                type = noble_rebels
+                size = 2
+            }
+        }
+        ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+country_event = { #Local Peasents revolt
+	id = ASU_korean_disaster_event.4
+	title = "ASU_korean_disaster_event.4.t"
+	desc = "ASU_korean_disaster_event.4.d"
+	picture = ANGRY_MOB_eventPicture
+	is_triggered_only = yes
+    trigger = {
+		tag = KOR
+	}
+	option = {
+		name = "ASU_korean_disaster_event.4.a"
+        random_owned_province = {
+            spawn_rebels = {
+                type = anti_tax_rebels 
+                size = 2
+            }
+        }
+        ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+country_event = { #Local Clergy revolts
+	id = ASU_korean_disaster_event.5
+	title = "ASU_korean_disaster_event.5.t"
+	desc = "ASU_korean_disaster_event.5.d"
+	picture = ANGRY_MOB_eventPicture
+	is_triggered_only = yes
+    trigger = {
+		tag = KOR
+	}
+	option = {
+		name = "ASU_korean_disaster_event.5.a"
+        random_owned_province = {
+            spawn_rebels = {
+                type = confucianism_rebels  
+                size = 2
+            }
+        }
+        ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+country_event = { #Purge of the Nobility
+	id = ASU_korean_disaster_event.6
+	title = "ASU_korean_disaster_event.6.t"
+	desc = "ASU_korean_disaster_event.6.d"
+	picture = ANGRY_MOB_eventPicture
+	is_triggered_only = yes
+    trigger = {
+		has_disaster = ASU_korean_crisis_disaster
+        NOT = { has_country_flag = ASU_korean_crisis_nobility_purged }
+	}
+	option = {
+		name = "ASU_korean_disaster_event.6.a"
+        add_country_modifier = {
+            name = ASU_korean_disaster_nobility_purged_modifier
+            duration = -1
+        }
+        hidden_effect = {
+            random_owned_province = {
+                spawn_rebels = {
+                    type = noble_rebels  
+                    size = 2
+                }
+            }
+            random_owned_province = {
+                spawn_rebels = {
+                    type = noble_rebels  
+                    size = 2
+                }
+            }
+            random_owned_province = {
+                spawn_rebels = {
+                    type = noble_rebels  
+                    size = 2
+                }
+            }
+        }
+        set_country_flag = ASU_korean_crisis_nobility_purged
+        ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+country_event = { #Nobility submits
+	id = ASU_korean_disaster_event.7
+	title = "ASU_korean_disaster_event.7.t"
+	desc = "ASU_korean_disaster_event.7.d"
+	picture = ANGRY_MOB_eventPicture
+	is_triggered_only = yes
+    trigger = {
+        has_country_flag = ASU_korean_crisis_nobility_purged
+        NOT = { has_country_flag = ASU_korean_crisis_nobility_submitted }
+        NOT = { num_of_rebel_controlled_provinces = 1 }
+        had_country_flag = { 
+            flag = ASU_in_korean_crisis_flag 
+            days = 1500 
+        }
+	}
+	option = {
+		name = "ASU_korean_disaster_event.7.a"
+        remove_country_modifier = ASU_korean_disaster_nobility_purged_modifier
+        ai_chance = {
+			factor = 100
+		}
+        set_country_flag = ASU_korean_crisis_nobility_submitted
+	}
+}
+
+country_event = { #Purge of the Clergy
+	id = ASU_korean_disaster_event.8
+	title = "ASU_korean_disaster_event.8.t"
+	desc = "ASU_korean_disaster_event.8.d"
+	picture = ANGRY_MOB_eventPicture
+	is_triggered_only = yes
+    trigger = {
+		has_disaster = ASU_korean_crisis_disaster
+        NOT = { has_country_flag = ASU_korean_crisis_clergy_purged }
+        had_country_flag = { 
+            flag = ASU_in_korean_crisis_flag 
+            days = 1825 
+        }
+	}
+	option = {
+		name = "ASU_korean_disaster_event.6.a"
+        add_country_modifier = {
+            name = ASU_korean_disaster_clergy_purged_modifier
+            duration = -1
+        }
+        hidden_effect = {
+            random_owned_province = {
+                spawn_rebels = {
+                    type = confucianism_rebels  
+                    size = 2
+                }
+            }
+            random_owned_province = {
+                spawn_rebels = {
+                    type = confucianism_rebels  
+                    size = 2
+                }
+            }
+            random_owned_province = {
+                spawn_rebels = {
+                    type = confucianism_rebels  
+                    size = 2
+                }
+            }
+        }
+        set_country_flag = ASU_korean_crisis_clergy_purged
+        ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+country_event = { #Clergy submits
+	id = ASU_korean_disaster_event.9
+	title = "ASU_korean_disaster_event.9.t"
+	desc = "ASU_korean_disaster_event.9.d"
+	picture = ANGRY_MOB_eventPicture
+	is_triggered_only = yes
+    trigger = {
+        has_country_flag = ASU_korean_crisis_clergy_purged
+        NOT = { has_country_flag = ASU_korean_crisis_clergy_submitted }
+        NOT = { num_of_rebel_controlled_provinces = 1 }
+        had_country_flag = { 
+            flag = ASU_in_korean_crisis_flag 
+            days = 3000
+        }
+	}
+	option = {
+		name = "ASU_korean_disaster_event.9.a"
+        remove_country_modifier = ASU_korean_disaster_clergy_purged_modifier
+        ai_chance = {
+			factor = 100
+		}
+        set_country_flag = ASU_korean_crisis_clergy_submitted
+	}
+}
+
+country_event = { #Purge of the Merchants
+	id = ASU_korean_disaster_event.10
+	title = "ASU_korean_disaster_event.10.t"
+	desc = "ASU_korean_disaster_event.10.d"
+	picture = ANGRY_MOB_eventPicture
+	is_triggered_only = yes
+    trigger = {
+		has_disaster = ASU_korean_crisis_disaster
+        NOT = { has_country_flag = ASU_korean_crisis_merchants_purged }
+        had_country_flag = { 
+            flag = ASU_in_korean_crisis_flag 
+            days = 3650 
+        }
+	}
+	option = {
+		name = "ASU_korean_disaster_event.10.a"
+        add_country_modifier = {
+            name = ASU_korean_disaster_merchants_purged_modifier
+            duration = -1
+        }
+        hidden_effect = {
+            random_owned_province = {
+                spawn_rebels = {
+                    type = anti_tax_rebels  
+                    size = 2
+                }
+            }
+            random_owned_province = {
+                spawn_rebels = {
+                    type = anti_tax_rebels  
+                    size = 2
+                }
+            }
+            random_owned_province = {
+                spawn_rebels = {
+                    type = anti_tax_rebels  
+                    size = 2
+                }
+            }
+        }
+        set_country_flag = ASU_korean_crisis_merchants_purged
+        ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+country_event = { #Merchants submit
+	id = ASU_korean_disaster_event.11
+	title = "ASU_korean_disaster_event.11.t"
+	desc = "ASU_korean_disaster_event.11.d"
+	picture = ANGRY_MOB_eventPicture
+	is_triggered_only = yes
+    trigger = {
+        has_country_flag = ASU_korean_crisis_merchants_purged
+        NOT = { has_country_flag = ASU_korean_crisis_merchants_submitted }
+        NOT = { num_of_rebel_controlled_provinces = 1 }
+        had_country_flag = { 
+            flag = ASU_in_korean_crisis_flag 
+            days = 4000
+        }
+	}
+	option = {
+		name = "ASU_korean_disaster_event.11.a"
+        remove_country_modifier = ASU_korean_disaster_merchants_purged_modifier
+        ai_chance = {
+			factor = 100
+		}
+        set_country_flag = ASU_korean_crisis_merchants_submitted
+	}
+}
+
+country_event = { #The Purge is over
+	id = ASU_korean_disaster_event.12
+	title = "ASU_korean_disaster_event.12.t"
+	desc = "ASU_korean_disaster_event.12.d"
+	picture = ANGRY_MOB_eventPicture
+	is_triggered_only = yes
+    trigger = {
+        has_country_flag = ASU_korean_crisis_nobility_purged
+        has_country_flag = ASU_korean_crisis_clergy_purged
+        has_country_flag = ASU_korean_crisis_merchants_purged
+        NOT = { num_of_rebel_controlled_provinces = 1 }
+	}
+	option = {
+		name = "ASU_korean_disaster_event.12.a"
+        take_estate_land_share_gigantic = { estate = all }
+        set_country_flag = ASU_korean_crisis_over_flag
+        ai_chance = {
+			factor = 100
+		}
+	}
+}
+

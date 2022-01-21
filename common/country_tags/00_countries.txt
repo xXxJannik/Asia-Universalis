@@ -1128,6 +1128,7 @@ DON = countries/DonCossacks.txt
 JAZ = countries/Jaizk.txt
 ORS = countries/Ordas.txt
 CAU = countries/Aodaliya.txt
+JOS = countries/Joseon.txt
 
 #Chinese tags
 #City states
