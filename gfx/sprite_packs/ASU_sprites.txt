@@ -1,0 +1,30 @@
+ASU_het_sprite_pack = { 
+    # Tests against every tag in game
+	country_trigger = {
+		OR = {
+            tag = HET
+            tag = ZAZ
+        }
+	}
+
+    sprite_infantry = {
+		0 = ZAZ_INFANTRY_1
+		1 = UKR_INFANTRY_2
+		2 = UKR_INFANTRY_3
+		3 = UKR_INFANTRY_4
+	}
+
+	sprite_cavalry = {
+		0 = POL_CAVALRY_1_hussar
+		1 = POL_CAVALRY_2_hussar
+		2 = POL_CAVALRY_3_hussar
+		3 = POL_CAVALRY_4_hussar
+	}
+
+    sprite_artillery = {
+		0 = ZAZ_ARTILLERY_1
+		1 = UKR_ARTILLERY_2
+		2 = UKR_ARTILLERY_3
+		3 = UKR_ARTILLERY_4
+	}
+}
