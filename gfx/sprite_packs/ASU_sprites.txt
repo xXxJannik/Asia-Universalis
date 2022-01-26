@@ -28,3 +28,34 @@ ASU_het_sprite_pack = {
 		3 = UKR_ARTILLERY_4
 	}
 }
+
+ASU_per_sprite_pack = {
+	# Tests against every tag in game
+	country_trigger = {
+		OR = {
+            tag = FRS
+            tag = PER
+        }
+	}
+
+    sprite_infantry = {
+		0 = PER_NEW_INFANTRY_1
+		1 = TIM_INFANTRY_2
+		2 = TUR_NEW_INFANTRY_3
+		3 = TIM_INFANTRY_4
+	}
+
+	sprite_cavalry = {
+		0 = TUR_CAVALRY_1_hotcup
+		1 = TUR_CAVALRY_2_hotcup
+		2 = TUR_CAVALRY_3_hotcup
+		3 = TUR_CAVALRY_4_hotcup
+	}
+
+    sprite_artillery = {
+		0 = PER_NEW_ARTILLERY_1
+		1 = TIM_ARTILLERY_2
+		2 = TUR_NEW_ARTILLERY_3
+		3 = TIM_ARTILLERY_4
+	}
+}
