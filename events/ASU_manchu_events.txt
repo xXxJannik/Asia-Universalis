@@ -9,7 +9,13 @@ country_event = { #Rise of a Great Khan
 	is_triggered_only = yes
     major = yes  #Notification for everyone
     trigger = {
-		tag = MCH
+		OR = {
+			tag = MCH
+			AND = {
+				tag = QNG
+				has_reform = reform_warlord_5
+			}
+		}
         MIL = 6
         NOT = {
             has_ruler_modifier = ASU_rise_of_a_great_khan
