@@ -86,7 +86,7 @@ age_of_discovery = {
 		obj_ten_workshops = {
 			num_of_owned_provinces_with = {
 				value = 10
-				has_building = workshop
+				has_production_building_trigger = yes
 			}
 		}
 
@@ -380,7 +380,7 @@ age_of_reformation = {
 		obj_twenty_five_workshops = {
 			num_of_owned_provinces_with = {
 				value = 25
-				has_building = workshop
+				has_production_building_trigger = yes
 			}
 		}
 
@@ -589,16 +589,11 @@ age_of_absolutism = {
 		}
 
 		obj_one_hundred_workshops = {
-			OR = {
-				num_of_owned_provinces_with = {
-					value = 100
-					has_building = workshop
-				}
-				num_of_owned_provinces_with = {
-					value = 100
-					has_building = counting_house
-				}
+			num_of_owned_provinces_with = {
+				value = 100
+				has_production_building_trigger = yes
 			}
+			
 		}
 
 		obj_a_million_man = {
