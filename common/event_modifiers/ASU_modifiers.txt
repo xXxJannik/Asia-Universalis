@@ -874,10 +874,12 @@ ASU_royal_guards_modifier_7 = {
 	is_cawa_modifier = yes
 }
 
+#Chinese Architecture
 ASU_chinese_dev_from_buildings_penalty_modifier = {
-	build_cost = 0.2
+	build_cost = 0.5
 }
 
+#Korean civil war
 ASU_korean_disaster_nobility_purged_modifier = {
 	global_manpower_modifier = -0.33
 	manpower_recovery_speed = -0.33
