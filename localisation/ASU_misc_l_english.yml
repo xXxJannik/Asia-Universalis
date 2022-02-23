@@ -14,3 +14,13 @@
  #Scripted triggers
  ASU_prevent_mp_banking_1:0 "MP Banking prevention I"
  ASU_prevent_mp_banking_2:0 "MP Banking prevention II"
+
+ #Holy Orders
+ ASU_tibet_yellow_hats_order:0 "Give control to Yellow Hats"
+ ASU_tibet_yellow_hats_order_desc:0 "The Yellow Hats will ensure local growth."
+
+ ASU_tibet_red_hats_order:0 "Give control to Red Hats"
+ ASU_tibet_red_hats_order_desc:0 "The Red Hats will ensure wealth and prosperity."
+
+ ASU_tibet_mongol_settlement:0 "Give control to Mongols"
+ ASU_tibet_mongol_settlement_desc:0 "The Mongols will ensure capable recruits."

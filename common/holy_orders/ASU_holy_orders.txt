@@ -1,0 +1,76 @@
+
+########################################################################
+############### Tibet ##################################################
+########################################################################
+#Adm 
+ASU_tibet_yellow_hats_order = {
+    icon = GFX_holy_order_qadiri
+    trigger = {
+        has_reform = XMP_TIB_tibetan_theocracy_reform
+    }
+    cost = 200
+    cost_type = adm_power
+    per_province_effect = {
+        add_base_tax = 1
+    }
+    per_province_abandon_effect = {
+        add_base_tax = -1
+    }
+    modifier = {
+        local_development_cost = -0.1
+        local_autonomy = 0.1
+    }
+    ai_priority = {
+        factor = 0
+    }
+}
+
+#Dip
+ASU_tibet_red_hats_order = {
+    icon = GFX_holy_order_shadhili
+    trigger = {
+        has_reform = XMP_TIB_tibetan_theocracy_reform
+    }
+    cost = 100
+    cost_type = dip_power
+    per_province_effect = {
+        add_base_production = 1
+    }
+    per_province_abandon_effect = {
+        add_base_production = -1
+    }
+    modifier = {
+        local_production_efficiency = 0.25
+        local_manpower_modifier = -0.2
+    }
+    ai_priority = {
+        factor = 0
+    }
+}
+
+#Mil
+ASU_tibet_mongol_settlement = {
+    icon = GFX_holy_order_aissawa
+    trigger = {
+        has_reform = XMP_TIB_tibetan_theocracy_reform
+    }
+    cost = 100
+    cost_type = mil_power
+    per_province_effect = {
+        add_base_manpower = 1
+    }
+    per_province_abandon_effect = {
+        add_base_manpower = -1
+    }
+    modifier = {
+        local_manpower_modifier = 0.25
+        local_production_efficiency = -0.2
+    }
+    ai_priority = {
+        factor = 0
+    }
+}
+
+########################################################################
+############### Country ##################################################
+########################################################################
