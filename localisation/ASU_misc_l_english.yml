@@ -10,3 +10,7 @@
  #Naval doctrine
  ASU_chinese_naval_doctrine:0 "Chinese Doctrine"
  ASU_chinese_naval_doctrine_desc:0 "We can draw back to centuries of naval experience."
+
+ #Scripted triggers
+ ASU_prevent_mp_banking_1:0 "MP Banking prevention I"
+ ASU_prevent_mp_banking_2:0 "MP Banking prevention II"
