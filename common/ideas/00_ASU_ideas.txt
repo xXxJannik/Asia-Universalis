@@ -3456,9 +3456,8 @@ gross0 = {
 	trigger = {
 		primitives = no
 		NOT = {
-			has_idea_group = handel0
 			has_idea_group = galle0
-			}
+		}
 	}
 	
 	bonus = {
@@ -3547,9 +3546,8 @@ galle0 = {
 		primitives = no
 		
 		NOT = {
-			has_idea_group = handel0
 			has_idea_group = gross0
-			}
+		}
 		
 	}
 	
