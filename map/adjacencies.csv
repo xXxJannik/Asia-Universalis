@@ -32,10 +32,10 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 398;2999;sea;1334;-1;-1;-1;-1;Qawasim-Hormuz
 4353;4352;sea;1397;-1;-1;-1;-1;Leyte-Cebu
 4351;4352;sea;1397;-1;-1;-1;-1;Buglas-Cebu
-1017;4651;sea;1376;-1;-1;-1;-1;JAPAN
+1818;4651;sea;1376;-1;-1;-1;-1;Tsushima-Chikuzen
 2745;4651;sea;1376;-1;-1;-1;-1;JAPAN
 1017;1818;sea;1390;-1;-1;-1;-1;JAPAN
-5059;4186;sea;1390;-1;-1;-1;-1;JAPANf
+5059;4186;sea;1390;-1;-1;-1;-1;JAPAN
 5061;1825;sea;1390;-1;-1;-1;-1;JAPAN
 5072;5073;sea;1388;-1;-1;-1;-1;JAPAN
 5066;1021;sea;1391;-1;-1;-1;-1;JAPAN
