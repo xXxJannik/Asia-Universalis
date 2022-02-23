@@ -8,7 +8,7 @@ ASU_persia_reform_2 = {
         tolerance_heathen = 2
 	}
 	ai = {
-		factor = 1
+		factor = 1000
 	}
     conditional = {
 		allow = { has_dlc = "Cradle of Civilization" }
@@ -28,7 +28,7 @@ ASU_persia_reform_3 = {
         tolerance_heathen = 2
 	}
 	ai = {
-		factor = 1
+		factor = 1000
 	}
 }
 
@@ -45,7 +45,7 @@ ASU_persia_reform_4 = {
         mil_advisor_cost = -0.2
 	}
 	ai = {
-		factor = 1
+		factor = 1000
 	}
 }
 
@@ -59,6 +59,6 @@ ASU_persia_reform_5 = {
 		yearly_corruption = 0.2
 	}
 	ai = {
-		factor = 1
+		factor = 1000
 	}
 }
