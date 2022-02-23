@@ -138,6 +138,7 @@ country_decisions = {
 			ai = yes
 			ASU_is_chinese_ai_trigger = yes
 			NOT = { has_country_flag = ASU_ai_took_chinese_ai_dev_from_buildings }
+			NOT = { is_vassal = yes }
 		}
 		allow = {
 			NOT = { has_country_flag = ASU_ai_took_chinese_ai_dev_from_buildings }
