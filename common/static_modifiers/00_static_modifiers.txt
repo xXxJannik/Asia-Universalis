@@ -971,6 +971,7 @@ recovery_motivation = {
 	navy_tradition = 1
 	global_unrest = -5
 	horde_unity = 10
+	yearly_army_professionalism = 0.03
 }
 
 militarized_society = {
