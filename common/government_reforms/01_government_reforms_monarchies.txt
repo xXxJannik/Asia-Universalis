@@ -993,10 +993,6 @@ mandala_reform = {
 			religion = animism
 		}
 		technology_group = chinese
-		OR = {
-			has_dlc = "Leviathan"
-			has_dlc = "Dharma"
-		}
 	}
 	valid_for_nation_designer = yes
 	nation_designer_cost = 10
