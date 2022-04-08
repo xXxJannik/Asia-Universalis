@@ -59,3 +59,34 @@ ASU_per_sprite_pack = {
 		3 = TIM_ARTILLERY_4
 	}
 }
+
+ASU_ors_sprite_pack = {
+	# Tests against every tag in game
+	country_trigger = {
+		OR = {
+            tag = ORS
+            tag = ZUN
+        }
+	}
+
+    sprite_infantry = {
+		0 = CHG_INFANTRY_1
+		1 = CHG_INFANTRY_2
+		2 = CHG_INFANTRY_3
+		3 = CHG_INFANTRY_4
+	}
+
+	sprite_cavalry = {
+		0 = RUS_CAVALRY_1_hussar
+		1 = RUS_CAVALRY_2_hussar
+		2 = RUS_CAVALRY_3_hussar
+		3 = RUS_CAVALRY_4_hussar
+	}
+
+    sprite_artillery = {
+		0 = CHG_ARTILLERY_1
+		1 = CHG_ARTILLERY_2
+		2 = CHG_ARTILLERY_3
+		3 = CHG_ARTILLERY_4
+	}
+}
