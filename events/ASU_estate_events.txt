@@ -1,0 +1,32 @@
+namespace = ASU_estate_event
+
+country_event = {
+	id = ASU_estate_event.1
+	title = ASU_estate_event.1.t
+	desc = {
+		trigger = { has_estate_privilege = ASU_tribal_spawn_cav }
+		desc = ASU_estate_event.1.d
+	}
+	picture = COSSACK_ESTATE_RAIDERS_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = ASU_estate_event.1.a
+	}
+	option = {
+		name = ASU_estate_event.1.b
+		if = {
+			limit = {
+				has_estate = estate_ASU_tribes
+			}
+			capital_scope = { 
+				spawn_rebels = {
+					type = leadered_peasant_rebels 
+					size = 1
+				}
+			}
+			remove_estate_privilege = ASU_tribal_spawn_cav
+		}		
+	}
+}
