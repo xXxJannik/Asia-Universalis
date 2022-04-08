@@ -1,0 +1,316 @@
+##########################################################
+#########        Janissary privileges         ############
+##########################################################
+
+estate_janissaries_extended_privileges_2 = { #tier 2
+	icon = privilege_demand_more_troops
+	land_share = 10
+	max_absolutism = -5
+	loyalty = 0
+	influence = 0.10
+	is_valid = {
+		has_reform = ASU_persia_reform_2
+	}
+	on_granted = {
+		custom_tooltip = ASU_estate_janissaries_foreign_conscription_tooltip
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					NOT = {
+						religion_group = muslim
+					}
+				}
+				add_province_modifier = {
+					name = ASU_estate_janissaries_foreign_conscription
+					duration = -1
+				}
+			}
+		}
+	}
+	on_revoked = {
+		custom_tooltip = ASU_estate_janissaries_foreign_conscription_revoke_tooltip
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = ASU_estate_janissaries_foreign_conscription
+				}
+				remove_province_modifier = ASU_estate_janissaries_foreign_conscription
+			}
+		}
+	}
+	on_invalid = {
+		custom_tooltip = ASU_estate_janissaries_foreign_conscription_revoke_tooltip
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = ASU_estate_janissaries_foreign_conscription
+				}
+				remove_province_modifier = ASU_estate_janissaries_foreign_conscription
+			}
+		}
+	}
+	penalties = {
+	}
+	benefits = {
+	}
+	ai_will_do = {
+		factor = 10
+	}
+}
+
+estate_janissaries_extended_privileges_3 = { #tier 3
+	icon = privilege_tolerance_heathen
+	land_share = 0
+	max_absolutism = -10
+	loyalty = 0.10
+	influence = 0.05
+	is_valid = {
+		has_reform = ASU_persia_reform_3
+	}
+	on_granted = {
+		custom_tooltip = ASU_estate_janissaries_invest_in_janissaries_tooltip
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					NOT = {
+						religion_group = muslim
+					}
+				}
+				add_province_modifier = {
+					name = ASU_estate_janissaries_invest_in_janissaries
+					duration = -1
+				}
+			}
+		}
+	}
+	on_revoked = {
+		custom_tooltip = ASU_estate_janissaries_invest_in_janissaries_revoke_tooltip
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = ASU_estate_janissaries_invest_in_janissaries
+				}
+				remove_province_modifier = ASU_estate_janissaries_invest_in_janissaries
+			}
+		}
+	}
+	on_invalid = {
+		custom_tooltip = ASU_estate_janissaries_invest_in_janissaries_revoke_tooltip
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = ASU_estate_janissaries_invest_in_janissaries
+				}
+				remove_province_modifier = ASU_estate_janissaries_invest_in_janissaries
+			}
+		}
+	}	
+	ai_will_do = {					
+        factor = 0                               
+    }
+}
+
+estate_janissaries_extended_privileges_4 = { #tier 4
+	icon = privilege_supply_arms
+	land_share = 0
+	max_absolutism = -10
+	loyalty = 0.05
+	influence = 0.05
+	is_valid = {
+		has_reform = ASU_persia_reform_4
+	}
+	on_granted = {
+		add_country_modifier = { 
+			name = ASU_estate_janissaries_discipline
+			duration = -1
+			}
+		}
+	can_revoke = {
+		has_country_modifier = ASU_estate_janissaries_discipline
+		}
+	on_revoked = {
+        remove_country_modifier = ASU_estate_janissaries_discipline
+            }
+	on_invalid = {
+		remove_country_modifier = ASU_estate_janissaries_discipline
+		}		
+	ai_will_do = {					
+        factor = 0                               
+    }
+}
+
+estate_janissaries_extended_privileges_5 = { #tier 5
+	icon = privilege_promote_purbias
+	land_share = 0
+	max_absolutism = -5
+	loyalty = 0.05
+	influence = 0.05
+	is_valid = {
+		has_reform = ASU_persia_reform_5
+	}
+	on_granted = {
+		add_country_modifier = { 
+			name = ASU_estate_janissaries_militarisation
+			duration = -1
+			}
+		}
+	can_revoke = {
+		has_country_modifier = ASU_estate_janissaries_militarisation
+		}
+	on_revoked = {
+        remove_country_modifier = ASU_estate_janissaries_militarisation
+            }
+	on_invalid = {
+		remove_country_modifier = ASU_estate_janissaries_militarisation
+		}		
+	ai_will_do = {					
+        factor = 0                               
+    }
+}
+
+estate_janissaries_extended_privileges_6 = { #tier 5
+	icon = privilege_spawn_rajput_regiments
+	land_share = 0
+	max_absolutism = -5
+	loyalty = 0.05
+	influence = 0.05
+	is_valid = {
+		has_reform = ASU_persia_reform_5
+	}
+	on_granted = {
+		add_country_modifier = { 
+			name = ASU_estate_janissaries_militarisation_2
+			duration = -1
+			}
+		}
+	can_revoke = {
+		has_country_modifier = ASU_estate_janissaries_militarisation_2
+		}
+	on_revoked = {
+        remove_country_modifier = ASU_estate_janissaries_militarisation_2
+            }
+	on_invalid = {
+		remove_country_modifier = ASU_estate_janissaries_militarisation_2
+		}		
+	ai_will_do = {					
+        factor = 0                               
+    }
+}
+
+#Options
+estate_janissaries_extended_privileges_7 = { #tier 5
+	icon = privilege_exempt_officers_from_jaziya
+	land_share = 0
+	max_absolutism = -5
+	loyalty = 0.05
+	influence = 0.05
+	is_valid = {
+		has_reform = ASU_persia_reform_5
+	}
+	on_granted = {
+		add_country_modifier = { 
+			name = ASU_estate_janissaries_reinforce_speed
+			duration = -1
+			}
+		}
+	can_revoke = {
+		has_country_modifier = ASU_estate_janissaries_reinforce_speed
+		}
+	on_revoked = {
+        remove_country_modifier = ASU_estate_janissaries_reinforce_speed
+            }
+	on_invalid = {
+		remove_country_modifier = ASU_estate_janissaries_reinforce_speed
+		}		
+	ai_will_do = {					
+        factor = 0                               
+    }
+}
+
+estate_janissaries_extended_privileges_8 = { #tier 5
+	icon = privilege_promote_purbias
+	land_share = 0
+	max_absolutism = -5
+	loyalty = 0.05
+	influence = 0.05
+	is_valid = {
+		has_reform = ASU_persia_reform_5
+	}
+	on_granted = {
+		add_country_modifier = { 
+			name = ASU_estate_janissaries_improved_fire
+			duration = -1
+			}
+		}
+	can_revoke = {
+		has_country_modifier = ASU_estate_janissaries_improved_fire
+		}
+	on_revoked = {
+        remove_country_modifier = ASU_estate_janissaries_improved_fire
+            }
+	on_invalid = {
+		remove_country_modifier = ASU_estate_janissaries_improved_fire
+		}		
+	ai_will_do = {					
+        factor = 0                               
+    }
+}
+
+estate_janissaries_extended_privileges_9 = { #tier 5
+	icon = privilege_make_generous_donation
+	land_share = 5
+	max_absolutism = -5
+	loyalty = 0.05
+	influence = 0.05
+	is_valid = {
+		has_reform = ASU_persia_reform_5
+	}
+	on_granted = {
+		add_country_modifier = { 
+			name = ASU_estate_janissaries_improved_moral
+			duration = -1
+			}
+		}
+	can_revoke = {
+		has_country_modifier = ASU_estate_janissaries_improved_moral
+		}
+	on_revoked = {
+        remove_country_modifier = ASU_estate_janissaries_improved_moral
+            }
+	on_invalid = {
+		remove_country_modifier = ASU_estate_janissaries_improved_moral
+		}		
+	ai_will_do = {					
+        factor = 0                               
+    }
+}
+
+
+##########################################################
+#########        Vanilla Tribal privileges         #######
+##########################################################
+
+estate_tribes_mil_power = {
+	icon = privilege_military_power
+	land_share = 10
+	max_absolutism = -5
+	loyalty = -0.05
+	can_select = {
+		custom_trigger_tooltip = {
+			tooltip = no_other_mil_privilege
+			NOT = { has_estate_privilege = estate_rajput_military }
+			NOT = { has_estate_privilege = estate_maratha_military }
+			NOT = { has_estate_privilege = estate_nobles_nobility_primacy }
+		}
+	}
+	on_granted = {
+	}
+	penalties = {
+	}
+	benefits = {
+		country_military_power = 1
+	}
+	ai_will_do = {
+		factor = 1500
+	}
+}

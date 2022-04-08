@@ -83,6 +83,9 @@
  estate_tribal_leader:0 "Tribal General"
  estate_tribal_leader_desc:0 "We will force our tribes to provide a General."
 
+ ASU_tribal_spawn_cav:0 "Tribal Levies"
+ ASU_tribal_spawn_cav_desc:0 "Some tribal warriors will join our ranks."
+
  estate_tribal_recruitment:0 "Tribal Recruitment"
  estate_tribal_recruitment_desc:0 "We will force them to join our military."
 

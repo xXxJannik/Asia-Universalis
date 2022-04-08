@@ -1,0 +1,103 @@
+##########################################################
+#########        Banner privileges         ###############
+##########################################################
+
+estate_banners_allow_banners = {
+	icon = privilege_demand_more_troops
+	max_absolutism = -5
+	influence = 0.05
+	loyalty = 0.05
+	land_share = 5
+	is_valid = {
+		has_dlc = "Mandate of Heaven"
+	}
+	penalties = {
+		yearly_corruption = 0.10
+	}
+	benefits = {
+		amount_of_banners = 0.20
+	}
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+estate_banners_allow_banners_2 = {
+	icon = privilege_demand_more_troops
+	max_absolutism = -5
+	influence = 0.05
+	loyalty = 0.05
+	land_share = 5
+	is_valid = {
+		has_dlc = "Mandate of Heaven"
+	}
+	penalties = {
+		yearly_corruption = 0.25
+	}
+	benefits = {
+		amount_of_banners = 0.50
+	}
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+estate_banners_allow_banners_3 = {
+	icon = privilege_demand_more_troops
+	max_absolutism = -5
+	influence = 0.05
+	loyalty = 0.05
+	land_share = 5
+	is_valid = {
+		has_dlc = "Mandate of Heaven"
+	}
+	penalties = {
+		yearly_corruption = 0.5
+	}
+	benefits = {
+		amount_of_banners = 1
+	}
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+estate_banners_control_over_army = {
+	icon = privilege_promote_purbias
+	max_absolutism = -5
+	influence = 0.05
+	loyalty = 0.05
+	is_valid = {
+		has_dlc = "Mandate of Heaven"
+	}
+	penalties = {
+		yearly_corruption = 0.2
+	}
+	benefits = {
+		army_tradition_decay = -0.01
+		free_leader_pool = 1
+	}
+	ai_will_do = {
+		factor = 1000
+	}
+}
+
+estate_banners_infantry_tactics = {
+	icon = privilege_supply_arms
+	max_absolutism = -5
+	influence = 0.05
+	loyalty = 0.05
+	is_valid = {
+		has_dlc = "Mandate of Heaven"
+	}
+	penalties = {
+		yearly_corruption = 0.1
+	}
+	benefits = {
+		infantry_power = 0.1
+		cavalry_power = 0.1
+	}
+	ai_will_do = {
+		factor = 1000
+	}
+}

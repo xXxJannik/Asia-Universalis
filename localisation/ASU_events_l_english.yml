@@ -491,3 +491,9 @@
  XMP_TIB.100.c:0 "... this one!"
  XMP_TIB.100.d:0 "... this one!"
  XMP_TIB.100.e:0 "... this one!"
+
+ #Estate Events 
+ ASU_estate_event.1.t:0 "Tribal Levies"
+ ASU_estate_event.1.d:0 "The levies previously provided by our Tribes have been put to good use. We now have an opportunity to press them for service again, however they will not like it."
+ ASU_estate_event.1.a:0 "Do nothing."
+ ASU_estate_event.1.b:0 "Seize back their influence and press them for levies again."

@@ -1,0 +1,207 @@
+##########################################################
+#########        Tribal privileges         ###############
+##########################################################
+
+estate_herding_rights = {
+	icon = privilege_monopoly_of_goods_livestock
+	land_share = 5
+	max_absolutism = -5
+	influence = 0.1
+	loyalty = 0.05
+	is_valid = {
+		has_dlc = "Emperor"
+		any_owned_province = {
+			has_terrain = steppe
+		}
+	}
+	can_revoke = {
+		NOT = { has_estate_privilege = estate_tribal_deal }
+		NOT = { has_estate_privilege = estate_tribal_production }
+	}
+	on_granted = {
+		custom_tooltip = ASU_estate_herding_rights_tooltip
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_terrain = steppe
+				}
+				add_province_modifier = {
+					name = ASU_estate_herding_rights_modifier
+					duration = -1
+				}
+			}
+		}
+	}
+	on_revoked = {
+		custom_tooltip = ASU_estate_herding_rights_revoke_tooltip
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = ASU_estate_herding_rights_modifier
+				}
+				remove_province_modifier = ASU_estate_herding_rights_modifier
+			}
+		}
+	}
+	on_invalid = {
+		custom_tooltip = ASU_estate_herding_rights_revoke_tooltip
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = ASU_estate_herding_rights_modifier
+				}
+				remove_province_modifier = ASU_estate_herding_rights_modifier
+			}
+		}
+	}
+	penalties = {
+	}
+	benefits = {
+	}
+	ai_will_do = {
+		factor = 10
+	}
+}
+
+estate_tribal_deal = {
+	icon = privilege_demand_more_troops
+	max_absolutism = -5
+	influence = 0.1
+	loyalty = 0.05
+	is_valid = {
+	}
+	penalties = {
+		global_autonomy = 0.05
+	}
+	benefits = {
+		global_manpower_modifier = 0.1
+	}
+	ai_will_do = {
+		factor = 10
+	}
+}
+
+estate_tribal_production = {
+	icon = privilege_give_money
+	max_absolutism = -5
+	influence = 0.1
+	loyalty = -0.05
+	is_valid = {
+	}
+	on_granted = {
+	}
+	penalties = {
+		global_autonomy = 0.05
+	}
+	benefits = {
+		production_efficiency = 0.1
+	}
+	ai_will_do = {
+		factor = 10
+	}
+}
+
+estate_tribal_leader = {
+	icon = privilege_conscript_cossack_elite
+	max_absolutism = -5
+	influence = 0.05
+	loyalty = -0.05
+	land_share = 5
+	is_valid = {
+	}
+	penalties = {
+		global_tax_modifier = -0.1
+	}
+	benefits = {
+		general_cost = -0.05
+		free_leader_pool = 1
+	}
+	ai_will_do = {
+		factor = 10
+	}
+}
+
+estate_tribal_recruitment = {
+	icon = privilege_raise_host
+	max_absolutism = -5
+	influence = 0.05
+	loyalty = -0.05
+	land_share = 5
+	is_valid = {
+		has_dlc = "Mandate of Heaven"
+	}
+	penalties = {
+		cavalry_cost = 0.1
+	}
+	benefits = {
+		cavalry_power = 0.1
+	}
+	ai_will_do = {
+		factor = 10
+	}
+}
+
+
+#Spawns cav
+ASU_tribal_spawn_cav = {
+    icon = privilege_raise_host
+    max_absolutism = -5
+    loyalty = 0.10
+    influence = 0.15
+	cooldown_years = 10
+	on_cooldown_expires = { 
+		country_event = { id = gecko.1000 } #NEEDS CHANGE
+	}
+	is_valid = {
+	}
+	can_select = {
+		NOT = { has_estate_privilege = ASU_tribal_spawn_cav }
+	}
+	on_granted = {
+		create_general = {
+			tradition = 50
+		}
+		if = {
+			limit = {
+				capital_scope = { 
+					owned_by = ROOT
+				}
+			}
+			capital_scope = { 
+				add_unit_construction = {
+					type = cavalry
+					amount = 20
+					speed = 0.999 #seems to be capped to some point
+					cost = 0
+				}
+			}
+		}
+		if = {
+			limit = {
+				capital_scope = {
+					NOT = {
+						owned_by = ROOT
+					}
+				}
+			}
+			random_owned_province = { 
+				add_unit_construction = {
+					type = cavalry
+					amount = 20
+					speed = 0.999 #seems to be capped to some point
+					cost = 0
+				}
+			}
+		}
+	}
+	on_revoked = {
+	}
+	penalties = {
+	}
+	benefits = {
+
+	}
+	ai_will_do = {
+		factor = 0
+	}
+}
