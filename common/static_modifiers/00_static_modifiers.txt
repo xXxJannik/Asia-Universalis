@@ -1230,6 +1230,15 @@ power_projection_25 = {
 	free_leader_pool = 1
 }
 
+#100 Land Forcelimit = 1
+land_forcelimit = {
+    free_land_leader_pool = 1.25 #80 Army forcelimit -> +1 free leader
+}
+
+#100 Naval Forcelimit = 1
+naval_forcelimit = {
+    free_navy_leader_pool = 1.25 #80 Naval Forcelimit -> +1 Free Leader
+}						
 trade_company_strong = {
 	merchants = 1
 }
@@ -1751,12 +1760,11 @@ over_governing_capacity_modifier = {
 	core_creation = 0.2
 	advisor_cost = 1.0
 	monthly_militarized_society = -1.0
-	tribal_development_growth = -1
 }
 
 
 lost_hegemony = {
-	prestige = -2
+	prestige = -5
 }
 
 at_peace_revolutionary = { # Applied if at peace while reactionaries are bordering you
@@ -1769,7 +1777,9 @@ expanded_infrastructure = {
 }
 
 centralize_state = {
-	state_governing_cost_increase = -20
+	statewide_governing_cost = -0.25
+	local_prosperity_growth = 0.1
+	local_state_maintenance_modifier = -0.2
 	picture = "centralize_state"
 }
 
