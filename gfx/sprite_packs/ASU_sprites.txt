@@ -90,3 +90,35 @@ ASU_ors_sprite_pack = {
 		3 = CHG_ARTILLERY_4
 	}
 }
+
+ASU_base_sia_sprite_pack = {
+	# Tests against every tag in game
+	country_trigger = {
+		OR = {
+			tag = AYU
+			tag = SIA
+		}
+		NOT = { has_dlc = "Leviathan" }
+	}
+
+	sprite_infantry = {
+		0 = AYU_INFANTRY_1
+		1 = AYU_INFANTRY_2
+		2 = LXA_INFANTRY_3
+		3 = LXA_INFANTRY_4
+	}
+
+	sprite_cavalry = {
+		0 = AYU_CAVALRY_1
+		1 = AYU_CAVALRY_2
+		2 = AYU_CAVALRY_3
+		3 = AYU_CAVALRY_4
+	}
+	
+	sprite_artillery = {
+		0 = AYU_ARTILLERY_1
+		1 = AYU_ARTILLERY_2
+		2 = LXA_ARTILLERY_3
+		3 = LXA_ARTILLERY_4
+	}
+}
