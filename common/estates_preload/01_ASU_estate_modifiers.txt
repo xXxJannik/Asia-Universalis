@@ -142,6 +142,8 @@ estate_ASU_moderates = {
 	}
 }
 
+#ASU 1.1 Estates
+
 estate_ASU_royal_guards = {
 	modifier_definition = {
 		type = loyalty
