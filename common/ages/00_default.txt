@@ -203,7 +203,7 @@ age_of_discovery = {
 		#ASU
 		ab_vassal_income = {
 			modifier = {
-				vassal_income = 0.5
+				vassal_income = 0.25
 			}
 		}
 

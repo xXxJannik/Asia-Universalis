@@ -573,7 +573,7 @@ ASU_siam_dominate_trade = {
 }
 
 ASU_siam_vassals = {
-	vassal_income = 1
+	vassal_income = 0.33
 	vassal_forcelimit_bonus = 0.5
 	global_tax_income = 48
 }

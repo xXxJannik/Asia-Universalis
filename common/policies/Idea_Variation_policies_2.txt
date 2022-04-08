@@ -4962,8 +4962,7 @@ basic_idea_variation_act_47 = {
 		}
 	}
 	
-	vassal_income = 1.0
-	reduced_liberty_desire = -25
+	vassal_income = 0.25
 	
 	ai_will_do = {
 		factor = 1
