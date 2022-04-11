@@ -4,7 +4,7 @@
  MODIFIER_CAWA_COST:0 "Royal Guard recruit cost"
  
  #Tooltips
- ASU_tooltip_many_marches_influence:0 "You may not have more than 8 Marches."
+ ASU_tooltip_many_marches_influence:0 "You may not have more than 4 Marches."
  ASU_take_influence_ideas_for_marches_tooltip:0 "You need to complete Influence Ideas to unlock Marches."
 
  #Naval doctrine
