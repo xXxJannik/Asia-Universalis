@@ -2,7 +2,7 @@
 type = galley
 
 hull_size = 12
-base_cannons = 9
+base_cannons = 12
 blockade = 8
 
 sailors = 90

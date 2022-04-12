@@ -2,7 +2,7 @@
 type = heavy_ship
 
 hull_size = 150
-base_cannons = 100
+base_cannons = 125
 blockade = 10
 
 sail_speed = 9
