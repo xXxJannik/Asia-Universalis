@@ -10,6 +10,10 @@ estate_ASU_royal_guards_privilege_1 = {
 	loyalty = 0.05
 	land_share = 5
 
+	is_valid = {
+		has_dlc = "Leviathan"
+	}
+
 	modifier_by_land_ownership = {
 		amount_of_cawa = 1
 	}
@@ -29,6 +33,10 @@ estate_ASU_royal_guards_privilege_2 = {
 	influence = 0.05
 	loyalty = 0
 	land_share = 0
+
+	is_valid = {
+		has_dlc = "Leviathan"
+	}
 
 
 	on_granted = {
@@ -63,6 +71,10 @@ estate_ASU_royal_guards_privilege_3 = {
 	loyalty = 0
 	land_share = 0
 
+	is_valid = {
+		has_dlc = "Leviathan"
+	}
+
 	on_granted = {
 		add_country_modifier = { 
 			name = "ASU_royal_guards_modifier_2"
@@ -95,6 +107,10 @@ estate_ASU_royal_guards_privilege_4 = {
 	influence = 0.05
 	loyalty = 0
 	land_share = 0
+
+	is_valid = {
+		has_dlc = "Leviathan"
+	}
 
 	on_granted = {
 		add_country_modifier = { 
@@ -129,6 +145,10 @@ estate_ASU_royal_guards_privilege_5 = {
 	loyalty = 0.05
 	land_share = 5
 
+	is_valid = {
+		has_dlc = "Leviathan"
+	}
+
 	on_granted = {
 		add_country_modifier = { 
 			name = "ASU_royal_guards_modifier_4"
@@ -161,6 +181,10 @@ estate_ASU_royal_guards_privilege_6 = {
 	influence = -0.05
 	loyalty = -0.05
 	land_share = 0
+
+	is_valid = {
+		has_dlc = "Leviathan"
+	}
 
 	on_granted = {
 		add_country_modifier = { 
@@ -195,6 +219,10 @@ estate_ASU_royal_guards_privilege_7 = {
 	loyalty = 0
 	land_share = 0
 
+	is_valid = {
+		has_dlc = "Leviathan"
+	}
+
 	on_granted = {
 		add_country_modifier = { 
 			name = "ASU_royal_guards_modifier_6"
@@ -227,6 +255,10 @@ estate_ASU_royal_guards_privilege_8 = {
 	influence = 0
 	loyalty = -0.1
 	land_share = 0
+
+	is_valid = {
+		has_dlc = "Leviathan"
+	}
 
 	on_granted = {
 		add_country_modifier = { 
