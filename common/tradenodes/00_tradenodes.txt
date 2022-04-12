@@ -613,30 +613,12 @@ gulf_of_siam={
 		84 152 93 
 	}
 	outgoing={
-		name="kunming_node"
-		path={
-			4830 612 4836 2386 2385 614 1844 2371 5634 5636 5633 
-		}
-		control={
-			1188.000000 1407.000000 
-		}
-	}
-	outgoing={
 		name="canton"
 		path={
 			1016 
 		}
 		control={
 			1359.000000 1169.000000 
-		}
-	}
-	outgoing={
-		name="burma"
-		path={
-			589 
-		}
-		control={
-			1152.000000 1383.000000 
 		}
 	}
 	members={
@@ -665,6 +647,15 @@ burma={
 		}
 		control={
 			1168.000000 1546.000000 
+		}
+	}
+	outgoing={
+		name="gulf_of_siam"
+		path={
+			589 
+		}
+		control={
+			1152.000000 1383.000000 
 		}
 	}
 	members={
@@ -727,6 +718,15 @@ kunming_node={
 		}
 		control={
 			1280.000000 1653.000000 
+		}
+	}
+	outgoing={
+		name="gulf_of_siam"
+		path={
+			4830 612 4836 2386 2385 614 1844 2371 5634 5636 5633 
+		}
+		control={
+			1188.000000 1407.000000 
 		}
 	}
 	members={
