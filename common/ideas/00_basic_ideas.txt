@@ -498,13 +498,13 @@ defensive_ideas = {
 	}
 	defensive_mentality = {
 		shock_damage_received = -0.05
-		defensiveness = 0.1
 	}
 	supply_trains = {
 		movement_speed = 0.2
 	}
 	improved_foraging = {
 		land_maintenance_modifier = -0.10
+		defensiveness = 0.1
 	}
 
 	ai_will_do = {
