@@ -534,7 +534,7 @@ base_values = {
 	monthly_heir_claim_increase = 0.208
 	tolerance_of_heretics_capacity = 3
 	tolerance_of_heathens_capacity = 3
-
+	yearly_army_professionalism = -0.01
 }
 
 # AI 'cheats' that compensate for flaws in its long-term decision making, removing these may severely cripple the AI
@@ -763,6 +763,7 @@ army_tradition = {
 
 	#ASU 1.1
 	ASU_royal_guards_loyalty_modifier = 0.05
+	yearly_army_professionalism = 0.02
 }
 
 navy_tradition = {
@@ -1376,7 +1377,7 @@ dishonoured_alliance =  {
 }
 
 drilling_armies = { # Multiplied by percentage of forcelimit currently drilling
-	yearly_army_professionalism = 0.05
+	yearly_army_professionalism = 0.005
 }
 
 ##################################################################################################

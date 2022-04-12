@@ -681,7 +681,7 @@ age_of_absolutism = {
 
 		ab_army_prof_age_3 = {
 			modifier = {
-				yearly_army_professionalism = 0.01
+				yearly_army_professionalism = 0.0025
 			}
 		}
 
@@ -947,7 +947,7 @@ age_of_revolutions = {
 
 		ab_army_prof_age_4 = {
 			modifier = {
-				yearly_army_professionalism = 0.02
+				yearly_army_professionalism = 0.005
 			}
 		}
 
