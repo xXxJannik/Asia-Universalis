@@ -409,7 +409,7 @@ offensive_ideas = {
 		leader_land_shock = 1
 	}
 	national_conscripts = {
-		global_regiment_recruit_speed = -0.1
+		reinforce_speed = 0.33
 		recover_army_morale_speed = 0.25
 	}
 	improved_manuever = {
@@ -501,7 +501,7 @@ defensive_ideas = {
 		defensiveness = 0.1
 	}
 	supply_trains = {
-		reinforce_speed = 0.33
+		movement_speed = 0.2
 	}
 	improved_foraging = {
 		land_maintenance_modifier = -0.10
