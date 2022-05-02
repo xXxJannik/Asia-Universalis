@@ -487,30 +487,30 @@ tengri0 = {
 		
 	
 	tengri1 = {
-	horde_unity = 1
-	legitimacy = 1
+		horde_unity = 1
+		legitimacy = 1
 	}
 	tengri2 = {
-	tolerance_heathen = 2
+		
 	}
 	tengri3 = {
-	cavalry_power = 0.05
-	cavalry_cost = -0.2
+		cavalry_power = 0.05
+		cavalry_cost = -0.1
 	}
 
 	tengri4 = {
-	leader_land_manuever = 1
+		leader_land_manuever = 1
 	}
 
 	tengri5 = {
-	hostile_attrition = 2
+		hostile_attrition = 2
 	}
 	tengri6 = {
-	global_missionary_strength = 0.02
+		global_missionary_strength = 0.02
 	
 	}
 	tengri7 = {
-	religious_unity = 0.25
+		religious_unity = 0.25
 	}
 	
     ai_will_do = {
@@ -3404,7 +3404,7 @@ horde0 = {
 		raze_power_gain = 0.25
 	}
 	horde2 = {
-		cavalry_cost = -0.2	
+		cavalry_cost = -0.1
 	}
 	horde3 = {
 		claim_duration = 0.25
@@ -5378,7 +5378,7 @@ formation0 = {
 	category = MIL
 
 	bonus = {
-		cavalry_cost = -0.2
+		cavalry_cost = -0.1
 	}
 		
 	
@@ -5568,7 +5568,7 @@ shock0 = {
 		fire_damage_received = -0.05
 	}
 	shock3 = {
-		cavalry_cost = -0.2
+		cavalry_cost = -0.1
 	}
 	shock6 = {
 		movement_speed = 0.1

@@ -1228,7 +1228,7 @@ cossacks_reform = {
 	nation_designer_cost = 60
 
 	modifiers = {
-		cavalry_cost = -0.2
+		cavalry_cost = -0.1
 		governing_capacity = 50
 		max_absolutism = -40
 	}
