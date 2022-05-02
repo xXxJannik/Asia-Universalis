@@ -1103,7 +1103,7 @@ idea_variation_act_583 = {
 		full_idea_group = offensive_ideas
 	}	
 	
-	global_unrest = -2
+	global_unrest = -1
 	
 	ai_will_do = {
 		factor = 1
@@ -2651,7 +2651,7 @@ idea_variation_act_619 = {
 	}	
 	
 	
-	global_unrest = -2
+	global_unrest = -1
 	
 	ai_will_do = {
 		factor = 1
@@ -5764,7 +5764,7 @@ idea_variation_act_49 = {
 		full_idea_group = staatsverwaltung0
 	}
 	
-	global_unrest = -3			
+	global_unrest = -1	
 	
 	ai_will_do = {
 		factor = 1
@@ -5945,7 +5945,7 @@ idea_variation_act_53 = {
 		full_idea_group = humanist_ideas 
 	}
 	
-	global_unrest = -2
+	global_unrest = -1
 	stability_cost_modifier = -0.25
 	
 	ai_will_do = {
@@ -6618,7 +6618,7 @@ idea_variation_act_74 = {
 		full_idea_group = administrative_ideas
 	}
 	
-	global_unrest = -2
+	global_unrest = -1
 	
 	ai_will_do = {
 		factor = 1
@@ -7412,7 +7412,7 @@ idea_variation_act_94 = {
 		full_idea_group = humanist_ideas 
 	}
 	
-	global_unrest = -2
+	global_unrest = -1
 	prestige_from_land = 1.0
 	
 	ai_will_do = {
@@ -7963,7 +7963,7 @@ idea_variation_act_111 = {
 	}
 	
 	state_maintenance_modifier = -0.20
-	global_unrest = -2
+	global_unrest = -1
 	
 	ai_will_do = {
 		factor = 1
@@ -9597,7 +9597,7 @@ idea_variation_act_161 = {
 		full_idea_group = expansion_ideas
 	}
 	
-	global_unrest = -2
+	global_unrest = -1
 	
 	ai_will_do = {
 		factor = 1
@@ -11627,7 +11627,7 @@ idea_variation_act_217 = {
 		full_idea_group = diktatur0
 	}
 	
-	global_unrest = -2
+	global_unrest = -1
 	global_spy_defence = 0.2
 	
 	ai_will_do = {
@@ -12502,7 +12502,7 @@ idea_variation_act_249 = {
 		full_idea_group = diktatur0
 	}
 	
-	global_unrest = 3
+	global_unrest = -1
 	
 	ai_will_do = {
 		factor = 1
@@ -14171,7 +14171,7 @@ idea_variation_act_301 = {
 		full_idea_group = justiz0
 	}
 	
-	global_unrest = -3
+	global_unrest = -1
 	
 	ai_will_do = {
 		factor = 1
@@ -14463,7 +14463,7 @@ idea_variation_act_307 = {
 	}
 	
 	war_exhaustion = -0.03
-	global_unrest = -2
+	global_unrest = -1
 	
 	ai_will_do = {
 		factor = 1
@@ -18425,7 +18425,7 @@ idea_variation_act_427 = {
 		full_idea_group = propaganda0
 	}
 	
-	global_unrest = -3
+	global_unrest = -1
 	
 	ai_will_do = {
 		factor = 1
@@ -19209,7 +19209,7 @@ idea_variation_act_453 = {
 		full_idea_group = gesundheit0 
 	}
 	
-	global_unrest = -3
+	global_unrest = -1
 	
 	ai_will_do = {
 		factor = 1

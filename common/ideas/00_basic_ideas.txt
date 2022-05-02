@@ -1326,7 +1326,7 @@ humanist_ideas = {
 		harmonization_speed = 0.25
 	}
 	local_traditions = {
-		global_unrest = -2
+		global_unrest = -1
 	}
 	ecumenism = {
 		tolerance_heretic = 3

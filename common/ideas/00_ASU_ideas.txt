@@ -789,7 +789,7 @@ budda0 = {
 	}
 
 	budda4 = {
-		global_unrest = -2
+		global_unrest = -1
 	}
 
 	budda5 = {
@@ -1271,7 +1271,7 @@ romuva0 = {
 		num_accepted_cultures = 1 # moralfragen	
 	}
 	romuva6 = {
-		global_unrest = -2 # Feier zur Sonnenwende
+		global_unrest = -1 # Feier zur Sonnenwende
 	}
 	romuva7 = {
 		naval_forcelimit_modifier = 0.1		# Sonne und Mond
@@ -2521,7 +2521,7 @@ tote0 = {
 		missionaries = 1	
 	}
 	tote6 = {
-		global_unrest = -2
+		global_unrest = -1
 	}
 	tote7 = {
 		land_morale = 0.075
@@ -3020,7 +3020,7 @@ gesundheit0 = {
 	category = ADM
 
 	bonus = {
-		global_unrest = -2
+		global_unrest = -1
 	}
 		
 	
@@ -3191,7 +3191,7 @@ republik0 = {
 		land_morale = 0.1
 	}
 	republik3 = {
-		global_unrest = -2
+		global_unrest = -1
 	}
 	
 	republik4 = {

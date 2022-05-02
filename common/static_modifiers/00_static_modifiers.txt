@@ -566,7 +566,7 @@ stability = {
 }
 
 positive_stability = {
-	global_unrest = -1					#-1% revolt risk each step
+	global_unrest = -0.5					#-1% revolt risk each step
 	global_tax_modifier = 0.05
 	global_missionary_strength = 0.005
 	temples_influence = 0.02
@@ -876,7 +876,7 @@ tribal_allegiance = {
 
 # Multiplied by current Legitimacy - 50
 legitimacy = {
-	global_unrest = -4
+	global_unrest = -2
 	tolerance_own = 2
 	tolerance_heathen = 2
 	tolerance_heretic = 2
@@ -955,7 +955,8 @@ corruption = {
 	#ASU 1.1
 	ASU_royal_guards_loyalty_modifier = 0.05
 
-	monthly_heir_claim_increase = 0.025								
+	monthly_heir_claim_increase = 0.025				
+	land_morale = -1				
 }
 
 root_out_corruption = {
@@ -1069,7 +1070,7 @@ no_debate_in_parliament = {
 
 
 republican_tradition = {
-	global_unrest = -2
+	global_unrest = -1
 	rr_jacobins_influence = 0.1
 	reform_progress_growth = 1.0
 	burghers_loyalty_modifier = 0.05
