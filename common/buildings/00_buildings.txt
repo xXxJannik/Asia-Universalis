@@ -1858,7 +1858,8 @@ impressment_offices = {
 	}
 
 	modifier = {
-		local_sailors = 250
+		local_sailors = 500
+		local_manpower = 0.25
 		ship_recruit_speed = -0.1
 		naval_forcelimit = 5
 	}
@@ -1933,12 +1934,11 @@ state_house = {
 	}
 
 	modifier = {
-		statewide_governing_cost = -0.5
-		min_local_autonomy = -5
+		statewide_governing_cost = -0.25
+		local_tax_modifier = 2
 	}
 	bonus_modifier = {
-		statewide_governing_cost = -0.2
-		min_local_autonomy = -5
+		statewide_governing_cost = -0.25
 	}
 	onmap = no
 	show_separate = yes # Means as a manufactory it will be shown according to the old way
