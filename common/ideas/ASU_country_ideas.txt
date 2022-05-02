@@ -744,38 +744,40 @@ JOS_ideas = {
 	}
 }
 
+#New Malayan Ideas
 MSA_ideas = {
 	start = {
-		global_trade_power = 0.2
+		ship_durability = 0.1
 		land_morale = 0.1
 	}
 	bonus = {
-		ship_durability = 0.1
+		backrow_artillery_damage = 0.20
 	}
 	trigger = {
 		tag = MSA
 	}
 	free = yes
-	settle_the_islands = { # same as malay ideas
-		global_colonial_growth = 20
-	}
-	msa_advanced_galley_warfare = {
+	ASU_MSA_NI_1 = { #The Many Harbors of Indonesia
 		global_ship_recruit_speed = -0.2
 	}
-	msa_expert_haggling = {
-		trade_efficiency = 0.2
+	ASU_MSA_NI_2 = { #Spice Trade
+		trade_efficiency = 0.1
 	}
-	msa_chart_the_seas = {
-		global_sailors_modifier = 0.25
+	ASU_MSA_NI_5 = { #Settle the Islands
+		global_colonial_growth = 20
 	}
-	msa_in_every_port = {
-		merchants = 1
-		ship_power_propagation = 0.2
+	ASU_MSA_NI_3 = { #Masters of Gunpowder
+		fire_damage = 0.2
 	}
-	msa_sea_nomads_steering = {
-		trade_steering = 0.25
+	ASU_MSA_NI_4 = { #The Islands of Indonesia
+		governing_capacity_modifier = 0.2
 	}
-	msa_spice_kings = {
-		global_trade_goods_size_modifier = 0.1
+	ASU_MSA_NI_6 = { #Naval Legacy
+		leader_naval_manuever = 1
+		blockade_efficiency = 0.33
+	}
+	ASU_MSA_NI_7 = { #The Malayan Marine Corps
+	 	allowed_marine_fraction = 0.25
+		global_naval_barrage_cost = -0.5
 	}
 }

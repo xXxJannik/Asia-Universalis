@@ -164,3 +164,25 @@
 
  ASU_JOS_NI_7:0 "Cannon Supremacy"
  ASU_JOS_NI_7_desc:0 "We will never start a battle without our great Artillery."
+
+ #Malaya
+ ASU_MSA_NI_1:0 "The Many Harbors of Indonesia"
+ ASU_MSA_NI_1_desc:0 "Indonesia consists of over 17.000 Islands which include many natural harbors and opportunies for such."
+
+ ASU_MSA_NI_2:0 "Spice Trade"
+ ASU_MSA_NI_2_desc:0 "We control the straits of Indonesia and with that we dominate the Spice Trade."
+
+ ASU_MSA_NI_3:0 "Masters of Gunpowder"
+ ASU_MSA_NI_3_desc:0 "Our Naval Legacy forced us to develop capable cannons for our war ships. Most of it can also be used on land."
+
+ ASU_MSA_NI_4:0 "The Islands of Indonesia"
+ ASU_MSA_NI_4_desc:0 "We have a unique system to govern the decentralized islands of indonesia."
+
+ ASU_MSA_NI_5:0 "Settle the Islands"
+ ASU_MSA_NI_5_desc:0 "We have plenty of islands to claim."
+
+ ASU_MSA_NI_6:0 "Naval Legacy"
+ ASU_MSA_NI_6_desc:0 "Due to the circumstances given by our homelands, we have developed a vaste understanding of seafaring."
+
+ ASU_MSA_NI_7:0 "The Malayan Marine Corps"
+ ASU_MSA_NI_7_desc:0 "The Malayan Army is different to the armies of the world, as it relies on the Navy."
