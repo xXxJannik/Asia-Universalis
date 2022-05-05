@@ -1328,12 +1328,10 @@ malaya_region = {	#Western Indonesia Malaya.
 		central_sumatra_area
 		south_sumatra_area
 		indian_ocean_islands_area
-		tenasserim_area
 		malaya_area
 		jambi_area
 		johor_area
 		north_malaya_area
-		north_tenasserim_area
 		malacca_area
 		batak_area
 		minangkabau_area
@@ -1424,8 +1422,7 @@ oceanea_region = {
 
 indo_china_region = {
 	areas = {
-		vietnam_area
-				 
+		vietnam_area		 
 		north_laos_area
 		central_thai_area
 		northern_thai_area
@@ -1439,6 +1436,8 @@ indo_china_region = {
 		sukhothai_area
 		champasak_area
 		vientiane_area
+		tenasserim_area
+		north_tenasserim_area
 	}
 	monsoon = {
 		00.05.01

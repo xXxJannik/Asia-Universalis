@@ -1,0 +1,46 @@
+government = monarchy
+add_government_reform = mandala_reform
+primary_culture = javanese
+technology_group = chinese
+religion = hinduism
+capital = 628	# Surabaya
+
+
+# Majapahit
+1390.1.1 = {
+	monarch = {
+		name = "Wikramawardhana"
+		dynasty = "Rajasanagara"
+		adm = 4
+		dip = 3
+		mil = 2
+	}
+}
+
+1390.1.1 = {
+	heir = {
+		name = "Suhita"
+		monarch_name = "Suhita"
+		dynasty = "Rajasanagara"
+		birth_date = 1390.1.1
+		death_date = 1447.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+		female = yes
+	}
+}
+
+1429.1.1 = {
+	monarch = {
+		name = "Suhita"
+		dynasty = "Rajasanagara"
+		adm = 4
+		dip = 6
+		mil = 4
+		female = yes
+	}
+}
+
+
