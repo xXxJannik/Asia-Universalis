@@ -1715,6 +1715,38 @@ cawa_regiment = {
 	infantry_shock = 0.1
 	reinforce_cost_modifier = 1
 }
+
+hussars_regiment = {
+	cavalry_shock = 1
+	morale_damage = 0.5
+	reinforce_speed = -0.5
+}
+
+marine_regiment = {
+    shock_damage_received = 0.1
+    regiment_disembark_speed = 2 
+}
+
+banner_regiment = {
+	discipline = 0.05
+	land_maintenance_modifier = -0.5
+	reinforce_speed = -0.5
+	regiment_manpower_usage = -0.75
+}
+
+streltsy_regiment = {
+    fire_damage = 0.1
+}
+
+cossacks_regiment = {
+    shock_damage = 0.1
+}
+
+carolean_regiment = {
+	morale_damage = 0.05
+	drill_decay_modifier = -0.25
+}
+
 revolutionary_guard_regiment = {
 	fire_damage_received = -0.1
 	shock_damage_received = -0.1

@@ -119,6 +119,11 @@
  ASU_estate_banners_infantry_tactics_tooltip:0 "Implement approved new tactics."
  ASU_estate_banners_infantry_tactics_revoke_tooltip:0 "Revoke the new tactics and revert to old and more approved tactics."
 
+ ASU_estate_gives_20_banners_tooltip:0 "Allows us to recruit 20% more Banners"
+ ASU_estate_gives_50_banners_tooltip:0 "Allows us to recruit 50% more Banners"
+ ASU_estate_gives_100_banners_tooltip:0 "Allows us to recruit 100% more Banners"
+
+
  #Janissaries
  estate_janissaries_extended_privileges_2:0 "Conscript foreigners"
  estate_janissaries_extended_privileges_2_desc:0 "We will pursue the conscription of our Subjects that choosed to believe in the wrong God."

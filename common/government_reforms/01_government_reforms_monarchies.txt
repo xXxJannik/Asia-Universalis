@@ -384,6 +384,7 @@ celestial_empire = {
 	conditional = {
 		allow = { has_dlc = "Mandate of Heaven" }
 		has_meritocracy = yes
+		allow_banners = yes
 		factions = {}
 	}
 }

@@ -11,6 +11,9 @@ estate_banners_allow_banners = {
 	is_valid = {
 		has_dlc = "Mandate of Heaven"
 	}
+	on_granted = {
+		custom_tooltip = ASU_estate_gives_20_banners_tooltip
+	}
 	penalties = {
 		yearly_corruption = 0.10
 	}
@@ -31,6 +34,9 @@ estate_banners_allow_banners_2 = {
 	is_valid = {
 		has_dlc = "Mandate of Heaven"
 	}
+	on_granted = {
+		custom_tooltip = ASU_estate_gives_50_banners_tooltip
+	}
 	penalties = {
 		yearly_corruption = 0.25
 	}
@@ -50,6 +56,9 @@ estate_banners_allow_banners_3 = {
 	land_share = 5
 	is_valid = {
 		has_dlc = "Mandate of Heaven"
+	}
+	on_granted = {
+		custom_tooltip = ASU_estate_gives_100_banners_tooltip
 	}
 	penalties = {
 		yearly_corruption = 0.5

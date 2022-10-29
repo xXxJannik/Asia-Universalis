@@ -95,6 +95,7 @@ h_reform_warlord_2 = {
 	conditional = {
 		allow = { has_dlc = "Mandate of Heaven" }
 		has_meritocracy = yes
+		allow_banners = yes
 		factions = {}
 	}
 }
@@ -145,6 +146,7 @@ h_reform_warlord_3 = {
 	conditional = {
 		allow = { has_dlc = "Mandate of Heaven" }
 		has_meritocracy = yes
+		allow_banners = yes
 		factions = {}
 	}
 }
@@ -194,6 +196,7 @@ h_reform_warlord_4 = {
 	conditional = {
 		allow = { has_dlc = "Mandate of Heaven" }
 		has_meritocracy = yes
+		allow_banners = yes
 		factions = {}
 	}
 }
