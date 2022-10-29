@@ -5,9 +5,14 @@ administrator = {
 	monarch_power = ADM
 	
 	# Bonus
-	governing_capacity_modifier = 0.1
+	governing_capacity_modifier = 0.05
 
-	skill_scaled_modifier = { meritocracy = 0.25 }
+	skill_scaled_modifier = { 
+		modifier = {
+			meritocracy = 0.25 
+			governing_capacity_modifier = 0.025
+		}
+	}
 
 	chance = {
 		factor = 1
@@ -22,9 +27,14 @@ state_overseer = {
 	monarch_power = ADM
 	
 	# Bonus
-	state_maintenance_modifier = -0.25
+	state_maintenance_modifier = -0.10
 
-	skill_scaled_modifier = { meritocracy = 0.25 }
+	skill_scaled_modifier = { 
+		modifier = {
+			meritocracy = 0.25 
+			state_maintenance_modifier = -0.05
+		}
+	}
 
 	chance = {
 		factor = 1
@@ -38,9 +48,14 @@ researcher = {
 	monarch_power = ADM
 	
 	# Bonus
-	global_institution_spread = 0.25
+	global_institution_spread = 0.10
 
-	skill_scaled_modifier = { meritocracy = 0.25 }
+	skill_scaled_modifier = { 
+		modifier = {
+			meritocracy = 0.25 
+			global_institution_spread = 0.05
+		}
+	}
 
 	chance = {
 		factor = 1
@@ -55,9 +70,14 @@ reformist = {
 	monarch_power = ADM
 	
 	# Bonus
-	reform_progress_growth = 0.2
+	reform_progress_growth = 0.05
 
-	skill_scaled_modifier = { meritocracy = 0.25 }
+	skill_scaled_modifier = { 
+		modifier = {
+			meritocracy = 0.25 
+			reform_progress_growth = 0.025
+		}
+	}
 
 	chance = {
 		factor = 1
@@ -74,7 +94,12 @@ religious_representative = {
 	# Bonus
 	church_loyalty_modifier = 0.10
 
-	skill_scaled_modifier = { meritocracy = 0.25 }
+	skill_scaled_modifier = { 
+		modifier = {
+			meritocracy = 0.25 
+			church_loyalty_modifier = 0.025
+		}
+	}
 
 	chance = {
 		factor = 1
@@ -92,10 +117,16 @@ humanist_advisor = {
 	monarch_power = ADM
 	
 	# Bonus
-	religious_unity = 0.2
+	religious_unity = 0.1
 	monthly_splendor = 1
 
-	skill_scaled_modifier = { meritocracy = 0.25 }
+	skill_scaled_modifier = { 
+		modifier = {
+			meritocracy = 0.25 
+			religious_unity = 0.05
+			monthly_splendor = 0.25
+		}
+	}
 
 	chance = {
 		factor = 1
@@ -110,9 +141,14 @@ innovatist = {
 	monarch_power = ADM
 	
 	# Bonus
-	innovativeness_gain = 0.5
+	innovativeness_gain = 0.25
 
-	skill_scaled_modifier = { meritocracy = 0.25 }
+	skill_scaled_modifier = { 
+		modifier = {
+			meritocracy = 0.25 
+			innovativeness_gain = 0.05
+		}
+	}
 
 	chance = {
 		factor = 1
@@ -129,7 +165,12 @@ concubine = {
 	# Bonus
 	heir_chance = 0.5
 
-	skill_scaled_modifier = { meritocracy = 0.25 }
+	skill_scaled_modifier = { 
+		modifier = {
+			meritocracy = 0.25 
+			heir_chance = 0.1
+		}
+	}
 	allow_only_female = yes
 	chance = {
 		factor = 0
@@ -153,7 +194,12 @@ negotiator = {
 	# Bonus
 	diplomatic_upkeep = 1
 
-	skill_scaled_modifier = { meritocracy = 0.25 }
+	skill_scaled_modifier = { 
+		modifier = {
+			meritocracy = 0.25 
+			diplomatic_upkeep = 0.25
+		}
+	}
 
 	chance = {
 		factor = 1
@@ -170,7 +216,12 @@ pioneer = {
 	# Bonus
 	global_colonial_growth = 10
 
-	skill_scaled_modifier = { meritocracy = 0.25 }
+	skill_scaled_modifier = { 
+		modifier = {
+			meritocracy = 0.25 
+			global_colonial_growth = 2
+		}
+	}
 
 	chance = {
 		factor = 1
@@ -193,10 +244,16 @@ marauder_captain = {
 	monarch_power = DIP
 	
 	# Bonus
-	privateer_efficiency = 0.20
-	blockade_efficiency = 0.20
+	privateer_efficiency = 0.1
+	blockade_efficiency = 0.1
 
-	skill_scaled_modifier = { meritocracy = 0.25 }
+	skill_scaled_modifier = { 
+		modifier = {
+			meritocracy = 0.25 
+			privateer_efficiency = 0.05
+			blockade_efficiency = 0.05
+		}
+	}
 
 	chance = {
 		factor = 1
@@ -217,7 +274,12 @@ marketeer = {
 	# Bonus
 	global_trade_power = 0.1
 
-	skill_scaled_modifier = { meritocracy = 0.25 }
+	skill_scaled_modifier = { 
+		modifier = {
+			meritocracy = 0.25 
+			global_trade_power = 0.025
+		}
+	}
 
 	chance = {
 		factor = 1
@@ -232,9 +294,14 @@ mercantile_influencer = {
 	monarch_power = DIP
 	
 	# Bonus
-	trade_steering = 0.20
+	trade_steering = 0.1
 
-	skill_scaled_modifier = { meritocracy = 0.25 }
+	skill_scaled_modifier = { 
+		modifier = {
+			meritocracy = 0.25 
+			trade_steering = 0.05
+		}
+	}
 
 	chance = {
 		factor = 1
@@ -251,7 +318,12 @@ navarch = {
 	# Bonus
 	navy_tradition_decay = -0.01
 
-	skill_scaled_modifier = { meritocracy = 0.25 }
+	skill_scaled_modifier = { 
+		modifier = {
+			meritocracy = 0.25 
+			navy_tradition_decay = -0.0025
+		}
+	}
 
 	chance = {
 		factor = 1
@@ -273,7 +345,13 @@ subject_mediator = {
 	reduced_liberty_desire = 10
 	vassal_forcelimit_bonus = 1
 
-	skill_scaled_modifier = { meritocracy = 0.25 }
+	skill_scaled_modifier = { 
+		modifier = {
+			meritocracy = 0.25 
+			reduced_liberty_desire = 2
+			vassal_forcelimit_bonus = 0.05
+		}
+	}
 	
 	chance = {
 		factor = 1
@@ -293,9 +371,14 @@ burgher_representative = {
 	monarch_power = DIP
 
 	# Bonus
-	burghers_loyalty_modifier = 0.2
+	burghers_loyalty_modifier = 0.1
 
-	skill_scaled_modifier = { meritocracy = 0.25 }
+	skill_scaled_modifier = { 
+		modifier = {
+			meritocracy = 0.25 
+			burghers_loyalty_modifier = 0.025
+		}
+	}
 	
 	chance = {
 		factor = 1
@@ -317,7 +400,13 @@ marine_leader = {
 	allowed_marine_fraction = 0.2
 	sailors_recovery_speed = 0.1
 
-	skill_scaled_modifier = { meritocracy = 0.25 }
+	skill_scaled_modifier = { 
+		modifier = {
+			meritocracy = 0.25 
+			allowed_marine_fraction = 0.05
+			sailors_recovery_speed = 0.05
+		}
+	}
 	
 	chance = {
 		factor = 1
@@ -336,7 +425,12 @@ commander = {
 	# Bonus
 	army_tradition_decay = -0.01
 
-	skill_scaled_modifier = { meritocracy = 0.25 }
+	skill_scaled_modifier = { 
+		modifier = {
+			meritocracy = 0.25 
+			army_tradition_decay = -0.001
+		}
+	}
 
 	chance = {
 		factor = 1
@@ -350,9 +444,14 @@ drill_instructor = {
 	monarch_power = MIL
 	
 	# Bonus
-	drill_gain_modifier = 0.33
+	drill_gain_modifier = 0.10
 
-	skill_scaled_modifier = { meritocracy = 0.25 }
+	skill_scaled_modifier = { 
+		modifier = {
+			meritocracy = 0.25 
+			drill_gain_modifier = 0.05
+		}
+	}
 
 	chance = {
 		factor = 1
@@ -370,9 +469,14 @@ combat_engineer = {
 	monarch_power = MIL
 	
 	# Bonus
-	siege_ability = 0.20
+	siege_ability = 0.1
 
-	skill_scaled_modifier = { meritocracy = 0.25 }
+	skill_scaled_modifier = { 
+		modifier = {
+			meritocracy = 0.25 
+			siege_ability = 0.025
+		}
+	}
 
 	chance = {
 		factor = 1
@@ -388,7 +492,12 @@ tactician = {
 	# Bonus
 	hostile_attrition = 1
 
-	skill_scaled_modifier = { meritocracy = 0.25 }
+	skill_scaled_modifier = { 
+		modifier = {
+			meritocracy = 0.25 
+			hostile_attrition = 0.025
+		}
+	}
 
 	chance = {
 		factor = 1
@@ -405,7 +514,13 @@ mercenary_captain = {
 	mercenary_cost = -0.10
 	merc_maintenance_modifier = -0.10
 
-	skill_scaled_modifier = { meritocracy = 0.25 }
+	skill_scaled_modifier = { 
+		modifier = {
+			meritocracy = 0.25 
+			mercenary_cost = -0.025
+			merc_maintenance_modifier = -0.025
+		}
+	}
 
 	chance = {
 		factor = 1
@@ -420,9 +535,14 @@ defensive_planner = {
 	monarch_power = MIL
 	
 	# Bonus
-	shock_damage_received = -0.1
+	shock_damage_received = -0.05
 
-	skill_scaled_modifier = { meritocracy = 0.25 }
+	skill_scaled_modifier = { 
+		modifier = {
+			meritocracy = 0.25 
+			shock_damage_received = -0.025
+		}
+	}
 
 	chance = {
 		factor = 1
@@ -439,7 +559,12 @@ logistician = {
 	# Bonus
 	land_attrition = -0.2
 
-	skill_scaled_modifier = { meritocracy = 0.25 }
+	skill_scaled_modifier = { 
+		modifier = {
+			meritocracy = 0.25 
+			land_attrition = -0.05
+		}
+	}
 
 	chance = {
 		factor = 1
@@ -454,9 +579,14 @@ recruiting_officer = {
 	monarch_power = MIL
 	
 	# Bonus
-	manpower_recovery_speed = 0.20
+	manpower_recovery_speed = 0.1
 
-	skill_scaled_modifier = { meritocracy = 0.25 }
+	skill_scaled_modifier = { 
+		modifier = {
+			meritocracy = 0.25 
+			manpower_recovery_speed = 0.025
+		}
+	}
 
 	chance = {
 		factor = 1
@@ -473,7 +603,12 @@ noble_representative = {
 	# Bonus
 	nobles_loyalty_modifier = 0.1
 
-	skill_scaled_modifier = { meritocracy = 0.25 }
+	skill_scaled_modifier = { 
+		modifier = {
+			meritocracy = 0.25 
+			nobles_loyalty_modifier = 0.025
+		}
+	}
 
 	chance = {
 		factor = 1
@@ -492,10 +627,16 @@ infantry_leader = {
 	monarch_power = MIL
 	
 	# Bonus
-	infantry_power = 0.1
-	infantry_cost = -0.1
+	infantry_power = 0.05
+	infantry_cost = -0.05
 
-	skill_scaled_modifier = { meritocracy = 0.25 }
+	skill_scaled_modifier = { 
+		modifier = {
+			meritocracy = 0.25 
+			infantry_power = 0.025
+			infantry_cost = -0.025
+		}
+	}
 
 	chance = {
 		factor = 1
@@ -510,10 +651,16 @@ cavalry_leader = {
 	monarch_power = MIL
 	
 	# Bonus
-	cavalry_power = 0.1
-	cavalry_flanking = 0.25
+	cavalry_power = 0.05
+	cavalry_flanking = 0.10
 
-	skill_scaled_modifier = { meritocracy = 0.25 }
+	skill_scaled_modifier = { 
+		modifier = {
+			meritocracy = 0.25 
+			cavalry_power = 0.025
+			cavalry_flanking = 0.05
+		}
+	}
 
 	chance = {
 		factor = 1
