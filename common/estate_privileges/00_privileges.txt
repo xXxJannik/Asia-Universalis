@@ -1281,14 +1281,7 @@ estate_church_inwards_perfection = {
 	benefits = {
 	}
 	ai_will_do = {
-		factor = 1
-		modifier = {
-			factor = 7.5
-			tag = KOR
-			NOT = { num_of_cities = 30 }
-			religion = confucianism
-			is_absolutism_active = no
-		}
+		factor = 0
 	}
 }
 
