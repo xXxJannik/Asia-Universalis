@@ -5632,8 +5632,8 @@ east_asian = {	# Chinese Group
 	graphical_culture = asiangfx
 	
 	yi = {
-		country = { has_banners = 1}
-		province = { local_has_banners = 1}
+		country = { has_banners = yes}
+		province = { local_has_banners = yes}
 		primary = CYI
 		dynasty_names = {
 			"An" "She" "Liu" "Longzan" "Feng" "Pu"
@@ -5649,8 +5649,8 @@ east_asian = {	# Chinese Group
 		}
 	}
 	bai = {
-		country = { has_banners = 1}
-		province = { local_has_banners = 1}
+		country = { has_banners = yes}
+		province = { local_has_banners = yes}
 		primary = CDL
 		dynasty_names = {
 			"Duan" "Gao" "Meng"
@@ -5666,8 +5666,8 @@ east_asian = {	# Chinese Group
 		}
 	}
 	miao = {
-		country = { has_banners = 1}
-		province = { local_has_banners = 1}
+		country = { has_banners = yes}
+		province = { local_has_banners = yes}
 		primary = CMI
 		dynasty_names = {
 			"Fang" "Hang" "Hue" "Khang" "Kong" "Soung" "Kue" "Lo" "Lor" "Li" "Moua" "Pha" "Tang" "Thao" "Chang" "Cheng" 
@@ -5685,8 +5685,8 @@ east_asian = {	# Chinese Group
 	}
 	
 	zhuang = {
-		country = { has_banners = 1}
-		province = { local_has_banners = 1}
+		country = { has_banners = yes}
+		province = { local_has_banners = yes}
 		primary = CGS
 		dynasty_names = { 
 			Bamaw Kale Ava Kengtung Yawnghwe "Mong Pawn" "Mong Mit" "Mong Kawng" Hsipaw Hsenwi "Mong Pai"
@@ -5704,8 +5704,8 @@ east_asian = {	# Chinese Group
 	}
 	
 	manchu_new = {
-		country = { has_banners = 1}
-		province = { local_has_banners = 1}
+		country = { has_banners = yes}
+		province = { local_has_banners = yes}
 		primary = MCH
 		dynasty_names = {
 			"Aisin Gioro" Wanyan "Yehe Nara" "Ula Nara" "Magiya Hala" Niohuru
@@ -5724,8 +5724,8 @@ east_asian = {	# Chinese Group
 		}
 	}
 	chihan = {	#Zhili
-		country = { has_banners = 1}
-		province = { local_has_banners = 1}
+		country = { has_banners = yes}
+		province = { local_has_banners = yes}
 		primary = MNG
 		male_names = {
 			Zhanji Zhanjun Zhanyong Zhanyin Zhanshan Zhangang Zhan'ao Zhankai Zhanyan Jianrui Jianlin Jianti Jianchun 
@@ -5753,8 +5753,8 @@ east_asian = {	# Chinese Group
 		}
 	}
 	cantonese = {
-		country = { has_banners = 1}
-		province = { local_has_banners = 1}
+		country = { has_banners = yes}
+		province = { local_has_banners = yes}
 		primary = YUE
 		male_names = {
 			Zhanji Zhanjun Zhanyong Zhanyin Zhanshan Zhangang Zhan'ao Zhankai Zhanyan Jianrui Jianlin Jianti Jianchun 
@@ -5782,8 +5782,8 @@ east_asian = {	# Chinese Group
 		}
 	}
 	jin = {
-		country = { has_banners = 1}
-		province = { local_has_banners = 1}
+		country = { has_banners = yes}
+		province = { local_has_banners = yes}
 		primary = JIN
 		male_names = {
 			Zhanji Zhanjun Zhanyong Zhanyin Zhanshan Zhangang Zhan'ao Zhankai Zhanyan Jianrui Jianlin Jianti Jianchun 
@@ -5811,8 +5811,8 @@ east_asian = {	# Chinese Group
 		}
 	}
 	wu = {
-		country = { has_banners = 1}
-		province = { local_has_banners = 1}
+		country = { has_banners = yes}
+		province = { local_has_banners = yes}
 		primary = WUU
 		male_names = {
 			Zhanji Zhanjun Zhanyong Zhanyin Zhanshan Zhangang Zhan'ao Zhankai Zhanyan Jianrui Jianlin Jianti Jianchun 
@@ -5840,8 +5840,8 @@ east_asian = {	# Chinese Group
 		}
 	}
 	chimin = {
-		country = { has_banners = 1}
-		province = { local_has_banners = 1}
+		country = { has_banners = yes}
+		province = { local_has_banners = yes}
 		primary = MIN
 		male_names = {
 			Zhanji Zhanjun Zhanyong Zhanyin Zhanshan Zhangang Zhan'ao Zhankai Zhanyan Jianrui Jianlin Jianti Jianchun 
@@ -5869,8 +5869,8 @@ east_asian = {	# Chinese Group
 		}
 	}
 	hakka = {
-		country = { has_banners = 1}
-		province = { local_has_banners = 1}
+		country = { has_banners = yes}
+		province = { local_has_banners = yes}
 		primary = HUA
 		male_names = {
 			Zhanji Zhanjun Zhanyong Zhanyin Zhanshan Zhangang Zhan'ao Zhankai Zhanyan Jianrui Jianlin Jianti Jianchun 
@@ -5898,8 +5898,8 @@ east_asian = {	# Chinese Group
 		}
 	}
 	gan = {
-		country = { has_banners = 1}
-		province = { local_has_banners = 1}
+		country = { has_banners = yes}
+		province = { local_has_banners = yes}
 		primary = NNG
 		male_names = {
 			Zhanji Zhanjun Zhanyong Zhanyin Zhanshan Zhangang Zhan'ao Zhankai Zhanyan Jianrui Jianlin Jianti Jianchun 
@@ -5927,8 +5927,8 @@ east_asian = {	# Chinese Group
 		}
 	}
 	xiang = {
-		country = { has_banners = 1}
-		province = { local_has_banners = 1}
+		country = { has_banners = yes}
+		province = { local_has_banners = yes}
 		primary = CHC
 		male_names = {
 			Zhanji Zhanjun Zhanyong Zhanyin Zhanshan Zhangang Zhan'ao Zhankai Zhanyan Jianrui Jianlin Jianti Jianchun 
@@ -5956,8 +5956,8 @@ east_asian = {	# Chinese Group
 		}
 	}
 	sichuanese = {
-		country = { has_banners = 1}
-		province = { local_has_banners = 1}
+		country = { has_banners = yes}
+		province = { local_has_banners = yes}
 		primary = SHU
 		male_names = {
 			Zhanji Zhanjun Zhanyong Zhanyin Zhanshan Zhangang Zhan'ao Zhankai Zhanyan Jianrui Jianlin Jianti Jianchun 
@@ -5985,8 +5985,8 @@ east_asian = {	# Chinese Group
 		}
 	}
 	jianghuai = {
-		country = { has_banners = 1}
-		province = { local_has_banners = 1}
+		country = { has_banners = yes}
+		province = { local_has_banners = yes}
 		male_names = {
 			Zhanji Zhanjun Zhanyong Zhanyin Zhanshan Zhangang Zhan'ao Zhankai Zhanyan Jianrui Jianlin Jianti Jianchun 
 			Jianze Jianjun Jianzhi Jianpei Jianji Youji Youtang Youwan Youlun Youbing Youyun Youheng You'kai Houzhao 
@@ -6013,8 +6013,8 @@ east_asian = {	# Chinese Group
 		}
 	}
 	xibei = {
-		country = { has_banners = 1}
-		province = { local_has_banners = 1}
+		country = { has_banners = yes}
+		province = { local_has_banners = yes}
 		primary = CSH
 		male_names = {
 			Qizhen Qiyu Jianjun Youcheng Houzhao Houcong Zaihou Yijun Changluo Youjian Yousong Yujian Youlang Chenggong 
@@ -6036,8 +6036,8 @@ east_asian = {	# Chinese Group
 		}
 	}
 	hubei = {
-		country = { has_banners = 1}
-		province = { local_has_banners = 1}
+		country = { has_banners = yes}
+		province = { local_has_banners = yes}
 		primary = CXI
 		male_names = {
 			Qizhen Qiyu Jianjun Youcheng Houzhao Houcong Zaihou Yijun Changluo Youjian Yousong Yujian Youlang Chenggong 
@@ -6059,8 +6059,8 @@ east_asian = {	# Chinese Group
 		}
 	}
 	zhongyuan = {
-		country = { has_banners = 1}
-		province = { local_has_banners = 1}
+		country = { has_banners = yes}
+		province = { local_has_banners = yes}
 		primary = LNG
 		male_names = {
 			Zhanji Zhanjun Zhanyong Zhanyin Zhanshan Zhangang Zhan'ao Zhankai Zhanyan Jianrui Jianlin Jianti Jianchun 
@@ -6088,8 +6088,8 @@ east_asian = {	# Chinese Group
 		}
 	}
 	shandong_culture = {
-		country = { has_banners = 1}
-		province = { local_has_banners = 1}
+		country = { has_banners = yes}
+		province = { local_has_banners = yes}
 		primary = QIC
 		male_names = {
 			Zhanji Zhanjun Zhanyong Zhanyin Zhanshan Zhangang Zhan'ao Zhankai Zhanyan Jianrui Jianlin Jianti Jianchun 
@@ -8801,8 +8801,8 @@ evenks = {
 	}
 	manchu = {
 		graphical_culture = asiangfx					  
-		country = { has_banners = 1}
-		province = { local_has_banners = 1}
+		country = { has_banners = yes}
+		province = { local_has_banners = yes}
 		primary = MJZ
 		dynasty_names = {
 			"Aisin Gioro" Wanyan "Yehe Nara" "Ula Nara" "Magiya Hala" Niohuru
