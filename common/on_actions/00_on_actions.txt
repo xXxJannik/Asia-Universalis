@@ -544,6 +544,96 @@ on_war_won = {
 		add_church_power = 10
 	}
 }
+# country
+# root = winning country, from = loser country
+on_main_war_won = {
+	if = {
+		limit = {
+			has_government_attribute = winning_wars_gives_rt
+		}
+		add_republican_tradition = 5
+	}
+	if = {
+		limit = {
+			has_government_attribute = winning_war_increases_legitimacy
+		}
+		add_legitimacy = 5
+		add_devotion = 5
+		add_meritocracy = 5
+		add_horde_unity = 5
+		add_republican_tradition = 2
+	}
+	if = {
+		limit = {
+			has_country_modifier = swe_fight_for_independence
+			NOT = { has_country_flag = swe_defeated_denmark }
+			FROM = { tag = DAN }
+		}
+		set_country_flag = swe_defeated_denmark
+	}
+	if = {
+		limit = { 
+			has_country_flag = nor_norwegian_independence_modifier 
+			is_subject = no
+			FROM = { tag = DAN }
+		}
+		clr_country_flag = nor_norwegian_independence_modifier
+		remove_country_modifier = nor_norwegian_independence_war_mod
+	}
+	if = {
+		limit = {
+			ROOT = {
+				religion = jewish
+				has_church_aspect = judaism_purim_teachings_aspect
+			}
+		}
+		add_church_power = 75
+	}
+	if = {
+		limit = {
+			has_country_flag = nor_norwegian_independence_modifier
+			is_subject = no
+		}
+		clr_country_flag = nor_norwegian_independence_modifier
+		remove_country_modifier = nor_norwegian_independence_war_mod
+	}
+	if = {
+		limit = {
+			ROOT = {
+				has_mission = swe_devastate_the_christians
+				NOT = { mission_completed = swe_devastate_the_christians }
+				religion = norse_pagan_reformed
+			}
+			FROM = { religion_group = christian }
+		}
+		change_variable = {
+			which = swe_won_wars_against_christians
+			value = 1
+		}
+	}
+	events = {
+		native_americans.7
+	}
+}
+
+# country
+# root = winning country, from = loser country
+on_separate_war_won = {
+	if = {
+		limit = {
+			ROOT = {
+				has_mission = swe_devastate_the_christians
+				NOT = { mission_completed = swe_devastate_the_christians }
+				religion = norse_pagan_reformed
+			}
+			FROM = { religion_group = christian }
+		}
+		change_variable = {
+			which = swe_won_wars_against_christians
+			value = 1
+		}
+	}
+}
 
 # country
 # root = loser country, from = winner country
@@ -581,6 +671,10 @@ on_war_lost = {
 		duration = 10
 		hidden = yes
 	}
+}
+on_main_war_lost = {
+}
+on_separate_war_lost = {
 }
 
 # country
@@ -723,6 +817,21 @@ on_battle_won_unit = {
 					value = 1
 				}
 			}
+		}
+	}
+	if = {
+		limit = {
+			unit_owner = {
+				has_government_attribute = winning_battles_increases_legitimacy
+			}
+			is_ruler_commanding_unit = yes
+		}
+		unit_owner = {
+			add_legitimacy = 0.5
+			add_devotion = 0.5
+			add_republican_tradition = 0.1
+			add_revolutionary_zeal = 0.1
+			add_absolutism = 0.1
 		}
 	}
 }
@@ -975,6 +1084,30 @@ on_new_monarch = {
 	if = {
 		limit = { has_any_heir_cult_active = yes }
 		remove_heir_cult = yes
+	}
+		if = {
+		limit = { 
+			has_government_attribute = kalmar_union_succession
+			has_regency = no
+			has_consort_regency = no
+		}
+		if = {
+			limit = { has_country_flag = dan_new_elected_ruler }
+			clr_country_flag = dan_new_elected_ruler
+		}
+		else = {
+			country_event = {
+				id = kalmar_union_events.1	# A new king of the Kalmar Union
+			}
+		}
+	}
+	if = {
+		limit = { has_government_attribute = absolutism_reduction_on_ruler_death }
+		add_absolutism = -60
+		set_variable = {
+			which = election_term
+			value = 1
+		}
 	}
 	events = {
 		tribal_succession.1		# Harsh anti-tribals.
@@ -1979,6 +2112,18 @@ on_siberian_pulse = {
 
 
 # country random events
+on_monthly_pulse = {
+}
+on_yearly_pulse = {
+}
+on_yearly_pulse_2 = {
+}
+on_yearly_pulse_3 = {
+}
+on_yearly_pulse_4 = {
+}
+on_yearly_pulse_5 = {
+}
 on_bi_yearly_pulse = {
 	events = {
 		center_of_revolution.2950
@@ -4596,6 +4741,11 @@ on_janissaries_raised = {
 
 on_cawa_raised = {
 }
+on_carolean_raised = {
+}
+
+on_hussars_raised = {
+}
 on_revolutionary_guard_raised = {
 }
 
@@ -4994,6 +5144,28 @@ on_colonial_type_change = {
 }
 
 on_estate_led_regency = {
+	if = {
+		limit = {
+			has_government_attribute = improved_nobles_regency
+			OR = {
+				has_estate = estate_nobles
+				AND = {
+					NOT = { has_estate = estate_nobles }
+					OR = {
+						has_estate = estate_maratha
+						has_estate = estate_rajput
+					}
+				}
+			}
+		}
+		add_ruler_modifier = {
+			name = empowered_regency_modifier
+			duration = -1
+		}
+		change_adm = 1
+		change_dip = 1
+		change_mil = 1
+	}
 }
 
 on_estate_led_regency_surpassed = {
@@ -5181,8 +5353,23 @@ on_force_conversion = {
 	#		FROM = { add_papal_influence = 5 }
 	#	}
 	#}
+	FROM = {
+		if = {
+			limit = { has_country_modifier = liv_protector_of_the_catholics }
+			add_papal_influence = 25
+		}
+	}
 }
-on_institution_embracement = {}
+on_institution_embracement = {
+	if = {
+		limit = {
+			has_government_attribute = monarch_power_on_institutions
+		}
+		add_adm_power = 100
+		add_dip_power = 100
+		add_mil_power = 100
+	}
+}
 on_national_focus_change = {}
 on_capital_moved = {}
 
@@ -5192,4 +5379,113 @@ on_expanded_infrastructure = {
 
 #ROOT = province that was centralized in
 on_centralized_state = {
-}							   
+	if = {
+		limit = {
+			owner = { has_government_attribute = centralize_state_no_reform_cost }
+		}
+		owner = {
+			add_adm_power = 50
+			change_government_reform_progress = 50
+		}
+	}
+	else_if = {
+		limit = {
+			owner = { has_government_attribute = centralize_state_half_refund }
+		}
+		owner = {
+			add_adm_power = 25
+			change_government_reform_progress = 25
+		}
+	}
+	if = {
+		limit = {
+			owner = { has_government_attribute = centralize_state_development }
+		}
+		area = {
+			limit = {
+				owned_by = ROOT
+			}
+			random_list = {
+				1 = { add_base_tax = 1 }
+				1 = { add_base_production = 1 }
+				1 = { add_base_manpower = 1 }
+			}
+		}
+	}
+}		
+#ROOT = country
+monarch_on_shipwreck = {
+}
+heir_on_shipwreck = {
+}
+consort_on_shipwreck = {
+}
+
+#ROOT = country
+on_defender_of_faith_loss = {
+	clr_country_flag = claimed_defender_of_faith_flag
+	remove_country_modifier = liv_the_livonian_defender
+	remove_country_modifier = gov_improved_defender_of_faith_mod
+	remove_country_modifier = pol_shield_against_catholicism_modifier
+}
+on_defender_of_faith_claim = {
+	set_country_flag = claimed_defender_of_faith_flag
+	if = {
+		limit = {
+			religion = catholic
+			has_country_flag = liv_proclaim_defender_of_faith
+			NOT = { has_country_modifier = liv_the_livonian_defender }
+		}
+		add_country_modifier = {
+			name = liv_the_livonian_defender
+			duration = -1
+			desc = liv_the_livonian_defender_tt
+		}
+	}
+	if = {
+		limit = {
+			has_government_attribute = improved_defender_of_faith
+		}
+		add_country_modifier = {
+			name = gov_improved_defender_of_faith_mod
+			duration = -1
+		}
+	}
+}
+on_hre_dismantled = {
+}
+on_new_age = {
+}
+
+#ROOT = province
+on_adm_exploited = {
+	if = {
+		limit = { owner = { has_government_attribute = may_not_reduce_tax_on_exploitation } }
+		random = {
+			chance = 50
+			add_base_tax = 1
+		}
+	}
+	if = {
+		limit = { owner = { has_government_attribute = may_not_reduce_tax_on_own_exploitation culture_group = ROOT } }
+		random = {
+			chance = 25
+			add_base_tax = 1
+		}
+	}
+	if = {
+		limit = { owner = { has_government_attribute = may_not_reduce_tax_on_foreign_exploitation NOT = { culture_group = ROOT } } }
+		random = {
+			chance = 50
+			add_base_tax = 1
+		}
+	}
+}
+on_dip_exploited = {
+}
+on_mil_exploited = {
+}
+on_raze = {
+}
+on_concentrate_development = {
+}				   
