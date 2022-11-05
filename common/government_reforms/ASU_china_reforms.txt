@@ -250,6 +250,7 @@ reform_warlord_5 = {
 	conditional = {
 		allow = { has_dlc = "Mandate of Heaven" }
 		has_meritocracy = yes
+		allow_banners = yes
 		factions = {}
 	}
 }
@@ -401,7 +402,7 @@ reform_australia = {
 	}
 
 	conditional = {
-		
+		allow_banners = yes
 	}
 }
 
