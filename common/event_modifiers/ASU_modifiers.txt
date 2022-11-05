@@ -896,3 +896,43 @@ ASU_korean_disaster_merchants_purged_modifier = {
 	global_trade_power = -0.2
 	development_cost = 0.2
 }
+
+#Banner privileges
+
+ASU_banners_modifier_1 = {
+	drill_gain_modifier = 1
+	drill_decay_modifier = -0.5
+	reinforce_cost_modifier = 0.5
+	is_banner_modifier = yes
+}
+
+ASU_banners_modifier_2 = {
+	shock_damage = 0.20
+	shock_damage_received = 0.1
+	is_banner_modifier = yes
+}
+
+ASU_banners_modifier_3 = {
+	fire_damage = 0.2
+	fire_damage_received = 0.1
+	is_banner_modifier = yes
+}
+
+ASU_banners_modifier_4 = {
+	land_morale = 0.2
+	reinforce_cost_modifier = 0.5
+	is_banner_modifier = yes
+}
+
+ASU_banners_modifier_5 = {
+	morale_damage_received = -0.25
+	land_maintenance_modifier = 0.5
+	is_banner_modifier = yes
+}
+
+ASU_banners_modifier_6 = {
+	reinforce_speed = 0.5
+	drill_decay_modifier = 0.2
+	is_banner_modifier = yes
+}
+

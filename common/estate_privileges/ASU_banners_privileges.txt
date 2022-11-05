@@ -91,7 +91,7 @@ estate_banners_control_over_army = {
 	}
 }
 
-estate_banners_infantry_tactics = {
+estate_banners_infantry_tactics = { #deactivated in the estate since 1.34
 	icon = privilege_supply_arms
 	max_absolutism = -5
 	influence = 0.05
@@ -108,5 +108,229 @@ estate_banners_infantry_tactics = {
 	}
 	ai_will_do = {
 		factor = 1000
+	}
+}
+
+#1.34 Privileges 
+
+estate_banners_privilege_1 = { #drill
+	icon = privilege_exempt_officers_from_jaziya
+	max_absolutism = -5
+	influence = 0.05
+	loyalty = 0.05
+	land_share = 0
+
+	is_valid = {
+		has_dlc = "Mandate of Heaven"
+	}
+
+	on_granted = {
+		add_country_modifier = { 
+			name = "ASU_banners_modifier_1"
+			duration = -1
+			}
+		}
+	
+	can_revoke = {
+		has_country_modifier = ASU_banners_modifier_1
+	}
+	on_revoked = {
+        remove_country_modifier = ASU_banners_modifier_1
+    }
+	on_invalid = {
+		remove_country_modifier = ASU_banners_modifier_1
+	}
+
+	benefits = {
+	}
+	penalties = {
+	}
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+estate_banners_privilege_2 = { #shock
+	icon = privilege_spawn_rajput_regiments
+	max_absolutism = -5
+	influence = 0.05
+	loyalty = 0
+	land_share = 0
+
+	is_valid = {
+		has_dlc = "Mandate of Heaven"
+	}
+
+	on_granted = {
+		add_country_modifier = { 
+			name = "ASU_banners_modifier_2"
+			duration = -1
+			}
+		}
+	
+	can_revoke = {
+		has_country_modifier = ASU_banners_modifier_2
+	}
+	on_revoked = {
+        remove_country_modifier = ASU_banners_modifier_2
+    }
+	on_invalid = {
+		remove_country_modifier = ASU_banners_modifier_2
+	}
+
+	benefits = {
+	}
+	penalties = {
+	}
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+estate_banners_privilege_3 = { #fire
+	icon = privilege_promote_purbias
+	max_absolutism = -5
+	influence = 0.05
+	loyalty = 0
+	land_share = 0
+
+	is_valid = {
+		has_dlc = "Mandate of Heaven"
+	}
+
+	on_granted = {
+		add_country_modifier = { 
+			name = "ASU_banners_modifier_3"
+			duration = -1
+			}
+		}
+	
+	can_revoke = {
+		has_country_modifier = ASU_banners_modifier_3
+	}
+	on_revoked = {
+        remove_country_modifier = ASU_banners_modifier_3
+    }
+	on_invalid = {
+		remove_country_modifier = ASU_banners_modifier_3
+	}
+
+	benefits = {
+	}
+	penalties = {
+	}
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+estate_banners_privilege_4 = { #morale
+	icon = privilege_make_generous_donation
+	max_absolutism = -5
+	influence = 0.05
+	loyalty = 0.05
+	land_share = 0
+
+	is_valid = {
+		has_dlc = "Mandate of Heaven"
+	}
+
+	on_granted = {
+		add_country_modifier = { 
+			name = "ASU_banners_modifier_4"
+			duration = -1
+			}
+		}
+	
+	can_revoke = {
+		has_country_modifier = ASU_banners_modifier_4
+	}
+	on_revoked = {
+        remove_country_modifier = ASU_banners_modifier_4
+    }
+	on_invalid = {
+		remove_country_modifier = ASU_banners_modifier_4
+	}
+
+	benefits = {
+	}
+	penalties = {
+	}
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+estate_banners_privilege_5 = { #morale received
+	icon = privilege_give_money
+	max_absolutism = -5
+	influence = 0.05
+	loyalty = 0.05
+	land_share = 0
+
+	is_valid = {
+		has_dlc = "Mandate of Heaven"
+	}
+
+	on_granted = {
+		add_country_modifier = { 
+			name = "ASU_banners_modifier_5"
+			duration = -1
+			}
+		}
+	
+	can_revoke = {
+		has_country_modifier = ASU_banners_modifier_5
+	}
+	on_revoked = {
+        remove_country_modifier = ASU_banners_modifier_5
+    }
+	on_invalid = {
+		remove_country_modifier = ASU_banners_modifier_5
+	}
+
+	benefits = {
+	}
+	penalties = {
+	}
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+estate_banners_privilege_6 = { #reinforce speed
+	icon = privilege_supply_arms
+	max_absolutism = -5
+	influence = 0.05
+	loyalty = -0.05
+	land_share = 0
+
+	is_valid = {
+		has_dlc = "Mandate of Heaven"
+	}
+
+	on_granted = {
+		add_country_modifier = { 
+			name = "ASU_banners_modifier_1"
+			duration = -1
+			}
+		}
+	
+	can_revoke = {
+		has_country_modifier = ASU_banners_modifier_6
+	}
+	on_revoked = {
+        remove_country_modifier = ASU_banners_modifier_6
+    }
+	on_invalid = {
+		remove_country_modifier = ASU_banners_modifier_6
+	}
+
+	benefits = {
+	}
+	penalties = {
+	}
+	ai_will_do = {
+		factor = 0
 	}
 }

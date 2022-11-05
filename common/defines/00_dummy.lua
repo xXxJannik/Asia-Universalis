@@ -66,6 +66,8 @@ NDefines.NCountry.PARLIAMENT_BACKING_PERCENTAGE = 50
 NDefines.NCountry.PS_BUY_GENERAL = 25
 NDefines.NCountry.PROVOKE_REVOLT_MIN_PROGRESS = 30.0
 
+NDefines.NCountry.ESTATE_PRIVILEGES_MAX_CONCURRENT = 4 --4 Privileges for each estate
+
 
 NDefines.NMilitary.CAVALRY_COST = 50.0
 NDefines.NMilitary.ARTILLERY_COST = 50.0

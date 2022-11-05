@@ -27,7 +27,7 @@ estate_ASU_royal_guards_privilege_1 = {
 	}
 }
 
-estate_ASU_royal_guards_privilege_2 = {
+estate_ASU_royal_guards_privilege_2 = { #shock damage
 	icon = privilege_spawn_rajput_regiments
 	max_absolutism = -5
 	influence = 0.05
@@ -64,7 +64,7 @@ estate_ASU_royal_guards_privilege_2 = {
 	}
 }
 
-estate_ASU_royal_guards_privilege_3 = {
+estate_ASU_royal_guards_privilege_3 = { #fire damage
 	icon = privilege_promote_purbias
 	max_absolutism = -5
 	influence = 0.05
@@ -101,7 +101,7 @@ estate_ASU_royal_guards_privilege_3 = {
 	}
 }
 
-estate_ASU_royal_guards_privilege_4 = {
+estate_ASU_royal_guards_privilege_4 = { #discipline
 	icon = privilege_supply_arms
 	max_absolutism = -5
 	influence = 0.05
@@ -138,7 +138,7 @@ estate_ASU_royal_guards_privilege_4 = {
 	}
 }
 
-estate_ASU_royal_guards_privilege_5 = {
+estate_ASU_royal_guards_privilege_5 = { #morale
 	icon = privilege_make_generous_donation
 	max_absolutism = -5
 	influence = 0.05
@@ -175,7 +175,7 @@ estate_ASU_royal_guards_privilege_5 = {
 	}
 }
 
-estate_ASU_royal_guards_privilege_6 = {
+estate_ASU_royal_guards_privilege_6 = { 
 	icon = privilege_recruit_rajput_general
 	max_absolutism = -5
 	influence = -0.05
@@ -212,7 +212,7 @@ estate_ASU_royal_guards_privilege_6 = {
 	}
 }
 
-estate_ASU_royal_guards_privilege_7 = {
+estate_ASU_royal_guards_privilege_7 = { #drill
 	icon = privilege_exempt_officers_from_jaziya
 	max_absolutism = -5
 	influence = 0.05
@@ -249,7 +249,7 @@ estate_ASU_royal_guards_privilege_7 = {
 	}
 }
 
-estate_ASU_royal_guards_privilege_8 = {
+estate_ASU_royal_guards_privilege_8 = { #reinforce
 	icon = privilege_give_money
 	max_absolutism = -5
 	influence = 0

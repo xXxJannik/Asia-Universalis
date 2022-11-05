@@ -123,6 +123,24 @@
  ASU_estate_gives_50_banners_tooltip:0 "Allows us to recruit 50% more Banners"
  ASU_estate_gives_100_banners_tooltip:0 "Allows us to recruit 100% more Banners"
 
+ estate_banners_privilege_1:0 "Daily Drills"
+ estate_banners_privilege_1_desc:0 "We will implement daily drills for our Banners."
+
+ estate_banners_privilege_2:0 "Relentless Assault"
+ estate_banners_privilege_2_desc:0 "Our Banners excell in close combat."
+
+ estate_banners_privilege_3:0 "Relentless Fire"
+ estate_banners_privilege_3_desc:0 "We will eventually hit someone!"
+
+ estate_banners_privilege_4:0 "Promise Land"
+ estate_banners_privilege_4_desc:0 "The promise of land will keep them from running."
+
+ estate_banners_privilege_5:0 "Increased Payment"
+ estate_banners_privilege_5_desc:0 "Increased payment will keep them fighting."
+
+ estate_banners_privilege_6:0 "Lower Recruitment Standarts"
+ estate_banners_privilege_6_desc:0 "A continious flow of recruits will ensure the survival of our banners."
+
 
  #Janissaries
  estate_janissaries_extended_privileges_2:0 "Conscript foreigners"

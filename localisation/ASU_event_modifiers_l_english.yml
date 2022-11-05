@@ -188,6 +188,14 @@
  ASU_royal_guards_modifier_6:0 "Daily Drills"
  ASU_royal_guards_modifier_7:0 "Lower Maintenance"
 
+ #Banners
+ ASU_banners_modifier_1:0 "Daily Drills"
+ ASU_banners_modifier_2:0 "Relentless Assault"
+ ASU_banners_modifier_3:0 "Relentless Fire"
+ ASU_banners_modifier_4:0 "Promise of Land"
+ ASU_banners_modifier_5:0 "Increased Payment"
+ ASU_banners_modifier_6:0 "Lower Recruitment Standarts"
+
  #Tibet
  ASU_tibet_pierce_the_heavens:0 "Pierce the Heavens"
  ASU_tibet_divine_tibet:0 "Divine Tibet"
