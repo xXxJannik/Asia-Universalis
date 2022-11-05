@@ -6,6 +6,7 @@
  #Tooltips
  ASU_tooltip_many_marches_influence:0 "You may not have more than 4 Marches."
  ASU_take_influence_ideas_for_marches_tooltip:0 "You need to complete Influence Ideas to unlock Marches."
+ asu_city_states_alliances_tooltip:0 "City States will not accept alliances."
 
  #Naval doctrine
  ASU_chinese_naval_doctrine:0 "Chinese Doctrine"

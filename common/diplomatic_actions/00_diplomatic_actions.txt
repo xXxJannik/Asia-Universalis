@@ -287,3 +287,24 @@ designate_march = {
 		}
 	}
 }
+
+allianceaction = {
+
+	condition = {
+		tooltip = asu_city_states_alliances_tooltip
+		potential = {
+		}
+		allow = {
+			FROM = { 
+				NOT = { 
+					has_reform = chinese_city_reform 
+				} 
+			}
+			ROOT = {
+				NOT = { 
+					has_reform = chinese_city_reform 
+				}
+			}
+		}
+	}
+}
