@@ -292,8 +292,7 @@ allianceaction = {
 
 	condition = {
 		tooltip = asu_city_states_alliances_tooltip
-		potential = {
-		}
+
 		allow = {
 			FROM = { 
 				NOT = { 
